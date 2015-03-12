@@ -1,0 +1,11 @@
+StartChar: Scircumflex
+Encoding: 349 348 282
+Width: 1004
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 52 83 N 1 0 0 1 0 0 2
+Refer: 401 -1 N 1 0 0 1 1022 -2 2
+Ligature2: "Latin composition subtable" S uni0302
+Colour: ffffff
+EndChar

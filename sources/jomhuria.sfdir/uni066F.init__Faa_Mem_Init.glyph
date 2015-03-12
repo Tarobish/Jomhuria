@@ -1,0 +1,12 @@
+StartChar: uni066F.init_FaaMemInit
+Encoding: 1117393 -1 3565
+Width: 360
+VWidth: 0
+Flags: H
+AnchorPoint: "TashkilBelow" 100 -670 basechar 0
+AnchorPoint: "TashkilAbove" 50 1640 basechar 0
+LayerCount: 2
+Fore
+Refer: 384 -1 N 1 0 0 1 0 0 3
+Colour: ffffff
+EndChar

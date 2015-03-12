@@ -1,0 +1,13 @@
+StartChar: TwoDots.b.l
+Encoding: 1114359 -1 299
+Width: 0
+GlyphClass: 4
+Flags: HW
+AnchorPoint: "MarkDotBelow" 0 263 mark 0
+AnchorPoint: "TwoDotsBelowAlt" -111 140 mark 0
+AnchorPoint: "TashkilBelowDot" 20 -190 basemark 0
+LayerCount: 2
+Fore
+Refer: 192 -1 N 1 0 0 1 4 -47 2
+Colour: ffffff
+EndChar

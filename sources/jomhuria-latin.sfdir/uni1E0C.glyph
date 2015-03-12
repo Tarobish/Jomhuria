@@ -1,0 +1,11 @@
+StartChar: uni1E0C
+Encoding: 477 7692 410
+Width: 1420
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 37 68 N 1 0 0 1 -2 0 2
+Refer: 332 775 N 1 0 0 1 1153 -1324 2
+Ligature2: "Latin composition subtable" D dotbelowcomb
+Colour: ffffff
+EndChar

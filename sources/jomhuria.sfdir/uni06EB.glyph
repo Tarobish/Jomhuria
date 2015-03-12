@@ -1,0 +1,13 @@
+StartChar: uni06EB
+Encoding: 1771 1771 4609
+Width: 0
+GlyphClass: 4
+Flags: HW
+AnchorPoint: "AlefAbove" 179 250 mark 0
+AnchorPoint: "MarkAbove" 179 250 mark 0
+AnchorPoint: "TashkilAbove" 181 250 mark 0
+LayerCount: 2
+Fore
+Refer: 4610 1770 N 1 0 0 1 -351 2050 2
+Colour: ffffff
+EndChar
