@@ -334,6 +334,10 @@ def makeNumerators(font):
             numr.addReference(small.glyphname, psMat.translate(0, 550))
             numr.width = small.width
 
+def simpleFontMerge(font, sourcefile):
+    #sourcefont = fontforge.open(sourcefile)
+    font.mergeFonts(sourcefile)
+
 def mergeLatin(font, latinfile, italic=False, glyphs=None, quran=False):
     styles = {"Regular": "regular",
               "Slanted": "italic",
@@ -736,7 +740,8 @@ def makeDesktop(infile, outfile, latinfile, feafile, version, generate=True):
         font.appendSFNTName(lang, 'Sample Text', sample)
 
     if latinfile:
-        mergeLatin(font, latinfile)
+        # mergeLatin(font, latinfile)
+        simpleFontMerge(font, latinfile)
         makeNumerators(font)
 
         # we want to merge features after merging the latin font because many
