@@ -5,6 +5,9 @@
 #      PYTHONPATH="/home/commander/sources/sortsmill-build/target/lib/python2.7/site-packages/" \
 #      ./makeInitialFontFromAmiri.py
 
+# with docker/fontbuilder:
+# sudo docker run -v `pwd`:/var/job debian/fontbuilder /bin/sh -c "cd /var/job && python ./tools/makeInitialFontFromAmiri.py"; sudo chown -R $USER:$USER .
+
 import os
 import subprocess
 from random import random
@@ -120,9 +123,11 @@ class MovePointsPointPen(AbstractPointPen):
 
 
 amiriGit = 'git@github.com:khaledhosny/amiri-font.git'
-amiriDir = 'amiriGit'
+amiriDir = 'amiri-font'
 
 def makeBlueprint(font):
+
+    # copy fg to bg and mark the glyph red if it contains any contours
     for name in font:
         glyph = font[name]
         background = glyph.layers[0]
@@ -150,17 +155,18 @@ def makeBlueprint(font):
 
         width = glyph.width
         vwidth = glyph.vwidth
+        anchorPoints = tuple(glyph.anchorPoints)
 
         newFg = fontforge.layer();
         newFg.is_quadratic = False;
         glyph.layers[1] = newFg;
+
         background = glyph.background # this creates a copy
         if not len(background): continue
 
         # convert the copy to cubics the real background stays quadratics
         background.is_quadratic = False
-        layerPen = glyph.glyphPen()
-
+        layerPen = glyph.glyphPen() # <= pen will remove more than it should
 
         # outer line of the outline
         toSegments = PointToSegmentPen(layerPen)
@@ -177,11 +183,11 @@ def makeBlueprint(font):
         points = SegmentToPointPen(reverse)
         background.draw(points)
 
-        # restore
+        # restore stuff that a pen should rather not change automagically
+        # in fact, the pen should not reset anything besides outline and components.
         glyph.width = width
         glyph.vwidth = vwidth
-
-
+        [glyph.addAnchorPoint(*p) for p in anchorPoints]
 
 if __name__ == '__main__':
    # cd ./.build
