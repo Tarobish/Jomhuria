@@ -71,6 +71,13 @@ RUN apt-get install -y libpdf-api2-perl libintl-perl fntsample texlive-xetex wge
 RUN tlmgr init-usertree \
 	&& tlmgr install bidi iftex
 
+RUN cd var/build \
+	&& git clone https://github.com/robofab-developers/robofab.git \
+	&& cd robofab \
+	&& git checkout ufo3k \
+	&& python install.py
+
+
 # todo: precompile these:
 # ;;; compiling /usr/local/share/guile/site/2.0/sortsmill/fonts/anchors.scm
 # ;;; compiling /usr/local/share/guile/site/2.0/sortsmill/fonts/views.scm
