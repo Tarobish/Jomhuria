@@ -1,0 +1,14 @@
+StartChar: uni06B1.alt
+Encoding: 6025 -1 5768
+Width: 1347
+VWidth: 0
+Flags: H
+AnchorPoint: "TashkilAbove" 420 1640 basechar 0
+AnchorPoint: "TashkilBelow" 700 -670 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 5764 -1 S 1 0 0 1 0 0 2
+Refer: 191 -1 N 1 0 0 1 520 1300 2
+Colour: ffffff
+EndChar

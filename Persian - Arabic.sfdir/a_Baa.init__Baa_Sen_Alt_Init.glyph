@@ -1,0 +1,26 @@
+StartChar: aBaa.init_BaaSenAltInit
+Encoding: 427 -1 171
+Width: 449
+Flags: HW
+AnchorPoint: "DotAbove" 120 1262 basechar 0
+AnchorPoint: "HamzaAbove" 120 1262 basechar 0
+AnchorPoint: "HamzaBelow" 296 -388 basechar 0
+AnchorPoint: "DotBelow" 296 -388 basechar 0
+AnchorPoint: "TwoDotsAbove" 9 1262 basechar 0
+AnchorPoint: "TwoDotsBelow" 196 -388 basechar 0
+AnchorPoint: "DotBelowAlt" 296 -888 basechar 0
+AnchorPoint: "TwoDotsBelowAlt" 196 -888 basechar 0
+AnchorPoint: "TaaAbove" 120 1062 basechar 0
+AnchorPoint: "RingBelow" 180 91 basechar 0
+AnchorPoint: "VAbove" 120 1262 basechar 0
+AnchorPoint: "HighHamza" 320 1262 basechar 0
+AnchorPoint: "DigitAbove" 120 1262 basechar 0
+AnchorPoint: "DigitBelow" 296 -388 basechar 0
+AnchorPoint: "TashkilBelow" 262 -670 basechar 0
+AnchorPoint: "TashkilAbove" 143 1640 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 117 -1 N 1 0 0 1 0 -138 3
+Colour: ffffff
+EndChar

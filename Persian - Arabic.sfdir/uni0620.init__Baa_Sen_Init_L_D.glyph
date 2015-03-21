@@ -1,0 +1,14 @@
+StartChar: uni0620.init_BaaSenInitLD
+Encoding: 4775 -1 4518
+Width: 449
+VWidth: 0
+Flags: HW
+AnchorPoint: "TashkilAbove" 10 1640 basechar 0
+AnchorPoint: "TashkilBelow" 296 -950 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 213 -1 N 1 0 0 1 296 -550 2
+Refer: 117 -1 N 1 0 0 1 0 0 2
+Colour: ffffff
+EndChar

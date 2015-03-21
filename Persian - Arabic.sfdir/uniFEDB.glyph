@@ -1,0 +1,11 @@
+StartChar: uniFEDB
+Encoding: 5772 65243 5515
+Width: 739
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 762 -1 N 1 0 0 1 0 0 2
+Colour: ffffff
+EndChar

@@ -1,0 +1,27 @@
+StartChar: hThreeDots.b
+Encoding: 498 -1 241
+Width: 0
+GlyphClass: 4
+Flags: HW
+AnchorPoint: "TashkilBelowDot" 40 -190 basemark 0
+AnchorPoint: "TwoDotsBelow" 0 190 mark 0
+LayerCount: 2
+Back
+Fore
+SplineSet
+411.674804688 151.68359375 m 5
+ 259.991210938 0 l 5
+ 130.040039062 129.950195312 l 5
+ 0 0 l 5
+ -130.219726562 130.21875 l 5
+ -260.438476562 0 l 5
+ -412.122070312 151.68359375 l 5
+ -260.438476562 303.3671875 l 5
+ -130.219726562 173.1484375 l 5
+ 0 303.3671875 l 5
+ 129.950195312 173.416015625 l 5
+ 259.991210938 303.3671875 l 5
+ 411.674804688 151.68359375 l 5
+EndSplineSet
+Colour: ffffff
+EndChar

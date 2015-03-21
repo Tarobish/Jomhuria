@@ -1,0 +1,15 @@
+StartChar: uni063E.fina_KafYaaFina
+Encoding: 2377 -1 2120
+Width: 966
+VWidth: 0
+Flags: H
+AnchorPoint: "TashkilAbove" 380 1640 basechar 0
+AnchorPoint: "TashkilBelow" 739 -670 basechar 0
+AnchorPoint: "AlefAbove" 297 515 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 191 -1 N 1 0 0 1 498 375 2
+Refer: 134 -1 N 1 0 0 1 0 0 3
+Colour: ffffff
+EndChar

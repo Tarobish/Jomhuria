@@ -1,0 +1,13 @@
+StartChar: iThreeDots.b
+Encoding: 462 -1 205
+Width: 0
+GlyphClass: 4
+Flags: HW
+AnchorPoint: "TashkilBelowDot" 80 -143 basemark 0
+AnchorPoint: "TwoDotsBelow" -115 390 mark 0
+LayerCount: 2
+Back
+Fore
+Refer: 204 -1 N 1 0 0 1 0 0 2
+Colour: ffffff
+EndChar

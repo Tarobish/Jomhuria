@@ -1,0 +1,15 @@
+StartChar: uni0649.init_BaaMemHaaInit
+Encoding: 1633 -1 1376
+Width: 636
+VWidth: 0
+Flags: H
+AnchorPoint: "HamzaBelow" 331 -410 basechar 0
+AnchorPoint: "AlefAbove" 102 1640 basechar 0
+AnchorPoint: "TashkilAbove" 251 1640 basechar 0
+AnchorPoint: "TashkilBelow" 400 -670 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 85 -1 N 1 0 0 1 0 0 3
+Colour: ffffff
+EndChar

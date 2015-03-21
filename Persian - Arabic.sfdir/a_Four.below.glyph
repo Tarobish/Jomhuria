@@ -1,0 +1,13 @@
+StartChar: aFour.below
+Encoding: 586 -1 329
+Width: 0
+GlyphClass: 4
+Flags: HW
+AnchorPoint: "TashkilBelowDot" 0 90 basemark 0
+AnchorPoint: "DigitBelow" 0 700 mark 0
+LayerCount: 2
+Back
+Fore
+Refer: 330 -1 S 0.5 0 0 0.5 -261 230 2
+Colour: ffffff
+EndChar

@@ -1,0 +1,14 @@
+StartChar: uni06BD.fina_BaaNonFina
+Encoding: 2828 -1 2571
+Width: 1112
+VWidth: 0
+Flags: H
+AnchorPoint: "TashkilAbove" 526 1640 basechar 0
+AnchorPoint: "TashkilBelow" 490 -670 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 192 -1 N 1 0 0 1 636 714 2
+Refer: 158 -1 N 1 0 0 1 0 0 3
+Colour: ffffff
+EndChar

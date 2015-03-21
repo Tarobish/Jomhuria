@@ -1,0 +1,15 @@
+StartChar: uni0767.init
+Encoding: 780 -1 523
+Width: 487
+VWidth: 0
+Flags: HW
+AnchorPoint: "TashkilAbove" 120 1640 basechar 0
+AnchorPoint: "TashkilBelow" 170 -670 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 190 -1 S 1 0 0 1 26 905 2
+Refer: 194 -1 N 1 0 0 1 -2 -339 2
+Refer: 8 -1 N 1 0 0 1 0 0 3
+Colour: ffffff
+EndChar

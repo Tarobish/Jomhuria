@@ -1,0 +1,15 @@
+StartChar: uni06CE
+Encoding: 1300 1742 1043
+Width: 1354
+VWidth: 0
+Flags: HW
+AnchorPoint: "TashkilAbove" 800 1640 basechar 0
+AnchorPoint: "TashkilBelow" 700 -670 basechar 0
+AnchorPoint: "AlefAbove" 403 654 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 207 1626 S 1 0 0 1 291 -254 2
+Refer: 63 -1 N 1 0 0 1 0 0 3
+Colour: ffffff
+EndChar

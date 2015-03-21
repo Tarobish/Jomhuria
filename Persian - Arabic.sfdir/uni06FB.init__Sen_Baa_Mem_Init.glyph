@@ -1,0 +1,14 @@
+StartChar: uni06FB.init_SenBaaMemInit
+Encoding: 4890 -1 4633
+Width: 1421
+Flags: HW
+AnchorPoint: "TashkilAbove" 630 1640 basechar 0
+AnchorPoint: "TashkilBelow" 700 -670 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 49 -1 N 1 0 0 1 0 414 3
+Refer: 190 -1 N 1 0 0 1 634 1168 2
+Refer: 193 -1 N 1 0 0 1 800 -126 2
+Colour: ffffff
+EndChar

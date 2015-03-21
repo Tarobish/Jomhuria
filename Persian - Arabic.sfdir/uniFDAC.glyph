@@ -1,0 +1,13 @@
+StartChar: uniFDAC
+Encoding: 5628 64940 5371
+Width: 3169
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 832 -1 N 1 0 0 1 2447 0 2
+Refer: 712 -1 N 1 0 0 1 1256 0 2
+Refer: 1026 -1 N 1 0 0 1 0 0 2
+Colour: ffffff
+EndChar

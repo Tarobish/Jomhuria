@@ -1,0 +1,13 @@
+StartChar: dot.alt1
+Encoding: 474 -1 217
+Width: 0
+GlyphClass: 4
+Flags: HW
+AnchorPoint: "TashkilBelowDot" 30 -140 basemark 0
+AnchorPoint: "DotAlt" 0 140 mark 0
+LayerCount: 2
+Back
+Fore
+Refer: 190 -1 N 1 0 0 1 0 0 2
+Colour: ffffff
+EndChar

@@ -1,0 +1,13 @@
+StartChar: uni0644.medi_LamLamHehIsol
+Encoding: 4283 -1 4026
+Width: 354
+VWidth: 0
+Flags: H
+AnchorPoint: "TashkilAbove" 176 1640 basechar 0
+AnchorPoint: "TashkilBelow" 146 -670 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 411 -1 N 1 0 0 1 0 0 3
+Colour: ffffff
+EndChar

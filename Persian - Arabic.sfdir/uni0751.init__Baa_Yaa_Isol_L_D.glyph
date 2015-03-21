@@ -1,0 +1,15 @@
+StartChar: uni0751.init_BaaYaaIsolLD
+Encoding: 4716 -1 4459
+Width: 487
+VWidth: 0
+Flags: HW
+AnchorPoint: "TashkilAbove" -35 1717 basechar 0
+AnchorPoint: "TashkilBelow" 373 -930 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 296 -1 N 1 0 0 1 343 -890 2
+Refer: 192 -1 N 1 0 0 1 84 1160 2
+Refer: 376 -1 N 1 0 0 1 0 0 3
+Colour: ffffff
+EndChar

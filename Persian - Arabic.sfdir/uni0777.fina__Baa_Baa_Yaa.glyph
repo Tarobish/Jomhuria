@@ -1,0 +1,15 @@
+StartChar: uni0777.fina_BaaBaaYaa
+Encoding: 1741 -1 1484
+Width: 937
+VWidth: 0
+Flags: H
+AnchorPoint: "TashkilAbove" 461 1640 basechar 0
+AnchorPoint: "AlefAbove" 600 200 basechar 0
+AnchorPoint: "TashkilBelow" 759 -1501 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 329 -1 N 1 0 0 1 759 -1591 2
+Refer: 90 -1 N 1 0 0 1 0 0 3
+Colour: ffffff
+EndChar

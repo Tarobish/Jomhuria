@@ -1,0 +1,14 @@
+StartChar: uni06BD.medi_High
+Encoding: 3335 -1 3078
+Width: 779
+VWidth: 0
+Flags: HW
+AnchorPoint: "TashkilAbove" 195 1640 basechar 0
+AnchorPoint: "TashkilBelow" 277 -741 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 195 -1 N 1 0 0 1 277 -440 2
+Refer: 209 -1 N 1 0 0 1 0 0 3
+Colour: ffffff
+EndChar

@@ -1,0 +1,21 @@
+StartChar: aRaa.fina_MemRaaIsol
+Encoding: 361 -1 105
+Width: 1070
+Flags: HW
+AnchorPoint: "HamzaAbove" 729 728 basechar 0
+AnchorPoint: "TwoDotsAbove" 728 852 basechar 0
+AnchorPoint: "Stroke" 740 -208 basechar 0
+AnchorPoint: "DotAlt" 434 -154 basechar 0
+AnchorPoint: "DotBelow" 370 -972 basechar 0
+AnchorPoint: "RingBelow" 368 -538 basechar 0
+AnchorPoint: "VAbove" 728 728 basechar 0
+AnchorPoint: "TaaAbove" 728 728 basechar 0
+AnchorPoint: "TashkilBelow" 530 -670 basechar 0
+AnchorPoint: "TashkilAbove" 508 840 basechar 0
+AnchorPoint: "DotAbove" 728 852 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 45 -1 N 1 0 0 1 0 0 2
+Colour: ffffff
+EndChar

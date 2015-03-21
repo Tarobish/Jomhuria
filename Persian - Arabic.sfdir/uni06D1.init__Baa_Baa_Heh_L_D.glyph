@@ -1,0 +1,13 @@
+StartChar: uni06D1.init_BaaBaaHehLD
+Encoding: 6012 -1 5755
+Width: 478
+Flags: H
+AnchorPoint: "TashkilBelow" 257 -1283 basechar 0
+AnchorPoint: "TashkilAbove" 179 1640 basechar 0
+LayerCount: 2
+Back
+Fore
+Refer: 299 -1 N 1 0 0 1 177 -1140 2
+Refer: 5693 -1 N 1 0 0 1 0 0 3
+Colour: ffffff
+EndChar
