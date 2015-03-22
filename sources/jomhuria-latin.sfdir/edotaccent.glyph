@@ -1,12 +1,12 @@
 StartChar: edotaccent
 Encoding: 281 279 211
-Width: 860
-Flags: W
+Width: 1256
+Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 68 101 N 1 0 0 1 0 0 2
-Refer: 329 775 N 1 0 0 1 1004 90 2
+Refer: 329 775 N 1 0 0 1 1151.05 90 2
 Ligature2: "Latin composition subtable" e uni0307
 Colour: ffffff
 EndChar

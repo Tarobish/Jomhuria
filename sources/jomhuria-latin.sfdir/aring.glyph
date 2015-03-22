@@ -1,12 +1,12 @@
 StartChar: aring
 Encoding: 229 229 161
-Width: 862
-Flags: W
+Width: 1356
+Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 64 97 N 1 0 0 1 0 0 2
-Refer: 0 778 N 1 0 0 1 958 -2 2
+Refer: 0 778 N 1 0 0 1 1350.7 -2 2
 Ligature2: "Latin composition subtable" a uni030A
 Colour: ffffff
 EndChar

@@ -1,12 +1,12 @@
 StartChar: uni1E03
 Encoding: 410 7683 340
-Width: 996
-Flags: W
+Width: 1365
+Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 65 98 N 1 0 0 1 0 0 2
-Refer: 329 775 N 1 0 0 1 753 514 2
+Refer: 329 775 N 1 0 0 1 945.457 514 2
 Ligature2: "Latin composition subtable" b uni0307
 Colour: ffffff
 EndChar

@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1426129988
-ModificationTime: 1426998461
+ModificationTime: 1427054285
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -386,8 +386,14 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 32 16 6
+WinInfo: 34 17 7
 Grid
+-2048 1009.5 m 0
+ 4096 1009.5 l 1024
+  Named: "C"
+-2048 986.5 m 0
+ 4096 986.5 l 1024
+  Named: "I"
 -2048 -35.9842519685 m 0
  4096 -35.9842519685 l 1024
   Named: "O"
