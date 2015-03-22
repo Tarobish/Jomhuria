@@ -1,9 +1,10 @@
 StartChar: caron
-Encoding: 387 711 320
+Encoding: 387 711 317
 Width: 620
-Flags: HW
+Flags: W
 LayerCount: 2
+Back
 Fore
-Refer: 335 780 N 1 0 0 1 820 -10 2
+Refer: 332 780 N 1 0 0 1 820 -10 2
 Colour: ffffff
 EndChar

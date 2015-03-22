@@ -1,9 +1,10 @@
 StartChar: four.prop
-Encoding: 512 -1 445
+Encoding: 512 -1 441
 Width: 986
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 21 52 N 1 0 0 1 -80 0 2
+Refer: 19 52 N 1 0 0 1 -80 0 2
 Colour: ffffff
 EndChar

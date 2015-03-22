@@ -1,11 +1,12 @@
 StartChar: uni1E25
-Encoding: 484 7717 417
+Encoding: 484 7717 413
 Width: 1032
-Flags: HW
+Flags: W
 LayerCount: 2
+Back
 Fore
-Refer: 73 104 N 1 0 0 1 -2 0 2
-Refer: 332 775 N 1 0 0 1 1044 -1322 2
+Refer: 71 104 N 1 0 0 1 -2 0 2
+Refer: 329 775 N 1 0 0 1 1044 -1322 2
 Ligature2: "Latin composition subtable" h dotbelowcomb
 Colour: ffffff
 EndChar

@@ -1,10 +1,11 @@
 StartChar: j
-Encoding: 106 106 75
+Encoding: 106 106 73
 Width: 478
-Flags: HW
+Flags: W
 LayerCount: 2
+Back
 Fore
-Refer: 317 567 N 1 0 0 1 0 0 2
-Refer: 332 775 N 1 0 0 1 742 90 2
+Refer: 314 567 N 1 0 0 1 0 0 2
+Refer: 329 775 N 1 0 0 1 742 90 2
 Colour: ffffff
 EndChar

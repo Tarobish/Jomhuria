@@ -1,9 +1,10 @@
 StartChar: macron
-Encoding: 175 175 110
+Encoding: 175 175 107
 Width: 676
-Flags: HW
+Flags: W
 LayerCount: 2
+Back
 Fore
-Refer: 329 772 N 1 0 0 1 860 128 2
+Refer: 326 772 N 1 0 0 1 860 128 2
 Colour: ffffff
 EndChar

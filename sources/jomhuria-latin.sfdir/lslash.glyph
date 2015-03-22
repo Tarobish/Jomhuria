@@ -1,16 +1,16 @@
 StartChar: lslash
-Encoding: 324 322 257
+Encoding: 324 322 254
 Width: 510
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 SplineSet
 70 520 m 1,0,1
  58 532 58 532 46 552 c 128,-1,2
- 34 572 34 572 40 576 c 2
+ 34 572 34 572 40 576 c 2,3,-1
  434 846 l 1,4,5
  446 834 446 834 458 816 c 128,-1,6
- 470 798 470 798 466 792 c 1
+ 470 798 470 798 466 792 c 1,7,-1
  70 520 l 1,0,1
 EndSplineSet
 Fore

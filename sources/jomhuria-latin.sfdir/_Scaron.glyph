@@ -1,11 +1,12 @@
 StartChar: Scaron
-Encoding: 353 352 286
-Width: 1004
+Encoding: 353 352 283
+Width: 1383
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 52 83 N 1 0 0 1 0 0 2
-Refer: 409 -1 N 1 0 0 1 262 0 2
+Refer: 50 83 N 1 0 0 1 0 0 2
+Refer: 405 -1 N 1 0 0 1 435.711 0 2
 Ligature2: "Latin composition subtable" S uni030C
 Colour: ffffff
 EndChar

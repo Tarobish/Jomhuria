@@ -1,17 +1,17 @@
 StartChar: tbar
-Encoding: 360 359 293
+Encoding: 360 359 290
 Width: 622
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 SplineSet
-56 616 m 1
+56 616 m 1,0,-1
  576 616 l 2,1,2
  588 616 588 616 588 596 c 0,3,4
- 588 563 588 563 576 536 c 1
+ 588 563 588 563 576 536 c 1,5,-1
  54 536 l 2,6,7
  44 536 44 536 44 562 c 0,8,9
- 44 598 44 598 56 616 c 1
+ 44 598 44 598 56 616 c 1,0,-1
 EndSplineSet
 Fore
 SplineSet
