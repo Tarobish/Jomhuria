@@ -1,12 +1,12 @@
 StartChar: aMem.init_MemHehInit
-Encoding: 1118376 -1 4549
+Encoding: 4789 -1 4532
 Width: 780
 Flags: HW
 LayerCount: 2
 Back
 SplineSet
 -1 48 m 1,0,1
- 138 279 138 279 390 327 c 1
+ 138 279 138 279 390 327 c 1,2,-1
  351 384 l 2,3,4
  332 412 332 412 345 440 c 0,5,6
  405 563 405 563 441 602 c 0,7,8

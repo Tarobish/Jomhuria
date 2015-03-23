@@ -1,5 +1,5 @@
 StartChar: aSen.init_AboveHaa
-Encoding: 1114222 -1 111
+Encoding: 367 -1 111
 Width: 1376
 Flags: HW
 LayerCount: 2
@@ -32,7 +32,7 @@ SplineSet
  977 816 977 816 1162 817 c 0,44,45
  1175 817 1175 817 1177 834 c 128,-1,46
  1179 851 1179 851 1137 890 c 0,47,48
- 1127 900 1127 900 1135 923 c 2
+ 1127 900 1127 900 1135 923 c 2,49,-1
  1180 1051 l 2,0,1
 EndSplineSet
 Fore

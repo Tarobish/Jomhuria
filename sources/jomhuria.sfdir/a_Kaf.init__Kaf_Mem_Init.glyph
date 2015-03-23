@@ -1,12 +1,12 @@
 StartChar: aKaf.init_KafMemInit
-Encoding: 1114400 -1 382
+Encoding: 622 -1 365
 Width: 1110
 Flags: HW
 LayerCount: 2
 Back
 SplineSet
 957 1658 m 0,0,1
- 1007 1665 1007 1665 974 1614 c 2
+ 1007 1665 1007 1665 974 1614 c 2,2,-1
  900 1499 l 2,3,4
  893 1488 893 1488 851 1481 c 0,5,6
  51 1342 51 1342 -188 1217 c 0,7,8

@@ -1,14 +1,15 @@
 StartChar: uni0626.fina_KafYaaIsol
-Encoding: 1117563 -1 3735
-Width: 975
+Encoding: 3975 -1 3718
+Width: 1374
 VWidth: 0
-Flags: H
+Flags: HW
 AnchorPoint: "TashkilAbove" 220 1250 basechar 0
 AnchorPoint: "TashkilBelow" 728 -670 basechar 0
 AnchorPoint: "AlefAbove" 270 730 basechar 0
 LayerCount: 2
+Back
 Fore
-Refer: 4836 -1 N 1 0 0 1 270 -220 2
-Refer: 400 -1 N 1 0 0 1 0 0 3
+Refer: 4819 -1 N 1 0 0 1 270 -220 2
+Refer: 383 -1 N 1 0 0 1 0 0 3
 Colour: ffffff
 EndChar

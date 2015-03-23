@@ -1,5 +1,5 @@
 StartChar: aLam.init_LamMemHaaInit
-Encoding: 1114246 -1 135
+Encoding: 391 -1 135
 Width: 572
 Flags: HW
 LayerCount: 2
@@ -20,7 +20,7 @@ SplineSet
  11 751 11 751 4 837 c 0,16,17
  2 867 2 867 -30 1060 c 0,18,19
  -77 1349 -77 1349 -90 1383 c 128,-1,20
- -103 1417 -103 1417 -94 1442 c 2
+ -103 1417 -103 1417 -94 1442 c 2,21,-1
  -60 1533 l 2,0,1
 EndSplineSet
 Fore

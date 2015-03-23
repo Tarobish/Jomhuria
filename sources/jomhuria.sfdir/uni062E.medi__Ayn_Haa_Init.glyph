@@ -1,13 +1,14 @@
 StartChar: uni062E.medi_AynHaaInit
-Encoding: 1117025 -1 3197
+Encoding: 3437 -1 3180
 Width: 113
 VWidth: 0
 Flags: H
 AnchorPoint: "TashkilAbove" 140 1640 basechar 0
 AnchorPoint: "TashkilBelow" 440 -670 basechar 0
 LayerCount: 2
+Back
 Fore
-Refer: 191 -1 N 1 0 0 1 90 860 2
-Refer: 224 -1 N 1 0 0 1 0 0 3
+Refer: 190 -1 N 1 0 0 1 90 860 2
+Refer: 222 -1 N 1 0 0 1 0 0 3
 Colour: ffffff
 EndChar

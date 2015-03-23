@@ -1,11 +1,11 @@
 StartChar: aBaa.init_Wide
-Encoding: 1114324 -1 222
+Encoding: 477 -1 220
 Width: 585
 Flags: HW
 LayerCount: 2
 Back
 SplineSet
-317 405 m 2
+317 405 m 2,0,-1
  375 532 l 2,1,2
  392 569 392 569 413 533 c 0,3,4
  463 449 463 449 457 270 c 0,5,6
@@ -16,7 +16,7 @@ SplineSet
  63 172 63 172 151 180 c 0,15,16
  238 188 238 188 377 240 c 1,17,18
  356 312 356 312 323 355 c 0,19,20
- 305 378 305 378 317 405 c 2
+ 305 378 305 378 317 405 c 2,0,-1
 EndSplineSet
 Fore
 SplineSet

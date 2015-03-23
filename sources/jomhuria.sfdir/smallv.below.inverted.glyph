@@ -1,5 +1,5 @@
 StartChar: smallv.below.inverted
-Encoding: 1114341 -1 252
+Encoding: 507 -1 250
 Width: 0
 GlyphClass: 4
 Flags: HW
@@ -7,7 +7,8 @@ AnchorPoint: "TashkilBelowDot" 0 -1100 basemark 0
 AnchorPoint: "DotBelow" 40 -690 mark 0
 AnchorPoint: "TashkilBelowDot" 0 -1160 basemark 0
 LayerCount: 2
+Back
 Fore
-Refer: 244 1627 N 1 0 0 1 0 -2000 2
+Refer: 242 1627 N 1 0 0 1 0 -2000 2
 Colour: ffffff
 EndChar

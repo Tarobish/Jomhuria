@@ -1,9 +1,10 @@
 StartChar: uni0663.medium
-Encoding: 1118613 -1 5585
+Encoding: 5825 -1 5568
 Width: 900
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 260 1635 N 0.8 0 0 0.8 -30 196 2
+Refer: 258 1635 N 0.8 0 0 0.8 -30 196 2
 Colour: ffffff
 EndChar

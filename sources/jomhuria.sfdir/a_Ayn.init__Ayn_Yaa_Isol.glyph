@@ -1,5 +1,5 @@
 StartChar: aAyn.init_AynYaaIsol
-Encoding: 1114415 -1 397
+Encoding: 637 -1 380
 Width: 1221
 Flags: HW
 LayerCount: 2
@@ -23,7 +23,7 @@ SplineSet
  379 817 379 817 390 799 c 0,26,27
  461 686 461 686 657 650 c 0,28,29
  744 635 744 635 992 764 c 0,30,31
- 1114 828 1114 828 1091 771 c 1
+ 1114 828 1114 828 1091 771 c 1,32,-1
  1041 654 l 2,0,1
 EndSplineSet
 Fore

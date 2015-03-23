@@ -1,11 +1,12 @@
 StartChar: uni0643.medi_KafBaaMedi
-Encoding: 1116312 -1 2484
+Encoding: 2724 -1 2467
 Width: 842
 VWidth: 0
 Flags: H
 AnchorPoint: "TashkilBelow" 360 -670 basechar 0
 AnchorPoint: "TashkilAbove" 438 1640 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 155 -1 N 1 0 0 1 0 0 3
 Colour: ffffff

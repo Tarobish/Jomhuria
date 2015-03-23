@@ -1,13 +1,14 @@
 StartChar: uni076B.fina_MemRaaIsol
-Encoding: 1115538 -1 1710
+Encoding: 1950 -1 1693
 Width: 970
 VWidth: 0
 Flags: H
 AnchorPoint: "TashkilAbove" 588 1202 basechar 0
 AnchorPoint: "TashkilBelow" 430 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 45 -1 N 1 0 0 1 -100 0 2
-Refer: 213 -1 N 1 0 0 1 628 712 2
+Refer: 211 -1 N 1 0 0 1 628 712 2
 Colour: ffffff
 EndChar

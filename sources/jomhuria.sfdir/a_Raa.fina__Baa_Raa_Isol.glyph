@@ -1,5 +1,5 @@
 StartChar: aRaa.fina_BaaRaaIsol
-Encoding: 1114179 -1 68
+Encoding: 324 -1 68
 Width: 913
 Flags: HW
 LayerCount: 2
@@ -18,7 +18,7 @@ SplineSet
  750 -224 750 -224 899 83 c 0,16,17
  902 91 902 91 902 116 c 0,18,19
  902 132 902 132 848 168 c 1,20,21
- 823 188 823 188 832 233 c 2
+ 823 188 823 188 832 233 c 2,22,-1
  863 389 l 2,23,24
  873 437 873 437 901 401 c 0,0,1
 EndSplineSet

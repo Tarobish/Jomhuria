@@ -1,12 +1,13 @@
 StartChar: ThreeDots.b.l
-Encoding: 1114360 -1 300
+Encoding: 555 -1 298
 Width: 0
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "TwoDotsBelowAlt" -111 140 mark 0
 AnchorPoint: "TashkilBelowDot" 0 -401 basemark 0
 LayerCount: 2
+Back
 Fore
-Refer: 193 -1 N 1 0 0 1 2 -260 2
+Refer: 192 -1 N 1 0 0 1 2 -260 2
 Colour: ffffff
 EndChar

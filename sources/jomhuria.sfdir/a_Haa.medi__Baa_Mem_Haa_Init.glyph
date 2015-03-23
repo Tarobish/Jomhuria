@@ -1,5 +1,5 @@
 StartChar: aHaa.medi_BaaMemHaaInit
-Encoding: 1114198 -1 87
+Encoding: 343 -1 87
 Width: 172
 Flags: HW
 AnchorPoint: "DigitBelow" 312 -230 basechar 0
@@ -14,6 +14,7 @@ AnchorPoint: "DotBelow" 312 -230 basechar 0
 AnchorPoint: "HamzaBelow" 312 -230 basechar 0
 AnchorPoint: "TwoDotsBelow" 201 -230 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 165 -1 N 1 0 0 1 0 0 2
 Colour: ffffff

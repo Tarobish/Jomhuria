@@ -1,10 +1,11 @@
 StartChar: uni08EB
-Encoding: 2283 2283 6075
+Encoding: 6315 2283 6058
 Width: 0
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 6074 2282 N 1 0 0 1 246 138 2
-Refer: 6074 2282 N 1 0 0 1 0 0 2
+Refer: 6057 2282 S 1 0 0 1 246 138 2
+Refer: 6057 2282 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

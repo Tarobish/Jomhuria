@@ -1,5 +1,5 @@
 StartChar: aLam.medi_LamQafFina
-Encoding: 1114220 -1 109
+Encoding: 365 -1 109
 Width: 570
 Flags: HW
 LayerCount: 2
@@ -21,7 +21,7 @@ SplineSet
  198 334 198 334 251 451 c 0,26,27
  292 542 292 542 263 818 c 0,28,29
  226 1175 226 1175 214 1304 c 0,30,31
- 211 1338 211 1338 220 1356 c 2
+ 211 1338 211 1338 220 1356 c 2,32,-1
  272 1461 l 2,0,1
 EndSplineSet
 Fore

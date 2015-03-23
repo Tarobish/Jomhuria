@@ -1,5 +1,5 @@
 StartChar: aSen.init_PreYaa
-Encoding: 1114294 -1 186
+Encoding: 442 -1 185
 Width: 706
 Flags: HW
 LayerCount: 2
@@ -23,7 +23,7 @@ SplineSet
  424 272 424 272 499 269 c 0,25,26
  504 269 504 269 499 287 c 128,-1,27
  494 305 494 305 463 344 c 0,28,29
- 457 351 457 351 461 363 c 2
+ 457 351 457 351 461 363 c 2,30,-1
  520 535 l 2,0,1
 EndSplineSet
 Fore

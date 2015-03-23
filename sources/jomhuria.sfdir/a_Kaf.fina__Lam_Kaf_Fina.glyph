@@ -1,5 +1,5 @@
 StartChar: aKaf.fina_LamKafFina
-Encoding: 1114442 -1 425
+Encoding: 665 -1 408
 Width: 1666
 Flags: HW
 LayerCount: 2
@@ -25,7 +25,7 @@ SplineSet
  1115 151 1115 151 1326 279 c 0,30,31
  1440 348 1440 348 1427 442 c 0,32,33
  1391 699 1391 699 1348 1185 c 0,34,35
- 1346 1218 1346 1218 1352 1238 c 2
+ 1346 1218 1346 1218 1352 1238 c 2,36,-1
  1389 1347 l 1,0,1
 EndSplineSet
 Fore

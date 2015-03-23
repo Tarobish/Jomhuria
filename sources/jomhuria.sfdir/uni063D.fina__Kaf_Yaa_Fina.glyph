@@ -1,5 +1,5 @@
 StartChar: uni063D.fina_KafYaaFina
-Encoding: 1115964 -1 2136
+Encoding: 2376 -1 2119
 Width: 966
 VWidth: 0
 Flags: H
@@ -7,8 +7,9 @@ AnchorPoint: "TashkilAbove" 380 1640 basechar 0
 AnchorPoint: "TashkilBelow" 739 -670 basechar 0
 AnchorPoint: "AlefAbove" 297 515 basechar 0
 LayerCount: 2
+Back
 Fore
-Refer: 244 1627 N 1 0 0 1 397 -435 2
+Refer: 242 1627 N 1 0 0 1 397 -435 2
 Refer: 134 -1 N 1 0 0 1 0 0 3
 Colour: ffffff
 EndChar

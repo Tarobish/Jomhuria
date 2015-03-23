@@ -1,5 +1,5 @@
 StartChar: aSen.init_YaaBari
-Encoding: 1118443 -1 4657
+Encoding: 4897 -1 4640
 Width: 1500
 Flags: HW
 LayerCount: 2
@@ -28,7 +28,7 @@ SplineSet
  569 607 569 607 620 609 c 0,35,36
  630 609 630 609 631.5 634 c 128,-1,37
  633 659 633 659 620.5 688.5 c 128,-1,38
- 608 718 608 718 618 731 c 2
+ 608 718 608 718 618 731 c 2,39,-1
  695 831 l 2,0,1
 EndSplineSet
 Fore

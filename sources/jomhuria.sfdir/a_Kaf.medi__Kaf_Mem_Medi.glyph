@@ -1,12 +1,12 @@
 StartChar: aKaf.medi_KafMemMedi
-Encoding: 1114399 -1 381
+Encoding: 621 -1 364
 Width: 1157
 Flags: HW
 LayerCount: 2
 Back
 SplineSet
 1169 1753 m 1,0,1
- 1212 1753 1212 1753 1191 1714 c 2
+ 1212 1753 1212 1753 1191 1714 c 2,2,-1
  1118 1577 l 2,3,4
  1111 1563 1111 1563 1073 1556 c 0,5,6
  202 1390 202 1390 -188 1229 c 0,7,8

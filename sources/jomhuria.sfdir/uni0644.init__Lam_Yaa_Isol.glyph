@@ -1,12 +1,13 @@
 StartChar: uni0644.init_LamYaaIsol
-Encoding: 1117545 -1 3717
+Encoding: 3957 -1 3700
 Width: 497
 VWidth: 0
 Flags: H
 AnchorPoint: "TashkilAbove" 0 1640 basechar 0
 AnchorPoint: "TashkilBelow" 240 -670 basechar 0
 LayerCount: 2
+Back
 Fore
-Refer: 398 -1 N 1 0 0 1 0 0 3
+Refer: 381 -1 N 1 0 0 1 0 0 3
 Colour: ffffff
 EndChar

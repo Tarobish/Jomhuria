@@ -1,5 +1,5 @@
 StartChar: aHaa.fina_AboveHaaIsol2
-Encoding: 1114331 -1 229
+Encoding: 484 -1 227
 Width: 283
 Flags: HW
 AnchorPoint: "DigitBelow" 817 -110 basechar 0
@@ -14,6 +14,7 @@ AnchorPoint: "HamzaBelow" 817 -90 basechar 0
 AnchorPoint: "HamzaAbove" 1057 790 basechar 0
 AnchorPoint: "DotAbove" 1057 790 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 179 -1 N 1 0 0 1 0 0 2
 Colour: ffffff

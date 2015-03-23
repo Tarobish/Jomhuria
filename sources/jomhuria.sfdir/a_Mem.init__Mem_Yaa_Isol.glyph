@@ -1,11 +1,11 @@
 StartChar: aMem.init_MemYaaIsol
-Encoding: 1114413 -1 395
+Encoding: 635 -1 378
 Width: 791
 Flags: HW
 LayerCount: 2
 Back
 SplineSet
-299 547 m 1
+299 547 m 1,0,-1
  245 588 l 2,1,2
  220 607 220 607 235 643 c 0,3,4
  283 766 283 766 330 825 c 0,5,6
@@ -17,7 +17,7 @@ SplineSet
  257 406 257 406 120 304 c 0,17,18
  -32 190 -32 190 -49 274 c 1,19,20
  -21 332 -21 332 -3 349 c 0,21,22
- 128 474 128 474 299 547 c 1
+ 128 474 128 474 299 547 c 1,0,-1
 EndSplineSet
 Fore
 SplineSet

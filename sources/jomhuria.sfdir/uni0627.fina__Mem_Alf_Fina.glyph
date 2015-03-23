@@ -1,5 +1,5 @@
 StartChar: uni0627.fina_MemAlfFina
-Encoding: 1117678 -1 3850
+Encoding: 4090 -1 3833
 Width: 398
 VWidth: 0
 Flags: H
@@ -7,7 +7,8 @@ AnchorPoint: "cursive" 398 -209 entry 0
 AnchorPoint: "TashkilAbove" 100 1640 basechar 0
 AnchorPoint: "TashkilBelow" 270 -670 basechar 0
 LayerCount: 2
+Back
 Fore
-Refer: 409 -1 N 1 0 0 1 0 0 3
+Refer: 392 -1 N 1 0 0 1 0 0 3
 Colour: ffffff
 EndChar

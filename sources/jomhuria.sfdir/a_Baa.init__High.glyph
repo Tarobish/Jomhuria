@@ -1,5 +1,5 @@
 StartChar: aBaa.init_High
-Encoding: 1114298 -1 190
+Encoding: 446 -1 189
 Width: 302
 Flags: HW
 LayerCount: 2
@@ -14,7 +14,7 @@ SplineSet
  -26 188 -26 188 0 185 c 1,10,11
  45 178 45 178 108 190 c 1,12,13
  92 277 92 277 72 312 c 128,-1,14
- 52 347 52 347 56 363 c 2
+ 52 347 52 347 56 363 c 2,15,-1
  100 513 l 2,0,1
 EndSplineSet
 Fore
