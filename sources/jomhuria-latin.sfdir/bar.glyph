@@ -1,6 +1,6 @@
 StartChar: bar
 Encoding: 124 124 91
-Width: 649
+Width: 482
 Flags: HW
 LayerCount: 2
 Back
@@ -23,8 +23,8 @@ EndSplineSet
 Fore
 SplineSet
 140 1629.47851562 m 5
- 509.884765625 1629.47851562 l 5
- 509.884765625 -595 l 5
+ 342.884765625 1629.47851562 l 5
+ 342.884765625 -595 l 5
  140 -595 l 5
  140 1629.47851562 l 5
 EndSplineSet
