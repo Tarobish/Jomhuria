@@ -1,0 +1,12 @@
+StartChar: ccedilla
+Encoding: 231 231 163
+Width: 1254
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 66 99 N 1 0 0 1 0 0 2
+Refer: 337 807 N 1 0 0 1 1180.63 8 2
+Ligature2: "Latin composition subtable" c uni0327
+Colour: ffffff
+EndChar
