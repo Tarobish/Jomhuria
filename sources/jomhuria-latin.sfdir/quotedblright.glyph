@@ -1,11 +1,11 @@
 StartChar: quotedblright
 Encoding: 433 8221 363
 Width: 758
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 359 8216 N -1 0 -0 -1 470 2376 2
-Refer: 359 8216 N -1 0 -0 -1 808 2376 2
+Refer: 359 8216 S -1 0 -0 -1 470 2770 2
+Refer: 359 8216 S -1 0 -0 -1 848 2770 2
 Colour: ffffff
 EndChar
