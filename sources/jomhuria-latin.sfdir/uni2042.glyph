@@ -5,8 +5,8 @@ Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 10 42 N 1 0 0 1 446 0 2
-Refer: 10 42 N 1 0 0 1 0 -804 2
-Refer: 10 42 N 1 0 0 1 892 -804 2
+Refer: 10 42 N 0.828631 0 0 0.827757 760.992 -496.113 2
+Refer: 10 42 N 0.828631 0 0 0.827757 -73.0083 -496.113 2
+Refer: 10 42 N 0.828631 0 0 0.827757 343.992 178.887 2
 Colour: ffffff
 EndChar
