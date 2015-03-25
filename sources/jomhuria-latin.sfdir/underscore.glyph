@@ -1,6 +1,6 @@
 StartChar: underscore
 Encoding: 95 95 62
-Width: 1428
+Width: 1078
 Flags: HW
 LayerCount: 2
 Back
@@ -18,11 +18,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-140 0 m 5
- 140 394.510742188 l 5
- 1288.4375 394.510742188 l 5
- 1288.4375 0 l 5
- 140 0 l 5
+140 0 m 1
+ 140 394.510742188 l 1
+ 938.4375 394.510742188 l 1
+ 938.4375 0 l 1
+ 140 0 l 1
 EndSplineSet
 Colour: ff0000
 EndChar
