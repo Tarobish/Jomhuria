@@ -6,7 +6,8 @@ LayerCount: 2
 Back
 Fore
 Refer: 88 121 N 1 0 0 1 0 0 2
-Refer: 322 768 N 1 0 0 1 1138.21 4 2
+Refer: 322 768 N 1 0 0 1 356.21 4 2
+LCarets2: 1 0
 Ligature2: "Latin composition subtable" y gravecomb
 Colour: ffffff
 EndChar
