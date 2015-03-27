@@ -5,8 +5,9 @@ Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 404 -1 N 1 0 0 1 328.381 32 2
+Refer: 404 -1 S 1 0 0 1 449.381 32 2
 Refer: 52 85 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "Latin composition subtable" U uni0308
 Colour: ffffff
 EndChar

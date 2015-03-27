@@ -6,7 +6,8 @@ LayerCount: 2
 Back
 Fore
 Refer: 46 79 N 1 0 0 1 0 0 2
-Refer: 399 -1 N 1 0 0 1 1219.95 -16 2
+Refer: 399 -1 S 1 0 0 1 1169.95 -16 2
+LCarets2: 1 0
 Ligature2: "Latin composition subtable" O tildecomb
 Colour: ffffff
 EndChar
