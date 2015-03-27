@@ -6,7 +6,8 @@ LayerCount: 2
 Back
 Fore
 Refer: 78 111 N 1 0 0 1 0 0 2
-Refer: 324 770 N 1 0 0 1 1186.4 -10 2
+Refer: 324 770 S 1 0 0 1 1158.4 -10 2
+LCarets2: 1 0
 Ligature2: "Latin composition subtable" o uni0302
 Colour: ffffff
 EndChar
