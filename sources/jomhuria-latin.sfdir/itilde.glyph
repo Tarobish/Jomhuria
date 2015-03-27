@@ -5,8 +5,8 @@ Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 237 305 N 1 0 0 1 16 0 2
-Refer: 325 771 S 1 0 0 1 940.457 -4 2
+Refer: 325 771 N 0.873724 0 0 1 916.093 -4 2
+Refer: 237 305 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "Latin composition subtable" i tildecomb
 Colour: ffffff

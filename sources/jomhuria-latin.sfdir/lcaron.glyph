@@ -1,13 +1,14 @@
 StartChar: lcaron
 Encoding: 320 318 250
-Width: 546
+Width: 755
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 75 108 N 1 0 0 1 0 0 2
-Refer: 334 789 N 1 0 0 1 1044 40 2
+Refer: 334 789 S 1 0 0 1 708 -34 2
+LCarets2: 1 0
 Ligature2: "Latin composition subtable" l uni030C
 Colour: ffffff
 EndChar
