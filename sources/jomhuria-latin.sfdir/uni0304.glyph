@@ -1,6 +1,6 @@
 StartChar: uni0304
 Encoding: 396 772 326
-Width: 766
+Width: 867
 GlyphClass: 4
 Flags: HW
 LayerCount: 2
@@ -16,11 +16,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-140 510.989257812 m 5
- 140 714.5546875 l 5
- 626.477539062 714.5546875 l 5
- 626.477539062 510.989257812 l 5
- 140 510.989257812 l 5
+162.522460938 1086.5 m 5
+ 162.522460938 1275.78613281 l 5
+ 621 1275.78613281 l 5
+ 621 1086.5 l 5
+ 162.522460938 1086.5 l 5
 EndSplineSet
 Colour: ff0000
 EndChar
