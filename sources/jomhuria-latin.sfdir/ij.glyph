@@ -1,13 +1,13 @@
 StartChar: ij
 Encoding: 309 307 239
-Width: 946
+Width: 1358
 Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 329 775 N 1 0 0 1 1378 90 2
-Refer: 314 567 N 1 0 0 1 274 0 2
-Refer: 329 775 S 1 0 0 1 795 90 2
+Refer: 329 775 S 1 0 0 1 1399 -59 2
+Refer: 329 775 N 1 0 0 1 794 -59 2
+Refer: 314 567 N 1 0 0 1 616 0 2
 Refer: 237 305 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
