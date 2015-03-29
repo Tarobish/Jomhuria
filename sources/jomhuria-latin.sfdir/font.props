@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1426129988
-ModificationTime: 1427585936
+ModificationTime: 1427613952
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -386,34 +386,15 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 399 19 8
+WinInfo: 0 19 8
 Grid
--2048 -23 m 0
- 4096 -23 l 1024
-  Named: "OO"
--2048 -296.892857143 m 0
- 4096 -296.892857143 l 1024
-  Named: "J"
--2048 1009.5 m 0
- 4096 1009.5 l 1024
-  Named: "C"
 -2048 986.5 m 0
  4096 986.5 l 1024
   Named: "I"
--2048 -35.9842519685 m 0
- 4096 -35.9842519685 l 1024
-  Named: "O"
--2048 1324.72043011 m 0
- 4096 1324.72043011 l 1024
-  Named: "O"
 -2048 1289.47826087 m 0
  4096 1289.47826087 l 1024
   Named: "Cap"
 -2048 1456.14355469 m 1
  4096 1456.14355469 l 1025
--2048 995.400390625 m 1
- 4096 995.400390625 l 1025
--2048 1652 m 1
- 4096 1652 l 1025
 EndSplineSet
 EndSplineFont
