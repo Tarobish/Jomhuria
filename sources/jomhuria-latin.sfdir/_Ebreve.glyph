@@ -1,12 +1,11 @@
 StartChar: Ebreve
-Encoding: 278 276 208
+Encoding: 278 276 211
 Width: 1308
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 36 69 N 1 0 0 1 0 0 2
-Refer: 401 -1 N 1 0 0 1 1165.77 -6 2
+Refer: 405 -1 N 1 0 0 1 1165.77 -6 2
+Refer: 38 69 N 1 0 0 1 0 0 2
 Ligature2: "Latin composition subtable" E uni0306
 Colour: ffffff
 EndChar

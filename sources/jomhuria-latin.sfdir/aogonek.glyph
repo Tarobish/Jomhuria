@@ -1,7 +1,7 @@
 StartChar: aogonek
-Encoding: 263 261 193
+Encoding: 263 261 196
 Width: 862
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 SplineSet

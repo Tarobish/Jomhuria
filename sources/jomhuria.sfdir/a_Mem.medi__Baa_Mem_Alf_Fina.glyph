@@ -1,7 +1,9 @@
 StartChar: aMem.medi_BaaMemAlfFina
-Encoding: 647 -1 390
+Encoding: 1114425 -1 407
 Width: 100
 Flags: HW
+AnchorPoint: "TashkilBelow" 20 -670 basechar 0
+AnchorPoint: "TashkilAbove" 70 1640 basechar 0
 LayerCount: 2
 Back
 SplineSet

@@ -1,8 +1,11 @@
 StartChar: ring.below
-Encoding: 470 -1 213
+Encoding: 1114317 -1 215
 Width: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "RingBelow" 0 0 mark 0
+AnchorPoint: "RingDash" 0 0 mark 0
+AnchorPoint: "TashkilBelowDot" 0 -400 basemark 0
 LayerCount: 2
 Back
 SplineSet
@@ -34,5 +37,5 @@ SplineSet
  -82.94921875 -208.73828125 -45.607421875 -245.775390625 0 -245.775390625 c 4
  45.9130859375 -245.775390625 82.9501953125 -208.73828125 82.9501953125 -163.1328125 c 4
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

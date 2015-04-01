@@ -1,8 +1,8 @@
 StartChar: yen
-Encoding: 165 165 98
+Encoding: 165 165 101
 Width: 1344
 UnlinkRmOvrlpSave: 1
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 SplineSet

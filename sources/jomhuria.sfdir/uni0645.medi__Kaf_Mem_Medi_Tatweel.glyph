@@ -1,7 +1,9 @@
 StartChar: uni0645.medi_KafMemMediTatweel
-Encoding: 4868 -1 4611
+Encoding: 1118414 -1 4628
 Width: 703
 Flags: HW
+AnchorPoint: "TashkilAbove" 210 1640 basechar 0
+AnchorPoint: "TashkilBelow" 260 -670 basechar 0
 LayerCount: 2
 Back
 SplineSet

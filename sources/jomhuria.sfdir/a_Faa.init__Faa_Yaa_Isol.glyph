@@ -1,7 +1,14 @@
 StartChar: aFaa.init_FaaYaaIsol
-Encoding: 636 -1 379
+Encoding: 1114414 -1 396
 Width: 487
 Flags: HW
+AnchorPoint: "TwoDotsAbove" -112 1430 basechar 0
+AnchorPoint: "HamzaAbove" -1 1430 basechar 0
+AnchorPoint: "DotAbove" -1 1430 basechar 0
+AnchorPoint: "TashkilAbove" -1 1640 basechar 0
+AnchorPoint: "TwoDotsBelow" 200 -400 basechar 0
+AnchorPoint: "TashkilBelow" 250 -810 basechar 0
+AnchorPoint: "DotBelow" 300 -450 basechar 0
 LayerCount: 2
 Back
 SplineSet

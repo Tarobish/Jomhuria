@@ -1,5 +1,5 @@
 StartChar: hyphen
-Encoding: 45 45 13
+Encoding: 45 45 15
 Width: 1268
 Flags: HW
 LayerCount: 2
@@ -21,5 +21,5 @@ SplineSet
  140 594.596679688 l 1
  1128.04101562 594.596679688 l 1
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

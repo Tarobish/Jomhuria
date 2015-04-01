@@ -1,12 +1,11 @@
 StartChar: uacute
-Encoding: 250 250 182
+Encoding: 250 250 185
 Width: 1312
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 84 117 N 1 0 0 1 0 0 2
-Refer: 323 769 N 1 0 0 1 1323.09 -8 2
+Refer: 326 769 N 1 0 0 1 1323.09 -8 2
+Refer: 86 117 N 1 0 0 1 0 0 2
 Ligature2: "Latin composition subtable" u acutecomb
 Colour: ffffff
 EndChar

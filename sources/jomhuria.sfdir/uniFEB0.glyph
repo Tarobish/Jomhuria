@@ -1,11 +1,10 @@
 StartChar: uniFEB0
-Encoding: 5729 65200 5472
+Encoding: 65200 65200 5489
 Width: 768
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 885 -1 N 1 0 0 1 0 0 2
+Refer: 902 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

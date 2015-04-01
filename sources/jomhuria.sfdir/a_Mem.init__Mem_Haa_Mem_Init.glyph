@@ -1,7 +1,9 @@
 StartChar: aMem.init_MemHaaMemInit
-Encoding: 381 -1 125
+Encoding: 1114236 -1 125
 Width: 655
 Flags: HW
+AnchorPoint: "TashkilAbove" 250 1640 basechar 0
+AnchorPoint: "TashkilBelow" 311 -670 basechar 0
 LayerCount: 2
 Back
 SplineSet

@@ -1,8 +1,8 @@
 StartChar: Euro
-Encoding: 448 8364 377
+Encoding: 448 8364 381
 Width: 1416
 UnlinkRmOvrlpSave: 1
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 SplineSet

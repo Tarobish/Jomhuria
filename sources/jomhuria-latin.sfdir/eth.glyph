@@ -1,8 +1,8 @@
 StartChar: eth
-Encoding: 240 240 172
+Encoding: 240 240 175
 Width: 1034
 UnlinkRmOvrlpSave: 1
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 SplineSet

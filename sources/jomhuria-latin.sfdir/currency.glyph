@@ -1,7 +1,7 @@
 StartChar: currency
-Encoding: 164 164 97
+Encoding: 164 164 100
 Width: 1148
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 SplineSet

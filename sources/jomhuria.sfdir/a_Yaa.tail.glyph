@@ -1,8 +1,9 @@
 StartChar: aYaa.tail
-Encoding: 501 -1 244
+Encoding: 1114338 -1 246
 Width: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "Tail" 135 185 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -25,5 +26,5 @@ SplineSet
  52.8525390625 177.530273438 l 5
  117.409179688 177.530273438 l 5
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

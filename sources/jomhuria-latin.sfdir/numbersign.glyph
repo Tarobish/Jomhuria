@@ -1,8 +1,8 @@
 StartChar: numbersign
-Encoding: 35 35 3
+Encoding: 35 35 5
 Width: 960
 UnlinkRmOvrlpSave: 1
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 SplineSet

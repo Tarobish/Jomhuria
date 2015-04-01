@@ -1,7 +1,14 @@
 StartChar: aSad.init_SadHaaInit
-Encoding: 420 -1 164
+Encoding: 1114275 -1 164
 Width: 1656
 Flags: HW
+AnchorPoint: "TwoDotsAbove" 761 1411 basechar 0
+AnchorPoint: "HamzaAbove" 872 1411 basechar 0
+AnchorPoint: "DotAbove" 872 1411 basechar 0
+AnchorPoint: "TashkilAbove" 872 1640 basechar 0
+AnchorPoint: "TashkilBelow" 1020 -670 basechar 0
+AnchorPoint: "TwoDotsBelow" 1100 0 basechar 0
+AnchorPoint: "DotBelow" 1200 0 basechar 0
 LayerCount: 2
 Back
 SplineSet

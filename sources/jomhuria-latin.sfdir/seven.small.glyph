@@ -1,11 +1,10 @@
 StartChar: seven.small
-Encoding: 544 -1 475
+Encoding: 544 -1 479
 Width: 600
 VWidth: -40
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 22 55 N 0.6 0 0 0.6 -26.4004 -40 2
+Refer: 24 55 N 0.6 0 0 0.6 -26.4004 -40 2
 Colour: ffffff
 EndChar

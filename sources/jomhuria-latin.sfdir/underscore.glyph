@@ -1,7 +1,7 @@
 StartChar: underscore
-Encoding: 95 95 62
+Encoding: 95 95 64
 Width: 1010
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 SplineSet

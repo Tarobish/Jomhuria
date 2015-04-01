@@ -1,8 +1,8 @@
 StartChar: uni0306.cap
-Encoding: 472 -1 401
+Encoding: 472 -1 405
 Width: 0
 GlyphClass: 4
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 SplineSet

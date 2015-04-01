@@ -1,7 +1,14 @@
 StartChar: aLam.fina_LamLamFina
-Encoding: 666 -1 409
+Encoding: 1114443 -1 426
 Width: 1213
 Flags: HW
+AnchorPoint: "TwoDotsAbove" 400 1000 basechar 0
+AnchorPoint: "TwoDotsBelow" 600 -935 basechar 0
+AnchorPoint: "TashkilBelow" 600 -770 basechar 0
+AnchorPoint: "DotAbove" 600 1200 basechar 0
+AnchorPoint: "TashkilAbove" 600 1640 basechar 0
+AnchorPoint: "VAbove" 614 1198 basechar 0
+AnchorPoint: "Stroke" 966 912 basechar 0
 LayerCount: 2
 Back
 SplineSet

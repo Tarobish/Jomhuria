@@ -1,7 +1,15 @@
 StartChar: aKaf.init_KafYaaIsol
-Encoding: 632 -1 375
+Encoding: 1114410 -1 392
 Width: 1035
 Flags: HW
+AnchorPoint: "TwoDotsAbove" -352 1622 basechar 0
+AnchorPoint: "DotAbove" -242 1622 basechar 0
+AnchorPoint: "TashkilAbove" 100 1750 basechar 0
+AnchorPoint: "RingBelow" 280 1570 basechar 0
+AnchorPoint: "Dash" 298 1820 basechar 0
+AnchorPoint: "TashkilBelow" 300 -670 basechar 0
+AnchorPoint: "DotBelow" 400 -300 basechar 0
+AnchorPoint: "TwoDotsBelow" 400 -300 basechar 0
 LayerCount: 2
 Back
 SplineSet

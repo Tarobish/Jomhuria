@@ -1,7 +1,13 @@
 StartChar: aAyn.init_AynMemInit
-Encoding: 623 -1 366
+Encoding: 1114401 -1 383
 Width: 1005
 Flags: HW
+AnchorPoint: "TwoDotsAbove" 229 1471 basechar 0
+AnchorPoint: "TashkilAbove" 336 1640 basechar 0
+AnchorPoint: "HamzaAbove" 340 1471 basechar 0
+AnchorPoint: "DotAbove" 340 1471 basechar 0
+AnchorPoint: "TashkilBelow" 636 -670 basechar 0
+AnchorPoint: "DotBelow" 636 200 basechar 0
 LayerCount: 2
 Back
 SplineSet

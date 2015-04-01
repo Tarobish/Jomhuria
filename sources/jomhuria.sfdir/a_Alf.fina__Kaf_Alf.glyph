@@ -1,7 +1,13 @@
 StartChar: aAlf.fina_KafAlf
-Encoding: 605 -1 348
+Encoding: 1114383 -1 365
 Width: 629
 Flags: HW
+AnchorPoint: "DigitAbove" -24 1319 basechar 0
+AnchorPoint: "TashkilBelow" 0 -670 basechar 0
+AnchorPoint: "TashkilAbove" 0 1640 basechar 0
+AnchorPoint: "HamzaAbove" 126 1569 basechar 0
+AnchorPoint: "HamzaBelow" 350 -80 basechar 0
+AnchorPoint: "HighHamza" 526 1569 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -31,5 +37,5 @@ SplineSet
  442.228515625 456.625976562 458.104492188 436.1875 479.252929688 436.1875 c 2
  679.043945312 436.1875 l 1
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

@@ -1,7 +1,9 @@
 StartChar: uni0640.4
-Encoding: 4877 -1 4620
+Encoding: 1118423 -1 4637
 Width: 2503
 Flags: HW
+AnchorPoint: "MarkBelow" 1250 -670 basechar 0
+AnchorPoint: "MarkAbove" 1250 1640 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -27,5 +29,5 @@ SplineSet
  2553 0 l 1
  -50 0 l 1
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

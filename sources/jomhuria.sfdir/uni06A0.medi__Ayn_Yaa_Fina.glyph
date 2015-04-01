@@ -1,15 +1,14 @@
 StartChar: uni06A0.medi_AynYaaFina
-Encoding: 1931 -1 1674
+Encoding: 1115519 -1 1691
 Width: 841
 VWidth: 0
-Flags: H
+Flags: HW
 AnchorPoint: "cursive" 0 0 exit 0
-AnchorPoint: "TashkilAbove" 421 1640 basechar 0
 AnchorPoint: "TashkilBelow" 400 -670 basechar 0
+AnchorPoint: "TashkilAbove" 421 1640 basechar 0
 LayerCount: 2
-Back
 Fore
-Refer: 192 -1 N 1 0 0 1 421 810 2
-Refer: 103 -1 N 1 0 0 1 0 0 3
+Refer: 103 -1 N 1 0 0 1 0 0 2
+Refer: 193 -1 N 1 0 0 1 421 810 2
 Colour: ffffff
 EndChar

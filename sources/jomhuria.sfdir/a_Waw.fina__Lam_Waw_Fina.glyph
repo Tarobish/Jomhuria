@@ -1,7 +1,17 @@
 StartChar: aWaw.fina_LamWawFina
-Encoding: 326 -1 70
+Encoding: 1114181 -1 70
 Width: 956
 Flags: HW
+AnchorPoint: "RingBelow" 547 -81 basechar 0
+AnchorPoint: "TwoDotsAbove" 594 820 basechar 0
+AnchorPoint: "TashkilAbove" 605 1640 basechar 0
+AnchorPoint: "DotAbove" 705 820 basechar 0
+AnchorPoint: "HamzaAbove" 705 820 basechar 0
+AnchorPoint: "DigitAbove" 705 820 basechar 0
+AnchorPoint: "TashkilBelow" 740 -670 basechar 0
+AnchorPoint: "VAbove" 791 762 basechar 0
+AnchorPoint: "Stroke" 870 -106 basechar 0
+AnchorPoint: "HighHamza" 900 820 basechar 0
 LayerCount: 2
 Back
 SplineSet

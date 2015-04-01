@@ -1,8 +1,8 @@
 StartChar: f_l
-Encoding: 455 -1 384
+Encoding: 455 -1 388
 Width: 1108
 LigCaretCntFixed: 1
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 SplineSet

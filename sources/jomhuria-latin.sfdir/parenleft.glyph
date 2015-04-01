@@ -1,7 +1,7 @@
 StartChar: parenleft
-Encoding: 40 40 8
+Encoding: 40 40 10
 Width: 524
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 SplineSet

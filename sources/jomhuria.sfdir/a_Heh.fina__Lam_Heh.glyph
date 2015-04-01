@@ -1,7 +1,12 @@
 StartChar: aHeh.fina_LamHeh
-Encoding: 619 -1 362
+Encoding: 1114397 -1 379
 Width: 828
 Flags: HW
+AnchorPoint: "TwoDotsAbove" 56 824 basechar 0
+AnchorPoint: "HamzaAbove" 167 824 basechar 0
+AnchorPoint: "DotAbove" 167 824 basechar 0
+AnchorPoint: "TashkilAbove" 200 1640 basechar 0
+AnchorPoint: "TashkilBelow" 400 -670 basechar 0
 LayerCount: 2
 Back
 SplineSet

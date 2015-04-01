@@ -1,8 +1,8 @@
 StartChar: section
-Encoding: 167 167 100
+Encoding: 167 167 103
 Width: 882
 UnlinkRmOvrlpSave: 1
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 SplineSet

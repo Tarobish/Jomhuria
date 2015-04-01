@@ -1,15 +1,14 @@
 StartChar: uni06AD.fina_LamKafIsol
-Encoding: 4219 -1 3962
+Encoding: 1117807 -1 3979
 Width: 1732
 VWidth: 0
-Flags: H
-AnchorPoint: "TashkilBelow" 720 -740 basechar 0
+Flags: HW
 AnchorPoint: "TashkilAbove" 649 1818 basechar 0
+AnchorPoint: "TashkilBelow" 720 -740 basechar 0
 LayerCount: 2
-Back
 Fore
-Refer: 192 -1 N 1 0 0 1 768 1261 2
-Refer: 201 -1 N 1 0 0 1 668 581 2
-Refer: 401 -1 N 1 0 0 1 0 0 3
+Refer: 418 -1 N 1 0 0 1 0 0 2
+Refer: 203 -1 N 1 0 0 1 668 581 2
+Refer: 193 -1 N 1 0 0 1 768 1261 2
 Colour: ffffff
 EndChar

@@ -1,7 +1,18 @@
 StartChar: aDal.fina_KafDal
-Encoding: 616 -1 359
+Encoding: 1114394 -1 376
 Width: 827
 Flags: HW
+AnchorPoint: "TwoDotsBelow" 285 -330 basechar 0
+AnchorPoint: "HamzaAbove" 290 1075 basechar 0
+AnchorPoint: "TwoDotsAbove" 290 1075 basechar 0
+AnchorPoint: "TaaAbove" 296 1000 basechar 0
+AnchorPoint: "VAbove" 296 1000 basechar 0
+AnchorPoint: "TashkilAbove" 371 1640 basechar 0
+AnchorPoint: "RingBelow" 376 60 basechar 0
+AnchorPoint: "HamzaBelow" 396 -330 basechar 0
+AnchorPoint: "DotAbove" 401 1075 basechar 0
+AnchorPoint: "DotBelow" 473 -330 basechar 0
+AnchorPoint: "TashkilBelow" 516 -670 basechar 0
 LayerCount: 2
 Back
 SplineSet

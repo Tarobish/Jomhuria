@@ -1,7 +1,9 @@
 StartChar: aHeh.init_HehYaaIsol
-Encoding: 639 -1 382
+Encoding: 1114417 -1 399
 Width: 1113
 Flags: HW
+AnchorPoint: "TashkilAbove" 553 1640 basechar 0
+AnchorPoint: "TashkilBelow" 643 -670 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -62,5 +64,5 @@ SplineSet
  615.87890625 526.469726562 624.2265625 462.19140625 593.061523438 363.96484375 c 5
  729.409179688 296.34765625 l 5
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

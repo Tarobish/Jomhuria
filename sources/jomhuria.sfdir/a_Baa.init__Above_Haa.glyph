@@ -1,7 +1,22 @@
 StartChar: aBaa.init_AboveHaa
-Encoding: 431 -1 175
+Encoding: 1114283 -1 175
 Width: 1114
 Flags: HW
+AnchorPoint: "cursive" 0 420 exit 0
+AnchorPoint: "TwoDotsAbove" 558 1427 basechar 0
+AnchorPoint: "TaaAbove" 669 1227 basechar 0
+AnchorPoint: "HamzaAbove" 669 1427 basechar 0
+AnchorPoint: "DotAbove" 669 1427 basechar 0
+AnchorPoint: "VAbove" 669 1427 basechar 0
+AnchorPoint: "DigitAbove" 669 1427 basechar 0
+AnchorPoint: "HamzaBelow" 714 17 basechar 0
+AnchorPoint: "TwoDotsBelow" 714 17 basechar 0
+AnchorPoint: "RingBelow" 750 767 basechar 0
+AnchorPoint: "TashkilAbove" 849 1640 basechar 0
+AnchorPoint: "HighHamza" 869 1427 basechar 0
+AnchorPoint: "DotBelow" 944 17 basechar 0
+AnchorPoint: "DigitBelow" 944 17 basechar 0
+AnchorPoint: "TashkilBelow" 974 -410 basechar 0
 LayerCount: 2
 Back
 SplineSet

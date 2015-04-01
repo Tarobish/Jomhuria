@@ -1,12 +1,11 @@
 StartChar: Wacute
-Encoding: 497 7810 426
+Encoding: 497 7810 430
 Width: 2233
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 54 87 N 1 0 0 1 0 0 2
-Refer: 396 -1 N 1 0 0 1 1866 0 2
+Refer: 400 -1 N 1 0 0 1 1866 0 2
+Refer: 56 87 N 1 0 0 1 0 0 2
 Ligature2: "Latin composition subtable" W acutecomb
 Colour: ffffff
 EndChar

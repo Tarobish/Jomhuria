@@ -1,13 +1,12 @@
 StartChar: uni0644.init_LamLamInit
-Encoding: 4193 -1 3936
+Encoding: 1117781 -1 3953
 Width: 325
 VWidth: 0
-Flags: H
-AnchorPoint: "TashkilAbove" 225 1640 basechar 0
+Flags: HW
 AnchorPoint: "TashkilBelow" 205 -670 basechar 0
+AnchorPoint: "TashkilAbove" 225 1640 basechar 0
 LayerCount: 2
-Back
 Fore
-Refer: 398 -1 N 1 0 0 1 0 0 3
+Refer: 415 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
