@@ -1,8 +1,14 @@
 StartChar: aAyn.init_YaaBari
-Encoding: 5011 -1 4754
+Encoding: 1118557 -1 4771
 Width: 2115
 VWidth: 0
 Flags: HW
+AnchorPoint: "TwoDotsAbove" 354 1465 basechar 0
+AnchorPoint: "DotAbove" 466 1465 basechar 0
+AnchorPoint: "HamzaAbove" 466 1465 basechar 0
+AnchorPoint: "TashkilAbove" 600 1640 basechar 0
+AnchorPoint: "TashkilBelow" 840 -670 basechar 0
+AnchorPoint: "DotBelow" 840 270 basechar 0
 LayerCount: 2
 Back
 SplineSet

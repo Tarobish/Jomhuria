@@ -1,8 +1,7 @@
 StartChar: u1EEA1
-Encoding: 6205 126625 5948
+Encoding: 126625 126625 5965
 Width: 1608
 Flags: HW
-AnchorPoint: "DotBelow" 802.227 -244.594 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -85,5 +84,5 @@ SplineSet
  1254.43164062 577.668945312 1174.74414062 646.356445312 1174.74414062 646.356445312 c 1
  1402.1796875 825.228515625 l 1
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

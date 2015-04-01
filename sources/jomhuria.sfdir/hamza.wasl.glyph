@@ -1,8 +1,9 @@
 StartChar: hamza.wasl
-Encoding: 512 -1 255
+Encoding: 1114344 -1 257
 Width: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "HamzaAbove" 490 1370 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -40,5 +41,5 @@ SplineSet
  617.895507812 1598.10449219 l 5
  617.895507812 1598.10449219 638.765625 1663.7734375 582.834960938 1663.7734375 c 4
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

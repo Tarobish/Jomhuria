@@ -1,8 +1,10 @@
 StartChar: hThreeDots.a
-Encoding: 497 -1 240
+Encoding: 1114336 -1 242
 Width: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "TwoDotsAbove" 0 190 mark 0
+AnchorPoint: "TashkilAboveDot" 0 500 basemark 0
 LayerCount: 2
 Back
 SplineSet
@@ -30,7 +32,7 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-93.4423797222 151.095138775 m 1024,55,-1
+93.4423828125 151.09513855 m 0
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

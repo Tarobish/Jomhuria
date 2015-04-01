@@ -1,0 +1,13 @@
+StartChar: Wdieresis
+Encoding: 499 7812 428
+Width: 2233
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 54 87 N 1 0 0 1 0 0 2
+Refer: 404 -1 S 1 0 0 1 873 8.72043 2
+LCarets2: 1 0
+Ligature2: "Latin composition subtable" W uni0308
+Colour: ffffff
+EndChar

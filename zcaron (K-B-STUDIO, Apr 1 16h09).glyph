@@ -1,0 +1,13 @@
+StartChar: zcaron
+Encoding: 383 382 313
+Width: 1174
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 89 122 N 1 0 0 1 0 0 2
+Refer: 332 780 N 1 0 0 1 991.67 -2 2
+LCarets2: 1 0
+Ligature2: "Latin composition subtable" z uni030C
+Colour: ffffff
+EndChar

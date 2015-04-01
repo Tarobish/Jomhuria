@@ -1,15 +1,14 @@
 StartChar: uni06CE.init_BaaBaaYaaLD
-Encoding: 4451 -1 4194
+Encoding: 1118038 -1 4211
 Width: 417
 VWidth: 0
-Flags: H
+Flags: HW
 AnchorPoint: "TashkilAbove" 129 1640 basechar 0
 AnchorPoint: "TashkilBelow" 143 -980 basechar 0
 LayerCount: 2
-Back
 Fore
-Refer: 207 1626 N 1 0 0 1 129 315 2
-Refer: 297 -1 N 1 0 0 1 123 -890 2
-Refer: 88 -1 N 1 0 0 1 0 0 3
+Refer: 88 -1 N 1 0 0 1 0 0 2
+Refer: 299 -1 N 1 0 0 1 123 -890 2
+Refer: 209 1626 N 1 0 0 1 129 315 2
 Colour: ffffff
 EndChar

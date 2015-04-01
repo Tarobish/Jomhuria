@@ -1,13 +1,12 @@
 StartChar: uni0644.fina_LamLamFina
-Encoding: 4271 -1 4014
+Encoding: 1117859 -1 4031
 Width: 1213
 VWidth: 0
-Flags: H
-AnchorPoint: "TashkilAbove" 600 1640 basechar 0
+Flags: HW
 AnchorPoint: "TashkilBelow" 600 -770 basechar 0
+AnchorPoint: "TashkilAbove" 600 1640 basechar 0
 LayerCount: 2
-Back
 Fore
-Refer: 409 -1 N 1 0 0 1 0 0 3
+Refer: 426 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

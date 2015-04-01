@@ -1,0 +1,13 @@
+StartChar: Gcircumflex
+Encoding: 286 284 216
+Width: 1428
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 38 71 N 1 0 0 1 0 0 2
+Refer: 397 -1 S 1 0 0 1 1197.79 0 2
+LCarets2: 1 0
+Ligature2: "Latin composition subtable" G uni0302
+Colour: ffffff
+EndChar

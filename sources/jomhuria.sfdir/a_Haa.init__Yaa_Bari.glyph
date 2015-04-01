@@ -1,8 +1,19 @@
 StartChar: aHaa.init_YaaBari
-Encoding: 5010 -1 4753
+Encoding: 1118556 -1 4770
 Width: 2115
 VWidth: 0
 Flags: HW
+AnchorPoint: "TashkilAbove" 641 1640 basechar 0
+AnchorPoint: "TashkilBelow" 911 -670 basechar 0
+AnchorPoint: "TwoDotsBelow" 1007 -221 basechar 0
+AnchorPoint: "TwoDotsAbove" 1007 1089 basechar 0
+AnchorPoint: "DigitBelow" 1117 -341 basechar 0
+AnchorPoint: "DotBelow" 1117 -341 basechar 0
+AnchorPoint: "HamzaBelow" 1117 -221 basechar 0
+AnchorPoint: "TaaBelow" 1117 -1 basechar 0
+AnchorPoint: "TaaAbove" 1117 1089 basechar 0
+AnchorPoint: "DotAbove" 1117 1089 basechar 0
+AnchorPoint: "HamzaAbove" 1117 1089 basechar 0
 LayerCount: 2
 Back
 SplineSet

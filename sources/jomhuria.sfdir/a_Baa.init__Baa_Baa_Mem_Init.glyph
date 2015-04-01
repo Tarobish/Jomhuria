@@ -1,7 +1,23 @@
 StartChar: aBaa.init_BaaBaaMemInit
-Encoding: 408 -1 152
+Encoding: 1114263 -1 152
 Width: 333
 Flags: HW
+AnchorPoint: "TwoDotsBelowAlt" 66 -750 basechar 0
+AnchorPoint: "TwoDotsBelow" 66 -80 basechar 0
+AnchorPoint: "TwoDotsAbove" 76 1280 basechar 0
+AnchorPoint: "RingBelow" 100 600 basechar 0
+AnchorPoint: "DotBelowAlt" 177 -750 basechar 0
+AnchorPoint: "TashkilBelow" 177 -670 basechar 0
+AnchorPoint: "DotBelow" 177 -80 basechar 0
+AnchorPoint: "HamzaBelow" 177 -80 basechar 0
+AnchorPoint: "DigitBelow" 177 -80 basechar 0
+AnchorPoint: "TaaAbove" 187 1080 basechar 0
+AnchorPoint: "DotAbove" 187 1280 basechar 0
+AnchorPoint: "HamzaAbove" 187 1280 basechar 0
+AnchorPoint: "VAbove" 187 1280 basechar 0
+AnchorPoint: "DigitAbove" 187 1280 basechar 0
+AnchorPoint: "TashkilAbove" 187 1640 basechar 0
+AnchorPoint: "HighHamza" 387 1280 basechar 0
 LayerCount: 2
 Back
 SplineSet

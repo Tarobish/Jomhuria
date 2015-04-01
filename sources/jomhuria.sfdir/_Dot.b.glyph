@@ -1,19 +1,12 @@
 StartChar: Dot.b
-Encoding: 450 -1 193
+Encoding: 1114302 -1 194
 Width: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "TashkilBelowDot" 30 -140 basemark 0
 AnchorPoint: "DotBelow" 0 140 mark 0
+AnchorPoint: "TashkilBelowDot" 30 -140 basemark 0
 LayerCount: 2
-Back
 Fore
-SplineSet
--151.594726562 151.59375 m 5
- 0 303.3671875 l 5
- 151.7734375 151.59375 l 5
- 0 0 l 5
- -151.594726562 151.59375 l 5
-EndSplineSet
+Refer: 191 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

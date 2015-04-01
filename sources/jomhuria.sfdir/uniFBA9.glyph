@@ -1,11 +1,10 @@
 StartChar: uniFBA9
-Encoding: 5166 64425 4909
+Encoding: 64425 64425 4926
 Width: 964
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 739 -1 N 1 0 0 1 0 0 2
+Refer: 756 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

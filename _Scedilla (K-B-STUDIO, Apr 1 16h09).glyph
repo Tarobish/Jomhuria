@@ -1,0 +1,13 @@
+StartChar: Scedilla
+Encoding: 351 350 281
+Width: 1383
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 50 83 N 1 0 0 1 0 0 2
+Refer: 402 -1 S 1 0 0 1 211.711 12 2
+LCarets2: 1 0
+Ligature2: "Latin composition subtable" S uni0327
+Colour: ffffff
+EndChar

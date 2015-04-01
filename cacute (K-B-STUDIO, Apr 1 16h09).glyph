@@ -1,0 +1,13 @@
+StartChar: cacute
+Encoding: 265 263 195
+Width: 1254
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 66 99 N 1 0 0 1 0 0 2
+Refer: 323 769 S 1 0 0 1 580.63 -8 2
+LCarets2: 1 0
+Ligature2: "Latin composition subtable" c acutecomb
+Colour: ffffff
+EndChar

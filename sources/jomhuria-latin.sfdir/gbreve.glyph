@@ -1,13 +1,11 @@
 StartChar: gbreve
-Encoding: 289 287 219
+Encoding: 289 287 222
 Width: 1366
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 70 103 N 1 0 0 1 0 0 2
-Refer: 328 774 N 1 0 0 1 1220 0 2
-LCarets2: 1 0
+Refer: 331 774 N 1 0 0 1 1368 0 2
+Refer: 72 103 N 1 0 0 1 0 0 2
 Ligature2: "Latin composition subtable" g uni0306
 Colour: ffffff
 EndChar

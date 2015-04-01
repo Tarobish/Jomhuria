@@ -1,7 +1,14 @@
 StartChar: aSad.init_SadMemInit
-Encoding: 629 -1 372
+Encoding: 1114407 -1 389
 Width: 1332
 Flags: HW
+AnchorPoint: "TwoDotsAbove" 404 1434 basechar 0
+AnchorPoint: "HamzaAbove" 515 1434 basechar 0
+AnchorPoint: "DotAbove" 515 1434 basechar 0
+AnchorPoint: "TashkilAbove" 665 1640 basechar 0
+AnchorPoint: "TwoDotsBelow" 692 100 basechar 0
+AnchorPoint: "DotBelow" 792 100 basechar 0
+AnchorPoint: "TashkilBelow" 812 -670 basechar 0
 LayerCount: 2
 Back
 SplineSet

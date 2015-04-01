@@ -1,11 +1,10 @@
 StartChar: quotedblbase
-Encoding: 434 8222 364
+Encoding: 434 8222 367
 Width: 758
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 359 8216 S -1 0 -0 -1 815 1340 2
-Refer: 359 8216 N -1 0 -0 -1 440 1340 2
+Refer: 362 8216 N -1 0 -0 -1 440 1212 2
+Refer: 362 8216 N -1 0 -0 -1 440 1212 2
 Colour: ffffff
 EndChar

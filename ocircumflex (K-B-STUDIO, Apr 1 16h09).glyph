@@ -1,0 +1,13 @@
+StartChar: ocircumflex
+Encoding: 244 244 176
+Width: 1316
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 78 111 N 1 0 0 1 0 0 2
+Refer: 324 770 S 1 0 0 1 1158.4 -10 2
+LCarets2: 1 0
+Ligature2: "Latin composition subtable" o uni0302
+Colour: ffffff
+EndChar

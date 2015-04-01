@@ -1,12 +1,11 @@
 StartChar: uni2042
-Encoding: 527 8258 457
-Width: 1606
+Encoding: 527 8258 461
+Width: 1754
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 10 42 N 0.67365 0 0 0.667871 45.6892 -298.742 2
-Refer: 10 42 N 0.67365 0 0 0.667871 404.689 405.258 2
-Refer: 10 42 N 0.67365 0 0 0.667871 759.689 -298.742 2
+Refer: 12 42 N 1 0 0 1 892 -804 2
+Refer: 12 42 N 1 0 0 1 892 -804 2
+Refer: 12 42 N 1 0 0 1 0 -804 2
 Colour: ffffff
 EndChar

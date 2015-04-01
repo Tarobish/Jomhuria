@@ -1,13 +1,11 @@
 StartChar: ntilde
-Encoding: 241 241 173
+Encoding: 241 241 176
 Width: 1313
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 77 110 N 1 0 0 1 0 0 2
-Refer: 325 771 N 1 0 0 1 1244.2 0 2
-LCarets2: 1 0
+Refer: 328 771 N 1 0 0 1 1218.2 0 2
+Refer: 79 110 N 1 0 0 1 0 0 2
 Ligature2: "Latin composition subtable" n tildecomb
 Colour: ffffff
 EndChar

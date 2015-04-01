@@ -1,0 +1,13 @@
+StartChar: Gdotaccent
+Encoding: 290 288 220
+Width: 1428
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 38 71 N 1 0 0 1 0 0 2
+Refer: 329 775 S 1 0 0 1 1083.79 304 2
+LCarets2: 1 0
+Ligature2: "Latin composition subtable" G uni0307
+Colour: ffffff
+EndChar

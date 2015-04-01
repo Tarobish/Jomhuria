@@ -1,0 +1,13 @@
+StartChar: abreve
+Encoding: 261 259 191
+Width: 1356
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 64 97 N 1 0 0 1 0 0 2
+Refer: 328 774 S 1 0 0 1 1102.7 0 2
+LCarets2: 1 0
+Ligature2: "Latin composition subtable" a uni0306
+Colour: ffffff
+EndChar

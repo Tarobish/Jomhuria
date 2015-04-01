@@ -1,12 +1,11 @@
 StartChar: uniFCEE
-Encoding: 5458 64750 5201
+Encoding: 64750 64750 5218
 Width: 1706
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 566 -1 S 1 0 0 1 1082 0 2
-Refer: 846 -1 N 1 0 0 1 0 0 2
+Refer: 863 -1 N 1 0 0 1 0 0 2
+Refer: 583 -1 N 1 0 0 1 950 0 2
 Colour: ffffff
 EndChar

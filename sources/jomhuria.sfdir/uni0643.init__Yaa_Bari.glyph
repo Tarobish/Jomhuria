@@ -1,13 +1,12 @@
 StartChar: uni0643.init_YaaBari
-Encoding: 4932 -1 4675
+Encoding: 1118478 -1 4692
 Width: 1620
 VWidth: 0
-Flags: H
-AnchorPoint: "TashkilBelow" 201 -670 basechar 0
+Flags: HW
 AnchorPoint: "TashkilAbove" 130 1985 basechar 0
+AnchorPoint: "TashkilBelow" 201 -670 basechar 0
 LayerCount: 2
-Back
 Fore
-Refer: 4670 -1 N 1 0 0 1 0 0 3
+Refer: 4687 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

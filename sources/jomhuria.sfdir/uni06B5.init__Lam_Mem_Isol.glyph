@@ -1,14 +1,13 @@
 StartChar: uni06B5.init_LamMemIsol
-Encoding: 3997 -1 3740
+Encoding: 1117585 -1 3757
 Width: 715
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 30 2144 basechar 0
 AnchorPoint: "TashkilBelow" 270 0 basechar 0
 LayerCount: 2
-Back
 Fore
-Refer: 207 1626 S 1 0 0 1 178 268 2
-Refer: 385 -1 N 1 0 0 1 0 0 3
+Refer: 402 -1 N 1 0 0 1 0 0 2
+Refer: 209 1626 N 1 0 0 1 30 744 2
 Colour: ffffff
 EndChar

@@ -1,7 +1,9 @@
 StartChar: aHeh.medi_HehYaaFina
-Encoding: 5069 -1 4812
+Encoding: 1118604 -1 4829
 Width: 898
 Flags: HW
+AnchorPoint: "TashkilBelow" 758 -670 basechar 0
+AnchorPoint: "TashkilAbove" 770 1640 basechar 0
 LayerCount: 2
 Back
 SplineSet

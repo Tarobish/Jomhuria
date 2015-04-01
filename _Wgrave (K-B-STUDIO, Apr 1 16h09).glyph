@@ -1,0 +1,13 @@
+StartChar: Wgrave
+Encoding: 495 7808 424
+Width: 2233
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 54 87 N 1 0 0 1 0 0 2
+Refer: 395 -1 S 1 0 0 1 950 0 2
+LCarets2: 1 0
+Ligature2: "Latin composition subtable" W gravecomb
+Colour: ffffff
+EndChar

@@ -1,7 +1,16 @@
 StartChar: aSen.init_AboveHaa
-Encoding: 367 -1 111
+Encoding: 1114222 -1 111
 Width: 1376
 Flags: HW
+AnchorPoint: "cursive" 0 415 exit 0
+AnchorPoint: "TwoDotsAbove" 767 1263 basechar 0
+AnchorPoint: "TashkilAbove" 768 1640 basechar 0
+AnchorPoint: "TwoDotsBelow" 850 80 basechar 0
+AnchorPoint: "DotAbove" 878 1263 basechar 0
+AnchorPoint: "VAbove" 878 1263 basechar 0
+AnchorPoint: "DigitAbove" 878 1263 basechar 0
+AnchorPoint: "DotBelow" 950 80 basechar 0
+AnchorPoint: "TashkilBelow" 1030 -290 basechar 0
 LayerCount: 2
 Back
 SplineSet
