@@ -1,10 +1,8 @@
 StartChar: iThreeDots.a
-Encoding: 1114310 -1 206
+Encoding: 461 -1 204
 Width: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "TwoDotsAbove" -111 140 mark 0
-AnchorPoint: "TashkilAboveDot" -50 650 basemark 0
 LayerCount: 2
 Back
 SplineSet
@@ -50,5 +48,5 @@ SplineSet
  0 0 l 5
  -151.68359375 151.68359375 l 5
 EndSplineSet
-Colour: ffff00
+Colour: ff0000
 EndChar

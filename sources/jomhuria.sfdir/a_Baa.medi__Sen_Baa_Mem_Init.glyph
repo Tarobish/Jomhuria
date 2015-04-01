@@ -1,21 +1,7 @@
 StartChar: aBaa.medi_SenBaaMemInit
-Encoding: 1114259 -1 148
+Encoding: 404 -1 148
 Width: 446
 Flags: HW
-AnchorPoint: "TwoDotsAbove" -215 1250 basechar 0
-AnchorPoint: "TaaAbove" -104 1050 basechar 0
-AnchorPoint: "DotAbove" -104 1250 basechar 0
-AnchorPoint: "HamzaAbove" -104 1250 basechar 0
-AnchorPoint: "VAbove" -104 1250 basechar 0
-AnchorPoint: "DigitAbove" -104 1250 basechar 0
-AnchorPoint: "HighHamza" -4 1250 basechar 0
-AnchorPoint: "RingBelow" 88 710 basechar 0
-AnchorPoint: "TwoDotsBelow" 367 -220 basechar 0
-AnchorPoint: "TashkilBelow" 478 -670 basechar 0
-AnchorPoint: "DotBelow" 478 -220 basechar 0
-AnchorPoint: "HamzaBelow" 478 -220 basechar 0
-AnchorPoint: "DigitBelow" 478 -220 basechar 0
-AnchorPoint: "TashkilAbove" 496 1640 basechar 0
 LayerCount: 2
 Back
 SplineSet

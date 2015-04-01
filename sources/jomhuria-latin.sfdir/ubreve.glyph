@@ -1,11 +1,13 @@
 StartChar: ubreve
-Encoding: 366 365 299
+Encoding: 366 365 296
 Width: 1312
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 331 774 N 1 0 0 1 1287.09 0 2
-Refer: 86 117 N 1 0 0 1 0 0 2
+Refer: 84 117 N 1 0 0 1 0 0 2
+Refer: 328 774 S 1 0 0 1 1183.09 -6 2
+LCarets2: 1 0
 Ligature2: "Latin composition subtable" u uni0306
 Colour: ffffff
 EndChar

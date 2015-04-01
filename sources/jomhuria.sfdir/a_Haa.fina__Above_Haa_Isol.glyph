@@ -1,19 +1,7 @@
 StartChar: aHaa.fina_AboveHaaIsol
-Encoding: 1114287 -1 179
+Encoding: 435 -1 179
 Width: 213
 Flags: HW
-AnchorPoint: "cursive" 213 420 entry 0
-AnchorPoint: "TwoDotsAbove" 227 1110 basechar 0
-AnchorPoint: "DotAbove" 327 1110 basechar 0
-AnchorPoint: "HamzaAbove" 327 1110 basechar 0
-AnchorPoint: "TaaAbove" 327 1110 basechar 0
-AnchorPoint: "TashkilAbove" 327 1640 basechar 0
-AnchorPoint: "TaaBelow" 700 300 basechar 0
-AnchorPoint: "TwoDotsBelow" 707 -360 basechar 0
-AnchorPoint: "DotBelow" 817 -360 basechar 0
-AnchorPoint: "DigitBelow" 817 -110 basechar 0
-AnchorPoint: "HamzaBelow" 817 -90 basechar 0
-AnchorPoint: "TashkilBelow" 817 100 basechar 0
 LayerCount: 2
 Back
 SplineSet

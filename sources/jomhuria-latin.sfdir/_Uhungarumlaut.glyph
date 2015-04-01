@@ -1,12 +1,14 @@
 StartChar: Uhungarumlaut
-Encoding: 369 368 302
+Encoding: 369 368 299
 Width: 1327
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 400 -1 N 1 0 0 1 1124.38 10 2
-Refer: 400 -1 N 1 0 0 1 1428.38 10 2
-Refer: 54 85 N 1 0 0 1 0 0 2
+Refer: 52 85 N 1 0 0 1 0 0 2
+Refer: 396 -1 N 1 0 0 1 615.38 10 2
+Refer: 396 -1 N 1 0 0 1 331.38 10 2
+LCarets2: 1 0
 Ligature2: "Latin composition subtable" U uni030B
 Colour: ffffff
 EndChar

@@ -1,18 +1,7 @@
 StartChar: aRaa.fina_PostTooth
-Encoding: 1114281 -1 173
+Encoding: 429 -1 173
 Width: 1434
 Flags: HW
-AnchorPoint: "DotAlt" 442 -218 basechar 0
-AnchorPoint: "RingBelow" 494 -544 basechar 0
-AnchorPoint: "TwoDotsAbove" 555 696 basechar 0
-AnchorPoint: "TaaAbove" 666 496 basechar 0
-AnchorPoint: "DotAbove" 666 696 basechar 0
-AnchorPoint: "VAbove" 666 696 basechar 0
-AnchorPoint: "HamzaAbove" 666 696 basechar 0
-AnchorPoint: "TashkilAbove" 666 1640 basechar 0
-AnchorPoint: "TashkilBelow" 770 -670 basechar 0
-AnchorPoint: "DotBelow" 816 -754 basechar 0
-AnchorPoint: "Stroke" 890 -146 basechar 0
 LayerCount: 2
 Back
 SplineSet

@@ -1,10 +1,11 @@
 StartChar: five.medium
-Encoding: 541 -1 476
-Width: 900
+Encoding: 541 -1 472
+Width: 931
 VWidth: 50
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 22 53 N 0.8 0 0 0.8 14.5996 50 2
+Refer: 20 53 S 0.8 0 0 0.8 52 -8 2
 Colour: ffffff
 EndChar

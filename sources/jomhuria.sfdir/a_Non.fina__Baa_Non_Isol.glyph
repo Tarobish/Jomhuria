@@ -1,16 +1,7 @@
 StartChar: aNon.fina_BaaNonIsol
-Encoding: 1114225 -1 114
+Encoding: 370 -1 114
 Width: 1152
 Flags: HW
-AnchorPoint: "TwoDotsBelow" 435 -630 basechar 0
-AnchorPoint: "DotBelow" 545 -630 basechar 0
-AnchorPoint: "RingBelow" 545 -330 basechar 0
-AnchorPoint: "TwoDotsAbove" 549 907 basechar 0
-AnchorPoint: "TaaAbove" 660 800 basechar 0
-AnchorPoint: "HamzaAbove" 660 907 basechar 0
-AnchorPoint: "DotAbove" 660 907 basechar 0
-AnchorPoint: "TashkilAbove" 660 1640 basechar 0
-AnchorPoint: "TashkilBelow" 670 -670 basechar 0
 LayerCount: 2
 Back
 SplineSet

@@ -1,18 +1,7 @@
 StartChar: aHaa.medi_LamHaaMemInit
-Encoding: 1114211 -1 100
+Encoding: 356 -1 100
 Width: 63
 Flags: HW
-AnchorPoint: "TashkilAbove" 151 1640 basechar 0
-AnchorPoint: "TashkilBelow" 261 -670 basechar 0
-AnchorPoint: "TwoDotsBelow" 630 10 basechar 0
-AnchorPoint: "TwoDotsAbove" 630 1100 basechar 0
-AnchorPoint: "HamzaBelow" 741 10 basechar 0
-AnchorPoint: "DotBelow" 741 10 basechar 0
-AnchorPoint: "DigitBelow" 741 10 basechar 0
-AnchorPoint: "TaaBelow" 741 410 basechar 0
-AnchorPoint: "HamzaAbove" 741 1100 basechar 0
-AnchorPoint: "DotAbove" 741 1100 basechar 0
-AnchorPoint: "TaaAbove" 741 1100 basechar 0
 LayerCount: 2
 Back
 SplineSet

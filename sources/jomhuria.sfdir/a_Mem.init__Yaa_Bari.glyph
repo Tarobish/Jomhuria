@@ -1,12 +1,8 @@
 StartChar: aMem.init_YaaBari
-Encoding: 1118558 -1 4772
+Encoding: 5012 -1 4755
 Width: 2115
 VWidth: 0
 Flags: HW
-AnchorPoint: "DotAbove" 450 1110 basechar 0
-AnchorPoint: "TashkilBelow" 600 -670 basechar 0
-AnchorPoint: "TashkilAbove" 600 1640 basechar 0
-AnchorPoint: "DotBelow" 620 330 basechar 0
 LayerCount: 2
 Back
 SplineSet

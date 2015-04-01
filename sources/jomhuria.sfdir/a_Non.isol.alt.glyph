@@ -1,15 +1,7 @@
 StartChar: aNon.isol.alt
-Encoding: 1114153 -1 41
+Encoding: 297 -1 41
 Width: 3552
 Flags: HW
-AnchorPoint: "TashkilBelow" 1000 -670 basechar 0
-AnchorPoint: "TwoDotsBelow" 2063 -680 basechar 0
-AnchorPoint: "TwoDotsAbove" 2089 560 basechar 0
-AnchorPoint: "DotBelow" 2173 -680 basechar 0
-AnchorPoint: "RingBelow" 2173 -280 basechar 0
-AnchorPoint: "DotAbove" 2200 560 basechar 0
-AnchorPoint: "HamzaAbove" 2200 560 basechar 0
-AnchorPoint: "TashkilAbove" 2200 1640 basechar 0
 LayerCount: 2
 Back
 SplineSet

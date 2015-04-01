@@ -1,14 +1,15 @@
 StartChar: uni06B0.medi_KafHeh
-Encoding: 1117287 -1 3459
+Encoding: 3699 -1 3442
 Width: 950
 VWidth: 0
-Flags: HW
+Flags: H
 AnchorPoint: "TashkilAbove" 352 1640 basechar 0
 AnchorPoint: "TashkilBelow" 402 -670 basechar 0
 LayerCount: 2
+Back
 Fore
-Refer: 374 -1 N 1 0 0 1 0 0 2
-Refer: 221 -1 N 1 0 0 1 689 1528 2
-Refer: 215 -1 N 1 0 0 1 517 1370 2
+Refer: 213 -1 N 1 0 0 1 517 1370 2
+Refer: 219 -1 N 1 0 0 1 689 1528 2
+Refer: 357 -1 N 1 0 0 1 0 0 3
 Colour: ffffff
 EndChar

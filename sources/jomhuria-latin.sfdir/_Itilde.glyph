@@ -1,11 +1,13 @@
 StartChar: Itilde
-Encoding: 298 296 231
+Encoding: 298 296 228
 Width: 874
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 403 -1 N 1 0 0 1 948.873 -14 2
-Refer: 42 73 N 1 0 0 1 -1 0 2
+Refer: 40 73 N 1 0 0 1 -1 0 2
+Refer: 399 -1 N 1 0 0 1 898.873 -5.85645 2
+LCarets2: 1 0
 Ligature2: "Latin composition subtable" I tildecomb
 Colour: ffffff
 EndChar

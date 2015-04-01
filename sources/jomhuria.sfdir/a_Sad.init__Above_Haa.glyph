@@ -1,15 +1,7 @@
 StartChar: aSad.init_AboveHaa
-Encoding: 1114190 -1 79
+Encoding: 335 -1 79
 Width: 1739
 Flags: HW
-AnchorPoint: "cursive" 0 424 exit 0
-AnchorPoint: "TwoDotsAbove" 817 1410 basechar 0
-AnchorPoint: "HamzaAbove" 928 1410 basechar 0
-AnchorPoint: "DotAbove" 928 1410 basechar 0
-AnchorPoint: "TashkilAbove" 928 1640 basechar 0
-AnchorPoint: "TwoDotsBelow" 1100 107 basechar 0
-AnchorPoint: "TashkilBelow" 1200 -280 basechar 0
-AnchorPoint: "DotBelow" 1200 107 basechar 0
 LayerCount: 2
 Back
 SplineSet

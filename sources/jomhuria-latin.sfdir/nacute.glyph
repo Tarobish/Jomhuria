@@ -1,11 +1,13 @@
 StartChar: nacute
-Encoding: 326 324 259
+Encoding: 326 324 256
 Width: 1313
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 326 769 N 1 0 0 1 1314.2 -4 2
-Refer: 79 110 N 1 0 0 1 0 0 2
+Refer: 77 110 N 1 0 0 1 0 0 2
+Refer: 323 769 S 1 0 0 1 468.2 -4 2
+LCarets2: 1 0
 Ligature2: "Latin composition subtable" n acutecomb
 Colour: ffffff
 EndChar

@@ -1,11 +1,13 @@
 StartChar: umacron
-Encoding: 364 363 297
+Encoding: 364 363 294
 Width: 1312
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 329 772 N 1 0 0 1 1263.09 54 2
-Refer: 86 117 N 1 0 0 1 0 0 2
+Refer: 84 117 N 1 0 0 1 0 0 2
+Refer: 326 772 S 1 0 0 1 903.09 -0.5 2
+LCarets2: 1 0
 Ligature2: "Latin composition subtable" u uni0304
 Colour: ffffff
 EndChar

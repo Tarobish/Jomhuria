@@ -1,5 +1,5 @@
 StartChar: dot.percent
-Encoding: 1118413 -1 4614
+Encoding: 4854 -1 4597
 Width: 1354
 Flags: HW
 LayerCount: 2
@@ -23,5 +23,5 @@ SplineSet
  1128 -150 l 5
  900.940429688 77.05859375 l 5
 EndSplineSet
-Colour: ffff00
+Colour: ff0000
 EndChar

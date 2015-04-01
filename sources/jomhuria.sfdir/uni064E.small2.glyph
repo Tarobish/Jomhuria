@@ -1,10 +1,8 @@
 StartChar: uni064E.small2
-Encoding: 1118408 -1 4588
+Encoding: 4828 -1 4571
 Width: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "TashkilTashkilAbove" -40 2185 mark 0
-AnchorPoint: "TashkilAbove" -40 2185 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -27,5 +25,5 @@ SplineSet
  -216.982421875 2109.3046875 l 1
  -216.982421875 2182.20898438 l 1
 EndSplineSet
-Colour: ffff00
+Colour: ff0000
 EndChar

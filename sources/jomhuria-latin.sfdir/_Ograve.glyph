@@ -1,11 +1,13 @@
 StartChar: Ograve
-Encoding: 210 210 145
+Encoding: 210 210 142
 Width: 1417
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 399 -1 N 1 0 0 1 1135.95 0 2
-Refer: 48 79 N 1 0 0 1 0 0 2
+Refer: 46 79 N 1 0 0 1 0 0 2
+Refer: 395 -1 S 1 0 0 1 551.95 -4.85645 2
+LCarets2: 1 0
 Ligature2: "Latin composition subtable" O gravecomb
 Colour: ffffff
 EndChar

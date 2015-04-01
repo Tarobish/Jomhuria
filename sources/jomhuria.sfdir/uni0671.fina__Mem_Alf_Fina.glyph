@@ -1,12 +1,13 @@
 StartChar: uni0671.fina_MemAlfFina
-Encoding: 1117686 -1 3858
+Encoding: 4098 -1 3841
 Width: 508
 VWidth: 0
 Flags: HW
 AnchorPoint: "cursive" 508 -209 entry 0
 LayerCount: 2
+Back
 Fore
-Refer: 409 -1 N 1 0 0 1 110 0 2
-Refer: 257 -1 N 1 0 0 1 -204 260 2
+Refer: 255 -1 N 1 0 0 1 -204 260 2
+Refer: 392 -1 N 1 0 0 1 110 0 2
 Colour: ffffff
 EndChar

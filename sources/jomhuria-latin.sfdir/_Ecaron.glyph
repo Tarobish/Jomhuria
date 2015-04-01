@@ -1,11 +1,13 @@
 StartChar: Ecaron
-Encoding: 284 282 217
+Encoding: 284 282 214
 Width: 1308
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 38 69 N 1 0 0 1 0 0 2
-Refer: 409 -1 N 1 0 0 1 342 0 2
+Refer: 405 -1 S 1 0 0 1 312.769 0 2
+Refer: 36 69 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "Latin composition subtable" E uni030C
 Colour: ffffff
 EndChar

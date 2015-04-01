@@ -1,11 +1,13 @@
 StartChar: Egrave
-Encoding: 200 200 135
+Encoding: 200 200 132
 Width: 1308
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 399 -1 N 1 0 0 1 1085.77 0 2
-Refer: 38 69 N 1 0 0 1 0 0 2
+Refer: 36 69 N 1 0 0 1 0 0 2
+Refer: 395 -1 S 1 0 0 1 285.77 0 2
+LCarets2: 1 0
 Ligature2: "Latin composition subtable" E gravecomb
 Colour: ffffff
 EndChar

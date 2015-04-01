@@ -1,13 +1,14 @@
 StartChar: uni06CC.init_HighLD
-Encoding: 1118256 -1 4429
+Encoding: 4669 -1 4412
 Width: 302
 VWidth: 0
-Flags: HW
+Flags: H
 AnchorPoint: "TashkilAbove" 95 1640 basechar 0
 AnchorPoint: "TashkilBelow" 301 -980 basechar 0
 LayerCount: 2
+Back
 Fore
-Refer: 190 -1 N 1 0 0 1 0 0 2
-Refer: 299 -1 N 1 0 0 1 281 -890 2
+Refer: 297 -1 N 1 0 0 1 281 -890 2
+Refer: 189 -1 N 1 0 0 1 0 0 3
 Colour: ffffff
 EndChar

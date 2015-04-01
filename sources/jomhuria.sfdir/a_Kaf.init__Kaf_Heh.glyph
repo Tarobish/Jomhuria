@@ -1,15 +1,7 @@
 StartChar: aKaf.init_KafHeh
-Encoding: 1114391 -1 373
+Encoding: 613 -1 356
 Width: 1382
 Flags: HW
-AnchorPoint: "TwoDotsAbove" -140 1614 basechar 0
-AnchorPoint: "DotAbove" -30 1614 basechar 0
-AnchorPoint: "TwoDotsBelow" 115 -300 basechar 0
-AnchorPoint: "DotBelow" 225 -300 basechar 0
-AnchorPoint: "TashkilAbove" 370 1640 basechar 0
-AnchorPoint: "TashkilBelow" 400 -670 basechar 0
-AnchorPoint: "RingBelow" 650 1600 basechar 0
-AnchorPoint: "Dash" 669 1750 basechar 0
 LayerCount: 2
 Back
 SplineSet

@@ -1,11 +1,13 @@
 StartChar: Aring
-Encoding: 197 197 132
+Encoding: 197 197 129
 Width: 1464
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 402 -1 N 1 0 0 1 1721.96 -132 2
-Refer: 34 65 N 1 0 0 1 0 0 2
+Refer: 32 65 N 1 0 0 1 0 0 2
+Refer: 398 -1 S 1 0 0 1 1101.96 -26 2
+LCarets2: 1 0
 Ligature2: "Latin composition subtable" A uni030A
 Colour: ffffff
 EndChar

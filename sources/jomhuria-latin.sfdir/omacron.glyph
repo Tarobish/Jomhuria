@@ -1,11 +1,13 @@
 StartChar: omacron
-Encoding: 334 333 267
+Encoding: 334 333 264
 Width: 1316
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 329 772 N 1 0 0 1 1192.4 54 2
-Refer: 80 111 N 1 0 0 1 0 0 2
+Refer: 78 111 N 1 0 0 1 0 0 2
+Refer: 326 772 S 1 0 0 1 846.4 54 2
+LCarets2: 1 0
 Ligature2: "Latin composition subtable" o uni0304
 Colour: ffffff
 EndChar

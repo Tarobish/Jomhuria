@@ -1,11 +1,13 @@
 StartChar: igrave
-Encoding: 236 236 171
+Encoding: 236 236 168
 Width: 755
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 325 768 N 1 0 0 1 876.457 -8 2
-Refer: 240 305 N 1 0 0 1 0 0 2
+Refer: 237 305 N 1 0 0 1 0 0 2
+Refer: 322 768 S 1 0 0 1 66.457 -8 2
+LCarets2: 1 0
 Ligature2: "Latin composition subtable" i gravecomb
 Colour: ffffff
 EndChar

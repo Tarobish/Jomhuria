@@ -1,11 +1,13 @@
 StartChar: zdotaccent
-Encoding: 381 380 314
+Encoding: 381 380 311
 Width: 1174
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 332 775 N 1 0 0 1 1240.67 90 2
-Refer: 91 122 N 1 0 0 1 0 0 2
+Refer: 89 122 N 1 0 0 1 0 0 2
+Refer: 329 775 N 1 0 0 1 968.67 0 2
+LCarets2: 1 0
 Ligature2: "Latin composition subtable" z uni0307
 Colour: ffffff
 EndChar

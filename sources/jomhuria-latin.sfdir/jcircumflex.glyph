@@ -1,11 +1,13 @@
 StartChar: jcircumflex
-Encoding: 311 309 244
-Width: 1082
+Encoding: 311 309 241
+Width: 748
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 327 770 N 1 0 0 1 611.674 -10 2
-Refer: 317 567 N 1 0 0 1 6 0 2
+Refer: 314 567 N 1 0 0 1 0 0 2
+Refer: 324 770 S 1 0 0 1 869.674 -10 2
+LCarets2: 1 0
 Ligature2: "Latin composition subtable" j uni0302
 Colour: ffffff
 EndChar

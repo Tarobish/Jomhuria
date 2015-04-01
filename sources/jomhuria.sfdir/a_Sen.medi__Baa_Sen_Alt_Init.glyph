@@ -1,16 +1,7 @@
 StartChar: aSen.medi_BaaSenAltInit
-Encoding: 1114280 -1 172
+Encoding: 428 -1 172
 Width: 598
 Flags: HW
-AnchorPoint: "TashkilAbove" 14 1640 basechar 0
-AnchorPoint: "TwoDotsAbove" 114 739 basechar 0
-AnchorPoint: "TwoDotsBelow" 224 -200 basechar 0
-AnchorPoint: "DotAbove" 224 739 basechar 0
-AnchorPoint: "VAbove" 224 739 basechar 0
-AnchorPoint: "DigitAbove" 224 739 basechar 0
-AnchorPoint: "HamzaAbove" 224 937 basechar 0
-AnchorPoint: "TashkilBelow" 300 -670 basechar 0
-AnchorPoint: "DotBelow" 324 -300 basechar 0
 LayerCount: 2
 Back
 SplineSet

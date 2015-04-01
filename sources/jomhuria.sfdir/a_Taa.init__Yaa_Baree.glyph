@@ -1,11 +1,7 @@
 StartChar: aTaa.init_YaaBaree
-Encoding: 1118592 -1 4806
+Encoding: 5046 -1 4789
 Width: 2115
 Flags: HW
-AnchorPoint: "TwoDotsAbove" 670 1260 basechar 0
-AnchorPoint: "TashkilBelow" 700 -670 basechar 0
-AnchorPoint: "TashkilAbove" 700 1640 basechar 0
-AnchorPoint: "DotAbove" 785 1260 basechar 0
 LayerCount: 2
 Back
 SplineSet

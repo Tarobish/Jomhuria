@@ -1,9 +1,8 @@
 StartChar: uni06DB
-Encoding: 1755 1755 4601
+Encoding: 4841 1755 4584
 Width: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "MarkAbove" 379 2600 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -52,5 +51,5 @@ SplineSet
  372.330078125 2915.24414062 l 5
  411.564453125 2876.00878906 l 5
 EndSplineSet
-Colour: ffff00
+Colour: ff0000
 EndChar

@@ -1,10 +1,8 @@
 StartChar: vTwoDots.a
-Encoding: 1114315 -1 213
+Encoding: 468 -1 211
 Width: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "TashkilAboveDot" -40 590 basemark 0
-AnchorPoint: "DotAbove" 0 140 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -36,5 +34,5 @@ SplineSet
  0 563.806640625 l 5
  151.68359375 412.122070312 l 5
 EndSplineSet
-Colour: ffff00
+Colour: ff0000
 EndChar

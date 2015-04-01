@@ -1,5 +1,5 @@
 StartChar: four
-Encoding: 52 52 21
+Encoding: 52 52 19
 Width: 1233
 VWidth: -35
 Flags: HW
@@ -48,5 +48,5 @@ SplineSet
  608.086914062 877.078125 l 1
  355.426757812 518.122070312 l 1
 EndSplineSet
-Colour: ffff00
+Colour: ff0000
 EndChar

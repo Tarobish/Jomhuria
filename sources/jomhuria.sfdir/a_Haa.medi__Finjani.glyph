@@ -1,18 +1,7 @@
 StartChar: aHaa.medi_Finjani
-Encoding: 1114293 -1 185
+Encoding: 441 -1 184
 Width: 1095
 Flags: HW
-AnchorPoint: "TwoDotsAbove" 230 955 basechar 0
-AnchorPoint: "HamzaAbove" 340 955 basechar 0
-AnchorPoint: "DotAbove" 340 955 basechar 0
-AnchorPoint: "TaaAbove" 340 955 basechar 0
-AnchorPoint: "TashkilAbove" 340 1640 basechar 0
-AnchorPoint: "TwoDotsBelow" 460 -255 basechar 0
-AnchorPoint: "TashkilBelow" 570 -670 basechar 0
-AnchorPoint: "HamzaBelow" 570 -255 basechar 0
-AnchorPoint: "DotBelow" 570 -255 basechar 0
-AnchorPoint: "DigitBelow" 570 -255 basechar 0
-AnchorPoint: "TaaBelow" 570 145 basechar 0
 LayerCount: 2
 Back
 SplineSet

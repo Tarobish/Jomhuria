@@ -1,5 +1,5 @@
 StartChar: dot.2
-Encoding: 1114356 -1 296
+Encoding: 551 -1 294
 Width: 0
 Flags: HW
 LayerCount: 2
@@ -28,5 +28,5 @@ SplineSet
  -91.26953125 0 -165.287109375 74.017578125 -165.287109375 165.287109375 c 0
  -165.287109375 256.556640625 -91.26953125 330.57421875 0 330.57421875 c 0
 EndSplineSet
-Colour: ffff00
+Colour: ff0000
 EndChar

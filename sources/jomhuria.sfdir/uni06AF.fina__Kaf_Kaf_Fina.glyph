@@ -1,14 +1,15 @@
 StartChar: uni06AF.fina_KafKafFina
-Encoding: 1117135 -1 3307
+Encoding: 3547 -1 3290
 Width: 1699
 VWidth: 0
-Flags: HW
-AnchorPoint: "TashkilAbove" 750 1640 basechar 0
+Flags: H
 AnchorPoint: "TashkilBelow" 910 -670 basechar 0
+AnchorPoint: "TashkilAbove" 750 1640 basechar 0
 LayerCount: 2
+Back
 Fore
-Refer: 357 -1 N 1 0 0 1 0 0 2
-Refer: 297 -1 N 1 0 0 1 2345 1542 2
-Refer: 203 -1 N 1 0 0 1 732 679 2
+Refer: 201 -1 N 1 0 0 1 732 679 2
+Refer: 295 -1 N 1 0 0 1 2345 1542 2
+Refer: 340 -1 N 1 0 0 1 0 0 3
 Colour: ffffff
 EndChar

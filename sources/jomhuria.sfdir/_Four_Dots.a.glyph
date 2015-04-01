@@ -1,10 +1,8 @@
 StartChar: FourDots.a
-Encoding: 1114334 -1 240
+Encoding: 495 -1 238
 Width: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "TwoDotsAbove" -111 140 mark 0
-AnchorPoint: "TashkilAboveDot" -60 700 basemark 0
 LayerCount: 2
 Back
 SplineSet
@@ -57,5 +55,5 @@ SplineSet
  -0.21875 391.194335938 l 5
  -109.2421875 282.170898438 l 5
 EndSplineSet
-Colour: ffff00
+Colour: ff0000
 EndChar

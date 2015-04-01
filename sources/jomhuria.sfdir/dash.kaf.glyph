@@ -1,10 +1,8 @@
 StartChar: dash.kaf
-Encoding: 1114308 -1 204
+Encoding: 459 -1 202
 Width: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "Dash" -873 -42 mark 0
-AnchorPoint: "RingDash" -315 250 basemark 0
 LayerCount: 2
 Back
 SplineSet

@@ -1,12 +1,7 @@
 StartChar: aHeh.fina_KafHeh
-Encoding: 1114393 -1 375
+Encoding: 615 -1 358
 Width: 689
 Flags: HW
-AnchorPoint: "TwoDotsAbove" 59 870 basechar 0
-AnchorPoint: "HamzaAbove" 170 870 basechar 0
-AnchorPoint: "DotAbove" 170 870 basechar 0
-AnchorPoint: "TashkilAbove" 330 1640 basechar 0
-AnchorPoint: "TashkilBelow" 400 -670 basechar 0
 LayerCount: 2
 Back
 SplineSet

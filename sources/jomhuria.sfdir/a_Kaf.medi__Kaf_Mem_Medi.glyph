@@ -1,15 +1,7 @@
 StartChar: aKaf.medi_KafMemMedi
-Encoding: 1114399 -1 381
+Encoding: 621 -1 364
 Width: 1157
 Flags: HW
-AnchorPoint: "TwoDotsAbove" -331 1623 basechar 0
-AnchorPoint: "DotAbove" -221 1623 basechar 0
-AnchorPoint: "TwoDotsBelow" 340 0 basechar 0
-AnchorPoint: "TashkilAbove" 400 1750 basechar 0
-AnchorPoint: "DotBelow" 450 0 basechar 0
-AnchorPoint: "TashkilBelow" 500 -670 basechar 0
-AnchorPoint: "RingBelow" 570 1550 basechar 0
-AnchorPoint: "Dash" 583 1740 basechar 0
 LayerCount: 2
 Back
 SplineSet

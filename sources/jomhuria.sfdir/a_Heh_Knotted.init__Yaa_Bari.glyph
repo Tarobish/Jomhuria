@@ -1,9 +1,7 @@
 StartChar: aHehKnotted.init_YaaBari
-Encoding: 1118645 -1 5620
+Encoding: 5860 -1 5603
 Width: 2115
 Flags: HW
-AnchorPoint: "TashkilBelow" 600 -670 basechar 0
-AnchorPoint: "TashkilAbove" 600 1640 basechar 0
 LayerCount: 2
 Back
 SplineSet

@@ -1,21 +1,7 @@
 StartChar: aBaa.medi_KafBaaMedi
-Encoding: 1114267 -1 156
+Encoding: 412 -1 156
 Width: 367
 Flags: HW
-AnchorPoint: "TwoDotsAbove" 50 1360 basechar 0
-AnchorPoint: "DotAbove" 50 1360 basechar 0
-AnchorPoint: "DigitAbove" 50 1360 basechar 0
-AnchorPoint: "TashkilAbove" 50 1640 basechar 0
-AnchorPoint: "VAbove" 80 1300 basechar 0
-AnchorPoint: "TwoDotsBelow" 92 -250 basechar 0
-AnchorPoint: "HamzaAbove" 150 1300 basechar 0
-AnchorPoint: "RingBelow" 180 150 basechar 0
-AnchorPoint: "TaaAbove" 180 1210 basechar 0
-AnchorPoint: "TashkilBelow" 210 -670 basechar 0
-AnchorPoint: "DotBelow" 210 -350 basechar 0
-AnchorPoint: "DigitBelow" 210 -350 basechar 0
-AnchorPoint: "HighHamza" 280 1360 basechar 0
-AnchorPoint: "HamzaBelow" 310 -200 basechar 0
 LayerCount: 2
 Back
 SplineSet
