@@ -1,5 +1,5 @@
 StartChar: uni0765.init_MemHehInit
-Encoding: 4788 -1 4531
+Encoding: 4788 -1 4530
 Width: 780
 Flags: HW
 AnchorPoint: "TashkilAbove" 380 1640 basechar 0
@@ -8,6 +8,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 190 -1 N 1 0 0 1 435 845 2
-Refer: 4532 -1 N 1 0 0 1 0 0 2
+Refer: 4531 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

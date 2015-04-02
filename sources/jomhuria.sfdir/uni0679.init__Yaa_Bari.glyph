@@ -1,5 +1,5 @@
 StartChar: uni0679.init_YaaBari
-Encoding: 4976 -1 4719
+Encoding: 4976 -1 4718
 Width: 544
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 210 -1 N 1 0 0 1 -297 1324 2
-Refer: 4666 -1 N 1 0 0 1 0 0 3
+Refer: 4665 -1 N 1 0 0 1 0 0 3
 Colour: ffffff
 EndChar

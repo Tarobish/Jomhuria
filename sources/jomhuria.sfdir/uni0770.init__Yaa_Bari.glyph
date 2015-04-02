@@ -1,5 +1,5 @@
 StartChar: uni0770.init_YaaBari
-Encoding: 4911 -1 4654
+Encoding: 4911 -1 4653
 Width: 1500
 VWidth: 0
 Flags: H
@@ -10,6 +10,6 @@ Back
 Fore
 Refer: 210 -1 N 1 0 0 1 371 1365 2
 Refer: 191 -1 N 1 0 0 1 391 915 2
-Refer: 4640 -1 N 1 0 0 1 0 0 3
+Refer: 4639 -1 N 1 0 0 1 0 0 3
 Colour: ffffff
 EndChar

@@ -1,5 +1,5 @@
 StartChar: uni06BB.medi_YaaBari
-Encoding: 6064 -1 5807
+Encoding: 6064 -1 5806
 Width: 420
 VWidth: 0
 Flags: H
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 210 -1 N 1 0 0 1 80 670 2
-Refer: 5792 -1 N 1 0 0 1 0 0 3
+Refer: 5791 -1 N 1 0 0 1 0 0 3
 Colour: ffffff
 EndChar

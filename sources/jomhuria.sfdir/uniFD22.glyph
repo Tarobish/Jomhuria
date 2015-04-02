@@ -1,12 +1,12 @@
 StartChar: uniFD22
-Encoding: 5510 64802 5253
+Encoding: 5510 64802 5252
 Width: 2542
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 3027 -1 N 1 0 0 1 1496 0 2
+Refer: 3026 -1 N 1 0 0 1 1496 0 2
 Refer: 2790 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
