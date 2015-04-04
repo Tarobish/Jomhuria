@@ -1,12 +1,12 @@
 StartChar: uniFC9F
-Encoding: 64671 64671 5123
+Encoding: 64671 64671 5121
 Width: 899
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 2044 -1 N 1 0 0 1 0 0 2
-Refer: 2023 -1 N 1 0 0 1 356 0 2
+Refer: 2043 -1 N 1 0 0 1 0 0 2
+Refer: 2022 -1 N 1 0 0 1 356 0 2
 Colour: ffffff
 EndChar

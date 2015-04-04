@@ -1,5 +1,5 @@
 StartChar: uni075C.init_SenMemInit
-Encoding: 1117433 -1 3589
+Encoding: 1117433 -1 3588
 Width: 1077
 VWidth: 0
 Flags: HW
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilBelow" 613 -670 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 372 -1 N 1 0 0 1 0 0 2
-Refer: 239 -1 N 1 0 0 1 520 964 2
+Refer: 371 -1 N 1 0 0 1 0 0 2
+Refer: 238 -1 N 1 0 0 1 520 964 2
 Colour: ffffff
 EndChar

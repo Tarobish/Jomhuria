@@ -1,5 +1,5 @@
 StartChar: uni0753.medi
-Encoding: 1114565 -1 568
+Encoding: 1114565 -1 567
 Width: 624
 VWidth: 0
 Flags: HW
@@ -9,7 +9,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 10 -1 N 1 0 0 1 0 0 2
-Refer: 192 -1 N 1 0 0 1 67 697 2
-Refer: 196 -1 N 1 0 0 1 3 -364 2
+Refer: 191 -1 N 1 0 0 1 67 697 2
+Refer: 195 -1 N 1 0 0 1 3 -364 2
 Colour: ffffff
 EndChar

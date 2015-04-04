@@ -1,5 +1,5 @@
 StartChar: uni06A8.init_FaaHaaInit
-Encoding: 1115545 -1 1701
+Encoding: 1115545 -1 1700
 Width: 1197
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 106 -1 N 1 0 0 1 0 0 2
-Refer: 193 -1 N 1 0 0 1 96 1370 2
+Refer: 192 -1 N 1 0 0 1 96 1370 2
 Colour: ffffff
 EndChar

@@ -1,5 +1,5 @@
 StartChar: uni0757.fina_AboveHaaIsol
-Encoding: 1116784 -1 2940
+Encoding: 1116784 -1 2939
 Width: 213
 VWidth: 0
 Flags: HW
@@ -10,6 +10,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 179 -1 N 1 0 0 1 0 0 2
-Refer: 192 -1 N 1 0 0 1 338 970 2
+Refer: 191 -1 N 1 0 0 1 338 970 2
 Colour: ffffff
 EndChar

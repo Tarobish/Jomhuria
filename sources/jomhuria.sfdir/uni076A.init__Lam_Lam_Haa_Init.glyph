@@ -1,5 +1,5 @@
 StartChar: uni076A.init_LamLamHaaInit
-Encoding: 1115014 -1 1170
+Encoding: 1115014 -1 1169
 Width: 415
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 74 -1 N 1 0 0 1 0 0 2
-Refer: 326 -1 N 1 0 0 1 55 1122 2
+Refer: 325 -1 N 1 0 0 1 55 1122 2
 Colour: ffffff
 EndChar

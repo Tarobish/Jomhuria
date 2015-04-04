@@ -1,5 +1,5 @@
 StartChar: uni06B5.medi_LamMemMedi
-Encoding: 1116015 -1 2171
+Encoding: 1116015 -1 2170
 Width: 477
 VWidth: 0
 Flags: HW
@@ -10,6 +10,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 140 -1 N 1 0 0 1 0 0 2
-Refer: 208 1626 N 1 0 0 1 -75 348 2
+Refer: 207 1626 N 1 0 0 1 -75 348 2
 Colour: ffffff
 EndChar

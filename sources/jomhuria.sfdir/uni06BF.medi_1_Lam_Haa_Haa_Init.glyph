@@ -1,5 +1,5 @@
 StartChar: uni06BF.medi_1LamHaaHaaInit
-Encoding: 1117911 -1 4067
+Encoding: 1117911 -1 4066
 Width: 231
 VWidth: 0
 Flags: HW
@@ -10,7 +10,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 181 -1 N 1 0 0 1 0 0 2
-Refer: 191 -1 N 1 0 0 1 1011 1070 2
-Refer: 206 -1 N 1 0 0 1 1015 -670 2
+Refer: 190 -1 N 1 0 0 1 1011 1070 2
+Refer: 205 -1 N 1 0 0 1 1015 -670 2
 Colour: ffffff
 EndChar

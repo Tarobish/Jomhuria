@@ -1,5 +1,5 @@
 StartChar: uni06B8.medi_LamWawFina
-Encoding: 1114956 -1 1112
+Encoding: 1114956 -1 1111
 Width: 520
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 69 -1 N 1 0 0 1 0 0 2
-Refer: 206 -1 N 1 0 0 1 295 -540 2
+Refer: 205 -1 N 1 0 0 1 295 -540 2
 Colour: ffffff
 EndChar

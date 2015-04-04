@@ -1,5 +1,5 @@
 StartChar: uni0775.init_BaaSenAltInitLD
-Encoding: 1118189 -1 4346
+Encoding: 1118189 -1 4345
 Width: 449
 VWidth: 0
 Flags: HW
@@ -9,7 +9,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 171 -1 N 1 0 0 1 0 0 2
-Refer: 298 -1 N 1 0 0 1 263 -890 2
-Refer: 327 -1 N 1 0 0 1 143 898 2
+Refer: 297 -1 N 1 0 0 1 263 -890 2
+Refer: 326 -1 N 1 0 0 1 143 898 2
 Colour: ffffff
 EndChar

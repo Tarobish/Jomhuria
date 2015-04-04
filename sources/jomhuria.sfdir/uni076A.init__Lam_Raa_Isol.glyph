@@ -1,5 +1,5 @@
 StartChar: uni076A.init_LamRaaIsol
-Encoding: 1116457 -1 2613
+Encoding: 1116457 -1 2612
 Width: 444
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 162 -1 N 1 0 0 1 0 0 2
-Refer: 326 -1 N 1 0 0 1 187 1152 2
+Refer: 325 -1 N 1 0 0 1 187 1152 2
 Colour: ffffff
 EndChar

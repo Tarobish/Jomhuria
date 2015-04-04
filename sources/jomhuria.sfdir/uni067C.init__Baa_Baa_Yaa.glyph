@@ -1,5 +1,5 @@
 StartChar: uni067C.init_BaaBaaYaa
-Encoding: 1115281 -1 1437
+Encoding: 1115281 -1 1436
 Width: 417
 VWidth: 0
 Flags: HW
@@ -9,7 +9,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 88 -1 N 1 0 0 1 0 0 2
-Refer: 192 -1 N 1 0 0 1 99 1125 2
-Refer: 214 -1 N 1 0 0 1 123 390 2
+Refer: 191 -1 N 1 0 0 1 99 1125 2
+Refer: 213 -1 N 1 0 0 1 123 390 2
 Colour: ffffff
 EndChar

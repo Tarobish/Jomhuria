@@ -1,5 +1,5 @@
 StartChar: uni0646.medi_LamBaaMemInit
-Encoding: 1115114 -1 1270
+Encoding: 1115114 -1 1269
 Width: 288
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 81 -1 N 1 0 0 1 0 0 2
-Refer: 191 -1 N 1 0 0 1 17 1090 2
+Refer: 190 -1 N 1 0 0 1 17 1090 2
 Colour: ffffff
 EndChar

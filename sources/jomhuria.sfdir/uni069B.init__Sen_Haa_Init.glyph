@@ -1,5 +1,5 @@
 StartChar: uni069B.init_SenHaaInit
-Encoding: 1115898 -1 2054
+Encoding: 1115898 -1 2053
 Width: 1319
 VWidth: 0
 Flags: HW
@@ -10,6 +10,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 129 -1 N 1 0 0 1 0 0 2
-Refer: 206 -1 N 1 0 0 1 917 -490 2
+Refer: 205 -1 N 1 0 0 1 917 -490 2
 Colour: ffffff
 EndChar

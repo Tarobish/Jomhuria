@@ -1,5 +1,5 @@
 StartChar: uni063D.fina_PostTooth
-Encoding: 1116626 -1 2782
+Encoding: 1116626 -1 2781
 Width: 1496
 VWidth: 0
 Flags: HW
@@ -10,6 +10,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 174 -1 N 1 0 0 1 0 0 2
-Refer: 243 1627 N 1 0 0 1 455 -400 2
+Refer: 242 1627 N 1 0 0 1 455 -400 2
 Colour: ffffff
 EndChar

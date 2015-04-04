@@ -1,5 +1,5 @@
 StartChar: Dot.b
-Encoding: 1114302 -1 194
+Encoding: 1114302 -1 193
 Width: 0
 GlyphClass: 4
 Flags: HW
@@ -15,6 +15,6 @@ SplineSet
  0 0 l 5
  -151.594726562 151.59375 l 5
 EndSplineSet
-Refer: 191 -1 N 1 0 0 1 0 0 2
+Refer: 190 -1 N 1 0 0 1 0 0 2
 Colour: 100feff
 EndChar

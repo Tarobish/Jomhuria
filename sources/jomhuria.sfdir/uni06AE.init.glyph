@@ -1,5 +1,5 @@
 StartChar: uni06AE.init
-Encoding: 1114720 -1 770
+Encoding: 1114720 -1 769
 Width: 739
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 27 -1 N 1 0 0 1 0 0 2
-Refer: 206 -1 N 1 0 0 1 281 -622 2
+Refer: 205 -1 N 1 0 0 1 281 -622 2
 Colour: ffffff
 EndChar

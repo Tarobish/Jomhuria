@@ -1,5 +1,5 @@
 StartChar: uni0628.init_LD
-Encoding: 1117942 -1 4099
+Encoding: 1117942 -1 4098
 Width: 487
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 8 -1 N 1 0 0 1 0 0 2
-Refer: 297 -1 N 1 0 0 1 100 -890 2
+Refer: 296 -1 N 1 0 0 1 100 -890 2
 Colour: ffffff
 EndChar

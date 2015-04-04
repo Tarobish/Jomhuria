@@ -1,5 +1,5 @@
 StartChar: uni06B1.init
-Encoding: 1114726 -1 776
+Encoding: 1114726 -1 775
 Width: 739
 VWidth: 0
 Flags: HW
@@ -9,7 +9,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 27 -1 N 1 0 0 1 0 0 2
-Refer: 192 -1 N 1 0 0 1 348 1331 2
-Refer: 209 -1 N 1 0 0 1 285 1129 2
+Refer: 191 -1 N 1 0 0 1 348 1331 2
+Refer: 208 -1 N 1 0 0 1 285 1129 2
 Colour: ffffff
 EndChar

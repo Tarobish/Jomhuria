@@ -1,5 +1,5 @@
 StartChar: uni06B0.medi_KafYaaFina
-Encoding: 1115946 -1 2102
+Encoding: 1115946 -1 2101
 Width: 1000
 VWidth: 0
 Flags: HW
@@ -9,7 +9,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 133 -1 N 1 0 0 1 0 0 2
-Refer: 220 -1 N 1 0 0 1 697 1498 2
-Refer: 214 -1 N 1 0 0 1 460 1290 2
+Refer: 219 -1 N 1 0 0 1 697 1498 2
+Refer: 213 -1 N 1 0 0 1 460 1290 2
 Colour: ffffff
 EndChar

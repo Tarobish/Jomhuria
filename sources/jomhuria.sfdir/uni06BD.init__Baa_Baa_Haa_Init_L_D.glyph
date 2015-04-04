@@ -1,5 +1,5 @@
 StartChar: uni06BD.init_BaaBaaHaaInitLD
-Encoding: 1118115 -1 4272
+Encoding: 1118115 -1 4271
 Width: 330
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 145 -1 N 1 0 0 1 0 0 2
-Refer: 299 -1 N 1 0 0 1 206 -890 2
+Refer: 298 -1 N 1 0 0 1 206 -890 2
 Colour: ffffff
 EndChar

@@ -1,5 +1,5 @@
 StartChar: uni06B6.medi_LamLamHehFina
-Encoding: 1117891 -1 4047
+Encoding: 1117891 -1 4046
 Width: 308
 VWidth: 0
 Flags: HW
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilBelow" 146 -670 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 415 -1 N 1 0 0 1 0 0 2
-Refer: 191 -1 N 1 0 0 1 11 1428 2
+Refer: 414 -1 N 1 0 0 1 0 0 2
+Refer: 190 -1 N 1 0 0 1 11 1428 2
 Colour: ffffff
 EndChar

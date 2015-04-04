@@ -1,5 +1,5 @@
 StartChar: uni0777.init_AboveHaa
-Encoding: 1116637 -1 2793
+Encoding: 1116637 -1 2792
 Width: 1114
 VWidth: 0
 Flags: HW
@@ -10,6 +10,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 175 -1 N 1 0 0 1 0 0 2
-Refer: 330 -1 N 1 0 0 1 944 -683 2
+Refer: 329 -1 N 1 0 0 1 944 -683 2
 Colour: ffffff
 EndChar

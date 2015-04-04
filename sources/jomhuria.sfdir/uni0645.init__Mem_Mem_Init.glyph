@@ -1,5 +1,5 @@
 StartChar: uni0645.init_MemMemInit
-Encoding: 1117442 -1 3598
+Encoding: 1117442 -1 3597
 Width: 575
 VWidth: 0
 Flags: HW
@@ -8,6 +8,6 @@ AnchorPoint: "TashkilBelow" 374 -670 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 374 -1 N 1 0 0 1 0 0 2
+Refer: 373 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

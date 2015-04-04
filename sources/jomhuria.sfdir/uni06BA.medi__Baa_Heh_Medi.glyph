@@ -1,5 +1,5 @@
 StartChar: uni06BA.medi_BaaHehMedi
-Encoding: 1117766 -1 3922
+Encoding: 1117766 -1 3921
 Width: 638
 VWidth: 0
 Flags: HW
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilBelow" 336 -670 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 395 -1 N 1 0 0 1 0 0 2
-Refer: 191 -1 N 1 0 0 1 355 760 2
+Refer: 394 -1 N 1 0 0 1 0 0 2
+Refer: 190 -1 N 1 0 0 1 355 760 2
 Colour: ffffff
 EndChar

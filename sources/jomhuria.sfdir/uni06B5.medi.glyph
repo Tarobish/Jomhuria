@@ -1,5 +1,5 @@
 StartChar: uni06B5.medi
-Encoding: 1114757 -1 831
+Encoding: 1114757 -1 830
 Width: 722
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 33 -1 N 1 0 0 1 0 0 2
-Refer: 208 1626 N 1 0 0 1 172 267 2
+Refer: 207 1626 N 1 0 0 1 172 267 2
 Colour: ffffff
 EndChar

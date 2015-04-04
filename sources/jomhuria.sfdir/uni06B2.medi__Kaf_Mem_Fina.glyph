@@ -1,5 +1,5 @@
 StartChar: uni06B2.medi_KafMemFina
-Encoding: 1115666 -1 1822
+Encoding: 1115666 -1 1821
 Width: 958
 VWidth: 0
 Flags: HW
@@ -10,7 +10,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 115 -1 N 1 0 0 1 0 0 2
-Refer: 220 -1 N 1 0 0 1 750 1608 2
-Refer: 195 -1 N 1 0 0 1 641 -340 2
+Refer: 219 -1 N 1 0 0 1 750 1608 2
+Refer: 194 -1 N 1 0 0 1 641 -340 2
 Colour: ffffff
 EndChar

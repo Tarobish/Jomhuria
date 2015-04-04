@@ -1,5 +1,5 @@
 StartChar: uni076A.medi_LamLamMemInit
-Encoding: 1117868 -1 4024
+Encoding: 1117868 -1 4023
 Width: 584
 VWidth: 0
 Flags: HW
@@ -9,7 +9,7 @@ AnchorPoint: "cursive" 85 170 exit 0
 LayerCount: 2
 Back
 Fore
-Refer: 411 -1 N 1 0 0 1 0 0 2
-Refer: 326 -1 N 1 0 0 1 296 1064 2
+Refer: 410 -1 N 1 0 0 1 0 0 2
+Refer: 325 -1 N 1 0 0 1 296 1064 2
 Colour: ffffff
 EndChar

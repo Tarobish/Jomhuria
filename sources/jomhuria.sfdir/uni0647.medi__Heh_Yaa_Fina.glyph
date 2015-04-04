@@ -1,5 +1,5 @@
 StartChar: uni0647.medi_HehYaaFina
-Encoding: 1118605 -1 4814
+Encoding: 1118605 -1 4812
 Width: 898
 Flags: HW
 AnchorPoint: "TashkilBelow" 758 -670 basechar 0
@@ -7,6 +7,6 @@ AnchorPoint: "TashkilAbove" 770 1640 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 4813 -1 N 1 0 0 1 0 0 2
+Refer: 4811 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

@@ -1,5 +1,5 @@
 StartChar: uni0692.fina_KafRaaFina
-Encoding: 1115806 -1 1962
+Encoding: 1115806 -1 1961
 Width: 565
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 122 -1 N 1 0 0 1 -300 0 2
-Refer: 208 1626 N 1 0 0 1 100 -550 2
+Refer: 207 1626 N 1 0 0 1 100 -550 2
 Colour: ffffff
 EndChar

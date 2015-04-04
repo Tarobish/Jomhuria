@@ -1,5 +1,5 @@
 StartChar: uni075B.fina_BaaRaaFina
-Encoding: 1115780 -1 1936
+Encoding: 1115780 -1 1935
 Width: 598
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 120 -1 N 1 0 0 1 -300 0 2
-Refer: 326 -1 N 1 0 0 1 500 -70 2
+Refer: 325 -1 N 1 0 0 1 500 -70 2
 Colour: ffffff
 EndChar

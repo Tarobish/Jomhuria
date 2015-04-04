@@ -1,5 +1,5 @@
 StartChar: uni06B8.init_LamMemInit
-Encoding: 1115429 -1 1585
+Encoding: 1115429 -1 1584
 Width: 797
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 95 -1 N 1 0 0 1 0 0 2
-Refer: 206 -1 N 1 0 0 1 316 -695 2
+Refer: 205 -1 N 1 0 0 1 316 -695 2
 Colour: ffffff
 EndChar

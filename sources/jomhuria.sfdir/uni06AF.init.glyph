@@ -1,5 +1,5 @@
 StartChar: uni06AF.init
-Encoding: 1114721 -1 771
+Encoding: 1114721 -1 770
 Width: 739
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 27 -1 N 1 0 0 1 0 0 2
-Refer: 209 -1 N 1 0 0 1 285 1129 2
+Refer: 208 -1 N 1 0 0 1 285 1129 2
 Colour: ffffff
 EndChar

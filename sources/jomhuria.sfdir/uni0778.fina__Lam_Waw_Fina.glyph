@@ -1,5 +1,5 @@
 StartChar: uni0778.fina_LamWawFina
-Encoding: 1114963 -1 1119
+Encoding: 1114963 -1 1118
 Width: 656
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 70 -1 N 1 0 0 1 -300 0 2
-Refer: 327 -1 N 1 0 0 1 405 470 2
+Refer: 326 -1 N 1 0 0 1 405 470 2
 Colour: ffffff
 EndChar

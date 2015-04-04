@@ -1,5 +1,5 @@
 StartChar: uni0752.init_BaaBaaIsolLD
-Encoding: 1118152 -1 4309
+Encoding: 1118152 -1 4308
 Width: 487
 VWidth: 0
 Flags: HW
@@ -10,6 +10,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 150 -1 N 1 0 0 1 0 0 2
-Refer: 299 -1 N 1 0 0 1 231 -860 2
+Refer: 298 -1 N 1 0 0 1 231 -860 2
 Colour: ffffff
 EndChar

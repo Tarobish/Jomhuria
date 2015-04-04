@@ -1,5 +1,5 @@
 StartChar: uni075B.fina_HaaRaaIsol
-Encoding: 1116443 -1 2599
+Encoding: 1116443 -1 2598
 Width: 613
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 160 -1 N 1 0 0 1 -300 0 2
-Refer: 326 -1 N 1 0 0 1 580 -120 2
+Refer: 325 -1 N 1 0 0 1 580 -120 2
 Colour: ffffff
 EndChar

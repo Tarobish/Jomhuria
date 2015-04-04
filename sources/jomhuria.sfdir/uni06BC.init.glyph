@@ -1,5 +1,5 @@
 StartChar: uni06BC.init
-Encoding: 1114503 -1 487
+Encoding: 1114503 -1 486
 Width: 487
 VWidth: 0
 Flags: HW
@@ -9,7 +9,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 8 -1 N 1 0 0 1 0 0 2
-Refer: 191 -1 N 1 0 0 1 26 905 2
-Refer: 214 -1 N 1 0 0 1 34 80.9111 2
+Refer: 190 -1 N 1 0 0 1 26 905 2
+Refer: 213 -1 N 1 0 0 1 34 80.9111 2
 Colour: ffffff
 EndChar

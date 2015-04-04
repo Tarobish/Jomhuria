@@ -1,5 +1,5 @@
 StartChar: uni069E.medi_PreYaa
-Encoding: 1116871 -1 3027
+Encoding: 1116871 -1 3026
 Width: 1046
 VWidth: 0
 Flags: HW
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilBelow" 370 -670 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 189 -1 N 1 0 0 1 0 0 2
-Refer: 193 -1 N 1 0 0 1 275 840 2
+Refer: 188 -1 N 1 0 0 1 0 0 2
+Refer: 192 -1 N 1 0 0 1 275 840 2
 Colour: ffffff
 EndChar

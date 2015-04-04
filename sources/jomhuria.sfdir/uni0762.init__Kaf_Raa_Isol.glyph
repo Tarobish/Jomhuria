@@ -1,5 +1,5 @@
 StartChar: uni0762.init_KafRaaIsol
-Encoding: 1115916 -1 2072
+Encoding: 1115916 -1 2071
 Width: 1174
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 130 -1 N 1 0 0 1 0 0 2
-Refer: 191 -1 N 1 0 0 1 -200 1500 2
+Refer: 190 -1 N 1 0 0 1 -200 1500 2
 Colour: ffffff
 EndChar

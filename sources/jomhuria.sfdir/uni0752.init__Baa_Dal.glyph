@@ -1,5 +1,5 @@
 StartChar: uni0752.init_BaaDal
-Encoding: 1115158 -1 1314
+Encoding: 1115158 -1 1313
 Width: 349
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 83 -1 N 1 0 0 1 0 0 2
-Refer: 196 -1 N 1 0 0 1 30 -440 2
+Refer: 195 -1 N 1 0 0 1 30 -440 2
 Colour: ffffff
 EndChar

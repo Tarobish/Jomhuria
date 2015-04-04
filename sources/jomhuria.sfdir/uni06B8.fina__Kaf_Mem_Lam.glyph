@@ -1,5 +1,5 @@
 StartChar: uni06B8.fina_KafMemLam
-Encoding: 1117251 -1 3407
+Encoding: 1117251 -1 3406
 Width: 1275
 VWidth: 0
 Flags: HW
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilBelow" 760 -1433 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 354 -1 N 1 0 0 1 0 0 2
-Refer: 206 -1 N 1 0 0 1 680 -1390 2
+Refer: 353 -1 N 1 0 0 1 0 0 2
+Refer: 205 -1 N 1 0 0 1 680 -1390 2
 Colour: ffffff
 EndChar

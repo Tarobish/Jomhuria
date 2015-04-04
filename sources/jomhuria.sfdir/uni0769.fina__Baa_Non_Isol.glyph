@@ -1,5 +1,5 @@
 StartChar: uni0769.fina_BaaNonIsol
-Encoding: 1115657 -1 1813
+Encoding: 1115657 -1 1812
 Width: 1152
 VWidth: 0
 Flags: HW
@@ -9,7 +9,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 114 -1 N 1 0 0 1 0 0 2
-Refer: 191 -1 N 1 0 0 1 660 767 2
-Refer: 208 1626 N 1 0 0 1 610 217 2
+Refer: 190 -1 N 1 0 0 1 660 767 2
+Refer: 207 1626 N 1 0 0 1 610 217 2
 Colour: ffffff
 EndChar

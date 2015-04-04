@@ -1,5 +1,5 @@
 StartChar: uni06A6
-Encoding: 1702 1702 643
+Encoding: 1702 1702 642
 Width: 1675
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 15 -1 N 1 0 0 1 0 0 2
-Refer: 239 -1 N 1 0 0 1 1238 1272 2
+Refer: 238 -1 N 1 0 0 1 1238 1272 2
 Colour: ffffff
 EndChar

@@ -1,5 +1,5 @@
 StartChar: uni077C.medi_FaaHaaInit
-Encoding: 1115566 -1 1722
+Encoding: 1115566 -1 1721
 Width: 149
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 107 -1 N 1 0 0 1 0 0 2
-Refer: 330 -1 N 1 0 0 1 521 -960 2
+Refer: 329 -1 N 1 0 0 1 521 -960 2
 Colour: ffffff
 EndChar

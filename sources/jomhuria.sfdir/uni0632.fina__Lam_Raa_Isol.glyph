@@ -1,5 +1,5 @@
 StartChar: uni0632.fina_LamRaaIsol
-Encoding: 1116469 -1 2625
+Encoding: 1116469 -1 2624
 Width: 600
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 163 -1 N 1 0 0 1 -300 0 2
-Refer: 191 -1 N 1 0 0 1 371 806 2
+Refer: 190 -1 N 1 0 0 1 371 806 2
 Colour: ffffff
 EndChar

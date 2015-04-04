@@ -1,5 +1,5 @@
 StartChar: uni076A.init_LamAlfIsol
-Encoding: 1115438 -1 1594
+Encoding: 1115438 -1 1593
 Width: 1134
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 97 -1 N 1 0 0 1 0 0 2
-Refer: 326 -1 N 1 0 0 1 403 972 2
+Refer: 325 -1 N 1 0 0 1 403 972 2
 Colour: ffffff
 EndChar

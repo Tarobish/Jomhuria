@@ -1,11 +1,11 @@
 StartChar: uniFBDA
-Encoding: 64474 64474 4926
+Encoding: 64474 64474 4924
 Width: 971
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 988 -1 N 1 0 0 1 0 0 2
+Refer: 987 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

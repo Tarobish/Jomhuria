@@ -1,5 +1,5 @@
 StartChar: uni0755.medi_KafBaaMedi
-Encoding: 1116342 -1 2498
+Encoding: 1116342 -1 2497
 Width: 367
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 156 -1 N 1 0 0 1 0 0 2
-Refer: 251 -1 N 1 0 0 1 170 340 2
+Refer: 250 -1 N 1 0 0 1 170 340 2
 Colour: ffffff
 EndChar

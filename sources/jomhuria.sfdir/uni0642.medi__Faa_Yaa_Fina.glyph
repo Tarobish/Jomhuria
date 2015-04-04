@@ -1,5 +1,5 @@
 StartChar: uni0642.medi_FaaYaaFina
-Encoding: 1114983 -1 1139
+Encoding: 1114983 -1 1138
 Width: 873
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 72 -1 N 1 0 0 1 0 0 2
-Refer: 192 -1 N 1 0 0 1 509 1060 2
+Refer: 191 -1 N 1 0 0 1 509 1060 2
 Colour: ffffff
 EndChar

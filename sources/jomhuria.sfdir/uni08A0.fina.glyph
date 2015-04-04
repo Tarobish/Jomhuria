@@ -1,5 +1,5 @@
 StartChar: uni08A0.fina
-Encoding: 1118647 -1 5606
+Encoding: 1118647 -1 5604
 Width: 1738
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 7 -1 N 1 0 0 1 0 0 2
-Refer: 250 -1 N 1 0 0 1 798 626 2
+Refer: 249 -1 N 1 0 0 1 798 626 2
 Colour: ffffff
 EndChar

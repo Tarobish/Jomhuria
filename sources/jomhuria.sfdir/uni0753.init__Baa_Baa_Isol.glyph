@@ -1,5 +1,5 @@
 StartChar: uni0753.init_BaaBaaIsol
-Encoding: 1116189 -1 2345
+Encoding: 1116189 -1 2344
 Width: 654
 VWidth: 0
 Flags: HW
@@ -9,7 +9,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 150 -1 N 1 0 0 1 0 0 2
-Refer: 192 -1 N 1 0 0 1 293 685 2
-Refer: 196 -1 N 1 0 0 1 241 -500 2
+Refer: 191 -1 N 1 0 0 1 293 685 2
+Refer: 195 -1 N 1 0 0 1 241 -500 2
 Colour: ffffff
 EndChar
