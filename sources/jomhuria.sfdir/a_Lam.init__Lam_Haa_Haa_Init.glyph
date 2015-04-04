@@ -1,7 +1,14 @@
 StartChar: aLam.init_LamHaaHaaInit
-Encoding: 436 -1 180
+Encoding: 1114288 -1 180
 Width: 1002
 Flags: HW
+AnchorPoint: "TwoDotsAbove" 147 1775 basechar 0
+AnchorPoint: "TwoDotsBelow" 150 -400 basechar 0
+AnchorPoint: "VAbove" 267 1675 basechar 0
+AnchorPoint: "DotAbove" 267 1775 basechar 0
+AnchorPoint: "Stroke" 287 1226 basechar 0
+AnchorPoint: "TashkilAbove" 590 1640 basechar 0
+AnchorPoint: "TashkilBelow" 750 -670 basechar 0
 LayerCount: 2
 Back
 SplineSet

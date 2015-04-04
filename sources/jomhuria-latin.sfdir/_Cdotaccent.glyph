@@ -1,13 +1,12 @@
 StartChar: Cdotaccent
-Encoding: 268 266 198
+Encoding: 268 266 201
 Width: 1290
 Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 34 67 N 1 0 0 1 0 0 2
-Refer: 329 775 S 1 0 0 1 1079.34 303 2
-LCarets2: 1 0
+Refer: 332 775 N 1 0 0 1 1079.34 303 2
+Refer: 36 67 N 1 0 0 1 0 0 2
 Ligature2: "Latin composition subtable" C uni0307
 Colour: ffffff
 EndChar

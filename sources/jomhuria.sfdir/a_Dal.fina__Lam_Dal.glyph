@@ -1,7 +1,18 @@
 StartChar: aDal.fina_LamDal
-Encoding: 620 -1 363
+Encoding: 1114398 -1 364
 Width: 1000
 Flags: HW
+AnchorPoint: "TashkilAbove" 350 1640 basechar 0
+AnchorPoint: "TwoDotsBelow" 382 -326 basechar 0
+AnchorPoint: "RingBelow" 418 4 basechar 0
+AnchorPoint: "TashkilBelow" 442 -670 basechar 0
+AnchorPoint: "TwoDotsAbove" 482 1074 basechar 0
+AnchorPoint: "DotBelow" 492 -326 basechar 0
+AnchorPoint: "HamzaBelow" 492 -326 basechar 0
+AnchorPoint: "TaaAbove" 492 1024 basechar 0
+AnchorPoint: "VAbove" 492 1024 basechar 0
+AnchorPoint: "HamzaAbove" 592 1074 basechar 0
+AnchorPoint: "DotAbove" 592 1074 basechar 0
 LayerCount: 2
 Back
 SplineSet

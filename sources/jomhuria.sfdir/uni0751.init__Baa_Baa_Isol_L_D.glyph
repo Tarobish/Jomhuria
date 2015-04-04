@@ -1,5 +1,5 @@
 StartChar: uni0751.init_BaaBaaIsolLD
-Encoding: 4562 -1 4304
+Encoding: 1118149 -1 4306
 Width: 487
 VWidth: 0
 Flags: HW
@@ -9,8 +9,8 @@ AnchorPoint: "TashkilAbove" 250 1640 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 296 -1 N 1 0 0 1 230 -860 2
-Refer: 192 -1 N 1 0 0 1 293 685 2
-Refer: 150 -1 N 1 0 0 1 0 0 3
+Refer: 150 -1 N 1 0 0 1 0 0 2
+Refer: 193 -1 N 1 0 0 1 293 685 2
+Refer: 297 -1 N 1 0 0 1 230 -860 2
 Colour: ffffff
 EndChar

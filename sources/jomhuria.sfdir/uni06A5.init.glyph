@@ -1,5 +1,5 @@
 StartChar: uni06A5.init
-Encoding: 888 -1 631
+Encoding: 1114615 -1 632
 Width: 737
 VWidth: 0
 Flags: HW
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilBelow" 395 -733 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 205 -1 N 1 0 0 1 332 -622 2
-Refer: 14 -1 N 1 0 0 1 0 0 3
+Refer: 14 -1 N 1 0 0 1 0 0 2
+Refer: 206 -1 N 1 0 0 1 332 -622 2
 Colour: ffffff
 EndChar

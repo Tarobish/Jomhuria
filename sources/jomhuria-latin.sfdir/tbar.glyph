@@ -1,5 +1,5 @@
 StartChar: tbar
-Encoding: 360 359 290
+Encoding: 360 359 293
 Width: 622
 Flags: HW
 LayerCount: 2
@@ -39,5 +39,5 @@ SplineSet
  568.219726562 450.165039062 l 5
  -19.318359375 450.165039062 l 5
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

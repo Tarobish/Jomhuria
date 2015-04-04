@@ -1,15 +1,15 @@
 StartChar: uni0678.fina_LamYaaFina
-Encoding: 1767 -1 1510
+Encoding: 1115355 -1 1511
 Width: 961
 VWidth: 0
-Flags: H
+Flags: HW
 AnchorPoint: "TashkilAbove" 632 1055 basechar 0
 AnchorPoint: "TashkilBelow" 649 -760 basechar 0
 AnchorPoint: "AlefAbove" 382 535 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 243 1652 N 1 0 0 1 682 -415 2
-Refer: 92 -1 N 1 0 0 1 0 0 3
+Refer: 92 -1 N 1 0 0 1 0 0 2
+Refer: 244 1652 N 1 0 0 1 682 -415 2
 Colour: ffffff
 EndChar

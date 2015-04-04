@@ -1,5 +1,5 @@
 StartChar: minute
-Encoding: 442 8242 371
+Encoding: 442 8242 375
 Width: 653
 Flags: HW
 LayerCount: 2
@@ -27,5 +27,5 @@ SplineSet
  513.217773438 1618.91699219 l 5
  289.896484375 1617.25585938 l 5
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

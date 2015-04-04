@@ -1,7 +1,21 @@
 StartChar: aBaa.medi_BaaBaaYaa
-Encoding: 345 -1 89
+Encoding: 1114200 -1 89
 Width: 733
 Flags: HW
+AnchorPoint: "TwoDotsAbove" -2 1173 basechar 0
+AnchorPoint: "TaaAbove" 134 928 basechar 0
+AnchorPoint: "HamzaAbove" 134 1173 basechar 0
+AnchorPoint: "DotAbove" 134 1173 basechar 0
+AnchorPoint: "VAbove" 134 1173 basechar 0
+AnchorPoint: "DigitAbove" 134 1173 basechar 0
+AnchorPoint: "TashkilAbove" 196 1640 basechar 0
+AnchorPoint: "HighHamza" 257 1173 basechar 0
+AnchorPoint: "RingBelow" 368 604 basechar 0
+AnchorPoint: "TwoDotsBelow" 437 -619 basechar 0
+AnchorPoint: "HamzaBelow" 437 -619 basechar 0
+AnchorPoint: "DotBelow" 437 -619 basechar 0
+AnchorPoint: "DigitBelow" 437 -619 basechar 0
+AnchorPoint: "TashkilBelow" 515 -760 basechar 0
 LayerCount: 2
 Back
 SplineSet

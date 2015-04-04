@@ -1,13 +1,13 @@
 StartChar: uni0645.medi_LamMemHaaInit
-Encoding: 2393 -1 2136
+Encoding: 1115981 -1 2137
 Width: 610
 VWidth: 0
-Flags: H
+Flags: HW
 AnchorPoint: "TashkilAbove" 410 1640 basechar 0
 AnchorPoint: "TashkilBelow" 520 -670 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 136 -1 N 1 0 0 1 0 0 3
+Refer: 136 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

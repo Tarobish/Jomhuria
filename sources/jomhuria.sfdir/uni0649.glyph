@@ -1,5 +1,5 @@
 StartChar: uni0649
-Encoding: 1293 1609 1036
+Encoding: 1609 1609 1037
 Width: 1354
 VWidth: 0
 Flags: HW
@@ -10,6 +10,6 @@ AnchorPoint: "AlefAbove" 600 350 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 63 -1 N 1 0 0 1 0 161 3
+Refer: 63 -1 N 1 0 0 1 0 161 2
 Colour: ffffff
 EndChar

@@ -1,5 +1,5 @@
 StartChar: uni0612
-Encoding: 5060 1554 4802
+Encoding: 1554 1554 4804
 Width: 0
 GlyphClass: 4
 Flags: HW
@@ -39,5 +39,5 @@ SplineSet
  267.478515625 1862.17382812 144.765625 1837.96484375 120 1730 c 5
  -3.826171875 1730 l 5
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

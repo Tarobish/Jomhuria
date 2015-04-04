@@ -1,8 +1,11 @@
 StartChar: ThreeDots.a
-Encoding: 449 -1 192
+Encoding: 1114301 -1 193
 Width: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "TashkilAboveDot" -119 657 basemark 0
+AnchorPoint: "TwoDotsAbove" -111 140 mark 0
+AnchorPoint: "DotHmaza" 0 0 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -48,5 +51,5 @@ SplineSet
  1.78125 540.641601562 l 5
  153.46484375 389.047851562 l 5
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

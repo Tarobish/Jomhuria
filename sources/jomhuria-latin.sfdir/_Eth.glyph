@@ -1,5 +1,5 @@
 StartChar: Eth
-Encoding: 208 208 140
+Encoding: 208 208 143
 Width: 1420
 Flags: HW
 LayerCount: 2
@@ -22,5 +22,5 @@ SplineSet
  882 417 l 5
  140 417 l 5
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

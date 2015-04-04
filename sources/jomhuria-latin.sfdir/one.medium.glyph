@@ -1,11 +1,11 @@
 StartChar: one.medium
-Encoding: 533 -1 464
+Encoding: 533 -1 468
 Width: 900
 VWidth: 50
 Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 16 49 S 0.8 0 0 0.8 14.4004 0 2
+Refer: 18 49 N 0.8 0 0 0.8 14.4004 0 2
 Colour: ffffff
 EndChar

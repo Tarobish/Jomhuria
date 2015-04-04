@@ -1,8 +1,8 @@
 StartChar: uni0648.fina
-Encoding: 1253 -1 996
+Encoding: 1114872 -1 997
 Width: 708
 VWidth: 0
-Flags: H
+Flags: HW
 AnchorPoint: "AlefAbove" 500 650 basechar 0
 AnchorPoint: "TashkilAbove" 300 1640 basechar 0
 AnchorPoint: "TashkilBelow" 500 -670 basechar 0

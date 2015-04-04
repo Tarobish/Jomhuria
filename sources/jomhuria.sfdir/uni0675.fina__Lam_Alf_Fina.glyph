@@ -1,5 +1,5 @@
 StartChar: uni0675.fina_LamAlfFina
-Encoding: 2423 -1 2166
+Encoding: 1116011 -1 2167
 Width: 847
 VWidth: 0
 Flags: HW
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilBelow" 320 -670 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 243 1652 S 1 0 0 1 289 126 2
-Refer: 139 -1 N 1 0 0 1 0 0 3
+Refer: 139 -1 N 1 0 0 1 0 0 2
+Refer: 244 1652 N 1 0 0 1 289 126 2
 Colour: ffffff
 EndChar

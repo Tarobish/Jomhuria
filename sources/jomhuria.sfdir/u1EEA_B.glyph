@@ -1,5 +1,5 @@
 StartChar: u1EEAB
-Encoding: 6213 126635 5955
+Encoding: 126635 126635 5957
 Width: 1287
 Flags: HW
 LayerCount: 2
@@ -71,5 +71,5 @@ SplineSet
  1065.86132812 1529.32226562 l 5
  1177.38867188 1095.82519531 l 5
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

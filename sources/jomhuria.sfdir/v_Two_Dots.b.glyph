@@ -1,5 +1,5 @@
 StartChar: vTwoDots.b
-Encoding: 469 -1 212
+Encoding: 1114316 -1 213
 Width: 0
 GlyphClass: 4
 Flags: HW
@@ -8,6 +8,6 @@ AnchorPoint: "DotBelow" 0 140 mark 0
 LayerCount: 2
 Back
 Fore
-Refer: 211 -1 N 1 0 0 1 40 -190 2
+Refer: 212 -1 N 1 0 0 1 40 -190 2
 Colour: ffffff
 EndChar

@@ -1,7 +1,16 @@
 StartChar: aKaf.fina_LamKafIsol
-Encoding: 658 -1 401
+Encoding: 1114436 -1 402
 Width: 1732
 Flags: HW
+AnchorPoint: "TwoDotsBelow" 610 -225 basechar 0
+AnchorPoint: "HamzaAbove" 668 581 basechar 0
+AnchorPoint: "TashkilBelow" 720 -740 basechar 0
+AnchorPoint: "DotBelow" 720 -225 basechar 0
+AnchorPoint: "TashkilAbove" 720 1640 basechar 0
+AnchorPoint: "RingBelow" 740 -5 basechar 0
+AnchorPoint: "TwoDotsAbove" 1220 1575 basechar 0
+AnchorPoint: "DotAbove" 1400 1575 basechar 0
+AnchorPoint: "Dash" 1443 1347 basechar 0
 LayerCount: 2
 Back
 SplineSet

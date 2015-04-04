@@ -1,5 +1,5 @@
 StartChar: uni08E8
-Encoding: 6312 2280 6054
+Encoding: 2280 2280 6056
 Width: 0
 Flags: HW
 AnchorPoint: "MarkAbove" 569 1640 mark 0
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilAbove" 570 1640 mark 0
 LayerCount: 2
 Back
 Fore
-Refer: 6051 2277 N -1 0 0 -1 896.225 4416.76 2
-Refer: 6051 2277 N 1 0 0 1 0 0 2
+Refer: 6053 2277 N 1 0 0 1 0 0 2
+Refer: 6053 2277 N -1 0 0 -1 896.225 4416.76 2
 Colour: ffffff
 EndChar

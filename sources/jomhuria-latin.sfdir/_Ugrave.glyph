@@ -1,13 +1,12 @@
 StartChar: Ugrave
-Encoding: 217 217 149
+Encoding: 217 217 152
 Width: 1327
 Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 52 85 N 1 0 0 1 0 0 2
-Refer: 395 -1 S 1 0 0 1 646.38 0 2
-LCarets2: 1 0
+Refer: 399 -1 N 1 0 0 1 646.38 0 2
+Refer: 54 85 N 1 0 0 1 0 0 2
 Ligature2: "Latin composition subtable" U gravecomb
 Colour: ffffff
 EndChar

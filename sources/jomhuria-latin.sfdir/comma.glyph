@@ -1,5 +1,5 @@
 StartChar: comma
-Encoding: 44 44 12
+Encoding: 44 44 14
 Width: 555
 Flags: HW
 LayerCount: 2
@@ -31,5 +31,5 @@ SplineSet
  173.171875 -83.12109375 231.081054688 -41.837890625 256.848632812 0 c 5
  174.557617188 9.1435546875 110 78.412109375 110 163.473632812 c 4
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

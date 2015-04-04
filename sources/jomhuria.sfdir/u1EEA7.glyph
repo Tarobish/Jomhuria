@@ -1,5 +1,5 @@
 StartChar: u1EEA7
-Encoding: 6210 126631 5952
+Encoding: 126631 126631 5954
 Width: 1380
 Flags: HW
 LayerCount: 2
@@ -76,5 +76,5 @@ SplineSet
  1270.88183594 795.569335938 l 5
  1185.64941406 534.68359375 l 5
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

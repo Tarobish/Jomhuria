@@ -1,5 +1,5 @@
 StartChar: uni0773.fina_LamAlfIsol
-Encoding: 1854 -1 1597
+Encoding: 1115442 -1 1598
 Width: 777
 VWidth: 0
 Flags: HW
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilBelow" 389 -670 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 326 -1 S 0.785239 0 0 0.770706 358.47 1017.36 2
 Refer: 98 -1 N 1 0 0 1 79 0 2
+Refer: 327 -1 N 0.785239 0 0 0.770706 358.47 1017.36 2
 Colour: ffffff
 EndChar

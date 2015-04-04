@@ -1,8 +1,12 @@
 StartChar: TwoDots.a
-Encoding: 448 -1 191
+Encoding: 1114300 -1 192
 Width: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "TwoDotsAbove" -111 140 mark 0
+AnchorPoint: "TashkilAboveDot" -20 450 basemark 0
+AnchorPoint: "MarkDotAbove" -20 450 basemark 0
+AnchorPoint: "DotHmaza" 0 0 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -34,5 +38,5 @@ SplineSet
  281.68359375 151.7734375 l 5
  130 0 l 5
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

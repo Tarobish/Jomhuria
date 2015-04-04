@@ -1,5 +1,5 @@
 StartChar: uni075D.medi
-Encoding: 717 -1 460
+Encoding: 1114477 -1 461
 Width: 988
 VWidth: 0
 Flags: HW
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilBelow" 300 -670 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 191 -1 N 1 0 0 1 463 948 2
-Refer: 6 -1 N 1 0 0 1 0 0 3
+Refer: 6 -1 N 1 0 0 1 0 0 2
+Refer: 192 -1 N 1 0 0 1 463 948 2
 Colour: ffffff
 EndChar

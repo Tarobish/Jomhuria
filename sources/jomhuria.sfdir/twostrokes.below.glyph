@@ -1,5 +1,5 @@
 StartChar: twostrokes.below
-Encoding: 509 -1 252
+Encoding: 1114343 -1 253
 Width: 0
 GlyphClass: 4
 Flags: HW
@@ -38,5 +38,5 @@ SplineSet
  -69.205078125 317.706054688 l 5
  64.9365234375 412.451171875 l 1
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

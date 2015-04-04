@@ -1,5 +1,5 @@
 StartChar: acutecomb
-Encoding: 393 769 323
+Encoding: 393 769 326
 Width: 653
 GlyphClass: 4
 Flags: HW
@@ -28,5 +28,5 @@ SplineSet
  391.114257812 1415.93847656 l 5
  167.79296875 1414.27734375 l 5
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

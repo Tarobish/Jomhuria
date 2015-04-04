@@ -1,8 +1,10 @@
 StartChar: uni06E0
-Encoding: 4823 1760 4565
+Encoding: 1760 1760 4567
 Width: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "MarkAbove" 368 1640 mark 0
+AnchorPoint: "TashkilAbove" 372 1640 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -44,5 +46,5 @@ SplineSet
  330.735351562 1768.90136719 342.087890625 1757.54785156 356.112304688 1757.54785156 c 4
  370.13671875 1757.54785156 381.490234375 1769.23535156 381.490234375 1783.25878906 c 6
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

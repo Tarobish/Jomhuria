@@ -1,5 +1,5 @@
 StartChar: kgreenlandic
-Encoding: 314 312 244
+Encoding: 314 312 247
 Width: 1439
 Flags: HW
 LayerCount: 2
@@ -88,5 +88,5 @@ SplineSet
  615.456054688 469.9140625 l 1
  1082.046875 986.930664062 l 1
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

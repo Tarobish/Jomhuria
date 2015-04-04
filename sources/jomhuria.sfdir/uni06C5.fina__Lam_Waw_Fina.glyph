@@ -1,14 +1,14 @@
 StartChar: uni06C5.fina_LamWawFina
-Encoding: 1379 -1 1122
+Encoding: 1114967 -1 1123
 Width: 656
 VWidth: 0
-Flags: H
+Flags: HW
 AnchorPoint: "TashkilAbove" 305 1640 basechar 0
 AnchorPoint: "TashkilBelow" 440 -670 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 325 -1 N 1 0 0 1 570 -150 2
 Refer: 70 -1 N 1 0 0 1 -300 0 2
+Refer: 326 -1 N 1 0 0 1 570 -150 2
 Colour: ffffff
 EndChar

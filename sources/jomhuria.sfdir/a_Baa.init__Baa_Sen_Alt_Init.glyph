@@ -1,5 +1,5 @@
 StartChar: aBaa.init_BaaSenAltInit
-Encoding: 427 -1 171
+Encoding: 1114279 -1 171
 Width: 449
 Flags: HW
 AnchorPoint: "DotAbove" 120 1262 basechar 0
@@ -21,6 +21,6 @@ AnchorPoint: "TashkilAbove" 143 1640 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 117 -1 N 1 0 0 1 0 -138 3
+Refer: 117 -1 N 1 0 0 1 0 -138 2
 Colour: ffffff
 EndChar

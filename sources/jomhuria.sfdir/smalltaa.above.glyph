@@ -1,9 +1,13 @@
 StartChar: smalltaa.above
-Encoding: 467 -1 210
+Encoding: 1114314 -1 211
 Width: 942
 VWidth: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "MarkDotAbove" -40 750 basemark 0
+AnchorPoint: "TashkilAboveDot" -40 750 basemark 0
+AnchorPoint: "TaaAbove" 0 0 mark 0
+AnchorPoint: "MarkDotAbove" 0 0 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -48,5 +52,5 @@ SplineSet
  121.443359375 111.025390625 l 5
  121.443359375 111.025390625 142.313476562 176.138671875 86.939453125 176.138671875 c 4
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

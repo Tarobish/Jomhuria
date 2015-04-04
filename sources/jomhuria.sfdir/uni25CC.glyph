@@ -1,7 +1,9 @@
 StartChar: uni25CC
-Encoding: 4867 9676 4609
+Encoding: 9676 9676 4611
 Width: 1392
 Flags: HW
+AnchorPoint: "MarkBelow" 696 -510 basechar 0
+AnchorPoint: "MarkAbove" 696 1210 basechar 0
 LayerCount: 2
 Back
 SplineSet

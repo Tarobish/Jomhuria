@@ -1,5 +1,5 @@
 StartChar: dcroat
-Encoding: 275 273 205
+Encoding: 275 273 208
 Width: 1420
 VWidth: 0
 Flags: HW
@@ -35,6 +35,5 @@ SplineSet
  551.729492188 242.9921875 614.901367188 180.096679688 692.204101562 180.096679688 c 2
  749.8359375 178.989257812 l 1
 EndSplineSet
-Refer: 140 208 S 0.822102 0 0 1 507.906 632.869 2
-Colour: ff0000
+Colour: ffff00
 EndChar

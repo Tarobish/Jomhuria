@@ -1,11 +1,11 @@
 StartChar: uni08FB
-Encoding: 6328 2299 6070
+Encoding: 2299 2299 6072
 Width: 0
 Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 6067 2296 S 1 0 0 1 390 0 2
-Refer: 6067 2296 N 1 0 0 1 0 0 2
+Refer: 6069 2296 N 1 0 0 1 0 0 2
+Refer: 6069 2296 N 1 0 0 1 390 0 2
 Colour: ffffff
 EndChar

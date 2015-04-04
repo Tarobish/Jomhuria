@@ -1,7 +1,9 @@
 StartChar: aMem.medi_LamHaaMemInit
-Encoding: 357 -1 101
+Encoding: 1114212 -1 101
 Width: 303
 Flags: HW
+AnchorPoint: "TashkilAbove" 100 1640 basechar 0
+AnchorPoint: "TashkilBelow" 190 -670 basechar 0
 LayerCount: 2
 Back
 SplineSet

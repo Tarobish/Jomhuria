@@ -1,5 +1,5 @@
 StartChar: second
-Encoding: 443 8243 372
+Encoding: 443 8243 376
 Width: 653
 Flags: HW
 LayerCount: 2
@@ -45,5 +45,5 @@ SplineSet
  513.217773438 1618.91699219 l 1
  289.896484375 1617.25585938 l 1
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

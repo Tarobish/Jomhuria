@@ -1,5 +1,5 @@
 StartChar: tildecomb.cap
-Encoding: 470 -1 399
+Encoding: 470 -1 403
 Width: 0
 GlyphClass: 4
 Flags: HW
@@ -50,5 +50,5 @@ SplineSet
  -481.59765625 1597.95898438 -378.147460938 1538.75 -378.147460938 1538.75 c 5
  -320.600585938 1511.88867188 -302.388671875 1550.80664062 -302.388671875 1582.07519531 c 6
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar
