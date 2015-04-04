@@ -21,11 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1273266481
-<<<<<<< HEAD
-ModificationTime: 1428174597
-=======
-ModificationTime: 1428104390
->>>>>>> origin/master
+ModificationTime: 1428175193
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -98,17 +94,13 @@ LangName: 1033 "" "" "" "" "" "" "" "" "" "Khaled Hosny" "Amiri is a classical A
 LangName: 3073 "+Bi0GQgZIBkIA +BicGRAZGBjQGMQAA 2010-2013+BgwA +Bi4GJwZEBi8A +Bi0GMwZGBkoA <khaledhosny@eglug.org>.+AAoACgYqBk8GMQYuBlEGNQAA +BigGMQZFBiwGSgYp +BicGRAYuBjcA +BkcGMAZH +BigGMQYuBjUGKQAA +BicGRAYuBjcGSAY3 +BicGRAYtBjEGKQAA +BicGRAYlBjUGLwYnBjEGKQAA 1,1." "" "+BjkGJwYvBkoA" "" "" "+BiUGNQYvBicGMQYp VERSION" "" "" "" "+Bi4GJwZEBi8A +Bi0GMwZGBkoA" "+BicGRAYuBjcA +BicGRAYjBkUGSgYxBkoA +BkcGSAAA +BiUGLQZKBicGIQAA +BkQGLgY3 +BicGRAZGBjMGLgAA +BicGRAYwBkoA +BjUGTwZFBkUA +BkgGJwYzBioGLgYvBkUA +BkQGRAZFBjEGKQAA +BicGRAYjBkgGRAZK +BkEGSgAA +BkUGKAY3BjkGKQAA +BigGSAZEBicGQgAA +BigGJwZEBkIGJwZHBjEGKQAA )+BioGOQYxBkEA +BiMGSgY2BicA +BigGJwZEBkUGNwYoBjkGKQAA +BicGRAYjBkUGSgYxBkoGKQAA( +BkEGSgAA +BiMGSAYnBiYGRAAA +BicGRAZCBjEGRgAA +BicGRAY5BjQGMQZKBkYA.  +BioGRQZKBjIA +BicGRAYuBjcA +BicGRAYjBkUGSgYxBkoA +BkYGJwYoBjkA +BkUGRgAA +BkUGSAYyBicGRgYqBkcA +BicGRAZFBioGRQZKBjIGKQAA +BigGSgZG +BiwGRQYnBkQA +Bi4GNwAA +BicGRAZGBjMGLgAA +BkgGRQYqBjcGRAYoBicGKgAA +BicGRAY3BigGJwY5BikA +BicGRAYxBicGQgZKBikA. +BicGRAYuBjcA +BicGRAYjBkUGSgYxBkoA +BkUGSAYsBkcA +BiMGQwYrBjEA +BkQGNwYoBicGOQYp +BicGRAZGBjUGSAY1 +BicGRAY3BkgGSgZEBikA +BkgGJwZEBkMGKgYo."
 GaspTable: 1 65535 15 1
 Encoding: UnicodeFull
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL without afii
-DisplaySize: -24
+DisplaySize: -96
 AntiAlias: 1
-<<<<<<< HEAD
 FitToEm: 1
-WinInfo: 5916 17 10
-=======
-FitToEm: 0
-WinInfo: 0 64 18
->>>>>>> origin/master
+WinInfo: 1102 19 9
 BeginPrivate: 0
 EndPrivate
 Grid

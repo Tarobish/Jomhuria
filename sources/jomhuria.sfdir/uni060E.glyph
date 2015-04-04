@@ -1,11 +1,6 @@
 StartChar: uni060E
-<<<<<<< HEAD
-Encoding: 5064 1550 4806
-Width: 2794
-=======
 Encoding: 1550 1550 4808
 Width: 1866
->>>>>>> origin/master
 VWidth: 1000
 Flags: HW
 LayerCount: 2
