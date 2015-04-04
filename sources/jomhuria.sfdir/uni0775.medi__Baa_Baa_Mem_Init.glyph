@@ -1,15 +1,15 @@
 StartChar: uni0775.medi_BaaBaaMemInit
-Encoding: 2686 -1 2429
+Encoding: 1116274 -1 2430
 Width: 373
 VWidth: 0
-Flags: H
+Flags: HW
 AnchorPoint: "TashkilAbove" 156 1640 basechar 0
 AnchorPoint: "TashkilBelow" 76 -670 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 326 -1 N 1 0 0 1 -64 778 2
-Refer: 194 -1 N 1 0 0 1 76 -430 2
-Refer: 153 -1 N 1 0 0 1 0 0 3
+Refer: 153 -1 N 1 0 0 1 0 0 2
+Refer: 195 -1 N 1 0 0 1 76 -430 2
+Refer: 327 -1 N 1 0 0 1 -64 778 2
 Colour: ffffff
 EndChar

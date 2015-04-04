@@ -1,15 +1,15 @@
 StartChar: uni069C.medi_BaaSenInit
-Encoding: 2141 -1 1884
+Encoding: 1115729 -1 1885
 Width: 1008
 VWidth: 0
-Flags: H
+Flags: HW
 AnchorPoint: "TashkilAbove" 460 1640 basechar 0
 AnchorPoint: "TashkilBelow" 670 -670 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 205 -1 N 1 0 0 1 645 -590 2
-Refer: 192 -1 N 1 0 0 1 631 700 2
-Refer: 118 -1 N 1 0 0 1 0 0 3
+Refer: 118 -1 N 1 0 0 1 0 0 2
+Refer: 193 -1 N 1 0 0 1 631 700 2
+Refer: 206 -1 N 1 0 0 1 645 -590 2
 Colour: ffffff
 EndChar

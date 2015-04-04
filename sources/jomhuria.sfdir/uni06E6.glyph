@@ -1,8 +1,9 @@
 StartChar: uni06E6
-Encoding: 4835 1766 4577
+Encoding: 1766 1766 4579
 Width: 834
 VWidth: 0
 Flags: HW
+AnchorPoint: "TashkilAbove" 419 855 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -43,5 +44,5 @@ SplineSet
  222.53125 115.200195312 247.852539062 75.4091796875 286.80859375 75.4091796875 c 4
  330.49609375 75.4091796875 329.939453125 114.921875 384.478515625 114.921875 c 5
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

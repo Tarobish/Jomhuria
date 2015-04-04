@@ -1,5 +1,5 @@
 StartChar: uni062D
-Encoding: 948 1581 691
+Encoding: 1581 1581 692
 Width: 1380
 VWidth: 0
 Flags: HW
@@ -9,8 +9,8 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-1683 598 m 1054
+1683 598 m 1028
 EndSplineSet
-Refer: 19 -1 N 1 0 0 1 0 0 3
-Colour: ffffff
+Refer: 19 -1 N 1 0 0 1 0 0 2
+Colour: 100feff
 EndChar

@@ -1,14 +1,14 @@
 StartChar: uni08A0.medi_LamBaaMemInit
-Encoding: 5868 -1 5610
+Encoding: 1118652 -1 5612
 Width: 288
 VWidth: 0
-Flags: H
+Flags: HW
 AnchorPoint: "TashkilAbove" 50 1640 basechar 0
 AnchorPoint: "TashkilBelow" 227 -820 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 249 -1 N 1 0 0 1 227 340 2
-Refer: 81 -1 N 1 0 0 1 0 0 3
+Refer: 81 -1 N 1 0 0 1 0 0 2
+Refer: 250 -1 N 1 0 0 1 227 340 2
 Colour: ffffff
 EndChar

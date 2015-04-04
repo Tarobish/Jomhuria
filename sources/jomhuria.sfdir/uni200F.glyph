@@ -1,5 +1,5 @@
 StartChar: uni200F
-Encoding: 564 8207 307
+Encoding: 8207 8207 308
 Width: 0
 Flags: HW
 LayerCount: 2
@@ -39,5 +39,5 @@ SplineSet
  -96.052734375 987.856445312 l 5
  -96.052734375 1124.20410156 l 5
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

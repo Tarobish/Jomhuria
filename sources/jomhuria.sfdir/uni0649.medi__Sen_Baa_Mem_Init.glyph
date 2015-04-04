@@ -1,8 +1,8 @@
 StartChar: uni0649.medi_SenBaaMemInit
-Encoding: 2568 -1 2311
+Encoding: 1116156 -1 2312
 Width: 446
 VWidth: 0
-Flags: H
+Flags: HW
 AnchorPoint: "HamzaBelow" 478 -220 basechar 0
 AnchorPoint: "AlefAbove" 150 1110 basechar 0
 AnchorPoint: "TashkilAbove" 496 1640 basechar 0
@@ -10,6 +10,6 @@ AnchorPoint: "TashkilBelow" 478 -670 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 148 -1 N 1 0 0 1 0 0 3
+Refer: 148 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

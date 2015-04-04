@@ -1,5 +1,5 @@
 StartChar: gravecomb.cap
-Encoding: 466 -1 395
+Encoding: 466 -1 399
 Width: 573
 GlyphClass: 4
 Flags: HW
@@ -25,5 +25,5 @@ SplineSet
  -30.2177734375 1718.91699219 l 5
  193.103515625 1717.25585938 l 5
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

@@ -1,5 +1,5 @@
 StartChar: f_f_l
-Encoding: 456 -1 385
+Encoding: 456 -1 389
 Width: 1938
 LigCaretCntFixed: 1
 Flags: HW
@@ -152,5 +152,5 @@ SplineSet
  1428.38574219 0 l 5
 EndSplineSet
 LCarets2: 0 
-Colour: ff0000
+Colour: ffff00
 EndChar

@@ -1,5 +1,5 @@
 StartChar: figuredash
-Encoding: 425 8210 355
+Encoding: 425 8210 358
 Width: 1074
 Flags: HW
 LayerCount: 2
@@ -27,5 +27,5 @@ SplineSet
  140 594.596679688 l 5
  934 594.596679688 l 5
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

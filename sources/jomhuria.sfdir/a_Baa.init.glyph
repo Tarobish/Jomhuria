@@ -1,21 +1,36 @@
 StartChar: aBaa.init
-Encoding: 264 -1 8
+Encoding: 1114120 -1 8
 Width: 487
 Flags: HW
+AnchorPoint: "TwoDotsAbove" 60 800 basechar 0
+AnchorPoint: "TwoDotsBelowAlt" 120 -750 basechar 0
+AnchorPoint: "TwoDotsBelow" 120 -350 basechar 0
+AnchorPoint: "TashkilAbove" 120 1640 basechar 0
+AnchorPoint: "DotBelowAlt" 170 -750 basechar 0
+AnchorPoint: "TashkilBelow" 170 -670 basechar 0
+AnchorPoint: "DotBelow" 170 -350 basechar 0
+AnchorPoint: "DigitBelow" 170 -350 basechar 0
+AnchorPoint: "TaaAbove" 175 700 basechar 0
+AnchorPoint: "VAbove" 175 800 basechar 0
+AnchorPoint: "HamzaAbove" 175 800 basechar 0
+AnchorPoint: "DigitAbove" 175 900 basechar 0
+AnchorPoint: "DotAbove" 175 900 basechar 0
+AnchorPoint: "RingBelow" 220 150 basechar 0
+AnchorPoint: "HighHamza" 425 800 basechar 0
 LayerCount: 2
 Back
 SplineSet
--8 433 m 2,0,-1
- 50 560 l 2,1,2
- 68 599 68 599 88 561 c 0,3,4
- 169 412 169 412 118 201 c 0,5,6
- 69 0 69 0 -130 0 c 0,7,8
- -152 0 -152 0 -173 104 c 0,9,10
- -189 187 -189 187 -130 185 c 0,11,12
- -9 180 -9 180 52 250 c 0,13,14
- 55 254 55 254 53 264 c 0,15,16
- 41 323 41 323 -2 383 c 0,17,18
- -20 408 -20 408 -8 433 c 2,0,-1
+122 433 m 2,0,-1
+ 180 560 l 2,1,2
+ 198 599 198 599 218 561 c 0,3,4
+ 299 412 299 412 248 201 c 0,5,6
+ 199 0 199 0 0 0 c 0,7,8
+ -22 0 -22 0 -43 104 c 0,9,10
+ -59 187 -59 187 0 185 c 0,11,12
+ 121 180 121 180 182 250 c 0,13,14
+ 185 254 185 254 183 264 c 0,15,16
+ 171 323 171 323 128 383 c 0,17,18
+ 110 408 110 408 122 433 c 2,0,-1
 EndSplineSet
 Fore
 SplineSet
@@ -29,5 +44,5 @@ SplineSet
  280.913085938 902.239257812 l 5
  280.913085938 902.239257812 377.057617188 774.79296875 377.057617188 633.930664062 c 6
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

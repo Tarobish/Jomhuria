@@ -1,5 +1,5 @@
 StartChar: uni0620.init_BaaRaaIsolLD
-Encoding: 4770 -1 4512
+Encoding: 1118357 -1 4514
 Width: 505
 VWidth: 0
 Flags: HW
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilBelow" 194 -950 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 213 -1 N 1 0 0 1 194 -550 2
 Refer: 67 -1 N 1 0 0 1 0 0 2
+Refer: 214 -1 N 1 0 0 1 194 -550 2
 Colour: ffffff
 EndChar

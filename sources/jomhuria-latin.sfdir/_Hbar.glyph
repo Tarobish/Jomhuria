@@ -1,5 +1,5 @@
 StartChar: Hbar
-Encoding: 296 294 226
+Encoding: 296 294 229
 Width: 1433
 Flags: HW
 LayerCount: 2
@@ -36,5 +36,5 @@ SplineSet
  910.538085938 770.5 l 5
  628.754882812 770.5 l 5
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

@@ -1,5 +1,5 @@
 StartChar: uni0656
-Encoding: 511 1622 254
+Encoding: 1622 1622 255
 Width: 314
 GlyphClass: 4
 Flags: HW
@@ -9,6 +9,6 @@ AnchorPoint: "TashkilBelow" 104.07 -670 mark 0
 LayerCount: 2
 Back
 Fore
-Refer: 253 1648 S 1 0 0 1 -214.93 -3130 2
+Refer: 254 1648 N 1 0 0 1 -214.93 -3130 2
 Colour: ffffff
 EndChar

@@ -1,7 +1,9 @@
 StartChar: uni0644.medi_FaLellah
-Encoding: 661 -1 404
+Encoding: 1114438 -1 405
 Width: 466
 Flags: HW
+AnchorPoint: "TashkilAbove" 90 1300 basechar 0
+AnchorPoint: "TashkilBelow" 100 -300 basechar 0
 LayerCount: 2
 Back
 SplineSet

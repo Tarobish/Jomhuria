@@ -1,14 +1,14 @@
 StartChar: uni0690.fina_BaaDal
-Encoding: 1586 -1 1329
+Encoding: 1115174 -1 1330
 Width: 986
 VWidth: 0
-Flags: H
+Flags: HW
 AnchorPoint: "TashkilAbove" 573 1735 basechar 0
 AnchorPoint: "TashkilBelow" 500 -670 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 238 -1 N 1 0 0 1 633 1135 2
-Refer: 84 -1 N 1 0 0 1 0 0 3
+Refer: 84 -1 N 1 0 0 1 0 0 2
+Refer: 239 -1 N 1 0 0 1 633 1135 2
 Colour: ffffff
 EndChar

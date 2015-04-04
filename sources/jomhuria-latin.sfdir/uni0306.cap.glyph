@@ -1,5 +1,5 @@
 StartChar: uni0306.cap
-Encoding: 472 -1 401
+Encoding: 472 -1 405
 Width: 0
 GlyphClass: 4
 Flags: HW
@@ -32,5 +32,5 @@ SplineSet
  -538.27734375 1717 -553.661132812 1591.59472656 -430.916992188 1591.59472656 c 4
  -306.92578125 1591.59472656 -322.559570312 1717 -322.559570312 1717 c 5
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

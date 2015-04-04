@@ -1,7 +1,18 @@
 StartChar: aHaa.init_HaaHaaInit
-Encoding: 364 -1 108
+Encoding: 1114219 -1 108
 Width: 1338
 Flags: HW
+AnchorPoint: "TashkilAbove" 817 1640 basechar 0
+AnchorPoint: "TashkilBelow" 1007 -670 basechar 0
+AnchorPoint: "TwoDotsBelow" 1007 -249 basechar 0
+AnchorPoint: "TwoDotsAbove" 1007 1210 basechar 0
+AnchorPoint: "HamzaBelow" 1107 -249 basechar 0
+AnchorPoint: "DotBelow" 1107 -249 basechar 0
+AnchorPoint: "DigitBelow" 1107 -249 basechar 0
+AnchorPoint: "TaaBelow" 1107 151 basechar 0
+AnchorPoint: "HamzaAbove" 1107 1210 basechar 0
+AnchorPoint: "DotAbove" 1107 1210 basechar 0
+AnchorPoint: "TaaAbove" 1107 1210 basechar 0
 LayerCount: 2
 Back
 SplineSet

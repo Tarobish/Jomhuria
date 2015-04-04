@@ -1,5 +1,5 @@
 StartChar: uni0647.init_HehYaaIsol
-Encoding: 3961 -1 3703
+Encoding: 1117549 -1 3705
 Width: 1113
 VWidth: 0
 Flags: HW
@@ -8,6 +8,6 @@ AnchorPoint: "TashkilAbove" 553 1640 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 382 -1 S 1 0 0 1 0 0 3
+Refer: 383 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

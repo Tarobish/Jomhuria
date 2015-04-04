@@ -1,14 +1,14 @@
 StartChar: uni067E.medi_BaaMemFina
-Encoding: 1468 -1 1211
+Encoding: 1115056 -1 1212
 Width: 692
 VWidth: 0
-Flags: H
+Flags: HW
 AnchorPoint: "TashkilAbove" 300 1640 basechar 0
 AnchorPoint: "TashkilBelow" 505 -1013 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 205 -1 N 1 0 0 1 425 -970 2
-Refer: 77 -1 N 1 0 0 1 0 0 3
+Refer: 77 -1 N 1 0 0 1 0 0 2
+Refer: 206 -1 N 1 0 0 1 425 -970 2
 Colour: ffffff
 EndChar

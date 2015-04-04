@@ -1,9 +1,8 @@
 StartChar: hThreeDots.b.l
-Encoding: 559 -1 302
+Encoding: 1114364 -1 303
 Width: 0
 GlyphClass: 4
 Flags: HW
-AnchorPoint: "TwoDotsBelow" 0 190 mark 0
 AnchorPoint: "TwoDotsBelowAlt" 0 190 mark 0
 AnchorPoint: "TashkilBelowDot" 40 -190 basemark 0
 LayerCount: 2
@@ -24,6 +23,6 @@ SplineSet
  259.991210938 303.3671875 l 5
  411.674804688 151.68359375 l 5
 EndSplineSet
-Refer: 240 -1 N 1 0 0 1 4 -47 2
-Colour: ffffff
+Refer: 241 -1 N 1 0 0 1 4 -47 2
+Colour: 100feff
 EndChar

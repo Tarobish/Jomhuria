@@ -1,14 +1,14 @@
 StartChar: uni0777.init_BaaBaaMemInitLD
-Encoding: 4578 -1 4320
+Encoding: 1118165 -1 4322
 Width: 333
 VWidth: 0
-Flags: H
+Flags: HW
 AnchorPoint: "TashkilAbove" 187 1640 basechar 0
 AnchorPoint: "TashkilBelow" 177 -1260 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 329 -1 N 1 0 0 1 177 -1450 2
-Refer: 152 -1 N 1 0 0 1 0 0 3
+Refer: 152 -1 N 1 0 0 1 0 0 2
+Refer: 330 -1 N 1 0 0 1 177 -1450 2
 Colour: ffffff
 EndChar

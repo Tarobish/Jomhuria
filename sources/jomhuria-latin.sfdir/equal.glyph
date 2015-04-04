@@ -1,5 +1,5 @@
 StartChar: equal
-Encoding: 61 61 28
+Encoding: 61 61 30
 Width: 1268
 Flags: HW
 LayerCount: 2
@@ -37,5 +37,5 @@ SplineSet
  1128 594.919921875 l 5
  140 594.919921875 l 5
 EndSplineSet
-Colour: ff0000
+Colour: ffff00
 EndChar

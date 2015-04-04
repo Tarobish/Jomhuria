@@ -1,5 +1,5 @@
 StartChar: uni06E3
-Encoding: 4842 1763 4584
+Encoding: 1763 1763 4586
 Width: 0
 VWidth: 316
 GlyphClass: 4
@@ -9,6 +9,6 @@ AnchorPoint: "SeenBelow" 510 -400 mark 0
 LayerCount: 2
 Back
 Fore
-Refer: 4585 1756 N 1 0 0 1 0 -3640 3
+Refer: 4587 1756 N 1 0 0 1 0 -3640 2
 Colour: ffffff
 EndChar

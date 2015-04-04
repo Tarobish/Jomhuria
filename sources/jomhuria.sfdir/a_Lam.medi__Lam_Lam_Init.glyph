@@ -1,7 +1,14 @@
 StartChar: aLam.medi_LamLamInit
-Encoding: 656 -1 399
+Encoding: 1114434 -1 400
 Width: 454
 Flags: HW
+AnchorPoint: "TwoDotsAbove" 14 1562 basechar 0
+AnchorPoint: "TwoDotsBelow" 100 -150 basechar 0
+AnchorPoint: "VAbove" 134 1462 basechar 0
+AnchorPoint: "DotAbove" 134 1562 basechar 0
+AnchorPoint: "TashkilAbove" 150 1640 basechar 0
+AnchorPoint: "TashkilBelow" 170 -670 basechar 0
+AnchorPoint: "Stroke" 177 1056 basechar 0
 LayerCount: 2
 Back
 SplineSet

@@ -1,14 +1,14 @@
 StartChar: uni077A.fina_PostAyn
-Encoding: 5014 -1 4756
+Encoding: 1118560 -1 4758
 Width: 261
 VWidth: 0
-Flags: H
+Flags: HW
 AnchorPoint: "TashkilAbove" 250 1640 basechar 0
 AnchorPoint: "TashkilBelow" 350 -670 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 326 -1 N 1 0 0 1 136 423 2
-Refer: 4751 -1 N 1 0 0 1 0 0 3
+Refer: 4753 -1 N 1 0 0 1 0 0 2
+Refer: 327 -1 N 1 0 0 1 136 423 2
 Colour: ffffff
 EndChar
