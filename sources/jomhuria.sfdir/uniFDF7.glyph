@@ -1,5 +1,5 @@
 StartChar: uniFDF7
-Encoding: 65015 65015 5405
+Encoding: 65015 65015 5404
 Width: 3483
 VWidth: 0
 Flags: HW
@@ -9,6 +9,5 @@ Fore
 Refer: 724 -1 N 1 0 0 1 0 0 2
 Refer: 556 -1 N 1 0 0 1 963 0 2
 Refer: 832 -1 N 1 0 0 1 1648 0 2
-Refer: 2961 -1 N 1 0 0 1 1682 0 2
 Colour: ffffff
 EndChar

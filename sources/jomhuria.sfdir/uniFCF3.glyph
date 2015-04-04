@@ -1,5 +1,5 @@
 StartChar: uniFCF3
-Encoding: 64755 64755 5205
+Encoding: 64755 64755 5204
 Width: 380
 VWidth: 0
 Flags: HW
@@ -8,6 +8,6 @@ Back
 Fore
 Refer: 270 -1 N 1 0 0 1 171 184 2
 Refer: 236 1617 N 1 0 0 1 -59 157 2
-Refer: 4616 -1 N 1 0 0 1 0 0 2
+Refer: 4615 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

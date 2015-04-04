@@ -1,5 +1,5 @@
 StartChar: uni0626.init_High
-Encoding: 1116883 -1 3038
+Encoding: 1116883 -1 3037
 Width: 495
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 189 -1 N 1 0 0 1 0 0 2
-Refer: 4818 -1 N 1 0 0 1 145 -150 2
+Refer: 4817 -1 N 1 0 0 1 145 -150 2
 Colour: ffffff
 EndChar

@@ -1,5 +1,5 @@
 StartChar: aBaa.init_BaaBaaYaaBari
-Encoding: 1118873 -1 5837
+Encoding: 1118873 -1 5836
 Width: 1315
 Flags: HW
 AnchorPoint: "TwoDotsAbove" 150 700 basechar 0
@@ -19,6 +19,6 @@ AnchorPoint: "HighHamza" 424 985 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 5692 -1 N 1 0 0 1 0 0 2
+Refer: 5691 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

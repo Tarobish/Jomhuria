@@ -1,5 +1,5 @@
 StartChar: uni0613
-Encoding: 1555 1555 4804
+Encoding: 1555 1555 4803
 Width: 0
 GlyphClass: 4
 Flags: HW
@@ -7,7 +7,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 47 -1 N 0.276902 0 0 0.27014 339.378 1900.81 2
-Refer: 4801 1552 N 1 0 0 1 0 0 2
+Refer: 4800 1552 N 1 0 0 1 0 0 2
 Refer: 190 -1 S 0.356177 0 0 0.358258 143.197 2073 2
 Colour: ffffff
 EndChar

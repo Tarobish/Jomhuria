@@ -1,5 +1,5 @@
 StartChar: uni06D2.fina_PostTooth
-Encoding: 1118450 -1 4647
+Encoding: 1118450 -1 4646
 Width: 1734
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ AnchorPoint: "HamzaAbove" 600 1100 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 4639 -1 N 1 0 0 1 0 0 2
+Refer: 4638 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
