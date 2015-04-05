@@ -1,5 +1,5 @@
 StartChar: uni06D0.fina_KafYaaIsol
-Encoding: 1117558 -1 3712
+Encoding: 3968 -1 3712
 Width: 1374
 VWidth: 0
 Flags: HW
@@ -10,6 +10,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 383 -1 N 1 0 0 1 0 0 2
-Refer: 212 -1 N 1 0 0 1 652 -987 2
+Refer: 212 -1 S 1 0 0 1 652 -987 2
 Colour: ffffff
 EndChar

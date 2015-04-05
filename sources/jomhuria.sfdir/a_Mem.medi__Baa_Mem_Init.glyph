@@ -1,5 +1,5 @@
 StartChar: aMem.medi_BaaMemInit
-Encoding: 1114239 -1 128
+Encoding: 384 -1 128
 Width: 356
 Flags: HW
 AnchorPoint: "TashkilBelow" 100 -670 basechar 0
