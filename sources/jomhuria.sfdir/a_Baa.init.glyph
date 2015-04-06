@@ -2,7 +2,7 @@ StartChar: aBaa.init
 Encoding: 264 -1 8
 Width: 487
 Flags: HW
-AnchorPoint: "TwoDotsAbove" 60 800 basechar 0
+AnchorPoint: "TwoDotsAbove" 60 800.083 basechar 0
 AnchorPoint: "TwoDotsBelowAlt" 120 -750 basechar 0
 AnchorPoint: "TwoDotsBelow" 120 -350 basechar 0
 AnchorPoint: "TashkilAbove" 120 1640 basechar 0
@@ -10,13 +10,13 @@ AnchorPoint: "DotBelowAlt" 170 -750 basechar 0
 AnchorPoint: "TashkilBelow" 170 -670 basechar 0
 AnchorPoint: "DotBelow" 170 -350 basechar 0
 AnchorPoint: "DigitBelow" 170 -350 basechar 0
-AnchorPoint: "TaaAbove" 175 700 basechar 0
-AnchorPoint: "VAbove" 175 800 basechar 0
-AnchorPoint: "HamzaAbove" 175 800 basechar 0
-AnchorPoint: "DigitAbove" 175 900 basechar 0
-AnchorPoint: "DotAbove" 175 900 basechar 0
-AnchorPoint: "RingBelow" 220 150 basechar 0
-AnchorPoint: "HighHamza" 425 800 basechar 0
+AnchorPoint: "TaaAbove" 175 700.083 basechar 0
+AnchorPoint: "VAbove" 175 800.083 basechar 0
+AnchorPoint: "HamzaAbove" 175 800.083 basechar 0
+AnchorPoint: "DigitAbove" 175 900.083 basechar 0
+AnchorPoint: "DotAbove" 175 900.083 basechar 0
+AnchorPoint: "RingBelow" 220 150.083 basechar 0
+AnchorPoint: "HighHamza" 425 800.083 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -34,15 +34,15 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-377.057617188 633.930664062 m 6
- 377.862304688 267.2421875 l 6
- 377.862304688 120.030273438 258.5546875 -0.0830078125 111.342773438 -0.0830078125 c 6
- -50 -0.0830078125 l 5
- -50 436.1875 l 5
- 217.681640625 436.1875 l 5
- 217.681640625 582.147460938 53.4775390625 723.3671875 53.4775390625 723.3671875 c 5
- 280.913085938 902.239257812 l 5
- 280.913085938 902.239257812 377.057617188 774.79296875 377.057617188 633.930664062 c 6
+377.057617188 634.013671875 m 6
+ 377.862304688 267.325195312 l 6
+ 377.862304688 120.11328125 258.5546875 0 111.342773438 0 c 6
+ -50 0 l 5
+ -50 436.270507812 l 5
+ 217.681640625 436.270507812 l 5
+ 217.681640625 582.23046875 53.4775390625 723.450195312 53.4775390625 723.450195312 c 5
+ 280.913085938 902.322265625 l 5
+ 280.913085938 902.322265625 377.057617188 774.875976562 377.057617188 634.013671875 c 6
 EndSplineSet
 Colour: ffff00
 EndChar

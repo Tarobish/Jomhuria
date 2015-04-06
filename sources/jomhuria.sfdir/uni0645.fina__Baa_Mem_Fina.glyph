@@ -1,6 +1,6 @@
 StartChar: uni0645.fina_BaaMemFina
 Encoding: 1490 -1 1234
-Width: 457
+Width: 1420
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 200 1640 basechar 0
@@ -8,6 +8,6 @@ AnchorPoint: "TashkilBelow" 550 -1200 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 78 -1 N 1 0 0 1 0 0 2
+Refer: 78 -1 S 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

@@ -1,6 +1,6 @@
 StartChar: uni0646.medi_BaaRaaFina
 Encoding: 2164 -1 1908
-Width: 530
+Width: 624
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 230 1640 basechar 0
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilBelow" 290 -670 basechar 0
 LayerCount: 2
 Back
 Fore
+Refer: 190 -1 N 1 0 0 1 30 696 2
 Refer: 119 -1 N 1 0 0 1 0 0 2
-Refer: 190 -1 N 1 0 0 1 280 860 2
 Colour: ffffff
 EndChar

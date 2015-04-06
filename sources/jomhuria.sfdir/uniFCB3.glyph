@@ -1,12 +1,12 @@
 StartChar: uniFCB3
 Encoding: 5396 64691 5140
-Width: 1688
+Width: 2513
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Back
 Fore
 Refer: 3597 -1 N 1 0 0 1 0 0 2
-Refer: 3595 -1 N 1 0 0 1 356 0 2
+Refer: 3595 -1 S 1 0 0 1 1092 0 2
 Colour: ffffff
 EndChar

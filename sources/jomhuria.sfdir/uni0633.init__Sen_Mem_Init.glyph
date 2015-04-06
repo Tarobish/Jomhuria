@@ -1,6 +1,6 @@
 StartChar: uni0633.init_SenMemInit
 Encoding: 3838 -1 3582
-Width: 1077
+Width: 1208
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 509 1640 basechar 0
