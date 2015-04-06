@@ -1,6 +1,6 @@
 StartChar: uni0643.init_KafMemIsol
 Encoding: 3981 -1 3725
-Width: 1189
+Width: 739
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 350 1750 basechar 0
