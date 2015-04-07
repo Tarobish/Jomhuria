@@ -1,10 +1,11 @@
 StartChar: uniFEDE
-Encoding: 5772 65246 5516
+Encoding: 5772 65246 5509
 Width: 1383
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 814 -1 N 1 0 0 1 220 0 2
+Refer: 807 -1 N 1 0 0 1 220 0 2
 Colour: ffffff
 EndChar

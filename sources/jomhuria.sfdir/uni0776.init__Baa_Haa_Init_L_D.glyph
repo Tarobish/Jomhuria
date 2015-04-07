@@ -1,14 +1,14 @@
 StartChar: uni0776.init_BaaHaaInitLD
-Encoding: 4621 -1 4365
+Encoding: 4621 -1 4358
 Width: 1204
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 770 1900 basechar 0
 AnchorPoint: "TashkilBelow" 971 -980 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 176 -1 N 1 0 0 1 0 0 2
 Refer: 297 -1 N 1 0 0 1 951 -890 2
-Refer: 327 8239 N 1 0 0 1 710 1050 2
 Colour: ffffff
 EndChar

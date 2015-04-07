@@ -1,11 +1,12 @@
 StartChar: uni062D.medi_MemHaaMemInit
-Encoding: 2242 -1 1986
+Encoding: 2242 -1 1979
 Width: 400
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 250 1640 basechar 0
 AnchorPoint: "TashkilBelow" 318 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 126 -1 N 1 0 0 1 0 0 2
 Colour: ffffff

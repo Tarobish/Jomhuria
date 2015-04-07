@@ -1,9 +1,10 @@
 StartChar: uni0621.float
-Encoding: 4794 -1 4538
+Encoding: 4794 -1 4531
 Width: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 2 1640 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 197 1621 N 0.8 0 0 0.8 89 1893 2
 Colour: ffffff

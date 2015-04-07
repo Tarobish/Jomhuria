@@ -1,8 +1,10 @@
 StartChar: space
-Encoding: 32 32 200
+Encoding: 32 32 6075
 AltUni2: 0000a0.ffffffff.0
 Width: 600
 Flags: HW
 LayerCount: 2
+Back
+Fore
 Colour: ffffff
 EndChar

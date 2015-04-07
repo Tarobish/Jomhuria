@@ -1,12 +1,13 @@
 StartChar: uni06A9.init_KafMemAlf
-Encoding: 3628 -1 3372
+Encoding: 3628 -1 3365
 Width: 1200
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 725 1640 basechar 0
 AnchorPoint: "TashkilBelow" 660 -670 basechar 0
 LayerCount: 2
+Back
 Fore
-Refer: 349 -1 N 1 0 0 1 0 0 2
+Refer: 342 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

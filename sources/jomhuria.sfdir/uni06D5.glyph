@@ -1,5 +1,5 @@
 StartChar: uni06D5
-Encoding: 992 1749 736
+Encoding: 992 1749 729
 Width: 854
 VWidth: 0
 Flags: HW
@@ -7,6 +7,7 @@ AnchorPoint: "HamzaAbove" 368 1090 basechar 0
 AnchorPoint: "TashkilAbove" 368 1640 basechar 0
 AnchorPoint: "TashkilBelow" 410 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 23 -1 N 1 0 0 1 0 0 2
 Colour: ffffff

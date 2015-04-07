@@ -1,10 +1,11 @@
 StartChar: uniFBDD
-Encoding: 5182 64477 4926
+Encoding: 5182 64477 4919
 Width: 886
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 1007 1655 N 1 0 0 1 0 0 2
+Refer: 1000 1655 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

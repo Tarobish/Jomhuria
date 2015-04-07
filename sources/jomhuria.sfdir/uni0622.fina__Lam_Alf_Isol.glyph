@@ -1,9 +1,10 @@
 StartChar: uni0622.fina_LamAlfIsol
-Encoding: 1855 -1 1599
+Encoding: 1855 -1 1592
 Width: 1134
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 98 -1 N 1 0 0 1 0 0 2
 Refer: 198 1619 N 0.711179 0 0 0.70369 408.62 93.332 2

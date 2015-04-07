@@ -1,5 +1,5 @@
 StartChar: uni08F2
-Encoding: 4824 2290 4568
+Encoding: 4824 2290 4561
 Width: 0
 GlyphClass: 4
 Flags: HW
@@ -8,7 +8,8 @@ AnchorPoint: "TashkilTashkilBelow" 297 -889 basemark 0
 AnchorPoint: "TashkilBelowDot" 670 -569 mark 0
 AnchorPoint: "TashkilBelow" 670 -569 mark 0
 LayerCount: 2
+Back
 Fore
-Refer: 4566 2288 N 1 0 0 1 0 -3017 2
+Refer: 4559 2288 N 1 0 0 1 0 -3017 2
 Colour: ffffff
 EndChar

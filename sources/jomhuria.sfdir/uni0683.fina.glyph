@@ -1,11 +1,12 @@
 StartChar: uni0683.fina
-Encoding: 923 -1 667
+Encoding: 923 -1 660
 Width: 1587
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 700 1640 basechar 0
 AnchorPoint: "TashkilBelow" 820 -1158 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 1312.36523438 436.1875 m 2

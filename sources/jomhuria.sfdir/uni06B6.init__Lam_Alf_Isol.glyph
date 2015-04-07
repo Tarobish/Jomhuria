@@ -1,11 +1,12 @@
 StartChar: uni06B6.init_LamAlfIsol
-Encoding: 1848 -1 1592
+Encoding: 1848 -1 1585
 Width: 1134
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 340 1875 basechar 0
 AnchorPoint: "TashkilBelow" 240 -730 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 97 -1 N 1 0 0 1 0 0 2
 Refer: 190 -1 N 1 0 0 1 312 1291 2

@@ -1,11 +1,12 @@
 StartChar: uni063B.alt
-Encoding: 6036 -1 5780
+Encoding: 6036 -1 5773
 Width: 1689
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 420 1640 basechar 0
 AnchorPoint: "TashkilBelow" 700 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 28 -1 N 1 0 0 1 0 0 2
 Refer: 202 -1 N 1 0 0 1 1880 1656 2

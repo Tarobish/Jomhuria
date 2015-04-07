@@ -10,6 +10,7 @@ AnchorPoint: "DotAbove" 428 1485 basechar 0
 AnchorPoint: "HamzaAbove" 428 1485 basechar 0
 AnchorPoint: "cursive" -65 420 exit 0
 LayerCount: 2
+Back
 Fore
 Refer: 132 -1 S 1 0 0 1 0 0 2
 Colour: ffffff

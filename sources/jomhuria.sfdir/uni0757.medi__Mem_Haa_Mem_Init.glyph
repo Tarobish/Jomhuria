@@ -1,11 +1,12 @@
 StartChar: uni0757.medi_MemHaaMemInit
-Encoding: 2248 -1 1992
+Encoding: 2248 -1 1985
 Width: 400
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 250 1640 basechar 0
 AnchorPoint: "TashkilBelow" 318 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 126 -1 N 1 0 0 1 0 0 2
 Refer: 191 -1 N 1 0 0 1 41 1155 2

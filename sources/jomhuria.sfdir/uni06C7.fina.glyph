@@ -1,11 +1,12 @@
 StartChar: uni06C7.fina
-Encoding: 1244 -1 988
+Encoding: 1244 -1 981
 Width: 971
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 642 1640 basechar 0
 AnchorPoint: "TashkilBelow" 842 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 60 -1 N 1 0 0 1 42 -1 2
 Refer: 273 -1 N 1 0 0 1 405 -67 2

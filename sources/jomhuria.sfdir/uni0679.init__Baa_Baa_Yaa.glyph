@@ -1,11 +1,12 @@
 StartChar: uni0679.init_BaaBaaYaa
-Encoding: 1688 -1 1432
+Encoding: 1688 -1 1425
 Width: 417
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 129 1640 basechar 0
 AnchorPoint: "TashkilBelow" 147 -760 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 88 -1 N 1 0 0 1 0 0 2
 Refer: 210 -1 N 1 0 0 1 129 1020 2

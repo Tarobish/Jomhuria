@@ -1,11 +1,12 @@
 StartChar: uni06A4.init
-Encoding: 886 -1 630
+Encoding: 886 -1 623
 Width: 737
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 160 1640 basechar 0
 AnchorPoint: "TashkilBelow" 300 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 14 -1 N 1 0 0 1 0 0 2
 Refer: 192 -1 N 1 0 0 1 282 1270 2

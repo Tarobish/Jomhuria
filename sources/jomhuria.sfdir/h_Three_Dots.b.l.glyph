@@ -6,6 +6,7 @@ Flags: HW
 AnchorPoint: "TwoDotsBelowAlt" 0 190 mark 0
 AnchorPoint: "TashkilBelowDot" 40 -190 basemark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 411.674804688 151.68359375 m 5

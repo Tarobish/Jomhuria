@@ -1,11 +1,12 @@
 StartChar: uni0628.fina_BaaBaaIsol
-Encoding: 2634 -1 2378
+Encoding: 2634 -1 2371
 Width: 1583
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 867 1640 basechar 0
 AnchorPoint: "TashkilBelow" 950 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 151 -1 N 1 0 0 1 0 0 2
 Refer: 193 -1 N 1 0 0 1 850 -560 2

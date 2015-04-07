@@ -1,5 +1,5 @@
 StartChar: uni06D2.fina_PostAscender
-Encoding: 4987 -1 4731
+Encoding: 4987 -1 4724
 Width: 1857
 VWidth: 0
 Flags: HW
@@ -7,7 +7,8 @@ AnchorPoint: "HamzaAbove" 236 773 basechar 0
 AnchorPoint: "TashkilAbove" 250 1640 basechar 0
 AnchorPoint: "TashkilBelow" 350 -670 basechar 0
 LayerCount: 2
+Back
 Fore
-Refer: 4663 -1 N 1 0 0 1 0 0 2
+Refer: 4656 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

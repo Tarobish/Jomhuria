@@ -1,11 +1,12 @@
 StartChar: uniFCCD
-Encoding: 5422 64717 5166
+Encoding: 5422 64717 5159
 Width: 1898
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 1982 -1 N 1 0 0 1 0 0 2
-Refer: 1978 -1 S 1 0 0 1 1264 0 2
+Refer: 1975 -1 N 1 0 0 1 0 0 2
+Refer: 1971 -1 S 1 0 0 1 1264 0 2
 Colour: ffffff
 EndChar

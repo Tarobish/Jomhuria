@@ -1,11 +1,12 @@
 StartChar: uni0635.init_SadHaaInit
-Encoding: 2889 -1 2633
+Encoding: 2889 -1 2626
 Width: 1656
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 872 1640 basechar 0
 AnchorPoint: "TashkilBelow" 1020 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 164 -1 N 1 0 0 1 0 0 2
 Colour: ffffff

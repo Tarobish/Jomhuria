@@ -6,6 +6,7 @@ AnchorPoint: "TashkilBelow" 864 -260 basechar 0
 AnchorPoint: "TashkilAbove" -80 1640 basechar 0
 AnchorPoint: "cursive" -80 382 exit 0
 LayerCount: 2
+Back
 Fore
 Refer: 161 -1 N 1 0 0 1 0 0 2
 Colour: ffffff

@@ -1,12 +1,13 @@
 StartChar: uni0644.medi_LamLamAlfIsol
-Encoding: 4203 -1 3947
+Encoding: 4203 -1 3940
 Width: 454
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 70 1640 basechar 0
 AnchorPoint: "TashkilBelow" -70 -670 basechar 0
 LayerCount: 2
+Back
 Fore
-Refer: 400 -1 N 1 0 0 1 0 0 2
+Refer: 393 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
