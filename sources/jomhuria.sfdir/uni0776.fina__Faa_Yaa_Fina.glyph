@@ -9,6 +9,6 @@ AnchorPoint: "AlefAbove" 570 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 73 -1 N 1 0 0 1 0 0 2
-Refer: 327 -1 N 1 0 0 1 470 30 2
+Refer: 327 8239 N 1 0 0 1 470 30 2
 Colour: ffffff
 EndChar
