@@ -1,6 +1,6 @@
 StartChar: uni0644.init_LamHaaHaaInit
 Encoding: 3207 -1 2944
-Width: 1002
+Width: 634
 VWidth: 0
 Flags: HW
 AnchorPoint: "TashkilAbove" 590 1640 basechar 0
@@ -8,6 +8,6 @@ AnchorPoint: "TashkilBelow" 750 -670 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 180 -1 N 1 0 0 1 0 0 2
+Refer: 180 -1 S 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
