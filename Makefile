@@ -7,7 +7,8 @@ TOOLS=tools
 SRC=sources
 GEN=generated
 WEB=$(GEN)/webfonts
-DOC=documentation
+DDT=document-sources
+DDTOUT=$(GEN)/$(DDT)
 TESTS=test-suite
 FONTS=$(NAME)
 DIST=$(NAME)-$(VERSION)
@@ -34,7 +35,9 @@ WOFF=$(FONTS:%=$(WEB)/%.woff)
 WOF2=$(FONTS:%=$(WEB)/%.woff2)
 EOTS=$(FONTS:%=$(WEB)/%.eot)
 CSSS=$(WEB)/$(NAME).css
-PDFS=$(DOC)/$(NAME)-table.pdf $(DOC)/documentation-arabic.pdf
+
+PDFS=$(DDTOUT)/$(NAME)-table.pdf $(DDTOUT)/documentation-arabic.pdf
+
 FEAT=$(wildcard $(SRC)/*.fea)
 TEST=$(wildcard $(TESTS)/*.test)
 TEST+=$(wildcard $(TESTS)/*.ptest)
@@ -78,16 +81,17 @@ $(WEB)/%.css: $(WTTF) $(MAKECSS)
 	@mkdir -p $(WEB)
 	@$(PY) $(MAKECSS) --css=$@ --fonts="$(WTTF)"
 
-$(DOC)/$(NAME)-table.pdf: $(GEN)/$(NAME).ttf
+$(DDTOUT)/$(NAME)-table.pdf: $(GEN)/$(NAME).ttf
 	@echo "   GEN	$@"
-	@mkdir -p $(DOC)
+	@mkdir -p $(DDTOUT)
 	@fntsample --font-file $< --output-file $@.tmp --print-outline > $@.txt
 	@pdfoutline $@.tmp $@.txt $@
 	@rm -f $@.tmp $@.txt
 
-$(DOC)/documentation-arabic.pdf: $(DOC)/$(DOC)-$(SRC)/documentation-arabic.tex
+$(DDTOUT)/documentation-arabic.pdf: $(DDT)/documentation-arabic.tex $(GEN)/$(NAME).ttf
 	@echo "   GEN	$@"
-	@latexmk --norc --xelatex --quiet --output-directory=${DOC} $<
+	@mkdir -p $(DDTOUT)
+	@latexmk --norc --xelatex --quiet --output-directory=${DDTOUT} $<
 
 check: $(TEST) $(DTTF)
 	@echo "running tests"
