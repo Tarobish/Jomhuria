@@ -1,0 +1,93 @@
+\documentclass[a4paper]{article}
+
+\usepackage{url}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[hang]{footmisc}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\usepackage[
+  bookmarks=true,
+  colorlinks=true,
+  linkcolor=linkcolor,
+  urlcolor=linkcolor,
+  citecolor=linkcolor,
+  pdftitle={الخط الأميري},
+  pdfsubject={توثيق خط المتون النسخي، الخط الأميري},
+  pdfauthor={خالد حسني},
+  pdfkeywords={خط, عربي, مطبعة, أميرية, أميري, يونيكود, أوبن تيب}
+  ]{hyperref}
+
+\definecolor{textcolor}  {rgb}{.25,.25,.25}
+\definecolor{pagecolor}  {rgb}{1.0,.99,.97}
+\definecolor{titlecolor} {rgb}{.67,.00,.05}
+\definecolor{linkcolor}  {rgb}{.80,.00,.05}
+\definecolor{codecolor}  {rgb}{.90,.90,.90}
+
+\setmainlanguage {english}
+\setotherlanguage{arabic}
+% \rightfootnoterule
+
+\setmainfont               [Path=./generated/,Ligatures=TeX]                     {jomhuria.ttf}
+\setmonofont               [Scale=MatchLowercase]              {DejaVu Sans Mono}
+\newfontfamily\arabicfont  [Path=./generated/,Script=Arabic,Numbers=Proportional]{jomhuria.ttf}
+\newfontfamily\arabicfonttt[Script=Arabic,Scale=MatchLowercase]{DejaVu Sans Mono}
+
+\newcommand\addff[1]{\addfontfeature{RawFeature={#1}}} % add feature
+\newcommand\addfl[1]{\addff{language=#1}}              % add language
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em plus .2em minus .1em}
+%setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\newfontfamily\titlefont[Path=./generated/,Script=Arabic]{jomhuria.ttf}
+
+\titleformat*{\section}{\Large\titlefont\color{titlecolor}}
+\titleformat*{\subsection}{\large\titlefont\color{titlecolor}}
+\titleformat*{\subsubsection}{\itshape\titlefont\color{titlecolor}}
+
+\titlespacing{\section}{0pt}{*4}{*1}
+\titlespacing{\subsection}{0pt}{*3}{0pt}
+\titlespacing{\subsubsection}{0pt}{*2}{0pt}
+
+\renewcommand\U[1]{\colorbox{codecolor}{\texttt{U+#1}}}
+
+\title{Hello World test doc}
+\author{Lasse Fister}
+
+\begin{document}
+
+\pagecolor{pagecolor}
+\color{textcolor}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\setstretch{1.6}
+
+Hello World
+
+\section{first things first}
+
+What is going on here?
+
+
+\section{The second thing}
+What does a pageref do?
+
+the pageref: \pageref{ref:my-ref} end of pageref
+
+
+
+
+\subsection{Typografie} \footnote{text source: \url{https://de.wikipedia.org/wiki/Typografie}}
+\label{ref:my-ref}
+Der Begriff Typografie oder Typographie (griechisch τυπογραφία typographía, von τύπος týpos ‚Schlag‘, ‚Abdruck‘, ‚Figur‘, ‚Typ‘ und -graphie) lässt sich auf mehrere Bereiche anwenden. Im engeren Sinne bezieht sich die Typografie auf die Kunst und das Handwerk des Druckens, bei dem mit beweglichen Lettern (Typen) die Texte zusammengesetzt werden, insbesondere in Hochdruckverfahren. In der Medientheorie steht Typografie für gedruckte Schrift in Abgrenzung zu Handschrift (Chirografie) und elektronischen sowie nicht literalen Texten. Meist bezeichnet Typografie heute jedoch den Gestaltungsprozess, der mittels Schrift, Bildern, Linien, Flächen und typografischem Raum auf Druckwerke und elektronische Medien angewendet wird, unabhängig von beweglichen Typen (Typografie für digitale Texte). Typografie umfasst nicht nur die Gestaltung eines Layouts und den Entwurf von Satzschriften. Vielmehr kann man den Begriff bis zur richtigen Auswahl des Papiers oder des Einbands ausweiten und sogar von typografischer Kalligrafie oder kalligrafischer Typografie sprechen.
+
+Die gestalterischen Merkmale des Schriftsatzes einer Druckseite unterteilt man in Mikrotypografie und Makrotypografie. Die Kunst des Typografen besteht darin, diese Gestaltungsmerkmale in geeigneter Weise zu kombinieren.
+\end{document}
