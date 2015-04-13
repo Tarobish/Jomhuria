@@ -1,9 +1,10 @@
 StartChar: five.prop
-Encoding: 513 -1 446
+Encoding: 513 -1 442
 Width: 906
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 22 53 N 1 0 0 1 -100 0 2
+Refer: 20 53 N 1 0 0 1 -100 0 2
 Colour: ffffff
 EndChar
