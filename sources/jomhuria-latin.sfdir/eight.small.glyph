@@ -1,10 +1,11 @@
 StartChar: eight.small
-Encoding: 546 -1 481
+Encoding: 546 -1 477
 Width: 799
 VWidth: -40
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 25 56 N 0.6 0 0 0.6 56 -11 2
+Refer: 23 56 N 0.6 0 0 0.6 56 -11 2
 Colour: ffffff
 EndChar

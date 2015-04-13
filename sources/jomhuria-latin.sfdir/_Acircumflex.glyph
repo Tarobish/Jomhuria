@@ -1,11 +1,12 @@
 StartChar: Acircumflex
-Encoding: 194 194 129
+Encoding: 194 194 126
 Width: 1464
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 401 -1 N 1 0 0 1 1119.96 -2 2
-Refer: 34 65 N 1 0 0 1 0 0 2
+Refer: 397 -1 N 1 0 0 1 1119.96 -2 2
+Refer: 32 65 N 1 0 0 1 0 0 2
 Ligature2: "Latin composition subtable" A uni0302
 Colour: ffffff
 EndChar

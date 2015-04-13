@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1426129988
-ModificationTime: 1428104394
+ModificationTime: 1428957100
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -383,9 +383,10 @@ KernClass2: 14+ 24 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"
 Encoding: ISO8859-1
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -24
+DisplaySize: -96
 AntiAlias: 1
-FitToEm: 0
+FitToEm: 1
+WinInfo: 0 18 7
 Grid
 -2048 1456.14355469 m 1
  4096 1456.14355469 l 1025
