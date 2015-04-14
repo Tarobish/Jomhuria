@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1426129988
-ModificationTime: 1428967129
+ModificationTime: 1428993169
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -39,15 +39,17 @@ OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "Latin composition" { "Latin composition subtable"  } ['ccmp' ('latn' <'dflt' 'TRK ' > 'arab' <'dflt' 'ARA ' 'URD ' 'SND ' > 'DFLT' <'dflt' > ) ]
-Lookup: 258 0 0 "Pairwise Positioning (kerning) in Latin lookup 0" { "Pairwise Positioning (kerning) in Latin lookup 0-1" [307,30,0] "Pairwise Positioning (kerning) in Latin lookup 0-2" [307,30,0] "Pairwise Positioning (kerning) in Latin lookup 0-3" [307,30,0] "Pairwise Positioning (kerning) in Latin lookup 0-4" [307,30,0] "Pairwise Positioning (kerning) in Latin lookup " [307,30,0] "Pairwise Positioning (kerning) in Latin lookup 0-5" [307,30,0] } ['    ' ('DFLT' <'dflt' > 'latn' <'TRK ' 'dflt' > ) ]
+Lookup: 258 0 0 "Pairwise Positioning (kerning) in Latin lookup 0" { "Pairwise Positioning (kerning) in Latin lookup 0-1" [307,30,0] "Pairwise Positioning (kerning) in Latin lookup 0-2" [307,30,0] "Pairwise Positioning (kerning) in Latin lookup 0-3" [307,30,0] "Pairwise Positioning (kerning) in Latin lookup 0-4" [307,30,0] "Pairwise Positioning (kerning) in Latin lookup " [307,30,0] "Pairwise Positioning (kerning) in Latin lookup 0-5" [307,30,0] "Pairwise Positioning (kerning) in Latin lookup 0-6" [307,30,0] } ['    ' ('DFLT' <'dflt' > 'latn' <'TRK ' 'dflt' > ) ]
 DEI: 91125
+KernClass2: 1 1 "Pairwise Positioning (kerning) in Latin lookup 0-6"
+ 0 {}
 Encoding: ISO8859-1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 20 8
+WinInfo: 0 18 8
 Grid
 -2048 1456.14355469 m 1
  4096 1456.14355469 l 1025

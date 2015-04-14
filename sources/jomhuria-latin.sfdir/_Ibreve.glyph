@@ -1,10 +1,11 @@
 StartChar: Ibreve
 Encoding: 302 300 232
-Width: 834
+Width: 734
 Flags: HW
 LayerCount: 2
+Back
 Fore
-Refer: 401 -1 N 1 0 0 1 845.873 -6 2
+Refer: 401 -1 N 1 0 0 1 775.873 -6 2
 Refer: 40 73 N 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "Latin composition subtable" I uni0306
