@@ -1,11 +1,11 @@
 StartChar: three.medium
 Encoding: 537 -1 468
-Width: 900
+Width: 844
 VWidth: 50
 Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 18 51 N 0.8 0 0 0.8 14.5996 -9 2
+Refer: 18 51 N 0.8 0 0 0.8 24 -9 2
 Colour: ffffff
 EndChar

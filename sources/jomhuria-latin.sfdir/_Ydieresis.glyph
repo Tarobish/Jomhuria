@@ -1,11 +1,11 @@
 StartChar: Ydieresis
 Encoding: 377 376 307
-Width: 1600
+Width: 1560
 Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 404 -1 N 1 0 0 1 539.176 9.72043 2
+Refer: 404 -1 N 1 0 0 1 519.176 9.72043 2
 Refer: 56 89 N 1 0 0 1 0 0 2
 Ligature2: "Latin composition subtable" Y uni0308
 Colour: ffffff

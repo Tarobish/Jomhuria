@@ -1,12 +1,12 @@
 StartChar: ohungarumlaut
 Encoding: 338 337 268
-Width: 1316
+Width: 1276
 Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 323 769 N 1 0 0 1 601.4 -9 2
-Refer: 323 769 N 1 0 0 1 320.4 -8 2
+Refer: 323 769 N 1 0 0 1 581.4 -9 2
+Refer: 323 769 N 1 0 0 1 300.4 -8 2
 Refer: 78 111 N 1 0 0 1 0 0 2
 Ligature2: "Latin composition subtable" o uni030B
 Colour: ffffff

@@ -1,10 +1,10 @@
 StartChar: nine.prop
 Encoding: 517 -1 446
-Width: 986
+Width: 1180
 Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 24 57 N 1 0 0 1 -56 0 2
+Refer: 24 57 N 1 0 0 1 -0.000100267 0 2
 Colour: ffffff
 EndChar
