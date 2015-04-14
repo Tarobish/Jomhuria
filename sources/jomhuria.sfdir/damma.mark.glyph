@@ -5,7 +5,6 @@ GlyphClass: 4
 Flags: HW
 AnchorPoint: "HamzaAbove" 0 950 mark 0
 LayerCount: 2
-Back
 Fore
 Refer: 270 -1 N 1 0 0 1 7 -1025 2
 Colour: ffffff

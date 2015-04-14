@@ -17,7 +17,6 @@ AnchorPoint: "HamzaBelow" 197 -780 basechar 0
 AnchorPoint: "DotBelow" 197 -780 basechar 0
 AnchorPoint: "HighHamza" 424 985 basechar 0
 LayerCount: 2
-Back
 Fore
 Refer: 5684 -1 N 1 0 0 1 0 0 2
 Colour: ffffff

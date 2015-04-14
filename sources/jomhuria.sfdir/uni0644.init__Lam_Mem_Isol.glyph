@@ -6,7 +6,6 @@ Flags: HW
 AnchorPoint: "TashkilAbove" 200 1710 basechar 0
 AnchorPoint: "TashkilBelow" 270 0 basechar 0
 LayerCount: 2
-Back
 Fore
 Refer: 378 -1 S 1 0 0 1 0 0 2
 Colour: ffffff

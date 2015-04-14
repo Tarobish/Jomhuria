@@ -14,7 +14,6 @@ AnchorPoint: "HamzaAbove" 156 1000 basechar 0
 AnchorPoint: "DotBelow" 346 -200 basechar 0
 AnchorPoint: "DotAbove" 156 1000 basechar 0
 LayerCount: 2
-Back
 Fore
 Refer: 165 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
