@@ -1,11 +1,11 @@
 StartChar: uni00AD
 Encoding: 173 173 458
-Width: 757
+Width: 677
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 353 8208 N 1 0 0 1 -20 0 2
+Refer: 353 8208 N 1 0 0 1 -40 0 2
 Colour: ffffff
 EndChar

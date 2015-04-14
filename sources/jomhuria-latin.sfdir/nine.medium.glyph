@@ -1,11 +1,11 @@
 StartChar: nine.medium
 Encoding: 549 -1 480
-Width: 992
+Width: 912
 VWidth: 50
 Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 24 57 N 0.8 0 0 0.8 24.0002 -9 2
+Refer: 24 57 N 0.8 0 0 0.8 14.0003 -9 2
 Colour: ffffff
 EndChar
