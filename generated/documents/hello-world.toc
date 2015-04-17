@@ -1,0 +1,4 @@
+\select@language {english}
+\contentsline {section}{first things first}{2}{section*.1}
+\contentsline {section}{The second thing}{2}{section*.2}
+\contentsline {subsection}{Typografie}{2}{subsection*.3}
