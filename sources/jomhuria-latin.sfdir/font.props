@@ -39,10 +39,6 @@ OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "Latin composition" { "Latin composition subtable"  } ['ccmp' ('latn' <'dflt' 'TRK ' > 'arab' <'dflt' 'ARA ' 'URD ' 'SND ' > 'DFLT' <'dflt' > ) ]
-Lookup: 258 0 0 "Pairwise Positioning (kerning) in Latin lookup 0" { "Pairwise Positioning (kerning) in Latin lookup 0-1" [307,30,0] "Pairwise Positioning (kerning) in Latin lookup 0-2" [307,30,0] "Pairwise Positioning (kerning) in Latin lookup 0-3" [307,30,0] "Pairwise Positioning (kerning) in Latin lookup 0-4" [307,30,0] "Pairwise Positioning (kerning) in Latin lookup " [307,30,0] "Pairwise Positioning (kerning) in Latin lookup 0-5" [307,30,0] "Pairwise Positioning (kerning) in Latin lookup 0-6" [307,30,0] } ['    ' ('DFLT' <'dflt' > 'latn' <'TRK ' 'dflt' > ) ]
-DEI: 91125
-KernClass2: 1 1 "Pairwise Positioning (kerning) in Latin lookup 0-6"
- 0 {}
 Encoding: ISO8859-1
 UnicodeInterp: none
 NameList: AGL For New Fonts
