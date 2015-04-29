@@ -1,5 +1,5 @@
 StartChar: uni062B.init_AboveHaa
-Encoding: 3077 -1 2814
+Encoding: 3077 -1 2812
 Width: 487
 VWidth: 0
 Flags: HW
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilAbove" 550 1844 basechar 0
 AnchorPoint: "TashkilBelow" 974 -410 basechar 0
 LayerCount: 2
 Fore
-Refer: 192 -1 S 1 0 0 1 24 904 2
-Refer: 175 -1 N 1 0 0 1 0 0 2
+Refer: 191 -1 S 1 0 0 1 24 904 2
+Refer: 174 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

@@ -1,5 +1,5 @@
 StartChar: uni06CD.fina_BaaYaaFina
-Encoding: 2958 -1 2695
+Encoding: 2958 -1 2693
 Width: 864
 VWidth: 0
 Flags: HW
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilBelow" 754 -740 basechar 0
 AnchorPoint: "AlefAbove" 600 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 170 -1 N 1 0 0 1 0 0 2
-Refer: 244 -1 N 1 0 0 1 182 23 2
+Refer: 169 -1 N 1 0 0 1 0 0 2
+Refer: 243 -1 N 1 0 0 1 182 23 2
 Colour: ffffff
 EndChar

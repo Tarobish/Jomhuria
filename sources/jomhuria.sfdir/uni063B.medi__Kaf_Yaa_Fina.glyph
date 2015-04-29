@@ -1,5 +1,5 @@
 StartChar: uni063B.medi_KafYaaFina
-Encoding: 2352 -1 2089
+Encoding: 2352 -1 2087
 Width: 1000
 VWidth: 0
 Flags: HW
@@ -8,6 +8,6 @@ AnchorPoint: "TashkilBelow" 500 -670 basechar 0
 LayerCount: 2
 Fore
 Refer: 133 -1 N 1 0 0 1 0 0 2
-Refer: 191 -1 N 1 0 0 1 -134 1347 2
+Refer: 190 -1 N 1 0 0 1 -134 1347 2
 Colour: ffffff
 EndChar

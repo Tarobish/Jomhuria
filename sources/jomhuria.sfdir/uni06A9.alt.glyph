@@ -1,5 +1,5 @@
 StartChar: uni06A9.alt
-Encoding: 6016 -1 5753
+Encoding: 6016 -1 5751
 Width: 1689
 VWidth: 0
 Flags: HW
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilBelow" 700 -670 basechar 0
 LayerCount: 2
 Fore
 Refer: 28 -1 N 1 0 0 1 0 0 2
-Refer: 202 -1 N 1 0 0 1 1880 1656 2
-Refer: 201 -1 N 1 0 0 1 420 620 2
+Refer: 201 -1 N 1 0 0 1 1880 1656 2
+Refer: 200 -1 N 1 0 0 1 420 620 2
 Colour: ffffff
 EndChar

@@ -1,5 +1,5 @@
 StartChar: uni06B7.init_LamMemInit
-Encoding: 1838 -1 1575
+Encoding: 1838 -1 1573
 Width: 797
 VWidth: 0
 Flags: HW
@@ -8,6 +8,6 @@ AnchorPoint: "TashkilBelow" 0 -670 basechar 0
 LayerCount: 2
 Fore
 Refer: 95 -1 N 1 0 0 1 0 0 2
-Refer: 192 -1 N 1 0 0 1 124 1289 2
+Refer: 191 -1 N 1 0 0 1 124 1289 2
 Colour: ffffff
 EndChar

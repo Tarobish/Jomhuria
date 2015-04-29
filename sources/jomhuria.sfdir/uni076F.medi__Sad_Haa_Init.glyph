@@ -1,5 +1,5 @@
 StartChar: uni076F.medi_SadHaaInit
-Encoding: 2899 -1 2636
+Encoding: 2899 -1 2634
 Width: 113
 VWidth: 0
 Flags: HW
@@ -8,8 +8,8 @@ AnchorPoint: "TashkilAbove" 180 1640 basechar 0
 AnchorPoint: "TashkilBelow" 570 -963 basechar 0
 LayerCount: 2
 Fore
-Refer: 165 -1 N 1 0 0 1 0 0 2
-Refer: 251 -1 N 1 0 0 1 520 -610 2
-Refer: 194 -1 N 1 0 0 1 550 -873 2
+Refer: 164 -1 N 1 0 0 1 0 0 2
+Refer: 250 -1 N 1 0 0 1 520 -610 2
+Refer: 193 -1 N 1 0 0 1 550 -873 2
 Colour: ffffff
 EndChar

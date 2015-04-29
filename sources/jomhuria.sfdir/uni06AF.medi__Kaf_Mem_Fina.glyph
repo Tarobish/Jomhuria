@@ -1,5 +1,5 @@
 StartChar: uni06AF.medi_KafMemFina
-Encoding: 2082 -1 1819
+Encoding: 2082 -1 1817
 Width: 958
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ AnchorPoint: "TashkilBelow" 600 -670 basechar 0
 LayerCount: 2
 Fore
 Refer: 115 -1 N 1 0 0 1 0 0 2
-Refer: 219 -1 N 1 0 0 1 750 1608 2
+Refer: 218 -1 N 1 0 0 1 750 1608 2
 Colour: ffffff
 EndChar

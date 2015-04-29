@@ -1,5 +1,5 @@
 StartChar: uni06FA.init_SenMemInit
-Encoding: 3836 -1 3573
+Encoding: 3836 -1 3571
 Width: 1077
 VWidth: 0
 Flags: HW
@@ -7,8 +7,8 @@ AnchorPoint: "TashkilAbove" 509 1640 basechar 0
 AnchorPoint: "TashkilBelow" 613 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 364 -1 N 1 0 0 1 0 0 2
-Refer: 192 -1 N 1 0 0 1 520 964 2
-Refer: 193 -1 N 1 0 0 1 613 -40 2
+Refer: 362 -1 N 1 0 0 1 0 0 2
+Refer: 191 -1 N 1 0 0 1 520 964 2
+Refer: 192 -1 N 1 0 0 1 613 -40 2
 Colour: ffffff
 EndChar

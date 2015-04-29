@@ -1,5 +1,5 @@
 StartChar: uni063D.fina_LamYaaFina
-Encoding: 1767 -1 1504
+Encoding: 1767 -1 1502
 Width: 961
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ AnchorPoint: "AlefAbove" 382 535 basechar 0
 LayerCount: 2
 Fore
 Refer: 92 -1 N 1 0 0 1 0 0 2
-Refer: 242 1627 N 1 0 0 1 482 -415 2
+Refer: 241 1627 N 1 0 0 1 482 -415 2
 Colour: ffffff
 EndChar

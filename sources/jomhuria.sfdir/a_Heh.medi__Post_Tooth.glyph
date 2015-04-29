@@ -1,11 +1,11 @@
 StartChar: aHeh.medi_PostTooth
-Encoding: 652 -1 389
+Encoding: 652 -1 387
 Width: 1262
 Flags: HW
 AnchorPoint: "TashkilAbove" 382 1640 basechar 0
 AnchorPoint: "TashkilBelow" 400 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 388 -1 N 1 0 0 1 0 0 2
+Refer: 386 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

@@ -1,5 +1,5 @@
 StartChar: uni06A0.init_AynYaaIsol
-Encoding: 3951 -1 3688
+Encoding: 3951 -1 3686
 Width: 1221
 VWidth: 0
 Flags: HW
@@ -7,7 +7,7 @@ AnchorPoint: "TashkilAbove" 406 1812 basechar 0
 AnchorPoint: "TashkilBelow" 900 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 373 -1 N 1 0 0 1 0 0 2
-Refer: 192 -1 N 1 0 0 1 525 1255 2
+Refer: 371 -1 N 1 0 0 1 0 0 2
+Refer: 191 -1 N 1 0 0 1 525 1255 2
 Colour: ffffff
 EndChar

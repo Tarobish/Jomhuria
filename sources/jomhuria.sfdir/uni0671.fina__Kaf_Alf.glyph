@@ -1,11 +1,11 @@
 StartChar: uni0671.fina_KafAlf
-Encoding: 3614 -1 3351
+Encoding: 3614 -1 3349
 Width: 629
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 341 -1 N 1 0 0 1 0 0 2
-Refer: 255 -1 N 1 0 0 1 -256.904 -118 2
+Refer: 340 -1 N 1 0 0 1 0 0 2
+Refer: 254 -1 N 1 0 0 1 -256.904 -118 2
 Colour: ffffff
 EndChar

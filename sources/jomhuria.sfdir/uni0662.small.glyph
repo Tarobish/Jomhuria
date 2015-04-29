@@ -1,9 +1,9 @@
 StartChar: uni0662.small
-Encoding: 4799 -1 4536
+Encoding: 4799 -1 4534
 Width: 600
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 257 1634 N 0.6 0 0 0.6 -60 64 2
+Refer: 256 1634 N 0.6 0 0 0.6 -60 64 2
 Colour: ffffff
 EndChar

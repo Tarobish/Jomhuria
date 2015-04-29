@@ -1,5 +1,5 @@
 StartChar: uni06B8.medi_LamMemFina
-Encoding: 1303 -1 1040
+Encoding: 1303 -1 1038
 Width: 988
 VWidth: 0
 Flags: HW
@@ -8,6 +8,6 @@ AnchorPoint: "TashkilBelow" 450 -670 basechar 0
 LayerCount: 2
 Fore
 Refer: 65 -1 N 1 0 0 1 0 0 2
-Refer: 205 -1 N 1 0 0 1 515 -590 2
+Refer: 204 -1 N 1 0 0 1 515 -590 2
 Colour: ffffff
 EndChar

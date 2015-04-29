@@ -1,10 +1,10 @@
 StartChar: uniFEEF
-Encoding: 5789 65263 5526
+Encoding: 5789 65263 5524
 Width: 1354
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 1029 1609 N 1 0 0 1 0 0 2
+Refer: 1027 1609 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

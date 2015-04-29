@@ -1,5 +1,5 @@
 StartChar: uni06B5.medi_LamLamYaaIsol
-Encoding: 4285 -1 4022
+Encoding: 4285 -1 4020
 Width: 439
 VWidth: 0
 Flags: HW
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilAbove" 136 1919 basechar 0
 AnchorPoint: "TashkilBelow" 220 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 405 -1 N 1 0 0 1 0 0 2
-Refer: 207 1626 N 1 0 0 1 136 519 2
+Refer: 403 -1 N 1 0 0 1 0 0 2
+Refer: 206 1626 N 1 0 0 1 136 519 2
 Colour: ffffff
 EndChar

@@ -1,5 +1,5 @@
 StartChar: uni076A.medi_LamQafFina
-Encoding: 2003 -1 1740
+Encoding: 2003 -1 1738
 Width: 570
 VWidth: 0
 Flags: HW
@@ -8,6 +8,6 @@ AnchorPoint: "TashkilBelow" 0 -670 basechar 0
 LayerCount: 2
 Fore
 Refer: 109 -1 N 1 0 0 1 0 0 2
-Refer: 319 -1 N 1 0 0 1 287 1122 2
+Refer: 318 8197 N 1 0 0 1 287 1122 2
 Colour: ffffff
 EndChar

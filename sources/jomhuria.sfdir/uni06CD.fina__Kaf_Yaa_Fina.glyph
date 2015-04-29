@@ -1,5 +1,5 @@
 StartChar: uni06CD.fina_KafYaaFina
-Encoding: 2380 -1 2117
+Encoding: 2380 -1 2115
 Width: 966
 VWidth: 0
 Flags: HW
@@ -9,6 +9,6 @@ AnchorPoint: "AlefAbove" 297 515 basechar 0
 LayerCount: 2
 Fore
 Refer: 134 -1 N 1 0 0 1 0 0 2
-Refer: 244 -1 N 1 0 0 1 119 -13 2
+Refer: 243 -1 N 1 0 0 1 119 -13 2
 Colour: ffffff
 EndChar

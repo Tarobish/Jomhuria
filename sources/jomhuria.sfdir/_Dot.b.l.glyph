@@ -1,5 +1,5 @@
 StartChar: Dot.b.l
-Encoding: 552 -1 296
+Encoding: 552 -1 295
 Width: 0
 GlyphClass: 4
 Flags: HW
@@ -7,6 +7,6 @@ AnchorPoint: "DotBelowAlt" 0 140 mark 0
 AnchorPoint: "TashkilBelowDot" 30 -140 basemark 0
 LayerCount: 2
 Fore
-Refer: 190 -1 N 1 0 0 1 0 0 2
+Refer: 189 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

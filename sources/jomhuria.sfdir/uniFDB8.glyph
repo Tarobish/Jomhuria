@@ -1,12 +1,12 @@
 StartChar: uniFDB8
-Encoding: 5637 64952 5374
+Encoding: 5637 64952 5372
 Width: 2942
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 701 -1 N 1 0 0 1 0 0 2
-Refer: 2632 -1 S 1 0 0 1 1202 0 2
-Refer: 2849 -1 S 1 0 0 1 2455 0 2
+Refer: 699 -1 N 1 0 0 1 0 0 2
+Refer: 2630 -1 S 1 0 0 1 1202 0 2
+Refer: 2847 -1 S 1 0 0 1 2455 0 2
 Colour: ffffff
 EndChar

@@ -1,5 +1,5 @@
 StartChar: uni0678.fina_PostTooth
-Encoding: 3036 -1 2773
+Encoding: 3036 -1 2771
 Width: 1496
 VWidth: 0
 Flags: HW
@@ -8,7 +8,7 @@ AnchorPoint: "AlefAbove" 355 550 basechar 0
 AnchorPoint: "TashkilBelow" 754 -740 basechar 0
 LayerCount: 2
 Fore
-Refer: 174 -1 N 1 0 0 1 0 0 2
-Refer: 243 1652 N 1 0 0 1 655 -400 2
+Refer: 173 -1 N 1 0 0 1 0 0 2
+Refer: 242 1652 N 1 0 0 1 655 -400 2
 Colour: ffffff
 EndChar

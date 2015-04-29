@@ -1,5 +1,5 @@
 StartChar: uni0769.medi_BaaMemFina
-Encoding: 1481 -1 1218
+Encoding: 1481 -1 1216
 Width: 692
 VWidth: 0
 Flags: HW
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilBelow" 450 -670 basechar 0
 LayerCount: 2
 Fore
 Refer: 77 -1 N 1 0 0 1 0 0 2
-Refer: 207 1626 N 1 0 0 1 367 150 2
-Refer: 190 -1 N 1 0 0 1 367 660 2
+Refer: 206 1626 N 1 0 0 1 367 150 2
+Refer: 189 -1 N 1 0 0 1 367 660 2
 Colour: ffffff
 EndChar

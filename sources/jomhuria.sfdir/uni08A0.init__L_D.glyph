@@ -1,5 +1,5 @@
 StartChar: uni08A0.init_LD
-Encoding: 5898 -1 5635
+Encoding: 5898 -1 5633
 Width: 487
 Flags: HW
 AnchorPoint: "TashkilAbove" 120 1640 basechar 0
@@ -7,6 +7,6 @@ AnchorPoint: "TashkilBelow" 130 -1220 basechar 0
 LayerCount: 2
 Fore
 Refer: 8 -1 N 1 0 0 1 0 0 2
-Refer: 5655 -1 N 1 0 0 1 4 627 2
+Refer: 5653 -1 N 1 0 0 1 4 627 2
 Colour: ffffff
 EndChar

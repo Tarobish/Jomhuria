@@ -1,6 +1,3 @@
-#ifndef QURAN
-# The Quran font does not have a separate period.ara glyph, it is the default
-# glyph.
 lookup loclPeriod {
   sub period by period.ara;
 } loclPeriod;
@@ -17,7 +14,7 @@ feature locl {
   language SND;
   lookup loclPeriod;
 } locl;
-#endif
+
 
 feature locl {
   script arab;

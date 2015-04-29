@@ -1,5 +1,5 @@
 StartChar: uni0620.init_BaaDal
-Encoding: 1556 -1 1293
+Encoding: 1556 -1 1291
 Width: 349
 VWidth: 0
 Flags: HW
@@ -8,6 +8,6 @@ AnchorPoint: "TashkilBelow" 80 -670 basechar 0
 LayerCount: 2
 Fore
 Refer: 83 -1 N 1 0 0 1 0 0 2
-Refer: 213 -1 N 1 0 0 1 80 -150 2
+Refer: 212 -1 N 1 0 0 1 80 -150 2
 Colour: ffffff
 EndChar
