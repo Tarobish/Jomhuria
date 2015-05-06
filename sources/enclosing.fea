@@ -13,26 +13,14 @@
 
 @SafhaSign3  = [uni0603.3];
 
-#ifdef ITALIC
-@Digits.all = [@Digits @Digits.rtl @Digits.ltr];
-#else
 @Digits.all = [@Digits];
-#endif
 
 lookup digit2small {
   sub @Digits by @Digits.small;
-#ifdef ITALIC
-  sub @Digits.rtl by @Digits.small2;
-  sub @Digits.ltr by @Digits.small2;
-#endif
 } digit2small;
 
 lookup digit2medi {
   sub @Digits by @Digits.medium;
-#ifdef ITALIC
-  sub @Digits.rtl by @Digits.medium2;
-  sub @Digits.ltr by @Digits.medium2;
-#endif
 } digit2medi;
 
 lookup Sign3 {

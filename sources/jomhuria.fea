@@ -10,6 +10,7 @@ languagesystem latn TRK;
 #include "composition.fea"
 #include "local.fea"
 
+include "digits.fea"
 
 #include "basic.fea"
 #include "kashida.fea"
