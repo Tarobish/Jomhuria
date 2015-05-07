@@ -1,12 +1,12 @@
 StartChar: uniFDA7
-Encoding: 5620 64935 5355
+Encoding: 5620 64935 2918
 Width: 3716
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 1011 -1 N 1 0 0 1 0 0 2
-Refer: 837 -1 N 1 0 0 1 1374 0 2
-Refer: 703 -1 N 1 0 0 1 2466 0 2
+Refer: 928 -1 N 1 0 0 1 0 0 2
+Refer: 754 -1 N 1 0 0 1 1374 0 2
+Refer: 620 -1 N 1 0 0 1 2466 0 2
 Colour: ffffff
 EndChar

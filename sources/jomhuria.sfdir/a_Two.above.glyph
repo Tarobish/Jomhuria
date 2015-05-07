@@ -1,5 +1,5 @@
 StartChar: aTwo.above
-Encoding: 582 -1 319
+Encoding: 582 -1 274
 Width: 0
 GlyphClass: 4
 Flags: HW
@@ -7,6 +7,6 @@ AnchorPoint: "TashkilAboveDot" 0 950 basemark 0
 AnchorPoint: "DigitAbove" 0 350 mark 0
 LayerCount: 2
 Fore
-Refer: 277 1778 N 0.5 0 0 0.5 -262 224 2
+Refer: 243 1778 N 0.5 0 0 0.5 -262 224 2
 Colour: ffffff
 EndChar

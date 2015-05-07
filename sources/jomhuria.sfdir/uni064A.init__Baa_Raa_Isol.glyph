@@ -1,5 +1,5 @@
 StartChar: uni064A.init_BaaRaaIsol
-Encoding: 1320 -1 1055
+Encoding: 1320 -1 962
 Width: 362
 VWidth: 0
 Flags: HW
@@ -7,7 +7,7 @@ AnchorPoint: "TashkilAbove" 244 1640 basechar 0
 AnchorPoint: "TashkilBelow" 194 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 67 -1 N 1 0 0 1 0 0 2
-Refer: 193 -1 N 1 0 0 1 275 -340 2
+Refer: 64 -1 N 1 0 0 1 0 0 2
+Refer: 163 -1 N 1 0 0 1 275 -340 2
 Colour: ffffff
 EndChar

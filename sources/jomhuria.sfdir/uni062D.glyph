@@ -1,5 +1,5 @@
 StartChar: uni062D
-Encoding: 947 1581 682
+Encoding: 947 1581 599
 Width: 1380
 VWidth: 0
 Flags: HW
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilBelow" 800 100 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1683 598 m 1028
+1683 598 m 4
 EndSplineSet
 Refer: 19 -1 N 1 0 0 1 0 0 2
 Colour: 100feff

@@ -1,11 +1,11 @@
 StartChar: uni06BE
-Encoding: 593 1726 329
+Encoding: 593 1726 279
 Width: 1666
 Flags: HW
 AnchorPoint: "TashkilBelow" 700 -670 basechar 0
 AnchorPoint: "TashkilAbove" 700 1640 basechar 0
 LayerCount: 2
 Fore
-Refer: 4783 -1 N 1 0 0 1 0 0 2
+Refer: 2351 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

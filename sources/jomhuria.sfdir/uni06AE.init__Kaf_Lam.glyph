@@ -1,5 +1,5 @@
 StartChar: uni06AE.init_KafLam
-Encoding: 3526 -1 3261
+Encoding: 3526 -1 1888
 Width: 740
 VWidth: 0
 Flags: HW
@@ -7,7 +7,7 @@ AnchorPoint: "TashkilBelow" 312 -853 basechar 0
 AnchorPoint: "TashkilAbove" 407 1640 basechar 0
 LayerCount: 2
 Fore
-Refer: 331 -1 N 1 0 0 1 0 0 2
-Refer: 204 -1 N 1 0 0 1 281 -622 2
+Refer: 281 -1 N 1 0 0 1 0 0 2
+Refer: 173 -1 N 1 0 0 1 281 -622 2
 Colour: ffffff
 EndChar

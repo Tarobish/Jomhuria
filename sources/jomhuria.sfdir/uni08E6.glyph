@@ -1,5 +1,5 @@
 StartChar: uni08E6
-Encoding: 6307 2278 6042
+Encoding: 6307 2278 3501
 Width: 0
 Flags: HW
 AnchorPoint: "TashkilBelow" 534 -670 mark 0
@@ -8,6 +8,6 @@ AnchorPoint: "TashkilTashkilBelow" 297 -819 basemark 0
 AnchorPoint: "MarkBelow" 450 -670 mark 0
 LayerCount: 2
 Fore
-Refer: 6040 2276 N 1 0 0 1 -9 -2763 2
+Refer: 3499 2276 N 1 0 0 1 -9 -2763 2
 Colour: ffffff
 EndChar

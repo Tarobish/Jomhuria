@@ -1,5 +1,5 @@
 StartChar: uni0629.fina_LamHeh
-Encoding: 3745 -1 3480
+Encoding: 3745 -1 2028
 Width: 828
 VWidth: 0
 Flags: HW
@@ -7,7 +7,7 @@ AnchorPoint: "TashkilAbove" 200 1640 basechar 0
 AnchorPoint: "TashkilBelow" 400 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 354 -1 N 1 0 0 1 0 0 2
-Refer: 190 -1 N 1 0 0 1 167 684 2
+Refer: 293 -1 N 1 0 0 1 0 0 2
+Refer: 160 -1 N 1 0 0 1 167 684 2
 Colour: ffffff
 EndChar

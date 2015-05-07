@@ -1,5 +1,5 @@
 StartChar: uni0625.fina_KafMemAlf
-Encoding: 3664 -1 3399
+Encoding: 3664 -1 1977
 Width: 354
 VWidth: 0
 Flags: HW
@@ -7,7 +7,7 @@ AnchorPoint: "TashkilAbove" 0 1640 basechar 0
 AnchorPoint: "TashkilBelow" 260 -864 basechar 0
 LayerCount: 2
 Fore
-Refer: 346 -1 N 1 0 0 1 0 0 2
-Refer: 196 1621 N 1 0 0 1 260 256 2
+Refer: 289 -1 N 1 0 0 1 0 0 2
+Refer: 166 1621 N 1 0 0 1 260 256 2
 Colour: ffffff
 EndChar

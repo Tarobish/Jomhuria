@@ -1,5 +1,5 @@
 StartChar: aMem.init_MemHaaInit
-Encoding: 368 -1 112
+Encoding: 368 -1 96
 Width: 979
 Flags: HW
 AnchorPoint: "cursive" 0 517 exit 0

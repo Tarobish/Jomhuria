@@ -1,11 +1,11 @@
 StartChar: uni0671.fina
-Encoding: 681 -1 416
+Encoding: 681 -1 333
 Width: 631
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
 Refer: 1 -1 N 1 0 0 1 2.0957 0 2
-Refer: 254 -1 N 1 0 0 1 -256.904 -118 2
+Refer: 220 -1 N 1 0 0 1 -256.904 -118 2
 Colour: ffffff
 EndChar

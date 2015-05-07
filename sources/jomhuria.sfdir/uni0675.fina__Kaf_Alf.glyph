@@ -1,5 +1,5 @@
 StartChar: uni0675.fina_KafAlf
-Encoding: 3611 -1 3346
+Encoding: 3611 -1 1955
 Width: 629
 VWidth: 0
 Flags: HW
@@ -7,7 +7,7 @@ AnchorPoint: "TashkilAbove" 476 2089 basechar 0
 AnchorPoint: "TashkilBelow" 0 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 340 -1 N 1 0 0 1 0 0 2
-Refer: 242 1652 N 1 0 0 1 474 418 2
+Refer: 287 -1 N 1 0 0 1 0 0 2
+Refer: 208 1652 N 1 0 0 1 474 418 2
 Colour: ffffff
 EndChar

@@ -1,5 +1,5 @@
 StartChar: aFaa.init_FaaHaaInit
-Encoding: 362 -1 106
+Encoding: 362 -1 92
 Width: 737
 Flags: HW
 AnchorPoint: "TwoDotsAbove" -15 1510 basechar 0
@@ -53,6 +53,6 @@ SplineSet
  152.8515625 992 127.80859375 957.774414062 127.80859375 904.0703125 c 4
  127.80859375 843.965820312 186.243164062 824.487304688 221.58203125 824.487304688 c 6
 EndSplineSet
-Comment: "XXX: disable for three dots below"
+Comment: "XXX: disable for three dots below" 
 Colour: ff0000
 EndChar
