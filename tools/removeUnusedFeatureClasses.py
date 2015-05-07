@@ -20,7 +20,7 @@ def readLines(name):
         return f.readlines()
 
 def getClassName(line):
-    classname = re.match("(@[A-Za-z0-9_\.]+)", line)
+    classname = re.match("(@[A-Za-z0-9_\.\-]+)", line)
     if classname is None:
         return None
     return classname.groups()[0]
@@ -37,7 +37,7 @@ class GlyphClass(object):
 
     @staticmethod
     def getClassName(line):
-        classname = re.match("(@[A-Za-z0-9_\.]+)", line)
+        classname = re.match("(@[A-Za-z0-9_\.\-]+)", line)
         if classname is None:
             return None
         return classname.groups()[0]
