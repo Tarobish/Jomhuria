@@ -1,7 +1,8 @@
 StartChar: aHaa.medi_2LamHaaHaaInit
 Encoding: 438 -1 152
 Width: 1250
-Flags: HW
+Flags: W
+HStem: 0 436.188<-50 506.772 857.467 1300.49> 692.147 284.228<204.871 439.144>
 AnchorPoint: "TwoDotsAbove" -31 1210 basechar 0
 AnchorPoint: "TwoDotsBelow" 49 -280 basechar 0
 AnchorPoint: "DotAbove" 80 1210 basechar 0

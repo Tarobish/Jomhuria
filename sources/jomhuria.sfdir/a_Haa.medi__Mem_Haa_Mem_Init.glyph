@@ -1,7 +1,8 @@
 StartChar: aHaa.medi_MemHaaMemInit
 Encoding: 382 -1 107
-Width: 400
-Flags: HW
+Width: 1250
+Flags: W
+HStem: 0 436.188<-50 506.772 857.467 1300.49> 692.147 284.228<204.871 439.144>
 AnchorPoint: "DigitBelow" 538 1 basechar 0
 AnchorPoint: "TaaBelow" 538 401 basechar 0
 AnchorPoint: "TaaAbove" 30 1295 basechar 0
@@ -14,6 +15,7 @@ AnchorPoint: "HamzaBelow" 538 1 basechar 0
 AnchorPoint: "TwoDotsAbove" -70 1295 basechar 0
 AnchorPoint: "TwoDotsBelow" 427 1 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 148 -1 N 1 0 0 1 0 0 2
 Colour: ffffff

@@ -1,9 +1,10 @@
 StartChar: aLam.medi_LamYaaFina
 Encoding: 347 -1 80
 Width: 722
-Flags: HW
+Flags: W
+HStem: 0 436.313<-50 227.992 520.996 772.261>
 AnchorPoint: "TwoDotsAbove" -74 1624 basechar 0
-AnchorPoint: "TashkilAbove" 0 1640 basechar 0
+AnchorPoint: "TashkilAbove" 218 1297 basechar 0
 AnchorPoint: "VAbove" 46 1524 basechar 0
 AnchorPoint: "DotAbove" 46 1624 basechar 0
 AnchorPoint: "Stroke" 67 1056 basechar 0

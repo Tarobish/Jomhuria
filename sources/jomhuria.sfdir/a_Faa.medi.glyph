@@ -1,13 +1,14 @@
 StartChar: aFaa.medi
 Encoding: 272 -1 16
 Width: 988
-Flags: HW
+Flags: W
+HStem: 0 436.188<-50 122.521 684.772 1038.56> 678.399 255.165<279.612 459.284>
 AnchorPoint: "TwoDotsBelow" 270 -300 basechar 0
 AnchorPoint: "TwoDotsAbove" 300 1200 basechar 0
 AnchorPoint: "TashkilBelow" 330 -670 basechar 0
 AnchorPoint: "DotBelow" 370 -300 basechar 0
 AnchorPoint: "HamzaAbove" 400 1200 basechar 0
-AnchorPoint: "TashkilAbove" 450 1640 basechar 0
+AnchorPoint: "TashkilAbove" 437 1092 basechar 0
 AnchorPoint: "DotAbove" 485 1200 basechar 0
 LayerCount: 2
 Back

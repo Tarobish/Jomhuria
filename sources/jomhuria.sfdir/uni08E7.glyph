@@ -1,14 +1,16 @@
 StartChar: uni08E7
-Encoding: 6308 2279 3502
+Encoding: 6308 2279 3499
 Width: 0
-Flags: HW
-AnchorPoint: "TashkilAbove" 529 1640 mark 0
-AnchorPoint: "TashkilAboveDot" 529 1640 mark 0
-AnchorPoint: "MarkAbove" 529 1640 mark 0
-AnchorPoint: "TashkilTashkilAbove" 287 2170 basemark 0
+Flags: W
+HStem: 1728.8 619.826 1975.8 619.826
+AnchorPoint: "TashkilAbove" 191 1748 mark 0
+AnchorPoint: "TashkilAboveDot" 593 1683 mark 0
+AnchorPoint: "MarkAbove" 593 1683 mark 0
+AnchorPoint: "TashkilTashkilAbove" 351 2213 basemark 0
 LayerCount: 2
+Back
 Fore
-Refer: 3499 2276 N 1 0 0 1 2 -42 2
-Refer: 3499 2276 N 1 0 0 1 -62 205 2
+Refer: 3496 2276 S 1 0 0 1 66 1 2
+Refer: 3496 2276 S 1 0 0 1 2 248 2
 Colour: ffffff
 EndChar

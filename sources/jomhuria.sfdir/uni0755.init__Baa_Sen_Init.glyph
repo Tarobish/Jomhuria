@@ -2,12 +2,15 @@ StartChar: uni0755.init_BaaSenInit
 Encoding: 2105 -1 1270
 Width: 449
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -756.313 148.313<306 390.568 531.693 616.261>
+VStem: 254.595 19.5108<309.249 398.734> 306 310.261
 AnchorPoint: "TashkilAbove" 10 1640 basechar 0
 AnchorPoint: "TashkilBelow" 296 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 100 -1 N 1 0 0 1 0 0 2
 Refer: 215 -1 N 1 0 0 1 256 440 2
-Colour: ffffff
+Colour: ff00
 EndChar

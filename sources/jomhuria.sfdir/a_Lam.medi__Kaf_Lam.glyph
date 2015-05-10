@@ -1,7 +1,8 @@
 StartChar: aLam.medi_KafLam
 Encoding: 597 -1 283
 Width: 722
-Flags: HW
+Flags: W
+HStem: 0 436.313<-50 227.992 520.996 772.261>
 AnchorPoint: "TwoDotsAbove" -10 1650 basechar 0
 AnchorPoint: "TwoDotsBelow" 100 -150 basechar 0
 AnchorPoint: "VAbove" 110 1550 basechar 0

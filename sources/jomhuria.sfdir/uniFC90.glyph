@@ -1,9 +1,10 @@
 StartChar: uniFC90
-Encoding: 5361 64656 2659
+Encoding: 5361 64656 2658
 Width: 1374
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 218 1648 N 1 0 0 1 156 -1455.62 2
 Refer: 928 -1 S 1 0 0 1 0 0 2

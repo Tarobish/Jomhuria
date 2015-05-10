@@ -2,10 +2,12 @@ StartChar: uni0647.medi_PostTooth
 Encoding: 4181 -1 2259
 Width: 1262
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 436.271<-50 203.007 1051.66 1312.96> 179.815 256.456<709.769 961.603>
 AnchorPoint: "TashkilBelow" 400 -670 basechar 0
 AnchorPoint: "TashkilAbove" 382 1640 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 322 -1 S 1 0 0 1 0 0 2
 Colour: ffffff

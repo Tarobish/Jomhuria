@@ -1,12 +1,13 @@
 StartChar: aLam.medi_LamMemFina
 Encoding: 321 -1 62
 Width: 722
-Flags: HW
+Flags: W
+HStem: 0 436.313<-50 227.992 520.996 772.261>
 AnchorPoint: "TwoDotsAbove" 50 1725 basechar 0
 AnchorPoint: "Stroke" 167 1226 basechar 0
 AnchorPoint: "VAbove" 170 1625 basechar 0
 AnchorPoint: "DotAbove" 170 1725 basechar 0
-AnchorPoint: "TashkilAbove" 250 1640 basechar 0
+AnchorPoint: "TashkilAbove" 259 1352 basechar 0
 AnchorPoint: "TwoDotsBelow" 400 -200 basechar 0
 AnchorPoint: "TashkilBelow" 450 -670 basechar 0
 LayerCount: 2

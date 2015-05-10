@@ -1,9 +1,10 @@
 StartChar: uniFBEB
-Encoding: 5196 64491 2494
+Encoding: 5196 64491 2493
 Width: 1184
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 325 -1 N 1 0 0 1 0 0 2
 Refer: 461 -1 N 1 0 0 1 560 0 2

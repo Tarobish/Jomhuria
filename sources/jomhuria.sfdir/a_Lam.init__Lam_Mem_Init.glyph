@@ -1,14 +1,16 @@
 StartChar: aLam.init_LamMemInit
 Encoding: 351 -1 83
-Width: 634
-Flags: HW
+Width: 574
+Flags: W
+HStem: 0 436.188<-50 237.123>
+VStem: -50 474.436<122.904 436.188>
 AnchorPoint: "TwoDotsAbove" -229 1658 basechar 0
 AnchorPoint: "VAbove" -109 1558 basechar 0
 AnchorPoint: "DotAbove" -109 1658 basechar 0
 AnchorPoint: "Stroke" -83 1066 basechar 0
 AnchorPoint: "TashkilBelow" 0 -670 basechar 0
 AnchorPoint: "TwoDotsBelow" 100 -150 basechar 0
-AnchorPoint: "TashkilAbove" 170 1640 basechar 0
+AnchorPoint: "TashkilAbove" 205 1283 basechar 0
 LayerCount: 2
 Back
 SplineSet

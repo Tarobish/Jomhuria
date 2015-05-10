@@ -1,7 +1,7 @@
 StartChar: aKaf.init_KafRaaIsol
 Encoding: 386 -1 111
 Width: 1174
-Flags: HW
+Flags: W
 AnchorPoint: "TwoDotsAbove" -310 1640 basechar 0
 AnchorPoint: "DotAbove" -200 1640 basechar 0
 AnchorPoint: "TashkilAbove" 300 1640 basechar 0
@@ -71,5 +71,5 @@ SplineSet
  256.444750311 1482.16849249 617.842567691 1608.10356073 1031.13840433 1695.68760859 c 0
  1041.35173907 1697.75430763 1038.84011329 1700.61328351 1033.98246836 1692.08601992 c 0
 EndSplineSet
-Colour: ff0000
+Colour: ff00
 EndChar

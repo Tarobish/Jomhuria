@@ -1,7 +1,8 @@
 StartChar: aRaa.isol
 Encoding: 303 -1 44
 Width: 648
-Flags: HW
+Flags: W
+VStem: 326.283 211.875<-25.13 148.998>
 AnchorPoint: "DotAlt" 142 -68 basechar 0
 AnchorPoint: "RingBelow" 194 -354 basechar 0
 AnchorPoint: "TwoDotsAbove" 266 938 basechar 0
@@ -9,7 +10,7 @@ AnchorPoint: "TaaAbove" 328 888 basechar 0
 AnchorPoint: "DotAbove" 328 1088 basechar 0
 AnchorPoint: "HamzaAbove" 378 938 basechar 0
 AnchorPoint: "VAbove" 378 938 basechar 0
-AnchorPoint: "TashkilAbove" 400 1640 basechar 0
+AnchorPoint: "TashkilAbove" 246 819 basechar 0
 AnchorPoint: "TashkilBelow" 508 -670 basechar 0
 AnchorPoint: "DotBelow" 560 -541 basechar 0
 AnchorPoint: "Stroke" 650 64 basechar 0

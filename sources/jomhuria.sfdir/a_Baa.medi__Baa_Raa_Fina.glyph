@@ -1,7 +1,9 @@
 StartChar: aBaa.medi_BaaRaaFina
 Encoding: 375 -1 101
 Width: 624
-Flags: HW
+Flags: W
+HStem: 0 436.188<-50 236.26 476.659 674.791>
+VStem: 238.61 146.587<437.347 595.377>
 AnchorPoint: "TwoDotsBelow" 159 -280 basechar 0
 AnchorPoint: "TwoDotsAbove" 180 1000 basechar 0
 AnchorPoint: "TashkilAbove" 230 1640 basechar 0

@@ -1,10 +1,12 @@
 StartChar: aKaf.init_KafMemIsol
 Encoding: 640 -1 314
 Width: 739
-Flags: HW
+Flags: W
+HStem: 0 436.188<-50 393.344>
+VStem: 407.183 172.521<452.502 591.489>
 AnchorPoint: "TwoDotsAbove" -358 1724 basechar 0
 AnchorPoint: "DotAbove" -248 1724 basechar 0
-AnchorPoint: "TashkilAbove" 350 1750 basechar 0
+AnchorPoint: "TashkilAbove" 314 1352 basechar 0
 AnchorPoint: "Dash" 433 1800 basechar 0
 AnchorPoint: "RingBelow" 480 1585 basechar 0
 AnchorPoint: "DotBelow" 560 665 basechar 0

@@ -1,7 +1,9 @@
 StartChar: aKaf.isol.alt
 Encoding: 455 -1 168
 Width: 1607
-Flags: HW
+Flags: W
+HStem: 0 436.188<329.447 1310.5> 614.4 265.183<827.362 1286.71>
+VStem: 1324.61 172.521<452.331 598.057>
 AnchorPoint: "TashkilAbove" 1108 1640 basechar 0
 AnchorPoint: "TashkilBelow" 2812 -670 basechar 0
 LayerCount: 2

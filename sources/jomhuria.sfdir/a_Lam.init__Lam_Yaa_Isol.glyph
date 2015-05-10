@@ -1,11 +1,13 @@
 StartChar: aLam.init_LamYaaIsol
 Encoding: 637 -1 311
-Width: 634
-Flags: HW
+Width: 574
+Flags: W
+HStem: 0 436.188<-50 237.123>
+VStem: -50 474.436<122.904 436.188>
 AnchorPoint: "TwoDotsAbove" 200 1668 basechar 0
 AnchorPoint: "VAbove" 320 1568 basechar 0
 AnchorPoint: "DotAbove" 320 1668 basechar 0
-AnchorPoint: "TashkilAbove" 333 1640 basechar 0
+AnchorPoint: "TashkilAbove" 273 1324 basechar 0
 AnchorPoint: "Stroke" 350 1086 basechar 0
 AnchorPoint: "TwoDotsBelow" 433 -410 basechar 0
 AnchorPoint: "TashkilBelow" 573 -670 basechar 0

@@ -1,9 +1,12 @@
 StartChar: uni0670.isol
 Encoding: 4791 -1 2268
 Width: 426
-Flags: HW
+Flags: W
+HStem: 757.475 341.559
+VStem: -50 128.074<959.44 1023.81>
 AnchorPoint: "TashkilAbove" 143 1550 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 218 1648 N 1 0 0 1 -100 -977 2
 Colour: ffffff

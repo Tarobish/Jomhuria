@@ -1,7 +1,8 @@
 StartChar: uni0640.2
-Encoding: 4873 -1 2339
+Encoding: 4873 -1 2338
 Width: 714
-Flags: HW
+Flags: W
+HStem: 0 436.188<-50 764.557>
 AnchorPoint: "MarkBelow" 350 -670 basechar 0
 AnchorPoint: "MarkAbove" 359 1640 basechar 0
 LayerCount: 2

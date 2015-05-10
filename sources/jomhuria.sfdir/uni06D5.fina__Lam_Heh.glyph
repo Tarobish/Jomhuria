@@ -2,12 +2,13 @@ StartChar: uni06D5.fina_LamHeh
 Encoding: 3744 -1 2027
 Width: 828
 VWidth: 0
-Flags: HW
+Flags: W
 AnchorPoint: "HamzaAbove" 167 824 basechar 0
 AnchorPoint: "TashkilAbove" 200 1640 basechar 0
 AnchorPoint: "TashkilBelow" 400 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 293 -1 N 1 0 0 1 0 0 2
-Colour: ffffff
+Colour: ff00
 EndChar

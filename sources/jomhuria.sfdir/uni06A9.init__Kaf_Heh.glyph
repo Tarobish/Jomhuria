@@ -2,11 +2,12 @@ StartChar: uni06A9.init_KafHeh
 Encoding: 3687 -1 2000
 Width: 1382
 VWidth: 0
-Flags: HW
+Flags: W
 AnchorPoint: "TashkilAbove" 370 1640 basechar 0
 AnchorPoint: "TashkilBelow" 400 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 290 -1 N 1 0 0 1 0 0 2
-Colour: ffffff
+Colour: ff00
 EndChar

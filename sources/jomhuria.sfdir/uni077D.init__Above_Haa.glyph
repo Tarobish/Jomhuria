@@ -2,12 +2,14 @@ StartChar: uni077D.init_AboveHaa
 Encoding: 2012 -1 1228
 Width: 1376
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 436.188<-50 201.885 422.098 562.736 742.581 897.473>
 AnchorPoint: "cursive" 0 415 exit 0
 AnchorPoint: "TashkilAbove" 878 1763 basechar 0
 AnchorPoint: "TashkilBelow" 1030 -290 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 95 -1 N 1 0 0 1 0 0 2
-Colour: ffffff
+Colour: ff00
 EndChar

@@ -1,14 +1,15 @@
 StartChar: aDal.isol
 Encoding: 268 -1 12
 Width: 942
-Flags: HW
+Flags: W
+HStem: 0 436.188<285.493 662.947>
 AnchorPoint: "TwoDotsAbove" 309 1200 basechar 0
 AnchorPoint: "TwoDotsBelow" 389 -300 basechar 0
 AnchorPoint: "TaaAbove" 420 1100 basechar 0
 AnchorPoint: "VAbove" 420 1100 basechar 0
 AnchorPoint: "DotAbove" 420 1200 basechar 0
 AnchorPoint: "HamzaAbove" 420 1200 basechar 0
-AnchorPoint: "TashkilAbove" 420 1640 basechar 0
+AnchorPoint: "TashkilAbove" 492 1133 basechar 0
 AnchorPoint: "RingBelow" 490 110 basechar 0
 AnchorPoint: "TashkilBelow" 500 -670 basechar 0
 AnchorPoint: "DotBelow" 500 -300 basechar 0

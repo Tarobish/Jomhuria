@@ -1,7 +1,9 @@
 StartChar: aLam.init_LamHaaMemInit
 Encoding: 355 -1 87
-Width: 634
-Flags: HW
+Width: 574
+Flags: W
+HStem: 0 436.188<-50 237.123>
+VStem: -50 474.436<122.904 436.188>
 AnchorPoint: "TwoDotsAbove" 14 1688 basechar 0
 AnchorPoint: "TwoDotsBelow" 120 -150 basechar 0
 AnchorPoint: "VAbove" 134 1588 basechar 0
@@ -43,7 +45,7 @@ SplineSet
  43.2177734375 949.982421875 56.2822265625 1002.59179688 94.6962890625 1033.4609375 c 6
  413.3046875 1289.49121094 l 5
  524.887695312 856.208984375 l 5
-206.64713189 1082.4903051 m 0
+206.64713189 1082.4903051 m 1024
 EndSplineSet
 Colour: ff0000
 EndChar

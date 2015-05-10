@@ -1,13 +1,15 @@
 StartChar: aLam.init_LamMemIsol
 Encoding: 641 -1 315
-Width: 634
-Flags: HW
+Width: 574
+Flags: W
+HStem: 0 436.188<-50 237.123>
+VStem: -50 474.436<122.904 436.188>
 AnchorPoint: "TwoDotsAbove" 243 1794 basechar 0
 AnchorPoint: "VAbove" 363 1694 basechar 0
 AnchorPoint: "DotAbove" 363 1794 basechar 0
 AnchorPoint: "TwoDotsBelow" 403 -254 basechar 0
 AnchorPoint: "Stroke" 410 1152 basechar 0
-AnchorPoint: "TashkilAbove" 533 1710 basechar 0
+AnchorPoint: "TashkilAbove" 232 1311 basechar 0
 AnchorPoint: "TashkilBelow" 603 0 basechar 0
 LayerCount: 2
 Back

@@ -1,7 +1,9 @@
 StartChar: aBaa.init_BaaBaaHeh
-Encoding: 5947 -1 3196
+Encoding: 5947 -1 3193
 Width: 487
-Flags: HW
+Flags: W
+HStem: 0 436.271<-50 215.091>
+VStem: -50 427.862<123.429 436.271> 217.682 160.181<436.271 579.568>
 AnchorPoint: "TwoDotsAbove" 50 700 basechar 0
 AnchorPoint: "TwoDotsBelowAlt" 62 -750 basechar 0
 AnchorPoint: "TwoDotsBelow" 62 -410 basechar 0

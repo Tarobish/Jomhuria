@@ -2,12 +2,15 @@ StartChar: uni075A.fina_KafDal
 Encoding: 3719 -1 2014
 Width: 827
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -836.313 148.313<483 567.568 708.693 793.261> 148.625 22.5175<214.368 380.717> 197.301 21.8693<151.969 170.041>
+VStem: 483 310.261 639.545 2.94612<798.727 800.249>
 AnchorPoint: "TashkilAbove" 371 1640 basechar 0
 AnchorPoint: "TashkilBelow" 433 -800 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 292 -1 N 1 0 0 1 0 0 2
 Refer: 215 -1 N 1 0 0 1 433 360 2
-Colour: ffffff
+Colour: ff00
 EndChar

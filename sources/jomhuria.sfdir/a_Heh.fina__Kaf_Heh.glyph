@@ -1,7 +1,9 @@
 StartChar: aHeh.fina_KafHeh
 Encoding: 614 -1 291
 Width: 689
-Flags: HW
+Flags: W
+HStem: 255.573 25.098<293.249 453.727>
+VStem: 439.617 30.4983<641.362 694.703>
 AnchorPoint: "TwoDotsAbove" 59 870 basechar 0
 AnchorPoint: "HamzaAbove" 170 870 basechar 0
 AnchorPoint: "DotAbove" 170 870 basechar 0
@@ -80,5 +82,5 @@ SplineSet
  546.897054512 527.8326084 574.069732613 379.111471472 606.714042925 310.293864192 c 0
  622.190365714 227.748104029 658.427868132 177.166013928 712.753828393 143.520819896 c 0
 EndSplineSet
-Colour: ff0000
+Colour: ff00
 EndChar

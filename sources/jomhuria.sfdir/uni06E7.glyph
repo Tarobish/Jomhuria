@@ -1,14 +1,17 @@
 StartChar: uni06E7
-Encoding: 4838 1767 2309
-Width: 0
+Encoding: 4838 1767 2308
+Width: 536
 VWidth: 0
 GlyphClass: 4
-Flags: HW
-AnchorPoint: "MarkAbove" 318 1640 mark 0
-AnchorPoint: "TashkilAboveDot" 320 1640 mark 0
-AnchorPoint: "TashkilAbove" 320 1640 mark 0
+Flags: W
+HStem: 1680.03 82.9502<99.7309 241.936> 1680.03 125.802<158.735 418.528> 1882.66 82.6426<111.064 219.422>
+VStem: 50 436.174
+AnchorPoint: "MarkAbove" 398 1640 mark 0
+AnchorPoint: "TashkilAboveDot" 400 1640 mark 0
+AnchorPoint: "TashkilAbove" 300 1611 mark 0
 LayerCount: 2
+Back
 Fore
-Refer: 2306 1766 N 1 0 0 1 -80 1680 2
+Refer: 2305 1766 S 1 0 0 1 0 1680 2
 Colour: ffffff
 EndChar

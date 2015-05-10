@@ -2,10 +2,13 @@ StartChar: uni0643.medi_KafLam
 Encoding: 3567 -1 1923
 Width: 889
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 436.188<249 394.948 687.745 939.218>
+VStem: 407.739 172.521<453.152 602.057>
 AnchorPoint: "TashkilAbove" 437 1640 basechar 0
 AnchorPoint: "TashkilBelow" 487 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 284 -1 N 1 0 0 1 0 0 2
 Colour: ffffff

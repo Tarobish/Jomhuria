@@ -1,7 +1,7 @@
 StartChar: aLam.init_LamAlfIsol
 Encoding: 353 -1 85
-Width: 1134
-Flags: HW
+Width: 1024
+Flags: W
 AnchorPoint: "VAbove" 111 1388 basechar 0
 AnchorPoint: "TashkilBelow" 240 -730 basechar 0
 AnchorPoint: "TwoDotsAbove" 270 1650 basechar 0

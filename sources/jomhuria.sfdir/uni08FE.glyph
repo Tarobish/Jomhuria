@@ -1,11 +1,13 @@
 StartChar: uni08FE
-Encoding: 6328 2302 3527
+Encoding: 6328 2302 3524
 Width: 0
-Flags: HW
-AnchorPoint: "TashkilTashkilAbove" 400 2200 basemark 0
-AnchorPoint: "MarkAbove" 569 1640 mark 0
-AnchorPoint: "TashkilAboveDot" 570 1640 mark 0
-AnchorPoint: "TashkilAbove" 570 1640 mark 0
+Flags: W
+HStem: 1730 188.939
+VStem: -1.60938 188.939
+AnchorPoint: "TashkilTashkilAbove" 251 1881 basemark 0
+AnchorPoint: "MarkAbove" 420 1321 mark 0
+AnchorPoint: "TashkilAboveDot" 421 1321 mark 0
+AnchorPoint: "TashkilAbove" 123 1707 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -22,11 +24,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-147.390625 2143.33105469 m 5
- 242 2237.93945312 l 5
- 336.330078125 2143.33105469 l 5
- 242 2049 l 5
- 147.390625 2143.33105469 l 5
+-1.609375 1824.33105469 m 5
+ 93 1918.93945312 l 5
+ 187.330078125 1824.33105469 l 5
+ 93 1730 l 5
+ -1.609375 1824.33105469 l 5
 EndSplineSet
 Colour: ffff00
 EndChar

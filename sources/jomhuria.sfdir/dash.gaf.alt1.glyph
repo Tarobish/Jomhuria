@@ -2,7 +2,7 @@ StartChar: dash.gaf.alt1
 Encoding: 475 -1 185
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Dash" -112 92 mark 0
 LayerCount: 2
 Back
@@ -38,5 +38,5 @@ SplineSet
  434.339226077 284.554280628 414.909099156 265.178754369 401.214407775 257.005244546 c 0
  144.489652742 212.392889266 -155.664422572 129.653826936 -527.818727087 20.3088811454 c 0
 EndSplineSet
-Colour: ff0000
+Colour: ff00
 EndChar

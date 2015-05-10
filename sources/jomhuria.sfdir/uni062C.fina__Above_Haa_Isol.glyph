@@ -2,13 +2,16 @@ StartChar: uni062C.fina_AboveHaaIsol
 Encoding: 3193 -1 1695
 Width: 1597
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -536.61 253.283<460.931 917.752> -34 303.367 0 436.188<1260.73 1657.23> 524.818 270.365<911.652 1117.48 1235.59 1287.14> 692.243 284.229<428.487 680.456>
+VStem: 120 439.848<-139.739 179.489> 720.405 303.368
 AnchorPoint: "cursive" 223 420 entry 0
 AnchorPoint: "TashkilAbove" 337 1640 basechar 0
 AnchorPoint: "TashkilBelow" 857 -1139 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 162 -1 N 1 0 0 1 872 -34 2
 Refer: 149 -1 N 1 0 0 1 10 0 2
-Colour: ffffff
+Colour: ff00
 EndChar

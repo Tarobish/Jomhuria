@@ -1,7 +1,8 @@
 StartChar: aAyn.init_AynHaaInit
 Encoding: 388 -1 113
 Width: 1121
-Flags: HW
+Flags: W
+HStem: 0 436.188<-50 202.382 486.177 794.202>
 AnchorPoint: "cursive" 162 339 exit 0
 AnchorPoint: "TwoDotsAbove" 317 1535 basechar 0
 AnchorPoint: "HamzaAbove" 428 1535 basechar 0

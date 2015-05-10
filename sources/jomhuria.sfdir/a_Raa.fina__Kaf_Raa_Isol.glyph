@@ -1,7 +1,9 @@
 StartChar: aRaa.fina_KafRaaIsol
 Encoding: 387 -1 112
 Width: 855
-Flags: HW
+Flags: W
+HStem: -399.489 33.4456<141.686 449.669>
+VStem: 733.223 21.7301<141.811 224.96> 891.933 38.9511<-84.0759 170.823>
 AnchorPoint: "TaaAbove" 300 450 basechar 0
 AnchorPoint: "VAbove" 400 450 basechar 0
 AnchorPoint: "TwoDotsAbove" 400 550 basechar 0
@@ -80,5 +82,5 @@ SplineSet
  791.876708258 308.717057092 789.980961235 308.923830788 786.728581955 313.214796379 c 0
  792.135445872 303.806357089 789.678395695 306.988680115 787.814920902 302.804802893 c 0
 EndSplineSet
-Colour: ff0000
+Colour: ff00
 EndChar

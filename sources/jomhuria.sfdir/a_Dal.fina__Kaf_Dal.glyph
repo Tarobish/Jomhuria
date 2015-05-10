@@ -1,7 +1,9 @@
 StartChar: aDal.fina_KafDal
 Encoding: 615 -1 292
 Width: 827
-Flags: HW
+Flags: W
+HStem: 148.625 22.5175<214.368 380.717> 197.301 21.8693<151.969 170.041>
+VStem: 639.545 2.94612<798.727 800.249>
 AnchorPoint: "TwoDotsBelow" 285 -330 basechar 0
 AnchorPoint: "HamzaAbove" 290 1075 basechar 0
 AnchorPoint: "TwoDotsAbove" 290 1075 basechar 0
@@ -89,5 +91,5 @@ SplineSet
  878.474442035 26.7286461588 860.110604281 -12.4473601985 844.189713979 -39.851480736 c 0
  835.593569331 -54.5825809379 828.117412267 -58.2597385598 805.636031262 -53.7395417019 c 0
 EndSplineSet
-Colour: ff0000
+Colour: ff00
 EndChar

@@ -1,9 +1,10 @@
 StartChar: uniFCEC
-Encoding: 5453 64748 2751
+Encoding: 5453 64748 2750
 Width: 1982
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 2069 -1 N 1 0 0 1 0 0 2
 Refer: 2042 -1 S 1 0 0 1 1093 0 2

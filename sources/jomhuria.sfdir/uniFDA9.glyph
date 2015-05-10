@@ -1,9 +1,10 @@
 StartChar: uniFDA9
-Encoding: 5622 64937 2920
+Encoding: 5622 64937 2919
 Width: 4094
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 934 -1 N 1 0 0 1 0 0 2
 Refer: 616 -1 N 1 0 0 1 1255 0 2

@@ -1,7 +1,8 @@
 StartChar: aAlf.fina_KafMemAlf
 Encoding: 610 -1 289
 Width: 354
-Flags: HW
+Flags: W
+VStem: 125.036 34.7812<463.945 1093> 213.898 36.7952<470.544 781.987 966.476 1188.47>
 AnchorPoint: "DigitAbove" -30 1338 basechar 0
 AnchorPoint: "TashkilBelow" 0 -670 basechar 0
 AnchorPoint: "TashkilAbove" 0 1640 basechar 0
@@ -54,5 +55,5 @@ SplineSet
  188.914511483 1310.03844142 204.821430529 1124.64343402 218.279743874 966.476058148 c 0
  213.897593748 777.150033399 l 0
 EndSplineSet
-Colour: ff0000
+Colour: ff00
 EndChar

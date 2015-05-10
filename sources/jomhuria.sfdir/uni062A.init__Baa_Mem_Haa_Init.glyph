@@ -2,12 +2,15 @@ StartChar: uni062A.init_BaaMemHaaInit
 Encoding: 1625 -1 1078
 Width: 487
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 436.271<-50 215.091> 904 303.367
+VStem: -256.211 563.895 -50 427.862<123.429 436.271> 217.682 160.181<436.271 579.568>
 AnchorPoint: "TashkilAbove" 71 1936 basechar 0
 AnchorPoint: "TashkilBelow" 400 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 160 -1 N 1 0 0 1 26 904 2
 Refer: 76 -1 N 1 0 0 1 0 0 2
-Colour: ffffff
+Colour: ff00
 EndChar

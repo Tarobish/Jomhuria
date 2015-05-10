@@ -1,7 +1,9 @@
 StartChar: aKaf.init_AboveHaa
 Encoding: 485 -1 194
 Width: 739
-Flags: HW
+Flags: W
+HStem: 0 436.188<-50 393.344>
+VStem: 407.183 172.521<452.502 591.489>
 AnchorPoint: "TwoDotsBelow" -400 152 basechar 0
 AnchorPoint: "DotBelow" -400 152 basechar 0
 AnchorPoint: "TwoDotsAbove" -142 1643 basechar 0

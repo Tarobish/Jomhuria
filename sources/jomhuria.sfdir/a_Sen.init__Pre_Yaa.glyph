@@ -1,7 +1,8 @@
 StartChar: aSen.init_PreYaa
 Encoding: 441 -1 154
 Width: 1208
-Flags: HW
+Flags: W
+HStem: 0 436.271<-50 201.848 422.098 562.736 742.581 897.473>
 AnchorPoint: "TashkilBelow" 0 -670 basechar 0
 AnchorPoint: "TwoDotsAbove" 110 870 basechar 0
 AnchorPoint: "TwoDotsBelow" 221 -200 basechar 0

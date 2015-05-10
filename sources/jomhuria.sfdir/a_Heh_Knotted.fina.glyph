@@ -1,7 +1,8 @@
 StartChar: aHehKnotted.fina
-Encoding: 5055 -1 2358
+Encoding: 5055 -1 2357
 Width: 1452
-Flags: HW
+Flags: W
+HStem: 0 436.188<805.931 1066.58 1212.19 1502.7>
 AnchorPoint: "TashkilBelow" 670 -670 basechar 0
 AnchorPoint: "TashkilAbove" 670 1640 basechar 0
 LayerCount: 2

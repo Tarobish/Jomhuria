@@ -1,11 +1,13 @@
 StartChar: aAyn.isol
 Encoding: 261 -1 5
 Width: 1319
-Flags: HW
+Flags: W
+HStem: -536.583 253.283<434.967 906.589>
+VStem: 110 438.685<-141.619 174.99>
 AnchorPoint: "TwoDotsAbove" 259 1230 basechar 0
 AnchorPoint: "HamzaAbove" 370 1230 basechar 0
 AnchorPoint: "DotAbove" 370 1230 basechar 0
-AnchorPoint: "TashkilAbove" 500 1640 basechar 0
+AnchorPoint: "TashkilAbove" 819 1270 basechar 0
 AnchorPoint: "DotBelow" 720 100 basechar 0
 AnchorPoint: "TashkilBelow" 720 200 basechar 0
 LayerCount: 2

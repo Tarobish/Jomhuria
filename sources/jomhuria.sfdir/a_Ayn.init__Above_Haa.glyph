@@ -1,7 +1,8 @@
 StartChar: aAyn.init_AboveHaa
 Encoding: 482 -1 191
 Width: 1121
-Flags: HW
+Flags: W
+HStem: 0 436.188<-50 202.382 486.177 794.202>
 AnchorPoint: "TashkilBelow" 944 -260 basechar 0
 AnchorPoint: "DotBelow" 1050 640 basechar 0
 AnchorPoint: "TashkilAbove" 748 1690 basechar 0
@@ -10,6 +11,7 @@ AnchorPoint: "DotAbove" 428 1485 basechar 0
 AnchorPoint: "HamzaAbove" 428 1485 basechar 0
 AnchorPoint: "cursive" -65 420 exit 0
 LayerCount: 2
+Back
 Fore
 Refer: 113 -1 S 1 0 0 1 0 0 2
 Colour: ffffff

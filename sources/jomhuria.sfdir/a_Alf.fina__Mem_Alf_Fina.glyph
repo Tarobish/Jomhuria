@@ -1,7 +1,7 @@
 StartChar: aAlf.fina_MemAlfFina
 Encoding: 648 -1 318
 Width: 398
-Flags: HW
+Flags: W
 AnchorPoint: "DigitAbove" -50 1250 basechar 0
 AnchorPoint: "HamzaAbove" 100 1500 basechar 0
 AnchorPoint: "TashkilAbove" 100 1640 basechar 0
@@ -52,5 +52,5 @@ SplineSet
  457.053394344 -164.921212624 459.403593559 -203.057286735 440.738967748 -230.410622553 c 0
  396.871546695 -276.963324635 349.326476111 -262.027827921 280.119350847 -163.187489748 c 0
 EndSplineSet
-Colour: ff0000
+Colour: ff00
 EndChar

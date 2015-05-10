@@ -2,11 +2,13 @@ StartChar: smalltaa.below
 Encoding: 507 -1 216
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
+HStem: 0.790039 122.128<-134.959 -120.88 -13.1377 132.56> 194.542 87.541<13.7638 135.927>
 AnchorPoint: "TashkilBelowDot" 30 0 basemark 0
 AnchorPoint: "MarkDotBelow" 30 0 basemark 0
 AnchorPoint: "TaaBelow" -40 750 mark 0
 LayerCount: 2
+Back
 Fore
 Refer: 178 -1 N 1 0 0 1 0 0 2
 Colour: ffffff

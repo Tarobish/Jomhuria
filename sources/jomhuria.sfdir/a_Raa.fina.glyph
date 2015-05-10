@@ -1,9 +1,10 @@
 StartChar: aRaa.fina
 Encoding: 302 -1 43
 Width: 848
-Flags: HW
+Flags: W
+HStem: 0 436.188<644.444 898.939>
 AnchorPoint: "DotAlt" 442 -168 basechar 0
-AnchorPoint: "TashkilAbove" 500 1640 basechar 0
+AnchorPoint: "TashkilAbove" 246 778 basechar 0
 AnchorPoint: "RingBelow" 504 -478 basechar 0
 AnchorPoint: "TwoDotsAbove" 546 814 basechar 0
 AnchorPoint: "TaaAbove" 656 614 basechar 0

@@ -1,7 +1,8 @@
 StartChar: aHaa.medi_AynHaaInit
 Encoding: 478 -1 188
-Width: 113
-Flags: HW
+Width: 1250
+Flags: W
+HStem: 0 436.188<-50 506.772 857.467 1300.49> 692.147 284.228<204.871 439.144>
 AnchorPoint: "DigitBelow" 440 -260 basechar 0
 AnchorPoint: "TaaBelow" 440 140 basechar 0
 AnchorPoint: "TaaAbove" 90 1000 basechar 0
@@ -14,6 +15,7 @@ AnchorPoint: "HamzaAbove" 60 1000 basechar 0
 AnchorPoint: "DotBelow" 440 -260 basechar 0
 AnchorPoint: "DotAbove" 90 1000 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 136 -1 N 1 0 0 1 0 0 2
 Colour: ffffff

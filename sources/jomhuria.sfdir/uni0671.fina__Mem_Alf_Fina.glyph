@@ -5,8 +5,9 @@ VWidth: 0
 Flags: HW
 AnchorPoint: "cursive" 508 -209 entry 0
 LayerCount: 2
+Back
 Fore
 Refer: 318 -1 N 1 0 0 1 110 0 2
 Refer: 220 -1 N 1 0 0 1 -204 260 2
-Colour: ffffff
+Colour: ff00
 EndChar

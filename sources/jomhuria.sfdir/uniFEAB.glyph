@@ -1,9 +1,10 @@
 StartChar: uniFEAB
-Encoding: 5721 65195 3019
+Encoding: 5721 65195 3018
 Width: 942
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 511 1584 N 1 0 0 1 0 0 2
 Colour: ffffff

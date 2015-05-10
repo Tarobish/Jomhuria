@@ -1,9 +1,10 @@
 StartChar: uniFD66
-Encoding: 5557 64870 2855
+Encoding: 5557 64870 2854
 Width: 3986
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 745 -1 N 1 0 0 1 0 0 2
 Refer: 754 -1 N 1 0 0 1 1306 0 2

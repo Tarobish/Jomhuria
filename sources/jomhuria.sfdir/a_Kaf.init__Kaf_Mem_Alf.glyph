@@ -1,7 +1,9 @@
 StartChar: aKaf.init_KafMemAlf
 Encoding: 605 -1 288
 Width: 1200
-Flags: HW
+Flags: W
+HStem: 68.6015 26.1641<77.5211 290.011>
+VStem: -218.918 26.6876<694.479 871.872>
 AnchorPoint: "TwoDotsAbove" -98 1391 basechar 0
 AnchorPoint: "DotAbove" 12 1391 basechar 0
 AnchorPoint: "RingBelow" 455 1230 basechar 0
@@ -92,5 +94,5 @@ SplineSet
  18.7395370889 64.0941420288 -2.92213890239 20.0158884633 32.0012589417 -12.5613418002 c 0
  48.1284350777 -50.7536990912 47.800642558 -50.6838820542 21.8278063686 -63.5114116797 c 0
 EndSplineSet
-Colour: ff0000
+Colour: ff00
 EndChar

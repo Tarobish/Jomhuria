@@ -1,9 +1,10 @@
 StartChar: uniFBA4
-Encoding: 5158 64420 2456
+Encoding: 5158 64420 2455
 Width: 854
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 641 1728 N 1 0 0 1 0 0 2
 Colour: ffffff

@@ -1,13 +1,15 @@
 StartChar: aLam.init_LamHaaInit
 Encoding: 327 -1 67
-Width: 634
-Flags: HW
+Width: 574
+Flags: W
+HStem: 0 436.188<-50 237.123>
+VStem: -50 474.436<122.904 436.188>
 AnchorPoint: "TwoDotsAbove" 190 1670 basechar 0
 AnchorPoint: "TwoDotsBelow" 310 0 basechar 0
 AnchorPoint: "VAbove" 310 1570 basechar 0
 AnchorPoint: "DotAbove" 310 1670 basechar 0
 AnchorPoint: "Stroke" 321 1066 basechar 0
-AnchorPoint: "TashkilAbove" 510 1640 basechar 0
+AnchorPoint: "TashkilAbove" 287 1352 basechar 0
 AnchorPoint: "TashkilBelow" 841 -670 basechar 0
 LayerCount: 2
 Back

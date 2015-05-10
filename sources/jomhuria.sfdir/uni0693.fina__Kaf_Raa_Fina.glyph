@@ -2,12 +2,15 @@ StartChar: uni0693.fina_KafRaaFina
 Encoding: 2218 -1 1309
 Width: 565
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -783.417 97.6416<75.9893 220.04> -520.183 97.9473<76.3948 219.606> -432.392 33.7686<-78.4309 134.614>
+VStem: -32.5908 97.6416<-674.402 -531.438> 230.95 97.6406<-674.402 -531.407>
 AnchorPoint: "TashkilAbove" 200 1640 basechar 0
 AnchorPoint: "TashkilBelow" 430 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 103 -1 N 1 0 0 1 -300 0 2
 Refer: 181 -1 N 1 0 0 1 148 -440 2
-Colour: ffffff
+Colour: ff00
 EndChar

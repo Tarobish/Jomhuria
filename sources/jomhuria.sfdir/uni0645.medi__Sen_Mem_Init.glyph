@@ -2,11 +2,13 @@ StartChar: uni0645.medi_SenMemInit
 Encoding: 3853 -1 2075
 Width: 356
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 436.188<-50 182.545 893.867 1141.79> 603.7 276.16<392.183 531.146>
 AnchorPoint: "TashkilAbove" 200 1640 basechar 0
 AnchorPoint: "TashkilBelow" 306 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 304 -1 N 1 0 0 1 0 0 2
-Colour: ffffff
+Colour: ff00
 EndChar

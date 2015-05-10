@@ -1,14 +1,17 @@
 StartChar: uni06A9.alt.fina
-Encoding: 6017 -1 3225
+Encoding: 6017 -1 3222
 Width: 1803
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -0.27832 436.466<329.447 1308.76 1601.56 1853.03> 626 108.906<812.245 1014.55> 781.637 64.2432<929.71 1011.39> 781.637 111.169<814.963 858.797>
+VStem: 730 347.871
 AnchorPoint: "TashkilAbove" 730 1640 basechar 0
 AnchorPoint: "TashkilBelow" 800 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 25 -1 N 1 0 0 1 0 0 2
 Refer: 170 -1 N 1 0 0 1 2325 1493 2
 Refer: 169 -1 N 1 0 0 1 730 626 2
-Colour: ffffff
+Colour: ff00
 EndChar

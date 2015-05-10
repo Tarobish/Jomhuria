@@ -1,7 +1,9 @@
 StartChar: aHehKnotted.isol
-Encoding: 5048 -1 2351
+Encoding: 5048 -1 2350
 Width: 1666
-Flags: HW
+Flags: W
+HStem: 0 21G<110 833.478>
+VStem: 667.635 126.052<436.188 592.541>
 AnchorPoint: "TashkilBelow" 700 -670 basechar 0
 AnchorPoint: "TashkilAbove" 700 1640 basechar 0
 LayerCount: 2

@@ -1,11 +1,12 @@
 StartChar: aKaf.fina
 Encoding: 281 -1 25
 Width: 1803
-Flags: HW
+Flags: W
+HStem: -0.27832 436.466<329.447 1308.76 1601.56 1853.03>
 AnchorPoint: "TwoDotsBelow" 620 -250 basechar 0
 AnchorPoint: "DotBelow" 730 -250 basechar 0
 AnchorPoint: "HamzaAbove" 730 626 basechar 0
-AnchorPoint: "TashkilAbove" 730 1640 basechar 0
+AnchorPoint: "TashkilAbove" 765 724 basechar 0
 AnchorPoint: "RingBelow" 750 40 basechar 0
 AnchorPoint: "TashkilBelow" 800 -670 basechar 0
 AnchorPoint: "TwoDotsAbove" 1220 1650 basechar 0

@@ -1,7 +1,8 @@
 StartChar: aBaa.fina_BaaBaaIsol
 Encoding: 407 -1 128
 Width: 1583
-Flags: HW
+Flags: W
+HStem: -138.404 33.3657<503.109 920.658> 65.0836 25.6817<579.228 973.066>
 AnchorPoint: "TwoDotsBelow" 739 -320 basechar 0
 AnchorPoint: "TwoDotsAbove" 756 870 basechar 0
 AnchorPoint: "RingBelow" 780 -20 basechar 0
@@ -84,5 +85,5 @@ SplineSet
  1586.34425891 337.009409886 1596.47208318 336.464572728 1586.27700175 324.760494524 c 0
  1583.07422987 266.847056664 l 0
 EndSplineSet
-Colour: ff0000
+Colour: ff00
 EndChar

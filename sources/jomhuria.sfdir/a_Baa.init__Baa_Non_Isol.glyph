@@ -1,7 +1,9 @@
 StartChar: aBaa.init_BaaNonIsol
 Encoding: 369 -1 97
 Width: 362
-Flags: HW
+Flags: W
+HStem: 494.145 27.6807<7.25061 136.248>
+VStem: 232.311 28.9446<452.585 673.855>
 AnchorPoint: "DigitBelow" 212 -330 basechar 0
 AnchorPoint: "DigitAbove" 204 1040 basechar 0
 AnchorPoint: "HighHamza" 404 1040 basechar 0
@@ -18,7 +20,8 @@ AnchorPoint: "DotBelow" 212 -330 basechar 0
 AnchorPoint: "TwoDotsBelowAlt" 101 -750 basechar 0
 AnchorPoint: "DotBelowAlt" 212 -750 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 64 -1 N 1 0 0 1 -21 149 2
-Colour: ffffff
+Colour: ff00
 EndChar

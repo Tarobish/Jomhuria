@@ -1,7 +1,8 @@
 StartChar: aSen.init
 Encoding: 309 -1 50
 Width: 1208
-Flags: HW
+Flags: W
+HStem: 0 436.188<-50 201.885 422.098 562.736 742.581 897.473>
 AnchorPoint: "TwoDotsAbove" 539 900 basechar 0
 AnchorPoint: "TwoDotsBelow" 550 -200 basechar 0
 AnchorPoint: "TashkilBelow" 600 -670 basechar 0
@@ -10,7 +11,7 @@ AnchorPoint: "DotAbove" 650 900 basechar 0
 AnchorPoint: "HamzaAbove" 650 900 basechar 0
 AnchorPoint: "VAbove" 650 900 basechar 0
 AnchorPoint: "DigitAbove" 650 900 basechar 0
-AnchorPoint: "TashkilAbove" 650 1640 basechar 0
+AnchorPoint: "TashkilAbove" 669 819 basechar 0
 LayerCount: 2
 Back
 SplineSet

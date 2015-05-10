@@ -2,7 +2,9 @@ StartChar: ring.below
 Encoding: 469 -1 181
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
+HStem: -343.417 97.6416<-72.0107 72.0397> -80.1826 97.9473<-71.6052 71.6058>
+VStem: -180.591 97.6416<-234.402 -91.4382> 82.9502 97.6406<-234.402 -91.4073>
 AnchorPoint: "RingBelow" 0 0 mark 0
 AnchorPoint: "RingDash" 0 0 mark 0
 AnchorPoint: "TashkilBelowDot" 0 -400 basemark 0

@@ -1,11 +1,13 @@
 StartChar: aLam.init
 Encoding: 287 -1 31
-Width: 634
-Flags: HW
+Width: 574
+Flags: W
+HStem: 0 436.188<-50 237.123>
+VStem: -50 474.436<122.904 436.188>
 AnchorPoint: "TwoDotsAbove" -40 1667 basechar 0
 AnchorPoint: "TwoDotsBelow" 80 -100 basechar 0
 AnchorPoint: "VAbove" 80 1567 basechar 0
-AnchorPoint: "TashkilAbove" 80 1640 basechar 0
+AnchorPoint: "TashkilAbove" 246 1283 basechar 0
 AnchorPoint: "DotAbove" 80 1667 basechar 0
 AnchorPoint: "Stroke" 120 1072 basechar 0
 AnchorPoint: "TashkilBelow" 140 -670 basechar 0

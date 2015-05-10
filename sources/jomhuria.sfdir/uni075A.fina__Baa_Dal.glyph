@@ -2,12 +2,15 @@ StartChar: uni075A.fina_BaaDal
 Encoding: 1589 -1 1052
 Width: 986
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -776.313 148.313<552 636.568 777.693 862.261>
+VStem: 552 310.261 612.584 27.599<769.194 883.003>
 AnchorPoint: "TashkilAbove" 432 1640 basechar 0
 AnchorPoint: "TashkilBelow" 502 -680 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 75 -1 N 1 0 0 1 0 0 2
 Refer: 215 -1 N 1 0 0 1 502 420 2
-Colour: ffffff
+Colour: ff00
 EndChar

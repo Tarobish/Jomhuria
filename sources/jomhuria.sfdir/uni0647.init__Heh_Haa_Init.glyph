@@ -2,11 +2,13 @@ StartChar: uni0647.init_HehHaaInit
 Encoding: 2861 -1 1558
 Width: 1214
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 436.188<-50 115.009 240.268 392.199>
 AnchorPoint: "TashkilAbove" 710 1640 basechar 0
 AnchorPoint: "TashkilBelow" 920 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 133 -1 N 1 0 0 1 0 0 2
-Colour: ffffff
+Colour: ff00
 EndChar

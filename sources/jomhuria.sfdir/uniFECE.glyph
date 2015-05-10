@@ -1,9 +1,10 @@
 StartChar: uniFECE
-Encoding: 5756 65230 3054
+Encoding: 5756 65230 3053
 Width: 1441
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 345 -1 N 1 0 0 1 0 0 2
 Colour: ffffff

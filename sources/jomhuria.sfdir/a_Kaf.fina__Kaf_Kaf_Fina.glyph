@@ -1,7 +1,8 @@
 StartChar: aKaf.fina_KafKafFina
 Encoding: 596 -1 282
 Width: 1699
-Flags: HW
+Flags: W
+VStem: 1744.46 28.505<21.2718 160.16>
 AnchorPoint: "TwoDotsBelow" 640 -200 basechar 0
 AnchorPoint: "HamzaAbove" 732 679 basechar 0
 AnchorPoint: "DotBelow" 750 -200 basechar 0
@@ -93,5 +94,5 @@ SplineSet
  1491.18868546 1019.83543995 1508.95375476 729.242451242 1530.91277704 600.959734077 c 0
  1549.05748367 352.640885646 1613.98683127 204.905463535 1691.6377982 181.255471479 c 0
 EndSplineSet
-Colour: ff0000
+Colour: ff00
 EndChar

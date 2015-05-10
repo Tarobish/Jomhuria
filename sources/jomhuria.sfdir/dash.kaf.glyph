@@ -2,7 +2,7 @@ StartChar: dash.kaf
 Encoding: 458 -1 170
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Dash" -873 -42 mark 0
 AnchorPoint: "RingDash" -315 250 basemark 0
 LayerCount: 2
@@ -39,5 +39,5 @@ SplineSet
  -872.377796731 -28.8517780136 -882.183722154 -23.4410111148 -871.58945707 -4.11635330511 c 0
  -869.891869857 12.0848830625 -830.605900884 51.4095530611 -781.843868199 126.028147623 c 0
 EndSplineSet
-Colour: ff0000
+Colour: ff00
 EndChar

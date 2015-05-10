@@ -2,11 +2,13 @@ StartChar: uni0647.init_HehMemInit
 Encoding: 3833 -1 2068
 Width: 1113
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 436.188<-50 115.009 240.268 392.199>
 AnchorPoint: "TashkilAbove" 300 1640 basechar 0
 AnchorPoint: "TashkilBelow" 500 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 299 -1 S 1 0 0 1 0 0 2
-Colour: ffffff
+Colour: ff00
 EndChar

@@ -1,7 +1,9 @@
 StartChar: aYaa.fina_PostTooth
 Encoding: 430 -1 144
 Width: 1374
-Flags: HW
+Flags: W
+HStem: -550.956 420.174<429.691 620.995 621.185 1023.17> 0 436.188<814.784 1068.72 1244.3 1424.89>
+VStem: 1068.72 175.583<-88.911 0>
 AnchorPoint: "HamzaBelow" 754 -991 basechar 0
 AnchorPoint: "DigitBelow" 754 -991 basechar 0
 AnchorPoint: "DigitAbove" 555 550 basechar 0
@@ -18,6 +20,7 @@ AnchorPoint: "HamzaAbove" 355 550 basechar 0
 AnchorPoint: "DotBelow" 754 -991 basechar 0
 AnchorPoint: "DotAbove" 555 550 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 141 -1 N 1 0 0 1 0 0 2
 Colour: ffffff

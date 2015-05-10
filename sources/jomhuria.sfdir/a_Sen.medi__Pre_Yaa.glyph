@@ -1,7 +1,8 @@
 StartChar: aSen.medi_PreYaa
 Encoding: 442 -1 155
 Width: 1275
-Flags: HW
+Flags: W
+HStem: -0.556641 436.035<-50 214.149 404.601 545.747 729.067 870.257 1060.89 1325.17>
 AnchorPoint: "TwoDotsAbove" 115 777 basechar 0
 AnchorPoint: "TwoDotsBelow" 200 -260 basechar 0
 AnchorPoint: "HamzaAbove" 225 777 basechar 0

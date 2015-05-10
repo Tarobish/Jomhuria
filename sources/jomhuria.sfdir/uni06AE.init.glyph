@@ -2,10 +2,13 @@ StartChar: uni06AE.init
 Encoding: 1025 -1 677
 Width: 739
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -622 540.642 0 436.188<-50 393.344>
+VStem: -0.90332 563.806 407.183 172.521<452.502 591.489>
 AnchorPoint: "TashkilBelow" 550 -670 basechar 0
 AnchorPoint: "TashkilAbove" 650 1640 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 27 -1 N 1 0 0 1 0 0 2
 Refer: 173 -1 N 1 0 0 1 281 -622 2

@@ -1,8 +1,9 @@
 StartChar: aMem.medi
 Encoding: 294 -1 37
 Width: 1091
-Flags: HW
-AnchorPoint: "TashkilAbove" 400 1640 basechar 0
+Flags: W
+HStem: 0 436.188<-50 182.545 893.867 1141.79> 603.7 276.16<392.183 531.146>
+AnchorPoint: "TashkilAbove" 519 997 basechar 0
 AnchorPoint: "TashkilBelow" 500 -670 basechar 0
 LayerCount: 2
 Back

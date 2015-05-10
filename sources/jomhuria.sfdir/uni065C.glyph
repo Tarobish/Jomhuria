@@ -1,12 +1,15 @@
 StartChar: uni065C
-Encoding: 4864 1628 2335
-Width: 0
-Flags: HW
-AnchorPoint: "MarkBelow" 193 -670 mark 0
-AnchorPoint: "TashkilBelowDot" 194 -670 mark 0
-AnchorPoint: "TashkilBelow" 194 -670 mark 0
+Encoding: 4864 1628 2334
+Width: 403
+Flags: W
+HStem: -1151 303.367
+VStem: 49.9997 303.368
+AnchorPoint: "MarkBelow" 174.595 -670 mark 0
+AnchorPoint: "TashkilBelowDot" 175.595 -670 mark 0
+AnchorPoint: "TashkilBelow" 175.595 -670 mark 0
 LayerCount: 2
+Back
 Fore
-Refer: 162 -1 N 1 0 0 1 220 -935 2
+Refer: 162 -1 S 1 0 0 1 201.595 -1151 2
 Colour: ffffff
 EndChar

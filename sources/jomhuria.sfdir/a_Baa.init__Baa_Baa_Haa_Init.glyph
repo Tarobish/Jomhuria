@@ -1,7 +1,8 @@
 StartChar: aBaa.init_BaaBaaHaaInit
 Encoding: 401 -1 126
 Width: 330
-Flags: HW
+Flags: W
+VStem: -50.9003 17.8253<601.479 677.027>
 AnchorPoint: "DotBelowAlt" 94 -750 basechar 0
 AnchorPoint: "TwoDotsBelow" 94 0 basechar 0
 AnchorPoint: "TwoDotsAbove" 94 1260 basechar 0
@@ -52,5 +53,5 @@ SplineSet
  192.326791994 903.579594081 192.389170738 868.433357442 184.834535773 809.161519932 c 0
  157.95307273 660.063833662 91.6909407239 587.821698236 -8.66370824445 579.30048157 c 0
 EndSplineSet
-Colour: ff0000
+Colour: ff00
 EndChar

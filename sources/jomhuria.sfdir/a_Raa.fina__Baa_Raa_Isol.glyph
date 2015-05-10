@@ -1,7 +1,9 @@
 StartChar: aRaa.fina_BaaRaaIsol
 Encoding: 324 -1 65
 Width: 913
-Flags: HW
+Flags: W
+HStem: -417.198 23.3099<389.032 592.824>
+VStem: 955.197 29.2802<50.2066 299.714>
 AnchorPoint: "DotAlt" 424 -5 basechar 0
 AnchorPoint: "RingBelow" 494 -294 basechar 0
 AnchorPoint: "TwoDotsAbove" 530 902 basechar 0
@@ -68,5 +70,5 @@ SplineSet
  877.354292414 380.199614061 l 0
  880.754736307 417.884388176 884.379161038 412.278970617 886.484974861 392.079707255 c 0
 EndSplineSet
-Colour: ff0000
+Colour: ff00
 EndChar

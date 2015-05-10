@@ -1,7 +1,8 @@
 StartChar: aRaa.fina_BaaRaaFina
 Encoding: 376 -1 102
 Width: 848
-Flags: HW
+Flags: W
+HStem: 0 436.188<644.444 898.939>
 AnchorPoint: "DotAlt" 416 -22 basechar 0
 AnchorPoint: "RingBelow" 534 -294 basechar 0
 AnchorPoint: "TwoDotsAbove" 267 801 basechar 0

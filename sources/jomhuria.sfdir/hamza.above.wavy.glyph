@@ -1,12 +1,15 @@
 StartChar: hamza.above.wavy
 Encoding: 502 -1 211
-Width: 0
+Width: 464
 GlyphClass: 4
-Flags: HW
+Flags: W
+HStem: 1750.04 97.6416<51.8984 242.028>
+VStem: 50 364.244
 AnchorPoint: "TashkilTashkilAbove" -50 1470 basemark 0
-AnchorPoint: "HamzaAbove" 0 950 mark 0
+AnchorPoint: "HamzaAbove" 0 1996 mark 0
 LayerCount: 2
+Back
 Fore
-Refer: 210 1631 N 1 0 0 1 0 1885 2
+Refer: 210 1631 S 1 0 0 1 0 2931 2
 Colour: ffffff
 EndChar

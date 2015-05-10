@@ -2,13 +2,16 @@ StartChar: uni06BC.init_BaaBaaIsol
 Encoding: 2579 -1 1454
 Width: 562
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -263.417 97.6416<147.989 292.04> -0.182617 97.9473<148.395 291.606> -0.0830078 436.271<-50 215.091> 685 303.367
+VStem: -50 427.862<123.346 436.188> 39.4092 97.6416<-154.402 -11.4382> 151.405 303.368 217.682 160.181<436.188 579.485> 302.95 97.6406<-154.402 -11.4073>
 AnchorPoint: "TashkilAbove" 250 1640 basechar 0
 AnchorPoint: "TashkilBelow" 150 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 127 -1 N 1 0 0 1 0 0 2
 Refer: 159 -1 N 1 0 0 1 303 685 2
 Refer: 181 -1 N 1 0 0 1 220 80 2
-Colour: ffffff
+Colour: ff00
 EndChar

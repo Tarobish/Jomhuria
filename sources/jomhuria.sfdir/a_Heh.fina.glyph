@@ -1,10 +1,11 @@
 StartChar: aHeh.fina
 Encoding: 277 -1 21
 Width: 934
-Flags: HW
+Flags: W
+HStem: 0 21G<713.548 984.853>
 AnchorPoint: "TwoDotsAbove" 179 1100 basechar 0
 AnchorPoint: "DotAbove" 290 1100 basechar 0
-AnchorPoint: "TashkilAbove" 290 1640 basechar 0
+AnchorPoint: "TashkilAbove" 314 956 basechar 0
 AnchorPoint: "TashkilBelow" 390 -670 basechar 0
 AnchorPoint: "HamzaAbove" 400 1100 basechar 0
 LayerCount: 2

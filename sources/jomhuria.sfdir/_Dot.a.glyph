@@ -2,7 +2,9 @@ StartChar: Dot.a
 Encoding: 446 -1 159
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
+HStem: 0 303.367
+VStem: -151.595 303.368
 AnchorPoint: "TashkilAboveDot" -50 400 basemark 0
 AnchorPoint: "MarkDotAbove" -50 400 basemark 0
 AnchorPoint: "DotHmaza" 0 0 mark 0

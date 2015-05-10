@@ -2,10 +2,13 @@ StartChar: uni067C.init
 Encoding: 773 -1 425
 Width: 487
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -262.417 97.6416<-43.0107 101.04> 0 436.271<-50 215.091> 0.817383 97.9473<-42.6052 100.606> 904 303.367
+VStem: -256.211 563.895 -151.591 97.6416<-153.402 -10.4382> -50 427.862<123.429 436.271> 111.95 97.6406<-153.402 -10.4073> 217.682 160.181<436.271 579.568>
 AnchorPoint: "TashkilAbove" 120 1640 basechar 0
 AnchorPoint: "TashkilBelow" 170 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 8 -1 N 1 0 0 1 0 0 2
 Refer: 160 -1 N 1 0 0 1 26 904 2

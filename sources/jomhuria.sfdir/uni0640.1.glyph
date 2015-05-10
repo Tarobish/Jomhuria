@@ -1,7 +1,9 @@
 StartChar: uni0640.1
-Encoding: 4871 -1 2337
+Encoding: 4871 -1 2336
 Width: 380
-Flags: HW
+Flags: W
+HStem: 0 436.188<-100 480>
+VStem: -100 580<0 436.188>
 AnchorPoint: "MarkBelow" 190 -670 basechar 0
 AnchorPoint: "AlefAbove" 190 500 basechar 0
 AnchorPoint: "MarkAbove" 190 1640 basechar 0

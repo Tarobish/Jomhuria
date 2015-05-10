@@ -1,13 +1,16 @@
 StartChar: uni067C.init_BaaBaaYaaBari
-Encoding: 6127 -1 3323
+Encoding: 6127 -1 3320
 Width: 1315
-Flags: HW
+Flags: W
+HStem: -233.417 97.6416<114.989 259.04> 0 436.271<-50 215.091> 29.8174 97.9473<115.395 258.606> 560 303.367
+VStem: -50 427.862<123.429 436.271> -21.2109 563.895 6.40918 97.6416<-124.402 18.5618> 217.682 160.181<436.271 579.568> 269.95 97.6406<-124.402 18.5927>
 AnchorPoint: "TashkilBelow" 477 -1010 basechar 0
 AnchorPoint: "TashkilAbove" 479 1640 basechar 0
 LayerCount: 2
+Back
 Fore
-Refer: 3288 -1 N 1 0 0 1 0 0 2
+Refer: 3285 -1 N 1 0 0 1 0 0 2
 Refer: 181 -1 N 1 0 0 1 187 110 2
 Refer: 160 -1 N 1 0 0 1 261 560 2
-Colour: ffffff
+Colour: ff00
 EndChar

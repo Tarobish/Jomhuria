@@ -2,12 +2,15 @@ StartChar: uni0646.fina_BaaNonFina
 Encoding: 2819 -1 1541
 Width: 1425
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -430.747 442.435<432.528 851.579> 0 436.188<1167.91 1475.64> 425 303.367
+VStem: 452.405 303.368
 AnchorPoint: "TashkilAbove" 526 1640 basechar 0
 AnchorPoint: "TashkilBelow" 490 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 159 -1 N 1 0 0 1 604 425 2
 Refer: 131 -1 N 1 0 0 1 0 0 2
-Colour: ffffff
+Colour: ff00
 EndChar

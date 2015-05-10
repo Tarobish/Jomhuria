@@ -1,7 +1,7 @@
 StartChar: aKaf.init_KafHeh
 Encoding: 612 -1 290
 Width: 1382
-Flags: HW
+Flags: W
 AnchorPoint: "TwoDotsAbove" -140 1614 basechar 0
 AnchorPoint: "DotAbove" -30 1614 basechar 0
 AnchorPoint: "TwoDotsBelow" 115 -300 basechar 0
@@ -83,5 +83,5 @@ SplineSet
  -86.7248890382 1285.56991475 -47.3563061 1333.15546369 0.983968950487 1371.01983916 c 0
  199.655953315 1510.09184848 608.458864546 1667.52906706 1225.31928715 1860.051077 c 0
 EndSplineSet
-Colour: ff0000
+Colour: ff00
 EndChar

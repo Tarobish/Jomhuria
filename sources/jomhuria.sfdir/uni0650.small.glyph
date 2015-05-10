@@ -1,12 +1,15 @@
 StartChar: uni0650.small
-Encoding: 6292 -1 3486
+Encoding: 6292 -1 3483
 Width: 0
-Flags: HW
-AnchorPoint: "TashkilTashkilBelow" 20 -555 mark 0
-AnchorPoint: "TashkilBelow" 20 -555 mark 0
-AnchorPoint: "TashkilTashkilBelow" -170 -550 basemark 0
+Flags: W
+HStem: -951 299.354
+VStem: 40 305.474
+AnchorPoint: "TashkilTashkilBelow" 10 -495 mark 0
+AnchorPoint: "TashkilBelow" 10 -495 mark 0
+AnchorPoint: "TashkilTashkilBelow" -180 -490 basemark 0
 LayerCount: 2
+Back
 Fore
-Refer: 233 -1 N 1 0 0 1 0 -2741 2
+Refer: 233 -1 S 1 0 0 1 -10 -2681 2
 Colour: ffffff
 EndChar

@@ -2,8 +2,10 @@ StartChar: dash.gaf
 Encoding: 464 -1 176
 Width: 0
 GlyphClass: 4
-Flags: HW
-AnchorPoint: "Dash" -153 47 mark 0
+Flags: W
+HStem: 0 209.669
+VStem: -160.525 319.555<-5.81543 0>
+AnchorPoint: "Dash" -168.226 51.7002 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -19,11 +21,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-144.50390625 190.608398438 m 5
- 144.50390625 92.939453125 l 5
- -146 0 l 5
- -146 98.2265625 l 5
- 144.50390625 190.608398438 l 5
+159.029296875 209.668945312 m 5
+ 159.029296875 102.233398438 l 5
+ -160.525390625 0 l 5
+ -160.525390625 108.048828125 l 5
+ 159.029296875 209.668945312 l 5
 EndSplineSet
 Colour: ffff00
 EndChar

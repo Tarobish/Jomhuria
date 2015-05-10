@@ -1,7 +1,9 @@
 StartChar: aBaa.isol
 Encoding: 265 -1 9
 Width: 1608
-Flags: HW
+Flags: W
+HStem: 0 436.181<329.484 1303.72>
+VStem: 1302.73 196.223<436.181 553.574>
 AnchorPoint: "TwoDotsAbove" 834 870 basechar 0
 AnchorPoint: "RingBelow" 850 60 basechar 0
 AnchorPoint: "TwoDotsBelow" 900 -300 basechar 0
@@ -9,7 +11,7 @@ AnchorPoint: "TaaAbove" 945 670 basechar 0
 AnchorPoint: "DotAbove" 945 870 basechar 0
 AnchorPoint: "HamzaAbove" 945 870 basechar 0
 AnchorPoint: "VAbove" 945 870 basechar 0
-AnchorPoint: "TashkilAbove" 945 1640 basechar 0
+AnchorPoint: "TashkilAbove" 819 696 basechar 0
 AnchorPoint: "DotBelow" 1000 -400 basechar 0
 AnchorPoint: "DigitBelow" 1000 -400 basechar 0
 AnchorPoint: "HamzaBelow" 1000 -300 basechar 0

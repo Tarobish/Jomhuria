@@ -1,14 +1,17 @@
 StartChar: uni06CD
 Encoding: 1294 1741 946
-Width: 1354
+Width: 1535
 VWidth: 0
-Flags: HW
-AnchorPoint: "TashkilAbove" 800 1640 basechar 0
-AnchorPoint: "TashkilBelow" 700 -670 basechar 0
-AnchorPoint: "AlefAbove" 600 350 basechar 0
+Flags: W
+HStem: -292.1 420.082<610.752 801.983 802.173 1202.77> 258.56 437.343<982.823 1248.9> 394.356 132.174<376.853 441.409>
+VStem: 110 331.409 1249.52 175.562<169.727 258.56>
+AnchorPoint: "TashkilAbove" 981 1640 basechar 0
+AnchorPoint: "TashkilBelow" 881 -670 basechar 0
+AnchorPoint: "AlefAbove" 781 350 basechar 0
 LayerCount: 2
+Back
 Fore
-Refer: 60 -1 N 1 0 0 1 0 0 2
-Refer: 209 -1 N 1 0 0 1 143 349 2
+Refer: 60 -1 N 1 0 0 1 181 0 2
+Refer: 209 -1 N 1 0 0 1 324 349 2
 Colour: ffffff
 EndChar

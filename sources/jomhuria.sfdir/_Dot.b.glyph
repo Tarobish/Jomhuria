@@ -2,10 +2,13 @@ StartChar: Dot.b
 Encoding: 449 -1 162
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
+HStem: 0 303.367
+VStem: -151.595 303.368
 AnchorPoint: "TashkilBelowDot" 30 -140 basemark 0
 AnchorPoint: "DotBelow" 0 140 mark 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 -151.594726562 151.59375 m 5

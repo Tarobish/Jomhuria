@@ -1,7 +1,8 @@
 StartChar: aHeh.init_HehMemInit
 Encoding: 625 -1 299
 Width: 1113
-Flags: HW
+Flags: W
+HStem: 0 436.188<-50 115.009 240.268 392.199>
 AnchorPoint: "TashkilAbove" 300 1640 basechar 0
 AnchorPoint: "TashkilBelow" 500 -670 basechar 0
 LayerCount: 2

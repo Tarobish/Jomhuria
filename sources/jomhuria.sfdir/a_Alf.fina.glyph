@@ -1,12 +1,14 @@
 StartChar: aAlf.fina
 Encoding: 257 -1 1
 Width: 629
-Flags: HW
+Flags: W
+HStem: 0 21G<327.879 679.044>
+VStem: 110 569.044<144.827 436.188> 110 332.244<436.188 1026.23>
 AnchorPoint: "DigitAbove" -24 1290 basechar 0
 AnchorPoint: "HamzaAbove" 126 1540 basechar 0
 AnchorPoint: "TashkilBelow" 250 -670 basechar 0
 AnchorPoint: "HamzaBelow" 250 -110 basechar 0
-AnchorPoint: "TashkilAbove" 500 1400 basechar 0
+AnchorPoint: "TashkilAbove" 287 1256 basechar 0
 AnchorPoint: "HighHamza" 526 1540 basechar 0
 LayerCount: 2
 Back
@@ -27,15 +29,15 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-679.043945312 436.1875 m 5
+679.043945312 436.1875 m 5xc0
  679.043945312 0 l 5
  411.079101562 0 l 6
- 244.678710938 0 110 134.678710938 110 300.80078125 c 6
+ 244.678710938 0 110 134.678710938 110 300.80078125 c 6xc0
  110 1026.2265625 l 5
  442.80078125 1290.01757812 l 5
- 442.244140625 479.166015625 l 6
+ 442.244140625 479.166015625 l 6xa0
  442.228515625 456.625976562 458.104492188 436.1875 479.252929688 436.1875 c 6
- 679.043945312 436.1875 l 5
+ 679.043945312 436.1875 l 5xc0
 EndSplineSet
 Colour: ffff00
 EndChar

@@ -2,11 +2,14 @@ StartChar: uni06D1
 Encoding: 1285 1745 937
 Width: 1354
 VWidth: 0
-Flags: HW
-AnchorPoint: "TashkilAbove" 800 1640 basechar 0
+Flags: W
+HStem: -896 540.642 -292.1 420.082<429.752 620.983 621.173 1021.77> 258.56 437.343<801.823 1067.9>
+VStem: 399.097 563.806 1068.52 175.562<169.727 258.56>
+AnchorPoint: "TashkilAbove" 792 1215 basechar 0
 AnchorPoint: "TashkilBelow" 811 -1142 basechar 0
 AnchorPoint: "AlefAbove" 600 350 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 60 -1 N 1 0 0 1 0 0 2
 Refer: 173 -1 N 1 0 0 1 681 -896 2

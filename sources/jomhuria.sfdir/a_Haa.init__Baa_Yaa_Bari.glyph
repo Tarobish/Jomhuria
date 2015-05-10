@@ -1,7 +1,8 @@
 StartChar: aHaa.init_BaaYaaBari
-Encoding: 6145 -1 3341
+Encoding: 6145 -1 3338
 Width: 1167
-Flags: HW
+Flags: W
+HStem: 0 436.188<-50 548.57> 692.147 284.229<204.826 439.099>
 AnchorPoint: "TwoDotsBelow" 509 -780 basechar 0
 AnchorPoint: "TwoDotsAbove" 520 950 basechar 0
 AnchorPoint: "TashkilBelow" 620 -1010 basechar 0
@@ -14,7 +15,8 @@ AnchorPoint: "HamzaAbove" 620 950 basechar 0
 AnchorPoint: "TaaAbove" 620 950 basechar 0
 AnchorPoint: "TashkilAbove" 620 1640 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 18 -1 N 1 0 0 1 0 0 2
-Colour: ffffff
+Colour: ff00
 EndChar

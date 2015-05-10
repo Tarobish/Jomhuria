@@ -2,12 +2,14 @@ StartChar: uni0639.init_AynHaaInit
 Encoding: 2351 -1 1403
 Width: 1117
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: 0 436.188<-50 202.382 486.177 794.202>
 AnchorPoint: "cursive" 0 500 exit 0
 AnchorPoint: "TashkilAbove" 478 1640 basechar 0
 AnchorPoint: "TashkilBelow" 900 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 113 -1 N 1 0 0 1 0 0 2
-Colour: ffffff
+Colour: ff00
 EndChar

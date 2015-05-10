@@ -1,13 +1,16 @@
 StartChar: uni06D0.medi_YaaBari
-Encoding: 6084 -1 3280
-Width: 420
+Encoding: 6084 -1 3277
+Width: 624
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -643 563.807 0 436.271<-50 236.26 476.659 674.791>
+VStem: -146.684 303.367 238.61 146.587<437.426 595.377>
 AnchorPoint: "TashkilBelow" 90 -1250 basechar 0
 AnchorPoint: "TashkilAbove" 213 1640 basechar 0
 LayerCount: 2
+Back
 Fore
-Refer: 3242 -1 N 1 0 0 1 0 0 2
-Refer: 180 -1 N 1 0 0 1 50 -920 2
+Refer: 180 -1 S 1 0 0 1 -35 -453 2
+Refer: 3239 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

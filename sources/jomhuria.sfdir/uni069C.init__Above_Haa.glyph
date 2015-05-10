@@ -2,14 +2,17 @@ StartChar: uni069C.init_AboveHaa
 Encoding: 2018 -1 1234
 Width: 1376
 VWidth: 0
-Flags: HW
+Flags: W
+HStem: -310 540.642 0 436.188<-50 201.885 422.098 562.736 742.581 897.473> 1123 540.642
+VStem: 597.878 563.806 683.097 563.806
 AnchorPoint: "cursive" 0 415 exit 0
 AnchorPoint: "TashkilAbove" 759 1680 basechar 0
 AnchorPoint: "TashkilBelow" 1045 -353 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 95 -1 N 1 0 0 1 0 0 2
 Refer: 161 -1 N 1 0 0 1 878 1123 2
 Refer: 173 -1 N 1 0 0 1 965 -310 2
-Colour: ffffff
+Colour: ff00
 EndChar

@@ -1,7 +1,8 @@
 StartChar: aDal.fina_BaaDal
 Encoding: 340 -1 75
 Width: 986
-Flags: HW
+Flags: W
+VStem: 612.584 27.599<769.194 883.003>
 AnchorPoint: "RingBelow" 426 120 basechar 0
 AnchorPoint: "TwoDotsBelow" 432 -270 basechar 0
 AnchorPoint: "TashkilAbove" 432 1640 basechar 0
@@ -86,5 +87,5 @@ SplineSet
  690.205957048 997.2926062 l 0
  689.866219584 1027.51918194 681.359925214 1014.67691306 703.13610348 967.243969302 c 0
 EndSplineSet
-Colour: ff0000
+Colour: ff00
 EndChar

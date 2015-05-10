@@ -1,7 +1,8 @@
 StartChar: aHaa.init_HaaYaaIsol
 Encoding: 633 -1 307
-Width: 1157
-Flags: HW
+Width: 1167
+Flags: W
+HStem: 0 436.188<-50 548.57> 692.147 284.229<204.826 439.099>
 AnchorPoint: "TashkilAbove" 539 1640 basechar 0
 AnchorPoint: "TashkilBelow" 659 -670 basechar 0
 AnchorPoint: "TwoDotsBelow" 659 0 basechar 0

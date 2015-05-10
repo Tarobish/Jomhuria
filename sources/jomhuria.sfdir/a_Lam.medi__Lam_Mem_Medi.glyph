@@ -1,7 +1,9 @@
 StartChar: aLam.medi_LamMemMedi
 Encoding: 396 -1 121
-Width: 634
-Flags: HW
+Width: 574
+Flags: W
+HStem: 0 436.188<-50 237.123>
+VStem: -50 474.436<122.904 436.188>
 AnchorPoint: "TwoDotsAbove" -195 1398 basechar 0
 AnchorPoint: "VAbove" -75 1298 basechar 0
 AnchorPoint: "DotAbove" -75 1398 basechar 0

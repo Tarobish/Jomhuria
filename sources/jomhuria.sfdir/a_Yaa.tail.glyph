@@ -2,7 +2,9 @@ StartChar: aYaa.tail
 Encoding: 500 -1 209
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
+HStem: 45.3564 132.174<52.8525 117.409>
+VStem: -214 331.409
 AnchorPoint: "Tail" 135 185 mark 0
 LayerCount: 2
 Back
