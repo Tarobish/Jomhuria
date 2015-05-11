@@ -6,7 +6,7 @@ HStem: -550.956 420.174<429.691 620.995 621.185 1023.17> 0 436.188<814.784 1068.
 VStem: 1068.72 175.583<-88.911 0>
 AnchorPoint: "Tail" 254 172 basechar 0
 AnchorPoint: "HamzaAbove" 297 515 basechar 0
-AnchorPoint: "AlefAbove" 297 515 basechar 0
+AnchorPoint: "AlefAbove" 532 314 basechar 0
 AnchorPoint: "TashkilAbove" 380 1640 basechar 0
 AnchorPoint: "TwoDotsAbove" 387 515 basechar 0
 AnchorPoint: "VAbove" 397 515 basechar 0

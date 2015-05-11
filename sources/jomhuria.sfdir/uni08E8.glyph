@@ -6,7 +6,7 @@ HStem: 1730.74 445.663 2176.35 445.663
 VStem: -2.06211 322.923 77.3643 322.923
 AnchorPoint: "MarkAbove" 569 1640 mark 0
 AnchorPoint: "TashkilAboveDot" 570 1640 mark 0
-AnchorPoint: "TashkilAbove" 300 1775 mark 0
+AnchorPoint: "TashkilAbove" 164 1679 mark 0
 LayerCount: 2
 Back
 Fore

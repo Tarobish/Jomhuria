@@ -3,12 +3,14 @@ Encoding: 4847 1771 2317
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "AlefAbove" 179 250 mark 0
+HStem: 484.465 623.07
+VStem: 2.43164 492.568
+AnchorPoint: "AlefAbove" 177 382 mark 0
 AnchorPoint: "MarkAbove" 179 250 mark 0
 AnchorPoint: "TashkilAbove" 382 232 mark 0
 LayerCount: 2
 Back
 Fore
-Refer: 2318 1770 N 1 0 0 1 -119 2060 2
+Refer: 2318 1770 S 1 0 0 1 5 1956 2
 Colour: ffffff
 EndChar

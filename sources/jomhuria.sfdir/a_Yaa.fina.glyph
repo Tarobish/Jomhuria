@@ -10,7 +10,7 @@ AnchorPoint: "TwoDotsAbove" 420 500 basechar 0
 AnchorPoint: "VAbove" 430 500 basechar 0
 AnchorPoint: "DotAbove" 530 500 basechar 0
 AnchorPoint: "DigitAbove" 530 500 basechar 0
-AnchorPoint: "AlefAbove" 600 -100 basechar 0
+AnchorPoint: "AlefAbove" 519 300 basechar 0
 AnchorPoint: "TashkilAbove" 546 451 basechar 0
 AnchorPoint: "TwoDotsBelow" 638 -997 basechar 0
 AnchorPoint: "RingBelow" 640 -600 basechar 0

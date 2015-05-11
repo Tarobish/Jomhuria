@@ -7,7 +7,7 @@ HStem: -550.956 420.174<599.691 790.995 791.185 1193.17> 0 436.188<984.784 1238.
 VStem: 110 331.409 1238.72 175.583<-88.911 0>
 AnchorPoint: "TashkilAbove" 770 1640 basechar 0
 AnchorPoint: "TashkilBelow" 870 -770 basechar 0
-AnchorPoint: "AlefAbove" 770 0 basechar 0
+AnchorPoint: "AlefAbove" 642 273 basechar 0
 LayerCount: 2
 Back
 Fore
