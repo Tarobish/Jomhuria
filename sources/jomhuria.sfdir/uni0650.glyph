@@ -3,8 +3,8 @@ Encoding: 491 1616 200
 Width: 405
 GlyphClass: 4
 Flags: W
-HStem: -1147.84 299.354
-VStem: 50 305.781
+HStem: -1145 322.84
+VStem: 45 311
 AnchorPoint: "MarkBelow" 450 -670 mark 0
 AnchorPoint: "TashkilTashkilBelow" 297 -819 basemark 0
 AnchorPoint: "TashkilBelowDot" 534 -670 mark 0

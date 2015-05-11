@@ -3,8 +3,8 @@ Encoding: 524 -1 233
 Width: 405
 GlyphClass: 4
 Flags: W
-HStem: 1730 299.354
-VStem: 50 305.474
+HStem: 1706 322.84
+VStem: 45 311
 AnchorPoint: "TashkilTashkilAbove" 190.8 1693.7 mark 0
 AnchorPoint: "TashkilTashkilAbove" 190.8 2023.7 basemark 0
 AnchorPoint: "TashkilTashkilAbove2" 191.885 2160.61 basemark 0
@@ -23,11 +23,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-50 1730 m 5
- 50 1810.1953125 l 5
- 355.473632812 2029.35449219 l 5
- 355.473632812 1949.15917969 l 5
- 50 1730 l 5
+45 1706 m 1
+ 45.041015625 1794.64453125 l 1
+ 356 2028.83984375 l 1
+ 355.78125 1930 l 1
+ 45 1706 l 1
 EndSplineSet
 Colour: ffff00
 EndChar

@@ -8,7 +8,7 @@ VStem: -152.252 310.261
 AnchorPoint: "MarkAbove" 0 840 mark 0
 AnchorPoint: "VAbove" 0 950 mark 0
 AnchorPoint: "MarkDotAbove" 0 950 mark 0
-AnchorPoint: "TashkilAbove" 14 1010 mark 0
+AnchorPoint: "TashkilAbove" 0 942 mark 0
 AnchorPoint: "TashkilTashkilAbove" 0 1500 basemark 0
 LayerCount: 2
 Back

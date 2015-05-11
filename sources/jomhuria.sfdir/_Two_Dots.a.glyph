@@ -7,7 +7,7 @@ HStem: 0 303.367
 VStem: -282.211 563.895
 AnchorPoint: "TwoDotsAbove" -111 140 mark 0
 AnchorPoint: "TashkilAboveDot" -20 450 basemark 0
-AnchorPoint: "MarkDotAbove" -20 450 basemark 0
+AnchorPoint: "MarkDotAbove" -27 355 basemark 0
 AnchorPoint: "DotHmaza" 0 0 mark 0
 LayerCount: 2
 Back

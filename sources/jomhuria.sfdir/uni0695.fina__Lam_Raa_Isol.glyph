@@ -3,7 +3,7 @@ Encoding: 2873 -1 1563
 Width: 600
 VWidth: 0
 Flags: W
-HStem: -975.49 148.313<230 314.568 455.693 540.261>
+HStem: -975.487 148.313<230 314.568 455.693 540.261>
 VStem: 230 310.261
 AnchorPoint: "TashkilAbove" 151 1640 basechar 0
 AnchorPoint: "TashkilBelow" 180 -1080 basechar 0

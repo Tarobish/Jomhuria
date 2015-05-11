@@ -3,8 +3,8 @@ Encoding: 5073 -1 2370
 Width: 0
 GlyphClass: 4
 Flags: W
-HStem: 853 515.393
-VStem: -192 345.26
+HStem: 876 492.393
+VStem: -157 310.348
 AnchorPoint: "TashkilTashkilAbove" -50 1470 basemark 0
 AnchorPoint: "HamzaAbove" 0 950 mark 0
 LayerCount: 2

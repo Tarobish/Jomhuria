@@ -6,7 +6,7 @@ HStem: 0 436.188<249 394.948 687.745 939.218>
 VStem: 407.739 172.521<453.152 602.057>
 AnchorPoint: "TwoDotsAbove" -47 1450 basechar 0
 AnchorPoint: "DotAbove" 63 1450 basechar 0
-AnchorPoint: "TashkilAbove" 437 1640 basechar 0
+AnchorPoint: "TashkilAbove" 232 1283 basechar 0
 AnchorPoint: "Dash" 463 1580 basechar 0
 AnchorPoint: "TashkilBelow" 487 -670 basechar 0
 AnchorPoint: "TwoDotsBelow" 527 -200 basechar 0

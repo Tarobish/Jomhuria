@@ -5,7 +5,7 @@ VWidth: 2738
 GlyphClass: 4
 Flags: W
 AnchorPoint: "MarkAbove" -1 1570 mark 0
-AnchorPoint: "TashkilAbove" -55 1584 mark 0
+AnchorPoint: "TashkilAbove" -96 1570 mark 0
 LayerCount: 2
 Back
 SplineSet

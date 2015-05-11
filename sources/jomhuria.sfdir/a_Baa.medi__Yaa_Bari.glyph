@@ -16,7 +16,7 @@ AnchorPoint: "DigitBelow" 150 -880 basechar 0
 AnchorPoint: "RingBelow" 180 120 basechar 0
 AnchorPoint: "HighHamza" 180 740 basechar 0
 AnchorPoint: "TashkilBelow" 213 -1010 basechar 0
-AnchorPoint: "TashkilAbove" 213 1640 basechar 0
+AnchorPoint: "TashkilAbove" 150 696 basechar 0
 LayerCount: 2
 Back
 SplineSet

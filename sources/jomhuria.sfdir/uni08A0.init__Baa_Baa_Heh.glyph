@@ -2,7 +2,7 @@ StartChar: uni08A0.init_BaaBaaHeh
 Encoding: 6146 -1 3339
 Width: 478
 Flags: W
-HStem: -232.49 148.313<-155 -70.4323 70.6932 155.261> 0 436.271<-50 215.091>
+HStem: -232.487 148.313<-155 -70.4323 70.6932 155.261> 0 436.271<-50 215.091>
 VStem: -155 310.261 -50 427.862<123.429 436.271> 217.682 160.181<436.271 579.568>
 AnchorPoint: "TashkilBelow" 157 -880 basechar 0
 AnchorPoint: "TashkilAbove" 179 1640 basechar 0

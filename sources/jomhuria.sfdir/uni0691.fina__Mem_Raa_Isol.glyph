@@ -10,6 +10,6 @@ LayerCount: 2
 Back
 Fore
 Refer: 178 -1 N 1 0 0 1 628 728 2
-Refer: 42 -1 N 1 0 0 1 -100 0 2
+Refer: 42 -1 S 1 0 0 1 -100 0 2
 Colour: ff00
 EndChar

@@ -5,7 +5,7 @@ Flags: W
 HStem: 0 436.18<329.484 1310.34>
 VStem: 1324.28 172.434<452.432 591.457>
 AnchorPoint: "TashkilBelow" 963 -670 basechar 0
-AnchorPoint: "TashkilAbove" 1063 1640 basechar 0
+AnchorPoint: "TashkilAbove" 1133 1283 basechar 0
 AnchorPoint: "TwoDotsBelow" 1273 -164 basechar 0
 AnchorPoint: "TwoDotsAbove" 1285 1426 basechar 0
 AnchorPoint: "DotBelow" 1383 -164 basechar 0

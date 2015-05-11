@@ -2,8 +2,8 @@ StartChar: uni064D.small
 Encoding: 6293 -1 3484
 Width: 0
 Flags: W
-HStem: -840.769 429.746
-VStem: -191 305.781
+HStem: -844 479
+VStem: -196 311
 AnchorPoint: "TashkilTashkilBelow" 1 -324 mark 0
 AnchorPoint: "TashkilBelow" -62 -963 mark 0
 AnchorPoint: "TashkilTashkilBelow" -63 -964 basemark 0

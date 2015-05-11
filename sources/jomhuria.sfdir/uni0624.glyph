@@ -3,14 +3,14 @@ Encoding: 1254 1572 906
 Width: 866
 VWidth: 0
 Flags: W
-HStem: 0 436.091<262.529 528.608> 603.604 191.305<260.875 425.22> 863 515.393
-VStem: 123.909 127.447<447.153 593.502> 123.909 632.583<103.9 431.057> 252 345.26
+HStem: 0 436.091<262.529 528.608> 603.604 191.305<260.875 425.22> 886 492.393
+VStem: 123.909 127.447<447.153 593.502> 123.909 632.583<103.9 431.057> 287 310.348
 AnchorPoint: "TashkilAbove" 680 1640 basechar 0
 AnchorPoint: "TashkilBelow" 810 -670 basechar 0
 LayerCount: 2
 Back
 Fore
 Refer: 58 -1 N 1 0 0 1 0 0 2
-Refer: 2370 -1 N 1 0 0 1 444 10 2
+Refer: 2370 -1 S 1 0 0 1 444 10 2
 Colour: ffffff
 EndChar
