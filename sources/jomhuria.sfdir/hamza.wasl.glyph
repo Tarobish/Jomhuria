@@ -2,9 +2,10 @@ StartChar: hamza.wasl
 Encoding: 511 -1 220
 Width: 444
 GlyphClass: 4
-Flags: HW
-HStem: 1730 147.229<179.816 326.09> 1949.46 72.8496<216.394 329.392>
-AnchorPoint: "HamzaAbove" 188.386 1649.03 mark 0
+Flags: W
+HStem: 1730 147.229<219.825 326.09> 1949.46 72.8496<245.329 333.289>
+VStem: 103 283.389
+AnchorPoint: "HamzaAbove" 218 1652 mark 0
 LayerCount: 2
 Back
 SplineSet

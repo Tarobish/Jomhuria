@@ -7,10 +7,10 @@ AnchorPoint: "DigitBelow" 538 1 basechar 0
 AnchorPoint: "TaaBelow" 538 401 basechar 0
 AnchorPoint: "TaaAbove" 30 1295 basechar 0
 AnchorPoint: "TashkilBelow" 318 -670 basechar 0
-AnchorPoint: "TashkilAbove" 250 1640 basechar 0
+AnchorPoint: "TashkilAbove" 382 1133 basechar 0
 AnchorPoint: "DotAbove" 30 1295 basechar 0
 AnchorPoint: "DotBelow" 538 1 basechar 0
-AnchorPoint: "HamzaAbove" 30 1295 basechar 0
+AnchorPoint: "HamzaAbove" 464 1147 basechar 0
 AnchorPoint: "HamzaBelow" 538 1 basechar 0
 AnchorPoint: "TwoDotsAbove" -70 1295 basechar 0
 AnchorPoint: "TwoDotsBelow" 427 1 basechar 0

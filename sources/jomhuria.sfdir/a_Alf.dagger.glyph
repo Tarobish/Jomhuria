@@ -5,7 +5,7 @@ GlyphClass: 4
 Flags: W
 HStem: 800.475 341.559
 VStem: -263 128.074<1002.44 1066.81>
-AnchorPoint: "HamzaAbove" 0 1050 mark 0
+AnchorPoint: "HamzaAbove" -150 806 mark 0
 LayerCount: 2
 Back
 Fore

@@ -9,7 +9,7 @@ AnchorPoint: "TwoDotsBelow" 221 -200 basechar 0
 AnchorPoint: "DotAbove" 221 870 basechar 0
 AnchorPoint: "VAbove" 221 870 basechar 0
 AnchorPoint: "DigitAbove" 221 870 basechar 0
-AnchorPoint: "TashkilAbove" 221 1640 basechar 0
+AnchorPoint: "TashkilAbove" 628 737 basechar 0
 AnchorPoint: "DotBelow" 321 -200 basechar 0
 LayerCount: 2
 Back

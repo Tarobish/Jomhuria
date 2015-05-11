@@ -7,7 +7,7 @@ VStem: 110 690.365<560.47 800.052>
 AnchorPoint: "TashkilBelow" 500 -238 basechar 0
 AnchorPoint: "DigitAbove" 500 1102 basechar 0
 AnchorPoint: "TashkilAbove" 369 1010 basechar 0
-AnchorPoint: "HamzaAbove" 600 1102 basechar 0
+AnchorPoint: "HamzaAbove" 314 969 basechar 0
 LayerCount: 2
 Back
 Fore

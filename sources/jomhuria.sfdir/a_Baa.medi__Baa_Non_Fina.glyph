@@ -4,7 +4,7 @@ Width: 624
 Flags: W
 HStem: 0 436.188<-50 236.26 476.659 674.791>
 VStem: 238.61 146.587<437.347 595.377>
-AnchorPoint: "TashkilAbove" -1 1640 basechar 0
+AnchorPoint: "TashkilAbove" 150 628 basechar 0
 AnchorPoint: "TashkilBelow" 39 -670 basechar 0
 AnchorPoint: "TwoDotsBelow" 48 -280 basechar 0
 AnchorPoint: "TwoDotsAbove" 58 884 basechar 0
@@ -12,7 +12,7 @@ AnchorPoint: "HamzaBelow" 159 -380 basechar 0
 AnchorPoint: "DotBelow" 159 -380 basechar 0
 AnchorPoint: "DigitBelow" 159 -380 basechar 0
 AnchorPoint: "TaaAbove" 169 684 basechar 0
-AnchorPoint: "HamzaAbove" 169 884 basechar 0
+AnchorPoint: "HamzaAbove" 109 642 basechar 0
 AnchorPoint: "DotAbove" 169 884 basechar 0
 AnchorPoint: "VAbove" 169 884 basechar 0
 AnchorPoint: "DigitAbove" 169 884 basechar 0

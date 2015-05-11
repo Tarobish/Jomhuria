@@ -3,7 +3,7 @@ Encoding: 364 -1 94
 Width: 1157
 Flags: W
 HStem: 0 436.188<-50 548.57> 692.147 284.229<204.826 439.099>
-AnchorPoint: "TashkilAbove" 1197 1640 basechar 0
+AnchorPoint: "TashkilAbove" 382 1161 basechar 0
 AnchorPoint: "TashkilBelow" 1387 -670 basechar 0
 AnchorPoint: "TwoDotsBelow" 1387 -249 basechar 0
 AnchorPoint: "TwoDotsAbove" 1387 1210 basechar 0
@@ -11,7 +11,7 @@ AnchorPoint: "HamzaBelow" 1487 -249 basechar 0
 AnchorPoint: "DotBelow" 1487 -249 basechar 0
 AnchorPoint: "DigitBelow" 1487 -249 basechar 0
 AnchorPoint: "TaaBelow" 1487 151 basechar 0
-AnchorPoint: "HamzaAbove" 1487 1210 basechar 0
+AnchorPoint: "HamzaAbove" 369 1133 basechar 0
 AnchorPoint: "DotAbove" 1487 1210 basechar 0
 AnchorPoint: "TaaAbove" 1487 1210 basechar 0
 LayerCount: 2

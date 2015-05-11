@@ -7,7 +7,7 @@ VStem: 718 332.244<438.313 1028.23>
 AnchorPoint: "TashkilBelow" 0 -670 basechar 0
 AnchorPoint: "TwoDotsBelow" 0 -150 basechar 0
 AnchorPoint: "TwoDotsAbove" 60 1600 basechar 0
-AnchorPoint: "TashkilAbove" 120 1640 basechar 0
+AnchorPoint: "TashkilAbove" 887 1256 basechar 0
 AnchorPoint: "VAbove" 175 1600 basechar 0
 AnchorPoint: "DotAbove" 175 1680 basechar 0
 AnchorPoint: "Stroke" 187 1116 basechar 0

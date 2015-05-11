@@ -4,7 +4,7 @@ Width: 1208
 Flags: W
 HStem: 0 436.188<-50 201.885 422.098 562.736 742.581 897.473>
 AnchorPoint: "TwoDotsAbove" 409 1104 basechar 0
-AnchorPoint: "HamzaAbove" 509 1204 basechar 0
+AnchorPoint: "HamzaAbove" 655 765 basechar 0
 AnchorPoint: "DotAbove" 509 1204 basechar 0
 AnchorPoint: "VAbove" 509 1204 basechar 0
 AnchorPoint: "DigitAbove" 509 1204 basechar 0

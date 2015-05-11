@@ -5,9 +5,9 @@ Flags: W
 HStem: 0 436.188<-50 202.382 486.177 794.202>
 AnchorPoint: "cursive" 162 339 exit 0
 AnchorPoint: "TwoDotsAbove" 317 1535 basechar 0
-AnchorPoint: "HamzaAbove" 428 1535 basechar 0
+AnchorPoint: "HamzaAbove" 560 1051 basechar 0
 AnchorPoint: "DotAbove" 428 1535 basechar 0
-AnchorPoint: "TashkilAbove" 478 1640 basechar 0
+AnchorPoint: "TashkilAbove" 587 1051 basechar 0
 AnchorPoint: "TashkilBelow" 900 -670 basechar 0
 AnchorPoint: "DotBelow" 920 600 basechar 0
 LayerCount: 2

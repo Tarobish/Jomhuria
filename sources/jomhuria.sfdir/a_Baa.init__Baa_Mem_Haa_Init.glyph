@@ -6,7 +6,7 @@ HStem: 0 436.271<-50 215.091>
 VStem: -50 427.862<123.429 436.271> 217.682 160.181<436.271 579.568>
 AnchorPoint: "TwoDotsAbove" -20 1726 basechar 0
 AnchorPoint: "TaaAbove" 91 1526 basechar 0
-AnchorPoint: "HamzaAbove" 91 1726 basechar 0
+AnchorPoint: "HamzaAbove" 123 860 basechar 0
 AnchorPoint: "DotAbove" 91 1726 basechar 0
 AnchorPoint: "VAbove" 91 1726 basechar 0
 AnchorPoint: "DigitAbove" 91 1726 basechar 0

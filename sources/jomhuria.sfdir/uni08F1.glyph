@@ -3,15 +3,15 @@ Encoding: 4823 2289 2295
 Width: 741
 GlyphClass: 4
 Flags: W
-HStem: 1526 100.397<229.896 345.424> 1531 100.397<564.896 680.424>
-VStem: 229.896 311.087 564.896 311.087
+HStem: 1530.37 81.3216<291.274 384.852 562.624 656.202>
+VStem: 291.274 251.98 562.624 251.98
 AnchorPoint: "TashkilTashkilAbove" 217.896 2200 basemark 0
 AnchorPoint: "TashkilAbove" 519 1475 mark 0
 AnchorPoint: "TashkilAboveDot" 537.896 1640 mark 0
 LayerCount: 2
 Back
 Fore
-Refer: 235 -1 S 1 0 0 1 519.896 -198 2
-Refer: 235 -1 S 1 0 0 1 184.896 -203 2
+Refer: 235 -1 S 0.81 0 0 0.81 526.174 129.884 2
+Refer: 235 -1 S 0.81 0 0 0.81 254.824 129.884 2
 Colour: ffffff
 EndChar

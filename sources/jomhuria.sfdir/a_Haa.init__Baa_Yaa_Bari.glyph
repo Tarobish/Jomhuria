@@ -11,9 +11,9 @@ AnchorPoint: "HamzaBelow" 620 -780 basechar 0
 AnchorPoint: "TaaBelow" 620 -780 basechar 0
 AnchorPoint: "DigitBelow" 620 -780 basechar 0
 AnchorPoint: "DotAbove" 620 950 basechar 0
-AnchorPoint: "HamzaAbove" 620 950 basechar 0
+AnchorPoint: "HamzaAbove" 437 1161 basechar 0
 AnchorPoint: "TaaAbove" 620 950 basechar 0
-AnchorPoint: "TashkilAbove" 620 1640 basechar 0
+AnchorPoint: "TashkilAbove" 369 1092 basechar 0
 LayerCount: 2
 Back
 Fore

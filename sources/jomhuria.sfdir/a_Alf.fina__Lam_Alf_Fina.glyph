@@ -4,10 +4,10 @@ Width: 865
 Flags: W
 HStem: 415.722 653.357
 VStem: 586.296 168.904<415.722 506.441>
-AnchorPoint: "TashkilAbove" 0 1640 basechar 0
+AnchorPoint: "TashkilAbove" 328 1161 basechar 0
 AnchorPoint: "DigitAbove" 79 1150 basechar 0
 AnchorPoint: "HamzaBelow" 221 -233 basechar 0
-AnchorPoint: "HamzaAbove" 279 1500 basechar 0
+AnchorPoint: "HamzaAbove" 300 1133 basechar 0
 AnchorPoint: "TashkilBelow" 320 -670 basechar 0
 AnchorPoint: "HighHamza" 679 1500 basechar 0
 LayerCount: 2

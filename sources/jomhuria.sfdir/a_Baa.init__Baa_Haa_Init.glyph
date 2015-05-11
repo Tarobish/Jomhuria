@@ -7,10 +7,10 @@ VStem: -50 427.862<123.429 436.271> 217.682 160.181<436.271 579.568>
 AnchorPoint: "TwoDotsAbove" -127 1356 basechar 0
 AnchorPoint: "TaaAbove" -16 1156 basechar 0
 AnchorPoint: "DotAbove" -16 1356 basechar 0
-AnchorPoint: "HamzaAbove" -16 1356 basechar 0
+AnchorPoint: "HamzaAbove" 150 887 basechar 0
 AnchorPoint: "VAbove" -16 1356 basechar 0
 AnchorPoint: "DigitAbove" -16 1356 basechar 0
-AnchorPoint: "TashkilAbove" -16 1596 basechar 0
+AnchorPoint: "TashkilAbove" 150 887 basechar 0
 AnchorPoint: "RingBelow" -24 746 basechar 0
 AnchorPoint: "TwoDotsBelowAlt" 880 -750 basechar 0
 AnchorPoint: "TwoDotsBelow" 880 -200 basechar 0
