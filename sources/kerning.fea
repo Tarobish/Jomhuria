@@ -17,7 +17,7 @@
 @Raa_1 = [@RaaWaw @aDal.fina @aDal.isol
           @aDal.fina_LamDal];
 @Raa_2 = [@aRaa.fina_MemRaaIsol];
-@2nd_3 = [@aSen.init_SenHaaInit @aSad.init_SadHaaInit @aLam.init_LamHaaHaaInit];
+@2nd_3 = [@aSad.init_SadHaaInit @aLam.init_LamHaaHaaInit];
 @2nd_4 = [@aSad.init_AboveHaa @aSen.init_AboveHaa @aHeh.init_AboveHaa
           @aHaa.init_AboveHaa @aMem.init_AboveHaa
           @aAyn.init_AboveHaa];
