@@ -107,7 +107,6 @@
 @aSad.init_SadHaaInit = [ uni069D.init_SadHaaInit uni06FB.init_SadHaaInit uni0636.init_SadHaaInit uni069E.init_SadHaaInit uni0635.init_SadHaaInit ];
 @aSen.init_AboveHaa = [ uni06FA.init_AboveHaa uni076D.init_AboveHaa uni0633.init_AboveHaa uni077E.init_AboveHaa uni077D.init_AboveHaa uni0634.init_AboveHaa uni0770.init_AboveHaa uni075C.init_AboveHaa uni069A.init_AboveHaa uni069B.init_AboveHaa uni069C.init_AboveHaa ];
 @aSen.init_SenHaaInit = [ uni06FA.init_SenHaaInit uni076D.init_SenHaaInit uni0633.init_SenHaaInit uni077E.init_SenHaaInit uni077D.init_SenHaaInit uni0634.init_SenHaaInit uni0770.init_SenHaaInit uni075C.init_SenHaaInit uni069A.init_SenHaaInit uni069B.init_SenHaaInit uni069C.init_SenHaaInit ];
-@aSen.medi_PreYaa = [ uni06FA.medi_PreYaa uni076D.medi_PreYaa uni0633.medi_PreYaa uni077E.medi_PreYaa uni077D.medi_PreYaa uni0634.medi_PreYaa uni0770.medi_PreYaa uni075C.medi_PreYaa uni069A.medi_PreYaa uni069B.medi_PreYaa uni069C.medi_PreYaa ];
 
 @aYaaBari.fina_PostToothFina = [ uni077B.fina_PostToothFina uni077A.fina_PostToothFina uni06D2.fina_PostToothFina ];
 

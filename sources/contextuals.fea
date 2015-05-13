@@ -59,14 +59,14 @@ feature calt {
   sub [@aBaa.init]' lookup BaaBaa
       [@aBaa.medi]' lookup BaaBaa
       [@aBaa.medi]' lookup HighBaa
-      [@aSen.fina @aSen.medi @aSen.medi_PreYaa];
+      [@aSen.fina @aSen.medi];
 
   sub [@aBaa.medi @aSad.init @aSad.medi @aSen.init @aSen.medi @aBaa.medi_BaaBaaInit]
       [@aBaa.medi]' lookup HighBaa
-      [@aBaa.fina @aBaa.medi @aSen.fina @aBaa.medi_BaaHehMedi @aSen.medi @aSen.medi_PreYaa];
+      [@aBaa.fina @aBaa.medi @aSen.fina @aBaa.medi_BaaHehMedi @aSen.medi];
 
   sub [@aBaa.medi]' lookup HighBaa
-      [@aSen.fina @aSen.medi @aSen.medi_PreYaa];
+      [@aSen.fina @aSen.medi];
 
   sub [@aBaa.init]' lookup HighBaa
       [@aBaa.medi]' lookup HighBaa
