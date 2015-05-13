@@ -33,7 +33,10 @@
 
 
 @aAlf.fina_KafAlf = [ uni0625.fina_KafAlf uni0627.fina_KafAlf uni0774.fina_KafAlf uni0773.fina_KafAlf uni0623.fina_KafAlf uni0622.fina_KafAlf uni0675.fina_KafAlf uni0672.fina_KafAlf uni0673.fina_KafAlf uni0671.fina_KafAlf ];
-@aAlf.fina_KafMemAlf = [ uni0625.fina_KafMemAlf uni0627.fina_KafMemAlf uni0774.fina_KafMemAlf uni0773.fina_KafMemAlf uni0623.fina_KafMemAlf uni0622.fina_KafMemAlf uni0675.fina_KafMemAlf uni0672.fina_KafMemAlf uni0673.fina_KafMemAlf uni0671.fina_KafMemAlf ];
+
+// used only for kerning
+@aAlf.fina_KafMemAlf = [ uni0625.fina_KafMemAlf uni0623.fina_KafMemAlf uni0675.fina_KafMemAlf uni0672.fina_KafMemAlf uni0673.fina_KafMemAlf ]
+
 @aAlf.fina_LamAlfFina = [ uni0625.fina_LamAlfFina uni0627.fina_LamAlfFina uni0774.fina_LamAlfFina uni0773.fina_LamAlfFina uni0623.fina_LamAlfFina uni0622.fina_LamAlfFina uni0675.fina_LamAlfFina uni0672.fina_LamAlfFina uni0673.fina_LamAlfFina uni0671.fina_LamAlfFina ];
 @aAlf.fina_LamAlfIsol = [ uni0625.fina_LamAlfIsol uni0627.fina_LamAlfIsol uni0774.fina_LamAlfIsol uni0773.fina_LamAlfIsol uni0623.fina_LamAlfIsol uni0622.fina_LamAlfIsol uni0675.fina_LamAlfIsol uni0672.fina_LamAlfIsol uni0673.fina_LamAlfIsol uni0671.fina_LamAlfIsol ];
 @aAlf.fina_MemAlfFina = [ uni0625.fina_MemAlfFina uni0627.fina_MemAlfFina uni0774.fina_MemAlfFina uni0773.fina_MemAlfFina uni0623.fina_MemAlfFina uni0622.fina_MemAlfFina uni0675.fina_MemAlfFina uni0672.fina_MemAlfFina uni0673.fina_MemAlfFina uni0671.fina_MemAlfFina ];
