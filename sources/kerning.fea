@@ -14,7 +14,7 @@
 
 @Raa_1 = [@RaaWaw @aDal.fina @aDal.isol];
 @Raa_2 = [@aRaa.fina_MemRaaIsol];
-@2nd_3 = [@aSad.init_SadHaaInit];
+
 @2nd_4 = [@aSad.init_AboveHaa @aHeh.init_AboveHaa
           @aHaa.init_AboveHaa @aMem.init_AboveHaa
           @aAyn.init_AboveHaa];
@@ -35,14 +35,11 @@ feature kern {
   pos @RaaWaw' <-600 0 -600 0>  @Kaf_5;
   pos @RaaWaw' <-300 0 -300 0> [@Kaf_2 @Kaf_3];
 
-  pos @RaaWaw' <-100 0 -100 0> @2nd_3;
-
   pos @Dal_1'  <-600 0 -600 0>  @Kaf_5;
   pos @Dal_1'  <-400 0 -400 0> [@Kaf_2 @Kaf_3];
 
   pos @Raa_2' <-400 0 -400 0> [@Kaf_2 @Kaf_3];
   pos @Raa_2' <-800 0 -800 0> @Kaf_5;
-  pos @Raa_2' <-200 0 -200 0> @2nd_3;
   pos @Raa_2' <-400 0 -400 0> @2nd_4;
 
   // +ve kern so that the tail of raa/waw does not touch the dot of baa
