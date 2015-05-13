@@ -71,8 +71,6 @@
 @aHaa.init_DotBelow = [uni0687.init uni062C.init uni0684.init uni076F.init uni076E.init uni0683.init uni06BF.init uni077C.init uni0758.init uni0686.init ];
 @aHaa.init_BaaYaaBari = [uni0687.init_BaaYaaBari uni062C.init_BaaYaaBari uni0684.init_BaaYaaBari uni076F.init_BaaYaaBari uni076E.init_BaaYaaBari uni0683.init_BaaYaaBari uni06BF.init_BaaYaaBari uni077C.init_BaaYaaBari uni0758.init_BaaYaaBari uni0686.init_BaaYaaBari ];
 
-// sync with @aGaf.alt.fina
-@aGaf.fina_KafKafFina = [ uni06A9.fina_KafKafFina uni06AF.fina_KafKafFina ];
 
 @aKaf.init_KafLam = [ uni063B.init_KafLam uni063C.init_KafLam uni077F.init_KafLam uni0764.init_KafLam uni0643.init_KafLam uni06B0.init_KafLam uni06B3.init_KafLam uni06B2.init_KafLam uni06AB.init_KafLam uni06AC.init_KafLam uni06AD.init_KafLam uni06AE.init_KafLam uni06AF.init_KafLam uni06A9.init_KafLam uni06B4.init_KafLam uni0763.init_KafLam uni0762.init_KafLam uni06B1.init_KafLam ];
 
@@ -103,9 +101,6 @@
 @AlefHamzaAbove = [ uni0623 uni0672 uni0675 uni0623.fina uni0675.fina uni0672.fina uni0623.fina_LamAlfIsol uni0675.fina_LamAlfIsol uni0672.fina_LamAlfIsol uni0623.fina_LamAlfFina uni0675.fina_LamAlfFina uni0672.fina_LamAlfFina uni0623.fina_KafAlf uni0675.fina_KafAlf uni0672.fina_KafAlf uni0675.fina_KafMemAlf uni0672.fina_KafMemAlf uni0675.fina_MemAlfFina uni0672.fina_MemAlfFina ];
 // glyphs can be removed from here (context in sub and in kerning)
 @AlefHamzaBelow = [ uni0625 uni0673 uni0625.fina uni0673.fina uni0625.fina_LamAlfIsol uni0673.fina_LamAlfIsol uni0625.fina_LamAlfFina uni0673.fina_LamAlfFina uni0625.fina_KafAlf uni0673.fina_KafAlf uni0673.fina_KafMemAlf uni0673.fina_MemAlfFina ];
-
-// sync with @aGaf.fina_KafKafFina
-@aGaf.alt.fina = [ uni06A9.alt.fina uni06AF.alt.fina ];
 
 @Digits = [ zero one two three four five six seven eight nine uni0660 uni0661 uni0662 uni0663 uni0664 uni0665 uni0666 uni0667 uni0668 uni0669 uni06F0 uni06F1 uni06F2 uni06F3 uni06F4 uni06F5 uni06F6 uni06F7 uni06F8 uni06F9 uni06F4.urd uni06F6.urd uni06F7.urd ];
 @Digits.small = [ zero.small one.small two.small three.small four.small five.small six.small seven.small eight.small nine.small uni0660.small uni0661.small uni0662.small uni0663.small uni0664.small uni0665.small uni0666.small uni0667.small uni0668.small uni0669.small uni06F0.small uni06F1.small uni06F2.small uni06F3.small uni06F4.small uni06F5.small uni06F6.small uni06F7.small uni06F8.small uni06F9.small uni06F4.urd.small uni06F6.urd.small uni06F7.urd.small ];

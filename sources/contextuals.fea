@@ -87,7 +87,6 @@ lookup KafLamAlf {
 lookup KafLam {
   sub @aKaf.init by @aKaf.init_KafLam;
   sub @aKaf.medi by @aKaf.medi_KafLam;
-  sub @aGaf.alt.fina by @aGaf.fina_KafKafFina;
   sub @aLam.medi by @aLam.medi_KafLam;
   sub @aLam.fina by @aLam.fina_KafLam;
   sub @aAlf.fina by @aAlf.fina_KafAlf;
