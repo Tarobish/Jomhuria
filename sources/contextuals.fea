@@ -38,7 +38,6 @@ feature calt {
 } calt;
 lookup BaaBaa {
   sub @aBaa.medi by @aBaa.medi_BaaBaaInit;
-  sub @aBaa.fina by @aBaa.fina_BaaBaaIsol;
   sub @aBaa.init by @aBaa.init_BaaBaaIsol;
 } BaaBaa;
 
