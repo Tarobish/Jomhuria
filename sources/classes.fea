@@ -35,14 +35,14 @@
 @aAlf.fina_KafAlf = [ uni0625.fina_KafAlf uni0627.fina_KafAlf uni0774.fina_KafAlf uni0773.fina_KafAlf uni0623.fina_KafAlf uni0622.fina_KafAlf uni0675.fina_KafAlf uni0672.fina_KafAlf uni0673.fina_KafAlf uni0671.fina_KafAlf ];
 
 // safe to remove, used only for kerning
-@aAlf.fina_KafMemAlf = [ uni0625.fina_KafMemAlf uni0675.fina_KafMemAlf uni0672.fina_KafMemAlf uni0673.fina_KafMemAlf ]
+@aAlf.fina_KafMemAlf = [ uni0675.fina_KafMemAlf uni0672.fina_KafMemAlf uni0673.fina_KafMemAlf ]
 
 @aAlf.fina_LamAlfFina = [ uni0625.fina_LamAlfFina uni0627.fina_LamAlfFina uni0774.fina_LamAlfFina uni0773.fina_LamAlfFina uni0623.fina_LamAlfFina uni0622.fina_LamAlfFina uni0675.fina_LamAlfFina uni0672.fina_LamAlfFina uni0673.fina_LamAlfFina uni0671.fina_LamAlfFina ];
 @aAlf.fina_LamAlfIsol = [ uni0625.fina_LamAlfIsol uni0627.fina_LamAlfIsol uni0774.fina_LamAlfIsol uni0773.fina_LamAlfIsol uni0623.fina_LamAlfIsol uni0622.fina_LamAlfIsol uni0675.fina_LamAlfIsol uni0672.fina_LamAlfIsol uni0673.fina_LamAlfIsol uni0671.fina_LamAlfIsol ];
 
 
 // used only for kerning
-@aAlf.fina_MemAlfFina = [ uni0625.fina_MemAlfFina uni0675.fina_MemAlfFina uni0672.fina_MemAlfFina uni0673.fina_MemAlfFina ]
+@aAlf.fina_MemAlfFina = [ uni0675.fina_MemAlfFina uni0672.fina_MemAlfFina uni0673.fina_MemAlfFina ]
 
 @aAyn.init_AboveHaa = [ uni06FC.init_AboveHaa uni063A.init_AboveHaa uni075E.init_AboveHaa uni075D.init_AboveHaa uni075F.init_AboveHaa uni06A0.init_AboveHaa uni0639.init_AboveHaa ];
 @aBaa.fina_BaaBaaIsol = [ uni0751.fina_BaaBaaIsol uni0750.fina_BaaBaaIsol uni0753.fina_BaaBaaIsol uni0680.fina_BaaBaaIsol uni062A.fina_BaaBaaIsol uni0754.fina_BaaBaaIsol uni062B.fina_BaaBaaIsol uni0679.fina_BaaBaaIsol uni067C.fina_BaaBaaIsol uni0756.fina_BaaBaaIsol uni0752.fina_BaaBaaIsol uni066E.fina_BaaBaaIsol uni067F.fina_BaaBaaIsol uni0755.fina_BaaBaaIsol uni08A0.fina_BaaBaaIsol uni067D.fina_BaaBaaIsol uni067E.fina_BaaBaaIsol uni067B.fina_BaaBaaIsol uni0628.fina_BaaBaaIsol uni067A.fina_BaaBaaIsol ];
@@ -50,7 +50,10 @@
 // sync with @aBaa.init, @aBaa.init_BaaBaaYaaBari
 @aBaa.init_BaaBaaIsol = [ uni0777.init_BaaBaaIsol uni0680.init_BaaBaaIsol uni0776.init_BaaBaaIsol uni06BC.init_BaaBaaIsol uni0750.init_BaaBaaIsol uni0756.init_BaaBaaIsol uni0768.init_BaaBaaIsol uni06CE.init_BaaBaaIsol uni0775.init_BaaBaaIsol uni06BD.init_BaaBaaIsol uni0626.init_BaaBaaIsol uni066E.init_BaaBaaIsol uni0620.init_BaaBaaIsol uni064A.init_BaaBaaIsol uni06BB.init_BaaBaaIsol uni067F.init_BaaBaaIsol uni0755.init_BaaBaaIsol uni08A0.init_BaaBaaIsol uni067D.init_BaaBaaIsol uni067E.init_BaaBaaIsol uni067B.init_BaaBaaIsol uni0628.init_BaaBaaIsol uni067A.init_BaaBaaIsol uni0751.init_BaaBaaIsol uni0646.init_BaaBaaIsol uni0753.init_BaaBaaIsol uni0752.init_BaaBaaIsol uni062A.init_BaaBaaIsol uni0678.init_BaaBaaIsol uni063D.init_BaaBaaIsol uni062B.init_BaaBaaIsol uni0679.init_BaaBaaIsol uni06B9.init_BaaBaaIsol uni0769.init_BaaBaaIsol uni0649.init_BaaBaaIsol uni067C.init_BaaBaaIsol uni0754.init_BaaBaaIsol uni06D1.init_BaaBaaIsol uni06D0.init_BaaBaaIsol uni06BA.init_BaaBaaIsol uni06CC.init_BaaBaaIsol uni0767.init_BaaBaaIsol ];
 @aBaa.init_High = [ uni0777.init_High uni0680.init_High uni0776.init_High uni06BC.init_High uni0750.init_High uni0756.init_High uni0768.init_High uni06CE.init_High uni0775.init_High uni06BD.init_High uni0626.init_High uni066E.init_High uni0620.init_High uni064A.init_High uni06BB.init_High uni067F.init_High uni0755.init_High uni08A0.init_High uni067D.init_High uni067E.init_High uni067B.init_High uni0628.init_High uni067A.init_High uni0751.init_High uni0646.init_High uni0753.init_High uni0752.init_High uni062A.init_High uni0678.init_High uni063D.init_High uni062B.init_High uni0679.init_High uni06B9.init_High uni0769.init_High uni0649.init_High uni067C.init_High uni0754.init_High uni06D1.init_High uni06D0.init_High uni06BA.init_High uni06CC.init_High uni0767.init_High ];
+
+// sync with @aBaa.init_BaaBaaIsol
 @aBaa.init_BaaBaaYaaBari = [ uni0777.init_BaaBaaYaaBari uni0680.init_BaaBaaYaaBari uni0776.init_BaaBaaYaaBari uni06BC.init_BaaBaaYaaBari uni0750.init_BaaBaaYaaBari uni0756.init_BaaBaaYaaBari uni0768.init_BaaBaaYaaBari uni06CE.init_BaaBaaYaaBari uni0775.init_BaaBaaYaaBari uni06BD.init_BaaBaaYaaBari uni0626.init_BaaBaaYaaBari uni066E.init_BaaBaaYaaBari uni0620.init_BaaBaaYaaBari uni064A.init_BaaBaaYaaBari uni06BB.init_BaaBaaYaaBari uni067F.init_BaaBaaYaaBari uni0755.init_BaaBaaYaaBari uni08A0.init_BaaBaaYaaBari uni067D.init_BaaBaaYaaBari uni067E.init_BaaBaaYaaBari uni067B.init_BaaBaaYaaBari uni0628.init_BaaBaaYaaBari uni067A.init_BaaBaaYaaBari uni0751.init_BaaBaaYaaBari uni0646.init_BaaBaaYaaBari uni0753.init_BaaBaaYaaBari uni0752.init_BaaBaaYaaBari uni062A.init_BaaBaaYaaBari uni0678.init_BaaBaaYaaBari uni063D.init_BaaBaaYaaBari uni062B.init_BaaBaaYaaBari uni0679.init_BaaBaaYaaBari uni06B9.init_BaaBaaYaaBari uni0769.init_BaaBaaYaaBari uni0649.init_BaaBaaYaaBari uni067C.init_BaaBaaYaaBari uni0754.init_BaaBaaYaaBari uni06D1.init_BaaBaaYaaBari uni06D0.init_BaaBaaYaaBari uni06BA.init_BaaBaaYaaBari uni06CC.init_BaaBaaYaaBari uni0767.init_BaaBaaYaaBari ];
+
 @aBaa.medi_YaaBari = [ uni0777.medi_YaaBari uni0680.medi_YaaBari uni0776.medi_YaaBari uni06BC.medi_YaaBari uni0750.medi_YaaBari uni0756.medi_YaaBari uni0768.medi_YaaBari uni06CE.medi_YaaBari uni0775.medi_YaaBari uni06BD.medi_YaaBari uni0626.medi_YaaBari uni066E.medi_YaaBari uni0620.medi_YaaBari uni064A.medi_YaaBari uni06BB.medi_YaaBari uni067F.medi_YaaBari uni0755.medi_YaaBari uni08A0.medi_YaaBari uni067D.medi_YaaBari uni067E.medi_YaaBari uni067B.medi_YaaBari uni0628.medi_YaaBari uni067A.medi_YaaBari uni0751.medi_YaaBari uni0646.medi_YaaBari uni0753.medi_YaaBari uni0752.medi_YaaBari uni062A.medi_YaaBari uni0678.medi_YaaBari uni063D.medi_YaaBari uni062B.medi_YaaBari uni0679.medi_YaaBari uni06B9.medi_YaaBari uni0769.medi_YaaBari uni0649.medi_YaaBari uni067C.medi_YaaBari uni0754.medi_YaaBari uni06D1.medi_YaaBari uni06D0.medi_YaaBari uni06BA.medi_YaaBari uni06CC.medi_YaaBari uni0767.medi_YaaBari ];
 
 // sync with @aBaa.medi, @aBaa.medi_YaaBari
@@ -66,9 +69,7 @@
 @aHaa.init_AboveHaa = [ uni062E.init_AboveHaa uni062D.init_AboveHaa uni0681.init_AboveHaa uni0687.init_AboveHaa uni0685.init_AboveHaa uni062C.init_AboveHaa uni0682.init_AboveHaa uni0757.init_AboveHaa uni0684.init_AboveHaa uni076F.init_AboveHaa uni076E.init_AboveHaa uni0683.init_AboveHaa uni06BF.init_AboveHaa uni077C.init_AboveHaa uni0758.init_AboveHaa uni0772.init_AboveHaa uni0686.init_AboveHaa ];
 @aHaa.init_DotBelow = [uni0687.init uni062C.init uni0684.init uni076F.init uni076E.init uni0683.init uni06BF.init uni077C.init uni0758.init uni0686.init ];
 @aHaa.init_BaaYaaBari = [uni0687.init_BaaYaaBari uni062C.init_BaaYaaBari uni0684.init_BaaYaaBari uni076F.init_BaaYaaBari uni076E.init_BaaYaaBari uni0683.init_BaaYaaBari uni06BF.init_BaaYaaBari uni077C.init_BaaYaaBari uni0758.init_BaaYaaBari uni0686.init_BaaYaaBari ];
-// XXX: sync with contextuals.fea
-@aHeh.fina_KafHeh = [ uni0647.fina_KafHeh uni06C1.fina_KafHeh uni06C3.fina_KafHeh uni06D5.fina_KafHeh uni0629.fina_KafHeh ];
-@aHeh.fina_LamHeh = [ uni0647.fina_LamHeh uni06C1.fina_LamHeh uni06C3.fina_LamHeh uni06D5.fina_LamHeh uni0629.fina_LamHeh ];
+
 @aHeh.init_AboveHaa = [ uni0647.init_AboveHaa uni06C1.init_AboveHaa ];
 @aKaf.fina_KafKafFina = [ uni077F.fina_KafKafFina uni0643.fina_KafKafFina uni06AB.fina_KafKafFina uni06AC.fina_KafKafFina uni06AD.fina_KafKafFina uni06AE.fina_KafKafFina ];
 @aGaf.fina_KafKafFina = [ uni06A9.fina_KafKafFina uni06AF.fina_KafKafFina uni06B0.fina_KafKafFina uni06B1.fina_KafKafFina uni06B2.fina_KafKafFina uni06B3.fina_KafKafFina uni06B4.fina_KafKafFina uni0762.fina_KafKafFina uni0763.fina_KafKafFina uni0764.fina_KafKafFina uni063B.fina_KafKafFina uni063C.fina_KafKafFina ];
@@ -110,7 +111,8 @@
 
 // glyphs can be removed from here (context in sub)
 @AlefHamzaAbove = [ uni0623 uni0672 uni0675 uni0623.fina uni0675.fina uni0672.fina uni0623.fina_LamAlfIsol uni0675.fina_LamAlfIsol uni0672.fina_LamAlfIsol uni0623.fina_LamAlfFina uni0675.fina_LamAlfFina uni0672.fina_LamAlfFina uni0623.fina_KafAlf uni0675.fina_KafAlf uni0672.fina_KafAlf uni0675.fina_KafMemAlf uni0672.fina_KafMemAlf uni0675.fina_MemAlfFina uni0672.fina_MemAlfFina ];
-@AlefHamzaBelow = [ uni0625 uni0673 uni0625.fina uni0673.fina uni0625.fina_LamAlfIsol uni0673.fina_LamAlfIsol uni0625.fina_LamAlfFina uni0673.fina_LamAlfFina uni0625.fina_KafAlf uni0673.fina_KafAlf uni0625.fina_KafMemAlf uni0673.fina_KafMemAlf uni0625.fina_MemAlfFina uni0673.fina_MemAlfFina ];
+// glyphs can be removed from here (context in sub and in kerning)
+@AlefHamzaBelow = [ uni0625 uni0673 uni0625.fina uni0673.fina uni0625.fina_LamAlfIsol uni0673.fina_LamAlfIsol uni0625.fina_LamAlfFina uni0673.fina_LamAlfFina uni0625.fina_KafAlf uni0673.fina_KafAlf uni0673.fina_KafMemAlf uni0673.fina_MemAlfFina ];
 
 @aGaf.alt.fina = [ uni06A9.alt.fina uni06AF.alt.fina uni06B0.alt.fina uni06B1.alt.fina uni06B2.alt.fina uni06B3.alt.fina uni06B4.alt.fina uni0762.alt.fina uni0763.alt.fina uni0764.alt.fina uni063B.alt.fina uni063C.alt.fina ];
 

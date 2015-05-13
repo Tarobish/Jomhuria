@@ -1,7 +1,7 @@
 @Dal_1 = [@aDal.fina @aDal.fina_BaaDal @aDal.fina_KafDal @aDal.fina_LamDal
           @aDal.isol];
 @1st_2 = [@RaaWaw @AlefHamzaBelow];
-@1st_4 = [@aHeh.isol @aHeh.fina @aHeh.fina_KafHeh @aHeh.fina_LamHeh];
+@1st_4 = [@aHeh.isol @aHeh.fina];
 
 // final alef with no hamza above
 @Alf_1 = [uni0627.fina_LamAlfFina uni0625.fina_LamAlfFina];
@@ -21,8 +21,6 @@
 @2nd_4 = [@aSad.init_AboveHaa @aSen.init_AboveHaa @aHeh.init_AboveHaa
           @aHaa.init_AboveHaa @aMem.init_AboveHaa @aKaf.init_AboveHaa
           @aAyn.init_AboveHaa];
-@Teh_m = [uni0629.fina_LamHeh uni0629.fina_KafHeh // teh marbuta
-          uni06C3.fina_LamHeh uni06C3.fina_KafHeh];
 
 feature kern {
   // we don't want to kern those if there is tashkil as it touches the kaf
@@ -57,9 +55,6 @@ feature kern {
   pos @Raa_2' <-800 0 -800 0> [@Kaf_1 @Kaf_5];
   pos @Raa_2' <-200 0 -200 0> @2nd_3;
   pos @Raa_2' <-400 0 -400 0> @2nd_4;
-
-  // the dots of teh marbuta are very close to exclamation mark
-  pos @Teh_m' < 150 0  150 0> exclam;
 
   // +ve kern so that the tail of raa/waw does not touch the dot of baa
   pos @1st_2' < 170 0  170 0> @aBaaDotBelow;
