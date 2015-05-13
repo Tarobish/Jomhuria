@@ -31,20 +31,22 @@
 @aYaa.init = [ uni0777.init uni06D1.init uni0775.init uni063D.init uni06D0.init uni0776.init uni06CC.init uni064A.init uni06CE.init ];
 @aYaaBari.fina = [ uni077B.fina uni077A.fina uni06D2.fina ];
 
-
+// sync with @aAlf.fina
 @aAlf.fina_KafAlf = [ uni0625.fina_KafAlf uni0627.fina_KafAlf uni0774.fina_KafAlf uni0773.fina_KafAlf uni0623.fina_KafAlf uni0622.fina_KafAlf uni0675.fina_KafAlf uni0672.fina_KafAlf uni0673.fina_KafAlf uni0671.fina_KafAlf ];
 
 // safe to remove, used only for kerning
 @aAlf.fina_KafMemAlf = [ uni0675.fina_KafMemAlf uni0672.fina_KafMemAlf uni0673.fina_KafMemAlf ];
 
+// sync with @aAlf.fina
 @aAlf.fina_LamAlfFina = [ uni0625.fina_LamAlfFina uni0627.fina_LamAlfFina uni0774.fina_LamAlfFina uni0773.fina_LamAlfFina uni0623.fina_LamAlfFina uni0622.fina_LamAlfFina uni0675.fina_LamAlfFina uni0672.fina_LamAlfFina uni0673.fina_LamAlfFina uni0671.fina_LamAlfFina ];
+
+// sync with @aAlf.fina
 @aAlf.fina_LamAlfIsol = [ uni0625.fina_LamAlfIsol uni0627.fina_LamAlfIsol uni0774.fina_LamAlfIsol uni0773.fina_LamAlfIsol uni0623.fina_LamAlfIsol uni0622.fina_LamAlfIsol uni0675.fina_LamAlfIsol uni0672.fina_LamAlfIsol uni0673.fina_LamAlfIsol uni0671.fina_LamAlfIsol ];
 
 
 // used only for kerning
 @aAlf.fina_MemAlfFina = [ uni0675.fina_MemAlfFina uni0672.fina_MemAlfFina uni0673.fina_MemAlfFina ];
 
-@aAyn.init_AboveHaa = [ uni06FC.init_AboveHaa uni063A.init_AboveHaa uni075E.init_AboveHaa uni075D.init_AboveHaa uni075F.init_AboveHaa uni06A0.init_AboveHaa uni0639.init_AboveHaa ];
 @aBaa.fina_BaaBaaIsol = [ uni0751.fina_BaaBaaIsol uni0750.fina_BaaBaaIsol uni0753.fina_BaaBaaIsol uni0680.fina_BaaBaaIsol uni062A.fina_BaaBaaIsol uni0754.fina_BaaBaaIsol uni062B.fina_BaaBaaIsol uni0679.fina_BaaBaaIsol uni067C.fina_BaaBaaIsol uni0756.fina_BaaBaaIsol uni0752.fina_BaaBaaIsol uni066E.fina_BaaBaaIsol uni067F.fina_BaaBaaIsol uni0755.fina_BaaBaaIsol uni08A0.fina_BaaBaaIsol uni067D.fina_BaaBaaIsol uni067E.fina_BaaBaaIsol uni067B.fina_BaaBaaIsol uni0628.fina_BaaBaaIsol uni067A.fina_BaaBaaIsol ];
 
 // sync with @aBaa.init, @aBaa.init_BaaBaaYaaBari
