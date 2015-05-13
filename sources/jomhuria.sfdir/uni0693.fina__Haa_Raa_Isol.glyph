@@ -1,5 +1,5 @@
 StartChar: uni0693.fina_HaaRaaIsol
-Encoding: 2847 -1 1544
+Encoding: 2847 -1 1335
 Width: 613
 VWidth: 0
 Flags: W
@@ -8,9 +8,8 @@ VStem: 14 70.6943<-600.534 -465.653> 254.907 69.2979<-600.534 -465.607> 660.668 
 AnchorPoint: "TashkilAbove" 403 1640 basechar 0
 AnchorPoint: "TashkilBelow" 400 -670 basechar 0
 LayerCount: 2
-Back
 Fore
-Refer: 132 -1 N 1 0 0 1 -300 0 2
-Refer: 181 -1 N 1 0 0 1 194 -354 2
+Refer: 126 -1 N 1 0 0 1 -300 0 2
+Refer: 175 -1 N 1 0 0 1 194 -354 2
 Colour: ff00
 EndChar

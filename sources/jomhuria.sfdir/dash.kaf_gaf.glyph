@@ -1,5 +1,5 @@
 StartChar: dash.kaf_gaf
-Encoding: 551 -1 259
+Encoding: 551 -1 252
 Width: 0
 Flags: W
 HStem: 321 209.669
@@ -7,9 +7,8 @@ VStem: -347.525 319.555<315.185 321>
 AnchorPoint: "Dash" -873 -42 mark 0
 AnchorPoint: "RingDash" -315 250 basemark 0
 LayerCount: 2
-Back
 Fore
-Refer: 170 -1 N 1 0 0 1 0 0 2
-Refer: 176 -1 N 1 0 0 1 -187 321 2
+Refer: 164 -1 N 1 0 0 1 0 0 2
+Refer: 170 -1 N 1 0 0 1 -187 321 2
 Colour: ff00
 EndChar

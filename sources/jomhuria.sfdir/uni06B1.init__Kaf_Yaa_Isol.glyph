@@ -1,5 +1,5 @@
 StartChar: uni06B1.init_KafYaaIsol
-Encoding: 3871 -1 2093
+Encoding: 3871 -1 1758
 Width: 1035
 VWidth: 0
 Flags: W
@@ -8,10 +8,9 @@ VStem: -603.211 563.895 394.496 290.504<2840.77 2846.06> 407.183 172.521<452.502
 AnchorPoint: "TashkilAbove" -341 1832 basechar 0
 AnchorPoint: "TashkilBelow" 300 -670 basechar 0
 LayerCount: 2
-Back
 Fore
-Refer: 305 -1 N 1 0 0 1 0 0 2
-Refer: 184 -1 N 1 0 0 1 394 1748 2
-Refer: 160 -1 N 1 0 0 1 -321 1482 2
+Refer: 294 -1 N 1 0 0 1 0 0 2
+Refer: 178 -1 N 1 0 0 1 394 1748 2
+Refer: 154 -1 N 1 0 0 1 -321 1482 2
 Colour: ff00
 EndChar

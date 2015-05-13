@@ -1,5 +1,5 @@
 StartChar: uni06B2.init_KafHeh
-Encoding: 3681 -1 1994
+Encoding: 3681 -1 1696
 Width: 1382
 VWidth: 0
 Flags: W
@@ -8,10 +8,9 @@ VStem: -52.2109 563.895 661.475 319.555<1697.18 1703>
 AnchorPoint: "TashkilAbove" 370 1640 basechar 0
 AnchorPoint: "TashkilBelow" 400 -670 basechar 0
 LayerCount: 2
-Back
 Fore
-Refer: 290 -1 N 1 0 0 1 0 0 2
-Refer: 176 -1 N 1 0 0 1 822 1703 2
-Refer: 163 -1 N 1 0 0 1 226 -440 2
+Refer: 282 -1 N 1 0 0 1 0 0 2
+Refer: 170 -1 N 1 0 0 1 822 1703 2
+Refer: 157 -1 N 1 0 0 1 226 -440 2
 Colour: ff00
 EndChar

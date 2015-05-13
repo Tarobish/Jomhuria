@@ -1,5 +1,5 @@
 StartChar: uni0762.init_KafBaaInit
-Encoding: 1794 -1 1132
+Encoding: 1794 -1 1018
 Width: 715
 VWidth: 0
 Flags: W
@@ -8,9 +8,8 @@ VStem: -91.5947 303.368 169.646 25.4814<126.661 341.673>
 AnchorPoint: "TashkilAbove" 10 1930 basechar 0
 AnchorPoint: "TashkilBelow" 300 -670 basechar 0
 LayerCount: 2
-Back
 Fore
-Refer: 82 -1 N 1 0 0 1 0 0 2
-Refer: 159 -1 N 1 0 0 1 60 1630 2
+Refer: 78 -1 N 1 0 0 1 0 0 2
+Refer: 153 -1 N 1 0 0 1 60 1630 2
 Colour: ff00
 EndChar

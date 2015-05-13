@@ -1,5 +1,5 @@
 StartChar: uni0618
-Encoding: 546 1560 255
+Encoding: 546 1560 248
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -28,7 +28,7 @@ SplineSet
  434 1730 l 1
  334 1730 l 1
  464 2048.85742188 l 1
-695.047851562 1945.14648438 m 1024
+695.047851562 1945.14648438 m 0
 EndSplineSet
 Colour: ffff00
 EndChar

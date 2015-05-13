@@ -1,13 +1,12 @@
 StartChar: uniFD6A
-Encoding: 5561 64874 2858
+Encoding: 5561 64874 2452
 Width: 3954
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 564 -1 N 1 0 0 1 0 0 2
-Refer: 754 -1 N 1 0 0 1 1587 0 2
-Refer: 872 -1 N 1 0 0 1 2679 0 2
+Refer: 553 -1 N 1 0 0 1 0 0 2
+Refer: 743 -1 N 1 0 0 1 1587 0 2
+Refer: 861 -1 N 1 0 0 1 2679 0 2
 Colour: ffffff
 EndChar

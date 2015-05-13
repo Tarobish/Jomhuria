@@ -1,5 +1,5 @@
 StartChar: uni077F.init_AboveHaa
-Encoding: 3499 -1 1861
+Encoding: 3499 -1 1580
 Width: 1380
 VWidth: 0
 Flags: W
@@ -8,9 +8,8 @@ VStem: -313.211 563.895 407.183 172.521<452.502 591.489>
 AnchorPoint: "TashkilAbove" -51 1853 basechar 0
 AnchorPoint: "TashkilBelow" 942 -260 basechar 0
 LayerCount: 2
-Back
 Fore
-Refer: 194 -1 N 1 0 0 1 0 0 2
-Refer: 160 -1 N 1 0 0 1 -31 1503 2
+Refer: 187 -1 N 1 0 0 1 0 0 2
+Refer: 154 -1 N 1 0 0 1 -31 1503 2
 Colour: ff00
 EndChar

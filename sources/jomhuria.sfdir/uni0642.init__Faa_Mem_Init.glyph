@@ -1,5 +1,5 @@
 StartChar: uni0642.init_FaaMemInit
-Encoding: 3806 -1 2063
+Encoding: 3806 -1 1728
 Width: 737
 VWidth: 0
 Flags: W
@@ -8,9 +8,8 @@ VStem: 0.365234 127.443<835.549 982.079> 2.64206 563.895 452.539 174.748<436.188
 AnchorPoint: "TashkilBelow" 100 -670 basechar 0
 AnchorPoint: "TashkilAbove" 50 1640 basechar 0
 LayerCount: 2
-Back
 Fore
-Refer: 160 -1 N 1 0 0 1 284.853 1269.08 2
-Refer: 297 -1 N 1 0 0 1 0 0 2
+Refer: 154 -1 N 1 0 0 1 284.853 1269.08 2
+Refer: 286 -1 N 1 0 0 1 0 0 2
 Colour: ff00
 EndChar
