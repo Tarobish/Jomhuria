@@ -1,5 +1,4 @@
-@Dal_1 = [@aDal.fina @aDal.fina_LamDal
-          @aDal.isol];
+@Dal_1 = [@aDal.fina @aDal.isol];
 @1st_2 = [@RaaWaw @AlefHamzaBelow];
 @1st_4 = [@aHeh.isol @aHeh.fina];
 
@@ -14,8 +13,7 @@
 
 @Kaf_5 = [@aKaf.init_KafMemInit];
 
-@Raa_1 = [@RaaWaw @aDal.fina @aDal.isol
-          @aDal.fina_LamDal];
+@Raa_1 = [@RaaWaw @aDal.fina @aDal.isol];
 @Raa_2 = [@aRaa.fina_MemRaaIsol];
 @2nd_3 = [@aSad.init_SadHaaInit @aLam.init_LamHaaHaaInit];
 @2nd_4 = [@aSad.init_AboveHaa @aSen.init_AboveHaa @aHeh.init_AboveHaa
