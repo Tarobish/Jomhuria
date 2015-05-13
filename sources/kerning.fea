@@ -8,8 +8,7 @@
 @Alf_2 = [@aAlf.fina @aAlf.fina_KafAlf @aAlf.fina_KafMemAlf
           @aAlf.fina_LamAlfFina @aAlf.fina_LamAlfIsol @aAlf.fina_MemAlfFina];
 
-@Kaf_1 = [@aKaf.init_KafHeh
-          @aKaf.init_KafMemIsol];
+@Kaf_1 = [ @aKaf.init_KafMemIsol];
 @Kaf_2 = [@aKaf.init_KafBaaInit @aKaf.init_KafMemAlf];
 @Kaf_3 = [@aKaf.init @aKaf.init_KafLam @aGaf.isol];
 @Kaf_4 = [@aKaf.init_KafYaaIsol];
