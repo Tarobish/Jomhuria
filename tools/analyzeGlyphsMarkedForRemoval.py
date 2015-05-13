@@ -239,7 +239,7 @@ def main_cleanClass(classname, fontLocation, featureFileList):
             continue
         new_klass.append(name)
 
-    print('{name} = [ {classes} ]'.format(name=classname,classes=' '.join(new_klass)))
+    print('{name} = [ {classes} ];'.format(name=classname,classes=' '.join(new_klass)))
 
 
 if __name__ == '__main__':
@@ -255,3 +255,5 @@ if __name__ == '__main__':
         main_features(fontLocation, featureFiles)
     elif command.startswith('clean@'):
         main_cleanClass(command[5:], fontLocation, featureFiles)
+    else:
+        raise Exception('Unknown command "{command}".'.format(command=command))
