@@ -12,7 +12,9 @@
 @Kaf_2 = [@aKaf.init_KafBaaInit @aKaf.init_KafMemAlf];
 @Kaf_3 = [@aKaf.init @aKaf.init_KafLam @aGaf.isol];
 @Kaf_4 = [@aKaf.init_KafYaaIsol];
-@Kaf_5 = [@aKaf.init_KafMemInit @aKaf.init_KafRaaIsol];
+
+@Kaf_5 = [@aKaf.init_KafMemInit];
+
 @Raa_1 = [@RaaWaw @aDal.fina @aDal.isol
           @aDal.fina_LamDal];
 @Raa_2 = [@aRaa.fina_MemRaaIsol];
