@@ -99,8 +99,8 @@
 @aRaa.fina_LamRaaIsol = [ uni0691.fina_LamRaaIsol uni0692.fina_LamRaaIsol uni0693.fina_LamRaaIsol uni0694.fina_LamRaaIsol uni0695.fina_LamRaaIsol uni0696.fina_LamRaaIsol uni0697.fina_LamRaaIsol uni0698.fina_LamRaaIsol uni0699.fina_LamRaaIsol uni075B.fina_LamRaaIsol uni06EF.fina_LamRaaIsol uni0632.fina_LamRaaIsol uni0771.fina_LamRaaIsol uni0631.fina_LamRaaIsol uni076B.fina_LamRaaIsol uni076C.fina_LamRaaIsol ];
 @aRaa.fina_MemRaaIsol = [ uni0691.fina_MemRaaIsol uni0692.fina_MemRaaIsol uni0693.fina_MemRaaIsol uni0694.fina_MemRaaIsol uni0695.fina_MemRaaIsol uni0696.fina_MemRaaIsol uni0697.fina_MemRaaIsol uni0698.fina_MemRaaIsol uni0699.fina_MemRaaIsol uni075B.fina_MemRaaIsol uni06EF.fina_MemRaaIsol uni0632.fina_MemRaaIsol uni0771.fina_MemRaaIsol uni0631.fina_MemRaaIsol uni076B.fina_MemRaaIsol uni076C.fina_MemRaaIsol ];
 @aRaa.fina_PostTooth = [ uni0691.fina_PostTooth uni0692.fina_PostTooth uni0693.fina_PostTooth uni0694.fina_PostTooth uni0695.fina_PostTooth uni0696.fina_PostTooth uni0697.fina_PostTooth uni0698.fina_PostTooth uni0699.fina_PostTooth uni075B.fina_PostTooth uni06EF.fina_PostTooth uni0632.fina_PostTooth uni0771.fina_PostTooth uni0631.fina_PostTooth uni076B.fina_PostTooth uni076C.fina_PostTooth ];
-@aSad.init_AboveHaa = [ uni069D.init_AboveHaa uni06FB.init_AboveHaa uni0636.init_AboveHaa uni069E.init_AboveHaa uni0635.init_AboveHaa ];
 
+// sync with @aYaaBari.fina
 @aYaaBari.fina_PostToothFina = [ uni077B.fina_PostToothFina uni077A.fina_PostToothFina uni06D2.fina_PostToothFina ];
 
 // glyphs can be removed from here
