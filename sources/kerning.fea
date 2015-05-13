@@ -7,7 +7,6 @@
 @Alf_2 = [@aAlf.fina @aAlf.fina_KafAlf @aAlf.fina_KafMemAlf
           @aAlf.fina_LamAlfFina @aAlf.fina_LamAlfIsol @aAlf.fina_MemAlfFina];
 
-@Kaf_2 = [@aKaf.init_KafMemAlf];
 @Kaf_3 = [@aKaf.init @aKaf.init_KafLam @aGaf.isol];
 
 @Kaf_5 = [@aKaf.init_KafMemInit];
@@ -33,12 +32,12 @@ lookup YaaBari3Kern {
 feature kern {
   lookupflag IgnoreMarks;
   pos @RaaWaw' <-600 0 -600 0>  @Kaf_5;
-  pos @RaaWaw' <-300 0 -300 0> [@Kaf_2 @Kaf_3];
+  pos @RaaWaw' <-300 0 -300 0> [@Kaf_3];
 
   pos @Dal_1'  <-600 0 -600 0>  @Kaf_5;
-  pos @Dal_1'  <-400 0 -400 0> [@Kaf_2 @Kaf_3];
+  pos @Dal_1'  <-400 0 -400 0> [@Kaf_3];
 
-  pos @Raa_2' <-400 0 -400 0> [@Kaf_2 @Kaf_3];
+  pos @Raa_2' <-400 0 -400 0> [@Kaf_3];
   pos @Raa_2' <-800 0 -800 0> @Kaf_5;
   pos @Raa_2' <-400 0 -400 0> @2nd_4;
 
@@ -54,7 +53,6 @@ feature kern {
 // we don't want to ignore marks here
 feature kern {
   pos @Alf_1' <-500 0 -500 0> [@Kaf_5];
-  pos @Alf_1' <-200 0 -200 0> @Kaf_2;
   pos @Alf_1' <-250 0 -250 0> @Kaf_3;
 
   // raa/waw/dal followed by isolated dagger alef followed by madda needs some
@@ -74,11 +72,11 @@ feature kern {
   lookupflag IgnoreMarks;
   // kern heh isol/final followed by kaf, does not happen in Arabic but can be
   // seen in Kurdish or Persian using ZWNJ between them.
-  pos @1st_4 uni200C [@Kaf_2 @Kaf_3 @Kaf_5]' -500;
+  pos @1st_4 uni200C [@Kaf_3 @Kaf_5]' -500;
   // Uniscribe replace ZWNJ with space
-  pos @1st_4 space   [@Kaf_2 @Kaf_3 @Kaf_5]' -500;
+  pos @1st_4 space   [@Kaf_3 @Kaf_5]' -500;
   // some applications might just remove it
-  pos @1st_4         [@Kaf_2 @Kaf_3 @Kaf_5]' -500;
+  pos @1st_4         [@Kaf_3 @Kaf_5]' -500;
 } kern;
 
 // were are only interested in subset of already defined classes; the ones with
