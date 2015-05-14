@@ -1,10 +1,10 @@
 StartChar: uniFE97
-Encoding: 5701 65175 2242
+Encoding: 5701 65175 2056
 Width: 487
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 391 -1 S 1 0 0 1 0 0 2
+Refer: 387 -1 S 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

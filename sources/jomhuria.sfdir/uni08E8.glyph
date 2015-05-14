@@ -1,5 +1,5 @@
 StartChar: uni08E8
-Encoding: 6309 2280 2637
+Encoding: 6309 2280 2446
 Width: 0
 Flags: W
 HStem: 1929.43 360.987 2239.35 360.987
@@ -9,7 +9,7 @@ AnchorPoint: "TashkilAboveDot" 570 1640 mark 0
 AnchorPoint: "TashkilAbove" 150 1884 mark 0
 LayerCount: 2
 Fore
-Refer: 2634 2277 S 0.81 0 0 0.81 60.1513 528.337 2
-Refer: 2634 2277 S -0.81 0 0 -0.81 266.074 4001.42 2
+Refer: 2443 2277 S 0.81 0 0 0.81 60.1513 528.337 2
+Refer: 2443 2277 S -0.81 0 0 -0.81 266.074 4001.42 2
 Colour: ffffff
 EndChar

@@ -1,5 +1,5 @@
 StartChar: aMem.fina_BaaMemFina
-Encoding: 334 -1 68
+Encoding: 334 -1 67
 Width: 1306
 Flags: W
 HStem: 0 436.188<1108.7 1356.89> 603.701 276.16<607 745.963>
@@ -8,6 +8,6 @@ AnchorPoint: "TashkilBelow" 436 -1200 basechar 0
 AnchorPoint: "TashkilAbove" 710 1010 basechar 0
 LayerCount: 2
 Fore
-Refer: 291 -1 S 1 0 0 1 0 0 2
+Refer: 287 -1 S 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

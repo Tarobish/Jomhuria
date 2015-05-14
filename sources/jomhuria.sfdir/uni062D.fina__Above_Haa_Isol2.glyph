@@ -1,5 +1,5 @@
 StartChar: uni062D.fina_AboveHaaIsol2
-Encoding: 3480 -1 1337
+Encoding: 3480 -1 1185
 Width: 1587
 VWidth: 0
 Flags: W
@@ -9,6 +9,6 @@ AnchorPoint: "TashkilAbove" 207 1640 basechar 0
 AnchorPoint: "TashkilBelow" 827 100 basechar 0
 LayerCount: 2
 Fore
-Refer: 174 -1 N 1 0 0 1 10 0 2
+Refer: 170 -1 N 1 0 0 1 10 0 2
 Colour: ff00
 EndChar
