@@ -1,5 +1,5 @@
 StartChar: uni0645.medi_KafMemMedi
-Encoding: 3835 -1 1734
+Encoding: 3835 -1 1534
 Width: 1091
 VWidth: 0
 Flags: W
@@ -8,6 +8,6 @@ AnchorPoint: "TashkilAbove" 200 1640 basechar 0
 AnchorPoint: "TashkilBelow" 400 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 289 -1 S 1 0 0 1 0 0 2
+Refer: 280 -1 S 1 0 0 1 0 0 2
 Colour: ff00
 EndChar
