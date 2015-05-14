@@ -1,5 +1,5 @@
 StartChar: uni0644.init_LamHaaMemInit
-Encoding: 1862 -1 1008
+Encoding: 1862 -1 986
 Width: 634
 VWidth: 0
 Flags: W
@@ -9,6 +9,6 @@ AnchorPoint: "TashkilAbove" 510 1640 basechar 0
 AnchorPoint: "TashkilBelow" 660 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 82 -1 S 1 0 0 1 0 0 2
+Refer: 80 -1 S 1 0 0 1 0 0 2
 Colour: ff00
 EndChar

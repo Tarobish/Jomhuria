@@ -1,5 +1,5 @@
 StartChar: aYaaBari.fina_PostToothFina
-Encoding: 6045 -1 2545
+Encoding: 6045 -1 2429
 Width: 1734
 Flags: W
 HStem: 2 286.052<409.13 612.967> 2 436.188<693.232 1389.72> 704.052 288.557<496.611 623.052>
@@ -10,6 +10,6 @@ AnchorPoint: "TashkilAbove" 369 1010 basechar 0
 AnchorPoint: "HamzaAbove" 314 969 basechar 0
 LayerCount: 2
 Fore
-Refer: 1703 -1 S 1 0 0 1 0 2 2
+Refer: 1587 -1 S 1 0 0 1 0 2 2
 Colour: ffffff
 EndChar

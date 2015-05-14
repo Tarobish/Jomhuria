@@ -1,9 +1,9 @@
 StartChar: uni0662.prop
-Encoding: 5924 -1 2514
+Encoding: 5924 -1 2398
 Width: 1054
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 210 1634 N 1 0 0 1 -5.11226e-06 0 2
+Refer: 204 1634 N 1 0 0 1 -5.11226e-06 0 2
 Colour: ffffff
 EndChar

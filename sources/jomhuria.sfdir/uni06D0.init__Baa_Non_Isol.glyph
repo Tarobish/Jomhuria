@@ -1,5 +1,5 @@
 StartChar: uni06D0.init_BaaNonIsol
-Encoding: 2057 -1 1098
+Encoding: 2057 -1 1060
 Width: 380
 VWidth: 0
 Flags: W
@@ -9,7 +9,7 @@ AnchorPoint: "TashkilAbove" 1 1640 basechar 0
 AnchorPoint: "TashkilBelow" 212 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 92 -1 N 1 0 0 1 0 0 2
-Refer: 170 -1 N 1 0 0 1 212 -470 2
+Refer: 90 -1 N 1 0 0 1 0 0 2
+Refer: 164 -1 N 1 0 0 1 212 -470 2
 Colour: ff00
 EndChar
