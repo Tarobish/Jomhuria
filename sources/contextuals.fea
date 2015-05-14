@@ -110,7 +110,6 @@ feature calt {
 
 lookup ToothYaaBariFina {
   sub @aBaa.medi            by @aBaa.medi_YaaBari;
-  sub @aBaa.init_BaaBaaIsol by @aBaa.init_BaaBaaYaaBari;
   sub @aBaa.medi_BaaBaaInit by @aBaa.medi_YaaBari;
   sub @aYaaBari.fina      by @aYaaBari.fina_PostToothFina;
 } ToothYaaBariFina;
@@ -120,7 +119,7 @@ feature calt {
   sub [@aBaa.medi]'       lookup ToothYaaBariFina
       [@aYaaBari.fina]' lookup ToothYaaBariFina;
 
-  sub [@aBaa.init_BaaBaaIsol]' lookup ToothYaaBariFina
+  sub [@aBaa.init_BaaBaaIsol] // used to do a sub against [at]aBaa.init_BaaBaaYaaBari
       [@aBaa.medi_BaaBaaInit]' lookup ToothYaaBariFina
       [@aYaaBari.fina]'      lookup ToothYaaBariFina;
 } calt;
