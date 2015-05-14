@@ -79,7 +79,6 @@
 @aLam.medi_LamAlfFina = [ uni06B5.medi_LamAlfFina uni06B7.medi_LamAlfFina uni0644.medi_LamAlfFina uni06B8.medi_LamAlfFina uni06B6.medi_LamAlfFina uni076A.medi_LamAlfFina ];
 @aMem.init_AboveHaa =  [ uni0645.init_AboveHaa  ];
 
-@aRaa.fina_MemRaaIsol = [ uni0691.fina_MemRaaIsol uni0692.fina_MemRaaIsol uni0693.fina_MemRaaIsol uni0694.fina_MemRaaIsol uni0695.fina_MemRaaIsol uni0696.fina_MemRaaIsol uni0697.fina_MemRaaIsol uni0698.fina_MemRaaIsol uni0699.fina_MemRaaIsol uni075B.fina_MemRaaIsol uni06EF.fina_MemRaaIsol uni0632.fina_MemRaaIsol uni0771.fina_MemRaaIsol uni0631.fina_MemRaaIsol uni076B.fina_MemRaaIsol uni076C.fina_MemRaaIsol ];
 @aRaa.fina_PostTooth = [ uni0691.fina_PostTooth uni0692.fina_PostTooth uni0693.fina_PostTooth uni0694.fina_PostTooth uni0695.fina_PostTooth uni0696.fina_PostTooth uni0697.fina_PostTooth uni0698.fina_PostTooth uni0699.fina_PostTooth uni075B.fina_PostTooth uni06EF.fina_PostTooth uni0632.fina_PostTooth uni0771.fina_PostTooth uni0631.fina_PostTooth uni076B.fina_PostTooth uni076C.fina_PostTooth ];
 
 // sync with @aYaaBari.fina

@@ -10,7 +10,6 @@
 @Kaf_3 = [@aKaf.init @aKaf.init_KafLam @aGaf.isol];
 
 @Raa_1 = [@RaaWaw @aDal.fina @aDal.isol];
-@Raa_2 = [@aRaa.fina_MemRaaIsol];
 
 @2nd_4 = [@aMem.init_AboveHaa];
 
@@ -30,9 +29,6 @@ feature kern {
   pos @RaaWaw' <-300 0 -300 0> [@Kaf_3];
 
   pos @Dal_1'  <-400 0 -400 0> [@Kaf_3];
-
-  pos @Raa_2' <-400 0 -400 0> [@Kaf_3];
-  pos @Raa_2' <-400 0 -400 0> @2nd_4;
 
   // +ve kern so that the tail of raa/waw does not touch the dot of baa
   pos @1st_2' < 170 0  170 0> @aBaaDotBelow;
@@ -106,11 +102,6 @@ feature kern {
            uni067B.init_BaaSenAltInit uni0753.init_BaaSenAltInit uni0752.init_BaaSenAltInit
            uni063D.init_BaaSenAltInit uni0754.init_BaaSenAltInit uni06D1.init_BaaSenAltInit
            uni06D0.init_BaaSenAltInit uni06CC.init_BaaSenAltInit uni0767.init_BaaSenAltInit];
-
-feature kern {
-  lookupflag IgnoreMarks;
-    pos @Raa_2' <180 0 180 0> @aYaa_1;
-} kern;
 
 feature kern {
   lookupflag IgnoreMarks;
