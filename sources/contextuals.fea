@@ -36,9 +36,6 @@ feature calt {
 feature calt {
   sub [uni0647 uni06D5 uni06C1 uni0647.fina uni06D5.fina uni06C1.fina] [uni0654]' by hamza.above;
 } calt;
-lookup BaaBaa {
-  sub @aBaa.medi by @aBaa.medi_BaaBaaInit;
-} BaaBaa;
 
 lookup HighBaa {
   sub @aBaa.init by @aBaa.init_High;
@@ -53,13 +50,7 @@ feature calt {
       [@aBaa.medi]' lookup HighBaa
       [@aSen.medi @aSen.fina]';
 
-  // جرينتش
-  sub [@aBaa.init]' lookup BaaBaa
-      [@aBaa.medi]' lookup BaaBaa
-      [@aBaa.medi]' lookup HighBaa
-      [@aSen.fina @aSen.medi];
-
-  sub [@aBaa.medi @aSad.init @aSad.medi @aSen.init @aSen.medi @aBaa.medi_BaaBaaInit]
+  sub [@aBaa.medi @aSad.init @aSad.medi @aSen.init @aSen.medi]
       [@aBaa.medi]' lookup HighBaa
       [@aBaa.fina @aBaa.medi @aSen.fina @aBaa.medi_BaaHehMedi @aSen.medi];
 
@@ -109,7 +100,6 @@ feature calt {
 
 lookup ToothYaaBariFina {
   sub @aBaa.medi            by @aBaa.medi_YaaBari;
-  sub @aBaa.medi_BaaBaaInit by @aBaa.medi_YaaBari;
   sub @aYaaBari.fina      by @aYaaBari.fina_PostToothFina;
 } ToothYaaBariFina;
 
@@ -117,10 +107,6 @@ feature calt {
   lookupflag IgnoreMarks;
   sub [@aBaa.medi]'       lookup ToothYaaBariFina
       [@aYaaBari.fina]' lookup ToothYaaBariFina;
-
-  sub [@aBaa.init] // used to do a sub [at]aBaa.init_BaaBaaIsol [at]aBaa.init_BaaBaaYaaBari
-      [@aBaa.medi_BaaBaaInit]' lookup ToothYaaBariFina
-      [@aYaaBari.fina]'      lookup ToothYaaBariFina;
 } calt;
 
 // XXX: use a different glyph for PDF text extraction
@@ -140,7 +126,7 @@ feature calt {
    by uni067A.init_High;
 
   // Ditto for يبين and co.
-  sub [uni0628.medi_BaaBaaInit uni064A.medi_BaaBaaInit]
+  sub [uni0628.medi uni064A.medi]
       [uni064A.medi_BaaNonFina uni064A.medi_BaaRaaFina]'
    by [uni06D0.medi_BaaNonFina uni06D0.medi_BaaRaaFina];
 } calt;
