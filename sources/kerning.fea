@@ -4,14 +4,12 @@
 
 // final alef with no hamza above
 @Alf_1 = [uni0627.fina_LamAlfFina uni0625.fina_LamAlfFina];
-@Alf_2 = [@aAlf.fina @aAlf.fina_KafAlf @aAlf.fina_KafMemAlf
-          @aAlf.fina_LamAlfFina @aAlf.fina_LamAlfIsol @aAlf.fina_MemAlfFina];
+@Alf_2 = [@aAlf.fina @aAlf.fina_KafAlf
+          @aAlf.fina_LamAlfFina @aAlf.fina_LamAlfIsol];
 
 @Kaf_3 = [@aKaf.init @aKaf.init_KafLam @aGaf.isol];
 
 @Raa_1 = [@RaaWaw @aDal.fina @aDal.isol];
-
-@2nd_4 = [@aMem.init_AboveHaa];
 
 lookup YaaBari3Kern {
   pos @aAyn.init <0 0 440 0>;
