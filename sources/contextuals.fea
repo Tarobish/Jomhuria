@@ -112,16 +112,11 @@ lookup ToothYaaBariFina {
   sub @aBaa.medi            by @aBaa.medi_YaaBari;
   sub @aBaa.init_BaaBaaIsol by @aBaa.init_BaaBaaYaaBari;
   sub @aBaa.medi_BaaBaaInit by @aBaa.medi_YaaBari;
-  sub @aHaa.init_DotBelow   by @aHaa.init_BaaYaaBari;
   sub @aYaaBari.fina      by @aYaaBari.fina_PostToothFina;
 } ToothYaaBariFina;
 
 feature calt {
   lookupflag IgnoreMarks;
-  sub [@aHaa.init_DotBelow]' lookup ToothYaaBariFina
-      [@aBaa.medi]'          lookup ToothYaaBariFina
-      [@aYaaBari.fina]'    lookup ToothYaaBariFina;
-
   sub [@aBaa.medi]'       lookup ToothYaaBariFina
       [@aYaaBari.fina]' lookup ToothYaaBariFina;
 
