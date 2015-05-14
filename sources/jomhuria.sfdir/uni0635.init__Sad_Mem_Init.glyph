@@ -1,5 +1,5 @@
 StartChar: uni0635.init_SadMemInit
-Encoding: 3851 -1 1270
+Encoding: 3851 -1 1261
 Width: 1332
 VWidth: 0
 Flags: W
@@ -9,6 +9,6 @@ AnchorPoint: "TashkilAbove" 665 1640 basechar 0
 AnchorPoint: "TashkilBelow" 812 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 272 -1 N 1 0 0 1 0 0 2
+Refer: 270 -1 N 1 0 0 1 0 0 2
 Colour: ff00
 EndChar

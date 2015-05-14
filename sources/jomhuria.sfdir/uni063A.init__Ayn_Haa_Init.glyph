@@ -1,5 +1,5 @@
 StartChar: uni063A.init_AynHaaInit
-Encoding: 2346 -1 1010
+Encoding: 2346 -1 1005
 Width: 1121
 VWidth: 0
 Flags: W
@@ -10,7 +10,7 @@ AnchorPoint: "TashkilAbove" 378 1695 basechar 0
 AnchorPoint: "TashkilBelow" 900 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 140 -1 N 1 0 0 1 617 1019 2
-Refer: 100 -1 N 1 0 0 1 0 0 2
+Refer: 139 -1 N 1 0 0 1 617 1019 2
+Refer: 99 -1 N 1 0 0 1 0 0 2
 Colour: ff00
 EndChar

@@ -1,5 +1,5 @@
 StartChar: uni0645.medi_SenMemInit
-Encoding: 3853 -1 1272
+Encoding: 3853 -1 1263
 Width: 356
 VWidth: 0
 Flags: W
@@ -8,6 +8,6 @@ AnchorPoint: "TashkilAbove" 200 1640 basechar 0
 AnchorPoint: "TashkilBelow" 306 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 274 -1 N 1 0 0 1 0 0 2
+Refer: 272 -1 N 1 0 0 1 0 0 2
 Colour: ff00
 EndChar
