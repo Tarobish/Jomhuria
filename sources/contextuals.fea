@@ -38,7 +38,6 @@ feature calt {
 } calt;
 lookup BaaBaa {
   sub @aBaa.medi by @aBaa.medi_BaaBaaInit;
-  sub @aBaa.init by @aBaa.init_BaaBaaIsol;
 } BaaBaa;
 
 lookup HighBaa {
@@ -119,7 +118,7 @@ feature calt {
   sub [@aBaa.medi]'       lookup ToothYaaBariFina
       [@aYaaBari.fina]' lookup ToothYaaBariFina;
 
-  sub [@aBaa.init_BaaBaaIsol] // used to do a sub against [at]aBaa.init_BaaBaaYaaBari
+  sub [@aBaa.init] // used to do a sub [at]aBaa.init_BaaBaaIsol [at]aBaa.init_BaaBaaYaaBari
       [@aBaa.medi_BaaBaaInit]' lookup ToothYaaBariFina
       [@aYaaBari.fina]'      lookup ToothYaaBariFina;
 } calt;
@@ -132,9 +131,9 @@ feature calt {
 
   // Replace teh init following teh/theh medi by a teh init with two vertical
   // dots.
-  sub uni062A.init_BaaBaaIsol'
-      [uni062A.medi_BaaBaaInit uni062B.medi_BaaBaaInit]
-   by uni067A.init_BaaBaaIsol;
+  sub uni062A.init'
+      [uni062A.medi uni062B.medi]
+   by uni067A.init;
 
   sub uni062A.init_High'
       [uni062A.medi_High uni062B.medi_High]
