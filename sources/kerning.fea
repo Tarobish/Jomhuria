@@ -12,7 +12,7 @@
 @Raa_1 = [@RaaWaw @aDal.fina @aDal.isol];
 @Raa_2 = [@aRaa.fina_MemRaaIsol];
 
-@2nd_4 = [@aHaa.init_AboveHaa @aMem.init_AboveHaa];
+@2nd_4 = [@aMem.init_AboveHaa];
 
 lookup YaaBari3Kern {
   pos @aAyn.init <0 0 440 0>;
