@@ -79,7 +79,6 @@
 @aLam.medi_LamAlfFina = [ uni06B5.medi_LamAlfFina uni06B7.medi_LamAlfFina uni0644.medi_LamAlfFina uni06B8.medi_LamAlfFina uni06B6.medi_LamAlfFina uni076A.medi_LamAlfFina ];
 @aMem.init_AboveHaa =  [ uni0645.init_AboveHaa  ];
 
-@aRaa.fina_HaaRaaIsol = [ uni0691.fina_HaaRaaIsol uni0692.fina_HaaRaaIsol uni0693.fina_HaaRaaIsol uni0694.fina_HaaRaaIsol uni0695.fina_HaaRaaIsol uni0696.fina_HaaRaaIsol uni0697.fina_HaaRaaIsol uni0698.fina_HaaRaaIsol uni0699.fina_HaaRaaIsol uni075B.fina_HaaRaaIsol uni06EF.fina_HaaRaaIsol uni0632.fina_HaaRaaIsol uni0771.fina_HaaRaaIsol uni0631.fina_HaaRaaIsol uni076B.fina_HaaRaaIsol uni076C.fina_HaaRaaIsol ];
 @aRaa.fina_KafRaaFina = [ uni0691.fina_KafRaaFina uni0692.fina_KafRaaFina uni0693.fina_KafRaaFina uni0694.fina_KafRaaFina uni0695.fina_KafRaaFina uni0696.fina_KafRaaFina uni0697.fina_KafRaaFina uni0698.fina_KafRaaFina uni0699.fina_KafRaaFina uni075B.fina_KafRaaFina uni06EF.fina_KafRaaFina uni0632.fina_KafRaaFina uni0771.fina_KafRaaFina uni0631.fina_KafRaaFina uni076B.fina_KafRaaFina uni076C.fina_KafRaaFina ];
 @aRaa.fina_KafRaaIsol = [ uni0691.fina_KafRaaIsol uni0692.fina_KafRaaIsol uni0693.fina_KafRaaIsol uni0694.fina_KafRaaIsol uni0695.fina_KafRaaIsol uni0696.fina_KafRaaIsol uni0697.fina_KafRaaIsol uni0698.fina_KafRaaIsol uni0699.fina_KafRaaIsol uni075B.fina_KafRaaIsol uni06EF.fina_KafRaaIsol uni0632.fina_KafRaaIsol uni0771.fina_KafRaaIsol uni0631.fina_KafRaaIsol uni076B.fina_KafRaaIsol uni076C.fina_KafRaaIsol ];
 @aRaa.fina_LamRaaIsol = [ uni0691.fina_LamRaaIsol uni0692.fina_LamRaaIsol uni0693.fina_LamRaaIsol uni0694.fina_LamRaaIsol uni0695.fina_LamRaaIsol uni0696.fina_LamRaaIsol uni0697.fina_LamRaaIsol uni0698.fina_LamRaaIsol uni0699.fina_LamRaaIsol uni075B.fina_LamRaaIsol uni06EF.fina_LamRaaIsol uni0632.fina_LamRaaIsol uni0771.fina_LamRaaIsol uni0631.fina_LamRaaIsol uni076B.fina_LamRaaIsol uni076C.fina_LamRaaIsol ];
@@ -102,4 +101,4 @@
 @Digits.medium = [ zero.medium one.medium two.medium three.medium four.medium five.medium six.medium seven.medium eight.medium nine.medium uni0660.medium uni0661.medium uni0662.medium uni0663.medium uni0664.medium uni0665.medium uni0666.medium uni0667.medium uni0668.medium uni0669.medium uni06F0.medium uni06F1.medium uni06F2.medium uni06F3.medium uni06F4.medium uni06F5.medium uni06F6.medium uni06F7.medium uni06F8.medium uni06F9.medium uni06F4.urd.medium uni06F6.urd.medium uni06F7.urd.medium ];
 
 // used only for kerning
-@RaaWaw = [ @aRaa.fina @aRaa.isol @aWaw.fina @aWaw.isol @aRaa.fina_KafRaaFina @aRaa.fina_KafRaaIsol @aRaa.fina_HaaRaaIsol @aRaa.fina_LamRaaIsol @aRaa.fina_PostTooth ];
+@RaaWaw = [ @aRaa.fina @aRaa.isol @aWaw.fina @aWaw.isol @aRaa.fina_KafRaaFina @aRaa.fina_KafRaaIsol @aRaa.fina_LamRaaIsol @aRaa.fina_PostTooth ];
