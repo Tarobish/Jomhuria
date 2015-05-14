@@ -208,13 +208,11 @@ def main_features(fontLocation, featureFileList):
             if not count: continue
             print(str(count).ljust(5), ' | ', filename)
 
-def main_cleanClass(classname, fontLocation, featureFileList):
-    font = fontforge.open(fontLocation)
-    featureFiles = {name: readLines(name) for name in featureFileList}
 
+def _cleanClass(classname, font, classFeatureFile, featureFiles):
     klass = None
     r = getMatchNamePattern(classname)
-    for line in featureFiles['sources/classes.fea']:
+    for line in classFeatureFile:
         if not r.match(line):
             continue
         klass = []
@@ -234,12 +232,37 @@ def main_cleanClass(classname, fontLocation, featureFileList):
         glyph = font[name]
         row = tuple(getTableRow(glyph, dependents, featureFiles)[:-1])
         if row == (False, False, 0, 0, 0, True) \
-                    and countNameInFeatures(name, featureFiles)[0] == 1: # it's in the class and nowhere else
-            info('remove:', name)
+                    and countNameInFeatures(name, featureFiles)[0] == 1: # it's in the classFeatureFile and nowhere else
             continue
         new_klass.append(name)
+    return tuple(new_klass), tuple(klass), len(klass) - len(new_klass)
 
+def main_cleanClass(classname, fontLocation, featureFileList):
+    font = fontforge.open(fontLocation)
+    featureFiles = {name: readLines(name) for name in featureFileList}
+    classFeatureFile = featureFiles['sources/classes.fea']
+    new_klass, _, removed = _cleanClass(classname, font, classFeatureFile, featureFiles)
+    print('removed', removed)
     print('{name} = [ {classes} ];'.format(name=classname,classes=' '.join(new_klass)))
+
+def main_cleanable(fontLocation, featureFileList):
+    font = fontforge.open(fontLocation)
+    featureFiles = {name: readLines(name) for name in featureFileList}
+    classFeatureFile = featureFiles['sources/classes.fea']
+
+    classes = []
+    for number, line in enumerate(classFeatureFile):
+        index = line.find('=')
+        if index == -1:
+            index = line.find(' ')
+        if index <= 0:
+            continue
+        classname = line[:index-1].strip();
+        if not isClassName(classname):
+            continue
+        new_klass, _, removed = _cleanClass(classname, font, classFeatureFile, featureFiles)
+        if removed:
+            print (classname, 'removed:', removed, 'empty:', not len(new_klass))
 
 
 if __name__ == '__main__':
@@ -255,5 +278,7 @@ if __name__ == '__main__':
         main_features(fontLocation, featureFiles)
     elif command.startswith('clean@'):
         main_cleanClass(command[5:], fontLocation, featureFiles)
+    elif command == 'cleanable':
+        main_cleanable(fontLocation, featureFiles)
     else:
         raise Exception('Unknown command "{command}".'.format(command=command))
