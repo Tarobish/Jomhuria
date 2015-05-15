@@ -1,9 +1,9 @@
 StartChar: uni06F8.prop
-Encoding: 5940 -1 2135
+Encoding: 5940 -1 2131
 Width: 1237
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 2125 -1 N 1 0 0 1 0 0 2
+Refer: 2121 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
