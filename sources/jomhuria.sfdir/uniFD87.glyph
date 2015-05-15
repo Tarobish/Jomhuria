@@ -5,8 +5,8 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 918 -1 N 1 0 0 1 2663 0 2
-Refer: 659 -1 N 1 0 0 1 1578 0 2
 Refer: 470 -1 N 1 0 0 1 0 0 2
+Refer: 659 -1 N 1 0 0 1 1578 0 2
+Refer: 645 -1 N 1 0 0 1 2663 0 2
 Colour: ffffff
 EndChar
