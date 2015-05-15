@@ -10,7 +10,7 @@ AnchorPoint: "TashkilBelow" 800 100 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1683 598 m 4,41,-1
+1683 598 m 1028,41,-1
 EndSplineSet
 Refer: 19 -1 N 1 0 0 1 0 0 2
 Colour: 100feff
