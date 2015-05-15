@@ -1,5 +1,5 @@
 StartChar: uni0750.medi_YaaBari
-Encoding: 6051 -1 2023
+Encoding: 6051 -1 2021
 Width: 902
 VWidth: 0
 Flags: W
@@ -25,6 +25,6 @@ SplineSet
  663.197265625 479.283203125 l 6
  663.1796875 456.56640625 678.939453125 436.271484375 700.044921875 436.271484375 c 6
 EndSplineSet
-Refer: 128 -1 S 1 0 0 1 285 -386 2
+Refer: 127 -1 S 1 0 0 1 285 -386 2
 Colour: ffffff
 EndChar
