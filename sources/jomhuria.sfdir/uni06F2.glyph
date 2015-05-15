@@ -1,11 +1,11 @@
 StartChar: uni06F2
-Encoding: 534 1778 161
+Encoding: 534 1778 159
 Width: 1054
 Flags: W
 HStem: 0 21G<296.297 321.596> 589.653 437.164<534.739 737.505>
 VStem: 797.945 146.228<1088.3 1290.83>
 LayerCount: 2
 Fore
-Refer: 140 1634 N 1 0 0 1 -5.11226e-06 0 2
+Refer: 138 1634 N 1 0 0 1 -5.11226e-06 0 2
 Colour: ffffff
 EndChar

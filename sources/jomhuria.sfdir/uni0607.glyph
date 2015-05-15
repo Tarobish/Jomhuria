@@ -1,10 +1,10 @@
 StartChar: uni0607
-Encoding: 4850 1543 1123
+Encoding: 4850 1543 1115
 Width: 1259
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 1124 -1 N 1 0 0 1 0 0 2
-Refer: 1077 -1 N 0.765512 0 0 0.760812 538.407 837.528 2
+Refer: 1116 -1 N 1 0 0 1 0 0 2
+Refer: 1069 -1 N 0.765512 0 0 0.760812 538.407 837.528 2
 Colour: ffffff
 EndChar
