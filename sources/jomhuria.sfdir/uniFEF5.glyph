@@ -1,11 +1,11 @@
 StartChar: uniFEF5
-Encoding: 5795 65269 2018
+Encoding: 5795 65269 2016
 Width: 1023
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 898 -1 N 1 0 0 1 0 0 2
-Refer: 889 -1 N 1 0 0 1 -1 0 2
+Refer: 897 -1 N 1 0 0 1 0 0 2
+Refer: 888 -1 N 1 0 0 1 -1 0 2
 Colour: ffffff
 EndChar
