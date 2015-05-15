@@ -1,15 +1,15 @@
 StartChar: uniFDF2
-Encoding: 5655 65010 1722
+Encoding: 5655 65010 1715
 Width: 2711
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 72 -1 N 1 0 0 1 0 0 2
-Refer: 130 1648 S 0.74836 0 0 0.888867 844.021 25.2609 2
-Refer: 113 1617 S 1 0 0 1 896 -439 2
-Refer: 71 -1 N 1 0 0 1 875 0 2
-Refer: 70 -1 N 1 0 0 1 1598 0 2
-Refer: 217 1575 N 1 0 0 1 2135 0 2
+Refer: 71 -1 N 1 0 0 1 0 0 2
+Refer: 128 1648 S 0.74836 0 0 0.888867 844.021 25.2609 2
+Refer: 111 1617 S 1 0 0 1 896 -439 2
+Refer: 70 -1 N 1 0 0 1 875 0 2
+Refer: 69 -1 N 1 0 0 1 1598 0 2
+Refer: 214 1575 N 1 0 0 1 2135 0 2
 Colour: ffffff
 EndChar
