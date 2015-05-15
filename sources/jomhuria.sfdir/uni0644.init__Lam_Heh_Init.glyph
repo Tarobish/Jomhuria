@@ -1,5 +1,5 @@
 StartChar: uni0644.init_LamHehInit
-Encoding: 2234 -1 959
+Encoding: 2234 -1 953
 Width: 461
 VWidth: 0
 Flags: W
@@ -9,6 +9,6 @@ AnchorPoint: "TashkilAbove" 230 1640 basechar 0
 AnchorPoint: "TashkilBelow" 180 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 85 -1 S 1 0 0 1 0 0 2
+Refer: 83 -1 S 1 0 0 1 0 0 2
 Colour: ff00
 EndChar
