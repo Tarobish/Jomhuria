@@ -1,11 +1,11 @@
 StartChar: uniFEF8
-Encoding: 5798 65272 1937
+Encoding: 5798 65272 1933
 Width: 1240
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 902 -1 N 1 0 0 1 3.37695 0 2
-Refer: 894 -1 N 1 0 0 1 3.37695 0 2
+Refer: 901 -1 N 1 0 0 1 3.37695 0 2
+Refer: 893 -1 N 1 0 0 1 3.37695 0 2
 Colour: ffffff
 EndChar

@@ -1,5 +1,5 @@
 StartChar: uni0325
-Encoding: 6012 805 2014
+Encoding: 6012 805 2010
 Width: 0
 Flags: W
 HStem: -1033 88.7656<180.91 317.112> -793.695 89.043<180.85 317.15>
@@ -9,6 +9,6 @@ AnchorPoint: "TashkilTashkilBelow" 256 -1197 basemark 0
 AnchorPoint: "MarkBelow" 256 -620 mark 0
 LayerCount: 2
 Fore
-Refer: 2013 778 N 1 0 0 1 0 -2763 2
+Refer: 2009 778 N 1 0 0 1 0 -2763 2
 Colour: ffffff
 EndChar

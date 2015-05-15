@@ -1,5 +1,5 @@
 StartChar: uni0628.medi_YaaBari
-Encoding: 6067 -1 2044
+Encoding: 6067 -1 2040
 Width: 624
 VWidth: 0
 Flags: W
@@ -10,6 +10,6 @@ AnchorPoint: "TashkilAbove" 109 655 basechar 0
 LayerCount: 2
 Fore
 Refer: 94 -1 S 1 0 0 1 6 -386 2
-Refer: 2023 -1 N 1 0 0 1 0 0 2
+Refer: 2019 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
