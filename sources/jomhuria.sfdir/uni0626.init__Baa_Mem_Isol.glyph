@@ -1,5 +1,5 @@
 StartChar: uni0626.init_BaaMemIsol
-Encoding: 4011 -1 1175
+Encoding: 4011 -1 1167
 Width: 487
 VWidth: 0
 Flags: W
@@ -9,7 +9,7 @@ AnchorPoint: "TashkilAbove" 396 1651 basechar 0
 AnchorPoint: "TashkilBelow" 603 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 1304 -1 N 1 0 0 1 151 -85 2
-Refer: 243 -1 N 1 0 0 1 0 0 2
+Refer: 1296 -1 N 1 0 0 1 151 -85 2
+Refer: 239 -1 N 1 0 0 1 0 0 2
 Colour: ff00
 EndChar

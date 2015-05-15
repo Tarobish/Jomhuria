@@ -1,5 +1,5 @@
 StartChar: uni063D.medi_High
-Encoding: 3352 -1 1062
+Encoding: 3352 -1 1058
 Width: 799
 VWidth: 0
 Flags: W
@@ -11,6 +11,6 @@ LayerCount: 2
 Fore
 Refer: 125 -1 N 1 0 0 1 0 0 2
 Refer: 112 -1 N 1 0 0 1 67 -340 2
-Refer: 148 1627 N 1 0 0 1 54 -261 2
+Refer: 147 1627 N 1 0 0 1 54 -261 2
 Colour: ffffff
 EndChar
