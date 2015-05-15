@@ -1,10 +1,10 @@
 StartChar: uniFEAB
-Encoding: 5721 65195 1917
+Encoding: 5721 65195 1893
 Width: 942
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 430 1584 N 1 0 0 1 0 0 2
+Refer: 421 1584 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

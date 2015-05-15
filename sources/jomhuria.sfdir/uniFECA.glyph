@@ -1,10 +1,10 @@
 StartChar: uniFECA
-Encoding: 5752 65226 1948
+Encoding: 5752 65226 1924
 Width: 1441
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 269 -1 N 1 0 0 1 0 0 2
+Refer: 260 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

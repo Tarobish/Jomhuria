@@ -1,10 +1,10 @@
 StartChar: uniFEAD
-Encoding: 5723 65197 1919
+Encoding: 5723 65197 1895
 Width: 648
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 730 1585 N 1 0 0 1 0 0 2
+Refer: 721 1585 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

@@ -1,11 +1,11 @@
 StartChar: uniFEFC
-Encoding: 5802 65276 1998
+Encoding: 5802 65276 1974
 Width: 1236
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 930 -1 S 1 0 0 1 4 -2 2
-Refer: 925 -1 N 1 0 0 1 0 0 2
+Refer: 916 -1 S 1 0 0 1 4 -2 2
+Refer: 911 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
