@@ -1,5 +1,5 @@
 StartChar: uni0750.medi_High
-Encoding: 3328 -1 936
+Encoding: 3328 -1 934
 Width: 1069
 VWidth: 0
 Flags: W
@@ -23,6 +23,6 @@ SplineSet
  843.547851562 498.643554688 l 2
  849.669921875 462.469726562 881.11328125 436.03515625 917.565429688 436.03515625 c 2
 EndSplineSet
-Refer: 122 -1 N 1 0 0 1 331 -384 2
+Refer: 121 -1 N 1 0 0 1 331 -384 2
 Colour: ffffff
 EndChar

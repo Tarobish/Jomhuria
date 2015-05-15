@@ -1,9 +1,9 @@
 StartChar: uni202E
-Encoding: 568 8238 181
+Encoding: 568 8238 180
 Width: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 180 8237 N -1 0 0 1 0 0 2
+Refer: 179 8237 N -1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
