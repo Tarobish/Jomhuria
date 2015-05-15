@@ -1,10 +1,10 @@
 StartChar: uniFEBA
-Encoding: 5736 65210 1955
+Encoding: 5736 65210 1950
 Width: 2401
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 739 -1 N 1 0 0 1 0 0 2
+Refer: 738 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

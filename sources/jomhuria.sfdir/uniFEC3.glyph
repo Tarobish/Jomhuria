@@ -1,10 +1,10 @@
 StartChar: uniFEC3
-Encoding: 5745 65219 1964
+Encoding: 5745 65219 1959
 Width: 1378
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 803 -1 N 1 0 0 1 0 0 2
+Refer: 802 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
