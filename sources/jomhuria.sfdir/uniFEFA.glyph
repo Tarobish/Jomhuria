@@ -1,11 +1,11 @@
 StartChar: uniFEFA
-Encoding: 5800 65274 2049
+Encoding: 5800 65274 2047
 Width: 1236
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 957 -1 S 1 0 0 1 0 -4.08889 2
-Refer: 953 -1 N 1 0 0 1 0 0 2
+Refer: 956 -1 S 1 0 0 1 0 -4.08889 2
+Refer: 952 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
