@@ -1,5 +1,5 @@
 StartChar: uni0649.medi_BaaBaaInit
-Encoding: 1917 -1 882
+Encoding: 1917 -1 877
 Width: 624
 VWidth: 0
 Flags: W
@@ -11,6 +11,6 @@ AnchorPoint: "TashkilAbove" 250 1640 basechar 0
 AnchorPoint: "TashkilBelow" 100 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 67 -1 N 1 0 0 1 0 0 2
+Refer: 65 -1 N 1 0 0 1 0 0 2
 Colour: ff00
 EndChar

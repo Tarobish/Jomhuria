@@ -1,10 +1,10 @@
 StartChar: uniFEDC
-Encoding: 5770 65244 1921
+Encoding: 5770 65244 1915
 Width: 889
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 611 -1 S 1 0 0 1 0 0 2
+Refer: 608 -1 S 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
