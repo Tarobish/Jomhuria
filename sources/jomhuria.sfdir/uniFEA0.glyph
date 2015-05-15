@@ -1,10 +1,10 @@
 StartChar: uniFEA0
-Encoding: 5710 65184 1770
+Encoding: 5710 65184 1760
 Width: 1250
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 499 -1 S 1 0 0 1 0 0 2
+Refer: 494 -1 S 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
