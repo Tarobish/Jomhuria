@@ -1,10 +1,10 @@
 StartChar: uniFBA7
-Encoding: 5161 64423 1270
+Encoding: 5161 64423 1264
 Width: 934
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 529 -1 N 1 0 0 1 0 0 2
+Refer: 526 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

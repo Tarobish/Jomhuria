@@ -1,5 +1,5 @@
 StartChar: uni0674
-Encoding: 499 1652 128
+Encoding: 499 1652 127
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -11,6 +11,6 @@ AnchorPoint: "HighHamza" 0 950 mark 0
 AnchorPoint: "TashkilTashkilAbove" -50 1470 basemark 0
 LayerCount: 2
 Fore
-Refer: 1182 -1 N 1 0 0 1 0 0 2
+Refer: 1176 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
