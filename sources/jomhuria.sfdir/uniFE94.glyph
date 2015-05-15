@@ -1,10 +1,10 @@
 StartChar: uniFE94
-Encoding: 5698 65172 1825
+Encoding: 5698 65172 1818
 Width: 934
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 534 -1 N 1 0 0 1 0 0 2
+Refer: 532 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

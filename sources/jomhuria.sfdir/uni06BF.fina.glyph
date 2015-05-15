@@ -1,5 +1,5 @@
 StartChar: uni06BF.fina
-Encoding: 924 -1 474
+Encoding: 924 -1 472
 Width: 1597
 VWidth: 0
 Flags: W
@@ -35,7 +35,7 @@ SplineSet
  1226.10449219 532.870117188 l 1
  1215.25195312 480 1228.05273438 436.1875 1312.36523438 436.1875 c 2xb640
 EndSplineSet
-Refer: 90 -1 S 1 0 0 1 593 1063 2
-Refer: 103 -1 N 0.952628 0 0 0.951909 859.452 -190 2
+Refer: 89 -1 S 1 0 0 1 593 1063 2
+Refer: 102 -1 N 0.952628 0 0 0.951909 859.452 -190 2
 Colour: 100feff
 EndChar
