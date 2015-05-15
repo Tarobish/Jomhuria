@@ -1,11 +1,11 @@
 StartChar: uniFCDD
-Encoding: 5438 64733 1487
+Encoding: 5438 64733 1484
 Width: 1577
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 628 -1 N 1 0 0 1 0 0 2
-Refer: 278 -1 N 1 0 0 1 1090 0 2
+Refer: 627 -1 N 1 0 0 1 0 0 2
+Refer: 277 -1 N 1 0 0 1 1090 0 2
 Colour: ffffff
 EndChar
