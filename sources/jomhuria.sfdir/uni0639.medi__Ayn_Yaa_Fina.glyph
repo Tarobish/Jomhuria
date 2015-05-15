@@ -1,5 +1,5 @@
 StartChar: uni0639.medi_AynYaaFina
-Encoding: 1931 -1 921
+Encoding: 1931 -1 910
 Width: 841
 VWidth: 0
 Flags: W
@@ -9,6 +9,6 @@ AnchorPoint: "TashkilAbove" 421 1640 basechar 0
 AnchorPoint: "TashkilBelow" 400 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 73 -1 N 1 0 0 1 0 0 2
+Refer: 70 -1 N 1 0 0 1 0 0 2
 Colour: ff00
 EndChar

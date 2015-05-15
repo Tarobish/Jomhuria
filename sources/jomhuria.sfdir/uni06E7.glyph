@@ -1,5 +1,5 @@
 StartChar: uni06E7
-Encoding: 4838 1767 1258
+Encoding: 4838 1767 1242
 Width: 536
 VWidth: 0
 GlyphClass: 4
@@ -11,6 +11,6 @@ AnchorPoint: "TashkilAboveDot" 400 1640 mark 0
 AnchorPoint: "TashkilAbove" 300 1611 mark 0
 LayerCount: 2
 Fore
-Refer: 1255 1766 S 1 0 0 1 0 1680 2
+Refer: 1239 1766 S 1 0 0 1 0 1680 2
 Colour: ffffff
 EndChar

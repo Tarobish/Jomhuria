@@ -1,9 +1,9 @@
 StartChar: uni06F6.urd.prop
-Encoding: 5943 -1 2119
+Encoding: 5943 -1 2103
 Width: 1042
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 2104 -1 S 1 0 0 1 0 0 2
+Refer: 2088 -1 S 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
