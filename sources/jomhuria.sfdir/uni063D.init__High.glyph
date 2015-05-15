@@ -1,5 +1,5 @@
 StartChar: uni063D.init_High
-Encoding: 3311 -1 958
+Encoding: 3311 -1 953
 Width: 487
 VWidth: 0
 Flags: W
@@ -9,8 +9,8 @@ AnchorPoint: "TashkilAbove" 14 1324 basechar 0
 AnchorPoint: "TashkilBelow" 220 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 97 -1 N 1 0 0 1 -2 -339 2
-Refer: 92 -1 N 1 0 0 1 0 0 2
-Refer: 131 1627 N 1 0 0 1 23 -37 2
+Refer: 95 -1 N 1 0 0 1 -2 -339 2
+Refer: 90 -1 N 1 0 0 1 0 0 2
+Refer: 129 1627 N 1 0 0 1 23 -37 2
 Colour: ffffff
 EndChar

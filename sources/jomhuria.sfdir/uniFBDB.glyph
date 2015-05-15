@@ -1,10 +1,10 @@
 StartChar: uniFBDB
-Encoding: 5180 64475 1325
+Encoding: 5180 64475 1319
 Width: 866
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 818 1736 N 1 0 0 1 0 0 2
+Refer: 815 1736 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
