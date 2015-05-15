@@ -1,11 +1,11 @@
 StartChar: uni066A
-Encoding: 569 1642 240
+Encoding: 569 1642 234
 Width: 1302
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 1339 -1 N 1 0 0 1 -162.94 150 2
-Refer: 1339 -1 N 1 0 0 1 -790.94 975 2
-Refer: 2156 47 N 1 0 0 1 214.06 0 2
+Refer: 1327 -1 N 1 0 0 1 -162.94 150 2
+Refer: 1327 -1 N 1 0 0 1 -790.94 975 2
+Refer: 2144 47 N 1 0 0 1 214.06 0 2
 Colour: 100feff
 EndChar
