@@ -1,10 +1,10 @@
 StartChar: uniFEC0
-Encoding: 5742 65216 2018
+Encoding: 5742 65216 2011
 Width: 1589
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 777 -1 S 1 0 0 1 0 0 2
+Refer: 774 -1 S 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

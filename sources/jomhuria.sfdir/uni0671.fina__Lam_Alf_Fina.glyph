@@ -1,11 +1,11 @@
 StartChar: uni0671.fina_LamAlfFina
-Encoding: 2425 -1 983
+Encoding: 2425 -1 978
 Width: 847
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 92 -1 N 1 0 0 1 0 0 2
-Refer: 177 -1 N 1 0 0 1 27 -600 2
+Refer: 90 -1 N 1 0 0 1 0 0 2
+Refer: 174 -1 N 1 0 0 1 27 -600 2
 Colour: ffffff
 EndChar

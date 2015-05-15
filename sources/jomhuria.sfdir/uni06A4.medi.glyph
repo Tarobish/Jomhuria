@@ -1,5 +1,5 @@
 StartChar: uni06A4.medi
-Encoding: 908 -1 506
+Encoding: 908 -1 503
 Width: 988
 VWidth: 0
 Flags: W
@@ -30,6 +30,6 @@ SplineSet
  237.913085938 530.712890625 342.260742188 439.721679688 342.260742188 439.721679688 c 1
 EndSplineSet
 Refer: 16 -1 N 1 0 0 1 0 0 2
-Refer: 123 -1 N 1 0 0 1 446 1019 2
+Refer: 121 -1 N 1 0 0 1 446 1019 2
 Colour: 100feff
 EndChar
