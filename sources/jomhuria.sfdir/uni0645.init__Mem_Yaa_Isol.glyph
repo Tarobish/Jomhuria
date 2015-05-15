@@ -1,5 +1,5 @@
 StartChar: uni0645.init_MemYaaIsol
-Encoding: 3931 -1 1233
+Encoding: 3931 -1 1218
 Width: 979
 VWidth: 0
 Flags: W
@@ -8,6 +8,6 @@ AnchorPoint: "TashkilAbove" 350 1640 basechar 0
 AnchorPoint: "TashkilBelow" 600 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 267 -1 S 1 0 0 1 0 0 2
+Refer: 259 -1 S 1 0 0 1 0 0 2
 Colour: ff00
 EndChar
