@@ -1,5 +1,5 @@
 StartChar: uni06AF.init
-Encoding: 1026 -1 645
+Encoding: 1026 -1 644
 Width: 739
 VWidth: 0
 Flags: W
@@ -10,6 +10,6 @@ AnchorPoint: "TashkilAbove" 650 1640 basechar 0
 LayerCount: 2
 Fore
 Refer: 27 -1 N 1 0 0 1 0 0 2
-Refer: 155 -1 N 1 0 0 1 285 1129 2
+Refer: 154 -1 N 1 0 0 1 285 1129 2
 Colour: ffffff
 EndChar

@@ -1,5 +1,5 @@
 StartChar: uni0634.init_SenHaaInit
-Encoding: 2305 -1 1002
+Encoding: 2305 -1 997
 Width: 1208
 VWidth: 0
 Flags: W
@@ -10,7 +10,7 @@ AnchorPoint: "TashkilAbove" 852 1640 basechar 0
 AnchorPoint: "TashkilBelow" 930 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 141 -1 N 1 0 0 1 605 749 2
+Refer: 140 -1 N 1 0 0 1 605 749 2
 Refer: 98 -1 N 1 0 0 1 0 0 2
 Colour: ff00
 EndChar

@@ -1,5 +1,5 @@
 StartChar: uni066E.medi_High
-Encoding: 3335 -1 1133
+Encoding: 3335 -1 1125
 Width: 799
 VWidth: 0
 Flags: W
@@ -8,6 +8,6 @@ AnchorPoint: "TashkilAbove" 177 792 basechar 0
 AnchorPoint: "TashkilBelow" 277 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 156 -1 N 1 0 0 1 0 0 2
+Refer: 155 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

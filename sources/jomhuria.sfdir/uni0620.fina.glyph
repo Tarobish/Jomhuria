@@ -1,5 +1,5 @@
 StartChar: uni0620.fina
-Encoding: 1281 -1 900
+Encoding: 1281 -1 899
 Width: 1374
 VWidth: 0
 Flags: W
@@ -11,6 +11,6 @@ AnchorPoint: "AlefAbove" 478 300 basechar 0
 LayerCount: 2
 Fore
 Refer: 58 -1 N 1 0 0 1 0 0 2
-Refer: 160 -1 N 1 0 0 1 691 -633 2
+Refer: 159 -1 N 1 0 0 1 691 -633 2
 Colour: ffffff
 EndChar
