@@ -1,5 +1,5 @@
 StartChar: uni06FF.init
-Encoding: 5050 -1 1317
+Encoding: 5050 -1 1307
 Width: 1262
 Flags: W
 HStem: -0.197266 436.469<-50 203.007 1051.84 1312.96> 179.618 256.653<709.796 961.603> 629.687 148.313<469.739 554.307 695.432 780>
@@ -8,7 +8,7 @@ AnchorPoint: "TashkilAbove" 614 1092 basechar 0
 AnchorPoint: "TashkilBelow" 400 -670 basechar 0
 LayerCount: 2
 Fore
-Refer: 158 1627 S 1 0 0 1 625 -312 2
-Refer: 82 -1 N 1 0 0 1 0 0 2
+Refer: 155 1627 S 1 0 0 1 625 -312 2
+Refer: 81 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

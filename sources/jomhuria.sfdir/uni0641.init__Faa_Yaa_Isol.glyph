@@ -1,5 +1,5 @@
 StartChar: uni0641.init_FaaYaaIsol
-Encoding: 3937 -1 1198
+Encoding: 3937 -1 1188
 Width: 737
 VWidth: 0
 Flags: W
@@ -9,7 +9,7 @@ AnchorPoint: "TashkilAbove" -1 1640 basechar 0
 AnchorPoint: "TashkilBelow" 250 -810 basechar 0
 LayerCount: 2
 Fore
-Refer: 117 -1 N 1 0 0 1 287 1270 2
-Refer: 250 -1 N 1 0 0 1 0 0 2
+Refer: 115 -1 N 1 0 0 1 287 1270 2
+Refer: 245 -1 N 1 0 0 1 0 0 2
 Colour: ff00
 EndChar
