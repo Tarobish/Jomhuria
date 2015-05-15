@@ -36,11 +36,6 @@ feature calt {
 feature calt {
   sub [uni0647 uni06D5 uni06C1 uni0647.fina uni06D5.fina uni06C1.fina] [uni0654]' by hamza.above;
 } calt;
-lookup BaaBaa {
-  sub @aBaa.medi by @aBaa.medi_BaaBaaInit;
-  sub @aBaa.fina by @aBaa.fina_BaaBaaIsol;
-  sub @aBaa.init by @aBaa.init_BaaBaaIsol;
-} BaaBaa;
 
 lookup HighBaa {
   sub @aBaa.init by @aBaa.init_High;
@@ -55,18 +50,12 @@ feature calt {
       [@aBaa.medi]' lookup HighBaa
       [@aSen.medi @aSen.fina]';
 
-  // جرينتش
-  sub [@aBaa.init]' lookup BaaBaa
-      [@aBaa.medi]' lookup BaaBaa
+  sub [@aBaa.medi @aSad.init @aSad.medi @aSen.init @aSen.medi]
       [@aBaa.medi]' lookup HighBaa
-      [@aSen.fina @aSen.medi @aSen.medi_PreYaa];
-
-  sub [@aBaa.medi @aSad.init @aSad.medi @aSen.init @aSen.medi @aBaa.medi_BaaBaaInit]
-      [@aBaa.medi]' lookup HighBaa
-      [@aBaa.fina @aBaa.medi @aSen.fina @aBaa.medi_BaaHehMedi @aSen.medi @aSen.medi_PreYaa];
+      [@aBaa.fina @aBaa.medi @aSen.fina @aSen.medi];
 
   sub [@aBaa.medi]' lookup HighBaa
-      [@aSen.fina @aSen.medi @aSen.medi_PreYaa];
+      [@aSen.fina @aSen.medi];
 
   sub [@aBaa.init]' lookup HighBaa
       [@aBaa.medi]' lookup HighBaa
@@ -87,8 +76,6 @@ lookup KafLamAlf {
 lookup KafLam {
   sub @aKaf.init by @aKaf.init_KafLam;
   sub @aKaf.medi by @aKaf.medi_KafLam;
-  sub @aKaf.fina by @aKaf.fina_KafKafFina;
-  sub @aGaf.alt.fina by @aGaf.fina_KafKafFina;
   sub @aLam.medi by @aLam.medi_KafLam;
   sub @aLam.fina by @aLam.fina_KafLam;
   sub @aAlf.fina by @aAlf.fina_KafAlf;
@@ -113,24 +100,13 @@ feature calt {
 
 lookup ToothYaaBariFina {
   sub @aBaa.medi            by @aBaa.medi_YaaBari;
-  sub @aBaa.init_BaaBaaIsol by @aBaa.init_BaaBaaYaaBari;
-  sub @aBaa.medi_BaaBaaInit by @aBaa.medi_YaaBari;
-  sub @aHaa.init_DotBelow   by @aHaa.init_BaaYaaBari;
   sub @aYaaBari.fina      by @aYaaBari.fina_PostToothFina;
 } ToothYaaBariFina;
 
 feature calt {
   lookupflag IgnoreMarks;
-  sub [@aHaa.init_DotBelow]' lookup ToothYaaBariFina
-      [@aBaa.medi]'          lookup ToothYaaBariFina
-      [@aYaaBari.fina]'    lookup ToothYaaBariFina;
-
   sub [@aBaa.medi]'       lookup ToothYaaBariFina
       [@aYaaBari.fina]' lookup ToothYaaBariFina;
-
-  sub [@aBaa.init_BaaBaaIsol]' lookup ToothYaaBariFina
-      [@aBaa.medi_BaaBaaInit]' lookup ToothYaaBariFina
-      [@aYaaBari.fina]'      lookup ToothYaaBariFina;
 } calt;
 
 // XXX: use a different glyph for PDF text extraction
@@ -141,18 +117,14 @@ feature calt {
 
   // Replace teh init following teh/theh medi by a teh init with two vertical
   // dots.
-  sub uni062A.init_BaaBaaIsol'
-      [uni062A.medi_BaaBaaInit uni062B.medi_BaaBaaInit]
-   by uni067A.init_BaaBaaIsol;
+  sub uni062A.init'
+      [uni062A.medi uni062B.medi]
+   by uni067A.init;
 
   sub uni062A.init_High'
       [uni062A.medi_High uni062B.medi_High]
    by uni067A.init_High;
 
-  // Ditto for يبين and co.
-  sub [uni0628.medi_BaaBaaInit uni064A.medi_BaaBaaInit]
-      [uni064A.medi_BaaNonFina uni064A.medi_BaaRaaFina]'
-   by [uni06D0.medi_BaaNonFina uni06D0.medi_BaaRaaFina];
 } calt;
 
 

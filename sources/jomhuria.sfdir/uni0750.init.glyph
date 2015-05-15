@@ -1,5 +1,5 @@
 StartChar: uni0750.init
-Encoding: 743 -1 395
+Encoding: 743 -1 267
 Width: 807
 VWidth: 0
 Flags: W
@@ -8,7 +8,6 @@ VStem: 537.682 160.181<436.271 579.568>
 AnchorPoint: "TashkilAbove" 205 778 basechar 0
 AnchorPoint: "TashkilBelow" 172 -670 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 697.057617188 634.013671875 m 2
@@ -21,6 +20,6 @@ SplineSet
  600.913085938 902.322265625 l 1
  600.913085938 902.322265625 697.057617188 774.875976562 697.057617188 634.013671875 c 2
 EndSplineSet
-Refer: 206 -1 N 1 0 0 1 277 -385 2
+Refer: 110 -1 N 1 0 0 1 277 -385 2
 Colour: ffffff
 EndChar

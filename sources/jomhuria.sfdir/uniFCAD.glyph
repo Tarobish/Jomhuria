@@ -1,12 +1,11 @@
 StartChar: uniFCAD
-Encoding: 5390 64685 2687
+Encoding: 5390 64685 1433
 Width: 2468
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 1582 -1 N 1 0 0 1 0 0 2
-Refer: 1359 -1 S 1 0 0 1 1260 0 2
+Refer: 492 -1 N 1 0 0 1 0 0 2
+Refer: 719 -1 N 1 0 0 1 1260 0 2
 Colour: ffffff
 EndChar

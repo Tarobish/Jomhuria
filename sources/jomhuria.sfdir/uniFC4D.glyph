@@ -1,12 +1,11 @@
 StartChar: uniFC4D
-Encoding: 5294 64589 2591
+Encoding: 5294 64589 1337
 Width: 2025
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 1693 -1 N 1 0 0 1 -10 0 2
-Refer: 1636 -1 S 1 0 0 1 1538 0 2
+Refer: 436 -1 N 1 0 0 1 -10 0 2
+Refer: 286 -1 N 1 0 0 1 1538 0 2
 Colour: ffffff
 EndChar

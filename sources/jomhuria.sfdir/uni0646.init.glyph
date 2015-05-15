@@ -1,5 +1,5 @@
 StartChar: uni0646.init
-Encoding: 762 -1 414
+Encoding: 762 -1 286
 Width: 487
 VWidth: 0
 Flags: W
@@ -8,9 +8,8 @@ VStem: -125.595 303.368 -50 427.862<123.429 436.271> 217.682 160.181<436.271 579
 AnchorPoint: "TashkilAbove" 120 1640 basechar 0
 AnchorPoint: "TashkilBelow" 170 -670 basechar 0
 LayerCount: 2
-Back
 Fore
 Refer: 8 -1 N 1 0 0 1 0 0 2
-Refer: 159 -1 S 1 0 0 1 26 905 2
+Refer: 75 -1 S 1 0 0 1 26 905 2
 Colour: ffffff
 EndChar

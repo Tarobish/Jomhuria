@@ -1,5 +1,5 @@
 StartChar: uni0752.medi
-Encoding: 824 -1 476
+Encoding: 824 -1 348
 Width: 624
 VWidth: 0
 Flags: W
@@ -8,9 +8,8 @@ VStem: -273.122 563.806 238.61 146.587<437.426 595.377>
 AnchorPoint: "TashkilAbove" 170 1640 basechar 0
 AnchorPoint: "TashkilBelow" 240 -670 basechar 0
 LayerCount: 2
-Back
 Fore
 Refer: 10 -1 N 1 0 0 1 0 0 2
-Refer: 164 -1 S 1 0 0 1 5 -365 2
+Refer: 80 -1 S 1 0 0 1 5 -365 2
 Colour: ffffff
 EndChar

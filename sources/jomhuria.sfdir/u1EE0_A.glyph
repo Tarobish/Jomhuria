@@ -1,11 +1,10 @@
 StartChar: u1EE0A
-Encoding: 6160 126474 3351
+Encoding: 6160 126474 1983
 Width: 1649
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 688 1603 N 1 0 0 1 -1.50192e-05 0 2
+Refer: 560 1603 N 1 0 0 1 -1.50192e-05 0 2
 Colour: ffffff
 EndChar

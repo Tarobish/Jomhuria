@@ -1,5 +1,5 @@
 StartChar: uni0750.medi_High
-Encoding: 3328 -1 1765
+Encoding: 3328 -1 901
 Width: 1069
 VWidth: 0
 Flags: W
@@ -7,7 +7,6 @@ HStem: -384 303.367 -0.194336 436.466<-42 588.635 853.023 1119.03>
 AnchorPoint: "TashkilAbove" 423 819 basechar 0
 AnchorPoint: "TashkilBelow" 277 -670 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 917.565429688 436.03515625 m 2
@@ -24,6 +23,6 @@ SplineSet
  843.547851562 498.643554688 l 2
  849.669921875 462.469726562 881.11328125 436.03515625 917.565429688 436.03515625 c 2
 EndSplineSet
-Refer: 206 -1 N 1 0 0 1 331 -384 2
+Refer: 110 -1 N 1 0 0 1 331 -384 2
 Colour: ffffff
 EndChar

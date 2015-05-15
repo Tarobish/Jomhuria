@@ -1,5 +1,5 @@
 StartChar: uni06A4.medi
-Encoding: 908 -1 560
+Encoding: 908 -1 432
 Width: 988
 VWidth: 0
 Flags: W
@@ -8,7 +8,6 @@ VStem: 165.878 563.806
 AnchorPoint: "TashkilAbove" 450 1640 basechar 0
 AnchorPoint: "TashkilBelow" 330 -670 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 681.739257812 435.826171875 m 1xac
@@ -31,6 +30,6 @@ SplineSet
  237.913085938 530.712890625 342.260742188 439.721679688 342.260742188 439.721679688 c 1
 EndSplineSet
 Refer: 16 -1 N 1 0 0 1 0 0 2
-Refer: 161 -1 N 1 0 0 1 446 1019 2
+Refer: 77 -1 N 1 0 0 1 446 1019 2
 Colour: 100feff
 EndChar

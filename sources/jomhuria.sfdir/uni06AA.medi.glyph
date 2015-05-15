@@ -1,5 +1,5 @@
 StartChar: uni06AA.medi
-Encoding: 4344 -1 2263
+Encoding: 4344 -1 1009
 Width: 1254
 VWidth: 0
 Flags: W
@@ -8,7 +8,6 @@ VStem: 774.698 172.057<451.481 592.148>
 AnchorPoint: "TashkilAbove" 300 1311 basechar 0
 AnchorPoint: "TashkilBelow" 2096.52 -670 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 991.173828125 436.271484375 m 2
