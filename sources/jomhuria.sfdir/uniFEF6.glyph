@@ -1,11 +1,11 @@
 StartChar: uniFEF6
-Encoding: 5796 65270 2010
+Encoding: 5796 65270 2003
 Width: 1236
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 939 -1 N 1 0 0 1 0 0 2
-Refer: 930 -1 N 1 0 0 1 0 0 2
+Refer: 938 -1 N 1 0 0 1 0 0 2
+Refer: 929 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
