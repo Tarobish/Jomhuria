@@ -1,10 +1,10 @@
 StartChar: uniFB87
-Encoding: 5129 64391 1288
+Encoding: 5129 64391 1280
 Width: 1093
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 413 -1 N 1 0 0 1 0 0 2
+Refer: 409 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

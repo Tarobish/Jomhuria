@@ -1,5 +1,5 @@
 StartChar: aAlf.dagger
-Encoding: 531 -1 169
+Encoding: 531 -1 167
 Width: 228
 GlyphClass: 4
 Flags: W
@@ -8,6 +8,6 @@ VStem: -263 128.074<1002.44 1066.81>
 AnchorPoint: "HamzaAbove" -150 806 mark 0
 LayerCount: 2
 Fore
-Refer: 147 1648 S 1 0 0 1 -313 -934 2
+Refer: 145 1648 S 1 0 0 1 -313 -934 2
 Colour: ffffff
 EndChar

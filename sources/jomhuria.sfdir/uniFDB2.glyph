@@ -1,11 +1,11 @@
 StartChar: uniFDB2
-Encoding: 5631 64946 1790
+Encoding: 5631 64946 1782
 Width: 3457
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 843 -1 N 1 0 0 1 0 0 2
-Refer: 663 -1 N 1 0 0 1 1377 0 2
-Refer: 463 -1 N 1 0 0 1 2469 0 2
+Refer: 839 -1 N 1 0 0 1 0 0 2
+Refer: 659 -1 N 1 0 0 1 1377 0 2
+Refer: 459 -1 N 1 0 0 1 2469 0 2
 EndChar
