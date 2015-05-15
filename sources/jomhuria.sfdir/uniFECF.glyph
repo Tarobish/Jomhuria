@@ -1,10 +1,10 @@
 StartChar: uniFECF
-Encoding: 5757 65231 2026
+Encoding: 5757 65231 2023
 Width: 1121
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 295 -1 S 1 0 0 1 0 0 2
+Refer: 294 -1 S 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
