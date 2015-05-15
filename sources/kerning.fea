@@ -28,9 +28,6 @@ feature kern {
 
   pos @Dal_1'  <-400 0 -400 0> [@Kaf_3];
 
-  // +ve kern so that the tail of raa/waw does not touch the dot of baa
-  pos @1st_2' < 170 0  170 0> @aBaaDotBelow;
-
   // increase advance width for first glyph in 3-letter Baree Yaa ligatures
   pos [@aAyn.init @aFaa.init @aHeh.init @aLam.init
        @aMem.init @aSen.init @aTaa.init uni06BE.init]' lookup YaaBari3Kern
