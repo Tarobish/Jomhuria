@@ -1,5 +1,5 @@
 StartChar: uni0657.small
-Encoding: 6150 -1 1976
+Encoding: 6150 -1 1974
 Width: 0
 Flags: W
 HStem: 2297.6 100.397<7.47159 123>
@@ -9,6 +9,6 @@ AnchorPoint: "TashkilAbove" -14 1939 mark 0
 AnchorPoint: "TashkilTashkilAbove" 132 1657 mark 0
 LayerCount: 2
 Fore
-Refer: 140 -1 S -1 0 0 -1 168 4127 2
+Refer: 139 -1 S -1 0 0 -1 168 4127 2
 Colour: ffffff
 EndChar
