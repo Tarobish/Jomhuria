@@ -5,11 +5,11 @@ Flags: HW
 HStem: 0 436.188<805.931 1066.58 1212.19 1502.7> 965.687 148.313<780.739 865.307 1006.43 1091>
 VStem: 780.739 310.261
 AnchorPoint: "TashkilBelow" 670 -670 basechar 0
-AnchorPoint: "TashkilAbove" 928 1393 basechar 0
+AnchorPoint: "TashkilAbove" 928 1471 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 111 1627 N 1 0 0 1 936 24 2
+Refer: 111 1627 N 1 0 0 1 936 102 2
 Refer: 1103 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar
