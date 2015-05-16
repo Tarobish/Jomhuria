@@ -2,9 +2,9 @@ StartChar: aYaaBari.fina_PostAscender
 Encoding: 4919 -1 1093
 Width: 1747
 VWidth: 0
-Flags: HW
-HStem: -647.514 437.426<487.883 1078.35> 0 436.188<985.179 1624.72> 139.965 296.223<444.462 936.13>
-VStem: 110 173.635<-154.099 78.0937>
+Flags: W
+HStem: -647.514 437.426<487.883 1078.35> 0 436.271<985.179 1624.62> 139.965 296.307<444.471 936.13>
+VStem: 110 173.635<-154.099 78.097>
 AnchorPoint: "DigitAbove" 136 773 basechar 0
 AnchorPoint: "HamzaAbove" 328 451 basechar 0
 AnchorPoint: "TashkilAbove" 369 492 basechar 0

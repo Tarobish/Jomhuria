@@ -2,9 +2,9 @@ StartChar: dash.gaf
 Encoding: 464 -1 91
 Width: 0
 GlyphClass: 4
-Flags: HW
-HStem: 0 209.669
-VStem: -160.525 319.555<-5.81543 0>
+Flags: W
+HStem: -40 249.669
+VStem: -160.525 319.555<-85.8154 -40>
 AnchorPoint: "Dash" -168.226 51.7002 mark 0
 LayerCount: 2
 Back

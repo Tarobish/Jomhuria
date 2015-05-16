@@ -2,9 +2,9 @@ StartChar: aBaa.init_YaaBari
 Encoding: 4921 -1 1094
 Width: 435
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 742 479.722
-VStem: 274.173 160.556<742 898.504>
+VStem: 274.444 160.556<742 898.504>
 AnchorPoint: "TwoDotsAbove" -408 1524 basechar 0
 AnchorPoint: "TaaAbove" -297 1324 basechar 0
 AnchorPoint: "DigitAbove" -297 1524 basechar 0

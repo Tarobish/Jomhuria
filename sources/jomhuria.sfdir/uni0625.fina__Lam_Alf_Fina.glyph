@@ -2,9 +2,9 @@ StartChar: uni0625.fina_LamAlfFina
 Encoding: 2416 -1 846
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -601 492.393 415.722 653.357
-VStem: 131 310.348 586.296 168.904<415.722 506.441>
+VStem: 131 310.348 568.296 168.904<415.722 506.441>
 AnchorPoint: "TashkilAbove" 328 1188 basechar 0
 AnchorPoint: "TashkilBelow" 221 -853 basechar 0
 LayerCount: 2

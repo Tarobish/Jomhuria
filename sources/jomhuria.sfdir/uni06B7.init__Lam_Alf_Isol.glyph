@@ -2,7 +2,7 @@ StartChar: uni06B7.init_LamAlfIsol
 Encoding: 1845 -1 825
 Width: 0
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 1286 540.642
 VStem: 392.878 563.806
 AnchorPoint: "TashkilAbove" 655 1884 basechar 0

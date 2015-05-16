@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1273266481
-ModificationTime: 1431818496
+ModificationTime: 1431820554
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -104,6 +104,9 @@ WinInfo: 0 21 10
 BeginPrivate: 0
 EndPrivate
 Grid
+-2048 877.160766602 m 0
+ 4096 877.160766602 l 1024
+  Named: "hamzeh"
 130.204589844 2662 m 0
  130.204589844 -1434 l 1024
   Named: "1"

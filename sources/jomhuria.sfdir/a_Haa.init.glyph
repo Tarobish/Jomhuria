@@ -1,7 +1,7 @@
 StartChar: aHaa.init
 Encoding: 274 -1 18
 Width: 1167
-Flags: HW
+Flags: W
 HStem: 0 436.188<-50 548.57> 692.147 284.229<204.826 439.099>
 AnchorPoint: "TwoDotsBelow" 509 -202 basechar 0
 AnchorPoint: "TwoDotsAbove" 520 950 basechar 0
