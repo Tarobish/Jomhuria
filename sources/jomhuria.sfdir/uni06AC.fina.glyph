@@ -8,6 +8,7 @@ VStem: 627 347.871 800.405 303.368
 AnchorPoint: "TashkilAbove" 730 1640 basechar 0
 AnchorPoint: "TashkilBelow" 800 -670 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 85 -1 S 1 0 0 1 627 567 2
 Refer: 25 -1 N 1 0 0 1 0 0 2

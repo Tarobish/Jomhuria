@@ -1,7 +1,7 @@
 StartChar: aKaf.init_KafLam
 Encoding: 595 -1 183
 Width: 740
-Flags: W
+Flags: HW
 HStem: 0 21G<249.13 431.217>
 VStem: 249.13 331.374<105.405 436.188> 408.539 172.521<452.464 601.727>
 AnchorPoint: "TwoDotsAbove" -77 1381 basechar 0

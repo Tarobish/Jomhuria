@@ -9,6 +9,7 @@ AnchorPoint: "DigitAbove" 500 1102 basechar 0
 AnchorPoint: "TashkilAbove" 369 1010 basechar 0
 AnchorPoint: "HamzaAbove" 314 969 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 1089 -1 S 1 0 0 1 0 2 2
 Colour: ffffff
