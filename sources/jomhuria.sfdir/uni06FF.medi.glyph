@@ -1,8 +1,8 @@
 StartChar: uni06FF.medi
 Encoding: 5054 -1 1102
 Width: 964
-Flags: HW
-HStem: 0 436.188<-49.7217 179.287 317.582 578.23 723.843 1014.35> 964.687 148.313<297.739 382.307 523.432 608>
+Flags: W
+HStem: 0 436.188<-49.7217 179.287 317.582 578.23 723.843 1014.35> 975.687 148.313<297.739 382.307 523.432 608>
 VStem: 297.739 310.261
 AnchorPoint: "TashkilBelow" 400 -670 basechar 0
 AnchorPoint: "TashkilAbove" 437 1469 basechar 0

@@ -1,8 +1,8 @@
 StartChar: uni06FF
 Encoding: 594 1791 182
 Width: 1666
-Flags: HW
-HStem: 0 21G<110 833.478> 1133.18 148.313<804.739 889.307 1030.43 1115>
+Flags: W
+HStem: 0 21G<110 833.478> 1130.18 148.313<804.739 889.307 1030.43 1115>
 VStem: 667.635 126.052<436.188 592.541> 804.739 310.261
 AnchorPoint: "TashkilBelow" 700 -670 basechar 0
 AnchorPoint: "TashkilAbove" 942 1618 basechar 0

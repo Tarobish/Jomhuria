@@ -2,8 +2,8 @@ StartChar: smallv.below.inverted
 Encoding: 506 -1 119
 Width: 410
 GlyphClass: 4
-Flags: HW
-HStem: -1196.31 148.313<50.0003 134.568 275.693 360.261>
+Flags: W
+HStem: -1197.31 148.313<50.0003 134.568 275.693 360.261>
 VStem: 50.0003 310.261
 AnchorPoint: "TashkilBelowDot" 205.261 -1174 basemark 0
 AnchorPoint: "DotBelow" 245.261 -828 mark 0

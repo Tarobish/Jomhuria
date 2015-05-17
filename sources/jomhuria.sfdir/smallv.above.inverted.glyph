@@ -2,8 +2,8 @@ StartChar: smallv.above.inverted
 Encoding: 5921 -1 1893
 Width: 0
 GlyphClass: 4
-Flags: HW
-HStem: 941.687 148.313<-155.261 -70.6931 70.4324 155>
+Flags: W
+HStem: 876.687 148.313<-155.261 -70.6931 70.4324 155>
 VStem: -155.261 310.261
 AnchorPoint: "TashkilTashkilAbove" 0 1500 basemark 0
 AnchorPoint: "VAbove" 0 950 mark 0

@@ -2,8 +2,8 @@ StartChar: uni065B
 Encoding: 498 1627 111
 Width: 0
 GlyphClass: 4
-Flags: HW
-HStem: 941.687 148.313<-155.261 -70.6931 70.4324 155>
+Flags: W
+HStem: 876.687 148.313<-155.261 -70.6931 70.4324 155>
 VStem: -155.261 310.261
 AnchorPoint: "MarkAbove" 0 775 mark 0
 AnchorPoint: "VAbove" 0 885 mark 0
