@@ -1,11 +1,11 @@
 StartChar: uniFBAB
 Encoding: 5165 64427 1208
-Width: 1452
+Width: 1789
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Back
 Fore
-Refer: 1099 -1 N 1 0 0 1 0 0 2
+Refer: 1099 -1 S 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

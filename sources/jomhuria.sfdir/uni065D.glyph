@@ -7,7 +7,7 @@ HStem: 1728.89 100.397<287.923 407>
 VStem: 96.3936 310.606
 AnchorPoint: "MarkAbove" 569 1640 mark 0
 AnchorPoint: "TashkilAboveDot" 570 1640 mark 0
-AnchorPoint: "TashkilAbove" 259 1679 mark 0
+AnchorPoint: "TashkilAbove" 246 1666 mark 0
 LayerCount: 2
 Back
 SplineSet

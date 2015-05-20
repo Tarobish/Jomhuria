@@ -5,7 +5,7 @@ Flags: W
 HStem: 0 436.188<-50 201.885 422.098 562.736 742.581 897.473>
 AnchorPoint: "TwoDotsAbove" 539 900 basechar 0
 AnchorPoint: "TwoDotsBelow" 550 -200 basechar 0
-AnchorPoint: "TashkilBelow" 600 -670 basechar 0
+AnchorPoint: "TashkilBelow" 628 -232 basechar 0
 AnchorPoint: "DotBelow" 650 -200 basechar 0
 AnchorPoint: "DotAbove" 650 900 basechar 0
 AnchorPoint: "HamzaAbove" 655 751 basechar 0

@@ -1,9 +1,9 @@
 StartChar: uni08E6
 Encoding: 6307 2278 2130
 Width: 488
-Flags: HW
-HStem: -1468.2 619.826
-AnchorPoint: "TashkilBelow" 584.262 -1108 mark 0
+Flags: W
+HStem: -1407.33 557.844
+AnchorPoint: "TashkilBelow" 232 -956 mark 0
 AnchorPoint: "TashkilBelowDot" 584.262 -1108 mark 0
 AnchorPoint: "TashkilTashkilBelow" 347.262 -1257 basemark 0
 AnchorPoint: "MarkBelow" 500.262 -1108 mark 0

@@ -2,11 +2,11 @@ StartChar: uni061A
 Encoding: 544 1562 157
 Width: 0
 GlyphClass: 4
-Flags: HW
-HStem: -903.56 364.101
-VStem: 401.581 412.3
+Flags: W
+HStem: -1168 318.857
+VStem: 404 310
 AnchorPoint: "MarkBelow" 510 -670 mark 0
-AnchorPoint: "TashkilBelow" 534 -670 mark 0
+AnchorPoint: "TashkilBelow" 614 -956 mark 0
 AnchorPoint: "TashkilBelowDot" 534 -670 mark 0
 LayerCount: 2
 Back

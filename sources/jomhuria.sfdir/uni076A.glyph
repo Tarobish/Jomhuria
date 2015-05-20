@@ -3,12 +3,19 @@ Encoding: 1085 1898 609
 Width: 1227
 VWidth: 0
 Flags: W
-HStem: -430 442.62<422.625 819.379>
+HStem: -430 442.62<422.625 819.379> 566 126<731 1131>
 AnchorPoint: "TashkilBelow" 580 -670 basechar 0
-AnchorPoint: "TashkilAbove" 600 1640 basechar 0
+AnchorPoint: "TashkilAbove" 887 1270 basechar 0
 LayerCount: 2
 Back
 Fore
+SplineSet
+1226 692 m 5
+ 1131 565 l 5
+ 636 566 l 5
+ 731 692 l 5
+ 1226 692 l 5
+EndSplineSet
 Refer: 32 -1 N 1 0 0 1 0 -240 2
 Colour: ffffff
 EndChar

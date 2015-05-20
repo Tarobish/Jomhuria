@@ -9,7 +9,7 @@ AnchorPoint: "VAbove" 130 1530 basechar 0
 AnchorPoint: "DotAbove" 130 1630 basechar 0
 AnchorPoint: "TashkilAbove" 218 1283 basechar 0
 AnchorPoint: "Stroke" 168 1084 basechar 0
-AnchorPoint: "TashkilBelow" 190 -670 basechar 0
+AnchorPoint: "TashkilBelow" 177 -259 basechar 0
 LayerCount: 2
 Back
 SplineSet

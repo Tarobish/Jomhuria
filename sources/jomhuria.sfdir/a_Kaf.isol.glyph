@@ -8,7 +8,7 @@ AnchorPoint: "TashkilAbove" 778 724 basechar 0
 AnchorPoint: "TwoDotsBelow" 500 -200 basechar 0
 AnchorPoint: "DotBelow" 610 -200 basechar 0
 AnchorPoint: "RingBelow" 610 100 basechar 0
-AnchorPoint: "TashkilBelow" 710 -670 basechar 0
+AnchorPoint: "TashkilBelow" 847 -246 basechar 0
 AnchorPoint: "TwoDotsAbove" 850 1800 basechar 0
 AnchorPoint: "DotAbove" 960 1800 basechar 0
 AnchorPoint: "Dash" 1017 1614 basechar 0

@@ -3,7 +3,7 @@ Encoding: 312 -1 52
 Width: 1661
 Flags: W
 HStem: 0 436.188<334.835 353.2 713.27 1160.96 1405.25 1711.39> 629.022 194.073<979.698 1268.4>
-AnchorPoint: "TashkilBelow" 800 -670 basechar 0
+AnchorPoint: "TashkilBelow" 792 -259 basechar 0
 AnchorPoint: "TashkilAbove" 1092 969 basechar 0
 AnchorPoint: "TwoDotsAbove" 1070 1000 basechar 0
 AnchorPoint: "DotAbove" 1180 1000 basechar 0

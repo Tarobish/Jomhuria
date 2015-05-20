@@ -11,7 +11,7 @@ AnchorPoint: "DotAbove" 723 773 basechar 0
 AnchorPoint: "HamzaAbove" 423 942 basechar 0
 AnchorPoint: "DigitAbove" 723 773 basechar 0
 AnchorPoint: "VAbove" 809 712 basechar 0
-AnchorPoint: "TashkilBelow" 820 -670 basechar 0
+AnchorPoint: "TashkilBelow" 232 -874 basechar 0
 AnchorPoint: "Stroke" 848 -212 basechar 0
 AnchorPoint: "HighHamza" 920 773 basechar 0
 LayerCount: 2

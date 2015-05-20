@@ -1,14 +1,22 @@
 StartChar: uni075B
 Encoding: 1155 1883 679
-Width: 648
+Width: 778
 VWidth: 0
 Flags: W
-VStem: 326.283 211.875<-25.13 148.998>
-AnchorPoint: "TashkilAbove" 400 1640 basechar 0
-AnchorPoint: "TashkilBelow" 502 -768 basechar 0
+HStem: 0 126<225 555>
+VStem: 456.283 211.875<-25.13 148.998>
+AnchorPoint: "TashkilAbove" 430 765 basechar 0
+AnchorPoint: "TashkilBelow" 632 -768 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 43 -1 N 1 0 0 1 0 0 2
+SplineSet
+557 126 m 5
+ 555 -1 l 5
+ 130 0 l 5
+ 225 126 l 5
+ 557 126 l 5
+EndSplineSet
+Refer: 43 -1 N 1 0 0 1 130 0 2
 Colour: ffffff
 EndChar

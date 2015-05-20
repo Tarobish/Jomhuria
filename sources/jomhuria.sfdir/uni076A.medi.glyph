@@ -1,14 +1,21 @@
 StartChar: uni076A.medi
 Encoding: 1091 -1 615
-Width: 722
+Width: 762
 VWidth: 0
 Flags: W
-HStem: 0 436.313<-50 227.992 520.996 772.261>
-AnchorPoint: "TashkilAbove" 130 1640 basechar 0
-AnchorPoint: "TashkilBelow" 190 -670 basechar 0
+HStem: 0 436.313<-10 267.992 560.996 812.261> 555 126<164 502>
+AnchorPoint: "TashkilAbove" 272 1270 basechar 0
+AnchorPoint: "TashkilBelow" 230 -670 basechar 0
 LayerCount: 2
 Back
 Fore
-Refer: 33 -1 N 1 0 0 1 0 0 2
+SplineSet
+592 681 m 1
+ 502 554 l 1
+ 69 555 l 1
+ 164 681 l 1
+ 592 681 l 1
+EndSplineSet
+Refer: 33 -1 N 1 0 0 1 40 0 2
 Colour: ffffff
 EndChar

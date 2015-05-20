@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1273266481
-ModificationTime: 1431820900
+ModificationTime: 1432082500
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -100,10 +100,16 @@ NameList: AGL without afii
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 21 10
+WinInfo: 152 19 9
 BeginPrivate: 0
 EndPrivate
 Grid
+-2048 1060.89285714 m 0
+ 4096 1060.89285714 l 1024
+  Named: "H2"
+-2048 794.9 m 0
+ 4096 794.9 l 1024
+  Named: "H"
 -2048 877.160766602 m 0
  4096 877.160766602 l 1024
   Named: "hamzeh"
