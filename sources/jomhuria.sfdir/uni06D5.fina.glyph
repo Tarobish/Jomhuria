@@ -6,7 +6,7 @@ Flags: W
 HStem: 0 21G<713.548 984.853>
 AnchorPoint: "HamzaAbove" 478 969 basechar 0
 AnchorPoint: "TashkilAbove" 478 1010 basechar 0
-AnchorPoint: "TashkilBelow" 390 -670 basechar 0
+AnchorPoint: "TashkilBelow" 410 -150 basechar 0
 LayerCount: 2
 Back
 Fore
