@@ -2,7 +2,7 @@ StartChar: uni0627.fina_Tatweel
 Encoding: 4872 -1 1083
 Width: 889
 Flags: W
-HStem: 0 436.188<442.244 939.044> 1157.36 132.174<526.679 595.409>
+HStem: 0 436.188<442.244 939.044>
 VStem: 110 332.244<436.188 1026.23>
 AnchorPoint: "TashkilAbove" 273 1270 basechar 0
 AnchorPoint: "TashkilBelow" 477 -670 basechar 0
