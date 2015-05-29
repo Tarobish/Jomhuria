@@ -8,7 +8,7 @@ VStem: 238.557 146.921<437.313 594.922>
 AnchorPoint: "SeenBelow" 740 -400 basechar 0
 AnchorPoint: "SeenAbove" 740 800 basechar 0
 AnchorPoint: "TashkilAbove" 901 915 basechar 0
-AnchorPoint: "TashkilBelow" 800 -670 basechar 0
+AnchorPoint: "TashkilBelow" 792 -246 basechar 0
 LayerCount: 2
 Back
 Fore

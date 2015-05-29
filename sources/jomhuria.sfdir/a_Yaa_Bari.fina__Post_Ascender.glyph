@@ -8,7 +8,7 @@ VStem: 110 173.635<-154.099 78.097>
 AnchorPoint: "DigitAbove" 136 773 basechar 0
 AnchorPoint: "HamzaAbove" 328 451 basechar 0
 AnchorPoint: "TashkilAbove" 369 492 basechar 0
-AnchorPoint: "TashkilBelow" 350 -670 basechar 0
+AnchorPoint: "TashkilBelow" 420 -840 basechar 0
 LayerCount: 2
 Back
 SplineSet
