@@ -13,11 +13,11 @@ AnchorPoint: "DigitAbove" 585 828 basechar 0
 AnchorPoint: "AlefAbove" 246 573 basechar 0
 AnchorPoint: "TwoDotsBelow" 616 -709 basechar 0
 AnchorPoint: "RingBelow" 640 -300 basechar 0
-AnchorPoint: "TashkilBelow" 700 -670 basechar 0
+AnchorPoint: "TashkilBelow" 700 -500 basechar 0
 AnchorPoint: "DotBelow" 727 -709 basechar 0
 AnchorPoint: "HamzaBelow" 727 -709 basechar 0
 AnchorPoint: "DigitBelow" 727 -709 basechar 0
-AnchorPoint: "TashkilAbove" 751 1161 basechar 0
+AnchorPoint: "TashkilAbove" 750 1150 basechar 0
 AnchorPoint: "HighHamza" 1470 1090 basechar 0
 LayerCount: 2
 Back

@@ -3,9 +3,9 @@ Encoding: 314 -1 54
 Width: 1490
 Flags: W
 HStem: 0 436.27<343.457 352.819 712.801 1158.33> 629.094 194.256<979.119 1277.77>
-AnchorPoint: "TashkilBelow" 792 -232 basechar 0
+AnchorPoint: "TashkilBelow" 800 -210 basechar 0
 AnchorPoint: "TwoDotsAbove" 1050 1000 basechar 0
-AnchorPoint: "TashkilAbove" 1051 983 basechar 0
+AnchorPoint: "TashkilAbove" 1100 950 basechar 0
 AnchorPoint: "DotAbove" 1160 1000 basechar 0
 LayerCount: 2
 Back

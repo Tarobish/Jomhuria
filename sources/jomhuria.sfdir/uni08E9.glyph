@@ -4,7 +4,7 @@ Width: 552
 Flags: W
 HStem: -1371.51 366.001 -1209.46 366.001
 AnchorPoint: "TashkilBelowDot" 538.262 -1065 mark 0
-AnchorPoint: "TashkilBelow" 273 -969 mark 0
+AnchorPoint: "TashkilBelow" 250 -950 mark 0
 AnchorPoint: "MarkBelow" 489.262 -1065 mark 0
 AnchorPoint: "TashkilTashkilBelow" 326.262 -1284 basemark 0
 LayerCount: 2

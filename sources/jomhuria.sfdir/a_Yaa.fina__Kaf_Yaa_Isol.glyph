@@ -9,7 +9,7 @@ AnchorPoint: "AlefAbove" 519 259 basechar 0
 AnchorPoint: "Tail" 298 430 basechar 0
 AnchorPoint: "TwoDotsAbove" 360 730 basechar 0
 AnchorPoint: "VAbove" 370 730 basechar 0
-AnchorPoint: "TashkilAbove" 601 396 basechar 0
+AnchorPoint: "TashkilAbove" 600 450 basechar 0
 AnchorPoint: "DotAbove" 470 730 basechar 0
 AnchorPoint: "DigitAbove" 470 730 basechar 0
 AnchorPoint: "RingBelow" 600 -341 basechar 0
@@ -18,7 +18,7 @@ AnchorPoint: "HighHamza" 708 325 basechar 0
 AnchorPoint: "HamzaBelow" 728 -739 basechar 0
 AnchorPoint: "DotBelow" 728 -739 basechar 0
 AnchorPoint: "DigitBelow" 728 -739 basechar 0
-AnchorPoint: "TashkilBelow" 710 -765 basechar 0
+AnchorPoint: "TashkilBelow" 700 -750 basechar 0
 LayerCount: 2
 Back
 SplineSet

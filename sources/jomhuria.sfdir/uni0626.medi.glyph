@@ -1,12 +1,12 @@
 StartChar: uni0626.medi
 Encoding: 809 -1 333
-Width: 624
+Width: 684
 VWidth: 0
 Flags: W
-HStem: 0 436.271<-50 236.26 476.659 674.791> 593 492.393
-VStem: -119 310.348 238.61 146.587<437.426 595.377>
+HStem: 0 436.271<-20 266.26 506.659 704.791> 593 492.393
+VStem: -119 310.348 268.61 146.587<437.426 595.377>
 AnchorPoint: "TashkilAbove" 41 1174 basechar 0
-AnchorPoint: "TashkilBelow" 109 -218 basechar 0
+AnchorPoint: "TashkilBelow" 150 -210 basechar 0
 LayerCount: 2
 Back
 Fore

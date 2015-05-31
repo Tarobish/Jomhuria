@@ -6,10 +6,10 @@ HStem: 0 436.591<-50 200.84 423.088 514.245 643.704 1095.47 1330.91 1639.88> 629
 VStem: 238.557 146.921<437.313 594.922>
 AnchorPoint: "TwoDotsAbove" 601 987 basechar 0
 AnchorPoint: "TwoDotsBelow" 700 -400 basechar 0
-AnchorPoint: "TashkilAbove" 860 887 basechar 0
+AnchorPoint: "TashkilAbove" 850 950 basechar 0
 AnchorPoint: "HamzaAbove" 792 847 basechar 0
 AnchorPoint: "DotAbove" 712 987 basechar 0
-AnchorPoint: "TashkilBelow" 737 -259 basechar 0
+AnchorPoint: "TashkilBelow" 700 -210 basechar 0
 AnchorPoint: "DotBelow" 800 -400 basechar 0
 LayerCount: 2
 Back

@@ -5,13 +5,13 @@ Flags: W
 HStem: -0.556641 436.035<-50 214.149 404.601 545.747 729.067 870.257 1060.89 1325.17>
 AnchorPoint: "TwoDotsBelow" 450 -300 basechar 0
 AnchorPoint: "TwoDotsAbove" 484 777 basechar 0
-AnchorPoint: "TashkilAbove" 655 806 basechar 0
+AnchorPoint: "TashkilAbove" 680 800 basechar 0
 AnchorPoint: "DotBelow" 550 -400 basechar 0
 AnchorPoint: "DotAbove" 595 777 basechar 0
 AnchorPoint: "HamzaAbove" 595 777 basechar 0
 AnchorPoint: "VAbove" 595 777 basechar 0
 AnchorPoint: "DigitAbove" 595 777 basechar 0
-AnchorPoint: "TashkilBelow" 642 -232 basechar 0
+AnchorPoint: "TashkilBelow" 650 -210 basechar 0
 LayerCount: 2
 Back
 SplineSet

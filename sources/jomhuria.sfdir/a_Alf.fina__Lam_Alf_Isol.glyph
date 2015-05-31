@@ -3,9 +3,9 @@ Encoding: 354 -1 62
 Width: 0
 Flags: W
 VStem: 110 597.147
-AnchorPoint: "TashkilAbove" 341 1311 basechar 0
+AnchorPoint: "TashkilAbove" 300 1300 basechar 0
 AnchorPoint: "DigitAbove" 50 1300 basechar 0
-AnchorPoint: "TashkilBelow" 410 -205 basechar 0
+AnchorPoint: "TashkilBelow" 400 -210 basechar 0
 AnchorPoint: "HamzaAbove" 300 1283 basechar 0
 AnchorPoint: "HamzaBelow" 553 -280 basechar 0
 AnchorPoint: "HighHamza" 835 1609 basechar 0

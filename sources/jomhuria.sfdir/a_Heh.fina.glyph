@@ -5,8 +5,8 @@ Flags: W
 HStem: 0 21G<713.548 984.853>
 AnchorPoint: "TwoDotsAbove" 179 1100 basechar 0
 AnchorPoint: "DotAbove" 290 1100 basechar 0
-AnchorPoint: "TashkilAbove" 314 956 basechar 0
-AnchorPoint: "TashkilBelow" 451 -210 basechar 0
+AnchorPoint: "TashkilAbove" 300 950 basechar 0
+AnchorPoint: "TashkilBelow" 450 -210 basechar 0
 AnchorPoint: "HamzaAbove" 492 1010 basechar 0
 LayerCount: 2
 Back

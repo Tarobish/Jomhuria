@@ -8,10 +8,10 @@ AnchorPoint: "TwoDotsBelow" 160 -164 basechar 0
 AnchorPoint: "TwoDotsAbove" 172 1426 basechar 0
 AnchorPoint: "DotBelow" 270 -164 basechar 0
 AnchorPoint: "DotAbove" 282 1426 basechar 0
-AnchorPoint: "TashkilBelow" 273 -210 basechar 0
+AnchorPoint: "TashkilBelow" 200 -210 basechar 0
 AnchorPoint: "RingBelow" 620 1236 basechar 0
 AnchorPoint: "Dash" 624 1406 basechar 0
-AnchorPoint: "TashkilAbove" 314 1352 basechar 0
+AnchorPoint: "TashkilAbove" 350 1350 basechar 0
 LayerCount: 2
 Back
 SplineSet

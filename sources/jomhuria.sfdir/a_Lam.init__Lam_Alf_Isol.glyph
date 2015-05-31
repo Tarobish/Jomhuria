@@ -3,11 +3,11 @@ Encoding: 353 -1 61
 Width: 0
 Flags: W
 AnchorPoint: "VAbove" 76.4316 1388 basechar 0
-AnchorPoint: "TashkilBelow" 369 -205 basechar 0
+AnchorPoint: "TashkilBelow" 400 -210 basechar 0
 AnchorPoint: "TwoDotsAbove" 235.432 1650 basechar 0
 AnchorPoint: "TwoDotsBelow" 245.432 -150 basechar 0
 AnchorPoint: "DotAbove" 355.432 1715 basechar 0
-AnchorPoint: "TashkilAbove" 743.432 1338 basechar 0
+AnchorPoint: "TashkilAbove" 800 1400 basechar 0
 AnchorPoint: "Stroke" 372.432 1096 basechar 0
 LayerCount: 2
 Back

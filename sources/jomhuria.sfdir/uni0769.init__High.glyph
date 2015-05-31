@@ -1,17 +1,17 @@
 StartChar: uni0769.init_High
 Encoding: 3315 -1 888
-Width: 487
+Width: 517
 VWidth: 0
 Flags: W
-HStem: 0 436.271<-50 215.091> 902 303.367 1454.51 148.313<-125.252 -40.6843 100.441 185.009>
-VStem: -125.252 310.261 -124.595 303.368 -50 427.862<123.429 436.271> 217.682 160.181<436.271 579.568>
-AnchorPoint: "TashkilAbove" 55 1748 basechar 0
-AnchorPoint: "TashkilBelow" 137 -218 basechar 0
+HStem: 0 436.271<-20 245.091> 902 303.367 1454.51 148.313<-95.252 -10.6843 130.441 215.009>
+VStem: -95.252 310.261 -94.595 303.368 -20 427.862<123.429 436.271> 247.682 160.181<436.271 579.568>
+AnchorPoint: "TashkilAbove" 85 1748 basechar 0
+AnchorPoint: "TashkilBelow" 180 -210 basechar 0
 LayerCount: 2
 Back
 Fore
 Refer: 74 -1 N 1 0 0 1 0 0 2
-Refer: 75 -1 N 1 0 0 1 27 902 2
-Refer: 90 1626 S 1 0 0 1 27 312 2
+Refer: 75 -1 S 1 0 0 1 57 902 2
+Refer: 90 1626 S 1 0 0 1 57 312 2
 Colour: ffffff
 EndChar

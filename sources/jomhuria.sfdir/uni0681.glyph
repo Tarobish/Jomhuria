@@ -6,7 +6,7 @@ Flags: W
 HStem: -536.583 253.283<450.931 907.696> 534.684 260.528<919.401 1185.65> 692.271 284.229<418.532 670.5> 1092 492.393
 VStem: 110 439.758<-139.711 182.173> 484 310.348
 AnchorPoint: "TashkilAbove" 655 1720 basechar 0
-AnchorPoint: "TashkilBelow" 614 -765 basechar 0
+AnchorPoint: "TashkilBelow" 650 -750 basechar 0
 LayerCount: 2
 Back
 Fore

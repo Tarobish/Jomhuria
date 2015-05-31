@@ -5,9 +5,9 @@ Flags: W
 HStem: -430.191 442.713<422.651 819.606> 0 21G<1223.42 1363.23>
 AnchorPoint: "TwoDotsAbove" 400 1000 basechar 0
 AnchorPoint: "TwoDotsBelow" 600 -935 basechar 0
-AnchorPoint: "TashkilBelow" 669 -655 basechar 0
+AnchorPoint: "TashkilBelow" 650 -650 basechar 0
 AnchorPoint: "DotAbove" 600 1200 basechar 0
-AnchorPoint: "TashkilAbove" 887 1229 basechar 0
+AnchorPoint: "TashkilAbove" 900 1300 basechar 0
 AnchorPoint: "VAbove" 614 1198 basechar 0
 AnchorPoint: "Stroke" 986 1012 basechar 0
 LayerCount: 2

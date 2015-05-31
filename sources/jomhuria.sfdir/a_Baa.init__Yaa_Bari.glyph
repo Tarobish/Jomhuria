@@ -2,7 +2,7 @@ StartChar: aBaa.init_YaaBari
 Encoding: 4921 -1 1094
 Width: 435
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 742 479.722
 VStem: 274.444 160.556<742 898.504>
 AnchorPoint: "TwoDotsAbove" -408 1524 basechar 0
@@ -18,7 +18,7 @@ AnchorPoint: "DotBelow" 74 -263 basechar 0
 AnchorPoint: "HamzaBelow" 74 -263 basechar 0
 AnchorPoint: "TwoDotsBelow" 75 -265 basechar 0
 AnchorPoint: "TashkilAbove" 218 1215 basechar 0
-AnchorPoint: "TashkilBelow" 183 -845 basechar 0
+AnchorPoint: "TashkilBelow" 450 -850 basechar 0
 LayerCount: 2
 Back
 SplineSet

@@ -1,21 +1,21 @@
 StartChar: aBaa.init_High
 Encoding: 445 -1 74
-Width: 487
+Width: 517
 Flags: W
-HStem: 0 436.271<-50 215.091>
-VStem: -50 427.862<123.429 436.271> 217.682 160.181<436.271 579.568>
+HStem: 0 436.271<-20 245.091>
+VStem: -20 427.862<123.429 436.271> 247.682 160.181<436.271 579.568>
 AnchorPoint: "TwoDotsAbove" 40 800 basechar 0
 AnchorPoint: "TaaAbove" 95 700 basechar 0
 AnchorPoint: "DotAbove" 95 900 basechar 0
 AnchorPoint: "DigitAbove" 95 900 basechar 0
-AnchorPoint: "TashkilAbove" 123 860 basechar 0
+AnchorPoint: "TashkilAbove" 180 900 basechar 0
 AnchorPoint: "RingBelow" 120 120 basechar 0
 AnchorPoint: "HamzaAbove" 123 887 basechar 0
 AnchorPoint: "VAbove" 145 800 basechar 0
 AnchorPoint: "TwoDotsBelowAlt" 170 -750 basechar 0
 AnchorPoint: "TwoDotsBelow" 170 -250 basechar 0
 AnchorPoint: "DotBelowAlt" 220 -750 basechar 0
-AnchorPoint: "TashkilBelow" 177 -232 basechar 0
+AnchorPoint: "TashkilBelow" 150 -210 basechar 0
 AnchorPoint: "DotBelow" 220 -350 basechar 0
 AnchorPoint: "DigitBelow" 220 -350 basechar 0
 AnchorPoint: "HighHamza" 345 800 basechar 0

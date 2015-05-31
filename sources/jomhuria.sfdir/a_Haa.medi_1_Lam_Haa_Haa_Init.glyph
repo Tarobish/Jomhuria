@@ -4,8 +4,8 @@ Width: 1250
 Flags: W
 HStem: 0 436.188<-50 506.772 857.467 1300.49> 692.147 284.228<204.871 439.144>
 AnchorPoint: "cursive" 0 473 exit 0
-AnchorPoint: "TashkilAbove" 478 1147 basechar 0
-AnchorPoint: "TashkilBelow" 410 -246 basechar 0
+AnchorPoint: "TashkilAbove" 380 1100 basechar 0
+AnchorPoint: "TashkilBelow" 300 -210 basechar 0
 AnchorPoint: "TwoDotsBelow" 900 -280 basechar 0
 AnchorPoint: "TwoDotsAbove" 900 1210 basechar 0
 AnchorPoint: "DotBelow" 1011 -280 basechar 0

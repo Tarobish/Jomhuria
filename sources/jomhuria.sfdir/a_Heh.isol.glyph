@@ -7,8 +7,8 @@ VStem: 110 634.551<87.2626 435.912 454.604 561.123> 110 137.195<448.868 587.43>
 AnchorPoint: "TwoDotsAbove" 257 1090 basechar 0
 AnchorPoint: "HamzaAbove" 382 942 basechar 0
 AnchorPoint: "DotAbove" 368 1090 basechar 0
-AnchorPoint: "TashkilAbove" 423 969 basechar 0
-AnchorPoint: "TashkilBelow" 437 -210 basechar 0
+AnchorPoint: "TashkilAbove" 450 1000 basechar 0
+AnchorPoint: "TashkilBelow" 450 -210 basechar 0
 LayerCount: 2
 Back
 SplineSet

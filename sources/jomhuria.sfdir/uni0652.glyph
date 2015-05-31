@@ -6,7 +6,7 @@ Flags: W
 HStem: 1726.63 116.924<117.57 243.477>
 VStem: 54.79 265.378<1740.49 1960.48>
 AnchorPoint: "MarkAbove" 321.498 1640 mark 0
-AnchorPoint: "TashkilAbove" 232 1652 mark 0
+AnchorPoint: "TashkilAbove" 230 1650 mark 0
 AnchorPoint: "TashkilAboveDot" 324.498 1640 mark 0
 AnchorPoint: "TashkilTashkilAbove" 324.498 1640 mark 0
 LayerCount: 2

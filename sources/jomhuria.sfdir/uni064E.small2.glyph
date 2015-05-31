@@ -6,7 +6,7 @@ Flags: W
 HStem: 1728 322.84
 VStem: 46 311
 AnchorPoint: "TashkilTashkilAbove" 244.681 1814.1 mark 0
-AnchorPoint: "TashkilAbove" 218 1830 mark 0
+AnchorPoint: "TashkilAbove" 220 1750 mark 0
 LayerCount: 2
 Back
 SplineSet

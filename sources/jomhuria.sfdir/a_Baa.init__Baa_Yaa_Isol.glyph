@@ -1,55 +1,55 @@
 StartChar: aBaa.init_BaaYaaIsol
 Encoding: 632 -1 190
-Width: 487
+Width: 517
 Flags: W
-HStem: 0 436.271<-50 215.091>
-VStem: -50 427.862<123.429 436.271> 217.682 160.181<436.271 579.568>
-AnchorPoint: "TwoDotsAbove" -27 1300 basechar 0
-AnchorPoint: "TashkilAbove" 123 887 basechar 0
-AnchorPoint: "TaaAbove" 123 1100 basechar 0
-AnchorPoint: "DotAbove" 123 1300 basechar 0
-AnchorPoint: "HamzaAbove" 137 887 basechar 0
-AnchorPoint: "VAbove" 123 1300 basechar 0
-AnchorPoint: "DigitAbove" 123 1300 basechar 0
-AnchorPoint: "TwoDotsBelowAlt" 232 -750 basechar 0
-AnchorPoint: "TwoDotsBelow" 232 -440 basechar 0
-AnchorPoint: "HighHamza" 300 1300 basechar 0
-AnchorPoint: "TashkilBelow" 177 -205 basechar 0
-AnchorPoint: "DotBelowAlt" 343 -750 basechar 0
-AnchorPoint: "DotBelow" 343 -590 basechar 0
-AnchorPoint: "HamzaBelow" 343 -590 basechar 0
-AnchorPoint: "DigitBelow" 343 -590 basechar 0
-AnchorPoint: "RingBelow" 350 500.083 basechar 0
+HStem: 0 436.271<-20 245.091>
+VStem: -20 427.862<123.429 436.271> 247.682 160.181<436.271 579.568>
+AnchorPoint: "TwoDotsAbove" 3 1300 basechar 0
+AnchorPoint: "TashkilAbove" 180 900 basechar 0
+AnchorPoint: "TaaAbove" 153 1100 basechar 0
+AnchorPoint: "DotAbove" 153 1300 basechar 0
+AnchorPoint: "HamzaAbove" 167 887 basechar 0
+AnchorPoint: "VAbove" 153 1300 basechar 0
+AnchorPoint: "DigitAbove" 153 1300 basechar 0
+AnchorPoint: "TwoDotsBelowAlt" 262 -750 basechar 0
+AnchorPoint: "TwoDotsBelow" 262 -440 basechar 0
+AnchorPoint: "HighHamza" 330 1300 basechar 0
+AnchorPoint: "TashkilBelow" 180 -210 basechar 0
+AnchorPoint: "DotBelowAlt" 373 -750 basechar 0
+AnchorPoint: "DotBelow" 373 -590 basechar 0
+AnchorPoint: "HamzaBelow" 373 -590 basechar 0
+AnchorPoint: "DigitBelow" 373 -590 basechar 0
+AnchorPoint: "RingBelow" 380 500.083 basechar 0
 LayerCount: 2
 Back
 SplineSet
-135 959 m 2,0,1
- 147 995 147 995 169 974 c 0,2,3
- 215 931 215 931 259 837 c 128,-1,4
- 303 743 303 743 319 645 c 128,-1,5
- 335 547 335 547 307.5 445 c 128,-1,6
- 280 343 280 343 219 275 c 0,7,8
- 100 140 100 140 -98 133 c 0,9,10
- -118 132 -118 132 -107 152 c 1,11,-1
- -50 268 l 1,12,13
- -47 271 -47 271 1 281 c 0,14,15
- 163 315 163 315 259 421 c 1,16,17
- 265 527 265 527 211 616.5 c 128,-1,18
- 157 706 157 706 92 757 c 0,19,20
- 73 772 73 772 83 802 c 2,21,-1
- 135 959 l 2,0,1
+165 959 m 2,0,1
+ 177 995 177 995 199 974 c 0,2,3
+ 245 931 245 931 289 837 c 128,-1,4
+ 333 743 333 743 349 645 c 128,-1,5
+ 365 547 365 547 337.5 445 c 128,-1,6
+ 310 343 310 343 249 275 c 0,7,8
+ 130 140 130 140 -68 133 c 0,9,10
+ -88 132 -88 132 -77 152 c 1,11,-1
+ -20 268 l 1,12,13
+ -17 271 -17 271 31 281 c 0,14,15
+ 193 315 193 315 289 421 c 1,16,17
+ 295 527 295 527 241 616.5 c 128,-1,18
+ 187 706 187 706 122 757 c 0,19,20
+ 103 772 103 772 113 802 c 2,21,-1
+ 165 959 l 2,0,1
 EndSplineSet
 Fore
 SplineSet
-377.057617188 633.930664062 m 2xa0
- 377.862304688 267.325195312 l 6
- 377.862304688 120.11328125 258.5546875 0 111.342773438 0 c 6
- -50 0 l 5
- -50 436.270507812 l 5xc0
- 217.681640625 436.270507812 l 5
- 217.681640625 582.23046875 53.4775390625 723.450195312 53.4775390625 723.450195312 c 5
- 280.913085938 902.322265625 l 5
- 280.913085938 902.322265625 376.748430339 774.792290095 377.057617188 633.930664062 c 2xa0
+407.057617188 633.930664062 m 2xa0
+ 407.862304688 267.325195312 l 6
+ 407.862304688 120.11328125 288.5546875 0 141.342773438 0 c 6
+ -20 0 l 5
+ -20 436.270507812 l 5xc0
+ 247.681640625 436.270507812 l 5
+ 247.681640625 582.23046875 83.4775390625 723.450195312 83.4775390625 723.450195312 c 5
+ 310.913085938 902.322265625 l 5
+ 310.913085938 902.322265625 406.748046875 774.791992188 407.057617188 633.930664062 c 2xa0
 EndSplineSet
 Colour: ffff00
 EndChar

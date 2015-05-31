@@ -5,11 +5,11 @@ Flags: W
 HStem: 0 436.181<329.484 1406.3> 503.437 321.613<1095.56 1388.11> 992.563 191.394<1095.9 1262.68>
 VStem: 958.935 127.446<836.112 982.551> 1410.95 174.848<436.181 503.437>
 AnchorPoint: "DotAlt" 1010 -300 basechar 0
-AnchorPoint: "TashkilBelow" 887 -210 basechar 0
+AnchorPoint: "TashkilBelow" 850 -210 basechar 0
 AnchorPoint: "TwoDotsAbove" 1199 1350 basechar 0
 AnchorPoint: "HamzaAbove" 1283 1297 basechar 0
 AnchorPoint: "DotAbove" 1310 1350 basechar 0
-AnchorPoint: "TashkilAbove" 1256 1352 basechar 0
+AnchorPoint: "TashkilAbove" 1250 1400 basechar 0
 AnchorPoint: "TwoDotsBelow" 1610 -100 basechar 0
 AnchorPoint: "DotBelow" 1710 -100 basechar 0
 LayerCount: 2

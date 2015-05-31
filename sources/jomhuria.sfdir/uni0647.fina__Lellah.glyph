@@ -3,8 +3,8 @@ Encoding: 400 -1 68
 Width: 934
 Flags: W
 HStem: 0 21G<713.548 984.853>
-AnchorPoint: "TashkilAbove" 478 983 basechar 0
-AnchorPoint: "TashkilBelow" 396 -177 basechar 0
+AnchorPoint: "TashkilAbove" 300 950 basechar 0
+AnchorPoint: "TashkilBelow" 450 -210 basechar 0
 LayerCount: 2
 Back
 SplineSet

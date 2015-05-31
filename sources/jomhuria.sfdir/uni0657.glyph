@@ -9,7 +9,7 @@ AnchorPoint: "TashkilTashkilAbove" -17.4463 1640 mark 0
 AnchorPoint: "TashkilTashkilAbove" 41.5537 2464 basemark 0
 AnchorPoint: "MarkAbove" -24.4463 1640 mark 0
 AnchorPoint: "TashkilAboveDot" -17.4463 1640 mark 0
-AnchorPoint: "TashkilAbove" 246 1707 mark 0
+AnchorPoint: "TashkilAbove" 250 1700 mark 0
 LayerCount: 2
 Back
 Fore
