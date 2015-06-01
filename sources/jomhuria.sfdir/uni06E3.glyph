@@ -7,7 +7,6 @@ Flags: HW
 AnchorPoint: "MarkBelow" 379 -190 mark 0
 AnchorPoint: "SeenBelow" 339 -400 mark 0
 LayerCount: 2
-Back
 Fore
 Refer: 1057 1756 S 1 0 0 1 -0.000213175 -3811 2
 Colour: ffffff

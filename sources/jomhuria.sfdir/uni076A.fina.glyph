@@ -7,7 +7,6 @@ HStem: -430.191 442.713<422.651 819.606> 0 436.188<1119.72 1433.23> 566 126<731 
 AnchorPoint: "TashkilAbove" 901 1270 basechar 0
 AnchorPoint: "TashkilBelow" 650 -650 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 1226 692 m 1x20
