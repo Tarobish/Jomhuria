@@ -8,7 +8,7 @@ VStem: 46 59.6865<1861.7 1887.38> 170.904 55.0957<1950.32 1977.7> 287.218 68.869
 AnchorPoint: "TashkilTashkilBelow" 358.913 1640 basemark 0
 AnchorPoint: "TashkilTashkilAbove" 380 2089.23 basemark 0
 AnchorPoint: "TashkilAboveDot" 380.913 1640 mark 0
-AnchorPoint: "TashkilAbove" 220 1700 mark 0
+AnchorPoint: "TashkilAbove" 250 1700 mark 0
 AnchorPoint: "MarkAbove" 380.913 1640 mark 0
 LayerCount: 2
 Back
