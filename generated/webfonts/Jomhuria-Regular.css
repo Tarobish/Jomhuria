@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: AmiriWeb;
+    font-style: normal;
+    font-weight: 400;
+    src: url('Jomhuria-Regular.eot?') format('eot'),
+         url('Jomhuria-Regular.woff2') format('woff2'),
+         url('Jomhuria-Regular.woff') format('woff'),
+         url('Jomhuria-Regular.ttf')  format('truetype');
+}

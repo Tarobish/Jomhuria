@@ -1,6 +1,7 @@
 .PHONY: all clean ttf web pack check
 
-NAME=jomhuria
+NAME=Jomhuria-Regular
+SOURCENAME=jomhuria
 VERSION=0.001
 
 TOOLS=tools
@@ -53,11 +54,11 @@ ttf: $(DTTF)
 web: $(WTTF) $(WOFF) $(WOF2) $(EOTS) $(CSSS)
 doc: $(PDFTABLE) $(DDTDOCS)
 
-$(GEN)/$(NAME).ttf: $(SRC)/$(NAME).sfdir $(SRC)/$(NAME)-latin.sfdir $(SRC)/$(NAME).fea $(FEAT) $(BUILD)
+$(GEN)/$(NAME).ttf: $(SRC)/$(SOURCENAME).sfdir $(SRC)/$(SOURCENAME)-latin.sfdir $(SRC)/$(SOURCENAME).fea $(FEAT) $(BUILD)
 	@echo "   FF	$@"
 	@mkdir -p $(GEN)
-	@$(PP) $(SRC)/$(NAME).fea -o $(SRC)/$(NAME).fea.pp
-	@$(FF) --input $< --output $@ --latin $(SRC)/$(NAME)-latin.sfdir --features=$(SRC)/$(NAME).fea.pp --version $(VERSION)
+	@$(PP) $(SRC)/$(SOURCENAME).fea -o $(SRC)/$(SOURCENAME).fea.pp
+	@$(FF) --input $< --output $@ --latin $(SRC)/$(SOURCENAME)-latin.sfdir --features=$(SRC)/$(SOURCENAME).fea.pp --version $(VERSION)
 
 $(WEB)/%.ttf: $(GEN)/%.ttf $(MAKEWEB)
 	@echo "   FF	$@"
