@@ -1,4 +1,7 @@
-Copyright 2015 Korosh Beigpour (www.k-b-studio.com|tarobish@gmail.com). Copyright 2015, Lasse Fister (lasse@graphicore.de). Copyright 2010-2015 Khaled Hosny (khaledhosny@eglug.org).
+Copyright 2015 Mehdi Beigpour (www.k-b-studio.com|tarobish@gmail.com).
+Copyright 2015, Lasse Fister (lasse@graphicore.de).
+Copyright 2010-2015 Khaled Hosny (khaledhosny@eglug.org).
+with Reserved Font Name Jomhuria.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
@@ -18,7 +21,7 @@ with others.
 
 The OFL allows the licensed fonts to be used, studied, modified and
 redistributed freely as long as they are not sold by themselves. The
-fonts, including any derivative works, can be bundled, embedded, 
+fonts, including any derivative works, can be bundled, embedded,
 redistributed and/or sold with any software provided that any reserved
 names are not used by derivative works. The fonts and derivatives,
 however, cannot be released under any other type of license. The

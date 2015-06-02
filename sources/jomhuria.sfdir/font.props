@@ -1,12 +1,12 @@
 SplineFontDB: 3.0
-FontName: Amiri-Regular
-FullName: Amiri
-FamilyName: Amiri
+FontName: Jomhuria-Regular
+FullName: Jomhuria
+FamilyName: Jomhuria
 Weight: Regular
-Copyright: Copyright (c) 2010-2013, Khaled Hosny <khaledhosny@eglug.org>.\nPortions copyright (c) 2010, Sebastian Kosch <sebastian@aldusleaf.org>\n\nThis Font Software is licensed under the Open Font License, Version 1.1.
+Copyright: Copyright 2015 Korosh Beigpour (www.k-b-studio.com|tarobish@gmail.com). Copyright 2015, Lasse Fister (lasse@graphicore.de). Copyright 2010-2015 Khaled Hosny (khaledhosny@eglug.org). 
 UComments: "2010-5-8: Created."
 FontLog: "2015-03-12 04:13:08.348837+AAoA-This file was generated from the sources of Amiri Font by Khaled Hosny,+AAoA-to serve as a blueprint for the font engineering of Jomhuria font.+AAoA-http://www.amirifont.org/+AAoA-Amiri git:  git@github.com:khaledhosny/amiri-font.git+AAoA-git revison: c98ee68a353536ba9944f6fe58e3f86f1212236a+AAoA"
-Version: VERSION
+Version: 
 ItalicAngle: 0
 UnderlinePosition: -1100
 UnderlineWidth: 102
@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1273266481
-ModificationTime: 1433620032
+ModificationTime: 1433272715
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -41,8 +41,6 @@ HheadAscent: 2300
 HheadAOffset: 0
 HheadDescent: -1300
 HheadDOffset: 0
-OS2CapHeight: 0
-OS2XHeight: 0
 OS2Vendor: 'BLQ '
 Lookup: 259 9 0 "'curs' Cursive Attachment" { "'curs' Cursive Attachment-1"  } ['curs' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'URD ' 'SND ' > ) ]
 Lookup: 260 0 0 "'mark' Generic Mark Anchor" { "'mark' Generic Mark Anchor-1"  "'mark' Generic Mark Anchor-2"  } ['mark' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'URD ' 'SND ' > 'latn' <'dflt' 'TRK ' > ) ]
@@ -90,8 +88,7 @@ PUSHB_1
  4
 SCANTYPE
 EndTTInstrs
-LangName: 1033 "" "" "" "" "" "" "" "" "" "Khaled Hosny" "Amiri is a classical Arabic typeface in Naskh style for typesetting books and other running text. Its design is a revival of the beautiful typeface pioneered in early 20th century by Bulaq Press in Cairo, also known as Amiria Press, after which the font is named." "http://www.amirifont.org" "http://www.khaledhosny.org" "Copyright (c) 2010-2013, Khaled Hosny (<khaledhosny@eglug.org>)+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
-LangName: 3073 "+Bi0GQgZIBkIA +BicGRAZGBjQGMQAA 2010-2013+BgwA +Bi4GJwZEBi8A +Bi0GMwZGBkoA <khaledhosny@eglug.org>.+AAoACgYqBk8GMQYuBlEGNQAA +BigGMQZFBiwGSgYp +BicGRAYuBjcA +BkcGMAZH +BigGMQYuBjUGKQAA +BicGRAYuBjcGSAY3 +BicGRAYtBjEGKQAA +BicGRAYlBjUGLwYnBjEGKQAA 1,1." "" "+BjkGJwYvBkoA" "" "" "+BiUGNQYvBicGMQYp VERSION" "" "" "" "+Bi4GJwZEBi8A +Bi0GMwZGBkoA" "+BicGRAYuBjcA +BicGRAYjBkUGSgYxBkoA +BkcGSAAA +BiUGLQZKBicGIQAA +BkQGLgY3 +BicGRAZGBjMGLgAA +BicGRAYwBkoA +BjUGTwZFBkUA +BkgGJwYzBioGLgYvBkUA +BkQGRAZFBjEGKQAA +BicGRAYjBkgGRAZK +BkEGSgAA +BkUGKAY3BjkGKQAA +BigGSAZEBicGQgAA +BigGJwZEBkIGJwZHBjEGKQAA )+BioGOQYxBkEA +BiMGSgY2BicA +BigGJwZEBkUGNwYoBjkGKQAA +BicGRAYjBkUGSgYxBkoGKQAA( +BkEGSgAA +BiMGSAYnBiYGRAAA +BicGRAZCBjEGRgAA +BicGRAY5BjQGMQZKBkYA.  +BioGRQZKBjIA +BicGRAYuBjcA +BicGRAYjBkUGSgYxBkoA +BkYGJwYoBjkA +BkUGRgAA +BkUGSAYyBicGRgYqBkcA +BicGRAZFBioGRQZKBjIGKQAA +BigGSgZG +BiwGRQYnBkQA +Bi4GNwAA +BicGRAZGBjMGLgAA +BkgGRQYqBjcGRAYoBicGKgAA +BicGRAY3BigGJwY5BikA +BicGRAYxBicGQgZKBikA. +BicGRAYuBjcA +BicGRAYjBkUGSgYxBkoA +BkUGSAYsBkcA +BiMGQwYrBjEA +BkQGNwYoBicGOQYp +BicGRAZGBjUGSAY1 +BicGRAY3BkgGSgZEBikA +BkgGJwZEBkMGKgYo."
+LangName: 1033 "" "" "" "" "" "" "" "" "" "Kourosh Beigpour, Lasse Fister" "" "https://github.com/Tarobish/Jomhuria" "https://github.com/Tarobish/Jomhuria" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL"
 GaspTable: 1 65535 15 1
 Encoding: Custom
 Compacted: 1
@@ -100,19 +97,10 @@ NameList: AGL without afii
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1974 21 10
+WinInfo: 900 20 8
 BeginPrivate: 0
 EndPrivate
 Grid
--2048 1060.89285714 m 0
- 4096 1060.89285714 l 1024
-  Named: "H2"
--2048 794.9 m 0
- 4096 794.9 l 1024
-  Named: "H"
--2048 877.160766602 m 0
- 4096 877.160766602 l 1024
-  Named: "hamzeh"
 130.204589844 2662 m 0
  130.204589844 -1434 l 1024
   Named: "1"
@@ -150,5 +138,6 @@ Grid
  4096 -190 l 1049
   Named: "Digits base"
 EndSplineSet
+TeXData: 1 0 0 307200 153600 102400 0 -1048576 102400 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "MarkAbove" "'mark' Generic Mark Anchor-1" "MarkBelow" "'mark' Generic Mark Anchor-2" "TashkilAbove" "'mark' Tashkil Above Base-1" "TashkilBelow" "'mark' Tashkil Below Base-1" "TashkilTashkilAbove" "'mkmk' Tashkil to Tashkil Above-1" "TashkilTashkilBelow" "'mkmk' Tashkil to Tashkil Below-1" "TashkilTashkilAbove2" "'mkmk' Tashkil to Tashkil Above 2-1" "TashkilAboveDot" "Tashkil Above Dot-1" "TashkilBelowDot" "Tashkil Below Dot-1" "HamzaAbove" "'mark' Hamza Above-1" "HamzaBelow" "'mark' Hamza Below-1" "HighHamza" "'mark' High Hamza-1" "DotAbove" "'mark' Dot Above-1" "DotBelow" "'mark' Dot Below-1" "DotBelowAlt" "'mark' Dot Below Alt-1" "TwoDotsAbove" "'mark' Two Dots Above-1" "TwoDotsBelow" "'mark' Two Dots Below-1" "TwoDotsBelowAlt" "'mark' Two Dots Below Alt-1" "DigitAbove" "'mark' Digit Above-1" "DigitBelow" "'mark' Digit Below-1" "MarkDotAbove" "'mkmk' Mark to Dot Above-1" "MarkDotBelow" "'mkmk' Mark to Dot Below-1" "TaaAbove" "'mark' Small Taa Above-1" "TaaBelow" "'mark' Small Taa Below-1" "AlefAbove" "'mark' Small Alef Above-1" "SeenAbove" "'mark' Seen Above-1" "SeenBelow" "'mark' Seen Below-1" "NoonAbove" "'mark' Noon Above-1" "VAbove" "'mark' V Mark Above-1" "RingDash" "'mkmk' Ring to Dash-1" "RingBelow" "'mark' Ring Below-1" "DotAlt" "'mark' Dot Alt-1" "DotHmaza" "'mkmk' Dot above Hamza-1" "Tail" "'mark' Yaa Tail-1" "Dash" "'mark' Dash-1" "Stroke" "'mark' Stroke-1" "cursive" "'curs' Cursive Attachment-1" 
 EndSplineFont

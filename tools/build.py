@@ -156,6 +156,20 @@ def generateFont(font, outfile):
     from fontTools.ttLib import TTFont
     ftfont = TTFont(tmpfile)
 
+
+    # the ttf contains NAME table IDs with platformID="1", these should be removed
+    name = ftfont['name']
+    names = []
+    for record in name.names:
+        if record.platformID == 1:
+            continue;
+        names.append(record)
+    name.names = names
+
+    # remove non-standard 'FFTM' the FontForge time stamp table
+    del ftfont['FFTM'];
+
+
     # force compiling tables by fontTools, saves few tens of KBs
     for tag in ftfont.keys():
         if hasattr(ftfont[tag], "compile"):
@@ -734,10 +748,10 @@ def makeDesktop(infile, outfile, latinfile, feafile, version, generate=True):
     #makeOverUnderline(font)
 
     # sample text to be used by font viewers
-    sample = 'صِفْ خَلْقَ خَوْدٍ كَمِثْلِ ٱلشَّمْسِ إِذْ بَزَغَتْ يَحْظَىٰ ٱلضَّجِيعُ بِهَا نَجْلَاءَ مِعْطَارِ.'
-
-    for lang in ('Arabic (Egypt)', 'English (US)'):
-        font.appendSFNTName(lang, 'Sample Text', sample)
+    # sample = 'صِفْ خَلْقَ خَوْدٍ كَمِثْلِ ٱلشَّمْسِ إِذْ بَزَغَتْ يَحْظَىٰ ٱلضَّجِيعُ بِهَا نَجْلَاءَ مِعْطَارِ.'
+    #
+    # for lang in ('Arabic (Egypt)', 'English (US)'):
+    #     font.appendSFNTName(lang, 'Sample Text', sample)
 
     if latinfile:
         # mergeLatin(font, latinfile)
