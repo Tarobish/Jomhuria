@@ -3,10 +3,10 @@ Encoding: 6305 2276 2128
 Width: 0
 Flags: W
 HStem: 1788.67 557.844
-AnchorPoint: "TashkilTashkilAbove" -40.5547 2089.66 basemark 0
-AnchorPoint: "MarkAbove" 208.926 1777.81 mark 0
+AnchorPoint: "TashkilTashkilAbove" 123 2417 basemark 0
+AnchorPoint: "MarkAbove" 150 1800 mark 0
 AnchorPoint: "TashkilAbove" 180 1750 mark 0
-AnchorPoint: "TashkilAboveDot" 215.857 1777.81 mark 0
+AnchorPoint: "TashkilAboveDot" 137 1789 mark 0
 LayerCount: 2
 Back
 SplineSet

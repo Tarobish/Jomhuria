@@ -2,8 +2,10 @@ StartChar: uni08F1.small
 Encoding: 525 -1 138
 Width: 731
 GlyphClass: 4
-Flags: HW
-AnchorPoint: "TashkilTashkilAbove" 418.713 1548 mark 0
+Flags: W
+HStem: 1730 100.397<45 161.68 370.6 487.28> 1875.09 122.74<325.763 355.78 651.363 681.381>
+VStem: 45 636.687
+AnchorPoint: "TashkilTashkilAbove" 300 1700 mark 0
 LayerCount: 2
 Back
 SplineSet

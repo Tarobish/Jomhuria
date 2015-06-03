@@ -4,10 +4,11 @@ Width: 403
 Flags: W
 HStem: -1151 303.367
 VStem: 49.9997 303.368
-AnchorPoint: "MarkBelow" 174.595 -670 mark 0
+AnchorPoint: "MarkBelow" 164 -850 mark 0
 AnchorPoint: "TashkilBelowDot" 175.595 -670 mark 0
 AnchorPoint: "TashkilBelow" 220 -950 mark 0
 LayerCount: 2
+Back
 Fore
 Refer: 78 -1 S 1 0 0 1 201.595 -1151 2
 Colour: ffffff

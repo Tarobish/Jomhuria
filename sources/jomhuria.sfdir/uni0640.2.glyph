@@ -3,8 +3,8 @@ Encoding: 4873 -1 1084
 Width: 714
 Flags: W
 HStem: 0 436.188<-50 764.557>
-AnchorPoint: "MarkBelow" 350 -670 basechar 0
-AnchorPoint: "MarkAbove" 359 1640 basechar 0
+AnchorPoint: "MarkBelow" 345 -200 basechar 0
+AnchorPoint: "MarkAbove" 379 600 basechar 0
 LayerCount: 2
 Back
 SplineSet

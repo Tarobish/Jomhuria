@@ -4,7 +4,7 @@ Width: 0
 VWidth: 2738
 GlyphClass: 4
 Flags: W
-AnchorPoint: "MarkAbove" -1 1570 mark 0
+AnchorPoint: "MarkAbove" 0 1587 mark 0
 AnchorPoint: "TashkilAbove" -50 1600 mark 0
 LayerCount: 2
 Back

@@ -4,10 +4,11 @@ Width: 0
 Flags: W
 HStem: 2297.6 100.397<7.47159 123>
 VStem: -188.087 311.087
-AnchorPoint: "TashkilTashkilAbove2" 52 2137 basemark 0
+AnchorPoint: "TashkilTashkilAbove2" -20 2529 basemark 0
 AnchorPoint: "TashkilAbove" -50 1880 mark 0
-AnchorPoint: "TashkilTashkilAbove" 132 1657 mark 0
+AnchorPoint: "TashkilTashkilAbove" -68 1950 mark 0
 LayerCount: 2
+Back
 Fore
 Refer: 139 -1 S -1 0 0 -1 168 4127 2
 Colour: ffffff

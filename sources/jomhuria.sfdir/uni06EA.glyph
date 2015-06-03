@@ -5,7 +5,7 @@ GlyphClass: 4
 Flags: W
 HStem: -1254.71 405.412
 VStem: 0 311.449
-AnchorPoint: "MarkBelow" 163.099 -844.362 mark 0
+AnchorPoint: "MarkBelow" 163.099 -850 mark 0
 LayerCount: 2
 Back
 SplineSet

@@ -5,9 +5,10 @@ GlyphClass: 4
 Flags: W
 HStem: 1728 122.95<106.196 274.443>
 VStem: 103 311.244
-AnchorPoint: "TashkilTashkilAbove" -50 1470 basemark 0
+AnchorPoint: "TashkilTashkilAbove" 218 2150 basemark 0
 AnchorPoint: "HamzaAbove" 273 1693 mark 0
 LayerCount: 2
+Back
 Fore
 Refer: 114 1631 S 1 0 0 1 0 2931 2
 Colour: ffffff

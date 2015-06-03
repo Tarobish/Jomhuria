@@ -5,7 +5,7 @@ GlyphClass: 4
 Flags: W
 HStem: 1733.07 30.3027<157.841 206.326> 2075.58 29.9971<158.04 206.786>
 VStem: 50 104.314<1780.08 2054.25> 210.145 103.702<1784.39 2058.27>
-AnchorPoint: "MarkAbove" 194.089 1640 mark 0
+AnchorPoint: "MarkAbove" 194.089 1750 mark 0
 AnchorPoint: "TashkilAbove" 230 1700 mark 0
 LayerCount: 2
 Back

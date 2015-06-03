@@ -6,7 +6,7 @@ GlyphClass: 4
 Flags: W
 HStem: 2600 127.332<113.238 291.595> 2723.66 125.496<337.205 406.733 449.356 495.486>
 AnchorPoint: "SeenAbove" 342.566 2567.42 mark 0
-AnchorPoint: "MarkAbove" 421.566 2467.42 mark 0
+AnchorPoint: "MarkAbove" 287 2600 mark 0
 LayerCount: 2
 Back
 SplineSet

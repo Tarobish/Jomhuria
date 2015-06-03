@@ -8,6 +8,7 @@ AnchorPoint: "TashkilBelow" 450 -850 basechar 0
 AnchorPoint: "TashkilAbove" 341 478 basechar 0
 AnchorPoint: "HamzaAbove" 328 928 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 1926 -1 S 1 0 0 1 0 -3 2
 EndChar

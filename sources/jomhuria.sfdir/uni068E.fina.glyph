@@ -5,9 +5,10 @@ VWidth: 0
 Flags: W
 HStem: -0.27832 436.466<285.639 612.977 907.881 1143.37> 1109.49 540.642
 VStem: 240.878 563.806
-AnchorPoint: "TashkilAbove" 573 1761 basechar 0
+AnchorPoint: "TashkilAbove" 580 1850 basechar 0
 AnchorPoint: "TashkilBelow" 450 -210 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 11 -1 N 1 0 0 1 0 0 2
 Refer: 77 -1 N 1 0 0 1 521 1109.49 2

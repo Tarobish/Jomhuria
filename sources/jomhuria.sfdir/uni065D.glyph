@@ -5,8 +5,8 @@ GlyphClass: 4
 Flags: W
 HStem: 1728.89 100.397<287.923 407>
 VStem: 96.3936 310.606
-AnchorPoint: "MarkAbove" 569 1640 mark 0
-AnchorPoint: "TashkilAboveDot" 570 1640 mark 0
+AnchorPoint: "MarkAbove" 236 1750 mark 0
+AnchorPoint: "TashkilAboveDot" 205 1761 mark 0
 AnchorPoint: "TashkilAbove" 280 1650 mark 0
 LayerCount: 2
 Back

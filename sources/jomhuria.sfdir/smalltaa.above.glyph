@@ -6,7 +6,7 @@ GlyphClass: 4
 Flags: W
 HStem: 0.790039 122.128<-134.959 -120.88 -13.1377 132.56> 194.542 87.541<13.7638 135.927>
 AnchorPoint: "MarkDotAbove" 0 423 basemark 0
-AnchorPoint: "TashkilAboveDot" -40 750 basemark 0
+AnchorPoint: "TashkilAboveDot" -55 410 basemark 0
 AnchorPoint: "TaaAbove" -1.02832 0.790039 mark 0
 AnchorPoint: "MarkDotAbove" -1.02832 0.790039 mark 0
 LayerCount: 2

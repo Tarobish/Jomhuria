@@ -5,7 +5,7 @@ GlyphClass: 4
 Flags: W
 HStem: 0 540.642
 VStem: -280.122 563.806
-AnchorPoint: "TashkilAboveDot" -119 657 basemark 0
+AnchorPoint: "TashkilAboveDot" -41 601 basemark 0
 AnchorPoint: "TwoDotsAbove" -111 140 mark 0
 AnchorPoint: "DotHmaza" 0 0 mark 0
 LayerCount: 2

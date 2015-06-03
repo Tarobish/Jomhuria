@@ -5,11 +5,11 @@ GlyphClass: 4
 Flags: W
 HStem: 1730 424<124.76 164.831>
 VStem: -3.20117 286.153
-AnchorPoint: "MarkAbove" 189 1640 mark 0
+AnchorPoint: "MarkAbove" 150 1700 mark 0
 AnchorPoint: "TashkilAbove" 160 1650 mark 0
-AnchorPoint: "TashkilAboveDot" 196 1640 mark 0
-AnchorPoint: "TashkilTashkilAbove" 202 1637 mark 0
-AnchorPoint: "TashkilTashkilAbove" 252 2326 basemark 0
+AnchorPoint: "TashkilAboveDot" 96 1720 mark 0
+AnchorPoint: "TashkilTashkilAbove" 109 1748 mark 0
+AnchorPoint: "TashkilTashkilAbove" 92 2232 basemark 0
 LayerCount: 2
 Back
 SplineSet
