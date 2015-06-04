@@ -7,7 +7,7 @@ VStem: 490.574 127.447<587.22 733.569>
 AnchorPoint: "TashkilBelow" 650 -500 basechar 0
 AnchorPoint: "TwoDotsAbove" 860 1100 basechar 0
 AnchorPoint: "TashkilAbove" 800 1100 basechar 0
-AnchorPoint: "HamzaAbove" 737 1079 basechar 0
+AnchorPoint: "HamzaAbove" 750 1100 basechar 0
 AnchorPoint: "DotAbove" 970 1100 basechar 0
 LayerCount: 2
 Back

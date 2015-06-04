@@ -5,7 +5,7 @@ GlyphClass: 4
 Flags: W
 HStem: 1730 147.229<219.825 326.09> 1949.46 72.8496<245.329 333.289>
 VStem: 103 283.389
-AnchorPoint: "HamzaAbove" 218 1652 mark 0
+AnchorPoint: "HamzaAbove" 240 1650 mark 0
 LayerCount: 2
 Back
 SplineSet

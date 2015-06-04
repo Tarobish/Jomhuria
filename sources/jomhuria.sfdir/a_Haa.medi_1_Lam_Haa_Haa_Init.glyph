@@ -13,7 +13,7 @@ AnchorPoint: "HamzaBelow" 1011 -280 basechar 0
 AnchorPoint: "DigitBelow" 1011 -280 basechar 0
 AnchorPoint: "TaaBelow" 1011 120 basechar 0
 AnchorPoint: "DotAbove" 1011 1210 basechar 0
-AnchorPoint: "HamzaAbove" 478 1133 basechar 0
+AnchorPoint: "HamzaAbove" 450 1150 basechar 0
 AnchorPoint: "TaaAbove" 1011 1210 basechar 0
 LayerCount: 2
 Back

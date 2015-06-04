@@ -7,7 +7,7 @@ HStem: 876 492.393
 VStem: -157 310.348
 AnchorPoint: "TashkilTashkilAbove" -46.0186 1435.17 basemark 0
 AnchorPoint: "MarkAbove" -1.91895 900 mark 0
-AnchorPoint: "HamzaAbove" -1.01855 967.167 mark 0
+AnchorPoint: "HamzaAbove" 0 950 mark 0
 AnchorPoint: "TashkilAbove" 10 950 mark 0
 LayerCount: 2
 Back

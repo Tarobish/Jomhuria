@@ -3,7 +3,7 @@ Encoding: 284 -1 28
 Width: 1649
 Flags: W
 HStem: 0 436.181<329.484 1311.52>
-AnchorPoint: "HamzaAbove" 724 669 basechar 0
+AnchorPoint: "HamzaAbove" 800 700 basechar 0
 AnchorPoint: "TashkilAbove" 800 700 basechar 0
 AnchorPoint: "TwoDotsBelow" 500 -200 basechar 0
 AnchorPoint: "DotBelow" 610 -200 basechar 0

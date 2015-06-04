@@ -6,7 +6,7 @@ HStem: 0 436.091<262.529 528.608> 603.604 191.305<260.875 425.22>
 VStem: 123.909 632.583<103.9 431.057> 123.909 127.447<447.153 593.502>
 AnchorPoint: "RingBelow" 540 -20 basechar 0
 AnchorPoint: "TwoDotsAbove" 599 900 basechar 0
-AnchorPoint: "HamzaAbove" 410 928 basechar 0
+AnchorPoint: "HamzaAbove" 400 950 basechar 0
 AnchorPoint: "DotAbove" 710 900 basechar 0
 AnchorPoint: "DigitAbove" 710 900 basechar 0
 AnchorPoint: "TashkilAbove" 450 950 basechar 0

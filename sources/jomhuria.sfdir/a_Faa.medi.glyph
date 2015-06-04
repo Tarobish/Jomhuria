@@ -7,7 +7,7 @@ AnchorPoint: "TwoDotsBelow" 270 -300 basechar 0
 AnchorPoint: "TwoDotsAbove" 300 1200 basechar 0
 AnchorPoint: "TashkilBelow" 150 -210 basechar 0
 AnchorPoint: "DotBelow" 370 -300 basechar 0
-AnchorPoint: "HamzaAbove" 396 1120 basechar 0
+AnchorPoint: "HamzaAbove" 420 1100 basechar 0
 AnchorPoint: "TashkilAbove" 500 1100 basechar 0
 AnchorPoint: "DotAbove" 485 1200 basechar 0
 LayerCount: 2

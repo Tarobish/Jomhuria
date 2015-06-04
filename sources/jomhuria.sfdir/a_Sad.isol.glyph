@@ -6,7 +6,7 @@ HStem: -428.578 441.994<422.643 849.743> 0 436.181<1189.61 1329.58 1451.9 1897.4
 AnchorPoint: "TashkilBelow" 650 -650 basechar 0
 AnchorPoint: "TwoDotsAbove" 1570 1110 basechar 0
 AnchorPoint: "TashkilAbove" 1700 950 basechar 0
-AnchorPoint: "HamzaAbove" 1625 847 basechar 0
+AnchorPoint: "HamzaAbove" 1650 900 basechar 0
 AnchorPoint: "DotAbove" 1681 1110 basechar 0
 AnchorPoint: "TwoDotsBelow" 1700 -200 basechar 0
 AnchorPoint: "DotBelow" 1800 -200 basechar 0

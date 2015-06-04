@@ -4,8 +4,8 @@ Width: 934
 VWidth: 0
 Flags: W
 HStem: 0 21G<713.548 984.853>
-AnchorPoint: "HamzaAbove" 478 983 basechar 0
-AnchorPoint: "TashkilAbove" 492 1010 basechar 0
+AnchorPoint: "HamzaAbove" 300 950 basechar 0
+AnchorPoint: "TashkilAbove" 300 950 basechar 0
 AnchorPoint: "TashkilBelow" 450 -210 basechar 0
 LayerCount: 2
 Back
