@@ -4,7 +4,7 @@ Width: 576
 Flags: W
 HStem: 0 21G<191.721 218.699>
 VStem: 110.769 415.878
-AnchorPoint: "DigitAbove" -34 1280 basechar 0
+AnchorPoint: "DigitAbove" 250 1350 basechar 0
 AnchorPoint: "HamzaAbove" 273 1270 basechar 0
 AnchorPoint: "TashkilAbove" 300 1300 basechar 0
 AnchorPoint: "TashkilBelow" 341 -150 basechar 0

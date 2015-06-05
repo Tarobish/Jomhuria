@@ -10,13 +10,13 @@ AnchorPoint: "TwoDotsBelow" 80 -780 basechar 0
 AnchorPoint: "TaaAbove" 110 670 basechar 0
 AnchorPoint: "VAbove" 110 740 basechar 0
 AnchorPoint: "HamzaAbove" 130 700 basechar 0
-AnchorPoint: "DigitAbove" 110 870 basechar 0
+AnchorPoint: "DigitAbove" 130 800 basechar 0
 AnchorPoint: "DotAbove" 110 870 basechar 0
 AnchorPoint: "DigitBelow" 180 -880 basechar 0
 AnchorPoint: "RingBelow" 210 120 basechar 0
 AnchorPoint: "HighHamza" 210 740 basechar 0
 AnchorPoint: "TashkilBelow" 180 -210 basechar 0
-AnchorPoint: "TashkilAbove" 180 696 basechar 0
+AnchorPoint: "TashkilAbove" 130 700 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -49,5 +49,4 @@ SplineSet
  415.197265625 479.283203125 l 6
  415.1796875 456.56640625 430.939453125 436.271484375 452.044921875 436.271484375 c 6
 EndSplineSet
-Colour: ff0000
 EndChar

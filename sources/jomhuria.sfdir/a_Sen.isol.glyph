@@ -10,7 +10,7 @@ AnchorPoint: "TashkilAbove" 1450 800 basechar 0
 AnchorPoint: "DotAbove" 1532 1070 basechar 0
 AnchorPoint: "HamzaAbove" 1400 800 basechar 0
 AnchorPoint: "VAbove" 1532 1070 basechar 0
-AnchorPoint: "DigitAbove" 1532 1070 basechar 0
+AnchorPoint: "DigitAbove" 1400 800 basechar 0
 AnchorPoint: "DotBelow" 1600 -200 basechar 0
 LayerCount: 2
 Back

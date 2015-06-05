@@ -4,7 +4,7 @@ Width: 0
 Flags: W
 VStem: 110 597.147
 AnchorPoint: "TashkilAbove" 300 1300 basechar 0
-AnchorPoint: "DigitAbove" 50 1300 basechar 0
+AnchorPoint: "DigitAbove" 350 1450 basechar 0
 AnchorPoint: "TashkilBelow" 400 -210 basechar 0
 AnchorPoint: "HamzaAbove" 300 1350 basechar 0
 AnchorPoint: "HamzaBelow" 553 -280 basechar 0

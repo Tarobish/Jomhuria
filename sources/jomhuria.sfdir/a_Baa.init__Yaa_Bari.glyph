@@ -7,7 +7,7 @@ HStem: 742 479.722
 VStem: 274.444 160.556<742 898.504>
 AnchorPoint: "TwoDotsAbove" -408 1524 basechar 0
 AnchorPoint: "TaaAbove" -297 1324 basechar 0
-AnchorPoint: "DigitAbove" -297 1524 basechar 0
+AnchorPoint: "DigitAbove" 160 1250 basechar 0
 AnchorPoint: "VAbove" -297 1524 basechar 0
 AnchorPoint: "DotAbove" -297 1524 basechar 0
 AnchorPoint: "HamzaAbove" 190 1200 basechar 0
@@ -17,7 +17,7 @@ AnchorPoint: "DigitBelow" 74 -263 basechar 0
 AnchorPoint: "DotBelow" 74 -263 basechar 0
 AnchorPoint: "HamzaBelow" 74 -263 basechar 0
 AnchorPoint: "TwoDotsBelow" 75 -265 basechar 0
-AnchorPoint: "TashkilAbove" 218 1215 basechar 0
+AnchorPoint: "TashkilAbove" 100 1200 basechar 0
 AnchorPoint: "TashkilBelow" 450 -850 basechar 0
 LayerCount: 2
 Back

@@ -5,7 +5,7 @@ VWidth: 0
 Flags: W
 HStem: 0.0332031 125.802<158.735 418.528> 0.0332031 82.9502<99.7309 241.936> 202.663 82.6426<111.064 219.422>
 VStem: 50 436.174
-AnchorPoint: "TashkilAbove" 287 410 basechar 0
+AnchorPoint: "TashkilAbove" 250 380 basechar 0
 LayerCount: 2
 Back
 SplineSet
