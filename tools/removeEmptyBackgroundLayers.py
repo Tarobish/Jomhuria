@@ -9,11 +9,24 @@ import os
 def removeEmptyBack(filename):
     file = open(filename, 'r+')
     content = file.read()
+    change = False
+
     pos = content.find('Back\nFore');
-    if pos == -1:
+    if pos != -1:
+        change = True
+        content = content[:pos] + content[pos + len('Back\n'):]
+        print 'found Back', filename
+
+    # Color works for the files we have, but it's most probably not working
+    # for all fontforge glyph files!
+    pos = content.find('Fore\nColor');
+    if pos != -1:
+        change = True
+        content = content[:pos] + content[pos + len('Fore\n'):]
+        print 'found Fore', filename
+
+    if not change:
         return
-    content = content[:pos] + content[pos + len('Back\n'):]
-    print 'found', filename
     file.seek(0)
     file.truncate()
     file.write(content)
