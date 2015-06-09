@@ -20,6 +20,7 @@ from sortsmill import psMat
 import sys
 import os
 from tempfile import mkstemp
+from string import Template
 
 def cleanAnchors(font):
     """Removes anchor classes (and associated lookups) that are used only
@@ -114,26 +115,265 @@ def setVersion(font, version):
             font.appendSFNTName(name[0], name[1],
                                 name[2].replace("VERSION", font.version.replace(".", "\xD9\xAB")))
 
-def mergeFeatures(font, feafile):
-    """Merges feature file into the font while making sure mark positioning
-    lookups (already in the font) come after kerning lookups (from the feature
-    file), which is required by Uniscribe to get correct mark positioning for
-    kerned glyphs."""
 
+def extractGPOSData(font):
+    """extracts and removes feature data from the fontforge file
+       returns the extracted fea string
+    """
     oldfea = font.generateFeatureString()
 
+    # clean up, we will insert this into the new feature file
     for lookup in font.gpos_lookups:
         font.removeLookup(lookup)
 
     for lookup in font.gsub_lookups:
         font.removeLookup(lookup)
 
-    # open feature file and insert the generated GPOS features in place of the
-    # placeholder text
+    return oldfea
+
+def makeShortName(name, maxLen):
+    """
+    example:
+
+    >>> makeShortName("uni064A.init_BaaYaaIsol_uni0640.1", 31)
+    'uni064A.init_BaaYaaIsol_uni_AF2'
+
+    """
+    checksum = '_{0:X}'.format(sum([ord(c) for c in name]))
+    return name[:maxLen-len(checksum)] + checksum;
+
+
+def makeCollisionPrevention(font):
+    """
+    In order to prevent collisions our ideal solution would be to insert
+    a widening glyph between glyphs where collisions happen.
+    OpenType, however, is not defining such many-to-many substitutions.
+
+    What we do instead in a first step is  creating pseudo-ligatures without
+    any content.. In a second step we make a contextual substitution, where
+    the collisions happen, replacing the first glyph with its pseudo ligature.
+    In a third step we can decompose the pseudo-ligatures into the first glyph
+    plus the widening glyph, using a "[GSUB LookupType 2] Multiple substitution".
+
+    This is not ideal, because these pseudo-ligatures remain in the font,
+    however it seems that there is no better way with GSUB.
+    """
+
+    template = Template("""
+@colisionsFirst = [ $first ];
+@colisionsSecond =[ $second ];
+@colisionsFirstWide = [ $pseudoLigatures ];
+
+feature calt {
+  lookup comp {
+    lookupflag IgnoreMarks;
+    sub @colisionsFirst' @colisionsSecond by @colisionsFirstWide;
+  } comp;
+  lookup decomp {
+    lookupflag IgnoreMarks;
+    $decompositions
+  } decomp;
+} calt;
+""")
+
+    first = [
+        'uni0680.init'
+      , 'uni0776.init'
+      , 'uni06CE.init'
+      , 'uni0775.init'
+      , 'uni06BD.init'
+      , 'uni064A.init'
+      , 'uni067E.init'
+      , 'uni0753.init'
+      , 'uni0752.init'
+      , 'uni063D.init'
+      , 'uni0754.init'
+      , 'uni06D1.init'
+      , 'uni06CC.init'
+      , 'uni0767.init'
+      , 'uni0680.medi'
+      , 'uni0776.medi'
+      , 'uni0750.medi'
+      , 'uni06CE.medi'
+      , 'uni0775.medi'
+      , 'uni06BD.medi'
+      , 'uni064A.medi'
+      , 'uni067E.medi'
+      , 'uni0753.medi'
+      , 'uni0752.medi'
+      , 'uni063D.medi'
+      , 'uni0754.medi'
+      , 'uni06D1.medi'
+      , 'uni06CC.medi'
+      , 'uni0767.medi'
+      , 'uni0680.init_High'
+      , 'uni0776.init_High'
+      , 'uni0750.init_High'
+      , 'uni06CE.init_High'
+      , 'uni0775.init_High'
+      , 'uni06BD.init_High'
+      , 'uni064A.init_High'
+      , 'uni067E.init_High'
+      , 'uni0753.init_High'
+      , 'uni0752.init_High'
+      , 'uni063D.init_High'
+      , 'uni0754.init_High'
+      , 'uni06D1.init_High'
+      , 'uni06CC.init_High'
+      , 'uni0767.init_High'
+      , 'uni0680.medi_High'
+      , 'uni0776.medi_High'
+      , 'uniFEF3'
+      , 'uni0680.medi_YaaBari'
+      , 'uni0776.medi_YaaBari'
+      , 'uni0750.medi_YaaBari'
+      , 'uni06CE.medi_YaaBari'
+      , 'uni0775.medi_YaaBari'
+      , 'uni06BD.medi_YaaBari'
+      , 'uni064A.medi_YaaBari'
+      , 'uni067E.medi_YaaBari'
+      , 'uni0753.medi_YaaBari'
+      , 'uni0752.medi_YaaBari'
+      , 'uni063D.medi_YaaBari'
+      , 'uni0754.medi_YaaBari'
+      , 'uni06D1.medi_YaaBari'
+      , 'uni06CC.medi_YaaBari'
+      , 'uni0767.medi_YaaBari'
+      , 'u1EE29'
+      , 'uni0750.medi_High'
+      , 'uni06CE.medi_High'
+      , 'uni0775.medi_High'
+      , 'uni06BD.medi_High'
+      , 'uni064A.medi_High'
+      , 'uni067E.medi_High'
+      , 'uni0753.medi_High'
+      , 'uni0752.medi_High'
+      , 'uni063D.medi_High'
+      , 'uni0754.medi_High'
+      , 'uni06D1.medi_High'
+      , 'uni06CC.medi_High'
+      , 'uni0767.medi_High'
+      , 'uni064A.init_BaaYaaIsol'
+      , 'uniFB58'
+      , 'uniFB5C'
+      , 'uniFBFE'
+      , 'uniFEF3'
+      , 'uni0680.medi_YaaBari'
+      , 'uni0776.medi_YaaBari'
+      , 'uni0750.medi_YaaBari'
+      , 'uni06CE.medi_YaaBari'
+      , 'uni0775.medi_YaaBari'
+      , 'uni06BD.medi_YaaBari'
+      , 'uni064A.medi_YaaBari'
+      , 'uni067E.medi_YaaBari'
+      , 'uni0753.medi_YaaBari'
+      , 'uni0752.medi_YaaBari'
+      , 'uni063D.medi_YaaBari'
+      , 'uni0754.medi_YaaBari'
+      , 'uni06D1.medi_YaaBari'
+      , 'uni06CC.medi_YaaBari'
+      , 'uni0767.medi_YaaBari'
+      , 'u1EE29'
+    ]
+    second = [
+        'aHeh.medi'
+      , 'aYaa.fina'
+      , 'aYaa.fina_KafYaaIsol'
+      , 'uni0647.medi'
+      , 'uni06C1.medi'
+      , 'uni0777.fina'
+      , 'uni06D1.fina'
+      , 'uni0775.fina'
+      , 'uni063F.fina'
+      , 'uni0678.fina'
+      , 'uni063D.fina'
+      , 'uni063E.fina'
+      , 'uni06D0.fina'
+      , 'uni0649.fina'
+      , 'uni0776.fina'
+      , 'uni06CD.fina'
+      , 'uni06CC.fina'
+      , 'uni0626.fina'
+      , 'uni0620.fina'
+      , 'uni064A.fina'
+      , 'uni06CE.fina'
+      , 'aYaaBari.fina'
+      , 'aYaaBari.fina_PostTooth'
+      , 'uni077B.fina'
+      , 'uni077A.fina'
+      , 'uni06D2.fina'
+      , 'aYaaBari.fina_PostAscender'
+      , 'uni06FF.medi'
+      , 'uniFBA9'
+      , 'uniFBAF'
+      , 'uniFBE5'
+      , 'uniFBFD'
+      , 'uniFC10'
+      , 'uniFC90'
+      , 'uniFD17'
+      , 'uniFD18'
+      , 'uniFE8A'
+      , 'uniFEF0'
+      , 'uniFEF2'
+      , 'aYaaBari.fina_PostToothFina'
+      , 'uni077B.fina_PostToothFina'
+      , 'uni077A.fina_PostToothFina'
+      , 'uni06D2.fina_PostToothFina'
+      , 'uni0625.fina'
+      , 'uni0673.fina'
+    ]
+
+    pseudoLigatures = []
+    widener = 'uni0640.1'
+    multipleSubstitution = 'sub {ligature} by {name} {widener};'
+    ligaName = '{0}_{1}'
+    decompositions = []
+    for name in first:
+        ligature = ligaName.format(name, widener)
+        if len(ligature) > 31:
+            ligature = makeShortName(ligature, 31)
+        pseudoLigatures.append(ligature)
+        # manual override if there is already a ligature in the font, I
+        # suppose the decomposition is not desired. Thus we skip adding
+        # the decomposition
+        if ligature in font:
+            print 'skipping decomposition of', ligature
+            continue
+        print 'adding decomposition of', ligature
+        decompositions.append(multipleSubstitution.format(ligature=ligature, name=name, widener=widener))
+        # this is supposed to be an empty glyph. We need it for
+        # the substitution, it will never be displayed
+        g = font.createChar(-1, ligature)
+        # need to set something otherwise the substitution doesn't happen :-/
+        g.width = 1;
+    return template.substitute(
+        first=' '.join(first)
+      , second=' '.join(second)
+      , pseudoLigatures=' '.join(pseudoLigatures)
+      , decompositions='\n    '.join(decompositions)
+    );
+
+def prepareFeatures(font, feafile):
+    """Merges feature file into the font while making sure mark positioning
+    lookups (already in the font) come after kerning lookups (from the feature
+    file), which is required by Uniscribe to get correct mark positioning for
+    kerned glyphs."""
+
+    # open feature file
     fea = open(feafile)
     fea_text = fea.read()
-    fea_text = fea_text.replace("{%anchors%}", oldfea)
     fea.close()
+
+
+    # insert the generated GPOS features in place of the placeholder text
+    anchors = extractGPOSData(font)
+    fea_text = fea_text.replace("{%anchors%}", anchors)
+
+    collisonPrevention = makeCollisionPrevention(font)
+    fea_text = fea_text.replace("{%collison-prevention%}", collisonPrevention)
+
+    with open(feafile, 'w') as f:
+        f.write(fea_text);
 
     # now merge it into the font
     font.mergeFeatureString(fea_text)
@@ -612,7 +852,7 @@ def makeSlanted(infile, outfile, latinfile, feafile, version, slant):
 
     # we want to merge features after merging the latin font because many
     # referenced glyphs are in the latin font
-    mergeFeatures(font, feafile)
+    prepareFeatures(font, feafile)
 
     generateFont(font, outfile)
 
@@ -681,7 +921,7 @@ def makeQuran(infile, outfile, latinfile, feafile, version):
         dummy.width = 0
         quran_glyphs.append(dummy.glyphname)
 
-    mergeFeatures(font, feafile)
+    prepareFeatures(font, feafile)
 
     quran_glyphs += digits
     quran_glyphs += punct
@@ -760,7 +1000,7 @@ def makeDesktop(infile, outfile, latinfile, feafile, version, generate=True):
 
         # we want to merge features after merging the latin font because many
         # referenced glyphs are in the latin font
-        mergeFeatures(font, feafile)
+        prepareFeatures(font, feafile)
 
 
     if generate:
