@@ -1,4 +1,4 @@
-(function(){
+require([], function(){
     "use strict";
     /*jshint laxcomma: true, laxbreak: true*/
     /*global document:true*/
@@ -389,7 +389,6 @@
             .forEach(body.appendChild, body);
 
 
-
         // the general glyph information;
         [
             createElement('table', {dir:'LTR'}, [
@@ -403,5 +402,13 @@
             ])
         ].forEach(body.appendChild, body);
     }
-    document.addEventListener("DOMContentLoaded", main);
-})();
+
+    function onLoad(main) {
+        if(document.readyState === 'complete')
+            // make it async to reduce confusion
+            setTimeout(main, 0);
+        else
+            document.addEventListener("DOMContentLoaded", main);
+    }
+    onLoad(main);
+});
