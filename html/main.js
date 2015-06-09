@@ -292,7 +292,7 @@
 
 
     function makeCell(thing) {
-        return createElement('td', null, thing);
+        return createElement('td', {dir:'RTL'}, thing);
     }
 
     function makeRow(cells) {
@@ -338,17 +338,27 @@
           , combine = function(firstContext, secondContext) {
                 var first, second, result;
                 if(!secondContext[0])
-                    return '(no context for '+ secondContext[1].name +')'
+                    return createElement('td', {dir:'LTR', colspan: 3},
+                        '(no context for '+ secondContext[1].name +')');
                 first = firstContext[2];
                 second = secondContext[2];
-                result = first.slice();
-                result.push(zwj, nbsp, '+', nbsp, zwj);
-                Array.prototype.push.apply(result, second);
-                result.push(nbsp, '=', nbsp);
-                // this should render the real combination:
-                Array.prototype.push.apply(result, first);
-                Array.prototype.push.apply(result, second);
-                return result.join('');
+                return [
+                    // the names of the glyphs used
+                    createElement('td', {dir:'LTR'}, [
+                            firstContext[1].name
+                          , createElement('sup', null, '(1)')
+                          , ' + '
+                          , secondContext[1].name
+                          , createElement('sup', null, '(2)')
+                    ])
+                    // this should render the real combination:
+                  , createElement('td', {dir:'RTL'}, first.concat(second).join(''))
+                    // what the content is made of
+                  , createElement('td', {dir:'RTL'}, first.concat(
+                            [zwj, nbsp, '+', nbsp, zwj], second).join(''))
+                  //, createElement('td', {dir:'LTR'}, createElement('pre',
+                  //          null, JSON.stringify(secondContext[1])))
+                ];
             }
           , combinations
           , content
@@ -357,20 +367,18 @@
         if(!first[0]) {
             return createElement('div', null, createElement('h2', {dir:'LTR'}
                     , 'skipping: ' + firstGlyph.name + '(no context)'));
-            return;
         }
         combinations = secondGlyphs
             .map(getContext.bind(null, secondTypeContexts))
             .map(combine.bind(null, first))
-            .map(createElement.bind(null, 'p', {dir:'RTL'}))
+            .map(createElement.bind(null, 'tr', null))
             ;
         if(!combinations.length) {
             return createElement('div', null, createElement('h2', {dir:'LTR'}
                     , 'skipping: ' + firstGlyph.name + '(no combinations)'));
-            return;
         }
-        combinations.unshift(createElement('h2', {dir:'LTR'}, firstGlyph.name));
-        return createElement('div', null, combinations);
+        combinations.unshift(createElement('caption', null, firstGlyph.name));
+        return createElement('table', {dir:'LTR'}, combinations);
     }
 
     function main() {
@@ -384,13 +392,13 @@
 
         // the general glyph information;
         [
-            createElement('table', null, [
-                createElement('caption', {dir:'LTR'}, 'Glyph Tables')
-              , makeTableHead({dir:'LTR'}, 'first:', colCount)
+            createElement('table', {dir:'LTR'}, [
+                createElement('caption', null, 'Glyph Tables')
+              , makeTableHead(null, 'first:', colCount)
               , makeTable(prepareGroup(first))
-              , makeTableHead({dir:'LTR'}, 'second:', colCount)
+              , makeTableHead(null, 'second:', colCount)
               , makeTable(prepareGroup(second))
-              , makeTableHead({dir:'LTR'}, 'secondWithVowl:', colCount)
+              , makeTableHead(null, 'secondWithVowl:', colCount)
               , makeTable(prepareGroup(secondWithVowl))
             ])
         ].forEach(body.appendChild, body);
