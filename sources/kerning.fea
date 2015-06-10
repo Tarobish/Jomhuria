@@ -31,7 +31,7 @@ feature kern {
   // increase advance width for first glyph in 3-letter Baree Yaa ligatures
   pos [@aAyn.init @aFaa.init @aHeh.init @aLam.init
        @aMem.init @aSen.init @aTaa.init uni06BE.init]' lookup YaaBari3Kern
-       @aBaa.medi_YaaBari;
+       @aBaa.medi;
 } kern;
 
 // we don't want to ignore marks here
