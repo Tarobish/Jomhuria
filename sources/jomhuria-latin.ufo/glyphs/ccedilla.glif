@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ccedilla" format="1">
+  <advance width="1134"/>
+  <unicode hex="00E7"/>
+  <outline>
+    <component base="uni0327" xOffset="1135.63" yOffset="22"/>
+    <component base="c"/>
+  </outline>
+</glyph>

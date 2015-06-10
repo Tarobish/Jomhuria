@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni030A.cap" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-468" y="1741.95" type="curve" smooth="yes"/>
+      <point x="-377.855" y="1741.95"/>
+      <point x="-304.426" y="1668.61"/>
+      <point x="-304.426" y="1578.29" type="curve" smooth="yes"/>
+      <point x="-304.426" y="1488.15"/>
+      <point x="-377.772" y="1414.72"/>
+      <point x="-468" y="1414.72" type="curve" smooth="yes"/>
+      <point x="-558.312" y="1414.72"/>
+      <point x="-631.659" y="1488.07"/>
+      <point x="-631.659" y="1578.29" type="curve" smooth="yes"/>
+      <point x="-631.659" y="1668.52"/>
+      <point x="-558.229" y="1741.95"/>
+    </contour>
+    <contour>
+      <point x="-381.658" y="1578.29" type="curve" smooth="yes"/>
+      <point x="-381.658" y="1625.96"/>
+      <point x="-420.423" y="1664.63"/>
+      <point x="-467.993" y="1664.63" type="curve" smooth="yes"/>
+      <point x="-515.661" y="1664.63"/>
+      <point x="-554.427" y="1625.96"/>
+      <point x="-554.427" y="1578.29" type="curve" smooth="yes"/>
+      <point x="-554.427" y="1530.72"/>
+      <point x="-515.661" y="1492.05"/>
+      <point x="-467.993" y="1492.05" type="curve" smooth="yes"/>
+      <point x="-420.423" y="1492.05"/>
+      <point x="-381.658" y="1530.72"/>
+    </contour>
+  </outline>
+</glyph>
