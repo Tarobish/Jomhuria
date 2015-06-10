@@ -1,18 +1,24 @@
-require([], function(){
+require([
+    'lib/domStuff'
+  , 'lib/typoStuff'
+], function(
+    domStuff
+  , typoStuff
+){
     "use strict";
     /*jshint laxcomma: true, laxbreak: true*/
     /*global document:true*/
 
-    // about String.fromCodePoint: there is a polyfill if this is missing
-    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint
-    // but in here probably this will do:
-    if (!String.fromCodePoint)
-        String.fromCodePoint  = String.fromCharCode;
-
-    var zwj = String.fromCodePoint(0x200D) // zero-width joiner
-      , zwnj = String.fromCodePoint(0x200C)// zero-width non-joiner
-      , nbsp = String.fromCodePoint(0x00A0)// no break space
-      , first = [
+    var Glyph = typoStuff.Glyph
+      , zwj = typoStuff.zwj
+      , zwnj = typoStuff.zwnj
+      , nbsp = typoStuff.nbsp
+      , hasChar = typoStuff.hasChar
+      , createElement = domStuff.createElement
+      , makeTable = domStuff.makeTable
+      , makeTableHead = domStuff.makeTableHead
+      ;
+    var first = [
             'uni0680.init'
           , 'uni0776.init'
           , 'uni06CE.init'
@@ -59,23 +65,6 @@ require([], function(){
           , 'uni0767.init_High'
           , 'uni0680.medi_High'
           , 'uni0776.medi_High'
-          , 'uniFEF3'
-          , 'uni0680.medi_YaaBari'
-          , 'uni0776.medi_YaaBari'
-          , 'uni0750.medi_YaaBari'
-          , 'uni06CE.medi_YaaBari'
-          , 'uni0775.medi_YaaBari'
-          , 'uni06BD.medi_YaaBari'
-          , 'uni064A.medi_YaaBari'
-          , 'uni067E.medi_YaaBari'
-          , 'uni0753.medi_YaaBari'
-          , 'uni0752.medi_YaaBari'
-          , 'uni063D.medi_YaaBari'
-          , 'uni0754.medi_YaaBari'
-          , 'uni06D1.medi_YaaBari'
-          , 'uni06CC.medi_YaaBari'
-          , 'uni0767.medi_YaaBari'
-          , 'u1EE29'
           , 'uni0750.medi_High'
           , 'uni06CE.medi_High'
           , 'uni0775.medi_High'
@@ -90,32 +79,14 @@ require([], function(){
           , 'uni06CC.medi_High'
           , 'uni0767.medi_High'
           , 'uni064A.init_BaaYaaIsol'
+          , 'uniFEF3'
+          , 'u1EE29'
           , 'uniFB58'
           , 'uniFB5C'
           , 'uniFBFE'
-          , 'uniFEF3'
-          , 'uni0680.medi_YaaBari'
-          , 'uni0776.medi_YaaBari'
-          , 'uni0750.medi_YaaBari'
-          , 'uni06CE.medi_YaaBari'
-          , 'uni0775.medi_YaaBari'
-          , 'uni06BD.medi_YaaBari'
-          , 'uni064A.medi_YaaBari'
-          , 'uni067E.medi_YaaBari'
-          , 'uni0753.medi_YaaBari'
-          , 'uni0752.medi_YaaBari'
-          , 'uni063D.medi_YaaBari'
-          , 'uni0754.medi_YaaBari'
-          , 'uni06D1.medi_YaaBari'
-          , 'uni06CC.medi_YaaBari'
-          , 'uni0767.medi_YaaBari'
-          , 'u1EE29'
-        ].map(parseName)
-      , second = [
-            'aHeh.medi'
-          , 'aYaa.fina'
-          , 'aYaa.fina_KafYaaIsol'
-          , 'uni0647.medi'
+    ].map(Glyph.factory)
+    , second = [
+            'uni0647.medi'
           , 'uni06C1.medi'
           , 'uni0777.fina'
           , 'uni06D1.fina'
@@ -133,13 +104,15 @@ require([], function(){
           , 'uni0620.fina'
           , 'uni064A.fina'
           , 'uni06CE.fina'
-          , 'aYaaBari.fina'
-          , 'aYaaBari.fina_PostTooth'
           , 'uni077B.fina'
           , 'uni077A.fina'
           , 'uni06D2.fina'
-          , 'aYaaBari.fina_PostAscender'
           , 'uni06FF.medi'
+          , 'uni077B.fina_PostToothFina'
+          , 'uni077A.fina_PostToothFina'
+          , 'uni06D2.fina_PostToothFina'
+          , 'uni0625.fina'
+          , 'uni0673.fina'
           , 'uniFBA9'
           , 'uniFBAF'
           , 'uniFBE5'
@@ -151,16 +124,10 @@ require([], function(){
           , 'uniFE8A'
           , 'uniFEF0'
           , 'uniFEF2'
-          , 'aYaaBari.fina_PostToothFina'
-          , 'uni077B.fina_PostToothFina'
-          , 'uni077A.fina_PostToothFina'
-          , 'uni06D2.fina_PostToothFina'
-          , 'uni0625.fina'
-          , 'uni0673.fina'
-        ].map(parseName)
-        // second "if they have vowels"
-        // TODO: need to comprehend
-      , secondWithVowl = [
+    ].map(Glyph.factory)
+      // second "if they have vowels"
+      // TODO: need to comprehend
+    , secondWithVowl = [
             'aAlf.fina'
           , 'uni0625.fina'
           , 'uni0627.fina'
@@ -178,69 +145,14 @@ require([], function(){
           , 'uniFE88'
           , 'uniFE8E'
           , 'u1EE6F'
-        ].map(parseName)
+        ].map(Glyph.factory)
       ;
 
     function toString(item) {
         return item + '';
     }
-
-
-    /**
-     * Be intelligent about Jomhuria char names
-     *
-     * returns a struct:
-     * {
-     *       name: name // same as input argument
-     *     , code: null || int unicode codepoint
-     *     , char: null || str the char for the codepoint
-     *     , type: null || anthing after the '.' if the dot follows the unicode
-     *     , mainType: null || if there is a type anything before the first '_' in the type
-     *     , subType: null || if there is a type anything after the first '_' in the type
-     * }
-     */
-    function parseName(name) {
-        var glyph = {
-                name: name
-              , code: null
-              , char: null
-              , type: null
-              , mainType: null
-              , subType: null
-            }
-          , codeRegEx = /^(uni|u)([A-F0-9]{4,}).*/ // matches things like u1EE29* or uni1234*
-          , codeMatch
-          , typeDivider
-          , subtypeDivider
-          ;
-        codeMatch = name.match(codeRegEx);
-        if(codeMatch === null)
-            return glyph;
-        typeDivider = codeMatch[1].length + codeMatch[2].length;
-
-        // If codeMatch[2] is not the end of the name and not followed by a dot
-        // we refuse to parse the name.
-        if(name.length !== typeDivider && name[typeDivider] !== '.')
-            return glyph;
-
-        glyph.code = parseInt(codeMatch[2], 16);
-        glyph.char = String.fromCodePoint(glyph.code);
-
-        // see if there is a type
-        if(name[typeDivider] !== '.')
-            // no type
-            return glyph;
-
-        // got a type
-        glyph.type = name.slice(8);
-        subtypeDivider = glyph.type.indexOf('_');
-        if(subtypeDivider !== -1) {
-            glyph.mainType = glyph.type.slice(0, subtypeDivider);
-            glyph.subType = glyph.type.slice(subtypeDivider + 1);
-        }
-        else
-            glyph.mainType = glyph.type;
-        return glyph;
+    function booleanFilter(item) {
+        return !!item;
     }
 
     function getGlyphInContext(glyph, cantDoChar) {
@@ -250,11 +162,11 @@ require([], function(){
               , 'fina': function(char){return [zwnj, zwj, char, zwnj].join('');}
               , '_nocontext_': function(char){return [zwnj, char, zwnj].join('');}
             }
-          , type = glyph.type === null  ? '_nocontext_' : glyph.type
+          , type = glyph.getType('_nocontext_')
           , nope = cantDoChar || null
           ;
-        return (glyph.type in typeContexts
-                    ? typeContexts[glyph.type](glyph.char)
+        return (type in typeContexts
+                    ? typeContexts[type](glyph.char)
                     : nope
                );
     }
@@ -274,48 +186,6 @@ require([], function(){
         return data.map(makeGlyphRow);
     }
 
-    function createElement(tagname, attr, contents) {
-        var _contents = contents instanceof Array ? contents : [contents]
-          , elem = document.createElement(tagname)
-          , k, i, l, child
-          ;
-        if(attr) for(k in attr)
-            elem.setAttribute(k, attr[k]);
-        for(i=0,l=_contents.length;i<l;i++) {
-            child = _contents[i];
-            if(typeof child.nodeType !== 'number')
-                child = document.createTextNode(child);
-            elem.appendChild(child);
-        }
-        return elem;
-    }
-
-
-    function makeCell(thing) {
-        return createElement('td', {dir:'RTL'}, thing);
-    }
-
-    function makeRow(cells) {
-        return createElement('tr', null, cells.map(makeCell));
-    }
-    function makeTable(rows) {
-        return createElement('tbody', null , rows.map(makeRow));
-    }
-
-    function makeTableHead(attr, text, colCount) {
-        return createElement('thead', attr ,
-            createElement('tr', null ,
-                createElement('td', {'colspan': colCount} , text)
-            )
-        );
-    }
-
-
-    function hasChar(glyph) {
-        return glyph.char !== null;
-    }
-    function booleanFilter(item){return !!item;}
-
     function combineWith(secondGlyphs, firstGlyph) {
         var type
           , firstTypeContexts = {
@@ -330,8 +200,8 @@ require([], function(){
             }
           , data
           , getContext = function(contexts, glyph) {
-                var type = glyph.type === null ? '_nocontext_' : glyph.type;
-                if(!hasChar(glyph) || !(type in contexts))
+                var type = glyph.getType('_nocontext_');
+                if(!glyph.hasChar() || !(type in contexts))
                     return [false, glyph];
                 return [true, glyph, contexts[type](glyph.char)];
             }
@@ -403,12 +273,6 @@ require([], function(){
         ].forEach(body.appendChild, body);
     }
 
-    function onLoad(main) {
-        if(document.readyState === 'complete')
-            // make it async to reduce confusion
-            setTimeout(main, 0);
-        else
-            document.addEventListener("DOMContentLoaded", main);
-    }
-    onLoad(main);
+
+    domStuff.onLoad(main);
 });
