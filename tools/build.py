@@ -145,34 +145,28 @@ def makeShortName(name, maxLen):
 
 def makeCollisionPrevention(font):
     """
-    In order to prevent collisions our ideal solution would be to insert
-    a widening glyph between glyphs where collisions happen.
-    OpenType, however, is not defining such many-to-many substitutions.
+    In order to prevent collisions we insert a widening glyph between
+    glyphs where collisions happen.
 
-    What we do instead in a first step is  creating pseudo-ligatures without
-    any content.. In a second step we make a contextual substitution, where
-    the collisions happen, replacing the first glyph with its pseudo ligature.
-    In a third step we can decompose the pseudo-ligatures into the first glyph
-    plus the widening glyph, using a "[GSUB LookupType 2] Multiple substitution".
-
-    This is not ideal, because these pseudo-ligatures remain in the font,
-    however it seems that there is no better way with GSUB.
+    This is done by first spotting the colliding pair and then, in the
+    actual substitution we can decompose the first glyph into the first
+    glyph plus the widening glyph, using a "[GSUB LookupType 2] Multiple substitution".
     """
 
     template = Template("""
-@colisionsFirst = [ $first ];
-@colisionsSecond =[ $second ];
-@colisionsFirstWide = [ $pseudoLigatures ];
+@colisionsBelowFirst = [ $first ];
+@colisionsBelowSecond =[ $second ];
+
+lookup decomp {
+  lookupflag IgnoreMarks;
+  $decompositions
+} decomp;
 
 feature calt {
   lookup comp {
     lookupflag IgnoreMarks;
-    sub @colisionsFirst' @colisionsSecond by @colisionsFirstWide;
+    sub @colisionsBelowFirst' lookup decomp @colisionsBelowSecond;
   } comp;
-  lookup decomp {
-    lookupflag IgnoreMarks;
-    $decompositions
-  } decomp;
 } calt;
 """)
 
@@ -223,23 +217,6 @@ feature calt {
       , 'uni0767.init_High'
       , 'uni0680.medi_High'
       , 'uni0776.medi_High'
-      , 'uniFEF3'
-      , 'uni0680.medi_YaaBari'
-      , 'uni0776.medi_YaaBari'
-      , 'uni0750.medi_YaaBari'
-      , 'uni06CE.medi_YaaBari'
-      , 'uni0775.medi_YaaBari'
-      , 'uni06BD.medi_YaaBari'
-      , 'uni064A.medi_YaaBari'
-      , 'uni067E.medi_YaaBari'
-      , 'uni0753.medi_YaaBari'
-      , 'uni0752.medi_YaaBari'
-      , 'uni063D.medi_YaaBari'
-      , 'uni0754.medi_YaaBari'
-      , 'uni06D1.medi_YaaBari'
-      , 'uni06CC.medi_YaaBari'
-      , 'uni0767.medi_YaaBari'
-      , 'u1EE29'
       , 'uni0750.medi_High'
       , 'uni06CE.medi_High'
       , 'uni0775.medi_High'
@@ -254,32 +231,14 @@ feature calt {
       , 'uni06CC.medi_High'
       , 'uni0767.medi_High'
       , 'uni064A.init_BaaYaaIsol'
+      , 'uniFEF3'
+      , 'u1EE29'
       , 'uniFB58'
       , 'uniFB5C'
       , 'uniFBFE'
-      , 'uniFEF3'
-      , 'uni0680.medi_YaaBari'
-      , 'uni0776.medi_YaaBari'
-      , 'uni0750.medi_YaaBari'
-      , 'uni06CE.medi_YaaBari'
-      , 'uni0775.medi_YaaBari'
-      , 'uni06BD.medi_YaaBari'
-      , 'uni064A.medi_YaaBari'
-      , 'uni067E.medi_YaaBari'
-      , 'uni0753.medi_YaaBari'
-      , 'uni0752.medi_YaaBari'
-      , 'uni063D.medi_YaaBari'
-      , 'uni0754.medi_YaaBari'
-      , 'uni06D1.medi_YaaBari'
-      , 'uni06CC.medi_YaaBari'
-      , 'uni0767.medi_YaaBari'
-      , 'u1EE29'
     ]
     second = [
-        'aHeh.medi'
-      , 'aYaa.fina'
-      , 'aYaa.fina_KafYaaIsol'
-      , 'uni0647.medi'
+        'uni0647.medi'
       , 'uni06C1.medi'
       , 'uni0777.fina'
       , 'uni06D1.fina'
@@ -297,13 +256,15 @@ feature calt {
       , 'uni0620.fina'
       , 'uni064A.fina'
       , 'uni06CE.fina'
-      , 'aYaaBari.fina'
-      , 'aYaaBari.fina_PostTooth'
       , 'uni077B.fina'
       , 'uni077A.fina'
       , 'uni06D2.fina'
-      , 'aYaaBari.fina_PostAscender'
       , 'uni06FF.medi'
+      , 'uni077B.fina_PostToothFina'
+      , 'uni077A.fina_PostToothFina'
+      , 'uni06D2.fina_PostToothFina'
+      , 'uni0625.fina'
+      , 'uni0673.fina'
       , 'uniFBA9'
       , 'uniFBAF'
       , 'uniFBE5'
@@ -315,42 +276,17 @@ feature calt {
       , 'uniFE8A'
       , 'uniFEF0'
       , 'uniFEF2'
-      , 'aYaaBari.fina_PostToothFina'
-      , 'uni077B.fina_PostToothFina'
-      , 'uni077A.fina_PostToothFina'
-      , 'uni06D2.fina_PostToothFina'
-      , 'uni0625.fina'
-      , 'uni0673.fina'
     ]
 
-    pseudoLigatures = []
     widener = 'uni0640.1'
-    multipleSubstitution = 'sub {ligature} by {name} {widener};'
-    ligaName = '{0}_{1}'
+    multipleSubstitution = 'sub {name} by {name} {widener};'
     decompositions = []
     for name in first:
-        ligature = ligaName.format(name, widener)
-        if len(ligature) > 31:
-            ligature = makeShortName(ligature, 31)
-        pseudoLigatures.append(ligature)
-        # manual override if there is already a ligature in the font, I
-        # suppose the decomposition is not desired. Thus we skip adding
-        # the decomposition
-        if ligature in font:
-            print 'skipping decomposition of', ligature
-            continue
-        print 'adding decomposition of', ligature
-        decompositions.append(multipleSubstitution.format(ligature=ligature, name=name, widener=widener))
-        # this is supposed to be an empty glyph. We need it for
-        # the substitution, it will never be displayed
-        g = font.createChar(-1, ligature)
-        # need to set something otherwise the substitution doesn't happen :-/
-        g.width = 1;
+        decompositions.append(multipleSubstitution.format(name=name, widener=widener))
     return template.substitute(
         first=' '.join(first)
       , second=' '.join(second)
-      , pseudoLigatures=' '.join(pseudoLigatures)
-      , decompositions='\n    '.join(decompositions)
+      , decompositions='\n  '.join(decompositions)
     );
 
 def prepareFeatures(font, feafile):
