@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1273266481
-ModificationTime: 1433275626
+ModificationTime: 1434041919
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -41,6 +41,8 @@ HheadAscent: 3088
 HheadAOffset: 0
 HheadDescent: -1575
 HheadDOffset: 0
+OS2CapHeight: 0
+OS2XHeight: 0
 OS2Vendor: '    '
 Lookup: 259 9 0 "'curs' Cursive Attachment" { "'curs' Cursive Attachment-1"  } ['curs' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'URD ' 'SND ' > ) ]
 Lookup: 260 0 0 "'mark' Generic Mark Anchor" { "'mark' Generic Mark Anchor-1"  "'mark' Generic Mark Anchor-2"  } ['mark' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'URD ' 'SND ' > 'latn' <'dflt' 'TRK ' > ) ]
@@ -97,7 +99,7 @@ NameList: AGL without afii
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 900 20 8
+WinInfo: 1080 20 10
 BeginPrivate: 0
 EndPrivate
 Grid

@@ -3,5 +3,7 @@ Encoding: 5840 -1 2166
 Width: 900
 Flags: HW
 LayerCount: 2
+Back
+Fore
 Colour: ffffff
 EndChar
