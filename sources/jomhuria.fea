@@ -7,7 +7,6 @@ languagesystem latn dflt;
 languagesystem latn TRK;
 
 #include "classes.fea"
-#include "composition.fea"
 #include "local.fea"
 
 #include "digits.fea"
