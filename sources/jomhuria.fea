@@ -12,11 +12,13 @@ languagesystem latn TRK;
 #include "digits.fea"
 
 #include "basic.fea"
-#include "kashida.fea"
+
 #include "enclosing.fea"
 #include "rtlm.fea"
 
 #include "contextuals.fea"
+#include "kashida.fea"
+
 
 #include "stylisticsets.fea"
 
