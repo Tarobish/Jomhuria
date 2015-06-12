@@ -155,9 +155,9 @@ define([
         for(i=0,l=alefs.length;i<l;i++) {
                 alef = alefs[i];
             rows.push(
-                    createElement('tr', {dir:'LTR'},[
-                        createElement('th', null, 'glyph before')
-                      , createElement('th', {colspan: (first.length + 2)}, 'Alef: ' + alef.name)
+                    createElement('tr', null,[
+                        createElement('th', {dir:'LTR'}, 'glyph before')
+                      , createElement('th', {dir:'LTR', colspan: (first.length + 2)}, 'Alef: ' + alef.name)
                 ]));
 
             for(ii=0,ll=first.length;ii<ll;ii++) {
@@ -177,17 +177,17 @@ define([
                       , alef.char
                       , mark.char
                     );
-                    cols.push(createElement('td',  {dir:'RTL', title:'Mark: ' + mark.name}, input.join('')));
+                    cols.push(createElement('td',  {title:'Mark: ' + mark.name}, input.join('')));
                 }
                 rows.push(createElement('tr', null, cols));
             }
        }
-       body.appendChild(createElement('table', {dir: 'LTR', 'class': 'testcontent'}, rows));
+       body.appendChild(createElement('table', {dir: 'RTL', 'class': 'testcontent'}, rows));
        return body;
     }
 
     return {
-        title: 'issue#6 2'
+        title: 'issue#6-2'
       , generate: main
     };
 });

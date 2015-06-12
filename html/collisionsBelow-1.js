@@ -267,7 +267,7 @@ define([
         return body;
     }
     return {
-        title: 'issue#6 1'
+        title: 'issue#6-1'
       , generate: main
     };
 });

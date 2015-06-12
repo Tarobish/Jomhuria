@@ -1,4 +1,8 @@
-define([], function(){
+define([
+    './marked'
+], function(
+    marked
+){
     "use strict";
     /*jshint laxcomma: true, laxbreak: true*/
     /*global document:true setTimeout:true*/
@@ -10,9 +14,9 @@ define([], function(){
           ;
 
         if(contents === undefined)
-            _contents = []
+            _contents = [];
         else
-            _contents = contents instanceof Array ? contents : [contents]
+            _contents = contents instanceof Array ? contents : [contents];
 
         if(attr) for(k in attr)
             elem.setAttribute(k, attr[k]);
@@ -54,6 +58,16 @@ define([], function(){
             _doc.addEventListener("DOMContentLoaded", main);
     }
 
+    function createElementfromHTML(tag, attr, innerHTMl) {
+        var element = createElement(tag, attr);
+        element.innerHTML = marked(innerHTMl, {gfm: true});
+        return element;
+    }
+
+    function createElementfromMarkdown(tag, attr, mardownText) {
+        return createElementfromHTML(tag, attr, marked(mardownText, {gfd: true}));
+    }
+
     return {
         createElement: createElement
       , makeCell: makeCell
@@ -61,5 +75,7 @@ define([], function(){
       , makeTable: makeTable
       , makeTableHead: makeTableHead
       , onLoad: onLoad
+      , createElementfromHTML: createElementfromHTML
+      , createElementfromMarkdown: createElementfromMarkdown
     };
 });
