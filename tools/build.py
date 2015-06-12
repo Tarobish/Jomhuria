@@ -143,7 +143,7 @@ def makeShortName(name, maxLen):
     return name[:maxLen-len(checksum)] + checksum;
 
 
-def makeCollisionPrevention(font):
+def makeCollisionPrevention():
     """
     In order to prevent collisions we insert a widening glyph between
     glyphs where collisions happen.
@@ -152,24 +152,6 @@ def makeCollisionPrevention(font):
     actual substitution we can decompose the first glyph into the first
     glyph plus the widening glyph, using a "[GSUB LookupType 2] Multiple substitution".
     """
-
-    template = Template("""
-@colisionsBelowFirst = [ $first ];
-@colisionsBelowSecond =[ $second ];
-
-lookup decomp {
-  lookupflag IgnoreMarks;
-  $decompositions
-} decomp;
-
-feature calt {
-  lookup comp {
-    lookupflag IgnoreMarks;
-    sub @colisionsBelowFirst' lookup decomp @colisionsBelowSecond;
-  } comp;
-} calt;
-""")
-
     first = [
         'uni0680.init'
       , 'uni0776.init'
@@ -237,6 +219,43 @@ feature calt {
       , 'uniFB5C'
       , 'uniFBFE'
     ]
+
+    widener = 'uni0640.1'
+    multipleSubstitution = 'sub {name} by {name} {widener};'
+    decompositions = []
+    for name in first:
+        decompositions.append(multipleSubstitution.format(name=name, widener=widener))
+
+    template = Template("""
+@colisionsBelowFirst = [ $first ];
+
+lookup decompCollisionsBelow {
+  lookupflag IgnoreMarks;
+  $decompositions
+} decompCollisionsBelow;
+""")
+
+    return '\n'.join([
+        template.substitute(
+            first=' '.join(first)
+          , decompositions='\n  '.join(decompositions)
+        )
+      , preventCollisionsBelow()
+      , preventCollisionsBelowAlef()
+    ])
+
+def preventCollisionsBelow():
+    template = Template("""
+@colisionsBelowSecond =[ $second ];
+
+feature calt {
+  lookup comp {
+    lookupflag IgnoreMarks;
+    sub @colisionsBelowFirst' lookup decompCollisionsBelow @colisionsBelowSecond;
+  } comp;
+} calt;
+""")
+
     second = [
         'uni0647.medi'
       , 'uni06C1.medi'
@@ -278,16 +297,66 @@ feature calt {
       , 'uniFEF2'
     ]
 
-    widener = 'uni0640.1'
-    multipleSubstitution = 'sub {name} by {name} {widener};'
-    decompositions = []
-    for name in first:
-        decompositions.append(multipleSubstitution.format(name=name, widener=widener))
-    return template.substitute(
-        first=' '.join(first)
-      , second=' '.join(second)
-      , decompositions='\n  '.join(decompositions)
-    );
+    return template.substitute(second=' '.join(second));
+
+def preventCollisionsBelowAlef():
+    # TODO: instead of @colisionsBelowMarks could we use @tashkilBelow???
+    template = Template("""
+@colisionsBelowSecondAlefs =[ $alefs ];
+@colisionsBelowMarks =[ $marks ];
+
+feature calt {
+  lookup comp {
+    sub @colisionsBelowFirst' lookup decompCollisionsBelow @colisionsBelowSecondAlefs @colisionsBelowMarks;
+  } comp;
+} calt;
+""")
+    alefs = [
+        'uni0627.fina' # ARABIC LETTER ALEF the normal alef.fina as used in kashida.fea we get there we are done
+          # several alef combinations
+      , 'uni0625.fina' # ARABIC LETTER ALEF WITH HAMZA BELOW ≡ 0627 0655    basics.fea sub uni0625 by uni0627.fina uni0655;
+      , 'uni0774.fina' # ARABIC LETTER ALEF WITH EXTENDED ARABIC-INDIC DIGIT THREE ABOVE
+      , 'uni0773.fina' # ARABIC LETTER ALEF WITH EXTENDED ARABIC-INDIC DIGIT TWO ABOVE
+      , 'uni0623.fina' # ARABIC LETTER ALEF WITH HAMZA ABOVE ≡ 0627 0654
+      , 'uni0622.fina' # ARABIC LETTER ALEF WITH MADDA ABOVE ≡ 0627 0653
+      , 'uni0675.fina' # ARABIC LETTER HIGH HAMZA ALE ≈ 0627 + 0674
+      , 'uni0672.fina' # ARABIC LETTER ALEF WITH WAVY HAMZA ABOVE
+
+          # should be entered as \u0627 \u065F. if I enter this directly
+          # \u0673 (which is discouraged by unicode, wwhbd what will harfbuzz do?)
+          # "this character is deprecated and its use is strongly discouraged"
+          # if it is normalized to \u0627 \u065F this will be easy
+      , 'uni0673.fina' # ARABIC LETTER ALEF WITH WAVY HAMZA BELOW
+      , 'uni0671.fina' # ARABIC LETTER ALEF WASLA with an alef above, Koranic Arabic
+
+          # I don't care much about these. Where these codepoints are used
+          # advanced typographical features are not known or not wanted.
+          # maybe we should remove mentioning of these in the feature files,
+          # it is rather over engineering to support these.
+      , 'uniFB51'
+      , 'uniFE82'
+      , 'uniFE84'
+      , 'uniFE88'
+      , 'uniFE8E'
+      , 'u1EE6F'
+    ]
+    marks = [
+        'uni0655'
+      , 'uni064D', 'uni08F2', 'uni064D.small' # TODO: remove .small ?
+      , 'uni065F'
+      , 'uni0650' , 'uni0650.small' , 'uni0650.small2'# TODO: remove .small .small2 ?
+      , 'uni0656'
+      , 'uni061A'
+      , 'uni06ED'
+      , 'uni065C'
+      , 'uni0325'
+      , 'uni08E6'
+      , 'uni08E9'
+    ]
+
+    alefs = ' '.join(alefs)
+    marks = ' '.join(marks)
+    return template.substitute(alefs=alefs, marks=marks);
 
 def prepareFeatures(font, feafile):
     """Merges feature file into the font while making sure mark positioning
@@ -305,7 +374,7 @@ def prepareFeatures(font, feafile):
     anchors = extractGPOSData(font)
     fea_text = fea_text.replace("{%anchors%}", anchors)
 
-    collisonPrevention = makeCollisionPrevention(font)
+    collisonPrevention = makeCollisionPrevention()
     fea_text = fea_text.replace("{%collison-prevention%}", collisonPrevention)
 
     with open(feafile, 'w') as f:
