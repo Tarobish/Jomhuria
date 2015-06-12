@@ -4,10 +4,16 @@ define([], function(){
     /*global document:true setTimeout:true*/
 
     function createElement(tagname, attr, contents) {
-        var _contents = contents instanceof Array ? contents : [contents]
+        var _contents
           , elem = document.createElement(tagname)
           , k, i, l, child
           ;
+
+        if(contents === undefined)
+            _contents = []
+        else
+            _contents = contents instanceof Array ? contents : [contents]
+
         if(attr) for(k in attr)
             elem.setAttribute(k, attr[k]);
         for(i=0,l=_contents.length;i<l;i++) {
