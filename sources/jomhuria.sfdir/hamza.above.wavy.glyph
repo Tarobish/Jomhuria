@@ -8,7 +8,6 @@ VStem: 103 311.244
 AnchorPoint: "TashkilTashkilAbove" 218 2150 basemark 0
 AnchorPoint: "HamzaAbove" 250 1700 mark 0
 LayerCount: 2
-Back
 Fore
 Refer: 114 1631 S 1 0 0 1 0 2931 2
 Colour: ffffff

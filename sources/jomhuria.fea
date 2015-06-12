@@ -7,17 +7,18 @@ languagesystem latn dflt;
 languagesystem latn TRK;
 
 #include "classes.fea"
-#include "composition.fea"
 #include "local.fea"
 
 #include "digits.fea"
 
 #include "basic.fea"
-#include "kashida.fea"
+
 #include "enclosing.fea"
 #include "rtlm.fea"
 
 #include "contextuals.fea"
+#include "kashida.fea"
+
 
 #include "stylisticsets.fea"
 
