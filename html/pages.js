@@ -1,6 +1,6 @@
 define([
     'lib/domStuff'
-  , 'lib/text!/README.md'
+  , 'lib/text!../README.md'
   , 'collisionsBelow-1'
   , 'collisionsBelow-2'
   , 'lib/text!texts/persian-arabic.htmlPart'
