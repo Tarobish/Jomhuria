@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lacute" format="1">
+  <advance width="1118"/>
+  <unicode hex="0139"/>
+  <outline>
+    <contour>
+      <point x="644" y="1717" type="line" name="hr00"/>
+      <point x="867" y="1719" type="line"/>
+      <point x="628" y="1390" type="line"/>
+      <point x="494" y="1390" type="line"/>
+    </contour>
+    <contour>
+      <point x="884" y="394" type="line"/>
+      <point x="884" y="226" type="line" smooth="yes"/>
+      <point x="884" y="206"/>
+      <point x="870" y="189"/>
+      <point x="835" y="185" type="curve"/>
+      <point x="489" y="185" type="line"/>
+      <point x="489" y="1291" type="line"/>
+      <point x="0" y="1291" type="line"/>
+      <point x="0" y="1100" type="line"/>
+      <point x="106" y="1100" type="line"/>
+      <point x="106" y="1" type="line"/>
+      <point x="1029" y="1" type="line"/>
+      <point x="1029" y="394" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
+b3M9IjAiIHdpZHRoPSIxODQiIC8+CiAgICAgIDxo
+c3RlbSBwb3M9IjEwOTkiIHdpZHRoPSIxOTEiIC8+
+CiAgICAgIDxoc3RlbSBwb3M9IjEzOTAiIHdpZHRo
+PSIzMjkiIC8+CiAgICAgIDx2c3RlbSBwb3M9IjEw
+NiIgd2lkdGg9IjM4MyIgLz4KICAgICAgPHZzdGVt
+IHBvcz0iODgzIiB3aWR0aD0iMTQ2IiAvPgogICAg
+PC9oaW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+  </data>
+  </dict>
+  </lib>
+</glyph>

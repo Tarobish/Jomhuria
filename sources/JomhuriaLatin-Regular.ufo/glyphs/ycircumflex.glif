@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ycircumflex" format="1">
+  <advance width="1121"/>
+  <unicode hex="0177"/>
+  <outline>
+    <contour>
+      <point x="616" y="1416" type="line" name="hr01"/>
+      <point x="522" y="1416" type="line"/>
+      <point x="328" y="1087" type="line"/>
+      <point x="481" y="1087" type="line"/>
+      <point x="569" y="1233" type="line"/>
+      <point x="657" y="1087" type="line"/>
+      <point x="810" y="1087" type="line"/>
+    </contour>
+    <contour>
+      <point x="661" y="987" type="line" name="hr02"/>
+      <point x="661" y="217" type="line"/>
+      <point x="606" y="218" type="line"/>
+      <point x="531" y="218"/>
+      <point x="473" y="276"/>
+      <point x="473" y="350" type="curve" smooth="yes"/>
+      <point x="473" y="987" type="line"/>
+      <point x="-1" y="987" type="line"/>
+      <point x="-1" y="815" type="line"/>
+      <point x="104" y="815" type="line"/>
+      <point x="104" y="408" type="line" smooth="yes"/>
+      <point x="104" y="127"/>
+      <point x="200" y="7"/>
+      <point x="426" y="7" type="curve" smooth="yes" name="hr03"/>
+      <point x="587" y="7"/>
+      <point x="662" y="113"/>
+      <point x="662" y="113" type="curve"/>
+      <point x="662" y="39" type="line" smooth="yes"/>
+      <point x="662" y="-47"/>
+      <point x="639" y="-174"/>
+      <point x="477" y="-174" type="curve" smooth="yes"/>
+      <point x="411" y="-174"/>
+      <point x="346" y="-150"/>
+      <point x="301" y="-109" type="curve"/>
+      <point x="230" y="-188" type="line"/>
+      <point x="310" y="-260"/>
+      <point x="421" y="-298"/>
+      <point x="553" y="-298" type="curve" smooth="yes"/>
+      <point x="871" y="-298"/>
+      <point x="1032" y="-162"/>
+      <point x="1032" y="107" type="curve" smooth="yes"/>
+      <point x="1032" y="987" type="line" name="hr04"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjEwODciIHdpZHRoPSIzMjkiIC8+CiAgICAg
+IDx2c3RlbSBwb3M9IjMyOCIgd2lkdGg9IjQ4MiIg
+Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0
+IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVt
+IHBvcz0iLTI5OCIgd2lkdGg9IjEyMyIgLz4KICAg
+ICAgPGhzdGVtIHBvcz0iODE1IiB3aWR0aD0iMTcy
+IiAvPgogICAgICA8dnN0ZW0gcG9zPSIxMDUiIHdp
+ZHRoPSIzNjkiIC8+CiAgICAgIDx2c3RlbSBwb3M9
+IjY2MSIgd2lkdGg9IjM3MCIgLz4KICAgIDwvaGlu
+dHNldD4KICAgIDxoaW50c2V0IHBvaW50VGFnPSJo
+cjAzIj4KICAgICAgPGhzdGVtIHBvcz0iLTI5OCIg
+d2lkdGg9IjEyMyIgLz4KICAgICAgPGhzdGVtIHBv
+cz0iNyIgd2lkdGg9Ijk4MCIgLz4KICAgICAgPHZz
+dGVtIHBvcz0iMTA1IiB3aWR0aD0iMzY5IiAvPgog
+ICAgICA8dnN0ZW0gcG9zPSI2NjEiIHdpZHRoPSIz
+NzAiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8aGlu
+dHNldCBwb2ludFRhZz0iaHIwNCI+CiAgICAgIDxo
+c3RlbSBwb3M9Ii0yOTgiIHdpZHRoPSIxMjMiIC8+
+CiAgICAgIDxoc3RlbSBwb3M9IjgxNSIgd2lkdGg9
+IjE3MiIgLz4KICAgICAgPHZzdGVtIHBvcz0iMTA1
+IiB3aWR0aD0iMzY5IiAvPgogICAgICA8dnN0ZW0g
+cG9zPSI2NjEiIHdpZHRoPSIzNzAiIC8+CiAgICA8
+L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
+  </data>
+  </dict>
+  </lib>
+</glyph>

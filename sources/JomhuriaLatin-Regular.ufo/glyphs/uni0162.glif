@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0162" format="1">
+  <advance width="1232"/>
+  <unicode hex="0162"/>
+  <outline>
+    <contour>
+      <point x="635" y="-42" type="line" name="hr01"/>
+      <point x="759" y="130" type="line"/>
+      <point x="582" y="129" type="line"/>
+      <point x="467" y="-105" type="line"/>
+      <point x="467" y="-105"/>
+      <point x="577" y="-102"/>
+      <point x="577" y="-155" type="curve" smooth="yes"/>
+      <point x="577" y="-178"/>
+      <point x="535" y="-204"/>
+      <point x="479" y="-204" type="curve" smooth="yes"/>
+      <point x="453" y="-204"/>
+      <point x="424" y="-195"/>
+      <point x="424" y="-195" type="curve"/>
+      <point x="389" y="-266" type="line"/>
+      <point x="389" y="-266"/>
+      <point x="439" y="-297"/>
+      <point x="515" y="-297" type="curve" smooth="yes"/>
+      <point x="626" y="-297"/>
+      <point x="713" y="-235"/>
+      <point x="713" y="-155" type="curve" smooth="yes"/>
+      <point x="713" y="-110"/>
+      <point x="685" y="-69"/>
+      <point x="636" y="-43" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1" y="1289" type="line" name="hr02"/>
+      <point x="1" y="890" type="line"/>
+      <point x="146" y="890" type="line"/>
+      <point x="146" y="1048" type="line" smooth="yes"/>
+      <point x="146" y="1068"/>
+      <point x="160" y="1085"/>
+      <point x="195" y="1089" type="curve" name="hr03"/>
+      <point x="380" y="1089" type="line"/>
+      <point x="380" y="0" type="line"/>
+      <point x="763" y="0" type="line"/>
+      <point x="763" y="1090" type="line"/>
+      <point x="948" y="1090" type="line"/>
+      <point x="983" y="1086"/>
+      <point x="997" y="1069"/>
+      <point x="997" y="1049" type="curve" smooth="yes"/>
+      <point x="997" y="891" type="line" name="hr04"/>
+      <point x="1143" y="891" type="line"/>
+      <point x="1143" y="1290" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii0yOTciIHdpZHRoPSI5MyIgLz4KICAgICAg
+PHZzdGVtIHBvcz0iNTc1IiB3aWR0aD0iMTM2IiAv
+PgogICAgPC9oaW50c2V0PgogICAgPGhpbnRzZXQg
+cG9pbnRUYWc9ImhyMDIiPgogICAgICA8aHN0ZW0g
+cG9zPSIwIiB3aWR0aD0iMjEiIC8+CiAgICAgIDxo
+c3RlbSBwb3M9Ijg5MSIgd2lkdGg9IjM5OSIgLz4K
+ICAgICAgPHZzdGVtIHBvcz0iMCIgd2lkdGg9IjE0
+NSIgLz4KICAgICAgPHZzdGVtIHBvcz0iMzc5IiB3
+aWR0aD0iMzgzIiAvPgogICAgICA8dnN0ZW0gcG9z
+PSI5OTYiIHdpZHRoPSIxNDYiIC8+CiAgICA8L2hp
+bnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0i
+aHIwMyI+CiAgICAgIDxoc3RlbSBwb3M9IjAiIHdp
+ZHRoPSIyMSIgLz4KICAgICAgPGhzdGVtIHBvcz0i
+MTA5MCIgd2lkdGg9IjIwMCIgLz4KICAgICAgPHZz
+dGVtIHBvcz0iMCIgd2lkdGg9IjE0NSIgLz4KICAg
+ICAgPHZzdGVtIHBvcz0iMzc5IiB3aWR0aD0iMzgz
+IiAvPgogICAgICA8dnN0ZW0gcG9zPSI5OTYiIHdp
+ZHRoPSIxNDYiIC8+CiAgICA8L2hpbnRzZXQ+CiAg
+ICA8aGludHNldCBwb2ludFRhZz0iaHIwNCI+CiAg
+ICAgIDxoc3RlbSBwb3M9IjAiIHdpZHRoPSIyMSIg
+Lz4KICAgICAgPGhzdGVtIHBvcz0iODkxIiB3aWR0
+aD0iMzk5IiAvPgogICAgICA8dnN0ZW0gcG9zPSIw
+IiB3aWR0aD0iMTQ1IiAvPgogICAgICA8dnN0ZW0g
+cG9zPSIzNzkiIHdpZHRoPSIzODMiIC8+CiAgICAg
+IDx2c3RlbSBwb3M9Ijk5NiIgd2lkdGg9IjE0NiIg
+Lz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRM
+aXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

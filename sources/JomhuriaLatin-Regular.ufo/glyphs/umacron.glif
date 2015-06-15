@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="umacron" format="1">
+  <advance width="1122"/>
+  <unicode hex="016B"/>
+  <outline>
+    <contour>
+      <point x="273" y="1086" type="line" name="hr01"/>
+      <point x="868" y="1086" type="line"/>
+      <point x="868" y="1275" type="line"/>
+      <point x="273" y="1275" type="line"/>
+    </contour>
+    <contour>
+      <point x="662" y="986" type="line" name="hr02"/>
+      <point x="662" y="186" type="line"/>
+      <point x="607" y="187" type="line"/>
+      <point x="532" y="187"/>
+      <point x="474" y="245"/>
+      <point x="474" y="319" type="curve" smooth="yes"/>
+      <point x="474" y="986" type="line"/>
+      <point x="0" y="986" type="line"/>
+      <point x="0" y="815" type="line"/>
+      <point x="105" y="815" type="line"/>
+      <point x="105" y="378" type="line" smooth="yes"/>
+      <point x="105" y="97"/>
+      <point x="201" y="-23"/>
+      <point x="427" y="-23" type="curve" smooth="yes" name="hr03"/>
+      <point x="590" y="-23"/>
+      <point x="661" y="99"/>
+      <point x="661" y="99" type="curve"/>
+      <point x="661" y="-1" type="line" name="hr04"/>
+      <point x="1031" y="-1" type="line"/>
+      <point x="1030" y="986" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjEwODYiIHdpZHRoPSIxODkiIC8+CiAgICAg
+IDx2c3RlbSBwb3M9IjI3MyIgd2lkdGg9IjU5NSIg
+Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0
+IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVt
+IHBvcz0iODE2IiB3aWR0aD0iMTcxIiAvPgogICAg
+ICA8dnN0ZW0gcG9zPSIxMDUiIHdpZHRoPSIzNjki
+IC8+CiAgICAgIDx2c3RlbSBwb3M9IjY2MSIgd2lk
+dGg9IjM3MSIgLz4KICAgIDwvaGludHNldD4KICAg
+IDxoaW50c2V0IHBvaW50VGFnPSJocjAzIj4KICAg
+ICAgPGhzdGVtIHBvcz0iLTIyIiB3aWR0aD0iMTAw
+OSIgLz4KICAgICAgPHZzdGVtIHBvcz0iMTA1IiB3
+aWR0aD0iMzY5IiAvPgogICAgICA8dnN0ZW0gcG9z
+PSI2NjEiIHdpZHRoPSIzNzEiIC8+CiAgICA8L2hp
+bnRzZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0i
+aHIwNCI+CiAgICAgIDxoc3RlbSBwb3M9IjAiIHdp
+ZHRoPSIyMSIgLz4KICAgICAgPGhzdGVtIHBvcz0i
+ODE2IiB3aWR0aD0iMTcxIiAvPgogICAgICA8dnN0
+ZW0gcG9zPSIxMDUiIHdpZHRoPSIzNjkiIC8+CiAg
+ICAgIDx2c3RlbSBwb3M9IjY2MSIgd2lkdGg9IjM3
+MSIgLz4KICAgIDwvaGludHNldD4KICA8L2hpbnRT
+ZXRMaXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

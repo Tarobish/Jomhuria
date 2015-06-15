@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Umacron" format="1">
+  <advance width="1137"/>
+  <unicode hex="016A"/>
+  <outline>
+    <contour>
+      <point x="251" y="1445" type="line" name="hr01"/>
+      <point x="846" y="1445" type="line"/>
+      <point x="846" y="1634" type="line"/>
+      <point x="251" y="1634" type="line"/>
+    </contour>
+    <contour>
+      <point x="1046" y="1289" type="line" name="hr02"/>
+      <point x="847" y="1289" type="line"/>
+      <point x="846" y="377" type="line" smooth="yes"/>
+      <point x="846" y="214"/>
+      <point x="766" y="157"/>
+      <point x="667" y="157" type="curve" smooth="yes"/>
+      <point x="568" y="157"/>
+      <point x="488" y="222"/>
+      <point x="488" y="375" type="curve" smooth="yes"/>
+      <point x="488" y="1288" type="line"/>
+      <point x="-1" y="1288" type="line"/>
+      <point x="-1" y="1099" type="line"/>
+      <point x="105" y="1099" type="line"/>
+      <point x="105" y="396" type="line" smooth="yes"/>
+      <point x="105" y="157"/>
+      <point x="208" y="-38"/>
+      <point x="592" y="-38" type="curve" smooth="yes"/>
+      <point x="855" y="-38"/>
+      <point x="1048" y="112"/>
+      <point x="1048" y="389" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjE0NDYiIHdpZHRoPSIxODkiIC8+CiAgICAg
+IDx2c3RlbSBwb3M9IjI1MSIgd2lkdGg9IjU5NSIg
+Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0
+IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVt
+IHBvcz0iLTM2IiB3aWR0aD0iMTk0IiAvPgogICAg
+ICA8aHN0ZW0gcG9zPSIxMTAxIiB3aWR0aD0iMTg5
+IiAvPgogICAgICA8dnN0ZW0gcG9zPSIxMDYiIHdp
+ZHRoPSIzODMiIC8+CiAgICAgIDx2c3RlbSBwb3M9
+Ijg0NiIgd2lkdGg9IjIwMSIgLz4KICAgIDwvaGlu
+dHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

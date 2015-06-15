@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0304.cap" format="1">
+  <advance width="867"/>
+  <outline>
+    <contour>
+      <point x="131" y="1389" type="line" name="hr00"/>
+      <point x="726" y="1389" type="line"/>
+      <point x="726" y="1578" type="line"/>
+      <point x="131" y="1578" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
+b3M9IjEzODkiIHdpZHRoPSIxODkiIC8+CiAgICAg
+IDx2c3RlbSBwb3M9IjEzMSIgd2lkdGg9IjU5NSIg
+Lz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRM
+aXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0137" format="1">
+  <advance width="1229"/>
+  <unicode hex="0137"/>
+  <outline>
+    <contour>
+      <point x="428" y="-265" type="curve" smooth="yes" name="hr01"/>
+      <point x="428" y="-350"/>
+      <point x="493" y="-419"/>
+      <point x="575" y="-428" type="curve"/>
+      <point x="549" y="-470"/>
+      <point x="491" y="-511"/>
+      <point x="455" y="-535" type="curve"/>
+      <point x="621" y="-535" type="line"/>
+      <point x="667" y="-493"/>
+      <point x="773" y="-405"/>
+      <point x="762" y="-265" type="curve" smooth="yes"/>
+      <point x="755" y="-174"/>
+      <point x="684" y="-100"/>
+      <point x="593" y="-100" type="curve" smooth="yes"/>
+      <point x="502" y="-100"/>
+      <point x="428" y="-174"/>
+    </contour>
+    <contour>
+      <point x="942" y="987" type="line" name="hr02"/>
+      <point x="475" y="470" type="line"/>
+      <point x="475" y="1290" type="line"/>
+      <point x="0" y="1290" type="line"/>
+      <point x="0" y="1114" type="line"/>
+      <point x="106" y="1114" type="line"/>
+      <point x="106" y="1" type="line"/>
+      <point x="476" y="1" type="line"/>
+      <point x="476" y="219" type="line"/>
+      <point x="599" y="363" type="line"/>
+      <point x="722" y="1" type="line"/>
+      <point x="1089" y="1" type="line"/>
+      <point x="870" y="664" type="line"/>
+      <point x="1160" y="988" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9Ii01MzUiIHdpZHRoPSI0MzUiIC8+CiAgICAg
+IDx2c3RlbSBwb3M9IjQyOSIgd2lkdGg9IjMzNSIg
+Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0
+IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVt
+IHBvcz0iMCIgd2lkdGg9IjIxIiAvPgogICAgICA8
+aHN0ZW0gcG9zPSI5NjciIHdpZHRoPSIyMCIgLz4K
+ICAgICAgPGhzdGVtIHBvcz0iMTExMyIgd2lkdGg9
+IjE3NiIgLz4KICAgICAgPHZzdGVtIHBvcz0iMTA2
+IiB3aWR0aD0iMzcwIiAvPgogICAgPC9oaW50c2V0
+PgogIDwvaGludFNldExpc3Q+Cg==
+  </data>
+  </dict>
+  </lib>
+</glyph>

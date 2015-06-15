@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar" format="1">
+  <advance width="362"/>
+  <unicode hex="007C"/>
+  <outline>
+    <contour>
+      <point x="80" y="1629" type="line" name="hr00"/>
+      <point x="80" y="-595" type="line"/>
+      <point x="283" y="-595" type="line"/>
+      <point x="283" y="1629" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMCI+CiAgICAgIDx2c3RlbSBw
+b3M9IjgwIiB3aWR0aD0iMjAzIiAvPgogICAgPC9o
+aW50c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omacron" format="1">
+  <advance width="1297"/>
+  <unicode hex="014C"/>
+  <outline>
+    <contour>
+      <point x="349" y="1445" type="line" name="hr01"/>
+      <point x="944" y="1445" type="line"/>
+      <point x="944" y="1634" type="line"/>
+      <point x="349" y="1634" type="line"/>
+    </contour>
+    <contour>
+      <point x="1068" y="1105" type="line" name="hr02"/>
+      <point x="965" y="1234"/>
+      <point x="830" y="1324"/>
+      <point x="652" y="1324" type="curve" smooth="yes"/>
+      <point x="470" y="1324"/>
+      <point x="334" y="1226"/>
+      <point x="230" y="1086" type="curve" smooth="yes"/>
+      <point x="137" y="961"/>
+      <point x="80" y="796"/>
+      <point x="80" y="615" type="curve" smooth="yes"/>
+      <point x="80" y="448"/>
+      <point x="137" y="296"/>
+      <point x="229" y="181" type="curve" smooth="yes"/>
+      <point x="332" y="52"/>
+      <point x="478" y="-38"/>
+      <point x="645" y="-38" type="curve" smooth="yes"/>
+      <point x="812" y="-38"/>
+      <point x="962" y="59"/>
+      <point x="1066" y="199" type="curve" smooth="yes"/>
+      <point x="1159" y="324"/>
+      <point x="1216" y="489"/>
+      <point x="1216" y="670" type="curve" smooth="yes"/>
+      <point x="1216" y="836"/>
+      <point x="1159" y="988"/>
+      <point x="1067" y="1103" type="curve"/>
+    </contour>
+    <contour>
+      <point x="795" y="314" type="line" smooth="yes"/>
+      <point x="795" y="232"/>
+      <point x="729" y="166"/>
+      <point x="647" y="166" type="curve" smooth="yes"/>
+      <point x="565" y="166"/>
+      <point x="499" y="232"/>
+      <point x="499" y="314" type="curve" smooth="yes"/>
+      <point x="499" y="968" type="line" smooth="yes"/>
+      <point x="499" y="1050"/>
+      <point x="565" y="1116"/>
+      <point x="647" y="1116" type="curve" smooth="yes"/>
+      <point x="729" y="1116"/>
+      <point x="795" y="1050"/>
+      <point x="795" y="968" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjE0NDUiIHdpZHRoPSIxODkiIC8+CiAgICAg
+IDx2c3RlbSBwb3M9IjM1MCIgd2lkdGg9IjU5NSIg
+Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0
+IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVt
+IHBvcz0iLTM2IiB3aWR0aD0iMjA1IiAvPgogICAg
+ICA8aHN0ZW0gcG9zPSIxMTE5IiB3aWR0aD0iMjA2
+IiAvPgogICAgICA8dnN0ZW0gcG9zPSI4MCIgd2lk
+dGg9IjQyMSIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+Nzk3IiB3aWR0aD0iNDIxIiAvPgogICAgPC9oaW50
+c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+  </data>
+  </dict>
+  </lib>
+</glyph>

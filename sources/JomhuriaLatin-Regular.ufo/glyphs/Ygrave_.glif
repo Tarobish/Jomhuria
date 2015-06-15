@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ygrave" format="1">
+  <advance width="1410"/>
+  <unicode hex="1EF2"/>
+  <outline>
+    <contour>
+      <point x="780" y="1718" type="line" name="hr01"/>
+      <point x="557" y="1720" type="line"/>
+      <point x="796" y="1391" type="line"/>
+      <point x="930" y="1391" type="line"/>
+    </contour>
+    <contour>
+      <point x="1320" y="1291" type="line" name="hr02"/>
+      <point x="1102" y="1291" type="line"/>
+      <point x="754" y="648" type="line"/>
+      <point x="404" y="1291" type="line"/>
+      <point x="0" y="1291" type="line"/>
+      <point x="0" y="1101" type="line"/>
+      <point x="102" y="1100" type="line"/>
+      <point x="486" y="398" type="line"/>
+      <point x="486" y="2" type="line"/>
+      <point x="869" y="2" type="line"/>
+      <point x="869" y="459" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjEzODkiIHdpZHRoPSIzMjgiIC8+CiAgICAg
+IDx2c3RlbSBwb3M9IjU1NyIgd2lkdGg9IjM3MyIg
+Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0
+IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVt
+IHBvcz0iMCIgd2lkdGg9IjIxIiAvPgogICAgICA8
+aHN0ZW0gcG9zPSIxMDk5IiB3aWR0aD0iMTkwIiAv
+PgogICAgICA8dnN0ZW0gcG9zPSI0ODYiIHdpZHRo
+PSIzODMiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9o
+aW50U2V0TGlzdD4K
+  </data>
+  </dict>
+  </lib>
+</glyph>

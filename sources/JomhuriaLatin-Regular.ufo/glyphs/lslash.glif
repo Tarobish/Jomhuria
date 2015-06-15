@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lslash" format="1">
+  <advance width="724"/>
+  <unicode hex="0142"/>
+  <outline>
+    <contour>
+      <point x="489" y="972" type="line" name="hr01"/>
+      <point x="489" y="1289" type="line" name="hr02"/>
+      <point x="0" y="1289" type="line"/>
+      <point x="0" y="1099" type="line"/>
+      <point x="106" y="1099" type="line" name="hr03"/>
+      <point x="106" y="694" type="line"/>
+      <point x="0" y="617" type="line" name="hr04"/>
+      <point x="0" y="382" type="line"/>
+      <point x="106" y="458" type="line" name="hr05"/>
+      <point x="106" y="-1" type="line"/>
+      <point x="489" y="-1" type="line"/>
+      <point x="489" y="735" type="line"/>
+      <point x="635" y="840" type="line"/>
+      <point x="635" y="1076" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
+aHN0ZW0gcG9zPSIxMDk5IiB3aWR0aD0iMTkwIiAv
+PgogICAgICA8dnN0ZW0gcG9zPSIxMDYiIHdpZHRo
+PSIzODMiIC8+CiAgICA8L2hpbnRzZXQ+CiAgICA8
+aGludHNldCBwb2ludFRhZz0iaHIwMiI+CiAgICAg
+IDxoc3RlbSBwb3M9IjIxIiB3aWR0aD0iLTIxIiAv
+PgogICAgICA8aHN0ZW0gcG9zPSIxMDk5IiB3aWR0
+aD0iMTkwIiAvPgogICAgICA8dnN0ZW0gcG9zPSIw
+IiB3aWR0aD0iNDg5IiAvPgogICAgPC9oaW50c2V0
+PgogICAgPGhpbnRzZXQgcG9pbnRUYWc9ImhyMDMi
+PgogICAgICA8aHN0ZW0gcG9zPSIyMSIgd2lkdGg9
+Ii0yMSIgLz4KICAgICAgPGhzdGVtIHBvcz0iMTA5
+OSIgd2lkdGg9IjE5MCIgLz4KICAgICAgPHZzdGVt
+IHBvcz0iMTA2IiB3aWR0aD0iMzgzIiAvPgogICAg
+PC9oaW50c2V0PgogICAgPGhpbnRzZXQgcG9pbnRU
+YWc9ImhyMDQiPgogICAgICA8aHN0ZW0gcG9zPSIy
+MSIgd2lkdGg9Ii0yMSIgLz4KICAgICAgPGhzdGVt
+IHBvcz0iMTA5OSIgd2lkdGg9IjE5MCIgLz4KICAg
+ICAgPHZzdGVtIHBvcz0iMCIgd2lkdGg9IjQ4OSIg
+Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0
+IHBvaW50VGFnPSJocjA1Ij4KICAgICAgPGhzdGVt
+IHBvcz0iMjEiIHdpZHRoPSItMjEiIC8+CiAgICAg
+IDxoc3RlbSBwb3M9IjEwOTkiIHdpZHRoPSIxOTAi
+IC8+CiAgICAgIDx2c3RlbSBwb3M9IjEwNiIgd2lk
+dGg9IjM4MyIgLz4KICAgIDwvaGludHNldD4KICA8
+L2hpbnRTZXRMaXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

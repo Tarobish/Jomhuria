@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four.small" format="1">
+  <advance width="738"/>
+  <outline>
+    <contour>
+      <point x="648" y="311" type="line" name="hr01"/>
+      <point x="570" y="311" type="line"/>
+      <point x="570" y="774" type="line"/>
+      <point x="365" y="774" type="line"/>
+      <point x="40" y="312" type="line"/>
+      <point x="40" y="193" type="line"/>
+      <point x="339" y="193" type="line"/>
+      <point x="339" y="0" type="line"/>
+      <point x="570" y="0" type="line"/>
+      <point x="570" y="193" type="line"/>
+      <point x="648" y="193" type="line"/>
+    </contour>
+    <contour>
+      <point x="187" y="311" type="line"/>
+      <point x="339" y="526" type="line"/>
+      <point x="339" y="311" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgPC9oaW50U2V0TGlz
+dD4K
+  </data>
+  </dict>
+  </lib>
+</glyph>

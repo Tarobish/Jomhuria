@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ugrave" format="1">
+  <advance width="1137"/>
+  <unicode hex="00D9"/>
+  <outline>
+    <contour>
+      <point x="699" y="1717" type="line" name="hr01"/>
+      <point x="476" y="1719" type="line"/>
+      <point x="715" y="1390" type="line"/>
+      <point x="849" y="1390" type="line"/>
+    </contour>
+    <contour>
+      <point x="1046" y="1290" type="line" name="hr02"/>
+      <point x="847" y="1290" type="line"/>
+      <point x="846" y="378" type="line" smooth="yes"/>
+      <point x="846" y="215"/>
+      <point x="766" y="158"/>
+      <point x="667" y="158" type="curve" smooth="yes"/>
+      <point x="568" y="158"/>
+      <point x="488" y="223"/>
+      <point x="488" y="376" type="curve" smooth="yes"/>
+      <point x="488" y="1289" type="line"/>
+      <point x="-1" y="1289" type="line"/>
+      <point x="-1" y="1100" type="line"/>
+      <point x="105" y="1100" type="line"/>
+      <point x="105" y="397" type="line" smooth="yes"/>
+      <point x="105" y="158"/>
+      <point x="208" y="-37"/>
+      <point x="592" y="-37" type="curve" smooth="yes"/>
+      <point x="855" y="-37"/>
+      <point x="1048" y="113"/>
+      <point x="1048" y="390" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjEzOTAiIHdpZHRoPSIzMjgiIC8+CiAgICAg
+IDx2c3RlbSBwb3M9IjQ3NiIgd2lkdGg9IjM3MyIg
+Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0
+IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVt
+IHBvcz0iLTM2IiB3aWR0aD0iMTk0IiAvPgogICAg
+ICA8aHN0ZW0gcG9zPSIxMTAxIiB3aWR0aD0iMTg5
+IiAvPgogICAgICA8dnN0ZW0gcG9zPSIxMDYiIHdp
+ZHRoPSIzODMiIC8+CiAgICAgIDx2c3RlbSBwb3M9
+Ijg0NiIgd2lkdGg9IjIwMSIgLz4KICAgIDwvaGlu
+dHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

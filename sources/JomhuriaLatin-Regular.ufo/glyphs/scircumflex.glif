@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="scircumflex" format="1">
+  <advance width="1035"/>
+  <unicode hex="015D"/>
+  <outline>
+    <contour>
+      <point x="522" y="1406" type="line" name="hr01"/>
+      <point x="428" y="1406" type="line"/>
+      <point x="234" y="1077" type="line"/>
+      <point x="387" y="1077" type="line"/>
+      <point x="475" y="1223" type="line"/>
+      <point x="563" y="1077" type="line"/>
+      <point x="716" y="1077" type="line"/>
+    </contour>
+    <contour>
+      <point x="661" y="652" type="line" name="hr02"/>
+      <point x="539" y="685"/>
+      <point x="425" y="720"/>
+      <point x="425" y="789" type="curve" smooth="yes"/>
+      <point x="425" y="840"/>
+      <point x="485" y="880"/>
+      <point x="562" y="880" type="curve" smooth="yes"/>
+      <point x="636" y="880"/>
+      <point x="691" y="860"/>
+      <point x="726" y="821" type="curve" smooth="yes"/>
+      <point x="765" y="778"/>
+      <point x="768" y="725"/>
+      <point x="768" y="706" type="curve" name="hr03"/>
+      <point x="899" y="706" type="line"/>
+      <point x="899" y="989" type="line"/>
+      <point x="767" y="989" type="line"/>
+      <point x="767" y="925" type="line"/>
+      <point x="767" y="925"/>
+      <point x="673" y="1013"/>
+      <point x="474" y="1013" type="curve" smooth="yes" name="hr04"/>
+      <point x="251" y="1013"/>
+      <point x="77" y="874"/>
+      <point x="61" y="683" type="curve" smooth="yes"/>
+      <point x="40" y="441"/>
+      <point x="264" y="380"/>
+      <point x="411" y="337" type="curve" smooth="yes"/>
+      <point x="545" y="298"/>
+      <point x="633" y="276"/>
+      <point x="633" y="201" type="curve" smooth="yes"/>
+      <point x="633" y="153"/>
+      <point x="571" y="112"/>
+      <point x="462" y="112" type="curve" smooth="yes"/>
+      <point x="197" y="112"/>
+      <point x="201" y="286"/>
+      <point x="201" y="286" type="curve" name="hr05"/>
+      <point x="69" y="286" type="line"/>
+      <point x="69" y="4" type="line"/>
+      <point x="201" y="4" type="line"/>
+      <point x="201" y="70" type="line"/>
+      <point x="201" y="70"/>
+      <point x="297" y="-18"/>
+      <point x="515" y="-18" type="curve" smooth="yes" name="hr06"/>
+      <point x="764" y="-18"/>
+      <point x="973" y="124"/>
+      <point x="973" y="337" type="curve" smooth="yes"/>
+      <point x="973" y="472"/>
+      <point x="939" y="582"/>
+      <point x="657" y="657" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjEwNzciIHdpZHRoPSIzMjkiIC8+CiAgICAg
+IDx2c3RlbSBwb3M9IjIzMyIgd2lkdGg9IjQ4MiIg
+Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0
+IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVt
+IHBvcz0iODc5IiB3aWR0aD0iMTMyIiAvPgogICAg
+ICA8dnN0ZW0gcG9zPSI3MSIgd2lkdGg9IjEzMiIg
+Lz4KICAgICAgPHZzdGVtIHBvcz0iNzY2IiB3aWR0
+aD0iMTMyIiAvPgogICAgPC9oaW50c2V0PgogICAg
+PGhpbnRzZXQgcG9pbnRUYWc9ImhyMDMiPgogICAg
+ICA8aHN0ZW0gcG9zPSI3MDQiIHdpZHRoPSIyODMi
+IC8+CiAgICAgIDx2c3RlbSBwb3M9IjcxIiB3aWR0
+aD0iMTMyIiAvPgogICAgICA8dnN0ZW0gcG9zPSI3
+NjYiIHdpZHRoPSIxMzIiIC8+CiAgICA8L2hpbnRz
+ZXQ+CiAgICA8aGludHNldCBwb2ludFRhZz0iaHIw
+NCI+CiAgICAgIDxoc3RlbSBwb3M9Ii0yMyIgd2lk
+dGg9IjEzMSIgLz4KICAgICAgPGhzdGVtIHBvcz0i
+ODc5IiB3aWR0aD0iMTMyIiAvPgogICAgICA8dnN0
+ZW0gcG9zPSI3MSIgd2lkdGg9IjEzMiIgLz4KICAg
+ICAgPHZzdGVtIHBvcz0iNjMzIiB3aWR0aD0iMzQx
+IiAvPgogICAgPC9oaW50c2V0PgogICAgPGhpbnRz
+ZXQgcG9pbnRUYWc9ImhyMDUiPgogICAgICA8aHN0
+ZW0gcG9zPSIwIiB3aWR0aD0iMjgyIiAvPgogICAg
+ICA8dnN0ZW0gcG9zPSI3MSIgd2lkdGg9IjEzMiIg
+Lz4KICAgICAgPHZzdGVtIHBvcz0iNjMzIiB3aWR0
+aD0iMzQxIiAvPgogICAgPC9oaW50c2V0PgogICAg
+PGhpbnRzZXQgcG9pbnRUYWc9ImhyMDYiPgogICAg
+ICA8aHN0ZW0gcG9zPSItMjMiIHdpZHRoPSIxMzEi
+IC8+CiAgICAgIDxoc3RlbSBwb3M9Ijg3OSIgd2lk
+dGg9IjEzMiIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+NzEiIHdpZHRoPSIxMzIiIC8+CiAgICAgIDx2c3Rl
+bSBwb3M9IjYzMyIgd2lkdGg9IjM0MSIgLz4KICAg
+IDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
+  </data>
+  </dict>
+  </lib>
+</glyph>

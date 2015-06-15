@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Wgrave" format="1">
+  <advance width="2043"/>
+  <unicode hex="1E80"/>
+  <outline>
+    <contour>
+      <point x="1003" y="1717" type="line" name="hr00"/>
+      <point x="780" y="1719" type="line"/>
+      <point x="1019" y="1390" type="line"/>
+      <point x="1153" y="1390" type="line"/>
+    </contour>
+    <contour>
+      <point x="1753" y="1290" type="line"/>
+      <point x="1481" y="344" type="line"/>
+      <point x="1215" y="1290" type="line"/>
+      <point x="971" y="1290" type="line"/>
+      <point x="692" y="326" type="line"/>
+      <point x="423" y="1290" type="line"/>
+      <point x="0" y="1290" type="line"/>
+      <point x="1" y="1100" type="line"/>
+      <point x="103" y="1100" type="line"/>
+      <point x="415" y="1" type="line"/>
+      <point x="798" y="1" type="line"/>
+      <point x="1006" y="723" type="line"/>
+      <point x="1210" y="1" type="line"/>
+      <point x="1580" y="1" type="line"/>
+      <point x="1953" y="1290" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
+b3M9IjAiIHdpZHRoPSIyMSIgLz4KICAgICAgPGhz
+dGVtIHBvcz0iMTA5OSIgd2lkdGg9IjE5MCIgLz4K
+ICAgICAgPGhzdGVtIHBvcz0iMTM4OSIgd2lkdGg9
+IjMyOCIgLz4KICAgICAgPHZzdGVtIHBvcz0iNzgw
+IiB3aWR0aD0iMzczIiAvPgogICAgPC9oaW50c2V0
+PgogIDwvaGludFNldExpc3Q+Cg==
+  </data>
+  </dict>
+  </lib>
+</glyph>

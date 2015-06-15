@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ccircumflex" format="1">
+  <advance width="1170"/>
+  <unicode hex="0108"/>
+  <outline>
+    <contour>
+      <point x="700" y="1716" type="line" name="hr01"/>
+      <point x="606" y="1716" type="line"/>
+      <point x="412" y="1387" type="line"/>
+      <point x="565" y="1387" type="line"/>
+      <point x="653" y="1533" type="line"/>
+      <point x="741" y="1387" type="line"/>
+      <point x="894" y="1387" type="line"/>
+    </contour>
+    <contour>
+      <point x="956" y="380" type="line" name="hr02"/>
+      <point x="950" y="356"/>
+      <point x="896" y="170"/>
+      <point x="706" y="170" type="curve" smooth="yes"/>
+      <point x="593" y="170"/>
+      <point x="499" y="260"/>
+      <point x="499" y="371" type="curve" smooth="yes"/>
+      <point x="499" y="918" type="line" smooth="yes"/>
+      <point x="499" y="1029"/>
+      <point x="592" y="1117"/>
+      <point x="706" y="1117" type="curve" smooth="yes"/>
+      <point x="910" y="1117"/>
+      <point x="912" y="908"/>
+      <point x="912" y="908" type="curve"/>
+      <point x="1060" y="908" type="line"/>
+      <point x="1060" y="1325" type="line"/>
+      <point x="913" y="1325" type="line"/>
+      <point x="913" y="1242" type="line"/>
+      <point x="913" y="1242"/>
+      <point x="826" y="1324"/>
+      <point x="653" y="1324" type="curve" smooth="yes"/>
+      <point x="328" y="1324"/>
+      <point x="79" y="1006"/>
+      <point x="79" y="615" type="curve" smooth="yes"/>
+      <point x="79" y="255"/>
+      <point x="341" y="-38"/>
+      <point x="663" y="-38" type="curve" smooth="yes"/>
+      <point x="864" y="-38"/>
+      <point x="1027" y="102"/>
+      <point x="1090" y="243" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
+b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
+b3M9IjEzODYiIHdpZHRoPSIzMjkiIC8+CiAgICAg
+IDx2c3RlbSBwb3M9IjQxMiIgd2lkdGg9IjQ4MiIg
+Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0
+IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVt
+IHBvcz0iLTM2IiB3aWR0aD0iMjA1IiAvPgogICAg
+ICA8aHN0ZW0gcG9zPSIxMTE3IiB3aWR0aD0iMjA3
+IiAvPgogICAgICA8dnN0ZW0gcG9zPSI4MCIgd2lk
+dGg9IjQyMSIgLz4KICAgICAgPHZzdGVtIHBvcz0i
+OTE0IiB3aWR0aD0iMTQ3IiAvPgogICAgPC9oaW50
+c2V0PgogIDwvaGludFNldExpc3Q+Cg==
+  </data>
+  </dict>
+  </lib>
+</glyph>
