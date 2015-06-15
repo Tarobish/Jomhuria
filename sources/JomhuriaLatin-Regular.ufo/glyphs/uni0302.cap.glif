@@ -3,26 +3,38 @@
   <advance width="0"/>
   <outline>
     <contour>
-      <point x="-432" y="1718" type="line" name="hr00"/>
-      <point x="-526" y="1718" type="line"/>
-      <point x="-720" y="1389" type="line"/>
-      <point x="-567" y="1389" type="line"/>
-      <point x="-479" y="1535" type="line"/>
-      <point x="-391" y="1389" type="line"/>
-      <point x="-238" y="1389" type="line"/>
+      <point x="-432.013" y="1717.87" type="line"/>
+      <point x="-238" y="1388.48" type="line"/>
+      <point x="-391.264" y="1388.48" type="line"/>
+      <point x="-479.164" y="1534.42" type="line"/>
+      <point x="-567.23" y="1388.48" type="line"/>
+      <point x="-720.494" y="1388.48" type="line"/>
+      <point x="-526.398" y="1717.87" type="line"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
-b3M9IjEzODgiIHdpZHRoPSIzMjkiIC8+CiAgICAg
-IDx2c3RlbSBwb3M9Ii03MjAiIHdpZHRoPSI0ODIi
-IC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0
-TGlzdD4K
-  </data>
-  </dict>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>1388</integer>
+            <key>width</key>
+            <integer>329</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-720</integer>
+            <key>width</key>
+            <integer>482</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

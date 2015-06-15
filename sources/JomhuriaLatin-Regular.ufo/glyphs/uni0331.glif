@@ -3,24 +3,31 @@
   <advance width="0"/>
   <unicode hex="0331"/>
   <outline>
-    <contour>
-      <point x="-490" y="-174" type="line" name="hr00"/>
-      <point x="105" y="-174" type="line"/>
-      <point x="105" y="15" type="line"/>
-      <point x="-490" y="15" type="line"/>
-    </contour>
+    <component base="uni0304" yOffset="-1260"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
-b3M9Ii0xNzQiIHdpZHRoPSIxODkiIC8+CiAgICAg
-IDx2c3RlbSBwb3M9Ii00OTAiIHdpZHRoPSI1OTUi
-IC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0
-TGlzdD4K
-  </data>
-  </dict>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-174</integer>
+            <key>width</key>
+            <integer>189</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-490</integer>
+            <key>width</key>
+            <integer>595</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

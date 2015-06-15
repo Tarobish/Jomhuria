@@ -3,42 +3,53 @@
   <advance width="0"/>
   <outline>
     <contour>
-      <point x="511" y="-90" type="line" name="hr00"/>
+      <point x="511.246" y="-90.1982" type="line"/>
+      <point x="559.812" y="-116.644"/>
+      <point x="588.253" y="-157.891"/>
+      <point x="588.336" y="-202.879" type="curve" smooth="yes"/>
+      <point x="588.336" y="-282.63"/>
+      <point x="501.184" y="-345"/>
+      <point x="390" y="-345" type="curve" smooth="yes"/>
+      <point x="314.407" y="-345"/>
+      <point x="264.263" y="-313.981"/>
+      <point x="264.263" y="-313.981" type="curve"/>
+      <point x="299.105" y="-242.631" type="line"/>
+      <point x="299.105" y="-242.631"/>
+      <point x="328.129" y="-251.777"/>
+      <point x="354.574" y="-252.027" type="curve" smooth="yes"/>
+      <point x="410.291" y="-252.526"/>
+      <point x="451.954" y="-226.081"/>
+      <point x="451.954" y="-202.879" type="curve" smooth="yes"/>
+      <point x="451.954" y="-150.072"/>
+      <point x="342.433" y="-153.316"/>
+      <point x="342.433" y="-153.316" type="curve"/>
+      <point x="457.571" y="80.6689" type="line"/>
       <point x="635" y="82" type="line"/>
-      <point x="458" y="81" type="line"/>
-      <point x="343" y="-153" type="line"/>
-      <point x="343" y="-153"/>
-      <point x="453" y="-150"/>
-      <point x="453" y="-203" type="curve" smooth="yes"/>
-      <point x="453" y="-226"/>
-      <point x="411" y="-252"/>
-      <point x="355" y="-252" type="curve" smooth="yes"/>
-      <point x="329" y="-252"/>
-      <point x="300" y="-243"/>
-      <point x="300" y="-243" type="curve"/>
-      <point x="265" y="-314" type="line"/>
-      <point x="265" y="-314"/>
-      <point x="315" y="-345"/>
-      <point x="391" y="-345" type="curve" smooth="yes"/>
-      <point x="502" y="-345"/>
-      <point x="589" y="-283"/>
-      <point x="589" y="-203" type="curve" smooth="yes"/>
-      <point x="589" y="-158"/>
-      <point x="561" y="-117"/>
-      <point x="512" y="-91" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
-b3M9Ii0zNDUiIHdpZHRoPSI5MyIgLz4KICAgICAg
-PHZzdGVtIHBvcz0iNDUyIiB3aWR0aD0iMTM2IiAv
-PgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExp
-c3Q+Cg==
-  </data>
-  </dict>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-345</integer>
+            <key>width</key>
+            <integer>93</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>452</integer>
+            <key>width</key>
+            <integer>136</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

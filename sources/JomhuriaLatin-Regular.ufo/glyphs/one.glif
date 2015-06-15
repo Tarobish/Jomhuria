@@ -4,29 +4,46 @@
   <unicode hex="0031"/>
   <outline>
     <contour>
-      <point x="370" y="1289" type="line" name="hr00"/>
-      <point x="296" y="1107"/>
-      <point x="0" y="1092"/>
-      <point x="0" y="1092" type="curve"/>
-      <point x="0" y="897" type="line"/>
-      <point x="181" y="897" type="line"/>
-      <point x="181" y="-1" type="line"/>
-      <point x="566" y="-1" type="line"/>
-      <point x="566" y="1288" type="line"/>
+      <point x="370.087" y="1289.49" type="curve"/>
+      <point x="565.704" y="1289.49" type="line"/>
+      <point x="565.704" y="0" type="line"/>
+      <point x="180.592" y="0" type="line"/>
+      <point x="180.592" y="897.947" type="line"/>
+      <point x="0" y="897.947" type="line"/>
+      <point x="0" y="1092.45" type="line"/>
+      <point x="0" y="1092.45"/>
+      <point x="296.069" y="1107.79"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
-b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
-aHN0ZW0gcG9zPSIxMjg5IiB3aWR0aD0iLTIwIiAv
-PgogICAgICA8dnN0ZW0gcG9zPSIxODEiIHdpZHRo
-PSIzODUiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9o
-aW50U2V0TGlzdD4K
-  </data>
-  </dict>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1269</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>181</integer>
+            <key>width</key>
+            <integer>385</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

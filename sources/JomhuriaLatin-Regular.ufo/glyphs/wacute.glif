@@ -3,42 +3,35 @@
   <advance width="1803"/>
   <unicode hex="1E83"/>
   <outline>
-    <contour>
-      <point x="1058" y="1408" type="line" name="hr00"/>
-      <point x="1281" y="1410" type="line"/>
-      <point x="1042" y="1081" type="line"/>
-      <point x="908" y="1081" type="line"/>
-    </contour>
-    <contour>
-      <point x="1138" y="987" type="line"/>
-      <point x="814" y="987" type="line"/>
-      <point x="611" y="262" type="line"/>
-      <point x="408" y="987" type="line"/>
-      <point x="0" y="987" type="line"/>
-      <point x="0" y="816" type="line"/>
-      <point x="98" y="816" type="line"/>
-      <point x="330" y="1" type="line"/>
-      <point x="699" y="1" type="line"/>
-      <point x="881" y="634" type="line"/>
-      <point x="1061" y="1" type="line"/>
-      <point x="1429" y="1" type="line"/>
-      <point x="1713" y="987" type="line"/>
-      <point x="1544" y="987" type="line"/>
-      <point x="1340" y="266" type="line"/>
-    </contour>
+    <component base="acutecomb" xOffset="890.14" yOffset="-6"/>
+    <component base="w"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
-b3M9IjAiIHdpZHRoPSIyMSIgLz4KICAgICAgPGhz
-dGVtIHBvcz0iODE1IiB3aWR0aD0iMTcxIiAvPgog
-ICAgICA8aHN0ZW0gcG9zPSIxMDgwIiB3aWR0aD0i
-MzI5IiAvPgogICAgPC9oaW50c2V0PgogIDwvaGlu
-dFNldExpc3Q+Cg==
-  </data>
-  </dict>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>815</integer>
+            <key>width</key>
+            <integer>171</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1080</integer>
+            <key>width</key>
+            <integer>329</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

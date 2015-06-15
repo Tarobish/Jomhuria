@@ -4,28 +4,37 @@
   <unicode hex="0056"/>
   <outline>
     <contour>
-      <point x="1067" y="1289" type="line" name="hr00"/>
-      <point x="758" y="387" type="line"/>
-      <point x="448" y="1289" type="line"/>
-      <point x="0" y="1289" type="line"/>
-      <point x="0" y="1099" type="line"/>
-      <point x="104" y="1098" type="line"/>
-      <point x="473" y="-1" type="line"/>
-      <point x="828" y="-1" type="line"/>
-      <point x="1267" y="1288" type="line"/>
+      <point x="1066.89" y="1289.48" type="line"/>
+      <point x="1266.89" y="1289.48" type="line"/>
+      <point x="827.892" y="0" type="line"/>
+      <point x="472.892" y="0" type="line"/>
+      <point x="103.902" y="1099.15" type="line"/>
+      <point x="0" y="1099.98" type="line"/>
+      <point x="0" y="1289.48" type="line"/>
+      <point x="447.892" y="1289.48" type="line"/>
+      <point x="758.07" y="387.9" type="line"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
-b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
-aHN0ZW0gcG9zPSIxMTAwIiB3aWR0aD0iMTkwIiAv
-PgogICAgPC9oaW50c2V0PgogIDwvaGludFNldExp
-c3Q+Cg==
-  </data>
-  </dict>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1100</integer>
+            <key>width</key>
+            <integer>190</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

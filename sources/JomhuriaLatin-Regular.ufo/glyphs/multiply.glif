@@ -4,31 +4,40 @@
   <unicode hex="00D7"/>
   <outline>
     <contour>
-      <point x="682" y="494" type="line" name="hr00"/>
-      <point x="1036" y="986" type="line"/>
-      <point x="789" y="986" type="line"/>
-      <point x="558" y="664" type="line"/>
-      <point x="327" y="986" type="line"/>
-      <point x="80" y="986" type="line"/>
-      <point x="434" y="494" type="line"/>
-      <point x="80" y="0" type="line"/>
-      <point x="327" y="0" type="line"/>
-      <point x="557" y="321" type="line"/>
-      <point x="788" y="0" type="line"/>
-      <point x="1035" y="0" type="line"/>
+      <point x="682.243" y="494.052" type="line"/>
+      <point x="1036.17" y="0" type="line"/>
+      <point x="788.688" y="0" type="line"/>
+      <point x="558.169" y="321.163" type="line"/>
+      <point x="327.733" y="0" type="line"/>
+      <point x="80.249" y="0" type="line"/>
+      <point x="434.178" y="494.052" type="line"/>
+      <point x="80" y="986.5" type="line"/>
+      <point x="327.483" y="986.5" type="line"/>
+      <point x="558.169" y="664.921" type="line"/>
+      <point x="788.938" y="986.5" type="line"/>
+      <point x="1036.42" y="986.5" type="line"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
-b3M9IjIxIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
-aHN0ZW0gcG9zPSI5ODYiIHdpZHRoPSItMjAiIC8+
-CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlz
-dD4K
-  </data>
-  </dict>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>966</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

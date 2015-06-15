@@ -4,70 +4,89 @@
   <unicode hex="0045"/>
   <outline>
     <contour>
-      <point x="883" y="393" type="line" name="hr01"/>
-      <point x="883" y="225" type="line" smooth="yes"/>
-      <point x="883" y="205"/>
-      <point x="869" y="188"/>
-      <point x="834" y="184" type="curve"/>
-      <point x="488" y="184" type="line"/>
-      <point x="488" y="580" type="line"/>
-      <point x="624" y="580" type="line"/>
-      <point x="624" y="514" type="line"/>
-      <point x="769" y="514" type="line"/>
-      <point x="769" y="841" type="line"/>
-      <point x="624" y="841" type="line"/>
-      <point x="624" y="775" type="line"/>
-      <point x="488" y="775" type="line"/>
-      <point x="488" y="1099" type="line"/>
-      <point x="788" y="1099" type="line"/>
-      <point x="810" y="1098"/>
-      <point x="829" y="1082"/>
-      <point x="829" y="1037" type="curve" smooth="yes"/>
-      <point x="829" y="890" type="line" name="hr02"/>
-      <point x="974" y="890" type="line"/>
-      <point x="974" y="1290" type="line"/>
-      <point x="-1" y="1290" type="line"/>
-      <point x="-1" y="1099" type="line"/>
-      <point x="105" y="1099" type="line"/>
-      <point x="105" y="0" type="line"/>
-      <point x="1028" y="0" type="line" name="hr03"/>
-      <point x="1028" y="393" type="line"/>
+      <point x="883.307" y="393.442" type="line"/>
+      <point x="1028.77" y="393.442" type="line"/>
+      <point x="1028.77" y="0" type="line"/>
+      <point x="105.563" y="0" type="line"/>
+      <point x="105.563" y="1098.87" type="line"/>
+      <point x="0" y="1098.87" type="line"/>
+      <point x="0" y="1289.48" type="line"/>
+      <point x="975.294" y="1289.48" type="line"/>
+      <point x="975.294" y="889.956" type="line"/>
+      <point x="829.831" y="889.956" type="line"/>
+      <point x="829.554" y="1037.08" type="line" smooth="yes"/>
+      <point x="829.554" y="1081.97"/>
+      <point x="810.714" y="1097.76"/>
+      <point x="789.102" y="1098.87" type="curve" smooth="yes"/>
+      <point x="488.755" y="1098.87" type="line"/>
+      <point x="488.755" y="775.248" type="line"/>
+      <point x="624.521" y="775.525" type="line"/>
+      <point x="624.521" y="841.191" type="line"/>
+      <point x="769.983" y="841.191" type="line"/>
+      <point x="769.983" y="513.691" type="line"/>
+      <point x="624.521" y="513.691" type="line"/>
+      <point x="624.521" y="580.188" type="line"/>
+      <point x="488.755" y="580.188" type="line"/>
+      <point x="488.755" y="184.253" type="line"/>
+      <point x="834.542" y="184.253" type="line" smooth="yes"/>
+      <point x="869.452" y="188.132"/>
+      <point x="883.029" y="205.311"/>
+      <point x="883.029" y="225.26" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
-b3M9IjAiIHdpZHRoPSIxODQiIC8+CiAgICAgIDxo
-c3RlbSBwb3M9IjU4MCIgd2lkdGg9IjE5NSIgLz4K
-ICAgICAgPGhzdGVtIHBvcz0iMTA5OSIgd2lkdGg9
-IjE5MSIgLz4KICAgICAgPHZzdGVtIHBvcz0iMTA2
-IiB3aWR0aD0iMzgzIiAvPgogICAgICA8dnN0ZW0g
-cG9zPSI2MjUiIHdpZHRoPSIxNDUiIC8+CiAgICAg
-IDx2c3RlbSBwb3M9Ijg4MyIgd2lkdGg9IjE0NiIg
-Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0
-IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVt
-IHBvcz0iMCIgd2lkdGg9IjE4NCIgLz4KICAgICAg
-PGhzdGVtIHBvcz0iNTgwIiB3aWR0aD0iMTk1IiAv
-PgogICAgICA8aHN0ZW0gcG9zPSIxMDk5IiB3aWR0
-aD0iMTkxIiAvPgogICAgICA8dnN0ZW0gcG9zPSIx
-MDYiIHdpZHRoPSIzODMiIC8+CiAgICAgIDx2c3Rl
-bSBwb3M9IjYyNSIgd2lkdGg9IjE0NSIgLz4KICAg
-ICAgPHZzdGVtIHBvcz0iODMwIiB3aWR0aD0iMTQ1
-IiAvPgogICAgPC9oaW50c2V0PgogICAgPGhpbnRz
-ZXQgcG9pbnRUYWc9ImhyMDMiPgogICAgICA8aHN0
-ZW0gcG9zPSIwIiB3aWR0aD0iMTg0IiAvPgogICAg
-ICA8aHN0ZW0gcG9zPSI1ODAiIHdpZHRoPSIxOTUi
-IC8+CiAgICAgIDxoc3RlbSBwb3M9IjEwOTkiIHdp
-ZHRoPSIxOTEiIC8+CiAgICAgIDx2c3RlbSBwb3M9
-IjEwNiIgd2lkdGg9IjM4MyIgLz4KICAgICAgPHZz
-dGVtIHBvcz0iNjI1IiB3aWR0aD0iMTQ1IiAvPgog
-ICAgICA8dnN0ZW0gcG9zPSI4ODMiIHdpZHRoPSIx
-NDYiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50
-U2V0TGlzdD4K
-  </data>
-  </dict>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>184</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>580</integer>
+            <key>width</key>
+            <integer>195</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1099</integer>
+            <key>width</key>
+            <integer>191</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>106</integer>
+            <key>width</key>
+            <integer>383</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>625</integer>
+            <key>width</key>
+            <integer>145</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>830</integer>
+            <key>width</key>
+            <integer>145</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>883</integer>
+            <key>width</key>
+            <integer>146</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

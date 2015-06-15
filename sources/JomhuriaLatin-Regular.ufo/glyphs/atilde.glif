@@ -3,107 +3,68 @@
   <advance width="1186"/>
   <unicode hex="00E3"/>
   <outline>
-    <contour>
-      <point x="695" y="1276" type="line" smooth="yes" name="hr01"/>
-      <point x="695" y="1245"/>
-      <point x="677" y="1206"/>
-      <point x="619" y="1233" type="curve"/>
-      <point x="619" y="1233"/>
-      <point x="516" y="1292"/>
-      <point x="446" y="1292" type="curve" smooth="yes"/>
-      <point x="367" y="1292"/>
-      <point x="269" y="1245"/>
-      <point x="269" y="1120" type="curve" smooth="yes"/>
-      <point x="269" y="1082" type="line"/>
-      <point x="380" y="1082" type="line"/>
-      <point x="380" y="1098" type="line" smooth="yes"/>
-      <point x="381" y="1130"/>
-      <point x="401" y="1171"/>
-      <point x="456" y="1142" type="curve"/>
-      <point x="456" y="1142"/>
-      <point x="552" y="1083"/>
-      <point x="629" y="1083" type="curve" smooth="yes"/>
-      <point x="708" y="1083"/>
-      <point x="806" y="1130"/>
-      <point x="806" y="1255" type="curve" smooth="yes"/>
-      <point x="806" y="1293" type="line"/>
-      <point x="695" y="1293" type="line"/>
-    </contour>
-    <contour>
-      <point x="1031" y="558" type="line" smooth="yes" name="hr02"/>
-      <point x="1031" y="871"/>
-      <point x="881" y="1011"/>
-      <point x="545" y="1011" type="curve" smooth="yes"/>
-      <point x="351" y="1011"/>
-      <point x="202" y="936"/>
-      <point x="125" y="799" type="curve"/>
-      <point x="232" y="690" type="line"/>
-      <point x="280" y="784"/>
-      <point x="387" y="818"/>
-      <point x="466" y="818" type="curve" smooth="yes"/>
-      <point x="654" y="818"/>
-      <point x="662" y="661"/>
-      <point x="662" y="661" type="curve"/>
-      <point x="662" y="661"/>
-      <point x="60" y="651"/>
-      <point x="60" y="257" type="curve" smooth="yes"/>
-      <point x="60" y="75"/>
-      <point x="236" y="-23"/>
-      <point x="402" y="-23" type="curve" smooth="yes"/>
-      <point x="592" y="-23"/>
-      <point x="661" y="99"/>
-      <point x="661" y="99" type="curve"/>
-      <point x="661" y="0" type="line" name="hr03"/>
-      <point x="1136" y="0" type="line"/>
-      <point x="1136" y="172" type="line"/>
-      <point x="1030" y="172" type="line"/>
-    </contour>
-    <contour>
-      <point x="660" y="197" type="line"/>
-      <point x="658" y="195" type="line"/>
-      <point x="658" y="195"/>
-      <point x="634" y="170"/>
-      <point x="586" y="170" type="curve" smooth="yes" name="hr04"/>
-      <point x="500" y="170"/>
-      <point x="447" y="255"/>
-      <point x="447" y="333" type="curve" smooth="yes"/>
-      <point x="447" y="491"/>
-      <point x="650" y="546"/>
-      <point x="652" y="547" type="curve" smooth="yes"/>
-      <point x="660" y="549" type="line"/>
-    </contour>
+    <component base="tildecomb" xOffset="1158.7" yOffset="-4"/>
+    <component base="a"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
-b3M9IjEwODMiIHdpZHRoPSIyMTAiIC8+CiAgICAg
-IDx2c3RlbSBwb3M9IjI2OSIgd2lkdGg9IjExMSIg
-Lz4KICAgICAgPHZzdGVtIHBvcz0iNjk2IiB3aWR0
-aD0iMTExIiAvPgogICAgPC9oaW50c2V0PgogICAg
-PGhpbnRzZXQgcG9pbnRUYWc9ImhyMDIiPgogICAg
-ICA8aHN0ZW0gcG9zPSItMjMiIHdpZHRoPSIxOTMi
-IC8+CiAgICAgIDxoc3RlbSBwb3M9IjgxOCIgd2lk
-dGg9IjE5MyIgLz4KICAgICAgPHZzdGVtIHBvcz0i
-NjAiIHdpZHRoPSIzODgiIC8+CiAgICAgIDx2c3Rl
-bSBwb3M9IjY2MiIgd2lkdGg9IjM3MCIgLz4KICAg
-IDwvaGludHNldD4KICAgIDxoaW50c2V0IHBvaW50
-VGFnPSJocjAzIj4KICAgICAgPGhzdGVtIHBvcz0i
-MCIgd2lkdGg9IjE3MiIgLz4KICAgICAgPGhzdGVt
-IHBvcz0iODE4IiB3aWR0aD0iMTkzIiAvPgogICAg
-ICA8dnN0ZW0gcG9zPSI2MCIgd2lkdGg9IjM4OCIg
-Lz4KICAgICAgPHZzdGVtIHBvcz0iNjYyIiB3aWR0
-aD0iMzcwIiAvPgogICAgPC9oaW50c2V0PgogICAg
-PGhpbnRzZXQgcG9pbnRUYWc9ImhyMDQiPgogICAg
-ICA8aHN0ZW0gcG9zPSItMjMiIHdpZHRoPSIxOTMi
-IC8+CiAgICAgIDxoc3RlbSBwb3M9IjgxOCIgd2lk
-dGg9IjE5MyIgLz4KICAgICAgPHZzdGVtIHBvcz0i
-NjAiIHdpZHRoPSIzODgiIC8+CiAgICAgIDx2c3Rl
-bSBwb3M9IjY2MiIgd2lkdGg9IjM3MCIgLz4KICAg
-IDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
-  </data>
-  </dict>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-23</integer>
+            <key>width</key>
+            <integer>193</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>172</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>818</integer>
+            <key>width</key>
+            <integer>193</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1082</integer>
+            <key>width</key>
+            <integer>210</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>60</integer>
+            <key>width</key>
+            <integer>388</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>269</integer>
+            <key>width</key>
+            <integer>111</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>662</integer>
+            <key>width</key>
+            <integer>370</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>695</integer>
+            <key>width</key>
+            <integer>111</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

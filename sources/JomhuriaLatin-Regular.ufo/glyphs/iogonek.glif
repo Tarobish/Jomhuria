@@ -3,61 +3,44 @@
   <advance width="615"/>
   <unicode hex="012F"/>
   <outline>
-    <contour>
-      <point x="357" y="1027" type="line" name="hr01"/>
-      <point x="429" y="1027"/>
-      <point x="487" y="1085"/>
-      <point x="487" y="1157" type="curve" smooth="yes"/>
-      <point x="487" y="1229"/>
-      <point x="429" y="1287"/>
-      <point x="357" y="1287" type="curve" smooth="yes"/>
-      <point x="285" y="1287"/>
-      <point x="227" y="1228"/>
-      <point x="227" y="1156" type="curve" smooth="yes"/>
-      <point x="227" y="1084"/>
-      <point x="285" y="1026"/>
-      <point x="357" y="1026" type="curve"/>
-    </contour>
-    <contour>
-      <point x="-70" y="985" type="line" name="hr02"/>
-      <point x="-70" y="814" type="line"/>
-      <point x="36" y="814" type="line"/>
-      <point x="36" y="-2" type="line"/>
-      <point x="185" y="-2" type="line"/>
-      <point x="321" y="-2" type="line" smooth="yes"/>
-      <point x="203" y="-2"/>
-      <point x="201" y="-111"/>
-      <point x="236" y="-148" type="curve" smooth="yes"/>
-      <point x="298" y="-214"/>
-      <point x="405" y="-110"/>
-      <point x="405" y="-110" type="curve"/>
-      <point x="405" y="-214" type="line"/>
-      <point x="405" y="-214"/>
-      <point x="349" y="-299"/>
-      <point x="248" y="-299" type="curve" smooth="yes"/>
-      <point x="63" y="-299"/>
-      <point x="65" y="-76"/>
-      <point x="185" y="-2" type="curve"/>
-      <point x="321" y="-2" type="line"/>
-      <point x="405" y="-2" type="line"/>
-      <point x="405" y="984" type="line"/>
-    </contour>
+    <component base="uni0307" xOffset="724" yOffset="-59"/>
+    <component base="iogonek.dotless" xOffset="-70"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
-b3M9IjEwMjgiIHdpZHRoPSIyNjEiIC8+CiAgICAg
-IDx2c3RlbSBwb3M9IjIyNyIgd2lkdGg9IjI2MSIg
-Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0
-IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVt
-IHBvcz0iODE2IiB3aWR0aD0iMTcxIiAvPgogICAg
-ICA8dnN0ZW0gcG9zPSIzNiIgd2lkdGg9IjM3MCIg
-Lz4KICAgIDwvaGludHNldD4KICA8L2hpbnRTZXRM
-aXN0Pgo=
-  </data>
-  </dict>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>816</integer>
+            <key>width</key>
+            <integer>171</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1028</integer>
+            <key>width</key>
+            <integer>261</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>36</integer>
+            <key>width</key>
+            <integer>370</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>226</integer>
+            <key>width</key>
+            <integer>261</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

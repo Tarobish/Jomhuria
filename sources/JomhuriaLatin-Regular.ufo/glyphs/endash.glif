@@ -4,21 +4,26 @@
   <unicode hex="2013"/>
   <outline>
     <contour>
-      <point x="874" y="595" type="line" name="hr00"/>
-      <point x="80" y="595" type="line"/>
-      <point x="80" y="394" type="line"/>
-      <point x="874" y="394" type="line"/>
+      <point x="874" y="594.597" type="line"/>
+      <point x="874" y="393.721" type="line"/>
+      <point x="80" y="393.721" type="line"/>
+      <point x="80" y="594.597" type="line"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
-b3M9IjM5NCIgd2lkdGg9IjIwMSIgLz4KICAgIDwv
-aGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
-  </data>
-  </dict>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>394</integer>
+            <key>width</key>
+            <integer>201</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

@@ -3,76 +3,62 @@
   <advance width="1139"/>
   <unicode hex="010F"/>
   <outline>
-    <contour>
-      <point x="725" y="1659" type="curve" smooth="yes" name="hr01"/>
-      <point x="725" y="1574"/>
-      <point x="790" y="1505"/>
-      <point x="872" y="1496" type="curve"/>
-      <point x="846" y="1454"/>
-      <point x="788" y="1413"/>
-      <point x="752" y="1389" type="curve"/>
-      <point x="918" y="1389" type="line"/>
-      <point x="964" y="1431"/>
-      <point x="1070" y="1519"/>
-      <point x="1059" y="1659" type="curve" smooth="yes"/>
-      <point x="1052" y="1750"/>
-      <point x="981" y="1824"/>
-      <point x="890" y="1824" type="curve" smooth="yes"/>
-      <point x="799" y="1824"/>
-      <point x="725" y="1750"/>
-    </contour>
-    <contour>
-      <point x="584" y="1290" type="line" name="hr02"/>
-      <point x="584" y="1113" type="line"/>
-      <point x="690" y="1113" type="line"/>
-      <point x="690" y="912" type="line"/>
-      <point x="690" y="912"/>
-      <point x="619" y="1011"/>
-      <point x="467" y="1011" type="curve" smooth="yes"/>
-      <point x="240" y="1011"/>
-      <point x="81" y="812"/>
-      <point x="81" y="526" type="curve" smooth="yes"/>
-      <point x="81" y="278"/>
-      <point x="177" y="-12"/>
-      <point x="447" y="-12" type="curve" smooth="yes"/>
-      <point x="610" y="-12"/>
-      <point x="690" y="96"/>
-      <point x="690" y="96" type="curve"/>
-      <point x="690" y="2" type="line"/>
-      <point x="1060" y="2" type="line"/>
-      <point x="1060" y="1291" type="line"/>
-    </contour>
-    <contour>
-      <point x="690" y="181" type="line"/>
-      <point x="632" y="182" type="line"/>
-      <point x="555" y="182"/>
-      <point x="492" y="245"/>
-      <point x="492" y="323" type="curve" smooth="yes"/>
-      <point x="492" y="689" type="line" smooth="yes"/>
-      <point x="492" y="766"/>
-      <point x="555" y="829"/>
-      <point x="633" y="829" type="curve"/>
-      <point x="690" y="830" type="line"/>
-    </contour>
+    <component base="uni0315" xOffset="1152" yOffset="-36"/>
+    <component base="d"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
-b3M9IjEzODgiIHdpZHRoPSI0MzUiIC8+CiAgICAg
-IDx2c3RlbSBwb3M9IjcyNSIgd2lkdGg9IjMzNSIg
-Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0
-IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVt
-IHBvcz0iMCIgd2lkdGg9IjIxIiAvPgogICAgICA8
-aHN0ZW0gcG9zPSI4MjciIHdpZHRoPSIxODMiIC8+
-CiAgICAgIDxoc3RlbSBwb3M9IjExMTIiIHdpZHRo
-PSIxNzciIC8+CiAgICAgIDx2c3RlbSBwb3M9Ijgw
-IiB3aWR0aD0iNDEyIiAvPgogICAgICA8dnN0ZW0g
-cG9zPSI2OTAiIHdpZHRoPSIzNzAiIC8+CiAgICA8
-L2hpbnRzZXQ+CiAgPC9oaW50U2V0TGlzdD4K
-  </data>
-  </dict>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>827</integer>
+            <key>width</key>
+            <integer>183</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1112</integer>
+            <key>width</key>
+            <integer>177</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1389</integer>
+            <key>width</key>
+            <integer>435</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>80</integer>
+            <key>width</key>
+            <integer>412</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>690</integer>
+            <key>width</key>
+            <integer>370</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>725</integer>
+            <key>width</key>
+            <integer>335</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

@@ -3,57 +3,50 @@
   <advance width="1325"/>
   <unicode hex="0136"/>
   <outline>
-    <contour>
-      <point x="470" y="-265" type="curve" smooth="yes" name="hr01"/>
-      <point x="470" y="-350"/>
-      <point x="535" y="-419"/>
-      <point x="617" y="-428" type="curve"/>
-      <point x="591" y="-470"/>
-      <point x="533" y="-511"/>
-      <point x="497" y="-535" type="curve"/>
-      <point x="663" y="-535" type="line"/>
-      <point x="709" y="-493"/>
-      <point x="815" y="-405"/>
-      <point x="804" y="-265" type="curve" smooth="yes"/>
-      <point x="797" y="-174"/>
-      <point x="726" y="-100"/>
-      <point x="635" y="-100" type="curve" smooth="yes"/>
-      <point x="544" y="-100"/>
-      <point x="470" y="-174"/>
-    </contour>
-    <contour>
-      <point x="1255" y="1290" type="line" name="hr02"/>
-      <point x="999" y="1290" type="line"/>
-      <point x="489" y="723" type="line"/>
-      <point x="489" y="1290" type="line"/>
-      <point x="0" y="1290" type="line"/>
-      <point x="0" y="1100" type="line"/>
-      <point x="106" y="1100" type="line"/>
-      <point x="106" y="1" type="line"/>
-      <point x="489" y="1" type="line"/>
-      <point x="489" y="438" type="line"/>
-      <point x="603" y="565" type="line"/>
-      <point x="796" y="2" type="line"/>
-      <point x="1176" y="2" type="line"/>
-      <point x="884" y="877" type="line"/>
-    </contour>
+    <component base="uni0326" xOffset="1082.34"/>
+    <component base="K"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
-b3M9Ii01MzUiIHdpZHRoPSI0MzUiIC8+CiAgICAg
-IDx2c3RlbSBwb3M9IjQ3MCIgd2lkdGg9IjMzNSIg
-Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0
-IHBvaW50VGFnPSJocjAyIj4KICAgICAgPGhzdGVt
-IHBvcz0iMCIgd2lkdGg9IjIxIiAvPgogICAgICA8
-aHN0ZW0gcG9zPSIxMDk5IiB3aWR0aD0iMTkwIiAv
-PgogICAgICA8dnN0ZW0gcG9zPSIxMDYiIHdpZHRo
-PSIzODMiIC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9o
-aW50U2V0TGlzdD4K
-  </data>
-  </dict>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-535</integer>
+            <key>width</key>
+            <integer>435</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1099</integer>
+            <key>width</key>
+            <integer>190</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>106</integer>
+            <key>width</key>
+            <integer>383</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>470</integer>
+            <key>width</key>
+            <integer>335</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

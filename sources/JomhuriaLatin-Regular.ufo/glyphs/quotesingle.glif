@@ -4,49 +4,58 @@
   <unicode hex="0027"/>
   <outline>
     <contour>
-      <point x="257" y="1725" type="line" smooth="yes" name="hr01"/>
-      <point x="242" y="1745"/>
-      <point x="213" y="1769"/>
-      <point x="159" y="1769" type="curve" smooth="yes"/>
-      <point x="105" y="1769"/>
-      <point x="76" y="1745"/>
-      <point x="61" y="1725" type="curve" smooth="yes"/>
-      <point x="24" y="1675"/>
-      <point x="43" y="1606"/>
-      <point x="47" y="1593" type="curve" smooth="yes"/>
-      <point x="87" y="1464"/>
-      <point x="93" y="1360"/>
-      <point x="94" y="1321" type="curve" smooth="yes"/>
-      <point x="95" y="1290" type="line" name="hr02"/>
-      <point x="222" y="1290" type="line"/>
-      <point x="223" y="1321" type="line" smooth="yes"/>
-      <point x="224" y="1360"/>
-      <point x="230" y="1464"/>
-      <point x="270" y="1594" type="curve" smooth="yes" name="hr03"/>
-      <point x="274" y="1607"/>
-      <point x="293" y="1676"/>
-      <point x="256" y="1726" type="curve" smooth="yes"/>
+      <point x="257.418" y="1725.04" type="curve" smooth="yes"/>
+      <point x="294.269" y="1675.16"/>
+      <point x="275.429" y="1606.17"/>
+      <point x="271.271" y="1593.15" type="curve" smooth="yes"/>
+      <point x="230.819" y="1463.48"/>
+      <point x="224.724" y="1359.58"/>
+      <point x="224.169" y="1320.79" type="curve" smooth="yes"/>
+      <point x="223.615" y="1289.48" type="line"/>
+      <point x="96.1621" y="1289.48" type="line"/>
+      <point x="95.6074" y="1320.79" type="line" smooth="yes"/>
+      <point x="95.0537" y="1359.58"/>
+      <point x="88.958" y="1463.48"/>
+      <point x="48.5059" y="1592.87" type="curve" smooth="yes"/>
+      <point x="44.3496" y="1606.17"/>
+      <point x="25.5088" y="1674.88"/>
+      <point x="62.3594" y="1725.04" type="curve" smooth="yes"/>
+      <point x="77.0449" y="1744.98"/>
+      <point x="106.137" y="1768.81"/>
+      <point x="159.889" y="1768.81" type="curve" smooth="yes"/>
+      <point x="213.641" y="1768.81"/>
+      <point x="242.733" y="1744.98"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMSI+CiAgICAgIDxoc3RlbSBw
-b3M9IjEyODkiIHdpZHRoPSI0NzkiIC8+CiAgICAg
-IDx2c3RlbSBwb3M9IjQ5IiB3aWR0aD0iMjIzIiAv
-PgogICAgPC9oaW50c2V0PgogICAgPGhpbnRzZXQg
-cG9pbnRUYWc9ImhyMDIiPgogICAgICA8aHN0ZW0g
-cG9zPSIxMjg5IiB3aWR0aD0iNDc5IiAvPgogICAg
-ICA8dnN0ZW0gcG9zPSI5NyIgd2lkdGg9IjEyNyIg
-Lz4KICAgIDwvaGludHNldD4KICAgIDxoaW50c2V0
-IHBvaW50VGFnPSJocjAzIj4KICAgICAgPGhzdGVt
-IHBvcz0iMTI4OSIgd2lkdGg9IjQ3OSIgLz4KICAg
-ICAgPHZzdGVtIHBvcz0iNDkiIHdpZHRoPSIyMjMi
-IC8+CiAgICA8L2hpbnRzZXQ+CiAgPC9oaW50U2V0
-TGlzdD4K
-  </data>
-  </dict>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>1289</integer>
+            <key>width</key>
+            <integer>479</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>49</integer>
+            <key>width</key>
+            <integer>223</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>96</integer>
+            <key>width</key>
+            <integer>127</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

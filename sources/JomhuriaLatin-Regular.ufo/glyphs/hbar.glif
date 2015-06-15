@@ -4,41 +4,67 @@
   <unicode hex="0127"/>
   <outline>
     <contour>
-      <point x="491" y="891" type="line" name="hr00"/>
-      <point x="490" y="1290" type="line"/>
-      <point x="120" y="1290" type="line"/>
-      <point x="120" y="0" type="line"/>
-      <point x="490" y="0" type="line"/>
-      <point x="490" y="800" type="line"/>
-      <point x="545" y="799" type="line"/>
-      <point x="620" y="799"/>
-      <point x="678" y="741"/>
-      <point x="678" y="667" type="curve" smooth="yes"/>
-      <point x="678" y="1" type="line"/>
-      <point x="1047" y="1" type="line"/>
-      <point x="1047" y="609" type="line" smooth="yes"/>
-      <point x="1047" y="890"/>
-      <point x="951" y="1010"/>
-      <point x="725" y="1010" type="curve" smooth="yes"/>
-      <point x="564" y="1010"/>
-      <point x="491" y="892"/>
-      <point x="491" y="892" type="curve"/>
+      <point x="491.119" y="890.51" type="line"/>
+      <point x="491.119" y="890.51"/>
+      <point x="563.713" y="1008.82"/>
+      <point x="724.968" y="1009.1" type="curve" smooth="yes"/>
+      <point x="950.782" y="1009.1"/>
+      <point x="1047.2" y="888.848"/>
+      <point x="1047.2" y="607.619" type="curve" smooth="yes"/>
+      <point x="1046.93" y="0" type="line"/>
+      <point x="677.866" y="0" type="line"/>
+      <point x="677.866" y="666.081" type="line" smooth="yes"/>
+      <point x="677.866" y="740.336"/>
+      <point x="619.681" y="798.522"/>
+      <point x="545.148" y="798.522" type="curve" smooth="yes"/>
+      <point x="490.288" y="799.353" type="line"/>
+      <point x="490.288" y="-0.554688" type="line"/>
+      <point x="120.396" y="-0.554688" type="line"/>
+      <point x="120" y="1289.48" type="line"/>
+      <point x="490.288" y="1289.48" type="line"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-ICA8aGludFNldExpc3Q+CiAgICA8aGludHNldCBw
-b2ludFRhZz0iaHIwMCI+CiAgICAgIDxoc3RlbSBw
-b3M9IjIwIiB3aWR0aD0iLTIxIiAvPgogICAgICA8
-aHN0ZW0gcG9zPSIxMDA5IiB3aWR0aD0iLTIwIiAv
-PgogICAgICA8aHN0ZW0gcG9zPSIxMjg5IiB3aWR0
-aD0iLTIwIiAvPgogICAgICA8dnN0ZW0gcG9zPSIx
-MjAiIHdpZHRoPSIzNzAiIC8+CiAgICAgIDx2c3Rl
-bSBwb3M9IjY3OCIgd2lkdGg9IjM2OSIgLz4KICAg
-IDwvaGludHNldD4KICA8L2hpbnRTZXRMaXN0Pgo=
-  </data>
-  </dict>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-1</integer>
+            <key>width</key>
+            <integer>22</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>989</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1269</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>120</integer>
+            <key>width</key>
+            <integer>370</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>678</integer>
+            <key>width</key>
+            <integer>369</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>
