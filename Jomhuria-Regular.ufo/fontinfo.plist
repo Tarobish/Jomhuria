@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>familyName</key>
+    <string>Jomhuria</string>
+    <key>styleName</key>
+    <string>Regular</string>
+    <key>versionMajor</key>
+    <integer>0</integer>
+    <key>copyright</key>
+    <string>Copyright 2015 Korosh Beigpour (www.k-b-studio.com|tarobish@gmail.com). Copyright 2015, Lasse Fister (lasse@graphicore.de). Copyright 2010-2015 Khaled Hosny (khaledhosny@eglug.org). </string>
+    <key>unitsPerEm</key>
+    <integer>4663</integer>
+    <key>ascender</key>
+    <integer>3088</integer>
+    <key>descender</key>
+    <integer>-1575</integer>
+    <key>italicAngle</key>
+    <real>0</real>
+    <key>note</key>
+    <string>2010-5-8: Created.</string>
+    <key>openTypeHeadCreated</key>
+    <string>2010/05/07 21:08:01</string>
+    <key>openTypeHheaAscender</key>
+    <integer>3088</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-1575</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
+    <key>openTypeNameDesigner</key>
+    <string>Kourosh Beigpour, Lasse Fister</string>
+    <key>openTypeNameDesignerURL</key>
+    <string>https://github.com/Tarobish/Jomhuria</string>
+    <key>openTypeNameManufacturerURL</key>
+    <string>https://github.com/Tarobish/Jomhuria</string>
+    <key>openTypeNameLicense</key>
+    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL</string>
+    <key>openTypeNameLicenseURL</key>
+    <string>http://scripts.sil.org/OFL</string>
+    <key>openTypeNameVersion</key>
+    <string>Version </string>
+    <key>openTypeOS2Panose</key>
+    <array>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>5</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+    </array>
+    <key>openTypeOS2WidthClass</key>
+    <integer>5</integer>
+    <key>openTypeOS2WeightClass</key>
+    <integer>400</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>    </string>
+    <key>openTypeOS2FamilyClass</key>
+    <array>
+      <integer>0</integer>
+      <integer>0</integer>
+    </array>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>3088</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-1575</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>0</integer>
+    <key>openTypeOS2WinAscent</key>
+    <integer>3088</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>1575</integer>
+    <key>postscriptFontName</key>
+    <string>Jomhuria-Regular</string>
+    <key>postscriptFullName</key>
+    <string>Jomhuria</string>
+    <key>postscriptWeightName</key>
+    <string>Regular</string>
+    <key>postscriptUnderlineThickness</key>
+    <integer>102</integer>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-1100</integer>
+  </dict>
+</plist>

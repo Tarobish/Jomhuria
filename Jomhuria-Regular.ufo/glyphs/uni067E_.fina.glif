@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni067E.fina" format="1">
+  <advance width="1738"/>
+  <outline>
+    <contour>
+      <point x="850" y="700" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="800" y="-800" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="1535.98" y="436.18" type="curve" smooth="yes"/>
+      <point x="1788.54" y="436.188" type="line"/>
+      <point x="1788.54" y="0" type="line"/>
+      <point x="1711.27" y="0" type="line" smooth="yes"/>
+      <point x="1589.46" y="0.0888672"/>
+      <point x="1487.86" y="82.9072"/>
+      <point x="1456.2" y="194.792" type="curve"/>
+      <point x="1424.45" y="82.9072"/>
+      <point x="1322.76" y="0"/>
+      <point x="1200.86" y="0" type="curve" smooth="yes"/>
+      <point x="412.211" y="0" type="line" smooth="yes"/>
+      <point x="245.323" y="0"/>
+      <point x="110.006" y="135.316"/>
+      <point x="110.006" y="302.205" type="curve" smooth="yes"/>
+      <point x="110.006" y="390.389" type="line"/>
+      <point x="110.006" y="390.389"/>
+      <point x="106.07" y="648.502"/>
+      <point x="302.204" y="754.573" type="curve"/>
+      <point x="408.723" y="673.187" type="line"/>
+      <point x="408.723" y="673.187"/>
+      <point x="319.466" y="615.321"/>
+      <point x="319.466" y="524.812" type="curve" smooth="yes"/>
+      <point x="319.466" y="471.955"/>
+      <point x="343.971" y="436.18"/>
+      <point x="425.537" y="436.18" type="curve" smooth="yes"/>
+      <point x="1271.78" y="436.18" type="line" smooth="yes"/>
+      <point x="1297.72" y="436.18"/>
+      <point x="1315.16" y="463.816"/>
+      <point x="1303.08" y="486.622" type="curve" smooth="yes"/>
+      <point x="1254.88" y="577.668"/>
+      <point x="1175.1" y="646.355"/>
+      <point x="1175.1" y="646.355" type="curve"/>
+      <point x="1402.54" y="825.228" type="line"/>
+      <point x="1402.54" y="825.228"/>
+      <point x="1499.22" y="697.781"/>
+      <point x="1499.22" y="556.919" type="curve" smooth="yes"/>
+      <point x="1499.22" y="478.483" type="line" smooth="yes"/>
+      <point x="1499.22" y="455.945"/>
+      <point x="1515.1" y="436.179"/>
+    </contour>
+    <component base="aBaa.fina"/>
+    <component base="iThreeDots.b" xOffset="756.545" yOffset="-616.089"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-616</integer>
+            <key>width</key>
+            <integer>541</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>475</integer>
+            <key>width</key>
+            <integer>564</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1303</integer>
+            <key>width</key>
+            <integer>196</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

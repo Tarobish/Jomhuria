@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFDFA" format="1">
+  <advance width="13481"/>
+  <unicode hex="FDFA"/>
+  <outline>
+    <component base="uni0645.fina"/>
+    <component base="uni0644.medi" xOffset="1308"/>
+    <component base="uni0633.init" xOffset="2031"/>
+    <component base="uni0648" xOffset="3186"/>
+    <component base="uni064A.medi" xOffset="4892" yOffset="0.1875"/>
+    <component base="uni0647.fina" xOffset="4008"/>
+    <component base="uni0644.medi" xOffset="5607"/>
+    <component base="uni0639.init" xOffset="6329"/>
+    <component base="uni0670" xScale="0.74836" yScale="0.888867" xOffset="8289.02" yOffset="23.2609"/>
+    <component base="uni0651" xOffset="8341" yOffset="-441"/>
+    <component base="uni0647.fina" xOffset="7443"/>
+    <component base="uni0644.medi" xOffset="8318"/>
+    <component base="uni0644.init" xOffset="9040"/>
+    <component base="uni0627" xOffset="9560"/>
+    <component base="uni0649.fina" xOffset="10070"/>
+    <component base="uni0644.medi" xOffset="11338"/>
+    <component base="uni0635.init" xOffset="12060"/>
+  </outline>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="smallv.above.inverted" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-41" y="1338" type="move" name="TashkilTashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="0" y="950" type="move" name="_VAbove"/>
+    </contour>
+    <component base="uni065B"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>877</integer>
+            <key>width</key>
+            <integer>148</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-155</integer>
+            <key>width</key>
+            <integer>310</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

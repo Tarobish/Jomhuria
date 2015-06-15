@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFBA5" format="1">
+  <advance width="934"/>
+  <unicode hex="FBA5"/>
+  <outline>
+    <component base="hamza.above" xOffset="464" yOffset="32"/>
+    <component base="uni06D5.fina"/>
+  </outline>
+</glyph>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFEDA" format="1">
+  <advance width="1803"/>
+  <unicode hex="FEDA"/>
+  <outline>
+    <component base="uni0643.fina"/>
+  </outline>
+</glyph>

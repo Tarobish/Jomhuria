@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="TwoDots.b" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="0" y="263" type="move" name="_MarkDotBelow"/>
+    </contour>
+    <contour>
+      <point x="20" y="-190" type="move" name="TashkilBelowDot"/>
+    </contour>
+    <contour>
+      <point x="-111" y="140" type="move" name="_TwoDotsBelow"/>
+    </contour>
+    <component base="TwoDots.a" xOffset="4" yOffset="-47"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-47</integer>
+            <key>width</key>
+            <integer>303</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-278</integer>
+            <key>width</key>
+            <integer>564</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

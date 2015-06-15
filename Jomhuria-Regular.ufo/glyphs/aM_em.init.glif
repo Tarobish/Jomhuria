@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aMem.init" format="1">
+  <advance width="979"/>
+  <outline>
+    <contour>
+      <point x="400" y="-210" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="550" y="1050" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="869.93" y="437.983" type="curve"/>
+      <point x="664.017" y="32" type="line"/>
+      <point x="664.017" y="32"/>
+      <point x="491.495" y="82.6436"/>
+      <point x="259.426" y="112.14" type="curve"/>
+      <point x="229.374" y="32"/>
+      <point x="141.722" y="0"/>
+      <point x="67.9824" y="0" type="curve" smooth="yes"/>
+      <point x="-50" y="0" type="line"/>
+      <point x="-50" y="436.188" type="line"/>
+      <point x="184.852" y="436.188" type="line"/>
+      <point x="167.321" y="507.144"/>
+      <point x="195.002" y="594.751"/>
+      <point x="280.017" y="709.287" type="curve" smooth="yes"/>
+      <point x="366.557" y="825.879"/>
+      <point x="419.704" y="880.696"/>
+      <point x="521.826" y="880.696" type="curve" smooth="yes"/>
+      <point x="762.8" y="880.696"/>
+      <point x="869.93" y="437.983"/>
+    </contour>
+    <contour>
+      <point x="447.53" y="436.188" type="curve" smooth="yes"/>
+      <point x="655.947" y="436.188" type="line"/>
+      <point x="655.947" y="436.188"/>
+      <point x="522.382" y="603.7"/>
+      <point x="434.174" y="603.7" type="curve" smooth="yes"/>
+      <point x="378.8" y="603.7"/>
+      <point x="353.756" y="569.474"/>
+      <point x="353.756" y="515.77" type="curve" smooth="yes"/>
+      <point x="353.756" y="455.665"/>
+      <point x="412.191" y="436.188"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>604</integer>
+            <key>width</key>
+            <integer>277</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

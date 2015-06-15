@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni06C5.fina" format="1">
+  <advance width="1081"/>
+  <outline>
+    <contour>
+      <point x="600" y="1000" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="250" y="-800" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="679" y="-63" type="line"/>
+      <point x="677" y="-190" type="line"/>
+      <point x="132" y="-189" type="line"/>
+      <point x="227" y="-63" type="line"/>
+    </contour>
+    <component base="aWaw.fina" xOffset="130"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-189</integer>
+            <key>width</key>
+            <integer>126</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>604</integer>
+            <key>width</key>
+            <integer>191</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>254</integer>
+            <key>width</key>
+            <integer>127</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFC3B" format="1">
+  <advance width="1823"/>
+  <unicode hex="FC3B"/>
+  <outline>
+    <component base="uni0644.fina_KafLam" xOffset="-0.000124843"/>
+    <component base="uni0643.init_KafLam" xOffset="1083"/>
+  </outline>
+</glyph>

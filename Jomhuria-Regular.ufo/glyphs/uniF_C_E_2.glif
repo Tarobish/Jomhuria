@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFCE2" format="1">
+  <advance width="1977"/>
+  <unicode hex="FCE2"/>
+  <outline>
+    <component base="uni0628.medi" xOffset="1293"/>
+    <component base="uni0647.medi_BaaHehMedi"/>
+  </outline>
+</glyph>

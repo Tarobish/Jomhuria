@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0673.fina_LamAlfIsol" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="300" y="1300" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="340" y="-550" type="move" name="TashkilBelow"/>
+    </contour>
+    <component base="aAlf.fina_LamAlfIsol"/>
+    <component base="uni065F" xOffset="60" yOffset="844"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-359</integer>
+            <key>width</key>
+            <integer>123</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>110</integer>
+            <key>width</key>
+            <integer>597</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>163</integer>
+            <key>width</key>
+            <integer>311</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

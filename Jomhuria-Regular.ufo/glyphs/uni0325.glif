@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0325" format="1">
+  <advance width="0"/>
+  <unicode hex="0325"/>
+  <outline>
+    <contour>
+      <point x="250" y="-800" type="move" name="_TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="246" y="-1297" type="move" name="TashkilTashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="256" y="-700" type="move" name="_MarkBelow"/>
+    </contour>
+    <component base="uni030A" yOffset="-2763"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-1033</integer>
+            <key>width</key>
+            <integer>89</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-794</integer>
+            <key>width</key>
+            <integer>89</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>85</integer>
+            <key>width</key>
+            <integer>89</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>324</integer>
+            <key>width</key>
+            <integer>89</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

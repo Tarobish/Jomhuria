@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni06EA" format="1">
+  <advance width="0"/>
+  <unicode hex="06EA"/>
+  <outline>
+    <contour>
+      <point x="163.099" y="-850" type="move" name="_MarkBelow"/>
+    </contour>
+    <contour>
+      <point x="112.539" y="-1254.71" type="line"/>
+      <point x="0" y="-1052" type="line"/>
+      <point x="112.539" y="-849.294" type="line"/>
+      <point x="199.007" y="-849.294" type="line"/>
+      <point x="311.449" y="-1052" type="line"/>
+      <point x="199.007" y="-1254.71" type="line"/>
+    </contour>
+    <contour>
+      <point x="155.773" y="-888.183" type="line"/>
+      <point x="68.5732" y="-1052" type="line"/>
+      <point x="155.773" y="-1215.82" type="line"/>
+      <point x="242.972" y="-1052" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-1255</integer>
+            <key>width</key>
+            <integer>405</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>311</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

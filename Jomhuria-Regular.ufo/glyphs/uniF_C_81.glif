@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFC81" format="1">
+  <advance width="1955"/>
+  <unicode hex="FC81"/>
+  <outline>
+    <component base="uni0644.fina_KafLam" xOffset="-6.24213e-05"/>
+    <component base="uni0643.medi_KafLam" xOffset="1066"/>
+  </outline>
+</glyph>

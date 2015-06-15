@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni06E3" format="1">
+  <advance width="605"/>
+  <unicode hex="06E3"/>
+  <outline>
+    <contour>
+      <point x="317" y="-850" type="move" name="_MarkBelow"/>
+    </contour>
+    <contour>
+      <point x="339" y="-400" type="move" name="_SeenBelow"/>
+    </contour>
+    <component base="uni06DC" xOffset="-0.000213175" yOffset="-3811"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-1211</integer>
+            <key>width</key>
+            <integer>127</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-1087</integer>
+            <key>width</key>
+            <integer>125</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

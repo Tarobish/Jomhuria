@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFD01" format="1">
+  <advance width="2433"/>
+  <unicode hex="FD01"/>
+  <outline>
+    <component base="aYaa.fina_KafYaaIsol"/>
+    <component base="uni062C.init" xOffset="1266"/>
+  </outline>
+</glyph>

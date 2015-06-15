@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hamza.above" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-50" y="1470" type="move" name="TashkilTashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="0" y="950" type="move" name="_HamzaAbove"/>
+    </contour>
+    <component base="uni0654"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>876</integer>
+            <key>width</key>
+            <integer>492</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-157</integer>
+            <key>width</key>
+            <integer>310</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

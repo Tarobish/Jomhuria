@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni063E" format="1">
+  <advance width="1354"/>
+  <unicode hex="063E"/>
+  <outline>
+    <contour>
+      <point x="330" y="1300" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="750" y="-500" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="273" y="1092" type="move" name="AlefAbove"/>
+    </contour>
+    <component base="aYaa.isol"/>
+    <component base="TwoDots.a" xOffset="282" yOffset="804"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-292</integer>
+            <key>width</key>
+            <integer>420</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>259</integer>
+            <key>width</key>
+            <integer>437</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>804</integer>
+            <key>width</key>
+            <integer>303</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>564</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1069</integer>
+            <key>width</key>
+            <integer>176</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

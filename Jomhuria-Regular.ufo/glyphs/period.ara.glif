@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period.ara" format="1">
+  <advance width="431"/>
+  <outline>
+    <contour>
+      <point x="215.714" y="330.574" type="curve" smooth="yes"/>
+      <point x="307.262" y="330.574"/>
+      <point x="381" y="256.557"/>
+      <point x="381" y="165.287" type="curve" smooth="yes"/>
+      <point x="381" y="74.0176"/>
+      <point x="306.983" y="0"/>
+      <point x="215.714" y="0" type="curve" smooth="yes"/>
+      <point x="124.444" y="0"/>
+      <point x="50.4268" y="74.0176"/>
+      <point x="50.4268" y="165.287" type="curve" smooth="yes"/>
+      <point x="50.4268" y="256.557"/>
+      <point x="124.444" y="330.574"/>
+    </contour>
+  </outline>
+</glyph>

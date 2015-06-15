@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dash.gaf" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-168.226" y="51.7002" type="move" name="_Dash"/>
+    </contour>
+    <contour>
+      <point x="159.029" y="209.669" type="line"/>
+      <point x="159.029" y="62.2334" type="line"/>
+      <point x="-160.525" y="-40" type="line"/>
+      <point x="-160.525" y="108.049" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-40</integer>
+            <key>width</key>
+            <integer>250</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-161</integer>
+            <key>width</key>
+            <integer>320</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

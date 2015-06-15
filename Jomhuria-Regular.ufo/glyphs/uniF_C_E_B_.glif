@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFCEB" format="1">
+  <advance width="1282"/>
+  <unicode hex="FCEB"/>
+  <outline>
+    <component base="uni0644.medi_KafLam"/>
+    <component base="uni0643.medi_KafLam" xOffset="393"/>
+  </outline>
+</glyph>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFBBB" format="1">
+  <advance width="613"/>
+  <unicode hex="FBBB"/>
+  <outline>
+    <component base="FourDots.a" xOffset="327" yOffset="-800"/>
+  </outline>
+</glyph>

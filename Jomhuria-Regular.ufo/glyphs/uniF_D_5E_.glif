@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFD5E" format="1">
+  <advance width="3779"/>
+  <unicode hex="FD5E"/>
+  <outline>
+    <component base="uni0649.fina"/>
+    <component base="uni062C.medi" xOffset="1254"/>
+    <component base="uni0633.medi" xOffset="2504"/>
+  </outline>
+</glyph>

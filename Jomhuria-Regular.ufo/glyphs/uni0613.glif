@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0613" format="1">
+  <advance width="653"/>
+  <unicode hex="0613"/>
+  <outline>
+    <component base="aRaa.isol" xScale="0.304592" yScale="0.297154" xOffset="439.744" yOffset="1921.81"/>
+    <component base="uni0610" xOffset="-3.48968e-05" yOffset="-20"/>
+    <component base="Dot.a" xScale="0.356177" yScale="0.358258" xOffset="207.445" yOffset="2093"/>
+  </outline>
+</glyph>

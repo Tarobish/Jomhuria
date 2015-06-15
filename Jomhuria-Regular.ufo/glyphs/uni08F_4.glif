@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni08F4" format="1">
+  <advance width="0"/>
+  <unicode hex="08F4"/>
+  <outline>
+    <contour>
+      <point x="177" y="2103" type="move" name="TashkilTashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="215" y="1700" type="move" name="_MarkAbove"/>
+    </contour>
+    <contour>
+      <point x="250" y="1650" type="move" name="_TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="177" y="1679" type="move" name="_TashkilAboveDot"/>
+    </contour>
+    <contour>
+      <point x="178.287" y="1946.01" type="curve" smooth="yes"/>
+      <point x="132.374" y="1946.01"/>
+      <point x="119.212" y="1865.2"/>
+      <point x="119.824" y="1854.18" type="curve" smooth="yes"/>
+      <point x="119.833" y="1853.83"/>
+      <point x="119.847" y="1853.47"/>
+      <point x="119.866" y="1853.12" type="curve" smooth="yes"/>
+      <point x="229.022" y="1932.3" type="line"/>
+      <point x="212.4" y="1940.98"/>
+      <point x="194.577" y="1946.01"/>
+    </contour>
+    <contour>
+      <point x="278.69" y="1888.13" type="curve"/>
+      <point x="197.006" y="1828.88" type="line"/>
+      <point x="290.926" y="1829.09" type="line"/>
+      <point x="295.571" y="1849.99"/>
+      <point x="290.094" y="1870.38"/>
+    </contour>
+    <contour>
+      <point x="292.572" y="1978.39" type="curve"/>
+      <point x="420.096" y="2070.89" type="line"/>
+      <point x="420.096" y="1990.7" type="line"/>
+      <point x="327.655" y="1923.65" type="line"/>
+      <point x="338.049" y="1899.84"/>
+      <point x="344.186" y="1873.48"/>
+      <point x="344.186" y="1846.23" type="curve" smooth="yes"/>
+      <point x="344.186" y="1814.39" type="line" smooth="yes"/>
+      <point x="344.186" y="1777.05"/>
+      <point x="320.617" y="1726.24"/>
+      <point x="239.811" y="1726.24" type="curve" smooth="yes"/>
+      <point x="176.756" y="1726.24" type="line" smooth="yes"/>
+      <point x="142.434" y="1726.24"/>
+      <point x="112.232" y="1737.15"/>
+      <point x="93.4869" y="1753.79" type="curve"/>
+      <point x="-2.30469" y="1684.31" type="line"/>
+      <point x="-2.30469" y="1764.5" type="line"/>
+      <point x="74.0552" y="1819.89" type="line"/>
+      <point x="76.828" y="1848.7"/>
+      <point x="87.2433" y="1891.12"/>
+      <point x="111.56" y="1955.19" type="curve" smooth="yes"/>
+      <point x="124.109" y="1988.86"/>
+      <point x="142.78" y="2012.12"/>
+      <point x="159.922" y="2020.39" type="curve" smooth="yes"/>
+      <point x="202.71" y="2041.44"/>
+      <point x="254.73" y="2020.58"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>1726</integer>
+            <key>width</key>
+            <integer>103</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-2</integer>
+            <key>width</key>
+            <integer>422</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

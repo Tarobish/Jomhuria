@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni06DB" format="1">
+  <advance width="260"/>
+  <unicode hex="06DB"/>
+  <outline>
+    <contour>
+      <point x="133" y="2600" type="move" name="_MarkAbove"/>
+    </contour>
+    <contour>
+      <point x="167.538" y="2600" type="line"/>
+      <point x="130.501" y="2637.34" type="line"/>
+      <point x="93.1582" y="2600" type="line"/>
+      <point x="50" y="2643.46" type="line"/>
+      <point x="93.1582" y="2686.62" type="line"/>
+      <point x="130.501" y="2649.59" type="line"/>
+      <point x="167.538" y="2686.62" type="line"/>
+      <point x="210.696" y="2643.46" type="line"/>
+    </contour>
+    <contour>
+      <point x="173.659" y="2711.11" type="line"/>
+      <point x="130.501" y="2667.95" type="line"/>
+      <point x="87.0371" y="2711.11" type="line"/>
+      <point x="130.501" y="2754.27" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>2600</integer>
+            <key>width</key>
+            <integer>154</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>50</integer>
+            <key>width</key>
+            <integer>161</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

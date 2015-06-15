@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0695.fina" format="1">
+  <advance width="848"/>
+  <outline>
+    <contour>
+      <point x="300" y="800" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="600" y="-1200" type="move" name="TashkilBelow"/>
+    </contour>
+    <component base="aRaa.fina"/>
+    <component base="smallv.below" xOffset="362" yOffset="200"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-797</integer>
+            <key>width</key>
+            <integer>148</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>412</integer>
+            <key>width</key>
+            <integer>310</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

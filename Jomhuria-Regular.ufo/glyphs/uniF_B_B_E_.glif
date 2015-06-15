@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFBBE" format="1">
+  <advance width="409"/>
+  <unicode hex="FBBE"/>
+  <outline>
+    <component base="vTwoDots.a" xOffset="225" yOffset="-700"/>
+  </outline>
+</glyph>

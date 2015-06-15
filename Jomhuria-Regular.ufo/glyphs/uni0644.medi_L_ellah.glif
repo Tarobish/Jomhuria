@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0644.medi_Lellah" format="1">
+  <advance width="722"/>
+  <outline>
+    <contour>
+      <point x="150" y="-210" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="250" y="1300" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="451.982" y="436.188" type="curve" smooth="yes"/>
+      <point x="772.261" y="436.188" type="line"/>
+      <point x="772.261" y="0" type="line"/>
+      <point x="664.852" y="0" type="line" smooth="yes"/>
+      <point x="543.475" y="0"/>
+      <point x="441.687" y="82.3652"/>
+      <point x="409.687" y="193.948" type="curve"/>
+      <point x="388.539" y="98.7822"/>
+      <point x="323.704" y="0"/>
+      <point x="185.13" y="0" type="curve" smooth="yes"/>
+      <point x="-50" y="0" type="line"/>
+      <point x="-50" y="436.313" type="line"/>
+      <point x="158.417" y="436.313" type="line"/>
+      <point x="229.651" y="441.043"/>
+      <point x="244.678" y="475.548"/>
+      <point x="221.582" y="529.252" type="curve" smooth="yes"/>
+      <point x="59.9131" y="900.73" type="line" smooth="yes"/>
+      <point x="39.3213" y="948.313"/>
+      <point x="52.9902" y="1003.92"/>
+      <point x="93.582" y="1036.52" type="curve" smooth="yes"/>
+      <point x="408.573" y="1289.49" type="line"/>
+      <point x="520.156" y="856.209" type="line"/>
+      <point x="419.704" y="786.922" type="line"/>
+      <point x="420.817" y="471.652" type="line" smooth="yes"/>
+      <point x="420.886" y="452.174"/>
+      <point x="435.049" y="436.188"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

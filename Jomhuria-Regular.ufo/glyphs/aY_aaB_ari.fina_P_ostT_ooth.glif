@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aYaaBari.fina_PostTooth" format="1">
+  <advance width="1436"/>
+  <outline>
+    <contour>
+      <point x="450" y="-850" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="328" y="519" type="move" name="DigitAbove"/>
+    </contour>
+    <contour>
+      <point x="500" y="550" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="500" y="550" type="move" name="HamzaAbove"/>
+    </contour>
+    <contour>
+      <point x="478.695" y="139.966" type="line" smooth="yes"/>
+      <point x="371.009" y="139.966"/>
+      <point x="283.913" y="79.583"/>
+      <point x="283.913" y="-33.9473" type="curve" smooth="yes"/>
+      <point x="283.913" y="-141.635"/>
+      <point x="347.913" y="-210.087"/>
+      <point x="480.922" y="-210.087" type="curve" smooth="yes"/>
+      <point x="1276.26" y="-210.087" type="line"/>
+      <point x="1040.85" y="-647.513" type="line"/>
+      <point x="755.844" y="-647.513" type="line" smooth="yes"/>
+      <point x="359.878" y="-647.513"/>
+      <point x="110" y="-393.183"/>
+      <point x="110" y="-79.3037" type="curve" smooth="yes"/>
+      <point x="110" y="234.574"/>
+      <point x="364.332" y="435.804"/>
+      <point x="678.209" y="436.188" type="curve" smooth="yes"/>
+      <point x="1486.56" y="436.188" type="line"/>
+      <point x="1486.56" y="0" type="line"/>
+      <point x="1158.21" y="0" type="line" smooth="yes"/>
+      <point x="885.513" y="0"/>
+      <point x="1035.22" y="139.966"/>
+      <point x="764.47" y="139.966" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-648</integer>
+            <key>width</key>
+            <integer>437</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>140</integer>
+            <key>width</key>
+            <integer>296</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>110</integer>
+            <key>width</key>
+            <integer>174</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

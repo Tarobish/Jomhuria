@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFCA2" format="1">
+  <advance width="1250"/>
+  <unicode hex="FCA2"/>
+  <outline>
+    <component base="uni062D.medi"/>
+  </outline>
+</glyph>

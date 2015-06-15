@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni062C.medi_2LamHaaHaaInit" format="1">
+  <advance width="1250"/>
+  <outline>
+    <contour>
+      <point x="380" y="1100" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="300" y="-600" type="move" name="TashkilBelow"/>
+    </contour>
+    <component base="Dot.b" xOffset="219" yOffset="-386.5"/>
+    <component base="aHaa.medi_2LamHaaHaaInit"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-386</integer>
+            <key>width</key>
+            <integer>303</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>692</integer>
+            <key>width</key>
+            <integer>284</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>67</integer>
+            <key>width</key>
+            <integer>303</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

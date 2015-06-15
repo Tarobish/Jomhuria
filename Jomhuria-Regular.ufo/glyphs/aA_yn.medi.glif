@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aAyn.medi" format="1">
+  <advance width="988"/>
+  <outline>
+    <contour>
+      <point x="149" y="1000" type="move" name="TwoDotsAbove"/>
+    </contour>
+    <contour>
+      <point x="260" y="1000" type="move" name="DotAbove"/>
+    </contour>
+    <contour>
+      <point x="450" y="1000" type="move" name="HamzaAbove"/>
+    </contour>
+    <contour>
+      <point x="250" y="-210" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="320" y="-200" type="move" name="DotBelow"/>
+    </contour>
+    <contour>
+      <point x="500" y="1000" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="649.27" y="436.188" type="curve"/>
+      <point x="1038.28" y="436.188" type="line"/>
+      <point x="1038.28" y="0" type="line"/>
+      <point x="716.33" y="0" type="line" smooth="yes"/>
+      <point x="594.174" y="0"/>
+      <point x="492.608" y="82.9219"/>
+      <point x="460.887" y="194.782" type="curve"/>
+      <point x="429.165" y="82.9219"/>
+      <point x="327.321" y="0"/>
+      <point x="205.443" y="0" type="curve" smooth="yes"/>
+      <point x="-50" y="0" type="line"/>
+      <point x="-50" y="436.188" type="line"/>
+      <point x="319.53" y="436.188" type="line"/>
+      <point x="294.766" y="499.075"/>
+      <point x="234.104" y="561.252"/>
+      <point x="169.548" y="561.252" type="curve"/>
+      <point x="169.548" y="728.486" type="line"/>
+      <point x="169.548" y="728.486"/>
+      <point x="270.557" y="835.339"/>
+      <point x="478.139" y="835.339" type="curve" smooth="yes"/>
+      <point x="965.931" y="835.339"/>
+      <point x="710.487" y="495.457"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

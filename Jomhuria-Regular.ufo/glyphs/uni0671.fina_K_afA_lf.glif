@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0671.fina_KafAlf" format="1">
+  <advance width="629"/>
+  <outline>
+    <component base="aAlf.fina_KafAlf"/>
+    <component base="hamza.wasl" xScale="1.14172" xOffset="-8.59703" yOffset="-441.222"/>
+  </outline>
+</glyph>

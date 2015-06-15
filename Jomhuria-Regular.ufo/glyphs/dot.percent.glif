@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dot.percent" format="1">
+  <advance width="1354"/>
+  <outline>
+    <contour>
+      <point x="900.94" y="77.0586" type="line"/>
+      <point x="1128" y="304.118" type="line"/>
+      <point x="1355.06" y="77.0586" type="line"/>
+      <point x="1128" y="-150" type="line"/>
+    </contour>
+  </outline>
+</glyph>

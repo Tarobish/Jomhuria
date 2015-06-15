@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFEF9" format="1">
+  <advance width="1072"/>
+  <unicode hex="FEF9"/>
+  <outline>
+    <component base="uni0625.fina_LamAlfIsol"/>
+    <component base="uni0644.init_LamAlfIsol" xOffset="-2"/>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFD8F" format="1">
+  <advance width="3320"/>
+  <unicode hex="FD8F"/>
+  <outline>
+    <component base="uni0645.init" xOffset="2341"/>
+    <component base="uni062E.medi" xOffset="1091"/>
+    <component base="aMem.medi_KafMemMedi"/>
+  </outline>
+</glyph>

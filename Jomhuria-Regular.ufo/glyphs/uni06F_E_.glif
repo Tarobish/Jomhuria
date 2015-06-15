@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni06FE" format="1">
+  <advance width="1190"/>
+  <unicode hex="06FE"/>
+  <outline>
+    <component base="aMem.isol"/>
+    <component base="twostrokes.below" xOffset="542" yOffset="-411"/>
+  </outline>
+</glyph>

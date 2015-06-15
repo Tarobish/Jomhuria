@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFDF2" format="1">
+  <advance width="2711"/>
+  <unicode hex="FDF2"/>
+  <outline>
+    <component base="uni0647.fina_Lellah"/>
+    <component base="uni0670" xScale="0.74836" yScale="0.888867" xOffset="1009.02" yOffset="25.2609"/>
+    <component base="uni0651" xOffset="896" yOffset="-439"/>
+    <component base="uni0644.medi_Lellah" xOffset="875"/>
+    <component base="uni0644.init_Lellah" xOffset="1598"/>
+    <component base="uni0627" xOffset="2135"/>
+  </outline>
+</glyph>

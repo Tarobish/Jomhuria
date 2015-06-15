@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hThreeDots.b" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="40" y="-190" type="move" name="TashkilBelowDot"/>
+    </contour>
+    <contour>
+      <point x="0" y="190" type="move" name="_TwoDotsBelow"/>
+    </contour>
+    <contour>
+      <point x="411.675" y="151.684" type="line"/>
+      <point x="259.991" y="0" type="line"/>
+      <point x="130.04" y="129.95" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="-130.22" y="130.219" type="line"/>
+      <point x="-260.438" y="0" type="line"/>
+      <point x="-412.122" y="151.684" type="line"/>
+      <point x="-260.438" y="303.367" type="line"/>
+      <point x="-130.22" y="173.148" type="line"/>
+      <point x="0" y="303.367" type="line"/>
+      <point x="129.95" y="173.416" type="line"/>
+      <point x="259.991" y="303.367" type="line"/>
+    </contour>
+    <component base="hThreeDots.a" xOffset="4" yOffset="-47"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>303</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

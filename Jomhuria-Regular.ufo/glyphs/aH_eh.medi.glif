@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aHeh.medi" format="1">
+  <advance width="964"/>
+  <outline>
+    <contour>
+      <point x="450" y="-650" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="450" y="1000" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="1014.35" y="436.188" type="line"/>
+      <point x="1014.35" y="0" type="line"/>
+      <point x="723.843" y="0" type="line"/>
+      <point x="819.287" y="-122.991"/>
+      <point x="843.773" y="-439.651"/>
+      <point x="608.087" y="-439.651" type="curve" smooth="yes"/>
+      <point x="270.278" y="-439.651"/>
+      <point x="179.565" y="0"/>
+      <point x="179.565" y="0" type="curve"/>
+      <point x="-50" y="0" type="line"/>
+      <point x="-49.7217" y="436.188" type="line"/>
+      <point x="179.287" y="436.188" type="line"/>
+      <point x="179.287" y="436.188"/>
+      <point x="204.052" y="902.679"/>
+      <point x="608.087" y="902.679" type="curve"/>
+      <point x="608.087" y="902.679"/>
+      <point x="849.061" y="641.544"/>
+      <point x="710.765" y="436.188" type="curve"/>
+    </contour>
+    <contour>
+      <point x="534.348" y="604.813" type="line"/>
+      <point x="534.348" y="604.813"/>
+      <point x="358.208" y="592.848"/>
+      <point x="317.304" y="436.188" type="curve"/>
+      <point x="495.113" y="436.188" type="line" smooth="yes"/>
+      <point x="562.174" y="436.188"/>
+      <point x="596.399" y="506.309"/>
+      <point x="596.399" y="506.309" type="curve"/>
+    </contour>
+    <contour>
+      <point x="578.869" y="-47.0254" type="curve" smooth="yes"/>
+      <point x="578.869" y="0.27832"/>
+      <point x="538.521" y="0"/>
+      <point x="473.408" y="0" type="curve" smooth="yes"/>
+      <point x="317.582" y="0" type="line"/>
+      <point x="356.261" y="-102.678"/>
+      <point x="437.234" y="-142.747"/>
+      <point x="533.234" y="-142.747" type="curve"/>
+      <point x="533.234" y="-142.747"/>
+      <point x="578.869" y="-107.687"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

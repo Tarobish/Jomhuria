@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFC3D" format="1">
+  <advance width="1908"/>
+  <unicode hex="FC3D"/>
+  <outline>
+    <component base="aYaa.fina_KafYaaIsol"/>
+    <component base="uni0643.init" xOffset="1169"/>
+  </outline>
+</glyph>

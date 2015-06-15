@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0671" format="1">
+  <advance width="576"/>
+  <unicode hex="0671"/>
+  <outline>
+    <component base="aAlf.isol"/>
+    <component base="hamza.wasl" xScale="1.08196" xOffset="-1.44124" yOffset="-440.587"/>
+  </outline>
+</glyph>

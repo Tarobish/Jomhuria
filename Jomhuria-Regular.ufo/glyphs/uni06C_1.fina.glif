@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni06C1.fina" format="1">
+  <advance width="850"/>
+  <outline>
+    <contour>
+      <point x="300" y="900" type="move" name="HamzaAbove"/>
+    </contour>
+    <contour>
+      <point x="300" y="900" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="400" y="-210" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="745.531" y="436.271" type="curve" smooth="yes"/>
+      <point x="900.463" y="436.271" type="line"/>
+      <point x="900.463" y="0" type="line"/>
+      <point x="740.447" y="0" type="line" smooth="yes"/>
+      <point x="593.81" y="0"/>
+      <point x="474.734" y="119.611"/>
+      <point x="474.734" y="266.515" type="curve" smooth="yes"/>
+      <point x="474.734" y="487.809" type="line"/>
+      <point x="312.846" y="487.809"/>
+      <point x="233.373" y="269.458"/>
+      <point x="248.357" y="86.4307" type="curve"/>
+      <point x="139.718" y="86.4307" type="line"/>
+      <point x="139.718" y="86.4307"/>
+      <point x="109.214" y="191.229"/>
+      <point x="110.016" y="317.261" type="curve" smooth="yes"/>
+      <point x="110.818" y="430.449"/>
+      <point x="137.042" y="563.706"/>
+      <point x="233.373" y="660.572" type="curve" smooth="yes"/>
+      <point x="312.311" y="740.045"/>
+      <point x="438.344" y="794.9"/>
+      <point x="635.821" y="794.9" type="curve"/>
+      <point x="635.285" y="564.338" type="line" smooth="yes"/>
+      <point x="635.151" y="506.807"/>
+      <point x="643.849" y="436.271"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>140</integer>
+            <key>width</key>
+            <integer>109</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>475</integer>
+            <key>width</key>
+            <integer>426</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

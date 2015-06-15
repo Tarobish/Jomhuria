@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni065A" format="1">
+  <advance width="0"/>
+  <unicode hex="065A"/>
+  <outline>
+    <contour>
+      <point x="0" y="950" type="move" name="_MarkAbove"/>
+    </contour>
+    <contour>
+      <point x="0" y="950" type="move" name="_VAbove"/>
+    </contour>
+    <contour>
+      <point x="0" y="950" type="move" name="_MarkDotAbove"/>
+    </contour>
+    <contour>
+      <point x="50" y="950" type="move" name="_TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="-41" y="1380" type="move" name="TashkilTashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="2.18262" y="1142.24" type="curve"/>
+      <point x="2.18262" y="1142.24"/>
+      <point x="4.68652" y="1290.83"/>
+      <point x="158.009" y="1290.83" type="curve"/>
+      <point x="158.009" y="1142.51" type="line"/>
+      <point x="30.0088" y="1142.51"/>
+      <point x="25" y="943"/>
+      <point x="25" y="943" type="curve"/>
+      <point x="-19.2432" y="943" type="line"/>
+      <point x="-19.2432" y="943"/>
+      <point x="-24.252" y="1142.51"/>
+      <point x="-152.252" y="1142.51" type="curve"/>
+      <point x="-152.252" y="1290.83" type="line"/>
+      <point x="1.06934" y="1290.83"/>
+      <point x="2.18262" y="1142.24"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>1143</integer>
+            <key>width</key>
+            <integer>148</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-152</integer>
+            <key>width</key>
+            <integer>310</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
