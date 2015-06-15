@@ -3,44 +3,18 @@
   <advance width="565"/>
   <unicode hex="013A"/>
   <outline>
-    <component base="acutecomb.cap" xOffset="0.46" yOffset="0.143555"/>
+    <component base="acutecomb.cap"/>
     <component base="l"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>21</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1113</integer>
-            <key>width</key>
-            <integer>176</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1390</integer>
-            <key>width</key>
-            <integer>329</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>106</integer>
-            <key>width</key>
-            <integer>370</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
   </lib>
 </glyph>

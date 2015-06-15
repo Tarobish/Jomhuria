@@ -221,6 +221,10 @@ lookup Latincomposition {
     sub \g \uni030C  by \gcaron;
 } Latincomposition;
 
+
+
+
+
 feature ccmp {
 
  script DFLT;
@@ -307,4 +311,8 @@ table GDEF {
 
   LigatureCaretByPos \eogonek 10;
 } GDEF;
+
+
+
+
 

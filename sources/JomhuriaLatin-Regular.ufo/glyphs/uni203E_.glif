@@ -5,20 +5,4 @@
   <outline>
     <component base="uni0305" xOffset="1456"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>1425</integer>
-            <key>width</key>
-            <integer>204</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

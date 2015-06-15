@@ -4,51 +4,20 @@
   <unicode hex="004B"/>
   <outline>
     <contour>
-      <point x="1255.34" y="1289.48" type="line"/>
-      <point x="883.029" y="874.994" type="line"/>
-      <point x="1175.34" y="0" type="line"/>
-      <point x="795.475" y="0" type="line"/>
-      <point x="602.632" y="563.288" type="line"/>
-      <point x="489.032" y="436.666" type="line"/>
-      <point x="489.032" y="0" type="line"/>
-      <point x="105.841" y="0" type="line"/>
-      <point x="105.841" y="1099.15" type="line"/>
-      <point x="0" y="1099.15" type="line"/>
-      <point x="0" y="1289.48" type="line"/>
-      <point x="489.032" y="1289.2" type="line"/>
-      <point x="489.032" y="722.604" type="line"/>
-      <point x="999.341" y="1289.48" type="line"/>
+      <point x="1255" y="1289" type="line"/>
+      <point x="883" y="875" type="line"/>
+      <point x="1175" y="0" type="line"/>
+      <point x="795" y="0" type="line"/>
+      <point x="603" y="563" type="line"/>
+      <point x="489" y="437" type="line"/>
+      <point x="489" y="0" type="line"/>
+      <point x="106" y="0" type="line"/>
+      <point x="106" y="1099" type="line"/>
+      <point x="0" y="1099" type="line"/>
+      <point x="0" y="1289" type="line"/>
+      <point x="489" y="1289" type="line"/>
+      <point x="489" y="723" type="line"/>
+      <point x="999" y="1289" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>21</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1099</integer>
-            <key>width</key>
-            <integer>190</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>106</integer>
-            <key>width</key>
-            <integer>383</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

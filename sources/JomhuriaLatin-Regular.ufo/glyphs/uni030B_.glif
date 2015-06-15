@@ -6,20 +6,4 @@
     <component base="acutecomb" xOffset="-148"/>
     <component base="acutecomb" xOffset="100"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>1086</integer>
-            <key>width</key>
-            <integer>329</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

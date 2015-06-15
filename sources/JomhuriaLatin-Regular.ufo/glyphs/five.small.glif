@@ -4,26 +4,4 @@
   <outline>
     <component base="five" xScale="0.6" yScale="0.6" xOffset="16" yOffset="-11"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-23</integer>
-            <key>width</key>
-            <integer>121</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>590</integer>
-            <key>width</key>
-            <integer>173</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

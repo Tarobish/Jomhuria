@@ -2,43 +2,6 @@
 <glyph name="two.medium" format="1">
   <advance width="861"/>
   <outline>
-    <component base="two" xScale="0.8" yScale="0.8" xOffset="23.9996"/>
+    <component base="two" xScale="0.8" yScale="0.8" xOffset="23"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>145</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1031</integer>
-            <key>width</key>
-            <integer>16</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>98</integer>
-            <key>width</key>
-            <integer>144</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>650</integer>
-            <key>width</key>
-            <integer>121</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

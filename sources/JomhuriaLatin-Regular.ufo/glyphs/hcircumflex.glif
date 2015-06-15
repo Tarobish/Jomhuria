@@ -3,62 +3,7 @@
   <advance width="1123"/>
   <unicode hex="0125"/>
   <outline>
-    <component base="uni0302.cap" xOffset="1046.93" yOffset="-2"/>
+    <component base="uni0302.cap" xOffset="1046" yOffset="-2"/>
     <component base="h" xOffset="3"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-1</integer>
-            <key>width</key>
-            <integer>22</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>989</integer>
-            <key>width</key>
-            <integer>20</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1112</integer>
-            <key>width</key>
-            <integer>178</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1386</integer>
-            <key>width</key>
-            <integer>329</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>109</integer>
-            <key>width</key>
-            <integer>370</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>326</integer>
-            <key>width</key>
-            <integer>482</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>667</integer>
-            <key>width</key>
-            <integer>369</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </lib>
 </glyph>
