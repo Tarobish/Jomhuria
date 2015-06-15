@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="minute" format="1">
+  <advance width="453"/>
+  <unicode hex="2032"/>
+  <outline>
+    <contour>
+      <point x="189.896" y="1617.26" type="line"/>
+      <point x="40" y="1289.48" type="line"/>
+      <point x="174.104" y="1289.48" type="line"/>
+      <point x="413.218" y="1618.92" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>1289</integer>
+            <key>width</key>
+            <integer>329</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
