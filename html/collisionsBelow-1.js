@@ -1,9 +1,11 @@
 define([
     'lib/domStuff'
   , 'lib/typoStuff'
+  , 'lib/Table'
 ], function(
     domStuff
   , typoStuff
+  , Table
 ){
     "use strict";
     /*global document:true*/
@@ -12,11 +14,20 @@ define([
       , zwj = typoStuff.zwj
       , zwnj = typoStuff.zwnj
       , nbsp = typoStuff.nbsp
+      , dottedCircle = typoStuff.dottedCircle
       , hasChar = typoStuff.hasChar
       , createElement = domStuff.createElement
+      , createFragment = domStuff.createFragment
       , makeTable = domStuff.makeTable
       , makeTableHead = domStuff.makeTableHead
+      , applicableTypes = new Set(['init','medi','fina','isol', '_nocontext_'])
       ;
+
+    function filterApplicableTypes(glyph) {
+        var type = glyph.getType('_nocontext_');
+        return applicableTypes.has(type);
+    }
+
     var first = [
             'uni0680.init'
           , 'uni0776.init'
@@ -83,7 +94,7 @@ define([
           , 'uniFB58'
           , 'uniFB5C'
           , 'uniFBFE'
-    ].map(Glyph.factory)
+    ].map(Glyph.factory).filter(filterApplicableTypes)
     , second = [
             'uni0647.medi'
           , 'uni06C1.medi'
@@ -123,147 +134,139 @@ define([
           , 'uniFE8A'
           , 'uniFEF0'
           , 'uniFEF2'
-    ].map(Glyph.factory)
-      // second "if they have vowels"
-      // TODO: need to comprehend
-    , secondWithVowl = [
-            'aAlf.fina'
-          , 'uni0625.fina'
-          , 'uni0627.fina'
-          , 'uni0774.fina'
-          , 'uni0773.fina'
-          , 'uni0623.fina'
-          , 'uni0622.fina'
-          , 'uni0675.fina'
-          , 'uni0672.fina'
-          , 'uni0673.fina'
-          , 'uni0671.fina'
-          , 'uniFB51'
-          , 'uniFE82'
-          , 'uniFE84'
-          , 'uniFE88'
-          , 'uniFE8E'
-          , 'u1EE6F'
-        ].map(Glyph.factory)
-      ;
+    ].map(Glyph.factory).filter(filterApplicableTypes)
+    ;
 
-    function toString(item) {
-        return item + '';
-    }
-    function booleanFilter(item) {
-        return !!item;
-    }
+    var filler = [undefined];
+    filler.hasLabel = false;
+    first.name = 'first Glyph';
+    second.name = 'second Glyph';
 
-    function getGlyphInContext(glyph, cantDoChar) {
-        var typeContexts = {
-                'init': function(char){return [zwnj, char, zwj, zwnj].join('');}
-              , 'medi': function(char){return [zwnj, zwj, char, zwj, zwnj].join('');}
-              , 'fina': function(char){return [zwnj, zwj, char, zwnj].join('');}
-              , '_nocontext_': function(char){return [zwnj, char, zwnj].join('');}
-            }
-          , type = glyph.getType('_nocontext_')
-          , nope = cantDoChar || null
-          ;
-        return (type in typeContexts
-                    ? typeContexts[type](glyph.char)
-                    : nope
-               );
-    }
 
-    var colCount = 7;
-    function makeGlyphRow(glyph) {
-        return [ glyph.name
-               , glyph.code
-               , glyph.char
-               , glyph.type
-               , getGlyphInContext(glyph, '—')
-               , glyph.mainType, glyph.subType
-            ].map(toString);
-    }
 
-    function prepareGroup(data) {
-        return data.map(makeGlyphRow);
-    }
-
-    function combineWith(secondGlyphs, firstGlyph) {
-        var type
-          , firstTypeContexts = {
-                'init': function(char){return [zwnj, char];}
-              , 'medi': function(char){return [zwnj, zwj, char];}
-              , '_nocontext_': function(char){return [zwnj, char];}
-            }
-          , secondTypeContexts = {
-                'medi': function(char){return [char, zwj, zwnj];}
-              , 'fina': function(char){return [char, zwnj];}
-              , '_nocontext_': function(char){return [char, zwnj];}
-            }
-          , data
-          , getContext = function(contexts, glyph) {
-                var type = glyph.getType('_nocontext_');
-                if(!glyph.hasChar() || !(type in contexts))
-                    return [false, glyph];
-                return [true, glyph, contexts[type](glyph.char)];
-            }
-          , combine = function(firstContext, secondContext) {
-                var first, second, result;
-                if(!secondContext[0])
-                    return createElement('td', {dir:'LTR', colspan: 3},
-                        '(no context for '+ secondContext[1].name +')');
-                first = firstContext[2];
-                second = secondContext[2];
-                return [
-                    // the names of the glyphs used
-                    createElement('td', {dir:'LTR'}, [
-                            firstContext[1].name
-                          , createElement('sup', null, '(first)')
-                          , ' + '
-                          , secondContext[1].name
-                          , createElement('sup', null, '(second)')
-                    ])
-                    // this should render the real combination:
-                  , createElement('td', {dir:'RTL'}, first.concat(second).join(''))
-                    // what the content is made of
-                  , createElement('td', {dir:'RTL'}, first.concat(
-                            [zwj, nbsp, '+', nbsp, zwj], second).join(''))
-                  //, createElement('td', {dir:'LTR'}, createElement('pre',
-                  //          null, JSON.stringify(secondContext[1])))
-                ];
-            }
-          , combinations
-          , content
-          , first = getContext(firstTypeContexts, firstGlyph)
-          ;
-        if(!first[0]) {
-            return createElement('div', null, createElement('h2', {dir:'LTR'}
-                    , 'skipping: ' + firstGlyph.name + '(no context)'));
+    var axes = {
+        _items: [first, second, filler]
+      , len: function(axisIndex) {
+            return this._items[axisIndex].length;
         }
-        combinations = secondGlyphs
-            .map(getContext.bind(null, secondTypeContexts))
-            .map(combine.bind(null, first))
-            .map(createElement.bind(null, 'tr', null))
+      , hasLabel: function (axisIndex) {
+            var axis = this._items[axisIndex];
+            return 'hasLabel' in axis ? !!axis.hasLabel : true;
+        }
+      , getData: function (firstIndex, secondIndex, fillerIndex) {
+            var firstGlyph = this._items[0][firstIndex]
+              , secondGlyph = this._items[1][secondIndex]
+              , first
+              , second
+              , content
+              , title
+              ;
+            switch(firstGlyph.getType('_nocontext_')) {
+                case 'init':
+                    first = [zwnj, firstGlyph.char];
+                    break;
+                case 'medi':
+                    first = [zwnj, zwj, firstGlyph.char];
+                    break;
+                case '_nocontext_':
+                    /* falls through */
+                default:
+                    first = [zwnj, firstGlyph.char];
+                    break;
+            }
+            switch(secondGlyph.getType('_nocontext_')) {
+                case 'medi':
+                    second = [secondGlyph.char, zwj, zwnj];
+                    break;
+                case 'fina':
+                    second = [secondGlyph.char, zwnj];
+                    break;
+                case '_nocontext_':
+                    /* falls through */
+                default:
+                    second = [secondGlyph.char, zwnj];
+            }
+
+            content = first.concat(second).join('');
+            // what the content is made of
+            // createElement('td', {dir:'RTL'}, first.concat(
+            // [zwj, nbsp, '+', nbsp, zwj], second).join(''))
+
+            // the names of the glyphs used
+            // [
+            //         firstGlyph.name
+            //         , createElement('sup', null, '(first)')
+            //         , ' + '
+            //         , secondGlyph.name
+            //         , createElement('sup', null, '(second)')
+            // ])
+            title = [firstGlyph.name, secondGlyph.name].join(' + ');
+            return [{dir: 'RTL', title: title}, content];
+        }
+        /**
+         * `type`, string: one of 'section', 'row', 'column'
+         */
+      , getLabel: function (axisIndex, itemIndex, type) {
+            var axis = this._items[axisIndex]
+            , item = axis[itemIndex]
+            , axisName = axis.name
+            , attr = {dir: 'LTR'}
+            , content, str, char
             ;
-        if(!combinations.length) {
-            return createElement('div', null, createElement('h2', {dir:'LTR'}
-                    , 'skipping: ' + firstGlyph.name + '(no combinations)'));
+            attr.title = axisName + ': '+ item.name;
+            if(axis.isMark)
+                str = [dottedCircle, item.char, nbsp];
+            else switch(item.type) {
+                case 'init':
+                    str = [nbsp, zwnj, item.char, zwj, nbsp];
+                    break;
+                case 'medi':
+                    str = [nbsp, zwj, item.char, zwj, nbsp];
+                    break;
+                case 'fina':
+                    str = [nbsp, zwj, item.char, zwnj, nbsp];
+                    break;
+                default:
+                    str = [nbsp, zwnj, item.char, zwnj, nbsp];
+            }
+            char = createElement('span', {dir: 'RTL'},  str.join(''));
+            switch (type) {
+                case 'column':
+                    // very short label
+                    content = char;
+                    break;
+                // long labels
+                case 'section':
+                    content = axisName + ': ';
+                    /* falls through */
+                case 'row':
+                    /* falls through */
+                default:
+                    content = (content && [content] || []).concat(item.name, char);
+                break;
+            }
+            return [attr, createFragment(content)];
         }
-        combinations.unshift(createElement('caption', null, firstGlyph.name));
-        return createElement('table', {dir:'LTR', 'class': 'testcontent'}, combinations);
-    }
+    };
 
     function main() {
         var body = createElement('article', null, [
-            createElement('h1', null, 'Colisions below the baseline')
-          , createElement('p', null, 'The middle column should show no collisions.')
-          , createElement('p', null, '"(no context..." means that it is not straight forward to '
-                                    + 'use these glyphs in a generated context')
+            createElement('h1', null, 'Collisions below the baseline')
+          , createElement('p', null, 'The glyphs should not collide.')
           , createElement('p', null, 'Note that uniF{xxx} and u{xxxx} glyphs are not meant to '
                                     +'join properly with uni0{xxx} glyphs.')
 
         ]);
 
-        first.map(combineWith.bind(null, second))
-            .filter(booleanFilter)
-            .forEach(body.appendChild, body);
+        var table = new Table(axes, [2, 0, 1]) //[sectionAxis, rowAxis, columnAxis]
+          , mode = 'default' // "doubleColumns" or "doubleRows" or it defaults (to "default")
+          , hasSectionLabel = true
+          , hasRowLabel = true
+          , hasColumnLabel = true
+          ;
+        body.appendChild(
+            createElement('table', {dir: 'RTL', 'class': 'testcontent'},
+                    table.render(mode, hasSectionLabel, hasRowLabel, hasColumnLabel)));
         return body;
     }
     return {

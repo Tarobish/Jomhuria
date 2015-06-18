@@ -1,9 +1,11 @@
 define([
     'lib/domStuff'
   , 'lib/typoStuff'
+  , 'lib/Table'
 ], function(
     domStuff
   , typoStuff
+  , Table
 ){
     "use strict";
     /*global document:true*/
@@ -12,13 +14,13 @@ define([
       , zwj = typoStuff.zwj
       , zwnj = typoStuff.zwnj
       , nbsp = typoStuff.nbsp
-      , hasChar = typoStuff.hasChar
+      , dottedCircle = typoStuff.dottedCircle
       , createElement = domStuff.createElement
-      , makeTable = domStuff.makeTable
-      , makeTableHead = domStuff.makeTableHead
+      , createFragment = domStuff.createFragment
       ;
 
-    var first = [
+    var firstTypes = new Set(['init', 'medi', '_nocontext_'])
+      , first = [
             'uni0680.init'
           , 'uni0776.init'
           , 'uni06CE.init'
@@ -85,6 +87,10 @@ define([
           , 'uniFB5C'
           , 'uniFBFE'
         ].map(Glyph.factory)
+        .filter(function(glyph) {
+            var type = glyph.getType('_nocontext_');
+            return firstTypes.has(type);
+        })
         // if it says ≡ {unicode} {unicode}
         // I expect that opentype prevents that I ever see the original codepoint
         // let's see what happens
@@ -132,58 +138,109 @@ define([
          , 'uni08E9'
         ].map(Glyph.factory)
       , kashida = Glyph.factory('uni0640')
+      , axes
       ;
+
+    first.name = 'first Glyph';
+    first.isMark = false;
+    alefs.name = 'Alef';
+    alefs.isMark = false;
+    marksBelow.name = 'Mark';
+    marksBelow.isMark = true;
+
+    // adhoc object, must gather more knowledge for a nice class
+    // this is the "model" as it represents the data source and knowledge
+    // about the data. It also has the most basic knowledge how to represent
+    // the data.
+    axes = {
+        _items: [first, alefs, marksBelow]
+      , len: function(axisIndex) {
+            return this._items[axisIndex].length;
+        }
+      , hasLabel: function (axisIndex) {
+            var axis = this._items[axisIndex];
+            return 'hasLabel' in axis ? !!axis.hasLabel : true;
+        }
+      , getData: function (firstIndex, alefsIndex, marksIndex) {
+            var firstGlyph = this._items[0][firstIndex]
+              , alef = this._items[1][alefsIndex]
+              , mark = this._items[2][marksIndex]
+              , content =  [
+                        nbsp
+                      , firstGlyph.type === 'medi' ? zwj : ''
+                      , firstGlyph.char
+                      , alef.char
+                      , mark.char
+                      , zwnj
+                      , ' '
+                ].join('')
+              , title = [firstGlyph.name, alef.name, mark.name].join(' + ')
+              ;
+            return [{dir: 'RTL', title: title}, content];
+        }
+        /**
+         * `type`, string: one of 'section', 'row', 'column'
+         */
+      , getLabel: function (axisIndex, itemIndex, type) {
+            var axis = this._items[axisIndex]
+            , item = axis[itemIndex]
+            , axisName = axis.name
+            , attr = {dir: 'LTR', title: axisName + ': '+ item.name}
+            , content, str, char
+            ;
+            if(axis.isMark)
+                str = [dottedCircle, item.char, nbsp];
+            else switch(item.type) {
+                case 'init':
+                    str = [nbsp, zwnj, item.char, zwj, nbsp];
+                    break;
+                case 'medi':
+                    str = [nbsp, zwj, item.char, zwj, nbsp];
+                    break;
+                case 'fina':
+                    str = [nbsp, zwj, item.char, zwnj, nbsp];
+                    break;
+                default:
+                    str = [nbsp, zwnj, item.char, zwnj, nbsp];
+            }
+            char = createElement('span', {dir: 'RTL'},  str.join(''));
+            switch (type) {
+                case 'column':
+                    // very short label
+                    content = char;
+                    break;
+                // long labels
+                case 'section':
+                    content = axisName + ': ';
+                    /* falls through */
+                case 'row':
+                    /* falls through */
+                default:
+                    content = (content && [content] || []).concat(item.name, char);
+            }
+            return [attr, createFragment(content)];
+        }
+    };
 
     function main() {
         var body = createElement('article', null, [
-            createElement('h1', null, 'Colisions of final Alef below the baseline.')
+            createElement('h1', null, 'Collision of final Alef below the baseline.')
           , createElement('p', null, 'When a final Alef has a Mark below the baseline, '
                 + 'we shouldn\'t produce collisions with the glyph before the Alef.')
           , createElement('p', null, 'Note that uniF{xxx} and u{xxxx} glyphs are not meant to '
                                     +'join properly with uni0{xxx} glyphs.')
         ]);
 
-
-        var i,l, ii, ll, iii, lll
-          , items = []
-          , rows = []
-          , cols
-          , firstTypes = new Set(['init', 'medi', '_nocontext_'])
-          , type, firstGlyph, alef, mark, input
+        var table = new Table(axes, [0, 2, 1]) //[1,0,2] [sectionAxis, rowAxis, columnAxis]
+          , mode = 'default' // "doubleColumns" or "doubleRows" or it defaults (to "default")
+          , hasSectionLabel = true
+          , hasRowLabel = true
+          , hasColumnLabel = true
           ;
-
-        for(i=0,l=alefs.length;i<l;i++) {
-                alef = alefs[i];
-            rows.push(
-                    createElement('tr', null,[
-                        createElement('th', {dir:'LTR'}, 'glyph before')
-                      , createElement('th', {dir:'LTR', colspan: (first.length + 2)}, 'Alef: ' + alef.name)
-                ]));
-
-            for(ii=0,ll=first.length;ii<ll;ii++) {
-                firstGlyph = first[ii];
-                type = firstGlyph.getType('_nocontext_');
-                if(!firstTypes.has(type))
-                    continue;
-                cols = [];
-                cols.push(createElement('th',  {dir:'LTR'}, firstGlyph.name));
-                for(iii=0,lll=marksBelow.length;iii<lll;iii++) {
-                    mark = marksBelow[iii];
-                    input = [];
-                    input.push(
-                        nbsp
-                      , firstGlyph.type === 'medi' ? zwj : ''
-                      , firstGlyph.char
-                      , alef.char
-                      , mark.char
-                    );
-                    cols.push(createElement('td',  {title:'Mark: ' + mark.name}, input.join('')));
-                }
-                rows.push(createElement('tr', null, cols));
-            }
-       }
-       body.appendChild(createElement('table', {dir: 'RTL', 'class': 'testcontent'}, rows));
-       return body;
+        body.appendChild(
+            createElement('table', {dir: 'RTL', 'class': 'testcontent'},
+                    table.render(mode, hasSectionLabel, hasRowLabel, hasColumnLabel)));
+        return body;
     }
 
     return {
