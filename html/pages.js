@@ -3,12 +3,14 @@ define([
   , 'lib/text!../README.md'
   , 'collisionsBelow-1'
   , 'collisionsBelow-2'
+  , 'collisionsAbove-1'
   , 'lib/text!texts/persian-arabic.htmlPart'
 ], function(
     domStuff
   , README
   , collisionsBelow1
   , collisionsBelow2
+  , collisionsAbove1
   , text1
 ){
     "use strict";
@@ -29,6 +31,7 @@ define([
           , '/': {
                 'collision-below-1': collisionsBelow1
               , 'collision-below-2': collisionsBelow2
+              , 'collision-above-1': collisionsAbove1
             }
         }
       , texts: {

@@ -152,7 +152,7 @@ def makeCollisionPrevention():
     actual substitution we can decompose the first glyph into the first
     glyph plus the widening glyph, using a "[GSUB LookupType 2] Multiple substitution".
     """
-    first = [
+    firstBelow = [
         'uni0680.init'
       , 'uni0776.init'
       , 'uni06CE.init'
@@ -219,29 +219,45 @@ def makeCollisionPrevention():
       , 'uniFB5C'
       , 'uniFBFE'
     ]
+    firstAbove = [
+        'uni0753.init'
+      , 'uni0751.init'
+      , 'uni067D.init'
+      , 'uni067F.init'
+      , 'uni067C.init'
+      , 'uni062B.init'
+      , 'uni062A.init'
+    ]
 
     widener = 'uni0640.1'
     multipleSubstitution = 'sub {name} by {name} {widener};'
     decompositions = []
-    for name in first:
+    seen = set()
+    for name in firstBelow + firstAbove:
+        if name in seen:
+            continue
+        seen.add(name)
         decompositions.append(multipleSubstitution.format(name=name, widener=widener))
 
     template = Template("""
-@colisionsBelowFirst = [ $first ];
+@colisionsBelowFirst = [ $firstBelow ];
+@colisionsAboveFirst = [ $firstAbove ];
 
-lookup decompCollisionsBelow {
+lookup decompCollisions {
   lookupflag IgnoreMarks;
   $decompositions
-} decompCollisionsBelow;
+} decompCollisions;
 """)
 
     return '\n'.join([
         template.substitute(
-            first=' '.join(first)
+            firstBelow=' '.join(firstBelow)
+          , firstAbove=' '.join(firstAbove)
           , decompositions='\n  '.join(decompositions)
         )
       , preventCollisionsBelow()
-      , preventCollisionsBelowAlef()
+      , preventCollisionsBelowAlefMark()
+      , preventCollisionsAbove()
     ])
 
 def preventCollisionsBelow():
@@ -251,7 +267,7 @@ def preventCollisionsBelow():
 feature calt {
   lookup comp {
     lookupflag IgnoreMarks;
-    sub @colisionsBelowFirst' lookup decompCollisionsBelow @colisionsBelowSecond;
+    sub @colisionsBelowFirst' lookup decompCollisions @colisionsBelowSecond;
   } comp;
 } calt;
 """)
@@ -299,7 +315,7 @@ feature calt {
 
     return template.substitute(second=' '.join(second));
 
-def preventCollisionsBelowAlef():
+def preventCollisionsBelowAlefMark():
     # TODO: instead of @colisionsBelowMarks could we use @tashkilBelow???
     template = Template("""
 @colisionsBelowSecondAlefs =[ $alefs ];
@@ -307,7 +323,7 @@ def preventCollisionsBelowAlef():
 
 feature calt {
   lookup comp {
-    sub @colisionsBelowFirst' lookup decompCollisionsBelow @colisionsBelowSecondAlefs @colisionsBelowMarks;
+    sub @colisionsBelowFirst' lookup decompCollisions @colisionsBelowSecondAlefs @colisionsBelowMarks;
   } comp;
 } calt;
 """)
@@ -357,6 +373,33 @@ feature calt {
     alefs = ' '.join(alefs)
     marks = ' '.join(marks)
     return template.substitute(alefs=alefs, marks=marks);
+
+def preventCollisionsAbove():
+    template = Template("""
+@colisionsAboveSecond =[ $second ];
+
+feature calt {
+  lookup comp {
+    lookupflag IgnoreMarks;
+    sub @colisionsAboveFirst' lookup decompCollisions @colisionsAboveSecond;
+  } comp;
+} calt;
+""")
+
+    second = [
+        'uni0625.fina'
+      , 'uni0627.fina'
+      , 'uni0774.fina'
+      , 'uni0773.fina'
+      , 'uni0623.fina'
+      , 'uni0622.fina'
+      , 'uni0675.fina'
+      , 'uni0672.fina'
+      , 'uni0673.fina'
+      , 'uni0671.fina'
+    ]
+
+    return template.substitute(second=' '.join(second));
 
 def prepareFeatures(font, feafile):
     """Merges feature file into the font while making sure mark positioning
