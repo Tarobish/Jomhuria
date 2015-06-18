@@ -7,30 +7,38 @@ define([
     /*jshint laxcomma: true, laxbreak: true*/
     /*global document:true setTimeout:true*/
 
-    function createElement(tagname, attr, contents) {
-        var _contents
-          , elem = document.createElement(tagname)
-          , k, i, l, child
-          ;
+    function appendChildren(elem, contents, cloneChildNodes) {
+        var _contents, i, l, child;
 
         if(contents === undefined)
             _contents = [];
         else
             _contents = contents instanceof Array ? contents : [contents];
 
-        if(attr) for(k in attr)
-            elem.setAttribute(k, attr[k]);
         for(i=0,l=_contents.length;i<l;i++) {
             child = _contents[i];
             if(typeof child.nodeType !== 'number')
                 child = document.createTextNode(child);
+            else if(cloneChildNodes)
+                child = child.cloneNode(true);//always a deep clone
             elem.appendChild(child);
         }
+    }
+
+    function createElement(tagname, attr, contents, cloneChildNodes) {
+        var elem = document.createElement(tagname)
+          , k
+          ;
+
+        if(attr) for(k in attr)
+            elem.setAttribute(k, attr[k]);
+
+        appendChildren(elem, contents, cloneChildNodes);
         return elem;
     }
 
 
-    function makeCell(thing) {
+    function makeCell(thing, cloneChildNodes) {
         return createElement('td', {dir:'RTL'}, thing);
     }
 
@@ -68,6 +76,12 @@ define([
         return createElementfromHTML(tag, attr, marked(mardownText, {gfd: true}));
     }
 
+    function createFragment(contents, cloneChildNodes) {
+        var frag = document.createDocumentFragment();
+        appendChildren(frag, contents, cloneChildNodes);
+        return frag;
+    }
+
     return {
         createElement: createElement
       , makeCell: makeCell
@@ -77,5 +91,7 @@ define([
       , onLoad: onLoad
       , createElementfromHTML: createElementfromHTML
       , createElementfromMarkdown: createElementfromMarkdown
+      , appendChildren: appendChildren
+      , createFragment: createFragment
     };
 });
