@@ -14,6 +14,7 @@ define([], function() {
     var zwj = String.fromCodePoint(0x200D) // zero-width joiner
       , zwnj = String.fromCodePoint(0x200C)// zero-width non-joiner
       , nbsp = String.fromCodePoint(0x00A0)// no break space
+      , dottedCircle = String.fromCodePoint(0x25CC)// DOTTED CIRCLE
       ;
 
     /**
@@ -135,5 +136,6 @@ define([], function() {
       , zwj: zwj
       , zwnj: zwnj
       , nbsp: nbsp
+      , dottedCircle: dottedCircle
     };
 });
