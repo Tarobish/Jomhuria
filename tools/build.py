@@ -258,6 +258,7 @@ lookup decompCollisions {
       , preventCollisionsBelow()
       , preventCollisionsBelowAlefMark()
       , preventCollisionsAbove()
+      , preventCollisionsAboveLamMediAlfFina()
     ])
 
 def preventCollisionsBelow():
@@ -400,6 +401,31 @@ feature calt {
     ]
 
     return template.substitute(second=' '.join(second));
+
+
+def preventCollisionsAboveLamMediAlfFina():
+
+    template = Template("""
+feature calt {
+  lookup comp {
+    lookupflag IgnoreMarks;
+    sub @colisionsAboveFirst' lookup decompCollisions @aLam.medi_LamAlfFina;
+  } comp;
+} calt;
+""")
+    # this is the same group as @aLam.medi_LamAlfFina
+    # we use that name and don't recreate it below
+    #second = [
+    #    'uni076A.medi_LamAlfFina'
+    #  , 'uni06B6.medi_LamAlfFina'
+    #  , 'uni06B8.medi_LamAlfFina'
+    #  , 'uni0644.medi_LamAlfFina'
+    #  , 'uni06B7.medi_LamAlfFina'
+    #  , 'uni06B5.medi_LamAlfFina'
+    #]
+    # second=' '.join(second)
+    return template.substitute();
+
 
 def prepareFeatures(font, feafile):
     """Merges feature file into the font while making sure mark positioning
