@@ -115,27 +115,6 @@ feature calt {
   sub @aBaa.medi [@aYaaBari.fina]' lookup ToothYaaBariFina;
 } calt;
 
-
-// XXX: use a different glyph for PDF text extraction
-// FIXME: this is most probably https://github.com/Tarobish/Jomhuria/issues/9
-feature calt {
-  lookupflag IgnoreMarks;
-  script arab;
-  language ARA;
-
-  // Replace teh init following teh/theh medi by a teh init with two vertical
-  // dots.
-  sub uni062A.init'
-      [uni062A.medi uni062B.medi]
-   by uni067A.init;
-
-  sub uni062A.init_High'
-      [uni062A.medi_High uni062B.medi_High]
-   by uni067A.init_High;
-
-} calt;
-
-
 // We solve a clash between dots and marks with kerning or if that doesn't help with substitution like below
 // When an initial Baa is followed by Alef, the dot clashes with the Hamza below
 // Alef, Also the marks above the Baa clash with the Alef, so we replace the Baa
