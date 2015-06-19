@@ -2,7 +2,7 @@ StartChar: uni08F2
 Encoding: 4824 2290 1042
 Width: 405
 GlyphClass: 4
-Flags: HWO
+Flags: HW
 HStem: -1283 479
 VStem: 46 311
 AnchorPoint: "MarkBelow" 195 -804 mark 0

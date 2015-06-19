@@ -10,8 +10,8 @@ Version:
 ItalicAngle: 0
 UnderlinePosition: -1100
 UnderlineWidth: 102
-Ascent: 3088
-Descent: 1575
+Ascent: 1840
+Descent: 1160
 InvalidEm: 0
 LayerCount: 2
 Layer: 0 1 "Back" 1
@@ -21,25 +21,25 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1273266481
-ModificationTime: 1434729554
+ModificationTime: 1434739666
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 0 0 5 0 0 0 0 0 0 0
-OS2TypoAscent: 3088
-OS2TypoAOffset: 0
-OS2TypoDescent: -1575
-OS2TypoDOffset: 0
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
 OS2TypoLinegap: 0
-OS2WinAscent: 3088
-OS2WinAOffset: 0
-OS2WinDescent: 1575
-OS2WinDOffset: 0
-HheadAscent: 3088
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 1840
 HheadAOffset: 0
-HheadDescent: -1575
+HheadDescent: -1160
 HheadDOffset: 0
 OS2Vendor: '    '
 Lookup: 259 9 0 "'curs' Cursive Attachment" { "'curs' Cursive Attachment-1"  } ['curs' ('DFLT' <'dflt' > 'arab' <'dflt' 'ARA ' 'URD ' 'SND ' > ) ]
@@ -97,7 +97,7 @@ NameList: AGL without afii
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 165 15 6
+WinInfo: 600 15 6
 BeginPrivate: 0
 EndPrivate
 Grid
