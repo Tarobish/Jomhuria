@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1273266481
-ModificationTime: 1434577552
+ModificationTime: 1434729554
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -97,7 +97,7 @@ NameList: AGL without afii
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1020 20 10
+WinInfo: 165 15 6
 BeginPrivate: 0
 EndPrivate
 Grid
