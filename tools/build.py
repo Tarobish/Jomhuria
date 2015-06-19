@@ -229,11 +229,18 @@ def makeCollisionPrevention():
       , 'uni062A.init'
     ]
 
+    firstAboveQaf = [
+          'uni0642.init'
+      , 'uni06A8.init'
+      , 'uni06A4.init'
+      , 'uni06A6.init'
+    ]
+
     widener = 'uni0640.1'
     multipleSubstitution = 'sub {name} by {name} {widener};'
     decompositions = []
     seen = set()
-    for name in firstBelow + firstAbove:
+    for name in firstBelow + firstAbove + firstAboveQaf:
         if name in seen:
             continue
         seen.add(name)
@@ -242,6 +249,7 @@ def makeCollisionPrevention():
     template = Template("""
 @colisionsBelowFirst = [ $firstBelow ];
 @colisionsAboveFirst = [ $firstAbove ];
+@colisionsAboveFirstQaf = [ $firstAboveQaf ];
 
 lookup decompCollisions {
   lookupflag IgnoreMarks;
@@ -253,12 +261,14 @@ lookup decompCollisions {
         template.substitute(
             firstBelow=' '.join(firstBelow)
           , firstAbove=' '.join(firstAbove)
+          , firstAboveQaf=' '.join(firstAboveQaf)
           , decompositions='\n  '.join(decompositions)
         )
       , preventCollisionsBelow()
       , preventCollisionsBelowAlefMark()
       , preventCollisionsAbove()
       , preventCollisionsAboveLamMediAlfFina()
+      , preventCollisionsAboveQafIniAlfMaddaFina()
     ])
 
 def preventCollisionsBelow():
@@ -424,6 +434,20 @@ feature calt {
     #  , 'uni06B5.medi_LamAlfFina'
     #]
     # second=' '.join(second)
+    return template.substitute();
+
+def preventCollisionsAboveQafIniAlfMaddaFina():
+
+    # uni0622.fina ARABIC LETTER ALEF WITH MADDA ABOVE
+
+    template = Template("""
+feature calt {
+  lookup comp {
+    lookupflag IgnoreMarks;
+    sub @colisionsAboveFirstQaf' lookup decompCollisions uni0622.fina;
+  } comp;
+} calt;
+""")
     return template.substitute();
 
 

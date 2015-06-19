@@ -5,6 +5,7 @@ define([
   , 'collisionsBelow-2'
   , 'collisionsAbove-1'
   , 'collisionsAbove-2'
+  , 'collisionsAbove-3'
   , 'lib/text!texts/persian-arabic.htmlPart'
 ], function(
     domStuff
@@ -13,6 +14,7 @@ define([
   , collisionsBelow2
   , collisionsAbove1
   , collisionsAbove2
+  , collisionsAbove3
   , text1
 ){
     "use strict";
@@ -35,6 +37,7 @@ define([
               , 'collision-below-2': collisionsBelow2
               , 'collision-above-1': collisionsAbove1
               , 'collision-above-2': collisionsAbove2
+              , 'collision-above-3': collisionsAbove3
             }
         }
       , texts: {
