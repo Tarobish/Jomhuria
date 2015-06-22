@@ -7,6 +7,8 @@ define([
   , 'collisionsAbove-2'
   , 'collisionsAbove-3'
   , 'lib/text!texts/persian-arabic.htmlPart'
+  , 'texts/marks1'
+
 ], function(
     domStuff
   , README
@@ -16,6 +18,7 @@ define([
   , collisionsAbove2
   , collisionsAbove3
   , text1
+  , marksText1
 ){
     "use strict";
     /*global document:true window:true*/
@@ -47,6 +50,7 @@ define([
                     title: 'Arabic Text 1'
                   , generate: fromHTML.bind(null, 'article', {dir: 'RTL', 'class': 'testcontent'}, text1)
                 }
+              , marks1: marksText1
             }
         }
     };
