@@ -75,7 +75,7 @@ define([
                 rowA.push(this._renderData(item));
                 if(duplicationRow) {
                     duplicateElement = this._renderData(item);
-                    duplicateClasses.forEach(duplicateElement.classList.add, duplicateElement.classList);
+                    duplicateElement.classList.add.apply(duplicateElement.classList, duplicateClasses);
                     duplicationRow.push(duplicateElement);
                 }
             }

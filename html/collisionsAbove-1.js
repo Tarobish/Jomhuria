@@ -2,10 +2,12 @@ define([
     'lib/domStuff'
   , 'lib/typoStuff'
   , 'lib/Table'
+  , 'lib/TableContent'
 ], function(
     domStuff
   , typoStuff
   , Table
+  , TableContent
 ){
     "use strict";
     /*global document:true*/
@@ -18,8 +20,7 @@ define([
       , hasChar = typoStuff.hasChar
       , createElement = domStuff.createElement
       , createFragment = domStuff.createFragment
-      , makeTable = domStuff.makeTable
-      , makeTableHead = domStuff.makeTableHead
+      , appendChildren = domStuff.appendChildren
       , applicableTypes = new Set(['init','medi','fina','isol', '_nocontext_'])
       ;
 
@@ -191,23 +192,15 @@ define([
     };
 
     function main() {
-        var body = createElement('article', null, [
-            createElement('h1', null, 'Collisions above the baseline')
-          , createElement('p', null, 'The glyphs should not collide.')
-          , createElement('p', null, 'Note that uniF{xxx} and u{xxxx} glyphs are filtered.')
-
-        ]);
-
-        var table = new Table(axes, [2, 0, 1]) //[sectionAxis, rowAxis, columnAxis]
-          , mode = 'default' // "doubleColumns" or "doubleRows" or it defaults (to "default")
-          , hasSectionLabel = true
-          , hasRowLabel = true
-          , hasColumnLabel = true
+        var info = [
+                createElement('h1', null, 'Collisions above the baseline')
+              , createElement('p', null, 'The glyphs should not collide.')
+              , createElement('p', null, 'Note that uniF{xxx} and u{xxxx} glyphs are filtered.')
+            ]
+          , table = new Table(axes, [2, 0, 1]) //[sectionAxis, rowAxis, columnAxis]
+          , state = new TableContent(info, table)
           ;
-        body.appendChild(
-            createElement('table', {dir: 'RTL', 'class': 'testcontent'},
-                    table.render(mode, hasSectionLabel, hasRowLabel, hasColumnLabel)));
-        return body;
+        return state.body;
     }
     return {
         title: 'issue#11'

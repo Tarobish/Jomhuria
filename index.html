@@ -13,6 +13,14 @@
     src: url("./generated/Jomhuria-Regular.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: Amiri;
+    font-style: normal;
+    font-weight: 400;
+    /* the webfonts are subsetted too much for our purpose */
+    src: url("./html/fonts/amiri-bold.ttf") format("truetype");
+}
+
 
 html {
     font-family: sans-serif;
@@ -32,6 +40,14 @@ article.home {
     font-family: Jomhuria;
     font-size: 2.5em;
     line-height: 1em;
+}
+
+.testcontent .compare.duplicated {
+    background: #ffffee;
+    /* setting up Amiri to fit to Jomhuria */
+    font-family: Amiri;
+    font-size: .6em;
+    line-height: 2em;
 }
 
 nav {

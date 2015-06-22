@@ -2,10 +2,12 @@ define([
     'lib/domStuff'
   , 'lib/typoStuff'
   , 'lib/Table'
+  , 'lib/TableContent'
 ], function(
     domStuff
   , typoStuff
   , Table
+  , TableContent
 ){
     "use strict";
     /*global document:true*/
@@ -18,8 +20,6 @@ define([
       , hasChar = typoStuff.hasChar
       , createElement = domStuff.createElement
       , createFragment = domStuff.createFragment
-      , makeTable = domStuff.makeTable
-      , makeTableHead = domStuff.makeTableHead
       , applicableTypes = new Set(['init','medi','fina','isol', '_nocontext_'])
       ;
 
@@ -179,23 +179,16 @@ define([
     };
 
     function main() {
-        var body = createElement('article', null, [
-            createElement('h1', null, 'Collisions above the baseline')
-          , createElement('p', null, 'The first glyph should not collide with the second glyph.')
-          , createElement('p', null, 'The combination of medial form second glyph and final form '
+        var info = [
+              createElement('h1', null, 'Collisions above the baseline')
+            , createElement('p', null, 'The first glyph should not collide with the second glyph.')
+            , createElement('p', null, 'The combination of medial form second glyph and final form '
                           + 'third glyph triggers this specific shaping of second and third glyph.')
-        ]);
-
-        var table = new Table(axes, [0, 1, 2]) //[sectionAxis, rowAxis, columnAxis]
-          , mode = 'default' // "doubleColumns" or "doubleRows" or it defaults (to "default")
-          , hasSectionLabel = true
-          , hasRowLabel = true
-          , hasColumnLabel = true
+          ]
+          , table = new Table(axes, [0, 1, 2]) //[sectionAxis, rowAxis, columnAxis]
+          , state = new TableContent(info, table)
           ;
-        body.appendChild(
-            createElement('table', {dir: 'RTL', 'class': 'testcontent'},
-                    table.render(mode, hasSectionLabel, hasRowLabel, hasColumnLabel)));
-        return body;
+        return state.body;
     }
     return {
         title: 'issue#11-2 (LamAlfFina)'

@@ -2,10 +2,12 @@ define([
     'lib/domStuff'
   , 'lib/typoStuff'
   , 'lib/Table'
+  , 'lib/TableContent'
 ], function(
     domStuff
   , typoStuff
   , Table
+  , TableContent
 ){
     "use strict";
     /*global document:true*/
@@ -250,24 +252,16 @@ define([
     };
 
     function main() {
-        var body = createElement('article', null, [
-            createElement('h1', null, 'Collisions below the baseline')
-          , createElement('p', null, 'The glyphs should not collide.')
-          , createElement('p', null, 'Note that uniF{xxx} and u{xxxx} glyphs are not meant to '
-                                    +'join properly with uni0{xxx} glyphs.')
-
-        ]);
-
-        var table = new Table(axes, [2, 0, 1]) //[sectionAxis, rowAxis, columnAxis]
-          , mode = 'default' // "doubleColumns" or "doubleRows" or it defaults (to "default")
-          , hasSectionLabel = true
-          , hasRowLabel = true
-          , hasColumnLabel = true
+        var info = [
+                createElement('h1', null, 'Collisions below the baseline')
+              , createElement('p', null, 'The glyphs should not collide.')
+              , createElement('p', null, 'Note that uniF{xxx} and u{xxxx} glyphs are not meant to '
+                                          +'join properly with uni0{xxx} glyphs.')
+            ]
+          , table = new Table(axes, [2, 0, 1]) //[sectionAxis, rowAxis, columnAxis]
+          , state = new TableContent(info, table)
           ;
-        body.appendChild(
-            createElement('table', {dir: 'RTL', 'class': 'testcontent'},
-                    table.render(mode, hasSectionLabel, hasRowLabel, hasColumnLabel)));
-        return body;
+        return state.body;
     }
     return {
         title: 'issue#6-1'
