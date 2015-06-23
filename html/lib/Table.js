@@ -113,7 +113,7 @@ define([
                 // as a workaround. MDN  says 1000 is the max
                 attr.colspan = 1000;
                 label = createElement('tr', null,
-                        createElement('th', attr , sectionLabel[1])
+                        createElement('th', attr , sectionLabel[1], true)
                 );
                 head.push(label);
             }
