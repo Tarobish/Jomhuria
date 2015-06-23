@@ -1,0 +1,139 @@
+\documentclass[a4paper, 10pt]{report}
+
+% This document was kindly provided by Kevin Donnelly <donnek@gmail.com>
+% "… an excerpt from a Swahili ballad with Jomhuria as the font."
+%
+% I changed the font setup a bit to use fonts directly from the filesystem.
+
+\usepackage{titlesec}  % Allow the chapter/section heading settings to be fine-tuned.  Needs to come before bidi, in polyglossia.
+\usepackage{polyglossia}  % multilingual support
+\usepackage{longtable}  % tables that carry across multiple pages
+\usepackage[x11names]{xcolor}  % can't use color with polyglossia
+
+\usepackage{ulem}  % Allow dotted underlines.
+
+%--------------------------------
+%%% Font definitions %%%
+%--------------------------------
+
+% Note that these definitions malfunction if used in \chapter{}.
+% \defaultfontfeatures{Mapping=tex-text}
+
+\setmainfont[Path=./document-sources/fonts/CharisSIL-5.000/, Ligatures=TeX]{CharisSIL-B.ttf}  % Set the default font for the document. = \setdefaultfont
+% Footnotes will by default also use this font -- http://tex.stackexchange.com/questions/4779/how-to-change-font-family-in-footnote).
+% Ligatures=TeX is equivalent to Mapping=tex-text, but is more compatible with LuaTeX. In addition to ligatures, this will emulate TeX's behaviour for ASCII input of curly quotes and punctuation (eg dashes): http://tex.stackexchange.com/questions/7735/how-to-get-straight-quotation-marks#comment113447_11376
+% Use Ligatures=Common if you do NOT want this additional emulation (ie straight quotes).
+\defaultfontfeatures{Scale=MatchLowercase}  % needs to be below main font declaration
+
+% \setsansfont{Liberation Sans}
+\setmonofont{DejaVu Sans Mono}
+
+\setmainlanguage{english}
+\setotherlanguage{arabic}
+
+\newfontfamily\arabicfont[Path=./generated/, Script=Arabic, Scale=2]{Jomhuria-Regular.ttf} % Arabic transcription -- coloured black, double size.
+% One font needs to be called \arabicfont in order for XeTeX to load Arabic-related hyphenation and other stuff.
+%  The default \textarabic will use this \arabicfont.  Use the \begin{Arabic} ..... \end{Arabic} environment for longer stretches (eg paras).
+% Use \textarabic{\aemph{با}} to give overline emphasis.
+% Omitting Script=Arabic for Amiri or Granada will mean that letters are written in their standalone forms, not connected.  (Omitting Script=Arabic for Scheherazade seems to cause no problem, though.)
+
+\newcommand\Atitle[1]{{\fontspec[Path=./generated/, Script=Arabic, Scale=5]{Jomhuria-Regular.ttf}\RLE{#1}}}  % Arabic transcription for titles - uses a version of Granada which has been extended to include glyphs for Swahili.
+
+\newcommand\Tr[1]{{\fontspec[Path=./document-sources/fonts/Biolinum/, Scale=1, Color=666666]{LinBiolinum_R.otf}#1}}   %  Transliteration -- Biolinum handles diacritics well.  Coloured grey, slightly less than normal size.
+
+\newcommand\OLTst[1]{{\fontspec[Path=./document-sources/fonts/Biolinum/, Color=333333, Scale=1]{LinBiolinum_R.otf}#1}}  % Standard spelling -- normal size.
+
+%----------------------------------------
+%%% End of font definitions %%%
+%----------------------------------------
+
+
+%--------------------------------
+%%% Colour definitions %%%
+%--------------------------------
+
+\definecolor{mygreen}{RGB}{0, 187, 50}
+\definecolor{myblue}{RGB}{0, 0, 154}
+% \definecolor{myblue}{RGB}{77, 198, 221}  % light blue
+
+%----------------------------------------
+%%% End of colour definitions %%%
+%----------------------------------------
+
+\usepackage{csquotes}
+\newcommand{\q}[1]{\enquote{#1}}  % Mark quotes by using \q{text to be quoted}.
+% \newcommand{\q}[1]{``#1''}  % Alternative when not using csquotes.
+
+% Thanks to Manas Tungare (http://manas.tungare.name/software/latex) for these settings.
+\setlength{\paperwidth}{210mm}
+\setlength{\paperheight}{297mm}
+
+\setlength{\textwidth}{160mm}
+\setlength{\textheight}{247mm}
+
+\setlength{\evensidemargin}{1in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\topmargin}{-0.5in}
+
+
+\begin{document}
+
+\begin{center}
+\Atitle{أُتٖنْزِ وَ جَعْفَر} \\
+\Tr{Utenzi wa Ja'far -- excerpt} \\
+% \E{The Ballad of Ja'far} \\
+[5mm]
+% \textcolor{red}{\AS{بِسْمِ اللّٰهِ الرَحمَنِ الرَّحِيْمِ}} \\
+% \Tr{bismillähi ar-rahmani ar-rahīmi} \\
+% \E{In the name of God, the Compassionate, the Merciful}
+\end{center}
+
+\begin{center}
+
+\textarabic{(٢٠٠) \textcolor{mygreen}{نَمِ كِپَٹَ پَنْڠٗنِ  * پَنَ مْٹٖنْدٖ نْدِيَنِ  * يَلِنِتٗكَ مٗيٗنِ  * يَلٖ وَلٗنَمْبِيَ }} \\
+(\textbf{200}) \OLTst{nami kipata pangoni  * pana mtende ndiani  * yalinitoka moyoni  * yale walonambiya } \\
+[5mm]
+
+\textarabic{(٢٠١) \textcolor{mygreen}{كَئِوَتَ يَ كُڤُلِ  * كَأَنْدَمَ إِلٗ مْبَلِ  * هَتَ كِتَأَمَلِ  * سَاءَ إِمٖنِپِٹِيَ }} \\
+(\textbf{201}) \OLTst{kaiwata ya kuvuli  * kaandama ilo mbali  * hata kitaamali  * saa imenipitiya } \\
+[5mm]
+
+\textarabic{(٢٠٢) \textcolor{mygreen}{كِشَ أُوِنْڠَ كَئٖٹَ  * إِيُ لَ بَرَ كَپِٹَ  * إِلِ نْدِيَ كُئِوَتَ  * نْيُمَ نِسِپٗرٖجٖيَ }} \\
+(\textbf{202}) \OLTst{kisha uwinga kaeta  * iyu la bara kapita  * ile ndia kuiwata  * nyuma nisiporejeya } \\
+[5mm]
+
+\textarabic{(٢٠٣) \textcolor{mygreen}{سُرَ نٖنْدَءٗ بَرَنِ  * إِلٖ نْدِيَ سِئِيٗنِ  * هُؤٗنَ نِكٗ بَرَنِ  * زٗتٖ زِمٖنِپٗتٖيَ }} \\
+(\textbf{203}) \OLTst{sura nendao barani  * ile ndia siioni  * huona niko barani  * zote zimenipoteya } \\
+[5mm]
+
+\textarabic{(٢٠٤) \textcolor{mygreen}{كِپِجَ فِكِرَ زَنْڠُ  * كَلَنْدَمَ ڠُوْ لَنْڠُ  * نَرُدِيَ پَلٖ پَنْڠُ  * كِشَ نْيُمَ كَرٖجٖيَ }} \\
+(\textbf{204}) \OLTst{kipija fikira zangu  * kalandama guu langu  * narudia pale pangu  * kisha nyuma karejeya } \\
+[5mm]
+
+\textarabic{(٢٠٥) \textcolor{mygreen}{كِشَ كَرُدِيَ نْيُمَ  * هَپٗ نْدِيَ كَيَنْدَمَ  * پٖنْيٖ مْٹٖنْدٖ كَكٗمَ  * صَالَ إِمٖنِسِمَمِيَ }} \\
+(\textbf{205}) \OLTst{kisha karudia nyuma  * hapo ndia kayandama  * penye mtende kakoma  * sala imenisimamiya } \\
+[5mm]
+
+\textarabic{(٢٠٦) \textcolor{mygreen}{أَوَلِ يَ أَظُهُرِ  * نْدِپٗ نْدِيَ كَعَبِرِ  * حُجَ يَ كُجَ أَخِيْرِ  * مَعَانَ نِمٖكْوَمْبِيَ }} \\
+(\textbf{206}) \OLTst{awali ya adhuhuri  * ndipo ndia kaabiri  * huja ya kuja ahiri  * maana nimekwambiya } \\
+[5mm]
+
+\textarabic{(٢٠٧) \textcolor{mygreen}{كِمَلِزَ كُپُلِكَ  * عَلِيْ أَكَتَمْكَ  * مْوَنَنْڠُ أُمٖسُمْبُكَ  * هَپٗ كَنٖنَ نَبِيَ }} \\
+(\textbf{207}) \OLTst{kimaliza kupulika  * Aliyi akatamka  * mwanangu umesumbuka  * hapo kanena Nabiya } \\
+[5mm]
+
+\textarabic{(٢٠٨) \textcolor{mygreen}{هَپٗ كَنٖنَ هَشِمَ  * سِ هَبَ كُيَ سَلَام  * نْدِيَ مٖزٗإِيَنْدَمَ  * خَطَرِ هُمْزٖنْڠٖيَ }} \\
+(\textbf{208}) \OLTst{hapo kanena Hashima  * si haba kuya \dotuline{salama}  * ndia mezoiandama  * hatari humzengeya } \\
+[5mm]
+
+\textarabic{(٢٠٩) \textcolor{mygreen}{أَمْكِنْڠَ وَدُوْدِ  * أَسِؤٗوْنٖ مَيَهُوْدِ  * كْوَنِ وَنْڠَلِمْزِدِ  * وَٹُ وَنْڠِ سِ مْمٗيَ }} \\
+(\textbf{209}) \OLTst{\dotuline{amemkinga} Wadudi  * asione mayahudi  * kwani wangalimzidi  * watu wangi si mmoya } \\
+[5mm]
+
+\textarabic{(٢١٠) \textcolor{mygreen}{فَتُمَ أُكٗ كِٹِنِ  * أَكَمْوٖپُكَ أَمِيْنِ  * كْوَ مْكٗنٗ كَبَئِنِ  * نَ نْدَنِ كَمُأَمْكُوَ }} \\
+(\textbf{210}) \OLTst{Fatuma uko kitini  * akamwepuka Amini  * kwa mkono kabaini  * na ndani kamuamkuwa } \\
+[5mm]
+
+\end{center}
+
+\end{document}
