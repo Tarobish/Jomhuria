@@ -7,7 +7,6 @@ HStem: -467.21 122.128<106.041 120.12 227.862 373.56> -273.458 87.541<254.764 37
 AnchorPoint: "TashkilAbove" 380 1100 basechar 0
 AnchorPoint: "TashkilBelow" 300 -650 basechar 0
 LayerCount: 2
-Back
 Fore
 Refer: 18 -1 N 1 0 0 1 0 0 2
 Refer: 120 -1 N 1 0 0 1 241 -468 2
