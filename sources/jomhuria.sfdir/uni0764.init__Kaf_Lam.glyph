@@ -1,15 +1,16 @@
 StartChar: uni0764.init_KafLam
 Encoding: 3518 -1 941
-Width: 740
+Width: 522
 VWidth: 0
-Flags: W
-HStem: -622 540.642 0 21G<249.13 431.217>
-VStem: -0.122 563.806 249.13 331.374<105.405 436.188> 408.539 172.521<452.464 601.727>
-AnchorPoint: "TashkilBelow" 300 -820 basechar 0
-AnchorPoint: "TashkilAbove" 300 1350 basechar 0
+Flags: HW
+HStem: -622 540.642 0 436.188<-26 183.235>
+VStem: -171.917 563.806 -26 388.504<76.5279 436.188> 190.539 172.521<444.646 617.202>
+AnchorPoint: "TashkilBelow" 128.205 -820 basechar 0
+AnchorPoint: "TashkilAbove" 110 1350 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 183 -1 N 1 0 0 1 0 0 2
-Refer: 80 -1 N 1 0 0 1 278 -362 2
+Refer: 80 -1 N 1 0 0 1 106.205 -362 2
 Colour: ffff
 EndChar
