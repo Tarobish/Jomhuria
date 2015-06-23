@@ -3,11 +3,13 @@ define([
   , 'lib/typoStuff'
   , 'lib/Table'
   , 'lib/TableContent'
+  , 'lib/TableData'
 ], function(
     domStuff
   , typoStuff
   , Table
   , TableContent
+  , TableData
 ){
     "use strict";
     /*global document:true*/
@@ -21,6 +23,7 @@ define([
       , createElement = domStuff.createElement
       , createFragment = domStuff.createFragment
       , applicableTypes = new Set(['init','medi','fina','isol', '_nocontext_'])
+      , first, second, third, axes
       ;
 
     function filterApplicableTypes(glyph) {
@@ -30,7 +33,7 @@ define([
 
 
     // I let out uniF*** and u1EE6F on purpose
-    var first = [
+    first = [
             'uni0753.init'
           , 'uni0751.init'
           , 'uni067D.init'
@@ -43,8 +46,8 @@ define([
         //  , 'uniFE9B'
         //  , 'u1EE35'
         //  , 'u1EE36'
-        ].map(Glyph.factory).filter(filterApplicableTypes)
-    , second = [
+    ].map(Glyph.factory).filter(filterApplicableTypes);
+    second = [
           // the uni0XXX.medi_LamAlfFina occur
           // when the uni076A.medi char meets an alef.fina char
 
@@ -64,8 +67,8 @@ define([
           , 'uni0644.medi'//_LamAlfFina'
           , 'uni06B7.medi'//_LamAlfFina'
           , 'uni06B5.medi'//_LamAlfFina'
-    ].map(Glyph.factory).filter(filterApplicableTypes)
-    , third = [
+    ].map(Glyph.factory).filter(filterApplicableTypes);
+    third = [
           // these are all glyph required to trigger second
           // this group will be substituted in the same lookup
           // see also lookup LamAlfFina in contextuals fea
@@ -91,92 +94,37 @@ define([
           , 'uni0672.fina'//_LamAlfFina
           , 'uni0673.fina'//_LamAlfFina
           , 'uni0671.fina'//_LamAlfFina
-    ].map(Glyph.factory).filter(filterApplicableTypes)
-    ;
-
+    ].map(Glyph.factory).filter(filterApplicableTypes);
 
     first.name = 'first Glyph';
     second.name = 'second Glyph Lam';
     third.name = 'third Glyph Alef';
 
+    function getData(firstIndex, secondIndex, thirdIndex) {
+        /*jshint validthis:true*/
+        var glyphs = [this._items[0][firstIndex]
+                , this._items[1][secondIndex]
+                , this._items[2][thirdIndex]
+            ]
+          , i,l
+          , charString = []
+          , content
+          , title
+          ;
 
+        // firstIndex is all init at the moment
+        charString.push(zwnj, glyphs[0].char);
+        // secondIndex is all medi at the moment
+        charString.push(glyphs[1].char);
+        // secondIndex is all fina at the moment
+        charString.push(glyphs[2].char, zwnj);
 
-    var axes = {
-        _items: [first, second, third]
-      , len: function(axisIndex) {
-            return this._items[axisIndex].length;
-        }
-      , hasLabel: function (axisIndex) {
-            var axis = this._items[axisIndex];
-            return 'hasLabel' in axis ? !!axis.hasLabel : true;
-        }
-      , getData: function (firstIndex, secondIndex, thirdIndex) {
-            var glyphs = [this._items[0][firstIndex]
-                    , this._items[1][secondIndex]
-                    , this._items[2][thirdIndex]
-                ]
-              , i,l
-              , charString = []
-              , content
-              , title
-              ;
+        content = charString.join('');
+        title = glyphs.map(function(glyph){ return glyph.name; }).join(' + ');
+        return [{dir: 'RTL', title: title}, content];
+    }
 
-            // firstIndex is all init at the moment
-            charString.push(zwnj, glyphs[0].char);
-            // secondIndex is all medi at the moment
-            charString.push(glyphs[1].char);
-            // secondIndex is all fina at the moment
-            charString.push(glyphs[2].char, zwnj);
-
-            content = charString.join('');
-            title = glyphs.map(function(glyph){ return glyph.name; }).join(' + ');
-            return [{dir: 'RTL', title: title}, content];
-        }
-        /**
-         * `type`, string: one of 'section', 'row', 'column'
-         */
-      , getLabel: function (axisIndex, itemIndex, type) {
-            var axis = this._items[axisIndex]
-            , item = axis[itemIndex]
-            , axisName = axis.name
-            , attr = {dir: 'LTR'}
-            , content, str, char
-            ;
-            attr.title = axisName + ': '+ item.name;
-            if(axis.isMark)
-                str = [dottedCircle, item.char, nbsp];
-            else switch(item.mainType) {
-                case 'init':
-                    str = [nbsp, zwnj, item.char, zwj, nbsp];
-                    break;
-                case 'medi':
-                    str = [nbsp, zwj, item.char, zwj, nbsp];
-                    break;
-                case 'fina':
-                    str = [nbsp, zwj, item.char, zwnj, nbsp];
-                    break;
-                default:
-                    str = [nbsp, zwnj, item.char, zwnj, nbsp];
-            }
-            char = createElement('span', {dir: 'RTL'},  str.join(''));
-            switch (type) {
-                case 'column':
-                    // very short label
-                    content = char;
-                    break;
-                // long labels
-                case 'section':
-                    content = axisName + ': ';
-                    /* falls through */
-                case 'row':
-                    /* falls through */
-                default:
-                    content = (content && [content] || []).concat(item.name, char);
-                break;
-            }
-            return [attr, createFragment(content)];
-        }
-    };
+    axes = new TableData(first, second, third, getData);
 
     function main() {
         var info = [

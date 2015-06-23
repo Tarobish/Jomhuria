@@ -3,12 +3,14 @@ define([
   , 'lib/typoStuff'
   , 'lib/Table'
   , 'lib/TableContent'
+  , 'lib/TableData'
   , 'data/otClasses'
 ], function(
     domStuff
   , typoStuff
   , Table
   , TableContent
+  , TableData
   , otClasses
 ){
     "use strict";
@@ -21,7 +23,7 @@ define([
       , dottedCircle = typoStuff.dottedCircle
       , createElement = domStuff.createElement
       , createFragment = domStuff.createFragment
-      , first, second, third
+      , first, second, third, axes
       ;
 
 
@@ -42,79 +44,28 @@ define([
     first.name = 'first glyph @aKaf.init + @aKaf.medi';
     second.name = 'second glyph @aLam.medi + @aLam.fina + @aAlf.fina + @aKaf.fina';
 
-        var axes = {
-        _items: [first, second, third]
-      , len: function(axisIndex) {
-            return this._items[axisIndex].length;
-        }
-      , hasLabel: function (axisIndex) {
-            var axis = this._items[axisIndex];
-            return 'hasLabel' in axis ? !!axis.hasLabel : true;
-        }
-      , getData: function (firstIndex, secondIndex, thirdIndex) {
-            var glyphs = [this._items[0][firstIndex]
-                    , this._items[1][secondIndex]
-                ]
-              , i,l
-              , charString = []
-              , content
-              , title
-              ;
+    function getData(firstIndex, secondIndex, thirdIndex) {
+        /*jshint validthis:true*/
+        var glyphs = [this._items[0][firstIndex]
+                , this._items[1][secondIndex]
+            ]
+          , i,l
+          , charString = []
+          , content
+          , title
+          ;
 
-            // firstIndex
-            charString.push(glyphs[0].mainType === 'medi' ? zwj : zwnj, glyphs[0].char);
-            // secondIndex
-            charString.push(glyphs[1].char, glyphs[1].mainType === 'medi' ?  zwj : '');
+        // firstIndex
+        charString.push(glyphs[0].mainType === 'medi' ? zwj : zwnj, glyphs[0].char);
+        // secondIndex
+        charString.push(glyphs[1].char, glyphs[1].mainType === 'medi' ?  zwj : '');
 
-            content = charString.join('');
-            title = glyphs.map(function(glyph){ return glyph.name; }).join(' + ');
-            return [{dir: 'RTL', title: title}, content];
-        }
-        /**
-         * `type`, string: one of 'section', 'row', 'column'
-         */
-      , getLabel: function (axisIndex, itemIndex, type) {
-            var axis = this._items[axisIndex]
-            , item = axis[itemIndex]
-            , axisName = axis.name
-            , attr = {dir: 'LTR'}
-            , content, str, char
-            ;
-            attr.title = axisName + ': '+ item.name;
-            if(axis.isMark)
-                str = [dottedCircle, item.char, nbsp];
-            else switch(item.mainType) {
-                case 'init':
-                    str = [nbsp, zwnj, item.char, zwj, nbsp];
-                    break;
-                case 'medi':
-                    str = [nbsp, zwj, item.char, zwj, nbsp];
-                    break;
-                case 'fina':
-                    str = [nbsp, zwj, item.char, zwnj, nbsp];
-                    break;
-                default:
-                    str = [nbsp, zwnj, item.char, zwnj, nbsp];
-            }
-            char = createElement('span', {dir: 'RTL'},  str.join(''));
-            switch (type) {
-                case 'column':
-                    // very short label
-                    content = char;
-                    break;
-                // long labels
-                case 'section':
-                    content = axisName + ': ';
-                    /* falls through */
-                case 'row':
-                    /* falls through */
-                default:
-                    content = (content && [content] || []).concat(item.name, char);
-                break;
-            }
-            return [attr, createFragment(content)];
-        }
-    };
+        content = charString.join('');
+        title = glyphs.map(function(glyph){ return glyph.name; }).join(' + ');
+        return [{dir: 'RTL', title: title}, content];
+    }
+
+    axes = new TableData(first, second, third, getData);
 
     function main() {
         /*jshint multistr:true*/
