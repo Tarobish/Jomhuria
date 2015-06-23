@@ -229,18 +229,30 @@ def makeCollisionPrevention():
       , 'uni062A.init'
     ]
 
+    firstAboveLegacy = [
+        'uniFB64'
+      , 'uniFE97'
+      , 'uniFE9B'
+    ]
+
     firstAboveQaf = [
-          'uni0642.init'
+        'uni0642.init'
       , 'uni06A8.init'
       , 'uni06A4.init'
       , 'uni06A6.init'
+    ]
+
+    firstAboveQafLegacy = [
+        'uniFED7'
+      , 'uniFB6C'
+      , 'uniFB70'
     ]
 
     widener = 'uni0640.1'
     multipleSubstitution = 'sub {name} by {name} {widener};'
     decompositions = []
     seen = set()
-    for name in firstBelow + firstAbove + firstAboveQaf:
+    for name in firstBelow + firstAbove + firstAboveQaf + firstAboveLegacy + firstAboveQafLegacy:
         if name in seen:
             continue
         seen.add(name)
@@ -249,7 +261,9 @@ def makeCollisionPrevention():
     template = Template("""
 @colisionsBelowFirst = [ $firstBelow ];
 @colisionsAboveFirst = [ $firstAbove ];
+@colisionsAboveFirstLegacy = [ $firstAboveLegacy];
 @colisionsAboveFirstQaf = [ $firstAboveQaf ];
+@colisionsAboveFirstQafLegacy = [ $firstAboveQafLegacy ];
 
 lookup decompCollisions {
   lookupflag IgnoreMarks;
@@ -261,7 +275,9 @@ lookup decompCollisions {
         template.substitute(
             firstBelow=' '.join(firstBelow)
           , firstAbove=' '.join(firstAbove)
+          , firstAboveLegacy = ' '.join(firstAboveLegacy)
           , firstAboveQaf=' '.join(firstAboveQaf)
+          , firstAboveQafLegacy=' '.join(firstAboveQafLegacy)
           , decompositions='\n  '.join(decompositions)
         )
       , preventCollisionsBelow()
@@ -388,11 +404,13 @@ feature calt {
 def preventCollisionsAbove():
     template = Template("""
 @colisionsAboveSecond =[ $second ];
+@colisionsAboveSecondLegacy = [ $secondLegacy ];
 
 feature calt {
   lookup comp {
     lookupflag IgnoreMarks;
     sub @colisionsAboveFirst' lookup decompCollisions @colisionsAboveSecond;
+    sub @colisionsAboveFirstLegacy' lookup decompCollisions @colisionsAboveSecondLegacy;
   } comp;
 } calt;
 """)
@@ -409,8 +427,18 @@ feature calt {
       , 'uni0673.fina'
       , 'uni0671.fina'
     ]
-
-    return template.substitute(second=' '.join(second));
+    secondLegacy = [
+        'uniFB51'
+      , 'uniFE82'
+      , 'uniFE84'
+      , 'uniFE88'
+      , 'uniFE8E'
+      , 'uniFEFC'
+      , 'uniFEFA'
+      , 'uniFEF8'
+      , 'uniFEF6'
+    ]
+    return template.substitute(second=' '.join(second), secondLegacy=' '.join(secondLegacy));
 
 
 def preventCollisionsAboveLamMediAlfFina():
@@ -445,6 +473,7 @@ feature calt {
   lookup comp {
     lookupflag IgnoreMarks;
     sub @colisionsAboveFirstQaf' lookup decompCollisions uni0622.fina;
+    sub @colisionsAboveFirstQafLegacy' lookup decompCollisions uniFE82;
   } comp;
 } calt;
 """)

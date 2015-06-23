@@ -31,8 +31,6 @@ define([
         return applicableTypes.has(type);
     }
 
-
-    // I let out uniF*** and u1EE6F on purpose
     first = [
             'uni0753.init'
           , 'uni0751.init'
@@ -41,11 +39,6 @@ define([
           , 'uni067C.init'
           , 'uni062B.init'
           , 'uni062A.init'
-        //  , 'uniFB64'
-        //  , 'uniFE97'
-        //  , 'uniFE9B'
-        //  , 'u1EE35'
-        //  , 'u1EE36'
     ].map(Glyph.factory).filter(filterApplicableTypes);
     second = [
           // the uni0XXX.medi_LamAlfFina occur
