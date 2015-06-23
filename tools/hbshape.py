@@ -7,10 +7,14 @@ import sys
 import re
 
 
-def replace(inp, dictionary={}):
+def replaceSpecials(inp, dictionary={}):
     pattern = '|'.join(sorted(re.escape(k) for k in dictionary))
     return re.sub(pattern, lambda m: dictionary.get(m.group(0)), inp)
 
+def replaceUnicodes(inp):
+    pattern = '\\u([0-9A-Fa-f]+)'
+    #m.group(0)
+    return re.sub(pattern, lambda m: unichr(int(m.group(1), 16)), inp)
 
 specials = {
     u':zwj:': u'\u200D'
@@ -31,9 +35,11 @@ if __name__ == '__main__':
 
     text = sys.argv[1];
     print('input:', text);
-    text = replace(text.decode('utf-8'), specials);
+    text = replaceSpecials(text.decode('utf-8'), specials);
+    text = replaceUnicodes(text);
+
     print('parsed:', text);
 
-
+    print ('unicodes', 'u"' + (''.join(['\\u{:04X}'.format(ord(x)) for x in text])) + '"')
     row = ['rtl','arab','','',text]
     print('shaped:', runHB(row, font))
