@@ -8,6 +8,8 @@ define([
   , 'collisionsAbove-3'
   , 'lib/text!texts/persian-arabic.htmlPart'
   , 'texts/marks1'
+  , 'KafLamAlf-1'
+  , 'KafLamAlf-2'
 
 ], function(
     domStuff
@@ -19,6 +21,8 @@ define([
   , collisionsAbove3
   , text1
   , marksText1
+  , kafLamAlf1
+  , kafLamAlf2
 ){
     "use strict";
     /*global document:true window:true*/
@@ -41,6 +45,8 @@ define([
               , 'collision-above-1': collisionsAbove1
               , 'collision-above-2': collisionsAbove2
               , 'collision-above-3': collisionsAbove3
+              , 'kaf-lam-alf-1': kafLamAlf1
+              , 'kaf-lam-alf-2': kafLamAlf2
             }
         }
       , texts: {
