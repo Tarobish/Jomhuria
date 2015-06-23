@@ -106,10 +106,25 @@ feature calt {
 
 
 
+// denormalization, in order to use u0622.fina which is alef with madda above
+// the madda is positioned very special over the alef, otherwise the normalized
+// shaping would be just as good
 
+lookup denormalizeAlefMadda {
+    sub uni0627.fina by uni0622.fina;
+} denormalizeAlefMadda;
+
+lookup denormalizeAlefMaddaMarks {
+    sub uni0655 uni0653 by uni0655;
+} denormalizeAlefMaddaMarks;
+
+feature calt {
+    sub [uni0627.fina]' lookup denormalizeAlefMadda [uni0655]'
+        lookup denormalizeAlefMaddaMarks [uni0653]';
+} calt;
 
 lookup ToothYaaBariFina {
-  sub @aYaaBari.fina      by @aYaaBari.fina_PostToothFina;
+  sub @aYaaBari.fina by @aYaaBari.fina_PostToothFina;
 } ToothYaaBariFina;
 
 feature calt {
