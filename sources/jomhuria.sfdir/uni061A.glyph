@@ -8,6 +8,7 @@ VStem: 404 310
 AnchorPoint: "MarkBelow" 510 -850 mark 0
 AnchorPoint: "TashkilBelow" 620 -950 mark 0
 AnchorPoint: "TashkilBelowDot" 534 -670 mark 0
+AnchorPoint: "TashkilTashkilBelow" 587 -978 mark 0
 LayerCount: 2
 Fore
 Refer: 159 1560 S 1 0 0 1 70 -2898 2

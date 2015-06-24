@@ -6,6 +6,7 @@ HStem: -1033 88.7656<180.91 317.112> -793.695 89.043<180.85 317.15>
 VStem: 84.8262 88.7656<-936.554 -801.263> 324.409 88.7646<-936.94 -801.24>
 AnchorPoint: "TashkilBelow" 250 -800 mark 0
 AnchorPoint: "TashkilTashkilBelow" 246 -1297 basemark 0
+AnchorPoint: "TashkilTashkilBelow" 223 -848 mark 0
 AnchorPoint: "MarkBelow" 256 -700 mark 0
 LayerCount: 2
 Fore

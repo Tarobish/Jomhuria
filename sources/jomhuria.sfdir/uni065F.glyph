@@ -6,6 +6,7 @@ Flags: W
 HStem: -1203 122.95<106.196 274.443>
 VStem: 103 311.244
 AnchorPoint: "TashkilTashkilBelow" 259 -1406 basemark 0
+AnchorPoint: "TashkilTashkilBelow" 242 -1008 mark 0
 AnchorPoint: "HamzaBelow" 320.044 -712.364 mark 0
 AnchorPoint: "TashkilBelow" 300 -950 mark 0
 AnchorPoint: "MarkBelow" 276 -850 mark 0
