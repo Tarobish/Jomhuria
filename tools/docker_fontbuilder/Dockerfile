@@ -44,8 +44,9 @@ RUN cd /var/build \
 RUN  cd /var/build \
 	&& git clone --recursive https://github.com/khaledhosny/ots.git \
 	&& cd ots \
-	&& python gyp_ots \
-	&& make ot-sanitise \
+	&& ./autogen.sh \
+	&& ./configure \
+	&&  make \
 	&& ln -s `pwd`/out/Default/ot-sanitise /usr/local/bin
 
 RUN apt-get install -y \
@@ -86,3 +87,44 @@ RUN cd var/build \
 #;;; compiled /root/.cache/guile/ccache/2.0-LE-8-2.0/usr/local/share/guile/site/2.0/sortsmill/fonts/views.scm.go
 #;;; compiled /root/.cache/guile/ccache/2.0-LE-8-2.0/usr/local/share/guile/site/2.0/sortsmill/fonts/anchors.scm.go
 
+
+# add fontforge to the mix
+# fontforge is better in reading and writing ufo from sfd
+# because these improvements came after the sortsmill fork, AFAIK.
+
+RUN apt-get install -y \
+	packaging-dev \
+	pkg-config \
+	python-dev \
+	giflib-dbg \
+	libjpeg-dev \
+	libtiff-dev \
+	uthash-dev \
+	automake \
+	flex \
+	bison \
+	&& rm -rf /var/lib/apt/lists/*
+
+# build libuninameslist
+
+RUN cd /var/build \
+	&& git clone https://github.com/fontforge/libuninameslist.git \
+	&& cd libuninameslist \
+	&& autoreconf -i \
+	&& automake --foreign \
+	&& mkdir .build \
+	&& cd .build \
+	&& ../configure \
+	&& make \
+	&& make install
+
+RUN cd /var/build \
+	&& git clone https://github.com/fontforge/fontforge.git\
+	&& cd fontforge \
+	&& ./bootstrap \
+	&& mkdir .build \
+	&& cd .build \
+	&& ../configure \
+	&& make \
+	&& make install \
+	&& ldconfig
