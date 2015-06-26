@@ -1,21 +1,22 @@
 StartChar: uni06C5
 Encoding: 1261 1733 785
-Width: 996
+Width: 946
 VWidth: 0
 Flags: W
-HStem: -189 126<228 678> 0 436.091<392.529 658.608> 603.604 191.305<390.875 555.22>
-VStem: 253.909 127.447<447.153 593.502> 253.909 632.583<103.9 431.057>
-AnchorPoint: "TashkilAbove" 570 950 basechar 0
-AnchorPoint: "TashkilBelow" 250 -800 basechar 0
+HStem: -189 126<178 628> 0 436.091<342.529 608.608> 603.604 191.305<340.875 505.22>
+VStem: 203.909 127.447<447.153 593.502> 203.909 632.583<103.9 431.057>
+AnchorPoint: "TashkilAbove" 500 950 basechar 0
+AnchorPoint: "TashkilBelow" 200 -800 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-680 -63 m 5xe0
- 678 -190 l 5
- 133 -189 l 5
- 228 -63 l 5
- 680 -63 l 5xe0
+630 -63 m 5xe0
+ 628 -190 l 5
+ 83 -189 l 5
+ 178 -63 l 5
+ 630 -63 l 5xe0
 EndSplineSet
-Refer: 57 -1 N 1 0 0 1 130 0 2
+Refer: 57 -1 N 1 0 0 1 80 0 2
 Colour: ffffff
 EndChar

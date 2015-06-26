@@ -1,8 +1,9 @@
 StartChar: uni06F6.urd.medium
-Encoding: 5840 -1 2166
+Encoding: 5840 -1 2165
 Width: 900
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 2161 -1 N 0.8 0 0 0.8 -30 194 2
 Colour: ffffff
