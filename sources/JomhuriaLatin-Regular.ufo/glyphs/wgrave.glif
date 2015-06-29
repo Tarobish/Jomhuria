@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="wgrave" format="1">
-  <advance width="1803"/>
+  <advance width="1668"/>
   <unicode hex="1E81"/>
   <outline>
-    <component base="gravecomb" xOffset="584" yOffset="-6"/>
+    <contour>
+      <point x="871" y="1414" type="line"/>
+      <point x="1021" y="1087" type="line"/>
+      <point x="887" y="1087" type="line"/>
+      <point x="648" y="1416" type="line"/>
+    </contour>
     <component base="w"/>
   </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>0.986</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
 </glyph>

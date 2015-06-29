@@ -3,7 +3,18 @@
   <advance width="1201"/>
   <unicode hex="017B"/>
   <outline>
-    <component base="uni0307" xOffset="976" yOffset="301"/>
     <component base="Z"/>
+    <component base="dotaccent.cap" xOffset="316"/>
   </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>0.986</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
 </glyph>

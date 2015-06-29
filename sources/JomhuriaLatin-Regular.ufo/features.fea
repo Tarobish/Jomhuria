@@ -225,6 +225,8 @@ lookup Latincomposition {
 
 
 
+
+
 feature ccmp {
 
  script DFLT;
@@ -311,6 +313,8 @@ table GDEF {
 
   LigatureCaretByPos \eogonek 10;
 } GDEF;
+
+
 
 
 

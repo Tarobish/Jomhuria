@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ncaron" format="1">
-  <advance width="1123"/>
+  <advance width="1127"/>
   <unicode hex="0148"/>
   <outline>
-    <component base="uni030C" xOffset="922" yOffset="4"/>
     <component base="n"/>
+    <component base="caron" xOffset="187"/>
   </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>0.986</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
 </glyph>

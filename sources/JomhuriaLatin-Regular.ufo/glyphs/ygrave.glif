@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ygrave" format="1">
-  <advance width="1121"/>
+  <advance width="1101"/>
   <unicode hex="1EF3"/>
   <outline>
-    <component base="gravecomb" xOffset="216" yOffset="4"/>
+    <contour>
+      <point x="566" y="1414" type="line"/>
+      <point x="716" y="1087" type="line"/>
+      <point x="582" y="1087" type="line"/>
+      <point x="343" y="1416" type="line"/>
+    </contour>
     <component base="y"/>
   </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>0.986</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
 </glyph>

@@ -3,32 +3,30 @@
 <plist version="1.0">
 <dict>
   <key>ascender</key>
-  <integer>1638</integer>
+  <integer>1800</integer>
   <key>capHeight</key>
-  <integer>1536</integer>
+  <integer>1289</integer>
   <key>copyright</key>
-  <string>Created by commander with Sorts Mill Tools 2.1.0_alpha1 &lt;http://bitbucket.org/sortsmill/sortsmill-tools&gt;</string>
+  <string></string>
   <key>descender</key>
-  <integer>-410</integer>
+  <integer>-738</integer>
   <key>familyName</key>
-  <string>Untitled1</string>
+  <string>Jomhuria</string>
   <key>italicAngle</key>
   <integer>0</integer>
   <key>openTypeHeadCreated</key>
-  <string>2015/03/13 03:13:08</string>
+  <string>2015/05/24 03:01:42</string>
   <key>openTypeHeadFlags</key>
   <array>
   </array>
-  <key>note</key>
-  <string>2015-3-12: Created.</string>
   <key>openTypeHheaAscender</key>
-  <integer>1860</integer>
+  <integer>1800</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-595</integer>
+  <integer>-738</integer>
   <key>openTypeHheaLineGap</key>
-  <integer>184</integer>
+  <integer>0</integer>
   <key>openTypeNameDesigner</key>
-  <string></string>
+  <string>Kourosh Beigpour &amp; Eben Sorkin</string>
   <key>openTypeNameDesignerURL</key>
   <string></string>
   <key>openTypeNameLicense</key>
@@ -36,19 +34,24 @@
   <key>openTypeNameLicenseURL</key>
   <string></string>
   <key>openTypeNameManufacturer</key>
-  <string></string>
+  <string>Kourosh Beigpour &amp; Eben Sorkin</string>
   <key>openTypeNameManufacturerURL</key>
   <string></string>
   <key>openTypeNameDescription</key>
   <string></string>
-  <key>openTypeNamePreferredFamilyName</key>
-  <string>Untitled1</string>
   <key>openTypeNameSampleText</key>
   <string></string>
   <key>openTypeNameUniqueID</key>
-  <string></string>
+  <string>KouroshBeigpour&amp;EbenSorkin: Jomhuria: 2015</string>
   <key>openTypeNameVersion</key>
-  <string>Version 001.000</string>
+  <string>Version 1.001</string>
+  <key>openTypeOS2CodePageRanges</key>
+  <array>
+    <integer>0</integer>
+    <integer>1</integer>
+    <integer>4</integer>
+    <integer>7</integer>
+  </array>
   <key>openTypeOS2FamilyClass</key>
   <array>
     <integer>0</integer>
@@ -94,21 +97,34 @@
   <array>
   </array>
   <key>openTypeOS2TypoAscender</key>
-  <integer>1638</integer>
+  <integer>1800</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-410</integer>
+  <integer>-738</integer>
   <key>openTypeOS2TypoLineGap</key>
-  <integer>184</integer>
+  <integer>0</integer>
+  <key>openTypeOS2UnicodeRanges</key>
+  <array>
+    <integer>0</integer>
+    <integer>1</integer>
+    <integer>2</integer>
+    <integer>3</integer>
+    <integer>5</integer>
+    <integer>6</integer>
+    <integer>29</integer>
+    <integer>31</integer>
+    <integer>33</integer>
+    <integer>38</integer>
+  </array>
   <key>openTypeOS2VendorID</key>
   <string>STC</string>
   <key>openTypeOS2WeightClass</key>
-  <integer>500</integer>
+  <integer>400</integer>
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>3146</integer>
+  <integer>1800</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>1049</integer>
+  <integer>738</integer>
   <key>postscriptBlueFuzz</key>
   <integer>1</integer>
   <key>postscriptBlueScale</key>
@@ -117,27 +133,36 @@
   <integer>7</integer>
   <key>postscriptBlueValues</key>
   <array>
-    <integer>-20</integer>
+    <integer>-36</integer>
     <integer>0</integer>
+    <integer>987</integer>
+    <integer>1010</integer>
+    <integer>1289</integer>
+    <integer>1325</integer>
   </array>
   <key>postscriptUniqueID</key>
   <integer>-1</integer>
   <key>postscriptFontName</key>
-  <string>JomhuriaLatin-Regular</string>
+  <string>Jomhuria</string>
   <key>postscriptForceBold</key>
   <false/>
   <key>postscriptFullName</key>
-  <string>Untitled1</string>
+  <string>Jomhuria</string>
   <key>postscriptIsFixedPitch</key>
   <false/>
+  <key>postscriptOtherBlues</key>
+  <array>
+    <integer>-410</integer>
+    <integer>-410</integer>
+  </array>
   <key>postscriptUnderlinePosition</key>
   <integer>-100</integer>
   <key>postscriptUnderlineThickness</key>
   <integer>50</integer>
   <key>postscriptWeightName</key>
-  <string>Medium</string>
+  <string>Regular</string>
   <key>styleMapFamilyName</key>
-  <string>Untitled1 Med</string>
+  <string>Jomhuria</string>
   <key>styleMapStyleName</key>
   <string>regular</string>
   <key>styleName</key>
@@ -149,11 +174,13 @@
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>0</integer>
+  <integer>1</integer>
   <key>year</key>
-  <integer>0</integer>
+  <integer>2015</integer>
   <key>xHeight</key>
-  <integer>1024</integer>
+  <integer>987</integer>
+  <key>macintoshFONDName</key>
+  <string>Jomhuria</string>
   <key>macintoshFONDFamilyID</key>
   <integer>128</integer>
 </dict>

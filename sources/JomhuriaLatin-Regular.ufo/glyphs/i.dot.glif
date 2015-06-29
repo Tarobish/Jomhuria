@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i.dot" format="1">
+  <advance width="573"/>
+  <outline>
+    <contour>
+      <point x="281" y="1496" type="line"/>
+      <point x="105" y="1311" type="line"/>
+      <point x="105" y="1259" type="line"/>
+      <point x="281" y="1069" type="line"/>
+      <point x="327" y="1069" type="line"/>
+      <point x="513" y="1259" type="line"/>
+      <point x="513" y="1313" type="line"/>
+      <point x="327" y="1496" type="line"/>
+    </contour>
+    <component base="dotlessi"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>0.986</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

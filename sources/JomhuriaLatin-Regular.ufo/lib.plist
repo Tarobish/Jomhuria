@@ -2,6 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>com.typemytype.robofont.guides</key>
+  <array>
+    <dict>
+      <key>angle</key>
+      <real>0</real>
+      <key>isGlobal</key>
+      <true/>
+      <key>magnetic</key>
+      <integer>5</integer>
+      <key>x</key>
+      <real>0</real>
+      <key>y</key>
+      <real>1389</real>
+    </dict>
+  </array>
   <key>public.glyphOrder</key>
   <array>
     <string>uni030A</string>
@@ -67,7 +82,6 @@
     <string>bracketright</string>
     <string>asciicircum</string>
     <string>underscore</string>
-    <string>grave</string>
     <string>a</string>
     <string>b</string>
     <string>c</string>
@@ -226,8 +240,6 @@
     <string>gbreve</string>
     <string>Gdotaccent</string>
     <string>gdotaccent</string>
-    <string>uni0122</string>
-    <string>uni0123</string>
     <string>Hcircumflex</string>
     <string>hcircumflex</string>
     <string>Hbar</string>
@@ -246,13 +258,9 @@
     <string>ij</string>
     <string>Jcircumflex</string>
     <string>jcircumflex</string>
-    <string>uni0136</string>
-    <string>uni0137</string>
     <string>kgreenlandic</string>
     <string>Lacute</string>
     <string>lacute</string>
-    <string>uni013B</string>
-    <string>uni013C</string>
     <string>Lcaron</string>
     <string>lcaron</string>
     <string>Ldot</string>
@@ -261,8 +269,6 @@
     <string>lslash</string>
     <string>Nacute</string>
     <string>nacute</string>
-    <string>uni0145</string>
-    <string>uni0146</string>
     <string>Ncaron</string>
     <string>ncaron</string>
     <string>Eng</string>
@@ -277,16 +283,12 @@
     <string>oe</string>
     <string>Racute</string>
     <string>racute</string>
-    <string>uni0156</string>
-    <string>uni0157</string>
     <string>Rcaron</string>
     <string>rcaron</string>
     <string>Sacute</string>
     <string>sacute</string>
     <string>Scircumflex</string>
     <string>scircumflex</string>
-    <string>Scedilla</string>
-    <string>scedilla</string>
     <string>Scaron</string>
     <string>scaron</string>
     <string>uni0162</string>
@@ -318,7 +320,6 @@
     <string>zdotaccent</string>
     <string>Zcaron</string>
     <string>zcaron</string>
-    <string>uni0237</string>
     <string>uni02BB</string>
     <string>uni02BC</string>
     <string>caron</string>
@@ -326,23 +327,15 @@
     <string>dotaccent</string>
     <string>ogonek</string>
     <string>hungarumlaut</string>
-    <string>gravecomb</string>
-    <string>acutecomb</string>
     <string>uni0302</string>
-    <string>tildecomb</string>
     <string>uni0304</string>
     <string>uni0305</string>
     <string>uni0306</string>
-    <string>uni0307</string>
     <string>uni0308</string>
     <string>uni030B</string>
     <string>uni030C</string>
     <string>uni0312</string>
     <string>uni0315</string>
-    <string>dotbelowcomb</string>
-    <string>uni0326</string>
-    <string>uni0327</string>
-    <string>uni0328</string>
     <string>uni1E02</string>
     <string>uni1E03</string>
     <string>uni1E0A</string>
@@ -359,10 +352,8 @@
     <string>uni1E6B</string>
     <string>uni2010</string>
     <string>uni2011</string>
-    <string>figuredash</string>
     <string>endash</string>
     <string>emdash</string>
-    <string>uni2015</string>
     <string>quoteleft</string>
     <string>quoteright</string>
     <string>quotesinglbase</string>
@@ -380,15 +371,11 @@
     <string>uni2038</string>
     <string>guilsinglleft</string>
     <string>guilsinglright</string>
-    <string>uni203E</string>
     <string>Euro</string>
     <string>minus</string>
-    <string>uni2213</string>
     <string>radical</string>
     <string>f_f</string>
-    <string>f_i</string>
     <string>f_f_i</string>
-    <string>f_l</string>
     <string>f_f_l</string>
     <string>f_b</string>
     <string>f_f_b</string>
@@ -399,28 +386,18 @@
     <string>f_j</string>
     <string>f_f_j</string>
     <string>iogonek.dotless</string>
-    <string>gravecomb.cap</string>
-    <string>acutecomb.cap</string>
     <string>uni0302.cap</string>
     <string>uni030A.cap</string>
-    <string>tildecomb.cap</string>
     <string>uni0304.cap</string>
     <string>uni0306.cap</string>
-    <string>uni0327.cap</string>
-    <string>uni0308.narrow</string>
     <string>uni0308.cap</string>
     <string>uni030C.cap</string>
     <string>uni1E0C</string>
     <string>uni1E0D</string>
     <string>uni1E0E</string>
     <string>uni1E0F</string>
-    <string>uni1E10</string>
-    <string>uni1E11</string>
     <string>uni1E24</string>
     <string>uni1E25</string>
-    <string>uni1E28</string>
-    <string>uni1E29</string>
-    <string>uni1E2A</string>
     <string>uni1E2B</string>
     <string>uni1E62</string>
     <string>uni1E63</string>
@@ -436,7 +413,6 @@
     <string>wdieresis</string>
     <string>uni1E92</string>
     <string>uni1E93</string>
-    <string>uni1E96</string>
     <string>uni1E97</string>
     <string>Ygrave</string>
     <string>ygrave</string>
@@ -460,11 +436,7 @@
     <string>quotereversed</string>
     <string>uni201F</string>
     <string>i.TRK</string>
-    <string>napostrophe</string>
-    <string>uni2042</string>
     <string>uni00AD</string>
-    <string>uni0331</string>
-    <string>uni032E</string>
     <string>zero.small</string>
     <string>zero.medium</string>
     <string>one.small</string>
@@ -488,6 +460,129 @@
     <string>.notdef</string>
     <string>NULL</string>
     <string>space</string>
+    <string>dotlessj</string>
+    <string>notequal</string>
+    <string>circumflex</string>
+    <string>ring</string>
+    <string>tilde</string>
+    <string>aeacute</string>
+    <string>grave</string>
+    <string>uni01F3</string>
+    <string>uni01C9</string>
+    <string>uni01CC</string>
+    <string>uni0331</string>
+    <string>uni0323</string>
+    <string>uni1E49</string>
+    <string>uni1E47</string>
+    <string>uni1E37</string>
+    <string>uni0259</string>
+    <string>uni01C7</string>
+    <string>uni01CA</string>
+    <string>uni01F1</string>
+    <string>uni01F2</string>
+    <string>uni01C8</string>
+    <string>uni01CB</string>
+    <string>uni1E42</string>
+    <string>uni1E5C</string>
+    <string>uni1E43</string>
+    <string>uni01CE</string>
+    <string>gtilde</string>
+    <string>uni1E21</string>
+    <string>uni01D0</string>
+    <string>uni1E3B</string>
+    <string>uni1E45</string>
+    <string>uni01D4</string>
+    <string>gcommaaccent</string>
+    <string>uni0180</string>
+    <string>uni1E5B</string>
+    <string>uni1E5D</string>
+    <string>uni1E5F</string>
+    <string>uni1E8F</string>
+    <string>fi</string>
+    <string>fl</string>
+    <string>nbspace</string>
+    <string>thinspace</string>
+    <string>enspace</string>
+    <string>zerowidthspace</string>
+    <string>DEL</string>
+    <string>CR</string>
+    <string>acute.cap</string>
+    <string>grave.cap</string>
+    <string>dieresis.cap</string>
+    <string>caron.cap</string>
+    <string>circumflex.cap</string>
+    <string>macron.cap</string>
+    <string>breve.cap</string>
+    <string>tilde.cap</string>
+    <string>dotaccent.cap</string>
+    <string>ring.cap</string>
+    <string>hungarumlaut.cap</string>
+    <string>uni015E</string>
+    <string>uni015F</string>
+    <string>uni021B</string>
+    <string>uni0219</string>
+    <string>uni0218</string>
+    <string>uni1E5E</string>
+    <string>uni1E8E</string>
+    <string>uni01CF</string>
+    <string>uni01CD</string>
+    <string>Gtilde</string>
+    <string>uni1E20</string>
+    <string>uni1E38</string>
+    <string>uni1E44</string>
+    <string>uni01D3</string>
+    <string>uni1E3A</string>
+    <string>uni1E46</string>
+    <string>uni1E48</string>
+    <string>uni01D1</string>
+    <string>uni01EA</string>
+    <string>uni1E5A</string>
+    <string>AEacute</string>
+    <string>uni1E36</string>
+    <string>uni01EB</string>
+    <string>uni1E39</string>
+    <string>uni01D2</string>
+    <string>i.dot</string>
+    <string>uni01C6</string>
+    <string>uni01C5</string>
+    <string>uni01C4</string>
+    <string>uni0324</string>
+    <string>commaaccent</string>
+    <string>ncommaaccent</string>
+    <string>lcommaaccent</string>
+    <string>kcommaaccent</string>
+    <string>rcommaaccent</string>
+    <string>Ncommaaccent</string>
+    <string>Rcommaaccent</string>
+    <string>Kcommaaccent</string>
+    <string>Lcommaaccent</string>
+    <string>Gcommaaccent</string>
+    <string>uni021A</string>
+    <string>uni032E</string>
+    <string>uni1E2A</string>
+    <string>uni0303</string>
+    <string>uni030F</string>
+    <string>uni0300</string>
+    <string>uni0301</string>
+    <string>uni0327</string>
+    <string>uni0328</string>
+    <string>uni0326</string>
+    <string>trademark</string>
+    <string>Delta</string>
+    <string>Omega</string>
+    <string>florin</string>
+    <string>lozenge</string>
+    <string>product</string>
+    <string>partialdiff</string>
+    <string>infinity</string>
+    <string>pi</string>
+    <string>integral</string>
+    <string>estimated</string>
+    <string>uni2113</string>
+    <string>lessequal</string>
+    <string>approxequal</string>
+    <string>greaterequal</string>
+    <string>uni018F</string>
   </array>
 </dict>
 </plist>

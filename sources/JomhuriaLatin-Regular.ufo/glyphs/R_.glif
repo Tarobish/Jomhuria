@@ -32,5 +32,22 @@
       <point x="689" y="1089"/>
       <point x="626" y="1089" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="563" y="500" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="563" y="-100" type="move" name="btm"/>
+    </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
 </glyph>

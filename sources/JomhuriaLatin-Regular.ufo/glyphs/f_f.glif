@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_f" format="1">
   <advance width="1351"/>
+  <unicode hex="FB00"/>
   <outline>
     <contour>
       <point x="191" y="1041" type="line" smooth="yes"/>
@@ -49,4 +50,15 @@
       <point x="192" y="981" type="line"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
 </glyph>

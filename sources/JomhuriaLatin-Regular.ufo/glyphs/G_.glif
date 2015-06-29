@@ -42,5 +42,22 @@
       <point x="638" y="546" type="line"/>
       <point x="638" y="694" type="line"/>
     </contour>
+    <contour>
+      <point x="654" y="500" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="654" y="-100" type="move" name="btm"/>
+    </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
 </glyph>
