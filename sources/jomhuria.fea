@@ -25,3 +25,5 @@ languagesystem latn TRK;
 #include "kerning.fea"
 
 #include "latin.fea"
+
+#include "kern-arabic.fea"
