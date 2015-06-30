@@ -3,7 +3,27 @@
   <advance width="917"/>
   <unicode hex="0140"/>
   <outline>
-    <component base="uni0307" xOffset="1074" yOffset="-572"/>
-    <component base="l"/>
+    <contour>
+      <point x="673" y="983" type="line"/>
+      <point x="497" y="798" type="line"/>
+      <point x="497" y="746" type="line"/>
+      <point x="673" y="556" type="line"/>
+      <point x="719" y="556" type="line"/>
+      <point x="905" y="746" type="line"/>
+      <point x="905" y="800" type="line"/>
+      <point x="719" y="983" type="line"/>
+    </contour>
+    <component base="l" xOffset="-5"/>
   </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.967</real>
+    <real>0.6</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
 </glyph>

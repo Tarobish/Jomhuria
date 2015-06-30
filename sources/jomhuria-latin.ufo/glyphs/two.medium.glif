@@ -2,6 +2,6 @@
 <glyph name="two.medium" format="1">
   <advance width="861"/>
   <outline>
-    <component base="two" xScale="0.8" yScale="0.8" xOffset="23.9996"/>
+    <component base="two" xScale="0.8" yScale="0.8" xOffset="23"/>
   </outline>
 </glyph>

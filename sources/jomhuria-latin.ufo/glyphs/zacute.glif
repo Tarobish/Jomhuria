@@ -3,7 +3,23 @@
   <advance width="1058"/>
   <unicode hex="017A"/>
   <outline>
-    <component base="acutecomb" xOffset="586.67" yOffset="-8"/>
+    <contour>
+      <point x="696" y="1458" type="line"/>
+      <point x="516" y="1089" type="line"/>
+      <point x="759" y="1089" type="line"/>
+      <point x="1020" y="1458" type="line"/>
+    </contour>
     <component base="z"/>
   </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>0.986</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
 </glyph>

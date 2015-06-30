@@ -5,73 +5,41 @@
   <outline>
     <contour>
       <point x="122" y="394" type="line"/>
-      <point x="122" y="547.965" type="line"/>
-      <point x="400.896" y="547.965" type="line"/>
-      <point x="400.896" y="642" type="line"/>
+      <point x="122" y="548" type="line"/>
+      <point x="401" y="548" type="line"/>
+      <point x="401" y="642" type="line"/>
       <point x="122" y="642" type="line"/>
-      <point x="122" y="795.965" type="line"/>
-      <point x="296.648" y="795.965" type="line"/>
-      <point x="129.034" y="1098.58" type="line"/>
-      <point x="0" y="1098.58" type="line"/>
-      <point x="0" y="1289.48" type="line"/>
-      <point x="431.847" y="1289.48" type="line"/>
-      <point x="679.156" y="843.837" type="line"/>
-      <point x="922.847" y="1289.48" type="line"/>
-      <point x="1139.85" y="1289.48" type="line"/>
-      <point x="872.882" y="795.965" type="line"/>
-      <point x="1027" y="795.965" type="line"/>
+      <point x="122" y="796" type="line"/>
+      <point x="297" y="796" type="line"/>
+      <point x="129" y="1099" type="line"/>
+      <point x="0" y="1099" type="line"/>
+      <point x="0" y="1289" type="line"/>
+      <point x="432" y="1289" type="line"/>
+      <point x="679" y="844" type="line"/>
+      <point x="923" y="1289" type="line"/>
+      <point x="1140" y="1289" type="line"/>
+      <point x="873" y="796" type="line"/>
+      <point x="1027" y="796" type="line"/>
       <point x="1027" y="642" type="line"/>
-      <point x="783.847" y="642" type="line"/>
-      <point x="783.847" y="547.965" type="line"/>
-      <point x="1027" y="547.965" type="line"/>
+      <point x="784" y="642" type="line"/>
+      <point x="784" y="548" type="line"/>
+      <point x="1027" y="548" type="line"/>
       <point x="1027" y="394" type="line"/>
-      <point x="783.847" y="394" type="line"/>
-      <point x="783.847" y="0" type="line"/>
-      <point x="400.896" y="0" type="line"/>
-      <point x="400.896" y="394" type="line"/>
+      <point x="784" y="394" type="line"/>
+      <point x="784" y="0" type="line"/>
+      <point x="401" y="0" type="line"/>
+      <point x="401" y="394" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>21</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>394</integer>
-            <key>width</key>
-            <integer>154</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>642</integer>
-            <key>width</key>
-            <integer>154</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>1099</integer>
-            <key>width</key>
-            <integer>191</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>401</integer>
-            <key>width</key>
-            <integer>383</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
   </lib>
 </glyph>

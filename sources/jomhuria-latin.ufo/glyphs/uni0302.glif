@@ -4,13 +4,27 @@
   <unicode hex="0302"/>
   <outline>
     <contour>
-      <point x="-455.013" y="1415.9" type="line"/>
-      <point x="-261" y="1086.5" type="line"/>
-      <point x="-414.264" y="1086.5" type="line"/>
-      <point x="-502.164" y="1232.45" type="line"/>
-      <point x="-590.23" y="1086.5" type="line"/>
-      <point x="-743.494" y="1086.5" type="line"/>
-      <point x="-549.398" y="1415.9" type="line"/>
+      <point x="-632" y="1458" type="line"/>
+      <point x="-852" y="1089" type="line"/>
+      <point x="-589" y="1089" type="line"/>
+      <point x="-501" y="1275" type="line"/>
+      <point x="-413" y="1089" type="line"/>
+      <point x="-150" y="1089" type="line"/>
+      <point x="-378" y="1458" type="line"/>
+    </contour>
+    <contour>
+      <point x="-501" y="500" type="move" name="_top"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.656</real>
+    <real>1</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
 </glyph>

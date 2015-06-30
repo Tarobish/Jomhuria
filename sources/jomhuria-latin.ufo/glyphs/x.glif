@@ -4,42 +4,37 @@
   <unicode hex="0078"/>
   <outline>
     <contour>
-      <point x="1026.72" y="986.5" type="line"/>
-      <point x="683.813" y="513.692" type="line"/>
-      <point x="1002.72" y="0" type="line"/>
-      <point x="600.138" y="0" type="line"/>
-      <point x="428.908" y="274.579" type="line"/>
-      <point x="232.74" y="0" type="line"/>
-      <point x="36.5723" y="0" type="line"/>
-      <point x="336.088" y="423.366" type="line"/>
-      <point x="91.9873" y="814.869" type="line"/>
-      <point x="0" y="815.146" type="line"/>
-      <point x="0" y="986.5" type="line"/>
-      <point x="390.725" y="986.5" type="line"/>
-      <point x="592.657" y="661.371" type="line"/>
-      <point x="825.725" y="986.5" type="line"/>
+      <point x="1027" y="987" type="line"/>
+      <point x="684" y="514" type="line"/>
+      <point x="1003" y="0" type="line"/>
+      <point x="600" y="0" type="line"/>
+      <point x="429" y="275" type="line"/>
+      <point x="233" y="0" type="line"/>
+      <point x="37" y="0" type="line"/>
+      <point x="336" y="423" type="line"/>
+      <point x="92" y="815" type="line"/>
+      <point x="0" y="815" type="line"/>
+      <point x="0" y="987" type="line"/>
+      <point x="391" y="987" type="line"/>
+      <point x="593" y="661" type="line"/>
+      <point x="826" y="987" type="line"/>
+    </contour>
+    <contour>
+      <point x="513" y="500" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="513" y="-100" type="move" name="btm"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>0</integer>
-            <key>width</key>
-            <integer>21</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>815</integer>
-            <key>width</key>
-            <integer>171</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
   </lib>
 </glyph>

@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="obreve" format="1">
-  <advance width="1198"/>
+  <advance width="1143"/>
   <unicode hex="014F"/>
   <outline>
-    <component base="uni0306" xOffset="1067.4"/>
     <component base="o"/>
+    <component base="breve" xOffset="252"/>
   </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.967</real>
+    <real>0.6</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
 </glyph>

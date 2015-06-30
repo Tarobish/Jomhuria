@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="grave" format="1">
-  <advance width="573"/>
+  <advance width="702"/>
   <unicode hex="0060"/>
   <outline>
-    <component base="gravecomb" xOffset="27.2178" yOffset="52"/>
+    <contour>
+      <point x="454" y="1089" type="line"/>
+      <point x="303" y="1458" type="line"/>
+      <point x="-20" y="1458" type="line"/>
+      <point x="220" y="1089" type="line"/>
+    </contour>
+    <contour>
+      <point x="351" y="500" type="move" name="_top"/>
+    </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>0.986</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
 </glyph>

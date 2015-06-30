@@ -2,6 +2,6 @@
 <glyph name="nine.small" format="1">
   <advance width="724"/>
   <outline>
-    <component base="nine" xScale="0.6" yScale="0.6" xOffset="28.0001" yOffset="-11"/>
+    <component base="nine" xScale="0.6" yScale="0.6" xOffset="28" yOffset="-11"/>
   </outline>
 </glyph>

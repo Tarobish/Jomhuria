@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="V" format="1">
-  <advance width="1356"/>
+  <advance width="1137"/>
   <unicode hex="0056"/>
   <outline>
     <contour>
-      <point x="1066.89" y="1289.48" type="line"/>
-      <point x="1266.89" y="1289.48" type="line"/>
-      <point x="827.892" y="0" type="line"/>
-      <point x="472.892" y="0" type="line"/>
-      <point x="103.902" y="1099.15" type="line"/>
-      <point x="0" y="1099.98" type="line"/>
-      <point x="0" y="1289.48" type="line"/>
-      <point x="447.892" y="1289.48" type="line"/>
-      <point x="758.07" y="387.9" type="line"/>
+      <point x="659" y="346" type="line"/>
+      <point x="367" y="1289" type="line"/>
+      <point x="-24" y="1289" type="line"/>
+      <point x="407" y="0" type="line"/>
+      <point x="731" y="0" type="line"/>
+      <point x="1161" y="1289" type="line"/>
+      <point x="937" y="1289" type="line"/>
+    </contour>
+    <contour>
+      <point x="568" y="500" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="568" y="-100" type="move" name="btm"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>0.986</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
 </glyph>

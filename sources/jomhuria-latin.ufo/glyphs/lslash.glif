@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lslash" format="1">
-  <advance width="724"/>
+  <advance width="573"/>
   <unicode hex="0142"/>
   <outline>
-    <contour>
-      <point x="488.555" y="972.125" type="line"/>
-      <point x="634.291" y="1077.81" type="line"/>
-      <point x="634.291" y="841.512" type="line"/>
-      <point x="488.555" y="736.156" type="line"/>
-      <point x="488.555" y="0" type="line"/>
-      <point x="105.604" y="0" type="line"/>
-      <point x="105.604" y="459.142" type="line"/>
-      <point x="0" y="382.785" type="line"/>
-      <point x="0" y="617.757" type="line"/>
-      <point x="105.604" y="694.363" type="line"/>
-      <point x="105.604" y="1099.08" type="line"/>
-      <point x="0" y="1099.08" type="line"/>
-      <point x="0" y="1289.48" type="line"/>
-      <point x="488.555" y="1289.48" type="line"/>
-    </contour>
+    <component base="l"/>
+    <component base="endash" xOffset="-388"/>
   </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.967</real>
+    <real>0.6</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
 </glyph>

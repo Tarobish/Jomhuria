@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yacute" format="1">
-  <advance width="1121"/>
+  <advance width="1101"/>
   <unicode hex="00FD"/>
   <outline>
-    <component base="acutecomb" xOffset="453.21" yOffset="-8"/>
+    <contour>
+      <point x="714" y="1458" type="line"/>
+      <point x="534" y="1089" type="line"/>
+      <point x="777" y="1089" type="line"/>
+      <point x="1038" y="1458" type="line"/>
+    </contour>
     <component base="y"/>
   </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>0.986</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
 </glyph>

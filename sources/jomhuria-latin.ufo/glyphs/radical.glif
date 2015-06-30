@@ -4,17 +4,28 @@
   <unicode hex="221A"/>
   <outline>
     <contour>
-      <point x="899.672" y="1289.48" type="line"/>
-      <point x="1135.14" y="1289.48" type="line"/>
-      <point x="1135.14" y="1104.28" type="line"/>
-      <point x="1038.01" y="1104.28" type="line"/>
-      <point x="660.546" y="0" type="line"/>
-      <point x="305.513" y="0.166016" type="line"/>
-      <point x="103.527" y="605.376" type="line"/>
-      <point x="0" y="605.376" type="line"/>
-      <point x="0" y="791.326" type="line"/>
-      <point x="426.738" y="791.077" type="line"/>
-      <point x="574.882" y="345.146" type="line"/>
+      <point x="900" y="1289" type="line"/>
+      <point x="1135" y="1289" type="line"/>
+      <point x="1135" y="1104" type="line"/>
+      <point x="1038" y="1104" type="line"/>
+      <point x="661" y="0" type="line"/>
+      <point x="306" y="0" type="line"/>
+      <point x="104" y="605" type="line"/>
+      <point x="0" y="605" type="line"/>
+      <point x="0" y="791" type="line"/>
+      <point x="427" y="791" type="line"/>
+      <point x="575" y="345" type="line"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
 </glyph>

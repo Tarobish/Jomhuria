@@ -4,10 +4,21 @@
   <unicode hex="2044"/>
   <outline>
     <contour>
-      <point x="799.112" y="1289.48" type="line"/>
-      <point x="1028.1" y="1289.48" type="line"/>
-      <point x="248.989" y="0" type="line"/>
+      <point x="799" y="1289" type="line"/>
+      <point x="1028" y="1289" type="line"/>
+      <point x="249" y="0" type="line"/>
       <point x="20" y="0" type="line"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
 </glyph>
