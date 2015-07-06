@@ -1,7 +1,7 @@
 StartChar: aBaa.init_High
 Encoding: 445 -1 74
 Width: 517
-Flags: W
+Flags: HW
 HStem: 0 436.271<-20 245.091>
 VStem: -20 427.862<123.429 436.271> 247.682 160.181<436.271 579.568>
 AnchorPoint: "TwoDotsAbove" 40 800 basechar 0
