@@ -8,7 +8,6 @@ VStem: -151.595 303.368
 AnchorPoint: "TashkilBelowDot" 30 -140 basemark 0
 AnchorPoint: "DotBelow" 0 140 mark 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 -151.594726562 151.59375 m 5
