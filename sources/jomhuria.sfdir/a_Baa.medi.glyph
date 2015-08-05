@@ -1,9 +1,9 @@
 StartChar: aBaa.medi
 Encoding: 266 -1 10
 Width: 684
-Flags: HW
-HStem: 0 436.271<-20 266.26 506.659 704.791>
-VStem: 268.61 146.587<437.426 595.377>
+Flags: W
+HStem: 0 436.271<-50 266.26 477.158 734.791>
+VStem: 268.61 146.587<436.271 595.377>
 AnchorPoint: "TwoDotsAbove" 150 740 basechar 0
 AnchorPoint: "TwoDotsBelow" 190 -250 basechar 0
 AnchorPoint: "TashkilBelow" 180 -210 basechar 0

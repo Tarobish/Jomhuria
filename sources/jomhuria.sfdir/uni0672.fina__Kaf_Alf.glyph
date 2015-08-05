@@ -2,14 +2,15 @@ StartChar: uni0672.fina_KafAlf
 Encoding: 3612 -1 999
 Width: 629
 VWidth: 0
-Flags: W
-HStem: 0 21G<327.879 679.044> 1290 122.95<113.432 294.112>
-VStem: 110 334.244 110 332.244<436.188 1026.23> 110 569.044<144.827 436.188>
-AnchorPoint: "TashkilAbove" 300 1730 basechar 0
+Flags: HW
+HStem: 0 436.188<442.253 679.044> 1290 122.95<113.432 294.113>
+VStem: 110 332.244<436.188 1104.21> 110 569.044<115.093 436.188> 110 334.245
+AnchorPoint: "TashkilAbove" 300 1800 basechar 0
 AnchorPoint: "TashkilBelow" 300 -210 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 188 -1 N 1 0 0 1 0 0 2
-Refer: 115 -1 S 1.0739 0 0 1 -0.611388 -438 2
+Refer: 115 -1 S 1.0739 0 0 1 -0.611388 -368 2
 Colour: ff00
 EndChar

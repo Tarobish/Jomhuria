@@ -1,12 +1,13 @@
 StartChar: uni06C1.init
 Encoding: 986 -1 510
 Width: 522
-Flags: HW
-HStem: 0 436.271<-15.7988 249.293>
-VStem: -15.7988 427.862<123.429 436.271> 251.883 160.181<436.271 579.568>
+Flags: W
+HStem: 0 436.271<-50.7988 249.293>
+VStem: -50.7988 462.862<92.5546 436.271> 251.883 160.181<436.271 608.223>
 AnchorPoint: "TashkilAbove" 180 900 basechar 0
 AnchorPoint: "TashkilBelow" 180 -650 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 266.236328125 -317.889648438 m 1x80

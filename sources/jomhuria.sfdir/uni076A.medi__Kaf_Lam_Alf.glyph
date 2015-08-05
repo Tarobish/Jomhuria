@@ -2,19 +2,20 @@ StartChar: uni076A.medi_KafLamAlf
 Encoding: 3598 -1 985
 Width: 1236
 VWidth: 0
-Flags: HW
-HStem: 2 436.188<267.717 708.59 1053.12 1286.77> 877 126<681 1081>
-VStem: 718 332.244<438.313 1028.23>
-AnchorPoint: "TashkilAbove" 900 1300 basechar 0
+Flags: W
+HStem: 0.27832 435.993<238.484 708.59 1053.12 1286.77> 981 126<657 1073>
+VStem: 718 332.244<436.331 1102.23>
+AnchorPoint: "TashkilAbove" 900 1350 basechar 0
 AnchorPoint: "TashkilBelow" 300 -210 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
-1148 1003 m 5
- 1053 876 l 5
- 619 877 l 5
- 677 1003 l 5
- 1148 1003 l 5
+1168 1107 m 5
+ 1073 980 l 5
+ 599 981 l 5
+ 657 1107 l 5
+ 1168 1107 l 5
 EndSplineSet
 Refer: 186 -1 N 1 0 0 1 0 0 2
 Colour: ff00

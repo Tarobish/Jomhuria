@@ -1,14 +1,15 @@
 StartChar: uni06B5
 Encoding: 1080 1717 604
 Width: 1215
-Flags: W
-HStem: -430 442.62<410.625 807.379> 1408.51 148.313<665.748 750.316 891.441 976.009>
+Flags: HW
+HStem: -290.076 442.713<384.007 779.146> 1628.51 148.313<665.748 750.316 891.441 976.009>
 VStem: 665.748 310.261
-AnchorPoint: "TashkilBelow" 650 -650 basechar 0
-AnchorPoint: "TashkilAbove" 850 1750 basechar 0
+AnchorPoint: "TashkilBelow" 650 -500 basechar 0
+AnchorPoint: "TashkilAbove" 850 1930 basechar 0
 LayerCount: 2
+Back
 Fore
-Refer: 32 -1 N 1 0 0 1 -12 -240 2
-Refer: 90 1626 N 1 0 0 1 818 266 2
+Refer: 32 -1 N 1 0 0 1 -12 0 2
+Refer: 90 1626 S 1 0 0 1 818 486 2
 Colour: ffffff
 EndChar

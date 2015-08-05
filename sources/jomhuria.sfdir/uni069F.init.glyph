@@ -3,11 +3,12 @@ Encoding: 1231 -1 755
 Width: 1378
 VWidth: 0
 Flags: W
-HStem: 0 436.188<-50 239.947 600.017 1045.73> 629.022 194.352<866.446 1165.16> 934 540.642
+HStem: 0 436.188<-50 250.365 598.435 1048.18> 629.022 194.073<821.236 1153.56> 934 540.642
 VStem: 672.878 563.806
 AnchorPoint: "TashkilAbove" 1000 1600 basechar 0
 AnchorPoint: "TashkilBelow" 600 -210 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 53 -1 N 1 0 0 1 0 0 2
 Refer: 77 -1 N 1 0 0 1 953 934 2

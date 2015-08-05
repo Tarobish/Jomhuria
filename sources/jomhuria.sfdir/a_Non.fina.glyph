@@ -2,7 +2,7 @@ StartChar: aNon.fina
 Encoding: 296 -1 38
 Width: 1425
 Flags: W
-HStem: -430.747 442.435<432.528 851.579> 0 436.188<1167.91 1475.64>
+HStem: -430.747 442.435<396.162 887.289> 0 436.188<1141.49 1475.64>
 AnchorPoint: "TwoDotsBelow" 437 -995 basechar 0
 AnchorPoint: "DotBelow" 547 -995 basechar 0
 AnchorPoint: "RingBelow" 547 -595 basechar 0

@@ -1,8 +1,9 @@
 StartChar: aBaa.medi_High
 Encoding: 465 -1 92
 Width: 879
-Flags: HW
-HStem: -0.27832 436.466<-20 368.635 633.023 899.026>
+Flags: W
+HStem: -0.27832 436.466<-50 398.065 623.55 929.026>
+VStem: -50 979.026<-243.074 -0.430664>
 AnchorPoint: "TwoDotsAbove" 154 1124 basechar 0
 AnchorPoint: "TwoDotsBelow" 236 -300 basechar 0
 AnchorPoint: "HamzaBelow" 236 -182 basechar 0

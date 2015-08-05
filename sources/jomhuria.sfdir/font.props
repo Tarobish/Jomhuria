@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1273266481
-ModificationTime: 1436144028
+ModificationTime: 1438816975
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -99,10 +99,15 @@ NameList: AGL without afii
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 799 17 8
+WinInfo: 2040 17 8
 BeginPrivate: 0
 EndPrivate
 Grid
+-3000 -290.076263428 m 0
+ 6000 -290.076263428 l 1024
+  Named: "L"
+-3000 1362 m 0
+ 6000 1362 l 1024
 105.434570312 3340 m 0
  105.434570312 -2660 l 1024
   Named: "K"

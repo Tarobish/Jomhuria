@@ -3,8 +3,8 @@ Encoding: 474 -1 98
 Width: 0
 GlyphClass: 4
 Flags: W
-HStem: 1068.06 220.608
-VStem: 0.496094 290.504<1032.77 1068.06>
+HStem: 1028.06 260.608
+VStem: 0.496094 290.504<952.774 1028.06>
 AnchorPoint: "Dash" -96 72 mark 0
 LayerCount: 2
 Back
@@ -22,8 +22,8 @@ EndSplineSet
 Fore
 SplineSet
 291 1288.66992188 m 1
- 291 1161 l 5
- 0.49609375 1068.06152344 l 5
+ 291 1121 l 5
+ 0.49609375 1028.06152344 l 5
  0.49609375 1196.28710938 l 1
  291 1288.66992188 l 1
 EndSplineSet

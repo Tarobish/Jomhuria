@@ -2,11 +2,12 @@ StartChar: uni0627.fina_Tatweel
 Encoding: 4872 -1 1083
 Width: 889
 Flags: W
-HStem: 0 436.188<442.244 939.044>
-VStem: 110 332.244<436.188 1026.23>
-AnchorPoint: "TashkilAbove" 300 1300 basechar 0
+HStem: 0 436.188<442.253 939.044>
+VStem: 110 332.244<436.188 1104.74>
+AnchorPoint: "TashkilAbove" 300 1350 basechar 0
 AnchorPoint: "TashkilBelow" 300 -210 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 0 -1 N 1 0 0 1 0 0 2
 Colour: ffffff

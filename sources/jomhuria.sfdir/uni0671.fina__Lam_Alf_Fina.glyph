@@ -4,8 +4,9 @@ Width: 0
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Back
 Fore
 Refer: 65 -1 N 1 0 0 1 0 0 2
-Refer: 124 -1 N 1 0 0 1 27 -600 2
+Refer: 124 -1 S 1 0 0 1 3 -478 2
 Colour: ffffff
 EndChar
