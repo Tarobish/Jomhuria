@@ -2,7 +2,7 @@ StartChar: uni076A.medi_KafLam
 Encoding: 3556 -1 961
 Width: 722
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 436.313<-50 216.272 491.503 772.261>
 VStem: 69.9131 345.66<899.778 1124.13>
 AnchorPoint: "TashkilAbove" 250 1350 basechar 0

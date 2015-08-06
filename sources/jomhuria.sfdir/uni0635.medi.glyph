@@ -2,7 +2,7 @@ StartChar: uni0635.medi
 Encoding: 1181 -1 705
 Width: 1589
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 436.591<-50 200.84 423.088 514.245 643.704 1095.47 1330.91 1639.88> 629.021 193.796<909.974 1198.83>
 VStem: 238.557 146.921<437.313 594.922>
 AnchorPoint: "SeenBelow" 740 -400 basechar 0

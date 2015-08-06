@@ -2,7 +2,7 @@ StartChar: uni06B6.medi_LamAlfFina
 Encoding: 2414 -1 844
 Width: 1236
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0.27832 435.993<238.484 708.59 1053.12 1286.77> 1362 303.367
 VStem: 718 332.244<436.331 1102.23> 747.405 303.368
 AnchorPoint: "TashkilAbove" 950 1800 basechar 0

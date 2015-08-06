@@ -2,7 +2,7 @@ StartChar: uni0649.medi
 Encoding: 832 -1 356
 Width: 684
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 436.271<-50 266.26 477.158 734.791>
 VStem: 268.61 146.587<436.271 595.377>
 AnchorPoint: "HamzaBelow" 270 -190 basechar 0

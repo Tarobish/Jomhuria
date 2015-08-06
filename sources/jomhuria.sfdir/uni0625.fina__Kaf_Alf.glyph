@@ -2,7 +2,7 @@ StartChar: uni0625.fina_KafAlf
 Encoding: 3605 -1 992
 Width: 627
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -576 492.393 0 436.188<442.253 679.044>
 VStem: 109 310.348 110 332.244<436.188 1104.21> 110 569.044<115.093 436.188>
 AnchorPoint: "TashkilAbove" 300 1350 basechar 0

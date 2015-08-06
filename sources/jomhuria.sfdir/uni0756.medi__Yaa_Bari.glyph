@@ -2,7 +2,7 @@ StartChar: uni0756.medi_YaaBari
 Encoding: 6052 -1 1933
 Width: 684
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 436.271<-20 266.26 506.659 704.791> 895.51 148.313<-41.252 43.3157 184.441 269.009>
 VStem: -41.252 310.261 268.61 146.587<437.426 595.377>
 AnchorPoint: "TashkilBelow" 150 -210 basechar 0

@@ -2,21 +2,21 @@ StartChar: uni076A.init
 Encoding: 1079 -1 603
 Width: 574
 VWidth: 0
-Flags: HW
-HStem: 0 436.188<-50 224.439> 555 126<126 439>
-VStem: -50 474.436<92.1313 436.188>
-AnchorPoint: "TashkilAbove" 215 1350 basechar 0
-AnchorPoint: "TashkilBelow" 115 -210 basechar 0
+Flags: W
+HStem: 0 436.188<-70 224.439> 555 126<121 434>
+VStem: -70 494.436<92.1313 436.188>
+AnchorPoint: "TashkilAbove" 250 1350 basechar 0
+AnchorPoint: "TashkilBelow" 110 -210 basechar 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-534 681 m 5
- 439 554 l 5
- 31 555 l 5
- 126 681 l 5
- 534 681 l 5
+529 681 m 1
+ 434 554 l 1
+ 26 555 l 1
+ 121 681 l 1
+ 529 681 l 1
 EndSplineSet
-Refer: 31 -1 N 1 0 0 1 5 0 2
+Refer: 31 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

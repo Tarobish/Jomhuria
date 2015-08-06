@@ -2,7 +2,7 @@ StartChar: uni062C.medi_2LamHaaHaaInit
 Encoding: 4331 -1 1007
 Width: 1250
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -386.5 303.367 0 436.188<-50 506.772 857.467 1300.49> 692.147 284.228<204.871 439.144>
 VStem: 67.4053 303.368
 AnchorPoint: "TashkilAbove" 380 1100 basechar 0

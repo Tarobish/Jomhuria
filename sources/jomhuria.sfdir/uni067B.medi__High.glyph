@@ -2,7 +2,7 @@ StartChar: uni067B.medi_High
 Encoding: 3343 -1 916
 Width: 879
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -646 563.807 -0.27832 436.466<-50 398.065 623.55 929.026>
 VStem: -50 979.026<-243.074 -0.430664> -30.684 303.367
 AnchorPoint: "TashkilAbove" 300 900 basechar 0

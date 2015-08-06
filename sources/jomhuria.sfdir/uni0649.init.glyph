@@ -2,7 +2,7 @@ StartChar: uni0649.init
 Encoding: 772 -1 296
 Width: 517
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 436.271<-50 245.091>
 VStem: -50 457.862<92.5546 436.271> 247.682 160.181<436.271 608.223>
 AnchorPoint: "AlefAbove" 85 847 basechar 0

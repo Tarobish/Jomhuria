@@ -1,6 +1,6 @@
 StartChar: uniFDFA
 Encoding: 5842 65018 1883
-Width: 13481
+Width: 13511
 VWidth: 0
 Flags: HW
 LayerCount: 2
@@ -286,21 +286,21 @@ SplineSet
 EndSplineSet
 Fore
 Refer: 617 -1 N 1 0 0 1 0 0 2
-Refer: 612 -1 N 1 0 0 1 1308 0 2
-Refer: 719 -1 N 1 0 0 1 2031 0 2
-Refer: 791 1608 N 1 0 0 1 3186 0 2
-Refer: 336 -1 N 1 0 0 1 4892 0.1875 2
+Refer: 612 -1 N 1 0 0 1 1328 0 2
+Refer: 719 -1 N 1 0 0 1 2081 0 2
+Refer: 791 1608 N 1 0 0 1 3196 0 2
+Refer: 336 -1 N 1 0 0 1 4912 0.1875 2
 Refer: 504 -1 N 1 0 0 1 4008 0 2
-Refer: 612 -1 N 1 0 0 1 5607 0 2
-Refer: 229 -1 N 1 0 0 1 6329 0 2
-Refer: 122 1648 N 0.74836 0 0 0.888867 8459.02 43.2609 2
-Refer: 105 1617 N 1 0 0 1 8341 -441 2
-Refer: 504 -1 N 1 0 0 1 7443 0 2
-Refer: 612 -1 N 1 0 0 1 8318 0 2
-Refer: 600 -1 N 1 0 0 1 9040 0 2
-Refer: 207 1575 N 1 0 0 1 9560 0 2
+Refer: 612 -1 N 1 0 0 1 5647 0 2
+Refer: 229 -1 N 1 0 0 1 6409 0 2
+Refer: 122 1648 N 0.74836 0 0 0.888867 8519.02 43.2609 2
+Refer: 105 1617 N 1 0 0 1 8401 -441 2
+Refer: 504 -1 N 1 0 0 1 7503 0 2
+Refer: 612 -1 N 1 0 0 1 8378 0 2
+Refer: 600 -1 N 1 0 0 1 9100 0 2
+Refer: 207 1575 N 1 0 0 1 9610 0 2
 Refer: 800 -1 N 1 0 0 1 10070 0 2
 Refer: 612 -1 N 1 0 0 1 11338 0 2
-Refer: 695 -1 N 1 0 0 1 12060 0 2
+Refer: 695 -1 N 1 0 0 1 12090 0 2
 Colour: ffffff
 EndChar

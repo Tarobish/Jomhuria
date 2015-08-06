@@ -2,7 +2,7 @@ StartChar: uni0632.fina
 Encoding: 1141 -1 665
 Width: 848
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 436.188<618.163 898.939> 749 303.367
 VStem: 152.405 303.368
 AnchorPoint: "TashkilAbove" 370 1200 basechar 0

@@ -2,7 +2,7 @@ StartChar: uni063C.init_KafLam
 Encoding: 3516 -1 939
 Width: 522
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -622 540.642 0 21G<-26 213.217>
 VStem: -181.903 563.806 -26 388.504<76.5279 436.188> 170.539 192.521<444.646 617.202>
 AnchorPoint: "TashkilBelow" 130 -820 basechar 0
