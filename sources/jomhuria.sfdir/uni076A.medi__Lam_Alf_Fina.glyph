@@ -1,5 +1,5 @@
 StartChar: uni076A.medi_LamAlfFina
-Encoding: 2415 -1 845
+Encoding: 1114698 -1 845
 Width: 1236
 VWidth: 0
 Flags: HW
@@ -8,7 +8,6 @@ VStem: 718 332.244<436.331 1102.23>
 AnchorPoint: "TashkilAbove" 900 1350 basechar 0
 AnchorPoint: "TashkilBelow" 300 -210 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 1168 1107 m 5

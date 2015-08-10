@@ -1,5 +1,5 @@
 StartChar: uni075B
-Encoding: 1155 1883 679
+Encoding: 1883 1883 679
 Width: 778
 VWidth: 0
 Flags: W
@@ -8,7 +8,6 @@ VStem: 456.283 211.875<-42.0336 180.244>
 AnchorPoint: "TashkilAbove" 300 800 basechar 0
 AnchorPoint: "TashkilBelow" 50 -750 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 557 126 m 5

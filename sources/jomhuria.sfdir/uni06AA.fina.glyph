@@ -1,5 +1,5 @@
 StartChar: uni06AA.fina
-Encoding: 4345 -1 1010
+Encoding: 1114863 -1 1010
 Width: 1805
 Flags: HW
 HStem: 0 436.188<322.313 1299.83 1574.89 1855.81> 613.844 265.183<827.084 1296.08>
@@ -7,7 +7,6 @@ VStem: 1304.34 192.521<444.279 603.78>
 AnchorPoint: "TashkilAbove" 850 1350 basechar 0
 AnchorPoint: "TashkilBelow" 850 -210 basechar 0
 LayerCount: 2
-Back
 Fore
 Refer: 86 -1 S 1 0 0 1 0 0 2
 Colour: ffffff

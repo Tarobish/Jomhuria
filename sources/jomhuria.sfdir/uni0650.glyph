@@ -1,5 +1,5 @@
 StartChar: uni0650
-Encoding: 491 1616 104
+Encoding: 1616 1616 104
 Width: 405
 GlyphClass: 4
 Flags: W
@@ -10,7 +10,6 @@ AnchorPoint: "TashkilTashkilBelow" 191 -1283 basemark 0
 AnchorPoint: "TashkilBelowDot" 534 -670 mark 0
 AnchorPoint: "TashkilBelow" 250 -950 mark 0
 LayerCount: 2
-Back
 Fore
 Refer: 102 1614 S 1 0 0 1 0 -2901 2
 Colour: ffffff

@@ -1,5 +1,5 @@
 StartChar: uni077D.init
-Encoding: 1197 -1 721
+Encoding: 1114619 -1 721
 Width: 1208
 VWidth: 0
 Flags: HW
@@ -7,7 +7,6 @@ HStem: 0 436.188<-50 201.885 422.098 562.736 742.581 897.473>
 AnchorPoint: "TashkilAbove" 700 800 basechar 0
 AnchorPoint: "TashkilBelow" 630 -210 basechar 0
 LayerCount: 2
-Back
 Fore
 Refer: 49 -1 N 1 0 0 1 0 0 2
 Colour: ffffff

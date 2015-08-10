@@ -1,5 +1,5 @@
 StartChar: uni0750.medi_YaaBari
-Encoding: 6051 -1 1932
+Encoding: 1114976 -1 1203
 Width: 932
 VWidth: 0
 Flags: HW
@@ -8,7 +8,6 @@ VStem: 516.61 146.587<437.426 595.377>
 AnchorPoint: "TashkilBelow" 300 -600 basechar 0
 AnchorPoint: "TashkilAbove" 330 700 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 700.044921875 436.271484375 m 2

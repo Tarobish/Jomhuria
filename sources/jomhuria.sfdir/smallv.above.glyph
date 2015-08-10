@@ -1,5 +1,5 @@
 StartChar: smallv.above
-Encoding: 5856 -1 1886
+Encoding: 1114937 -1 1157
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -9,7 +9,6 @@ AnchorPoint: "MarkDotAbove" -55 956 mark 0
 AnchorPoint: "TashkilTashkilAbove" -31 1423 basemark 0
 AnchorPoint: "VAbove" 0 950 mark 0
 LayerCount: 2
-Back
 Fore
 Refer: 90 1626 S 1 0 0 1 0 0 2
 Colour: ffffff

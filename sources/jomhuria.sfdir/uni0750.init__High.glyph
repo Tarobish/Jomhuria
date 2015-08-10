@@ -1,5 +1,5 @@
 StartChar: uni0750.init_High
-Encoding: 3287 -1 860
+Encoding: 1114713 -1 860
 Width: 851
 VWidth: 0
 Flags: HW
@@ -8,7 +8,6 @@ VStem: 581.682 160.181<436.271 579.568>
 AnchorPoint: "TashkilAbove" 350 800 basechar 0
 AnchorPoint: "TashkilBelow" 300 -600 basechar 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 741.057617188 634.013671875 m 2

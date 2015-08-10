@@ -1,5 +1,5 @@
 StartChar: uni06A9.init
-Encoding: 1027 -1 551
+Encoding: 1114510 -1 551
 Width: 739
 VWidth: 0
 Flags: HW
@@ -8,7 +8,6 @@ VStem: -50 629.147<76.5278 436.188> 387.183 192.521<444.588 604.543>
 AnchorPoint: "TashkilBelow" 200 -210 basechar 0
 AnchorPoint: "TashkilAbove" 320 1350 basechar 0
 LayerCount: 2
-Back
 Fore
 Refer: 27 -1 N 1 0 0 1 0 0 2
 Colour: ffffff

@@ -1,5 +1,5 @@
 StartChar: smallv.below
-Encoding: 505 -1 118
+Encoding: 1114208 -1 118
 Width: 410
 GlyphClass: 4
 Flags: W
@@ -8,7 +8,6 @@ VStem: 50 310.261
 AnchorPoint: "TashkilBelowDot" 202.252 -1300 basemark 0
 AnchorPoint: "DotBelow" 242.252 -830 mark 0
 LayerCount: 2
-Back
 Fore
 Refer: 90 1626 S 1 0 0 1 202.252 -2140 2
 Colour: ffffff

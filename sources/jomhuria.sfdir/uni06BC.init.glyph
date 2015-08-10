@@ -1,5 +1,5 @@
 StartChar: uni06BC.init
-Encoding: 742 -1 266
+Encoding: 1114291 -1 266
 Width: 517
 VWidth: 0
 Flags: HW
@@ -8,7 +8,6 @@ VStem: -146 70.6943<-156.623 -21.7419> -95.595 303.368 -50 457.862<92.5546 436.2
 AnchorPoint: "TashkilAbove" 100 1300 basechar 0
 AnchorPoint: "TashkilBelow" 80 -400 basechar 0
 LayerCount: 2
-Back
 Fore
 Refer: 8 -1 N 1 0 0 1 0 0 2
 Refer: 75 -1 S 1 0 0 1 56 905 2

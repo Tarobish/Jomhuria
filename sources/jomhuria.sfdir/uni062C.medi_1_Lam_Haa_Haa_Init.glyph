@@ -1,5 +1,5 @@
 StartChar: uni062C.medi_1LamHaaHaaInit
-Encoding: 4314 -1 1006
+Encoding: 1114859 -1 1006
 Width: 1250
 VWidth: 0
 Flags: HW
@@ -9,7 +9,6 @@ AnchorPoint: "cursive" 0 473 exit 0
 AnchorPoint: "TashkilAbove" 380 1100 basechar 0
 AnchorPoint: "TashkilBelow" 300 -600 basechar 0
 LayerCount: 2
-Back
 Fore
 Refer: 78 -1 N 1 0 0 1 219 -386.5 2
 Refer: 72 -1 S 1 0 0 1 0 0 2

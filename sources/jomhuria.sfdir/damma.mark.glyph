@@ -1,5 +1,5 @@
 StartChar: damma.mark
-Encoding: 529 -1 142
+Encoding: 1114220 -1 142
 Width: 406
 GlyphClass: 4
 Flags: W
@@ -7,7 +7,6 @@ HStem: 1108 100.397<45 160.528>
 VStem: 45 311.087
 AnchorPoint: "HamzaAbove" 200 1150 mark 0
 LayerCount: 2
-Back
 Fore
 Refer: 139 -1 S 1 0 0 1 0 -621 2
 Colour: ffffff

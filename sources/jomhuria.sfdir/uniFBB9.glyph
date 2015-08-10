@@ -1,10 +1,9 @@
 StartChar: uniFBB9
-Encoding: 5810 64441 1853
+Encoding: 64441 64441 1125
 Width: 562
 VWidth: 1348
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 87 -1 N 1 0 0 1 280 -770 2
 Colour: ffffff
