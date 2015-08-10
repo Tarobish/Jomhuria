@@ -1,5 +1,5 @@
 StartChar: hThreeDots.a
-Encoding: 496 -1 109
+Encoding: 1114204 -1 109
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -32,7 +32,7 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-93.4423828125 151.09513855 m 1024,0,-1
+93.4423828125 151.09513855 m 0,0,-1
 EndSplineSet
 Colour: ffff00
 EndChar

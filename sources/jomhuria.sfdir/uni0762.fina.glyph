@@ -1,5 +1,5 @@
 StartChar: uni0762.fina
-Encoding: 1012 -1 536
+Encoding: 1114495 -1 536
 Width: 1806
 VWidth: 0
 Flags: HW
@@ -10,6 +10,6 @@ AnchorPoint: "TashkilAbove" 800 1450 basechar 0
 LayerCount: 2
 Fore
 Refer: 75 -1 N 1 0 0 1 748 984 2
-Refer: 1923 -1 N 1 0 0 1 0 0 2
+Refer: 1194 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

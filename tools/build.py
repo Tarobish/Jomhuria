@@ -213,11 +213,7 @@ def makeCollisionPrevention():
       , 'uni06CC.medi_High'
       , 'uni0767.medi_High'
       , 'uni064A.init_BaaYaaIsol'
-      , 'uniFEF3'
       , 'u1EE29'
-      , 'uniFB58'
-      , 'uniFB5C'
-      , 'uniFBFE'
     ]
     firstAbove = [
         'uni0753.init'
@@ -229,12 +225,6 @@ def makeCollisionPrevention():
       , 'uni062A.init'
     ]
 
-    firstAboveLegacy = [
-        'uniFB64'
-      , 'uniFE97'
-      , 'uniFE9B'
-    ]
-
     firstAboveQaf = [
         'uni0642.init'
       , 'uni06A8.init'
@@ -242,17 +232,11 @@ def makeCollisionPrevention():
       , 'uni06A6.init'
     ]
 
-    firstAboveQafLegacy = [
-        'uniFED7'
-      , 'uniFB6C'
-      , 'uniFB70'
-    ]
-
     widener = 'uni0640.1'
     multipleSubstitution = 'sub {name} by {name} {widener};'
     decompositions = []
     seen = set()
-    for name in firstBelow + firstAbove + firstAboveQaf + firstAboveLegacy + firstAboveQafLegacy:
+    for name in firstBelow + firstAbove + firstAboveQaf:
         if name in seen:
             continue
         seen.add(name)
@@ -261,9 +245,7 @@ def makeCollisionPrevention():
     template = Template("""
 @colisionsBelowFirst = [ $firstBelow ];
 @colisionsAboveFirst = [ $firstAbove ];
-@colisionsAboveFirstLegacy = [ $firstAboveLegacy];
 @colisionsAboveFirstQaf = [ $firstAboveQaf ];
-@colisionsAboveFirstQafLegacy = [ $firstAboveQafLegacy ];
 
 lookup decompCollisions {
   lookupflag IgnoreMarks;
@@ -275,9 +257,7 @@ lookup decompCollisions {
         template.substitute(
             firstBelow=' '.join(firstBelow)
           , firstAbove=' '.join(firstAbove)
-          , firstAboveLegacy = ' '.join(firstAboveLegacy)
           , firstAboveQaf=' '.join(firstAboveQaf)
-          , firstAboveQafLegacy=' '.join(firstAboveQafLegacy)
           , decompositions='\n  '.join(decompositions)
         )
       , preventCollisionsBelow()
@@ -327,17 +307,6 @@ feature calt {
       , 'uni06D2.fina_PostToothFina'
       , 'uni0625.fina'
       , 'uni0673.fina'
-      , 'uniFBA9'
-      , 'uniFBAF'
-      , 'uniFBE5'
-      , 'uniFBFD'
-      , 'uniFC10'
-      , 'uniFC90'
-      , 'uniFD17'
-      , 'uniFD18'
-      , 'uniFE8A'
-      , 'uniFEF0'
-      , 'uniFEF2'
     ]
 
     return template.substitute(second=' '.join(second));
@@ -372,15 +341,6 @@ feature calt {
       , 'uni0673.fina' # ARABIC LETTER ALEF WITH WAVY HAMZA BELOW
       , 'uni0671.fina' # ARABIC LETTER ALEF WASLA with an alef above, Koranic Arabic
 
-          # I don't care much about these. Where these codepoints are used
-          # advanced typographical features are not known or not wanted.
-          # maybe we should remove mentioning of these in the feature files,
-          # it is rather over engineering to support these.
-      , 'uniFB51'
-      , 'uniFE82'
-      , 'uniFE84'
-      , 'uniFE88'
-      , 'uniFE8E'
       , 'u1EE6F'
     ]
     marks = [
@@ -404,13 +364,11 @@ feature calt {
 def preventCollisionsAbove():
     template = Template("""
 @colisionsAboveSecond =[ $second ];
-@colisionsAboveSecondLegacy = [ $secondLegacy ];
 
 feature calt {
   lookup comp {
     lookupflag IgnoreMarks;
     sub @colisionsAboveFirst' lookup decompCollisions @colisionsAboveSecond;
-    sub @colisionsAboveFirstLegacy' lookup decompCollisions @colisionsAboveSecondLegacy;
   } comp;
 } calt;
 """)
@@ -427,18 +385,7 @@ feature calt {
       , 'uni0673.fina'
       , 'uni0671.fina'
     ]
-    secondLegacy = [
-        'uniFB51'
-      , 'uniFE82'
-      , 'uniFE84'
-      , 'uniFE88'
-      , 'uniFE8E'
-      , 'uniFEFC'
-      , 'uniFEFA'
-      , 'uniFEF8'
-      , 'uniFEF6'
-    ]
-    return template.substitute(second=' '.join(second), secondLegacy=' '.join(secondLegacy));
+    return template.substitute(second=' '.join(second));
 
 
 def preventCollisionsAboveLamMediAlfFina():
@@ -473,7 +420,6 @@ feature calt {
   lookup comp {
     lookupflag IgnoreMarks;
     sub @colisionsAboveFirstQaf' lookup decompCollisions uni0622.fina;
-    sub @colisionsAboveFirstQafLegacy' lookup decompCollisions uniFE82;
   } comp;
 } calt;
 """)
