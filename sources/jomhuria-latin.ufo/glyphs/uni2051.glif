@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glyph name="uni2051" format="1">
+  <advance width="846"/>
+  <unicode hex="2051"/>
+  <outline>
+    <component base="asterisk" xScale="0.745055" yScale="0.745165" xOffset="58" yOffset="-333"/>
+    <component base="asterisk" xScale="0.720879" yScale="0.720137" xOffset="51" yOffset="382"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.967</real>
+        <real>0.6</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

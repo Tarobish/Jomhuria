@@ -1,19 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <glyph name="fi" format="1">
-  <advance width="1276"/>
+  <advance width="1009"/>
   <unicode hex="FB01"/>
   <outline>
-    <contour>
-      <point x="984" y="1496" type="line"/>
-      <point x="808" y="1311" type="line"/>
-      <point x="808" y="1259" type="line"/>
-      <point x="984" y="1069" type="line"/>
-      <point x="1030" y="1069" type="line"/>
-      <point x="1216" y="1259" type="line"/>
-      <point x="1216" y="1313" type="line"/>
-      <point x="1030" y="1496" type="line"/>
-    </contour>
     <component base="f"/>
-    <component base="dotlessi" xOffset="703"/>
+    <component base="i" xOffset="548"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.986</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

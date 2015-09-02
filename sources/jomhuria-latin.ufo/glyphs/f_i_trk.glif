@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glyph name="f_i_trk" format="1">
+  <advance width="1009"/>
+  <outline>
+    <contour>
+      <point x="948" y="850" type="line"/>
+      <point x="781" y="850" type="line"/>
+      <point x="566" y="791" type="line"/>
+      <point x="566" y="684" type="line"/>
+      <point x="626" y="647" type="line"/>
+      <point x="626" y="0" type="line"/>
+      <point x="948" y="0" type="line"/>
+    </contour>
+    <component base="f"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.967</real>
+        <real>0.6</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

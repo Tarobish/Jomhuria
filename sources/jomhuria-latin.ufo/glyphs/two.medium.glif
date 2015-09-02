@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="two.medium" format="1">
-  <advance width="861"/>
-  <outline>
-    <component base="two" xScale="0.8" yScale="0.8" xOffset="23"/>
-  </outline>
-</glyph>

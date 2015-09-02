@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni02BB" format="1">
-  <advance width="340"/>
-  <unicode hex="02BB"/>
-  <outline>
-    <component base="uni0312" xOffset="514" yOffset="-44"/>
-  </outline>
-</glyph>

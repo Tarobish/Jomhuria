@@ -1,25 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <glyph name="iacute" format="1">
-  <advance width="567"/>
+  <advance width="461"/>
   <unicode hex="00ED"/>
   <outline>
-    <contour>
-      <point x="436" y="1458" type="line"/>
-      <point x="256" y="1089" type="line"/>
-      <point x="499" y="1089" type="line"/>
-      <point x="760" y="1458" type="line"/>
-    </contour>
     <component base="dotlessi"/>
+    <component base="uni0301" xOffset="263"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.6</real>
-    <real>0.986</real>
-    <real>1</real>
-    <real>1</real>
-  </array>
-  </dict>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.967</real>
+        <real>0.6</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
   </lib>
 </glyph>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="six.small" format="1">
-  <advance width="704"/>
-  <outline>
-    <component base="six" xScale="0.6" yScale="0.6" xOffset="28" yOffset="-11"/>
-  </outline>
-</glyph>

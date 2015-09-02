@@ -1,28 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <glyph name="bullet" format="1">
-  <advance width="757"/>
+  <advance width="458"/>
   <unicode hex="2022"/>
   <outline>
     <contour>
-      <point x="336" y="867" type="line"/>
-      <point x="75" y="592" type="line"/>
-      <point x="75" y="514" type="line"/>
-      <point x="336" y="231" type="line"/>
-      <point x="405" y="231" type="line"/>
-      <point x="682" y="514" type="line"/>
-      <point x="682" y="594" type="line"/>
-      <point x="405" y="867" type="line"/>
+      <point x="201" y="709" type="line"/>
+      <point x="4" y="512" type="line"/>
+      <point x="4" y="470" type="line"/>
+      <point x="201" y="272" type="line"/>
+      <point x="247" y="272" type="line"/>
+      <point x="452" y="470" type="line"/>
+      <point x="452" y="512" type="line"/>
+      <point x="247" y="709" type="line"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.6</real>
-    <real>0.986</real>
-    <real>1</real>
-    <real>1</real>
-  </array>
-  </dict>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.967</real>
+        <real>0.6</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
   </lib>
 </glyph>

@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <glyph name="logicalnot" format="1">
-  <advance width="1029"/>
+  <advance width="1148"/>
   <unicode hex="00AC"/>
   <outline>
     <contour>
-      <point x="949" y="625" type="line"/>
-      <point x="949" y="30" type="line"/>
-      <point x="748" y="30" type="line"/>
-      <point x="748" y="424" type="line"/>
-      <point x="80" y="424" type="line"/>
-      <point x="80" y="625" type="line"/>
+      <point x="110" y="615" type="line"/>
+      <point x="110" y="414" type="line"/>
+      <point x="837" y="414" type="line"/>
+      <point x="837" y="0" type="line"/>
+      <point x="1038" y="0" type="line"/>
+      <point x="1038" y="615" type="line"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.6</real>
-    <real>0.986</real>
-    <real>1</real>
-    <real>1</real>
-  </array>
-  </dict>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.967</real>
+        <real>0.6</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
   </lib>
 </glyph>

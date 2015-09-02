@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glyph name="fiveeighths" format="1">
+  <advance width="1977"/>
+  <unicode hex="215D"/>
+  <outline>
+    <component base="five.numr" xOffset="1"/>
+    <component base="fraction" xOffset="595"/>
+    <component base="eight.dnom" xOffset="1167"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.967</real>
+        <real>0.6</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

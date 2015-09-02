@@ -1,30 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <glyph name="iogonek" format="1">
-  <advance width="573"/>
+  <advance width="461"/>
   <unicode hex="012F"/>
   <outline>
-    <contour>
-      <point x="281" y="1496" type="line"/>
-      <point x="105" y="1311" type="line"/>
-      <point x="105" y="1259" type="line"/>
-      <point x="281" y="1069" type="line"/>
-      <point x="327" y="1069" type="line"/>
-      <point x="513" y="1259" type="line"/>
-      <point x="513" y="1313" type="line"/>
-      <point x="327" y="1496" type="line"/>
-    </contour>
-    <component base="dotlessi"/>
-    <component base="ogonek" xOffset="35"/>
+    <component base="i"/>
+    <component base="uni0328" xOffset="175"/>
   </outline>
   <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.6</real>
-    <real>0.986</real>
-    <real>1</real>
-    <real>1</real>
-  </array>
-  </dict>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.967</real>
+        <real>0.6</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
   </lib>
 </glyph>

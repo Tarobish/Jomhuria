@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="seven.small" format="1">
-  <advance width="600"/>
-  <outline>
-    <component base="seven" xScale="0.6" yScale="0.6" xOffset="16"/>
-  </outline>
-</glyph>

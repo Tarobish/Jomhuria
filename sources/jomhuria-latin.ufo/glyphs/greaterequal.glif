@@ -1,32 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <glyph name="greaterequal" format="1">
-  <advance width="400"/>
+  <advance width="1148"/>
   <unicode hex="2265"/>
   <outline>
     <contour>
-      <point x="254" y="796" type="line"/>
-      <point x="-99" y="1289" type="line"/>
-      <point x="145" y="1289" type="line"/>
-      <point x="501" y="796" type="line"/>
-      <point x="146" y="302" type="line"/>
-      <point x="-101" y="302" type="line"/>
+      <point x="110" y="201" type="line"/>
+      <point x="110" y="0" type="line"/>
+      <point x="1038" y="0" type="line"/>
+      <point x="1038" y="201" type="line"/>
     </contour>
     <contour>
-      <point x="600" y="625" type="line"/>
-      <point x="600" y="424" type="line"/>
-      <point x="-199" y="424" type="line"/>
-      <point x="-199" y="625" type="line"/>
+      <point x="691" y="784" type="line"/>
+      <point x="196" y="290" type="line"/>
+      <point x="513" y="290" type="line"/>
+      <point x="1008" y="784" type="line"/>
+      <point x="512" y="1276" type="line"/>
+      <point x="198" y="1276" type="line"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>1</real>
-    <real>0.6</real>
-    <real>0.6</real>
-    <real>1</real>
-  </array>
-  </dict>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.967</real>
+        <real>0.6</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
   </lib>
 </glyph>

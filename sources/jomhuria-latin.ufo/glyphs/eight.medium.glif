@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="eight.medium" format="1">
-  <advance width="852"/>
-  <outline>
-    <component base="eight" xScale="0.8" yScale="0.8" xOffset="14" yOffset="-9"/>
-  </outline>
-</glyph>

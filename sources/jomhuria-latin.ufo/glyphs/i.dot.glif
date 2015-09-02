@@ -1,28 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <glyph name="i.dot" format="1">
-  <advance width="573"/>
+  <advance width="461"/>
   <outline>
     <contour>
-      <point x="281" y="1496" type="line"/>
-      <point x="105" y="1311" type="line"/>
-      <point x="105" y="1259" type="line"/>
-      <point x="281" y="1069" type="line"/>
-      <point x="327" y="1069" type="line"/>
-      <point x="513" y="1259" type="line"/>
-      <point x="513" y="1313" type="line"/>
-      <point x="327" y="1496" type="line"/>
+      <point x="223" y="1306" type="line"/>
+      <point x="59" y="1142" type="line"/>
+      <point x="59" y="1107" type="line"/>
+      <point x="223" y="942" type="line"/>
+      <point x="261" y="942" type="line"/>
+      <point x="432" y="1107" type="line"/>
+      <point x="432" y="1142" type="line"/>
+      <point x="261" y="1306" type="line"/>
     </contour>
-    <component base="dotlessi"/>
+    <contour>
+      <point x="400" y="850" type="line"/>
+      <point x="233" y="850" type="line"/>
+      <point x="18" y="791" type="line"/>
+      <point x="18" y="684" type="line"/>
+      <point x="78" y="647" type="line"/>
+      <point x="78" y="0" type="line"/>
+      <point x="400" y="0" type="line"/>
+    </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.6</real>
-    <real>0.986</real>
-    <real>1</real>
-    <real>1</real>
-  </array>
-  </dict>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.967</real>
+        <real>0.6</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
   </lib>
 </glyph>

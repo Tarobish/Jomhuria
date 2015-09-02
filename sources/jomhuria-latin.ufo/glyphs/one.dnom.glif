@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glyph name="one.dnom" format="1">
+  <advance width="524"/>
+  <outline>
+    <contour>
+      <point x="251" y="700" type="line"/>
+      <point x="209" y="595"/>
+      <point x="117" y="574"/>
+      <point x="15" y="561" type="curve"/>
+      <point x="15" y="412" type="line"/>
+      <point x="160" y="426" type="line"/>
+      <point x="160" y="-120" type="line"/>
+      <point x="428" y="-120" type="line"/>
+      <point x="428" y="700" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.967</real>
+        <real>0.6</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,44 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <glyph name="divide" format="1">
-  <advance width="1049"/>
+  <advance width="1148"/>
   <unicode hex="00F7"/>
   <outline>
     <contour>
-      <point x="501" y="352" type="line"/>
-      <point x="355" y="199" type="line"/>
-      <point x="355" y="156" type="line"/>
-      <point x="501" y="-1" type="line"/>
-      <point x="539" y="-1" type="line"/>
-      <point x="693" y="156" type="line"/>
-      <point x="693" y="201" type="line"/>
-      <point x="539" y="352" type="line"/>
+      <point x="110" y="615" type="line"/>
+      <point x="110" y="414" type="line"/>
+      <point x="1038" y="414" type="line"/>
+      <point x="1038" y="615" type="line"/>
     </contour>
     <contour>
-      <point x="501" y="1060" type="line"/>
-      <point x="355" y="907" type="line"/>
-      <point x="355" y="864" type="line"/>
-      <point x="501" y="707" type="line"/>
-      <point x="539" y="707" type="line"/>
-      <point x="693" y="864" type="line"/>
-      <point x="693" y="909" type="line"/>
-      <point x="539" y="1060" type="line"/>
+      <point x="551" y="1041" type="line"/>
+      <point x="387" y="877" type="line"/>
+      <point x="387" y="842" type="line"/>
+      <point x="551" y="677" type="line"/>
+      <point x="589" y="677" type="line"/>
+      <point x="760" y="842" type="line"/>
+      <point x="760" y="877" type="line"/>
+      <point x="589" y="1041" type="line"/>
     </contour>
     <contour>
-      <point x="969" y="625" type="line"/>
-      <point x="969" y="424" type="line"/>
-      <point x="80" y="424" type="line"/>
-      <point x="80" y="625" type="line"/>
+      <point x="551" y="345" type="line"/>
+      <point x="387" y="181" type="line"/>
+      <point x="387" y="146" type="line"/>
+      <point x="551" y="-19" type="line"/>
+      <point x="589" y="-19" type="line"/>
+      <point x="760" y="146" type="line"/>
+      <point x="760" y="181" type="line"/>
+      <point x="589" y="345" type="line"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.6</real>
-    <real>0.986</real>
-    <real>1</real>
-    <real>1</real>
-  </array>
-  </dict>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.967</real>
+        <real>0.6</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
   </lib>
 </glyph>
