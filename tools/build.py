@@ -131,18 +131,6 @@ def extractGPOSData(font):
 
     return oldfea
 
-def makeShortName(name, maxLen):
-    """
-    example:
-
-    >>> makeShortName("uni064A.init_BaaYaaIsol_uni0640.1", 31)
-    'uni064A.init_BaaYaaIsol_uni_AF2'
-
-    """
-    checksum = '_{0:X}'.format(sum([ord(c) for c in name]))
-    return name[:maxLen-len(checksum)] + checksum;
-
-
 def makeCollisionPrevention():
     """
     In order to prevent collisions we insert a widening glyph between
@@ -492,84 +480,6 @@ def generateFont(font, outfile):
     ftfont.close()
     os.remove(tmpfile)
 
-def drawOverUnderline(font, name, uni, glyphclass, pos, thickness, width):
-    glyph = font.createChar(uni, name)
-    glyph.width = 0
-    glyph.glyphclass = glyphclass
-
-    pen = glyph.glyphPen()
-
-    pen.moveTo((-50, pos))
-    pen.lineTo((-50, pos + thickness))
-    pen.lineTo((width + 50, pos + thickness))
-    pen.lineTo((width + 50, pos))
-    pen.closePath()
-
-    return glyph
-
-def makeOverUnderline(font, over=True, under=True, o_pos=None, u_pos=None):
-    # test string:
-    # صِ̅فْ̅ ̅خَ̅ل̅قَ̅ ̅بًّ̅ صِ̲فْ̲ ̲خَ̲ل̲قَ̲ ̲بِ̲
-
-    thickness = font.uwidth # underline width (thickness)
-    minwidth = 100.0
-
-    if not o_pos:
-        o_pos = font.os2_typoascent
-
-    if not u_pos:
-        u_pos = font.upos - thickness # underline pos
-
-    # collect glyphs grouped by their widths rounded by 100 units, we will use
-    # them to decide the widths of over/underline glyphs we will draw
-    widths = {}
-    for glyph in font.glyphs():
-        if glyph.glyphclass == 'baseglyph' and glyph.unicode != 0xFDFD:
-            width = round(glyph.width/100) * 100
-            width = width > minwidth and width or minwidth
-            if not width in widths:
-                widths[width] = []
-            widths[width].append(glyph.glyphname)
-
-    if over:
-        o_base = drawOverUnderline(font, 'uni0305', 0x0305, 'mark', o_pos, thickness, 500)
-
-    if under:
-        u_base = drawOverUnderline(font, 'uni0332', 0x0332, 'mark', u_pos, thickness, 500)
-
-    markset = "%s %s" %(over and o_base.glyphname or "", under and u_base.glyphname or "")
-
-    font.addMarkSet("OverUnderSet", markset)
-
-    context_lookup_name = 'OverUnderLine'
-    font.addLookup(context_lookup_name, 'gsub_contextchain', ('OverUnderSet'), (('mark', script_lang),), font.gsub_lookups[-1])
-
-    for width in sorted(widths.keys()):
-        # for each width group we create an over/underline glyph with the same
-        # width, and add a contextual substitution lookup to use it when an
-        # over/underline follows any glyph in this group
-
-        single_lookup_name = str(width)
-
-        font.addLookup(single_lookup_name, 'gsub_single', (), (), font.gsub_lookups[-1])
-        font.addLookupSubtable(single_lookup_name, single_lookup_name + '1')
-
-        if over:
-            o_name = 'uni0305.%d' % width
-            o_glyph = drawOverUnderline(font, o_name, -1, 'mark', o_pos, thickness, width)
-            o_base.addPosSub(single_lookup_name + '1', o_name)
-
-        if under:
-            u_name = 'uni0332.%d' % width
-            u_glyph = drawOverUnderline(font, u_name, -1, 'mark', u_pos, thickness, width)
-            u_base.addPosSub(single_lookup_name + '1', u_name)
-
-        context = "%s %s" %(over and o_base.glyphname or "", under and u_base.glyphname or "")
-
-        rule = '| [%s] [%s] @<%s> | ' %(" ".join(widths[width]), context, single_lookup_name)
-
-        font.addContextualSubtable(context_lookup_name, context_lookup_name + str(width), 'coverage', rule)
-
 def centerGlyph(glyph):
     width = glyph.width
     glyph.right_side_bearing = glyph.left_side_bearing = (glyph.right_side_bearing + glyph.left_side_bearing)/2
@@ -665,161 +575,37 @@ def simpleFontMerge(font, sourcefile):
     #sourcefont = fontforge.open(sourcefile)
     font.mergeFonts(sourcefile)
 
-def mergeLatin(font, latinfile, italic=False, glyphs=None, quran=False):
-    styles = {"Regular": "regular",
-              "Slanted": "italic",
-              "Bold": "bold",
-              "BoldSlanted": "bolditalic"}
-
-    tmpfont = mkstemp(suffix=os.path.basename(latinfile).replace("sfdir", "sfd"))[1]
+def mergeLatin(font, latinfile, glyphs=None):
+    tmpfont = mkstemp(suffix=os.path.basename(latinfile).replace("ufo", "sfd"))[1]
     latinfont = fontforge.open(latinfile)
 
     validateGlyphs(latinfont) # to flatten nested refs mainly
+    latinglyphs = [name for name in latinfont]
 
-    if glyphs:
-        latinglyphs = list(glyphs)
-    else:
-        # collect latin glyphs we want to keep
-        latinglyphs = []
+    # The Latin font is already subsetted to only contain glyphs that take
+    # precedence over glyphs in the Arabic if there are overlapping glyphs.
+    # To give the glyphs of the latin precedence, we need to remove the
+    # existing glyphs from the Arabic.
+    overlapping = {name for name in font} & {name for name in latinfont}
+    for name in overlapping:
+        font[name].clear()
 
-        # we want all glyphs in latin0-9 encodings
-        for i in range(0, 9):
-            latinfont.encoding = 'latin%d' %i
-            for glyph in latinfont.glyphs("encoding"):
-                if glyph.encoding <= 255:
-                    if glyph.glyphname not in latinglyphs:
-                        latinglyphs.append(glyph.glyphname)
-                elif glyph.unicode != -1 and glyph.unicode <= 0x017F:
-                    # keep also Unicode Latin Extended-A block
-                    if glyph.glyphname not in latinglyphs:
-                        latinglyphs.append(glyph.glyphname)
-                elif glyph.unicode == -1 and '.prop' in glyph.glyphname:
-                    # proportional digits
-                    latinglyphs.append(glyph.glyphname)
-
-        # keep ligatures too
-        ligatures = ("f_b", "f_f_b",
-                     "f_h", "f_f_h",
-                     "f_i", "f_f_i",
-                     "f_j", "f_f_j",
-                     "f_k", "f_f_k",
-                     "f_l", "f_f_l",
-                     "f_f")
-
-        # and Arabic romanisation characters
-        romanisation = ("uni02BC", "uni02BE", "uni02BE", "amacron", "uni02BE",
-                "amacron", "eacute", "uni1E6F", "ccedilla", "uni1E6F", "gcaron",
-                "ycircumflex", "uni1E29", "uni1E25", "uni1E2B", "uni1E96",
-                "uni1E0F", "dcroat", "scaron", "scedilla", "uni1E63", "uni1E11",
-                "uni1E0D", "uni1E6D", "uni1E93", "dcroat", "uni02BB", "uni02BF",
-                "rcaron", "grave", "gdotaccent", "gbreve", "umacron", "imacron",
-                "amacron", "amacron", "uni02BE", "amacron", "uni02BE",
-                "acircumflex", "amacron", "uni1E97", "tbar", "aacute", "amacron",
-                "ygrave", "agrave", "uni02BE", "aacute", "Amacron", "Amacron",
-                "Eacute", "uni1E6E", "Ccedilla", "uni1E6E", "Gcaron",
-                "Ycircumflex", "uni1E28", "uni1E24", "uni1E2A", "uni1E0E",
-                "Dcroat", "Scaron", "Scedilla", "uni1E62", "uni1E10", "uni1E0C",
-                "uni1E6C", "uni1E92", "Dcroat", "Rcaron", "Gdotaccent", "Gbreve",
-                "Umacron", "Imacron", "Amacron", "Amacron", "Amacron",
-                "Acircumflex", "Amacron", "Tbar", "Aacute", "Amacron", "Ygrave",
-                "Agrave", "Aacute")
-
-        # and some typographic characters
-        typographic = ("uni2010", "uni2011", "figuredash", "endash", "emdash",
-                "uni2015", "quoteleft", "quoteright", "quotesinglbase",
-                "quotereversed", "quotedblleft", "quotedblright", "quotedblbase",
-                "uni201F", "dagger", "daggerdbl", "bullet", "onedotenleader",
-                "ellipsis", "uni202F", "perthousand", "minute", "second",
-                "uni2038", "guilsinglleft", "guilsinglright", "uni203E",
-                "fraction", "i.TRK", "minus", "uni2213", "radical", "uni2042")
-
-        for l in (ligatures, romanisation, typographic):
-            for name in l:
-                if name not in latinglyphs:
-                    latinglyphs.append(name)
-
-    if not quran:
-        # we want our ring above and below in Quran font only
-        for name in ("uni030A", "uni0325"):
-            font[name].clear()
-
-        latinglyphs += buildComposition(latinfont, latinglyphs)
+    compositions = buildComposition(latinfont, latinglyphs)
+    latinglyphs += compositions
     subsetFont(latinfont, latinglyphs)
 
     digits = ("zero", "one", "two", "three", "four", "five", "six", "seven",
               "eight", "nine")
 
-    # common characters that can be used in Arabic and Latin need to be handled
-    # carefully in the slanted font so that right leaning italic is used with
-    # Latin, and left leaning slanted is used with Arabic, using ltra and rtla
-    # features respectively, for less OpenType savvy apps we make the default
-    # upright so it works reasonably with bot scripts
-    if italic:
-        if "bold" in style:
-            upright = fontforge.open("sources/latin/amirilatin-bold.sfdir")
-        else:
-            upright = fontforge.open("sources/latin/amirilatin-regular.sfdir")
-
-        shared = ("exclam", "quotedbl", "numbersign", "dollar", "percent",
-                  "quotesingle", "asterisk", "plus", "colon", "semicolon",
-                  "less", "equal", "greater", "question", "at", "asciicircum",
-                  "exclamdown", "section", "copyright", "logicalnot", "registered",
-                  "plusminus", "uni00B2", "uni00B3", "paragraph", "uni00B9",
-                  "ordmasculine", "onequarter", "onehalf", "threequarters",
-                  "questiondown", "quoteleft", "quoteright", "quotesinglbase",
-                  "quotereversed", "quotedblleft", "quotedblright",
-                  "quotedblbase", "uni201F", "dagger", "daggerdbl",
-                  "perthousand", "minute", "second", "guilsinglleft",
-                  "guilsinglright", "fraction", "uni2213")
-
-        for name in shared:
-            glyph = latinfont[name]
-            glyph.clear()
-            upright.selection.select(name)
-            upright.copy()
-            latinfont.createChar(upright[name].encoding, name)
-            latinfont.selection.select(name)
-            latinfont.paste()
-
-        for name in digits:
-            glyph = latinfont[name]
-            glyph.glyphname += '.ltr'
-            glyph.unicode = -1
-            upright.selection.select(name)
-            upright.copy()
-            latinfont.createChar(upright[name].encoding, name)
-            latinfont.selection.select(name)
-            latinfont.paste()
-
-            rtl = latinfont.createChar(-1, name + ".rtl")
-            rtl.addReference(name, italic)
-            rtl.useRefsMetrics(name)
-
-        for name in digits:
-            pname = name + ".prop"
-            glyph = latinfont[pname]
-            glyph.glyphname = name + '.ltr.prop'
-            glyph.unicode = -1
-            upright.selection.select(pname)
-            upright.copy()
-            latinfont.createChar(-1, pname)
-            latinfont.selection.select(pname)
-            latinfont.paste()
-
-            rtl = latinfont.createChar(-1, name + ".rtl" + ".prop")
-            rtl.addReference(pname, italic)
-            rtl.useRefsMetrics(pname)
-
     # copy kerning classes
     kern_lookups = {}
-    if not quran:
-        for lookup in latinfont.gpos_lookups:
-            kern_lookups[lookup] = {}
-            kern_lookups[lookup]["subtables"] = []
-            kern_lookups[lookup]["type"], kern_lookups[lookup]["flags"] = latinfont.getLookupInfo(lookup)[:2]
-            for subtable in latinfont.getLookupSubtables(lookup):
-                if latinfont.isKerningClass(subtable):
-                    kern_lookups[lookup]["subtables"].append((subtable, latinfont.getKerningClass(subtable)))
+    for lookup in latinfont.gpos_lookups:
+        kern_lookups[lookup] = {}
+        kern_lookups[lookup]["subtables"] = []
+        kern_lookups[lookup]["type"], kern_lookups[lookup]["flags"] = latinfont.getLookupInfo(lookup)[:2]
+        for subtable in latinfont.getLookupSubtables(lookup):
+            if latinfont.isKerningClass(subtable):
+                kern_lookups[lookup]["subtables"].append((subtable, latinfont.getKerningClass(subtable)))
 
     for lookup in latinfont.gpos_lookups:
         latinfont.removeLookup(lookup)
@@ -833,17 +619,11 @@ def mergeLatin(font, latinfile, italic=False, glyphs=None, quran=False):
     font.mergeFonts(tmpfont)
     os.remove(tmpfont)
 
-    if not quran:
-        buildComposition(font, latinglyphs)
+    buildComposition(font, latinglyphs)
 
     # add Latin small and medium digits
     for name in digits:
-        if italic:
-            # they are only used in Arabic contexts, so always reference the
-            # italic rtl variant
-            refname = name +".rtl"
-        else:
-            refname = name
+        refname = name
         small = font.createChar(-1, name + ".small")
         if not small.isWorthOutputting():
             small.clear()
@@ -886,49 +666,6 @@ def mergeLatin(font, latinfile, italic=False, glyphs=None, quran=False):
             if any(first) and any(second):
                 font.addKerningClass(lookup, subtable[0], first, second, offsets)
 
-def makeSlanted(infile, outfile, latinfile, feafile, version, slant):
-
-    font = makeDesktop(infile, outfile, feafile, version, False, False)
-
-    # compute amout of skew, magic formula copied from fontforge sources
-    import math
-    skew = psMat.skew(-slant * math.pi/180.0)
-
-    # Remove Arabic math alphanumerics, they are upright-only.
-    font.selection.select(["ranges"], "u1EE00", "u1EEFF")
-    for glyph in font.selection.byGlyphs:
-        font.removeGlyph(glyph)
-
-    font.selection.all()
-    punct = ("period", "guillemotleft", "guillemotright", "braceleft", "bar",
-             "braceright", "bracketleft", "bracketright", "parenleft",
-             "parenright", "slash", "backslash", "brokenbar", "uni061F")
-
-    for name in punct:
-        font.selection.select(["less"], name)
-
-    font.transform(skew)
-
-    # fix metadata
-    font.italicangle = slant
-    font.fullname += " Slanted"
-    if font.weight == "Bold":
-        font.fontname = font.fontname.replace("Bold", "BoldSlanted")
-        font.appendSFNTName("Arabic (Egypt)", "SubFamily", "عريض مائل")
-        font.appendSFNTName("English (US)",   "SubFamily", "Bold Slanted")
-    else:
-        font.fontname = font.fontname.replace("Regular", "Slanted")
-        font.appendSFNTName("Arabic (Egypt)", "SubFamily", "مائل")
-
-    mergeLatin(font, latinfile, italic=skew)
-    makeNumerators(font)
-
-    # we want to merge features after merging the latin font because many
-    # referenced glyphs are in the latin font
-    prepareFeatures(font, feafile)
-
-    generateFont(font, outfile)
-
 def scaleGlyph(glyph, amount):
     """Scales the glyph, but keeps it centered around its original bounding
     box.
@@ -947,107 +684,6 @@ def scaleGlyph(glyph, amount):
 
     glyph.transform(matrix)
 
-def makeQuran(infile, outfile, latinfile, feafile, version):
-    font = makeDesktop(infile, outfile, feafile, version, False, False)
-
-    # fix metadata
-    font.fontname = font.fontname.replace("-Regular", "Quran-Regular")
-    font.familyname += " Quran"
-    font.fullname += " Quran"
-
-    digits = ("zero", "one", "two", "three", "four", "five", "six",
-              "seven", "eight", "nine")
-
-    mergeLatin(font, latinfile, glyphs=digits, quran=True)
-
-    punct = ("period", "guillemotleft", "guillemotright", "braceleft", "bar",
-             "braceright", "bracketleft", "bracketright", "parenleft",
-             "parenright", "slash", "backslash")
-
-    for name in punct:
-        if name+".ara" in font:
-            glyph = font[name+".ara"]
-            glyph.glyphname = name
-            glyph.unicode = fontforge.unicodeFromName(name)
-
-    # abuse U+065C as a below form of U+06EC, for Qaloon
-    dotabove = font["uni06EC"]
-    dotbelow = font["uni065C"]
-    delta = dotbelow.boundingBox()[-1] - dotabove.boundingBox()[-1]
-    dotbelow.references = []
-    dotbelow.addReference(dotabove.glyphname, psMat.translate(0, delta))
-    dotbelow.addAnchorPoint("TashkilTashkilBelow", "basemark", 220, dotbelow.boundingBox()[1] - 100)
-
-    # scale some vowel marks and dots down a bit
-    scaleGlyph(font["uni0651"], 0.8)
-    for mark in ("uni064B", "uni064C", "uni064E", "uni064F", "uni06E1"):
-        scaleGlyph(font[mark], 0.9)
-
-    for dot in ("TwoDots.a", "ThreeDots.a", "vTwoDots.a"):
-        scaleGlyph(font[dot], 0.9)
-
-    quran_glyphs = []
-
-    # create dummy glyphs used for some coding hacks
-    for i in range(1, 11):
-        dummy = font.createChar(-1, "dummy%s" %i)
-        dummy.width = 0
-        quran_glyphs.append(dummy.glyphname)
-
-    prepareFeatures(font, feafile)
-
-    quran_glyphs += digits
-    quran_glyphs += punct
-    quran_glyphs += ("space",
-            "uni060C", "uni0615", "uni0617", "uni0618", "uni0619", "uni061A",
-            "uni061B", "uni061E", "uni061F", "uni0621", "uni0622", "uni0623",
-            "uni0624", "uni0625", "uni0626", "uni0627", "uni0628", "uni0629",
-            "uni062A", "uni062B", "uni062C", "uni062D", "uni062E", "uni062F",
-            "uni0630", "uni0631", "uni0632", "uni0633", "uni0634", "uni0635",
-            "uni0636", "uni0637", "uni0638", "uni0639", "uni063A", "uni0640",
-            "uni0641", "uni0642", "uni0643", "uni0644", "uni0645", "uni0646",
-            "uni0647", "uni0648", "uni0649", "uni064A", "uni064B", "uni064C",
-            "uni064D", "uni064E", "uni064F", "uni0650", "uni0651", "uni0652",
-            "uni0653", "uni0654", "uni0655", "uni0656", "uni0657", "uni0658",
-            "uni065C", "uni0660", "uni0661", "uni0662", "uni0663", "uni0664",
-            "uni0665", "uni0666", "uni0667", "uni0668", "uni0669", "uni066E",
-            "uni066F", "uni06A1", "uni06BA", "uni0670", "uni0671", "uni067A",
-            "uni06CC", "uni06D6", "uni06D7", "uni06D8", "uni06D9", "uni06DA",
-            "uni06DB", "uni06DC", "uni06DD", "uni06DE", "uni06DF", "uni06E0",
-            "uni06E1", "uni06E2", "uni06E3", "uni06E4", "uni06E5", "uni06E6",
-            "uni06E7", "uni06E8", "uni06E9", "uni06EA", "uni06EB", "uni06EC",
-            "uni06ED", "uni06F0", "uni06F1", "uni06F2", "uni06F3", "uni06F4",
-            "uni06F5", "uni06F6", "uni06F7", "uni06F8", "uni06F9", "uni08F0",
-            "uni08F1", "uni08F2", "uni2000", "uni2001", "uni2002", "uni2003",
-            "uni2004", "uni2005", "uni2006", "uni2007", "uni2008", "uni2009",
-            "uni200A", "uni200B", "uni200C", "uni200D", "uni200E", "uni200F",
-            "uni2028", "uni2029", "uni202A", "uni202B", "uni202C", "uni202D",
-            "uni202E", "uni202F", "uni25CC", "uniFD3E", "uniFD3F", "uniFDFA",
-            "uniFDFD")
-    quran_glyphs += ("uni030A", "uni0325") # ring above and below
-
-    subsetFont(font, quran_glyphs, True)
-
-    # set font ascent to the highest glyph in the font so that waqf marks don't
-    # get truncated
-    # we could have set os2_typoascent_add and hhea_ascent_add, but ff makes
-    # the offset relative to em-size in the former and font bounds in the
-    # later, but we want both to be relative to font bounds
-    ymax = 0
-    for glyph in font.glyphs():
-        bb = glyph.boundingBox()
-        if bb[-1] > ymax:
-            ymax = bb[-1]
-
-    font.os2_typoascent = font.hhea_ascent = ymax
-
-    # create overline glyph to be used for sajda line, it is positioned
-    # vertically at the level of the base of waqf marks
-    overline_pos = font[0x06D7].boundingBox()[1]
-    makeOverUnderline(font, under=False, o_pos=overline_pos)
-
-    generateFont(font, outfile)
-
 def makeDesktop(infile, outfile, latinfile, feafile, version, generate=True):
     font = fontforge.open(infile)
     font.encoding = "UnicodeFull" # avoid a crash if compact was set
@@ -1058,22 +694,13 @@ def makeDesktop(infile, outfile, latinfile, feafile, version, generate=True):
     # remove anchors that are not needed in the production font
     cleanAnchors(font)
 
-    #makeOverUnderline(font)
+    mergeLatin(font, latinfile)
+    #simpleFontMerge(font, latinfile)
+    makeNumerators(font)
 
-    # sample text to be used by font viewers
-    # sample = 'صِفْ خَلْقَ خَوْدٍ كَمِثْلِ ٱلشَّمْسِ إِذْ بَزَغَتْ يَحْظَىٰ ٱلضَّجِيعُ بِهَا نَجْلَاءَ مِعْطَارِ.'
-    #
-    # for lang in ('Arabic (Egypt)', 'English (US)'):
-    #     font.appendSFNTName(lang, 'Sample Text', sample)
-
-    if latinfile:
-        # mergeLatin(font, latinfile)
-        simpleFontMerge(font, latinfile)
-        makeNumerators(font)
-
-        # we want to merge features after merging the latin font because many
-        # referenced glyphs are in the latin font
-        prepareFeatures(font, feafile)
+    # we want to merge features after merging the latin font because many
+    # referenced glyphs are in the latin font
+    prepareFeatures(font, feafile)
 
 
     if generate:
@@ -1092,7 +719,6 @@ Options:
   --output=FILE         file name of output font
   --features=FILE       file name of features file
   --version=VALUE       set font version to VALUE
-  --slant=VALUE         autoslant
 
   -h, --help            print this message and exit
 """ % os.path.basename(sys.argv[0])
@@ -1104,12 +730,11 @@ if __name__ == "__main__":
     #if fontforge.version() < min_ff_version:
     #    print "You need FontForge %s or newer to build Amiri fonts" %min_ff_version
     #    sys.exit(-1)
-
     import getopt
     try:
         opts, args = getopt.gnu_getopt(sys.argv[1:],
                 "h",
-                ["help", "input=", "output=", "latin=", "features=", "version=", "slant=", "quran"])
+                ["help", "input=", "output=", "latin=", "features=", "version="])
     except getopt.GetoptError, err:
         usage(str(err), -1)
 
@@ -1129,8 +754,6 @@ if __name__ == "__main__":
         elif opt == "--latin": latinfile = arg
         elif opt == "--features": feafile = arg
         elif opt == "--version": version = arg
-        elif opt == "--slant": slant = float(arg)
-        elif opt == "--quran": quran = True
 
     if not infile:
         usage("No input file specified", -1)
@@ -1142,9 +765,4 @@ if __name__ == "__main__":
     if not feafile:
         usage("No features file specified", -1)
 
-    if slant:
-        makeSlanted(infile, outfile, latinfile, feafile, version, slant)
-    elif quran:
-        makeQuran(infile, outfile, latinfile, feafile, version)
-    else:
-        makeDesktop(infile, outfile, latinfile, feafile, version)
+    makeDesktop(infile, outfile, latinfile, feafile, version)
