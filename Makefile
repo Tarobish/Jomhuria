@@ -54,11 +54,11 @@ ttf: $(DTTF)
 web: $(WTTF) $(WOFF) $(WOF2) $(EOTS) $(CSSS)
 doc: $(PDFTABLE) $(DDTDOCS)
 
-$(GEN)/$(NAME).ttf: $(SRC)/$(SOURCENAME).sfdir $(SRC)/$(SOURCENAME)-latin.sfdir $(SRC)/$(SOURCENAME).fea $(FEAT) $(BUILD)
+$(GEN)/$(NAME).ttf: $(SRC)/$(SOURCENAME).sfdir $(SRC)/$(SOURCENAME)-latin.ufo $(SRC)/$(SOURCENAME).fea $(FEAT) $(BUILD)
 	@echo "   FF	$@"
 	@mkdir -p $(GEN)
 	@$(PP) $(SRC)/$(SOURCENAME).fea -o $(SRC)/$(SOURCENAME).fea.pp
-	@$(FF) --input $< --output $@ --latin $(SRC)/$(SOURCENAME)-latin.sfdir --features=$(SRC)/$(SOURCENAME).fea.pp --version $(VERSION)
+	@$(FF) --input $< --output $@ --latin $(SRC)/$(SOURCENAME)-latin.ufo --features=$(SRC)/$(SOURCENAME).fea.pp --version $(VERSION)
 
 $(WEB)/%.ttf: $(GEN)/%.ttf $(MAKEWEB)
 	@echo "   FF	$@"
