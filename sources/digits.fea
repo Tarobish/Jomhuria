@@ -1,14 +1,14 @@
 feature pnum {
-  sub zero by zero.prop;
-  sub one by one.prop;
-  sub two by two.prop;
-  sub three by three.prop;
-  sub four by four.prop;
-  sub five by five.prop;
-  sub six by six.prop;
-  sub seven by seven.prop;
-  sub eight by eight.prop;
-  sub nine by nine.prop;
+//  sub zero by zero.prop;
+//  sub one by one.prop;
+//  sub two by two.prop;
+//  sub three by three.prop;
+//  sub four by four.prop;
+//  sub five by five.prop;
+//  sub six by six.prop;
+//  sub seven by seven.prop;
+//  sub eight by eight.prop;
+//  sub nine by nine.prop;
   sub uni0660 by uni0660.prop;
   sub uni0661 by uni0661.prop;
   sub uni0662 by uni0662.prop;
