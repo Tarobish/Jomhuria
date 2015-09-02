@@ -89,11 +89,6 @@ define([
       , 'uni06CC.medi_High'
       , 'uni0767.medi_High'
       , 'uni064A.init_BaaYaaIsol'
-      , 'uniFEF3'
-      , 'u1EE29'
-      , 'uniFB58'
-      , 'uniFB5C'
-      , 'uniFBFE'
     ].map(Glyph.factory)
     .filter(function(glyph) {
         var type = glyph.getType('_nocontext_');
@@ -120,17 +115,6 @@ define([
         // if it is normalized to \u0627 \u065F this will be easy
       , 'uni0673.fina' // ARABIC LETTER ALEF WITH WAVY HAMZA BELOW
       , 'uni0671.fina' // ARABIC LETTER ALEF WASLA with an alef above, Koranic Arabic
-
-        // I don't care much about these. Where these codepoints are used
-        // advanced typographical features are not known or not wanted.
-        // maybe we should remove mentioning of these in the feature files,
-        // it is rather over engineering to support these.
-      , 'uniFB51'
-      , 'uniFE82'
-      , 'uniFE84'
-      , 'uniFE88'
-      , 'uniFE8E'
-      , 'u1EE6F'
     ].map(Glyph.factory);
     marksBelow = [
        'uni0655'
@@ -179,8 +163,6 @@ define([
               createElement('h1', null, 'Collision of final Alef below the baseline.')
             , createElement('p', null, 'When a final Alef has a Mark below the baseline, '
                   + 'we shouldn\'t produce collisions with the glyph before the Alef.')
-            , createElement('p', null, 'Note that uniF{xxx} and u{xxxx} glyphs are not meant to '
-                                      +'join properly with uni0{xxx} glyphs.')
           ]
           , table = new Table(axes, [0, 2, 1]) //[sectionAxis, rowAxis, columnAxis]
           , state = new TableContent(info, table)

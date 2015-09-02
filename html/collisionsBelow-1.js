@@ -94,11 +94,7 @@ define([
       , 'uni06CC.medi_High'
       , 'uni0767.medi_High'
       , 'uni064A.init_BaaYaaIsol'
-      , 'uniFEF3'
       , 'u1EE29'
-      , 'uniFB58'
-      , 'uniFB5C'
-      , 'uniFBFE'
     ].map(Glyph.factory).filter(filterApplicableTypes);
     second = [
         'uni0647.medi'
@@ -128,17 +124,6 @@ define([
       , 'uni06D2.fina_PostToothFina'
       , 'uni0625.fina'
       , 'uni0673.fina'
-      , 'uniFBA9'
-      , 'uniFBAF'
-      , 'uniFBE5'
-      , 'uniFBFD'
-      , 'uniFC10'
-      , 'uniFC90'
-      , 'uniFD17'
-      , 'uniFD18'
-      , 'uniFE8A'
-      , 'uniFEF0'
-      , 'uniFEF2'
     ].map(Glyph.factory).filter(filterApplicableTypes);
 
     filler = [undefined];
@@ -192,8 +177,6 @@ define([
         var info = [
                 createElement('h1', null, 'Collisions below the baseline')
               , createElement('p', null, 'The glyphs should not collide.')
-              , createElement('p', null, 'Note that uniF{xxx} and u{xxxx} glyphs are not meant to '
-                                          +'join properly with uni0{xxx} glyphs.')
             ]
           , table = new Table(axes, [2, 0, 1]) //[sectionAxis, rowAxis, columnAxis]
           , state = new TableContent(info, table)
