@@ -588,7 +588,13 @@ def mergeLatin(font, latinfile, glyphs=None):
     # existing glyphs from the Arabic.
     overlapping = {name for name in font} & {name for name in latinfont}
     for name in overlapping:
-        font[name].clear()
+        # Maybe font.removeGlyph(name) is the better strategy than font[name].clear()
+        # As it seems that the newly merged glyphs don't set all properties
+        # of the glyph new on font.mergeFonts(latin)
+        # If there are no references, removeGlyph should be better (there
+        # were none when writing this)
+        font.removeGlyph(name)
+
 
     compositions = buildComposition(latinfont, latinglyphs)
     latinglyphs += compositions
