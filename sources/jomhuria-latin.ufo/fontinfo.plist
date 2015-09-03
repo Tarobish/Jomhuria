@@ -7,7 +7,7 @@
 	<key>capHeight</key>
 	<integer>1172</integer>
 	<key>copyright</key>
-	<string>Copyright 2015 Korosh Beigpour (www.k-b-studio.com|tarobish@gmail.com). Copyright 2015, Lasse Fister (lasse@graphicore.de). Copyright 2010-2015 Khaled Hosny (khaledhosny@eglug.org). </string>
+	<string>Copyright 2015 Korosh Beigpour (www.k-b-studio.com|tarobish@gmail.com). Copyright 2015 Lasse Fister (lasse@graphicore.de). Copyright 2015 Sorkin Type Co (www.sorkintype.com). Copyright 2010-2015 Khaled Hosny (khaledhosny@eglug.org). </string>
 	<key>descender</key>
 	<integer>-1160</integer>
 	<key>familyName</key>
@@ -40,7 +40,7 @@
 	<key>openTypeNameDesignerURL</key>
 	<string>https://github.com/Tarobish/Jomhuria</string>
 	<key>openTypeNameLicense</key>
-	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL</string>
+	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
 	<key>openTypeNameLicenseURL</key>
 	<string>http://scripts.sil.org/OFL</string>
 	<key>openTypeNameManufacturer</key>
@@ -48,7 +48,7 @@
 	<key>openTypeNameManufacturerURL</key>
 	<string>https://github.com/Tarobish/Jomhuria</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
-	<string>Bold Italic</string>
+	<string>Regular</string>
 	<key>openTypeNameSampleText</key>
 	<string></string>
 	<key>openTypeNameUniqueID</key>
@@ -154,11 +154,11 @@
 		<integer>0</integer>
 	</array>
 	<key>postscriptFontName</key>
-	<string>Jomhuria-BoldItalic</string>
+	<string>Jomhuria-Regular</string>
 	<key>postscriptForceBold</key>
 	<false/>
 	<key>postscriptFullName</key>
-	<string>Jomhuria Bold Italic</string>
+	<string>Jomhuria</string>
 	<key>postscriptIsFixedPitch</key>
 	<false/>
 	<key>postscriptUnderlinePosition</key>
@@ -174,7 +174,7 @@
 	<key>styleMapStyleName</key>
 	<string>regular</string>
 	<key>styleName</key>
-	<string>Bold Italic</string>
+	<string>Regular</string>
 	<key>trademark</key>
 	<string></string>
 	<key>unitsPerEm</key>
