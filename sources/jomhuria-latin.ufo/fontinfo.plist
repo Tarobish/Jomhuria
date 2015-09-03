@@ -48,7 +48,7 @@
 	<key>openTypeNameManufacturerURL</key>
 	<string>https://github.com/Tarobish/Jomhuria</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
-	<string>Bold Italic</string>
+	<string>Regular</string>
 	<key>openTypeNameSampleText</key>
 	<string></string>
 	<key>openTypeNameUniqueID</key>
@@ -154,11 +154,11 @@
 		<integer>0</integer>
 	</array>
 	<key>postscriptFontName</key>
-	<string>Jomhuria-BoldItalic</string>
+	<string>Jomhuria-Regular</string>
 	<key>postscriptForceBold</key>
 	<false/>
 	<key>postscriptFullName</key>
-	<string>Jomhuria Bold Italic</string>
+	<string>Jomhuria</string>
 	<key>postscriptIsFixedPitch</key>
 	<false/>
 	<key>postscriptUnderlinePosition</key>
@@ -174,7 +174,7 @@
 	<key>styleMapStyleName</key>
 	<string>regular</string>
 	<key>styleName</key>
-	<string>Bold Italic</string>
+	<string>Regular</string>
 	<key>trademark</key>
 	<string></string>
 	<key>unitsPerEm</key>
