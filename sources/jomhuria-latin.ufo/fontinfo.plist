@@ -7,7 +7,7 @@
 	<key>capHeight</key>
 	<integer>1172</integer>
 	<key>copyright</key>
-	<string>Copyright 2015 Korosh Beigpour (www.k-b-studio.com|tarobish@gmail.com). Copyright 2015, Lasse Fister (lasse@graphicore.de). Copyright 2010-2015 Khaled Hosny (khaledhosny@eglug.org). </string>
+	<string>Copyright 2015 Korosh Beigpour (www.k-b-studio.com|tarobish@gmail.com). Copyright 2015 Lasse Fister (lasse@graphicore.de). Copyright 2015 Sorkin Type Co (www.sorkintype.com). Copyright 2010-2015 Khaled Hosny (khaledhosny@eglug.org). </string>
 	<key>descender</key>
 	<integer>-1160</integer>
 	<key>familyName</key>
@@ -40,7 +40,7 @@
 	<key>openTypeNameDesignerURL</key>
 	<string>https://github.com/Tarobish/Jomhuria</string>
 	<key>openTypeNameLicense</key>
-	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL</string>
+	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
 	<key>openTypeNameLicenseURL</key>
 	<string>http://scripts.sil.org/OFL</string>
 	<key>openTypeNameManufacturer</key>
