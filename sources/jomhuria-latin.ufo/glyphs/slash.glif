@@ -9,12 +9,6 @@
       <point x="27" y="0" type="line"/>
       <point x="292" y="0" type="line"/>
     </contour>
-    <contour>
-      <point x="682" y="1289" type="line"/>
-      <point x="418" y="1289" type="line"/>
-      <point x="27" y="0" type="line"/>
-      <point x="292" y="0" type="line"/>
-    </contour>
   </outline>
   <lib>
     <dict>
