@@ -46,8 +46,9 @@ def isValid(name):
               , 'dash.gaf', 'twostrokes.below']:
         if name.startswith(pre):
             return False
-        #we use 'fi' and 'fl' instead
-        if name in ('f_i', 'f_l'):
+        # we use 'fi' and 'fl' instead
+        # the latin uni25CC is missing the anchors
+        if name in ('f_i', 'f_l', 'uni25CC'):
             return False;
     if not name.startswith('uni'):
         return True;
