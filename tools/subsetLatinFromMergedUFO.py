@@ -46,8 +46,9 @@ def isValid(name):
               , 'dash.gaf', 'twostrokes.below']:
         if name.startswith(pre):
             return False
-
-
+        #we use 'fi' and 'fl' instead
+        if name in ('f_i', 'f_l'):
+            return False;
     if not name.startswith('uni'):
         return True;
 
@@ -88,7 +89,7 @@ if __name__ == '__main__':
     print 'overlapping and valid', sorted(overlapping)
 
 
-    writer = UFOWriter('new.ufo', formatVersion=2)
+    writer = UFOWriter('sources/jomhuria-latin.ufo', formatVersion=2)
     newGlypsSet = writer.getGlyphSet()
 
 

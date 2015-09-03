@@ -6,9 +6,9 @@ feature locl {
 
 feature liga {
   sub f f  by f_f;
-  sub f i  by f_i;
+  sub f i  by fi;
   sub f f i  by f_f_i;
-  sub f l  by f_l;
+  sub f l  by fl;
   sub f f l  by f_f_l;
   sub f b  by f_b;
   sub f f b  by f_f_b;
