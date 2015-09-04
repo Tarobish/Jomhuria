@@ -1,6 +1,6 @@
 StartChar: uni06BC.medi
 Encoding: 1114332 -1 326
-Width: 684
+Width: 704
 VWidth: 0
 Flags: HW
 HStem: -245.405 69.3252<-57.8247 77.3378> -6.1816 69.5859<-57.8817 77.3486> 0 436.271<-50 266.26 477.158 734.791> 696 303.367
@@ -12,6 +12,6 @@ Back
 Fore
 Refer: 10 -1 N 1 0 0 1 0 0 2
 Refer: 75 -1 N 1 0 0 1 110 696 2
-Refer: 96 -1 S 1 0 0 1 34 88 2
+Refer: 96 -1 N 1 0 0 1 34 88 2
 Colour: ffffff
 EndChar
