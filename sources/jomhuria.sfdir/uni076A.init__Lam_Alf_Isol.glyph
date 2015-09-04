@@ -8,6 +8,7 @@ VStem: 105.651 753.424<41.3368 431.686>
 AnchorPoint: "TashkilAbove" 800 1450 basechar 0
 AnchorPoint: "TashkilBelow" 500 -210 basechar 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 936 809 m 5

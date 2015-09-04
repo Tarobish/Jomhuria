@@ -2,12 +2,13 @@ StartChar: uni06B6.init
 Encoding: 1114543 -1 602
 Width: 575
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 436.188<-70 224.439> 1363 303.367
 VStem: -70 494.436<92.1313 436.188> 68.405 303.368
 AnchorPoint: "TashkilAbove" 260 1774 basechar 0
 AnchorPoint: "TashkilBelow" 150 -210 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 31 -1 N 1 0 0 1 0 0 2
 Refer: 75 -1 S 1 0 0 1 220 1363 2

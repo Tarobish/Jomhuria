@@ -1,6 +1,6 @@
 StartChar: uni0620.fina
 Encoding: 1114674 -1 805
-Width: 1358
+Width: 1378
 VWidth: 0
 Flags: HW
 HStem: -922.405 69.3252<627.175 762.338> -683.182 69.5859<627.118 762.349> -550.956 420.174<391.949 620.995 621.185 1040.01> 0 436.188<785.847 1068.72 1244.3 1474.89>
@@ -9,6 +9,7 @@ AnchorPoint: "TashkilAbove" 600 450 basechar 0
 AnchorPoint: "TashkilBelow" 730 -1120 basechar 0
 AnchorPoint: "AlefAbove" 478 300 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 58 -1 N 1 0 0 1 0 0 2
 Refer: 96 -1 N 1 0 0 1 719 -589 2
