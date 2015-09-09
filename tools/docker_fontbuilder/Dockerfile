@@ -2,19 +2,42 @@ from debian/sortsmill
 
 RUN  apt-get update && apt-get install -y\
 	subversion \
-	ant
+	ant \
+	libicu-dev \
+	openjdk-7-jdk \
+	python-numpy \
+	gobject-introspection \
+	python-gobject-dev \
+	pkg-config ragel gtk-doc-tools \
+	libgirepository1.0-dev \
+	libpdf-api2-perl \
+	libintl-perl \
+	fntsample \
+	texlive-xetex \
+	wget \
+	xzdec \
+	latexmk \
+	packaging-dev \
+	pkg-config \
+	python-dev \
+	giflib-dbg \
+	libjpeg-dev \
+	libtiff-dev \
+	uthash-dev \
+	automake \
+	flex \
+	bison \
+	&& rm -rf /var/lib/apt/lists/*
 
 # pdfoutline
 # fntsample
 # hb-shape
 # ot-sanitise
 
-RUN mkdir /var/build;
+RUN mkdir -p /var/build;
 
 RUN cd /var/build \
  	&& svn checkout http://sfntly.googlecode.com/svn/trunk/ sfntly-read-only
-
-RUN apt-get install -y libicu-dev openjdk-7-jdk
 
 ENV JAVA_TOOL_OPTIONS -Dfile.encoding=UTF8
 
@@ -28,53 +51,51 @@ RUN echo "#! /bin/sh" > /usr/local/bin/sfnttool \
 RUN cd /var/build \
 	&& git clone https://github.com/google/woff2.git \
 	&& cd woff2 \
+	&& echo `git config --get remote.origin.url` at `git rev-parse HEAD` >> /var/build/versions.txt \
 	&& git submodule init \
 	&& git submodule update \
 	&& make clean all \
 	&& ln -s `pwd`/woff2_compress /usr/local/bin/ \
 	&& ln -s `pwd`/woff2_decompress /usr/local/bin/
 
-RUN apt-get install -y python-numpy
-
 RUN cd /var/build \
 	&& git clone https://github.com/behdad/fonttools.git \
 	&& cd fonttools \
-	&& python setup.py install
+	&& echo `git config --get remote.origin.url` at `git rev-parse HEAD` >> /var/build/versions.txt \
+	&& python setup.py install \
+	&& cd /var/build \
+	&& rm -rf fonttools
 
 RUN  cd /var/build \
 	&& git clone --recursive https://github.com/khaledhosny/ots.git \
 	&& cd ots \
+	&& echo `git config --get remote.origin.url` at `git rev-parse HEAD` >> /var/build/versions.txt \
 	&& ./autogen.sh \
 	&& ./configure \
 	&&  make \
 	&& ln -s `pwd`/out/Default/ot-sanitise /usr/local/bin
 
-RUN apt-get install -y \
-	gobject-introspection \
-	python-gobject-dev \
-	pkg-config ragel gtk-doc-tools \
-	libgirepository1.0-dev
-
 RUN cd /var/build \
-	&& git clone https://github.com/behdad/harfbuzz.git
-
-run cd var/build/harfbuzz \
+	&& git clone https://github.com/behdad/harfbuzz.git \
+	&& cd harfbuzz \
+	&& echo `git config --get remote.origin.url` at `git rev-parse HEAD` >> /var/build/versions.txt \
 	&& ./autogen.sh \
 	&& make distclean \
 	&& mkdir .build \
 	&& cd .build \
 	&&  ../configure --with-gobject --enable-introspection \
 	&& make \
-	&& make install
-
-RUN apt-get install -y libpdf-api2-perl libintl-perl fntsample texlive-xetex wget xzdec latexmk
+	&& make install \
+	&& cd /var/build \
+	&& rm -rf harfbuzz
 
 RUN tlmgr init-usertree \
 	&& tlmgr install bidi iftex
 
-RUN cd var/build \
+RUN cd /var/build \
 	&& git clone https://github.com/robofab-developers/robofab.git \
 	&& cd robofab \
+	&& echo `git config --get remote.origin.url` at `git rev-parse HEAD` >> /var/build/versions.txt \
 	&& git checkout ufo3k \
 	&& python install.py
 
@@ -92,39 +113,53 @@ RUN cd var/build \
 # fontforge is better in reading and writing ufo from sfd
 # because these improvements came after the sortsmill fork, AFAIK.
 
-RUN apt-get install -y \
-	packaging-dev \
-	pkg-config \
-	python-dev \
-	giflib-dbg \
-	libjpeg-dev \
-	libtiff-dev \
-	uthash-dev \
-	automake \
-	flex \
-	bison \
-	&& rm -rf /var/lib/apt/lists/*
 
 # build libuninameslist
 
 RUN cd /var/build \
 	&& git clone https://github.com/fontforge/libuninameslist.git \
 	&& cd libuninameslist \
+	&& echo `git config --get remote.origin.url` at `git rev-parse HEAD` >> /var/build/versions.txt \
 	&& autoreconf -i \
 	&& automake --foreign \
 	&& mkdir .build \
 	&& cd .build \
 	&& ../configure \
 	&& make \
-	&& make install
+	&& make install \
+	&& cd /var/build \
+	&& rm -rf libuninameslist
 
 RUN cd /var/build \
 	&& git clone https://github.com/fontforge/fontforge.git\
 	&& cd fontforge \
+	&& echo `git config --get remote.origin.url` at `git rev-parse HEAD` >> /var/build/versions.txt \
 	&& ./bootstrap \
 	&& mkdir .build \
 	&& cd .build \
 	&& ../configure \
 	&& make \
 	&& make install \
-	&& ldconfig
+	&& ldconfig \
+	&& cd /var/build \
+	&& rm -rf fontforge
+
+RUN cd /var/build \
+	&& git clone https://github.com/typesupply/defcon.git \
+	&& cd defcon \
+	&& echo `git config --get remote.origin.url` at `git rev-parse HEAD` >> /var/build/versions.txt \
+	&& git checkout ufo3 \
+	&& python setup.py install \
+	&& cd /var/build \
+	&& rm -rf defcon
+
+RUN cd /var/build \
+	&& git clone https://github.com/typemytype/booleanOperations.git \
+	&& cd booleanOperations/cppWrapper \
+	&& python setup.py build_ext --inplace \
+	&& cp pyClipper.so ../Lib/booleanOperations/pyClipper.so \
+	&& cd .. \
+	&& echo `git config --get remote.origin.url` at `git rev-parse HEAD` >> /var/build/versions.txt \
+	&& python setup.py install \
+	&& cd /var/build \
+	&& rm -rf booleanOperations
