@@ -21,6 +21,10 @@ import sys
 import os
 from tempfile import mkstemp
 from string import Template
+import defcon
+from booleanOperations.booleanGlyph import BooleanGlyph
+from fontTools.ttLib import TTFont
+
 
 def cleanAnchors(font):
     """Removes anchor classes (and associated lookups) that are used only
@@ -439,37 +443,49 @@ def prepareFeatures(font, feafile):
     # now merge it into the font
     font.mergeFeatureString(fea_text)
 
-def generateFont(font, outfile):
+def mergeContours(glyph):
+    # remember stuff that get's lost when drawing to a fontforge glyph
+    width = glyph.width
+    vwidth = glyph.vwidth
+    anchorPoints = tuple(glyph.anchorPoints)
+
+    # make a defcon glyph
+    dcGlyph = defcon.Glyph()
+    dcGlyphPen = dcGlyph.getPen()
+
+    # draw to dcGlyph
+    glyph.draw(dcGlyphPen)
+
+    # union of dcGlyph
+    result = BooleanGlyph(dcGlyph).removeOverlap()
+    targetPen = glyph.glyphPen()
+    result.draw(targetPen)
+
+    # restore stuff that a pen should rather not change automagically
+    # in fact, the pen should not reset anything besides outline and components.
+    glyph.width = width
+    glyph.vwidth = vwidth
+    [glyph.addAnchorPoint(*p) for p in anchorPoints]
+
+def generateTTF(font, outfile):
     flags  = ("opentype", "dummy-dsig", "round", "omit-instructions")
+    font.generate(outfile, flags=flags)
 
-    font.selection.all()
-    font.correctReferences()
-    font.selection.none()
-
-    # fix some common font issues
-    validateGlyphs(font)
-
-    tmpfile = mkstemp(suffix=os.path.basename(outfile))[1]
-    font.generate(tmpfile, flags=flags)
-    font.close()
-
+def cleanTTF(ttfFile, outfile):
     # now open in fontTools
-    from fontTools.ttLib import TTFont
-    ftfont = TTFont(tmpfile)
-
+    ftfont = TTFont(ttfFile)
 
     # the ttf contains NAME table IDs with platformID="1", these should be removed
     name = ftfont['name']
     names = []
     for record in name.names:
         if record.platformID == 1:
-            continue;
+            continue
         names.append(record)
     name.names = names
 
     # remove non-standard 'FFTM' the FontForge time stamp table
     del ftfont['FFTM'];
-
 
     # force compiling tables by fontTools, saves few tens of KBs
     for tag in ftfont.keys():
@@ -478,7 +494,22 @@ def generateFont(font, outfile):
 
     ftfont.save(outfile)
     ftfont.close()
-    os.remove(tmpfile)
+
+def generateFont(font, outfile):
+    font.selection.all()
+    font.correctReferences()
+    font.selection.none()
+
+    # fix some common font issues
+    validateGlyphs(font)
+
+    for name in font:
+        mergeContours(font[name])
+
+    tmpfile = os.path.join(os.path.dirname(outfile), '~tmp.ttf')
+    generateTTF(font, tmpfile)
+    cleanTTF(tmpfile, outfile)
+    os.unlink(tmpfile)
 
 def centerGlyph(glyph):
     width = glyph.width
