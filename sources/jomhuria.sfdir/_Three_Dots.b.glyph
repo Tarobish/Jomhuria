@@ -8,7 +8,6 @@ VStem: -278.122 563.806
 AnchorPoint: "TashkilBelowDot" 0 -401 basemark 0
 AnchorPoint: "TwoDotsBelow" -111 140 mark 0
 LayerCount: 2
-Back
 Fore
 Refer: 77 -1 S 1 0 0 1 2 -260 2
 Colour: ffffff

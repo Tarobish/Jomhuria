@@ -7,7 +7,6 @@ HStem: 0 303.367
 AnchorPoint: "TashkilBelowDot" 40 -190 basemark 0
 AnchorPoint: "TwoDotsBelow" 0 190 mark 0
 LayerCount: 2
-Back
 Fore
 SplineSet
 -280 291.19921875 m 1
