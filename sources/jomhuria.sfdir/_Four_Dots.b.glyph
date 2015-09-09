@@ -2,13 +2,14 @@ StartChar: FourDots.b
 Encoding: 1114203 -1 108
 Width: 0
 GlyphClass: 4
-Flags: W
+Flags: HW
 HStem: 0 564.253
 VStem: -282.122 563.806
 AnchorPoint: "TwoDotsBelow" -141 380 mark 0
 AnchorPoint: "TashkilBelowDot" 0 -190 basemark 0
 LayerCount: 2
+Back
 Fore
-Refer: 107 -1 N 1 0 0 1 0 0 2
+Refer: 107 -1 S 1 0 0 1 0 0 2
 Colour: ffffff
 EndChar

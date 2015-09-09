@@ -2,7 +2,7 @@ StartChar: Dot.a
 Encoding: 1114183 -1 75
 Width: 0
 GlyphClass: 4
-Flags: W
+Flags: HW
 HStem: 0 303.367
 VStem: -151.595 303.368
 AnchorPoint: "TashkilAboveDot" -50 400 basemark 0
@@ -24,11 +24,15 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-0 0 m 5
- -151.594726562 151.68359375 l 5
- 0 303.3671875 l 5
- 151.7734375 151.68359375 l 5
- 0 0 l 5
+-18.2001953125 303.19921875 m 261
+ -149.400390625 172 l 261
+ -149.400390625 144 l 261
+ -18.2001953125 12 l 261
+ 12.2001953125 12 l 261
+ 149 144 l 261
+ 149 172 l 261
+ 12.2001953125 303.19921875 l 261
+ -18.2001953125 303.19921875 l 261
 EndSplineSet
 Colour: ffff00
 EndChar

@@ -2,12 +2,13 @@ StartChar: dot.alt1
 Encoding: 1114200 -1 97
 Width: 0
 GlyphClass: 4
-Flags: W
+Flags: HW
 HStem: 0 303.367
 VStem: -151.595 303.368
 AnchorPoint: "TashkilBelowDot" 30 -140 basemark 0
 AnchorPoint: "DotAlt" 0 140 mark 0
 LayerCount: 2
+Back
 Fore
 Refer: 75 -1 N 1 0 0 1 0 0 2
 Colour: ffffff
