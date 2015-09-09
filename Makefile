@@ -57,8 +57,8 @@ doc: $(PDFTABLE) $(DDTDOCS)
 $(GEN)/$(NAME).ttf: $(SRC)/$(SOURCENAME).sfdir $(SRC)/$(SOURCENAME)-latin.ufo $(SRC)/$(SOURCENAME).fea $(FEAT) $(BUILD)
 	@echo "   FF	$@"
 	@mkdir -p $(GEN)
-	@$(PP) $(SRC)/$(SOURCENAME).fea -o $(SRC)/$(SOURCENAME).fea.pp
-	@$(FF) --input $< --output $@ --latin $(SRC)/$(SOURCENAME)-latin.ufo --features=$(SRC)/$(SOURCENAME).fea.pp --version $(VERSION)
+	@$(PP) $(SRC)/$(SOURCENAME).fea -o $(GEN)/$(SOURCENAME).fea.pp
+	@$(FF) --input $< --output $@ --latin $(SRC)/$(SOURCENAME)-latin.ufo --features=$(GEN)/$(SOURCENAME).fea.pp --version $(VERSION)
 
 $(WEB)/%.ttf: $(GEN)/%.ttf $(MAKEWEB)
 	@echo "   FF	$@"
