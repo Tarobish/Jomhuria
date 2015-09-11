@@ -22,8 +22,9 @@ languagesystem latn TRK;
 
 #include "stylisticsets.fea"
 
-#include "kerning.fea"
+// generated features for anchor points will be inserted here by build script
+{%anchors%}
 
 #include "latin.fea"
 
-#include "kern-arabic.fea"
+#include "kerning.fea"
