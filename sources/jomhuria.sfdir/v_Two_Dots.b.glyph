@@ -2,12 +2,13 @@ StartChar: vTwoDots.b
 Encoding: 1114198 -1 95
 Width: 0
 GlyphClass: 4
-Flags: HW
-HStem: -190 563.807
-VStem: -111.684 303.367
+Flags: W
+HStem: -190.2 564.4
+VStem: -105.199 291.199
 AnchorPoint: "TashkilBelowDot" 40 -330 basemark 0
 AnchorPoint: "DotBelow" 0 140 mark 0
 LayerCount: 2
+Back
 Fore
 Refer: 94 -1 N 1 0 0 1 40 -190 2
 Colour: ffffff
