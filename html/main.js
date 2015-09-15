@@ -9,18 +9,51 @@ require([
     /*global document:true window:true*/
 
     var createElement = domStuff.createElement
-      , makeTable = domStuff.makeTable
-      , makeTableHead = domStuff.makeTableHead
+      , isDOMElement = domStuff.isDOMElement
       ;
 
+    function utf8_to_b64(str) {
+        return window.btoa(unescape(encodeURIComponent(str)));
+    }
+
+    function b64_to_utf8(str) {
+        return decodeURIComponent(escape(window.atob(str)));
+    }
+
+    function getPathAndPayload(string) {
+        var path, payload, payloadIndex;
+        payloadIndex = string.indexOf('?');
+        if(payloadIndex !== -1) {
+            try {
+            payload = b64_to_utf8(string.slice(payloadIndex+1));
+            } catch(e) {
+                console.warn('Can\'t parse payload with error:');
+                console.info(e);
+            }
+
+            path = string.slice(0, payloadIndex);
+        }
+        else
+            path = string;
+
+        return [path, payload];
+    }
+
+    function getGlobalPathAndPayload() {
+        var hash = window.location.hash;
+        hash = hash.length ? hash.slice(1) : hash;// ??? explain
+        return getPathAndPayload(hash);
+    }
 
     function getPage(pages, fallback) {
-        var hash = window.location.hash, path, piece, dir, page;
-        hash = hash.length ? hash.slice(1) : hash;
-        if(hash === '')
-            hash = 'index';
+        var path, piece, dir, page
+          , pathAndPayload, payload
+          ;
+        pathAndPayload =  getGlobalPathAndPayload();
 
-        path = hash.split('/');
+        payload = pathAndPayload[1] || null;
+        path = pathAndPayload[0].split('/');
+
         dir = pages;
         while((piece = path.shift()) !== undefined) {
             if(piece === '') continue;
@@ -32,20 +65,46 @@ require([
             if(!page) break;
             dir = page['/'];
         }
+        if(!page && fallback !== undefined && fallback in pages)
+            page = pages[fallback];
         if(page)
-            return page;
-        else if (fallback !== undefined && (fallback || 'index') in pages)
-            return pages[fallback || 'index'];
+            return [page, payload];
         return undefined;
     }
 
-    function showPage(target, page) {
+    function loadPage(target, page) {
+        var loadedPage = {module: page[0]}, generated;
         while(target.lastChild)
             target.removeChild(target.lastChild);
-        var href = window.location.href;
-        target.ownerDocument.title = page.title;
-        target.appendChild(page.generate());
+        target.ownerDocument.title = page[0].title;
+
+        generated = page[0].generate(childApi);
+        if(isDOMElement(generated))
+            target.appendChild(generated);
+        else {
+            loadedPage.api = generated;
+            target.appendChild(generated.dom);
+            if(loadedPage.api.initHandler)
+                loadedPage.api.initHandler();
+            if(loadedPage.api.payloadChangeHandler)
+                loadedPage.api.payloadChangeHandler(page[1]);
+        }
+
+
+        return loadedPage;
     }
+
+    var childApi = {
+        setPayload: function(newData) {
+            var pathAndPayload = getGlobalPathAndPayload()
+              , currentData = pathAndPayload[1]
+              ;
+
+            if(currentData === newData)
+                return;
+            window.location.hash = pathAndPayload[0] + '?' +  utf8_to_b64(newData);
+        }
+    };
 
     function renderMenu(target, pages, prefix) {
         var k
@@ -55,7 +114,7 @@ require([
           , here
           ;
         for(k in pages) {
-            here = _prefix + k;
+            here = _prefix + encodeURIComponent(k);
             child = createElement('li', null);
             children.push(child);
 
@@ -72,19 +131,26 @@ require([
 
     function main() {
         var body = document.body
-          , content = createElement('main', {lang: 'fr', dir:'LTR'})
+          , content = createElement('main', {lang: 'en', dir:'LTR'})
           , nav = createElement('nav')
+          , currentPage
           ;
         function switchPageHandler(e) {
             var page = getPage(pages);
             if(!page) return;
-            e.preventDefault();
-            showPage(content, page);
+            if(page[0] === currentPage.module
+                        && currentPage.api
+                        && currentPage.api.payloadChangeHandler
+                        && currentPage.api.payloadChangeHandler(page[1])) {
+                // the initialized page handled the event
+                return;
+            }
+            currentPage = loadPage(content, page);
         }
         body.appendChild(nav);
         body.appendChild(content);
         renderMenu(nav, pages);
-        showPage(content, getPage(pages, 'index'));
+        currentPage = loadPage(content, getPage(pages, 'index'));
 
         // Listen to hash changes.
         window.addEventListener('hashchange', switchPageHandler, false);

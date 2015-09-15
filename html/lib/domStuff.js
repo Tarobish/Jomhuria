@@ -82,6 +82,9 @@ define([
         return frag;
     }
 
+    function isDOMElement(node) {
+        return node && node.nodeType && node.nodeType === 1;
+    }
     return {
         createElement: createElement
       , makeCell: makeCell
@@ -93,5 +96,6 @@ define([
       , createElementfromMarkdown: createElementfromMarkdown
       , appendChildren: appendChildren
       , createFragment: createFragment
+      , isDOMElement: isDOMElement
     };
 });

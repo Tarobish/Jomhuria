@@ -10,6 +10,7 @@ define([
   , 'texts/marks1'
   , 'KafLamAlf-1'
   , 'KafLamAlf-2'
+  , 'lib/fontTester'
 
 ], function(
     domStuff
@@ -23,6 +24,7 @@ define([
   , marksText1
   , kafLamAlf1
   , kafLamAlf2
+  , fontTester
 ){
     "use strict";
     /*global document:true window:true*/
@@ -59,5 +61,6 @@ define([
               , marks1: marksText1
             }
         }
+      , live: fontTester
     };
 });
