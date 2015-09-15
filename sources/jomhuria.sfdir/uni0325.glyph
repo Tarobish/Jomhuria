@@ -9,7 +9,6 @@ AnchorPoint: "TashkilTashkilBelow" 246 -1297 basemark 0
 AnchorPoint: "TashkilTashkilBelow" 223 -848 mark 0
 AnchorPoint: "MarkBelow" 256 -700 mark 0
 LayerCount: 2
-Back
 Fore
 Refer: 1188 778 N 1 0 0 1 0 -2763 2
 Colour: ffffff
