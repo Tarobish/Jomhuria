@@ -24,6 +24,8 @@ from string import Template
 import defcon
 from booleanOperations.booleanGlyph import BooleanGlyph
 from fontTools.ttLib import TTFont
+from ufoLib import UFOReader
+from robofab.pens.boundsPen import ControlBoundsPen
 
 
 def cleanAnchors(font):
@@ -606,6 +608,29 @@ def simpleFontMerge(font, sourcefile):
     #sourcefont = fontforge.open(sourcefile)
     font.mergeFonts(sourcefile)
 
+
+def copyAnchors(font, latinUFO):
+    ufo = UFOReader(latinUFO)
+    glyphset = ufo.getGlyphSet()
+    # mark types are: "mark" "base" "ligature" "basemark" "entry" "exit"
+    className2markType = {
+            'MarkBelow': 'mark'
+          , 'TashkilBelow': 'mark'
+          , 'TashkilTashkilBelow': 'mark'
+    }
+    for name in glyphset.keys():
+        if name not in font: continue
+        glyph = glyphset[name]
+        # need to draw to receive the data of the glyph and that ControlBoundsPen is harmless
+        glyph.draw(ControlBoundsPen(glyphset))
+        anchors = getattr(glyph,'anchors',None)
+        if not anchors: continue
+        print name,  anchors
+        ffglyph = font[name];
+        for anchor in anchors:
+            ffglyph.addAnchorPoint(anchor['name'], className2markType[anchor['name']],anchor['x'],anchor['y'])
+
+
 def mergeLatin(font, latinfile, glyphs=None):
     tmpfont = mkstemp(suffix=os.path.basename(latinfile).replace("ufo", "sfd"))[1]
     latinfont = fontforge.open(latinfile)
@@ -655,6 +680,8 @@ def mergeLatin(font, latinfile, glyphs=None):
 
     font.mergeFonts(tmpfont)
     os.remove(tmpfont)
+
+    copyAnchors(font, latinfile)
 
     buildComposition(font, latinglyphs)
 
