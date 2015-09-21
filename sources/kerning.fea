@@ -44,6 +44,7 @@
 @kern2.MMK_R_YehIso = [aYaa.isol u1EE09 u1EE49 u1EEA9 uni0620 uni0626 uni063D uni063E uni063F uni0649 uni064A uni0678 uni06CC uni06CD uni06CE uni06D0 uni06D1 uni0775 uni0776 uni0777];
 
 lookup kernPureRTL {
+    lookupflag IgnoreMarks;
     # glyph, glyph
     pos uni0622 uni0622 <230 0 230 0>;
     pos uni0622 uni0628 <-30 0 -30 0>;
@@ -218,6 +219,7 @@ lookup kernPureRTL {
 } kernPureRTL;
 
 lookup kernMixedLTR {
+    lookupflag IgnoreMarks;
     # glyph, glyph
     pos braceright uni0622 140;
     pos bracketright uni0622 90;
@@ -353,6 +355,7 @@ lookup kernMixedLTR {
 } kernMixedLTR;
 
 lookup kernMixedRTL {
+    lookupflag IgnoreMarks;
     # glyph, glyph
     pos braceright uni0622 <140 0 140 0>;
     pos bracketright uni0622 <90 0 90 0>;
@@ -489,8 +492,21 @@ lookup kernMixedRTL {
 
 feature kern {
     script latn;
+    language dflt;
+    lookup kernMixedLTR;
+    language TRK ;
     lookup kernMixedLTR;
     script arab;
+    language dflt;
+    lookup kernPureRTL;
+    lookup kernMixedRTL;
+    language ARA ;
+    lookup kernPureRTL;
+    lookup kernMixedRTL;
+    language URD ;
+    lookup kernPureRTL;
+    lookup kernMixedRTL;
+    language SND ;
     lookup kernPureRTL;
     lookup kernMixedRTL;
 } kern;
