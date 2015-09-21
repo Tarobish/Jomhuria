@@ -2,7 +2,7 @@ StartChar: uni0651
 Encoding: 1617 1617 105
 Width: 406
 GlyphClass: 4
-Flags: W
+Flags: WO
 HStem: 1732.83 128.862<84.283 170.041> 1820.37 129.781<232.426 286.157>
 VStem: 46 59.6865<1861.7 1887.38> 170.904 55.0957<1950.32 1977.7> 287.218 68.8691<1950.16 2060.73>
 AnchorPoint: "TashkilTashkilBelow" 200 1500 basemark 0
