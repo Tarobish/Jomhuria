@@ -625,7 +625,6 @@ def copyAnchors(font, latinUFO):
         glyph.draw(ControlBoundsPen(glyphset))
         anchors = getattr(glyph,'anchors',None)
         if not anchors: continue
-        print name,  anchors
         ffglyph = font[name];
         for anchor in anchors:
             ffglyph.addAnchorPoint(anchor['name'], className2markType[anchor['name']],anchor['x'],anchor['y'])
