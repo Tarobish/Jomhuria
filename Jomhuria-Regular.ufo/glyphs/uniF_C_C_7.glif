@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFCC7" format="1">
+  <advance width="1155"/>
+  <unicode hex="FCC7"/>
+  <outline>
+    <component base="uni0644.medi_KafLam"/>
+    <component base="uni0643.init_KafLam" xOffset="415"/>
+  </outline>
+</glyph>

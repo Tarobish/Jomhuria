@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni068A" format="1">
+  <advance width="942"/>
+  <unicode hex="068A"/>
+  <outline>
+    <contour>
+      <point x="450" y="1150" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="500" y="-600" type="move" name="TashkilBelow"/>
+    </contour>
+    <component base="aDal.isol"/>
+    <component base="Dot.b" xOffset="461" yOffset="-384.089"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-384</integer>
+            <key>width</key>
+            <integer>303</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>309</integer>
+            <key>width</key>
+            <integer>303</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

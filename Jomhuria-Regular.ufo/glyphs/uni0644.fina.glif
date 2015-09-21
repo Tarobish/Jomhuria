@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0644.fina" format="1">
+  <advance width="1383"/>
+  <outline>
+    <contour>
+      <point x="900" y="1300" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="650" y="-650" type="move" name="TashkilBelow"/>
+    </contour>
+    <component base="aLam.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-430</integer>
+            <key>width</key>
+            <integer>443</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

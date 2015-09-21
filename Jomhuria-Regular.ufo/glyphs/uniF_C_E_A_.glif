@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFCEA" format="1">
+  <advance width="2538"/>
+  <unicode hex="FCEA"/>
+  <outline>
+    <component base="uni0634.medi" xOffset="1263"/>
+    <component base="uni0647.medi_PostTooth"/>
+  </outline>
+</glyph>

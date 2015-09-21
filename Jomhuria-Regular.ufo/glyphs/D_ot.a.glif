@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Dot.a" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-50" y="400" type="move" name="TashkilAboveDot"/>
+    </contour>
+    <contour>
+      <point x="-50" y="400" type="move" name="MarkDotAbove"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="_DotHmaza"/>
+    </contour>
+    <contour>
+      <point x="0" y="140" type="move" name="_DotAbove"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="-151.595" y="151.684" type="line"/>
+      <point x="0" y="303.367" type="line"/>
+      <point x="151.773" y="151.684" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>303</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-152</integer>
+            <key>width</key>
+            <integer>303</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

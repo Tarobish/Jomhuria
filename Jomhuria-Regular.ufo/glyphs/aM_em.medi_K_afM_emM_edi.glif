@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aMem.medi_KafMemMedi" format="1">
+  <advance width="1091"/>
+  <outline>
+    <contour>
+      <point x="550" y="1050" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="300" y="-210" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="1000.44" y="436.188" type="curve" smooth="yes"/>
+      <point x="1141.79" y="436.188" type="line"/>
+      <point x="1141.79" y="0" type="line"/>
+      <point x="1034.38" y="0" type="line" smooth="yes"/>
+      <point x="913.34" y="0"/>
+      <point x="810.661" y="81.8086"/>
+      <point x="778.104" y="192.556" type="curve"/>
+      <point x="638.418" y="-37.0088" type="line"/>
+      <point x="638.418" y="-37.0088"/>
+      <point x="439.183" y="64.834"/>
+      <point x="259.427" y="111.304" type="curve"/>
+      <point x="241.062" y="54.5391"/>
+      <point x="170.627" y="-0.726562"/>
+      <point x="67.9834" y="0" type="curve" smooth="yes"/>
+      <point x="-50" y="0" type="line"/>
+      <point x="-50" y="436.188" type="line"/>
+      <point x="184.853" y="436.188" type="line"/>
+      <point x="167.322" y="507.145"/>
+      <point x="195.004" y="593.916"/>
+      <point x="280.018" y="708.452" type="curve" smooth="yes"/>
+      <point x="366.557" y="825.043"/>
+      <point x="419.705" y="879.86"/>
+      <point x="521.826" y="879.86" type="curve" smooth="yes"/>
+      <point x="762.801" y="879.86"/>
+      <point x="776.785" y="436.188"/>
+    </contour>
+    <contour>
+      <point x="447.531" y="436.188" type="curve" smooth="yes"/>
+      <point x="655.948" y="436.188" type="line"/>
+      <point x="655.948" y="436.188"/>
+      <point x="522.383" y="603.7"/>
+      <point x="434.175" y="603.7" type="curve" smooth="yes"/>
+      <point x="378.801" y="603.7"/>
+      <point x="353.757" y="569.475"/>
+      <point x="353.757" y="515.771" type="curve" smooth="yes"/>
+      <point x="353.757" y="455.666"/>
+      <point x="412.191" y="436.188"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>604</integer>
+            <key>width</key>
+            <integer>276</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

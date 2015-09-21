@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="smalltaa.above" format="1">
+  <advance width="942"/>
+  <outline>
+    <contour>
+      <point x="0" y="423" type="move" name="MarkDotAbove"/>
+    </contour>
+    <contour>
+      <point x="-55" y="410" type="move" name="TashkilAboveDot"/>
+    </contour>
+    <contour>
+      <point x="-1.02832" y="0.790039" type="move" name="_TaaAbove"/>
+    </contour>
+    <contour>
+      <point x="-1.02832" y="0.790039" type="move" name="_MarkDotAbove"/>
+    </contour>
+    <contour>
+      <point x="-134.959" y="0.790039" type="line"/>
+      <point x="-172.303" y="123.53" type="line"/>
+      <point x="-120.88" y="124.143" type="line"/>
+      <point x="-134.653" y="307.795" type="line"/>
+      <point x="-34.5625" y="379.418" type="line"/>
+      <point x="-9.46387" y="282.083" type="line"/>
+      <point x="-38.2363" y="262.8" type="line"/>
+      <point x="-37.3184" y="177.708" type="line"/>
+      <point x="0.0244141" y="240.455"/>
+      <point x="60.9365" y="283.613"/>
+      <point x="128.887" y="282.083" type="curve" smooth="yes"/>
+      <point x="206.327" y="280.246"/>
+      <point x="208.163" y="195.154"/>
+      <point x="192.859" y="122" type="curve" smooth="yes"/>
+      <point x="177.555" y="48.8447"/>
+      <point x="156.741" y="0.790039"/>
+      <point x="62.7725" y="0.790039" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="94.6055" y="194.542" type="curve" smooth="yes"/>
+      <point x="41.6533" y="194.542"/>
+      <point x="11.9619" y="155.669"/>
+      <point x="-13.1377" y="122.918" type="curve"/>
+      <point x="132.56" y="122.918" type="line"/>
+      <point x="132.56" y="122.918"/>
+      <point x="155.517" y="194.542"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>1</integer>
+            <key>width</key>
+            <integer>122</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>195</integer>
+            <key>width</key>
+            <integer>88</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

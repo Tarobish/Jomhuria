@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aTwo.above" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-27" y="956" type="move" name="TashkilAboveDot"/>
+    </contour>
+    <contour>
+      <point x="0" y="350" type="move" name="_DigitAbove"/>
+    </contour>
+    <component base="uni06F2" xScale="0.5" yScale="0.5" xOffset="-262" yOffset="224"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>224</integer>
+            <key>width</key>
+            <integer>10</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>519</integer>
+            <key>width</key>
+            <integer>219</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>137</integer>
+            <key>width</key>
+            <integer>73</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

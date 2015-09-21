@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0750.medi_High" format="1">
+  <advance width="1180"/>
+  <outline>
+    <contour>
+      <point x="450" y="900" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="431.122" y="-600" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="978.688" y="436.035" type="curve" smooth="yes"/>
+      <point x="1200.15" y="436.035" type="line"/>
+      <point x="1200.15" y="0" type="line"/>
+      <point x="1015.97" y="0" type="line" smooth="yes"/>
+      <point x="894.096" y="0"/>
+      <point x="792.81" y="81.8086"/>
+      <point x="760.81" y="193.392" type="curve"/>
+      <point x="728.81" y="82.0869"/>
+      <point x="627.522" y="-0.298828"/>
+      <point x="505.922" y="-0.27832" type="curve" smooth="yes"/>
+      <point x="-10.8779" y="-0.194336" type="line"/>
+      <point x="-10.8779" y="436.271" type="line"/>
+      <point x="690.688" y="436.188" type="line"/>
+      <point x="627.244" y="798.053" type="line"/>
+      <point x="826.2" y="948.313" type="line"/>
+      <point x="904.67" y="498.644" type="line" smooth="yes"/>
+      <point x="910.792" y="462.47"/>
+      <point x="942.235" y="436.035"/>
+    </contour>
+    <component base="hThreeDots.b" xOffset="412.122" yOffset="-384"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-384</integer>
+            <key>width</key>
+            <integer>303</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

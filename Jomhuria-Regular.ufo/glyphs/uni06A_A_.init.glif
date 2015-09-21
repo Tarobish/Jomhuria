@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni06AA.init" format="1">
+  <advance width="1057"/>
+  <outline>
+    <contour>
+      <point x="250" y="-210" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="350" y="1350" type="move" name="TashkilAbove"/>
+    </contour>
+    <component base="aKaf.init.alt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>615</integer>
+            <key>width</key>
+            <integer>265</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>774</integer>
+            <key>width</key>
+            <integer>173</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

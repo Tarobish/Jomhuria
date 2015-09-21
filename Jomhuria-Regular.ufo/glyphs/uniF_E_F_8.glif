@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFEF8" format="1">
+  <advance width="1236"/>
+  <unicode hex="FEF8"/>
+  <outline>
+    <component base="uni0623.fina_LamAlfFina" xOffset="-3.125e-06"/>
+    <component base="uni0644.medi_LamAlfFina" xOffset="-3.125e-06"/>
+  </outline>
+</glyph>

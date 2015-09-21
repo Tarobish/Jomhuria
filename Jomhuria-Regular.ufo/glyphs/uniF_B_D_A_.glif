@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFBDA" format="1">
+  <advance width="951"/>
+  <unicode hex="FBDA"/>
+  <outline>
+    <component base="uni06C6.fina"/>
+  </outline>
+</glyph>

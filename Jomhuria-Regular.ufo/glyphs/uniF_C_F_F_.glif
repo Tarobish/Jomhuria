@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFCFF" format="1">
+  <advance width="2434"/>
+  <unicode hex="FCFF"/>
+  <outline>
+    <component base="aYaa.fina_KafYaaIsol"/>
+    <component base="uni062D.init" xOffset="1267"/>
+  </outline>
+</glyph>

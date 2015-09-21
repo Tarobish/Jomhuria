@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ellipsis" format="1">
+  <advance width="1535"/>
+  <unicode hex="2026"/>
+  <outline>
+    <contour>
+      <point x="251" y="406" type="line"/>
+      <point x="75" y="221" type="line"/>
+      <point x="75" y="169" type="line"/>
+      <point x="251" y="-21" type="line"/>
+      <point x="297" y="-21" type="line"/>
+      <point x="483" y="169" type="line"/>
+      <point x="483" y="223" type="line"/>
+      <point x="297" y="406" type="line"/>
+    </contour>
+    <contour>
+      <point x="744" y="406" type="line"/>
+      <point x="568" y="221" type="line"/>
+      <point x="568" y="169" type="line"/>
+      <point x="744" y="-21" type="line"/>
+      <point x="790" y="-21" type="line"/>
+      <point x="976" y="169" type="line"/>
+      <point x="976" y="223" type="line"/>
+      <point x="790" y="406" type="line"/>
+    </contour>
+    <contour>
+      <point x="1228" y="406" type="line"/>
+      <point x="1052" y="221" type="line"/>
+      <point x="1052" y="169" type="line"/>
+      <point x="1228" y="-21" type="line"/>
+      <point x="1274" y="-21" type="line"/>
+      <point x="1460" y="169" type="line"/>
+      <point x="1460" y="223" type="line"/>
+      <point x="1274" y="406" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>0.986</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

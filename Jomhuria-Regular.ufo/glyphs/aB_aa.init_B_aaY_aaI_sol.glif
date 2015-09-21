@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aBaa.init_BaaYaaIsol" format="1">
+  <advance width="517"/>
+  <outline>
+    <contour>
+      <point x="3" y="1300" type="move" name="TwoDotsAbove"/>
+    </contour>
+    <contour>
+      <point x="180" y="900" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="153" y="1100" type="move" name="TaaAbove"/>
+    </contour>
+    <contour>
+      <point x="153" y="1300" type="move" name="DotAbove"/>
+    </contour>
+    <contour>
+      <point x="180" y="900" type="move" name="HamzaAbove"/>
+    </contour>
+    <contour>
+      <point x="153" y="1300" type="move" name="VAbove"/>
+    </contour>
+    <contour>
+      <point x="180" y="1000" type="move" name="DigitAbove"/>
+    </contour>
+    <contour>
+      <point x="262" y="-750" type="move" name="TwoDotsBelowAlt"/>
+    </contour>
+    <contour>
+      <point x="262" y="-440" type="move" name="TwoDotsBelow"/>
+    </contour>
+    <contour>
+      <point x="330" y="1300" type="move" name="HighHamza"/>
+    </contour>
+    <contour>
+      <point x="180" y="-210" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="373" y="-750" type="move" name="DotBelowAlt"/>
+    </contour>
+    <contour>
+      <point x="373" y="-590" type="move" name="DotBelow"/>
+    </contour>
+    <contour>
+      <point x="373" y="-590" type="move" name="HamzaBelow"/>
+    </contour>
+    <contour>
+      <point x="373" y="-590" type="move" name="DigitBelow"/>
+    </contour>
+    <contour>
+      <point x="380" y="500.083" type="move" name="RingBelow"/>
+    </contour>
+    <contour>
+      <point x="407.058" y="633.931" type="curve" smooth="yes"/>
+      <point x="407.862" y="267.325" type="line" smooth="yes"/>
+      <point x="407.862" y="120.113"/>
+      <point x="288.555" y="0"/>
+      <point x="141.343" y="0" type="curve" smooth="yes"/>
+      <point x="-20" y="0" type="line"/>
+      <point x="-20" y="436.271" type="line"/>
+      <point x="247.682" y="436.271" type="line"/>
+      <point x="247.682" y="582.23"/>
+      <point x="83.4775" y="723.45"/>
+      <point x="83.4775" y="723.45" type="curve"/>
+      <point x="310.913" y="902.322" type="line"/>
+      <point x="310.913" y="902.322"/>
+      <point x="406.748" y="774.792"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-20</integer>
+            <key>width</key>
+            <integer>428</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>248</integer>
+            <key>width</key>
+            <integer>160</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

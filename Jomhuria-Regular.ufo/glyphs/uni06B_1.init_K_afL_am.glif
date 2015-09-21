@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni06B1.init_KafLam" format="1">
+  <advance width="740"/>
+  <outline>
+    <contour>
+      <point x="250" y="-210" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="380" y="1830" type="move" name="TashkilAbove"/>
+    </contour>
+    <component base="aKaf.init_KafLam"/>
+    <component base="TwoDots.a" xOffset="350" yOffset="1359"/>
+    <component base="dash.gaf.alt2" xOffset="139" yOffset="32"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1100</integer>
+            <key>width</key>
+            <integer>221</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>1329</integer>
+            <key>width</key>
+            <integer>303</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>68</integer>
+            <key>width</key>
+            <integer>564</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>139</integer>
+            <key>width</key>
+            <integer>291</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>249</integer>
+            <key>width</key>
+            <integer>331</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>409</integer>
+            <key>width</key>
+            <integer>173</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

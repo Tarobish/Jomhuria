@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni077A.fina_PostToothFina" format="1">
+  <advance width="1466"/>
+  <outline>
+    <contour>
+      <point x="450" y="-850" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="300" y="1050" type="move" name="TashkilAbove"/>
+    </contour>
+    <component base="aYaaBari.fina_PostToothFina" yOffset="-2"/>
+    <component base="aTwo.above" xScale="0.805589" yScale="0.805626" xOffset="278.785" yOffset="223.54"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-648</integer>
+            <key>width</key>
+            <integer>437</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>140</integer>
+            <key>width</key>
+            <integer>296</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>404</integer>
+            <key>width</key>
+            <integer>8</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>642</integer>
+            <key>width</key>
+            <integer>176</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>110</integer>
+            <key>width</key>
+            <integer>174</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>389</integer>
+            <key>width</key>
+            <integer>59</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

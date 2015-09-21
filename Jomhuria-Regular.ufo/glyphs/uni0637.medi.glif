@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0637.medi" format="1">
+  <advance width="1548"/>
+  <outline>
+    <contour>
+      <point x="1000" y="1000" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="600" y="-210" type="move" name="TashkilBelow"/>
+    </contour>
+    <component base="aTaa.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>629</integer>
+            <key>width</key>
+            <integer>194</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

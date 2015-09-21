@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFECA" format="1">
+  <advance width="1441"/>
+  <unicode hex="FECA"/>
+  <outline>
+    <component base="uni0639.fina"/>
+  </outline>
+</glyph>

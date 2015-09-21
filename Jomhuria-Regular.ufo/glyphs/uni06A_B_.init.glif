@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni06AB.init" format="1">
+  <advance width="739"/>
+  <outline>
+    <contour>
+      <point x="200" y="-210" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="320" y="1350" type="move" name="TashkilAbove"/>
+    </contour>
+    <component base="aKaf.init"/>
+    <component base="ring.below" xScale="0.57052" yScale="0.572467" xOffset="526.969" yOffset="1002.59"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>812</integer>
+            <key>width</key>
+            <integer>40</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>949</integer>
+            <key>width</key>
+            <integer>40</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>407</integer>
+            <key>width</key>
+            <integer>173</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>424</integer>
+            <key>width</key>
+            <integer>40</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>562</integer>
+            <key>width</key>
+            <integer>40</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

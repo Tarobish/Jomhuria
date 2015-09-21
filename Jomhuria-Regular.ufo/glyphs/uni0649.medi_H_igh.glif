@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0649.medi_High" format="1">
+  <advance width="879"/>
+  <outline>
+    <contour>
+      <point x="216" y="-182" type="move" name="HamzaBelow"/>
+    </contour>
+    <contour>
+      <point x="146" y="710" type="move" name="AlefAbove"/>
+    </contour>
+    <contour>
+      <point x="300" y="900" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="200" y="-210" type="move" name="TashkilBelow"/>
+    </contour>
+    <component base="aBaa.medi_High"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

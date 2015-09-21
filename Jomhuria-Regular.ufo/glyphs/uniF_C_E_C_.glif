@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFCEC" format="1">
+  <advance width="1982"/>
+  <unicode hex="FCEC"/>
+  <outline>
+    <component base="aMem.medi_KafMemMedi"/>
+    <component base="uni0643.medi" xOffset="1093"/>
+  </outline>
+</glyph>

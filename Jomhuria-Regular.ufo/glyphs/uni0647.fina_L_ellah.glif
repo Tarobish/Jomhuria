@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0647.fina_Lellah" format="1">
+  <advance width="934"/>
+  <outline>
+    <contour>
+      <point x="300" y="950" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="450" y="-210" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="814" y="436.188" type="curve" smooth="yes"/>
+      <point x="984.853" y="436.188" type="line"/>
+      <point x="984.853" y="0" type="line"/>
+      <point x="820.679" y="0" type="line" smooth="yes"/>
+      <point x="606.418" y="0"/>
+      <point x="546.313" y="156.939"/>
+      <point x="517.374" y="305.252" type="curve"/>
+      <point x="363.774" y="54.2607" type="line"/>
+      <point x="363.774" y="54.2607"/>
+      <point x="110" y="47.0264"/>
+      <point x="110" y="332.8" type="curve" smooth="yes"/>
+      <point x="111.113" y="479.722" type="line" smooth="yes"/>
+      <point x="111.113" y="682.018"/>
+      <point x="290.313" y="718.47"/>
+      <point x="443.356" y="742.399" type="curve"/>
+      <point x="424.713" y="851.757" type="line"/>
+      <point x="651.774" y="1022.89" type="line"/>
+      <point x="739.982" y="499.2" type="line" smooth="yes"/>
+      <point x="746.076" y="463.021"/>
+      <point x="777.548" y="436.188"/>
+    </contour>
+    <contour>
+      <point x="505.688" y="369.809" type="curve"/>
+      <point x="470.904" y="581.565" type="line" smooth="yes"/>
+      <point x="464.505" y="617.461"/>
+      <point x="430.278" y="614.956"/>
+      <point x="422.766" y="613.844" type="curve" smooth="yes"/>
+      <point x="353.757" y="604.104"/>
+      <point x="284.748" y="556.243"/>
+      <point x="296.713" y="460.521" type="curve" smooth="yes"/>
+      <point x="312.853" y="328.348"/>
+      <point x="505.688" y="369.809"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni06FA.medi" format="1">
+  <advance width="1275"/>
+  <outline>
+    <contour>
+      <point x="700" y="1400" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="650" y="-600" type="move" name="TashkilBelow"/>
+    </contour>
+    <component base="aSen.medi"/>
+    <component base="ThreeDots.a" xOffset="636" yOffset="696"/>
+    <component base="Dot.b" xOffset="638" yOffset="-385"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-385</integer>
+            <key>width</key>
+            <integer>303</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-1</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>696</integer>
+            <key>width</key>
+            <integer>541</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>356</integer>
+            <key>width</key>
+            <integer>564</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>486</integer>
+            <key>width</key>
+            <integer>303</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

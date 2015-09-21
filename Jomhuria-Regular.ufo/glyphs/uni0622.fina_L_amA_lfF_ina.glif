@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0622.fina_LamAlfFina" format="1">
+  <advance width="0"/>
+  <outline>
+    <component base="aAlf.fina_LamAlfFina"/>
+    <component base="uni0653" xScale="0.711813" yScale="0.70759" xOffset="407.084" yOffset="-38.1802"/>
+  </outline>
+</glyph>

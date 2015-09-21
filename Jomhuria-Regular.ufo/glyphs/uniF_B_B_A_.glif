@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFBBA" format="1">
+  <advance width="613"/>
+  <unicode hex="FBBA"/>
+  <outline>
+    <component base="FourDots.a" xOffset="327" yOffset="1500"/>
+  </outline>
+</glyph>

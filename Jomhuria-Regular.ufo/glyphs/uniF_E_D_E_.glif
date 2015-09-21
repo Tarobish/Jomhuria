@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFEDE" format="1">
+  <advance width="1383"/>
+  <unicode hex="FEDE"/>
+  <outline>
+    <component base="uni0644.fina" xOffset="-6.24213e-05"/>
+  </outline>
+</glyph>

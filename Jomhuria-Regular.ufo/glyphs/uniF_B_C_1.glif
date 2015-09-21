@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFBC1" format="1">
+  <advance width="658"/>
+  <unicode hex="FBC1"/>
+  <outline>
+    <component base="smalltaa.above" xOffset="330" yOffset="-920"/>
+  </outline>
+</glyph>

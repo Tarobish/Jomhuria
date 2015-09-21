@@ -1,0 +1,1928 @@
+languagesystem DFLT dflt;
+languagesystem arab ARA ;
+languagesystem arab dflt;
+languagesystem arab SND ;
+languagesystem arab URD ;
+languagesystem latn dflt;
+languagesystem latn TRK ;
+
+
+# GPOS 
+
+
+lookup markGenericMarkAnchor {
+  lookupflag 0;
+  markClass [\uni0654 ] <anchor -2 900> @MarkAbove;
+  markClass [\uni0653 ] <anchor 0 1587> @MarkAbove;
+  markClass [\uni065A ] <anchor 0 950> @MarkAbove;
+  markClass [\uni064B ] <anchor 195 1750> @MarkAbove;
+  markClass [\uni064C ] <anchor 205 1750> @MarkAbove;
+  markClass [\uni064E ] <anchor 184 1750> @MarkAbove;
+  markClass [\uni064F ] <anchor 225 1750> @MarkAbove;
+  markClass [\uni0651 \uni0652 ] <anchor 195 1700> @MarkAbove;
+  markClass [\uni065B ] <anchor -20 900> @MarkAbove;
+  markClass [\uni0674 ] <anchor 0 900> @MarkAbove;
+  markClass [\uni0670 ] <anchor 107 1700> @MarkAbove;
+  markClass [\uni0615 ] <anchor 348 2600> @MarkAbove;
+  markClass [\uni065D ] <anchor 236 1750> @MarkAbove;
+  markClass [\uni0619 ] <anchor 276 1800> @MarkAbove;
+  markClass [\uni0618 ] <anchor 509 1750> @MarkAbove;
+  markClass [\uni06E1 ] <anchor 211 1750> @MarkAbove;
+  markClass [\uni06DF \uni0657 ] <anchor 215 1750> @MarkAbove;
+  markClass [\uni06E0 ] <anchor 194 1750> @MarkAbove;
+  markClass [\uni06E4 ] <anchor 287 1698> @MarkAbove;
+  markClass [\uni06E2 \uni0658 ] <anchor 133 1750> @MarkAbove;
+  markClass [\uni06D6 ] <anchor 605 1750> @MarkAbove;
+  markClass [\uni06D7 ] <anchor 399 1750> @MarkAbove;
+  markClass [\uni06E7 ] <anchor 287 1600> @MarkAbove;
+  markClass [\uni06DB ] <anchor 133 2600> @MarkAbove;
+  markClass [\uni06DC ] <anchor 287 2600> @MarkAbove;
+  markClass [\uni06DA \uni06D8 ] <anchor 215 2600> @MarkAbove;
+  markClass [\uni06D9 \uni0617 ] <anchor 164 2600> @MarkAbove;
+  markClass [\uni06E8 ] <anchor 184 1700> @MarkAbove;
+  markClass [\uni06EC ] <anchor 109 1750> @MarkAbove;
+  markClass [\uni06EB ] <anchor 164 700> @MarkAbove;
+  markClass [\uni0616 ] <anchor 348 1700> @MarkAbove;
+  markClass [\uni0659 ] <anchor 315 1650> @MarkAbove;
+  markClass [\uni065E ] <anchor 205 1650> @MarkAbove;
+  markClass [\uni030A ] <anchor 254 1750> @MarkAbove;
+  markClass [\uni0657.urd ] <anchor 150 1700> @MarkAbove;
+  markClass [\uni08E4 ] <anchor 150 1800> @MarkAbove;
+  markClass [\uni08E5 ] <anchor 205 1700> @MarkAbove;
+  markClass [\uni08E7 ] <anchor 174 1950> @MarkAbove;
+  markClass [\uni08E8 ] <anchor 174 1900> @MarkAbove;
+  markClass [\uni08F4 ] <anchor 215 1700> @MarkAbove;
+  markClass [\uni08F5 ] <anchor 84 1700> @MarkAbove;
+  markClass [\uni08FE ] <anchor 82 1700> @MarkAbove;
+  pos base [\uni25CC ] <anchor 694 1244> mark @MarkAbove;
+  pos base [\uni0640.1 ] <anchor 174 600> mark @MarkAbove;
+  pos base [\uni0640.2 ] <anchor 379 600> mark @MarkAbove;
+  pos base [\uni0640.3 ] <anchor 778 600> mark @MarkAbove;
+  pos base [\uni0640.4 ] <anchor 1250 600> mark @MarkAbove;
+  subtable;
+  markClass [\uni0655 ] <anchor 0 -500> @MarkBelow;
+  markClass [\uni064D ] <anchor 215 -850> @MarkBelow;
+  markClass [\uni0650 ] <anchor 225 -850> @MarkBelow;
+  markClass [\uni065F ] <anchor 276 -850> @MarkBelow;
+  markClass [\uni0656 ] <anchor 113 -850> @MarkBelow;
+  markClass [\uni061A ] <anchor 510 -850> @MarkBelow;
+  markClass [\uni06ED ] <anchor 184 -850> @MarkBelow;
+  markClass [\uni06E3 ] <anchor 317 -850> @MarkBelow;
+  markClass [\uni06EA ] <anchor 163 -850> @MarkBelow;
+  markClass [\uni065C ] <anchor 164 -850> @MarkBelow;
+  markClass [\uni0325 ] <anchor 256 -700> @MarkBelow;
+  markClass [\uni08E6 ] <anchor 205 -850> @MarkBelow;
+  markClass [\uni08E9 ] <anchor 266 -850> @MarkBelow;
+  pos base [\uni25CC ] <anchor 696 -369> mark @MarkBelow;
+  pos base [\uni0640.1 ] <anchor 174 -133> mark @MarkBelow;
+  pos base [\uni0640.2 ] <anchor 345 -200> mark @MarkBelow;
+  pos base [\uni0640.3 ] <anchor 676 -200> mark @MarkBelow;
+  pos base [\uni0640.4 ] <anchor 1239 -133> mark @MarkBelow;
+} markGenericMarkAnchor;
+
+lookup markDotAbove {
+  lookupflag 0;
+  markClass [\Dot.a \vTwoDots.a ] <anchor 0 140> @DotAbove;
+  pos base [\aAyn.fina ] <anchor 600 950> mark @DotAbove;
+  pos base [\aAyn.init ] <anchor 300 1100> mark @DotAbove;
+  pos base [\aAyn.isol ] <anchor 370 1230> mark @DotAbove;
+  pos base [\aAyn.medi ] <anchor 260 1000> mark @DotAbove;
+  pos base [\aBaa.fina \aBaa.isol ] <anchor 945 870> mark @DotAbove;
+  pos base [\aBaa.init ] <anchor 205 900> mark @DotAbove;
+  pos base [\aBaa.medi ] <anchor 280 870> mark @DotAbove;
+  pos base [\aDal.fina ] <anchor 685 1300> mark @DotAbove;
+  pos base [\aDal.isol ] <anchor 420 1200> mark @DotAbove;
+  pos base [\aFaa.fina ] <anchor 1400 1000> mark @DotAbove;
+  pos base [\aFaa.init ] <anchor 160 1150> mark @DotAbove;
+  pos base [\aFaa.isol ] <anchor 1310 1350> mark @DotAbove;
+  pos base [\aFaa.medi ] <anchor 485 1200> mark @DotAbove;
+  pos base [\aHaa.fina \aWaw.isol ] <anchor 710 900> mark @DotAbove;
+  pos base [\aHaa.init ] <anchor 620 950> mark @DotAbove;
+  pos base [\aHaa.isol ] <anchor 700 900> mark @DotAbove;
+  pos base [\aHaa.medi ] <anchor 650 950> mark @DotAbove;
+  pos base [\aHeh.fina ] <anchor 290 1100> mark @DotAbove;
+  pos base [\aHeh.isol ] <anchor 368 1090> mark @DotAbove;
+  pos base [\aKaf.fina ] <anchor 1400 1650> mark @DotAbove;
+  pos base [\aKaf.init ] <anchor 282 1426> mark @DotAbove;
+  pos base [\aKaf.isol ] <anchor 960 1800> mark @DotAbove;
+  pos base [\aKaf.medi ] <anchor 215 1450> mark @DotAbove;
+  pos base [\aLam.fina \aLam.fina_KafLam ] <anchor 600 1200> mark @DotAbove;
+  pos base [\aLam.init ] <anchor 80 1667> mark @DotAbove;
+  pos base [\aLam.isol ] <anchor 650 1400> mark @DotAbove;
+  pos base [\aLam.medi ] <anchor 130 1630> mark @DotAbove;
+  pos base [\aNon.fina ] <anchor 680 640> mark @DotAbove;
+  pos base [\aNon.isol ] <anchor 560 1130> mark @DotAbove;
+  pos base [\aQaf.fina ] <anchor 960 740> mark @DotAbove;
+  pos base [\aQaf.isol ] <anchor 970 1100> mark @DotAbove;
+  pos base [\aRaa.fina ] <anchor 658 814> mark @DotAbove;
+  pos base [\aRaa.isol ] <anchor 328 1088> mark @DotAbove;
+  pos base [\aSad.fina ] <anchor 1684 1026> mark @DotAbove;
+  pos base [\aSad.init ] <anchor 634 894> mark @DotAbove;
+  pos base [\aSad.isol ] <anchor 1681 1110> mark @DotAbove;
+  pos base [\aSad.medi ] <anchor 712 987> mark @DotAbove;
+  pos base [\aSen.fina ] <anchor 1595 750> mark @DotAbove;
+  pos base [\aSen.init ] <anchor 650 900> mark @DotAbove;
+  pos base [\aSen.isol ] <anchor 1532 1070> mark @DotAbove;
+  pos base [\aSen.medi ] <anchor 595 777> mark @DotAbove;
+  pos base [\aTaa.fina ] <anchor 1180 1000> mark @DotAbove;
+  pos base [\aTaa.init ] <anchor 765 1000> mark @DotAbove;
+  pos base [\aTaa.isol ] <anchor 1160 1000> mark @DotAbove;
+  pos base [\aTaa.medi ] <anchor 700 1000> mark @DotAbove;
+  pos base [\aWaw.fina ] <anchor 723 773> mark @DotAbove;
+  pos base [\aYaa.fina ] <anchor 530 500> mark @DotAbove;
+  pos base [\aYaa.isol ] <anchor 585 828> mark @DotAbove;
+  pos base [\aLam.init_LamAlfIsol ] <anchor 355 1715> mark @DotAbove;
+  pos base [\aLam.medi_LamAlfFina ] <anchor 175 1680> mark @DotAbove;
+  pos base [\aHaa.medi_1LamHaaHaaInit ] <anchor 1011 1210> mark @DotAbove;
+  pos base [\aHaa.medi_2LamHaaHaaInit ] <anchor 80 1210> mark @DotAbove;
+  pos base [\aBaa.init_High ] <anchor 95 900> mark @DotAbove;
+  pos base [\aBaa.medi_High ] <anchor 265 1124> mark @DotAbove;
+  pos base [\aKaf.init_KafLam ] <anchor 33 1381> mark @DotAbove;
+  pos base [\aLam.medi_KafLam ] <anchor 110 1650> mark @DotAbove;
+  pos base [\aKaf.medi_KafLam ] <anchor 63 1450> mark @DotAbove;
+  pos base [\aLam.medi_KafLamAlf ] <anchor 224 1747> mark @DotAbove;
+  pos base [\aBaa.init_BaaYaaIsol ] <anchor 153 1300> mark @DotAbove;
+  pos base [\aYaa.fina_KafYaaIsol ] <anchor 470 730> mark @DotAbove;
+  pos base [\aBaa.init_YaaBari ] <anchor -297 1524> mark @DotAbove;
+  pos base [\aGaf.isol ] <anchor 1395 1426> mark @DotAbove;
+  pos base [\aGaf.fina ] <anchor 1328 1450> mark @DotAbove;
+  pos base [\aBaa.medi_YaaBari ] <anchor 110 870> mark @DotAbove;
+} markDotAbove;
+
+lookup markDotBelow {
+  lookupflag 0;
+  markClass [\Dot.b \vTwoDots.b ] <anchor 0 140> @DotBelow;
+  markClass [\smallv.below ] <anchor 242 -830> @DotBelow;
+  markClass [\smallv.below.inverted ] <anchor 245 -828> @DotBelow;
+  pos base [\aAyn.fina ] <anchor 600 -200> mark @DotBelow;
+  pos base [\aAyn.init ] <anchor 490 -200> mark @DotBelow;
+  pos base [\aAyn.isol ] <anchor 720 100> mark @DotBelow;
+  pos base [\aAyn.medi ] <anchor 320 -200> mark @DotBelow;
+  pos base [\aBaa.fina ] <anchor 900 -450> mark @DotBelow;
+  pos base [\aBaa.init ] <anchor 200 -350> mark @DotBelow;
+  pos base [\aBaa.isol ] <anchor 1000 -400> mark @DotBelow;
+  pos base [\aBaa.medi ] <anchor 290 -350> mark @DotBelow;
+  pos base [\aDal.fina ] <anchor 500 -250> mark @DotBelow;
+  pos base [\aDal.isol ] <anchor 500 -300> mark @DotBelow;
+  pos base [\aFaa.fina \aSad.fina ] <anchor 1700 -300> mark @DotBelow;
+  pos base [\aFaa.init ] <anchor 300 -300> mark @DotBelow;
+  pos base [\aFaa.isol ] <anchor 1710 -100> mark @DotBelow;
+  pos base [\aFaa.medi ] <anchor 370 -300> mark @DotBelow;
+  pos base [\aHaa.fina ] <anchor 810 -320> mark @DotBelow;
+  pos base [\aHaa.init ] <anchor 620 -202> mark @DotBelow;
+  pos base [\aHaa.isol ] <anchor 800 -320> mark @DotBelow;
+  pos base [\aHaa.medi ] <anchor 600 -190> mark @DotBelow;
+  pos base [\aKaf.fina ] <anchor 730 -250> mark @DotBelow;
+  pos base [\aKaf.init ] <anchor 270 -164> mark @DotBelow;
+  pos base [\aKaf.isol ] <anchor 610 -200> mark @DotBelow;
+  pos base [\aKaf.medi ] <anchor 759 -200> mark @DotBelow;
+  pos base [\aNon.fina ] <anchor 547 -995> mark @DotBelow;
+  pos base [\aNon.isol ] <anchor 583 -437> mark @DotBelow;
+  pos base [\aRaa.fina ] <anchor 731 -718> mark @DotBelow;
+  pos base [\aRaa.isol ] <anchor 560 -541> mark @DotBelow;
+  pos base [\aSad.init \aSad.medi ] <anchor 800 -400> mark @DotBelow;
+  pos base [\aSad.isol ] <anchor 1800 -200> mark @DotBelow;
+  pos base [\aSen.fina ] <anchor 1600 -400> mark @DotBelow;
+  pos base [\aSen.init ] <anchor 650 -200> mark @DotBelow;
+  pos base [\aSen.isol ] <anchor 1600 -200> mark @DotBelow;
+  pos base [\aSen.medi ] <anchor 550 -400> mark @DotBelow;
+  pos base [\aYaa.fina ] <anchor 749 -997> mark @DotBelow;
+  pos base [\aYaa.isol ] <anchor 727 -709> mark @DotBelow;
+  pos base [\aHaa.medi_1LamHaaHaaInit ] <anchor 1011 -280> mark @DotBelow;
+  pos base [\aHaa.medi_2LamHaaHaaInit ] <anchor 160 -280> mark @DotBelow;
+  pos base [\aBaa.init_High ] <anchor 220 -350> mark @DotBelow;
+  pos base [\aBaa.medi_High ] <anchor 347 -350> mark @DotBelow;
+  pos base [\aKaf.init_KafLam ] <anchor 227 -320> mark @DotBelow;
+  pos base [\aKaf.medi_KafLam ] <anchor 637 -200> mark @DotBelow;
+  pos base [\aBaa.init_BaaYaaIsol ] <anchor 373 -590> mark @DotBelow;
+  pos base [\aYaa.fina_KafYaaIsol ] <anchor 728 -739> mark @DotBelow;
+  pos base [\aBaa.init_YaaBari ] <anchor 74 -263> mark @DotBelow;
+  pos base [\aGaf.isol ] <anchor 1383 -164> mark @DotBelow;
+  pos base [\aGaf.fina ] <anchor 1872 -200> mark @DotBelow;
+  pos base [\aBaa.medi_YaaBari ] <anchor 80 -780> mark @DotBelow;
+} markDotBelow;
+
+lookup markDotAlt {
+  lookupflag 0;
+  markClass [\dot.alt1 ] <anchor 0 140> @DotAlt;
+  pos base [\aFaa.fina ] <anchor 900 -500> mark @DotAlt;
+  pos base [\aFaa.isol ] <anchor 1010 -300> mark @DotAlt;
+  pos base [\aRaa.fina ] <anchor 442 -168> mark @DotAlt;
+  pos base [\aRaa.isol ] <anchor 142 -68> mark @DotAlt;
+} markDotAlt;
+
+lookup markTwoDotsAbove {
+  lookupflag 0;
+  markClass [\TwoDots.a \ThreeDots.a \iThreeDots.a \FourDots.a ] <anchor -111 140> @TwoDotsAbove;
+  markClass [\hThreeDots.a ] <anchor 0 190> @TwoDotsAbove;
+  pos base [\aAyn.fina ] <anchor 490 950> mark @TwoDotsAbove;
+  pos base [\aAyn.init ] <anchor 190 1100> mark @TwoDotsAbove;
+  pos base [\aAyn.isol ] <anchor 259 1230> mark @TwoDotsAbove;
+  pos base [\aAyn.medi ] <anchor 149 1000> mark @TwoDotsAbove;
+  pos base [\aBaa.fina \aBaa.isol ] <anchor 834 870> mark @TwoDotsAbove;
+  pos base [\aBaa.init ] <anchor 90 800> mark @TwoDotsAbove;
+  pos base [\aBaa.medi ] <anchor 150 740> mark @TwoDotsAbove;
+  pos base [\aDal.fina ] <anchor 574 1300> mark @TwoDotsAbove;
+  pos base [\aDal.isol ] <anchor 309 1200> mark @TwoDotsAbove;
+  pos base [\aFaa.fina ] <anchor 1300 1000> mark @TwoDotsAbove;
+  pos base [\aFaa.init ] <anchor 120 1150> mark @TwoDotsAbove;
+  pos base [\aFaa.isol ] <anchor 1199 1350> mark @TwoDotsAbove;
+  pos base [\aFaa.medi ] <anchor 300 1200> mark @TwoDotsAbove;
+  pos base [\aHaa.fina \aWaw.isol ] <anchor 599 900> mark @TwoDotsAbove;
+  pos base [\aHaa.init ] <anchor 520 950> mark @TwoDotsAbove;
+  pos base [\aHaa.isol ] <anchor 589 900> mark @TwoDotsAbove;
+  pos base [\aHaa.medi ] <anchor 550 950> mark @TwoDotsAbove;
+  pos base [\aHeh.fina ] <anchor 179 1100> mark @TwoDotsAbove;
+  pos base [\aHeh.isol ] <anchor 257 1090> mark @TwoDotsAbove;
+  pos base [\aKaf.fina ] <anchor 1220 1650> mark @TwoDotsAbove;
+  pos base [\aKaf.init ] <anchor 172 1426> mark @TwoDotsAbove;
+  pos base [\aKaf.isol ] <anchor 850 1800> mark @TwoDotsAbove;
+  pos base [\aKaf.medi ] <anchor 105 1450> mark @TwoDotsAbove;
+  pos base [\aLam.fina \aLam.fina_KafLam ] <anchor 400 1000> mark @TwoDotsAbove;
+  pos base [\aLam.init ] <anchor -40 1667> mark @TwoDotsAbove;
+  pos base [\aLam.isol ] <anchor 450 1200> mark @TwoDotsAbove;
+  pos base [\aLam.medi ] <anchor 10 1630> mark @TwoDotsAbove;
+  pos base [\aNon.fina ] <anchor 569 640> mark @TwoDotsAbove;
+  pos base [\aNon.isol ] <anchor 449 1130> mark @TwoDotsAbove;
+  pos base [\aQaf.fina ] <anchor 849 740> mark @TwoDotsAbove;
+  pos base [\aQaf.isol ] <anchor 860 1100> mark @TwoDotsAbove;
+  pos base [\aRaa.fina ] <anchor 546 814> mark @TwoDotsAbove;
+  pos base [\aRaa.isol ] <anchor 266 938> mark @TwoDotsAbove;
+  pos base [\aSad.fina ] <anchor 1573 1026> mark @TwoDotsAbove;
+  pos base [\aSad.init ] <anchor 523 894> mark @TwoDotsAbove;
+  pos base [\aSad.isol ] <anchor 1570 1110> mark @TwoDotsAbove;
+  pos base [\aSad.medi ] <anchor 601 987> mark @TwoDotsAbove;
+  pos base [\aSen.fina ] <anchor 1484 750> mark @TwoDotsAbove;
+  pos base [\aSen.init ] <anchor 539 900> mark @TwoDotsAbove;
+  pos base [\aSen.isol ] <anchor 1421 1070> mark @TwoDotsAbove;
+  pos base [\aSen.medi ] <anchor 484 777> mark @TwoDotsAbove;
+  pos base [\aTaa.fina ] <anchor 1070 1000> mark @TwoDotsAbove;
+  pos base [\aTaa.init ] <anchor 650 1000> mark @TwoDotsAbove;
+  pos base [\aTaa.isol ] <anchor 1050 1000> mark @TwoDotsAbove;
+  pos base [\aTaa.medi ] <anchor 589 1000> mark @TwoDotsAbove;
+  pos base [\aWaw.fina ] <anchor 612 773> mark @TwoDotsAbove;
+  pos base [\aYaa.fina ] <anchor 420 500> mark @TwoDotsAbove;
+  pos base [\aYaa.isol ] <anchor 475 828> mark @TwoDotsAbove;
+  pos base [\aLam.init_LamAlfIsol ] <anchor 235 1650> mark @TwoDotsAbove;
+  pos base [\aLam.medi_LamAlfFina ] <anchor 60 1600> mark @TwoDotsAbove;
+  pos base [\aHaa.medi_1LamHaaHaaInit ] <anchor 900 1210> mark @TwoDotsAbove;
+  pos base [\aHaa.medi_2LamHaaHaaInit ] <anchor -31 1210> mark @TwoDotsAbove;
+  pos base [\aBaa.init_High ] <anchor 40 800> mark @TwoDotsAbove;
+  pos base [\aBaa.medi_High ] <anchor 154 1124> mark @TwoDotsAbove;
+  pos base [\aKaf.init_KafLam ] <anchor -77 1381> mark @TwoDotsAbove;
+  pos base [\aLam.medi_KafLam ] <anchor -10 1650> mark @TwoDotsAbove;
+  pos base [\aKaf.medi_KafLam ] <anchor -47 1450> mark @TwoDotsAbove;
+  pos base [\aLam.medi_KafLamAlf ] <anchor 109 1667> mark @TwoDotsAbove;
+  pos base [\aBaa.init_BaaYaaIsol ] <anchor 3 1300> mark @TwoDotsAbove;
+  pos base [\aYaa.fina_KafYaaIsol ] <anchor 360 730> mark @TwoDotsAbove;
+  pos base [\aBaa.init_YaaBari ] <anchor -408 1524> mark @TwoDotsAbove;
+  pos base [\aGaf.isol ] <anchor 1285 1426> mark @TwoDotsAbove;
+  pos base [\aGaf.fina ] <anchor 1218 1450> mark @TwoDotsAbove;
+  pos base [\aBaa.medi_YaaBari ] <anchor -20 740> mark @TwoDotsAbove;
+} markTwoDotsAbove;
+
+lookup markTwoDotsBelow {
+  lookupflag 0;
+  markClass [\TwoDots.b \ThreeDots.b ] <anchor -111 140> @TwoDotsBelow;
+  markClass [\iThreeDots.b ] <anchor -115 390> @TwoDotsBelow;
+  markClass [\FourDots.b ] <anchor -141 380> @TwoDotsBelow;
+  markClass [\hThreeDots.b ] <anchor 0 190> @TwoDotsBelow;
+  pos base [\aBaa.fina ] <anchor 789 -360> mark @TwoDotsBelow;
+  pos base [\aBaa.init ] <anchor 150 -350> mark @TwoDotsBelow;
+  pos base [\aBaa.isol ] <anchor 900 -300> mark @TwoDotsBelow;
+  pos base [\aBaa.medi ] <anchor 190 -250> mark @TwoDotsBelow;
+  pos base [\aDal.fina ] <anchor 389 -250> mark @TwoDotsBelow;
+  pos base [\aDal.isol ] <anchor 389 -300> mark @TwoDotsBelow;
+  pos base [\aFaa.fina \aSad.fina ] <anchor 1600 -300> mark @TwoDotsBelow;
+  pos base [\aFaa.init ] <anchor 200 -300> mark @TwoDotsBelow;
+  pos base [\aFaa.isol ] <anchor 1610 -100> mark @TwoDotsBelow;
+  pos base [\aFaa.medi ] <anchor 270 -300> mark @TwoDotsBelow;
+  pos base [\aHaa.fina ] <anchor 699 -320> mark @TwoDotsBelow;
+  pos base [\aHaa.init ] <anchor 509 -202> mark @TwoDotsBelow;
+  pos base [\aHaa.isol ] <anchor 689 -320> mark @TwoDotsBelow;
+  pos base [\aHaa.medi ] <anchor 489 -190> mark @TwoDotsBelow;
+  pos base [\aKaf.fina ] <anchor 620 -250> mark @TwoDotsBelow;
+  pos base [\aKaf.init ] <anchor 160 -164> mark @TwoDotsBelow;
+  pos base [\aKaf.isol ] <anchor 500 -200> mark @TwoDotsBelow;
+  pos base [\aKaf.medi ] <anchor 649 -200> mark @TwoDotsBelow;
+  pos base [\aLam.fina \aLam.fina_KafLam ] <anchor 600 -935> mark @TwoDotsBelow;
+  pos base [\aLam.init ] <anchor 80 -100> mark @TwoDotsBelow;
+  pos base [\aLam.isol ] <anchor 585 -330> mark @TwoDotsBelow;
+  pos base [\aLam.medi \aLam.medi_KafLam ] <anchor 100 -150> mark @TwoDotsBelow;
+  pos base [\aNon.fina ] <anchor 437 -995> mark @TwoDotsBelow;
+  pos base [\aNon.isol ] <anchor 473 -437> mark @TwoDotsBelow;
+  pos base [\aSad.init \aSad.medi ] <anchor 700 -400> mark @TwoDotsBelow;
+  pos base [\aSad.isol ] <anchor 1700 -200> mark @TwoDotsBelow;
+  pos base [\aSen.fina ] <anchor 1500 -400> mark @TwoDotsBelow;
+  pos base [\aSen.init ] <anchor 550 -200> mark @TwoDotsBelow;
+  pos base [\aSen.isol ] <anchor 1500 -200> mark @TwoDotsBelow;
+  pos base [\aSen.medi ] <anchor 450 -300> mark @TwoDotsBelow;
+  pos base [\aYaa.fina ] <anchor 638 -997> mark @TwoDotsBelow;
+  pos base [\aYaa.isol ] <anchor 616 -709> mark @TwoDotsBelow;
+  pos base [\aLam.init_LamAlfIsol ] <anchor 245 -150> mark @TwoDotsBelow;
+  pos base [\aLam.medi_LamAlfFina ] <anchor 0 -150> mark @TwoDotsBelow;
+  pos base [\aHaa.medi_1LamHaaHaaInit ] <anchor 900 -280> mark @TwoDotsBelow;
+  pos base [\aHaa.medi_2LamHaaHaaInit ] <anchor 49 -280> mark @TwoDotsBelow;
+  pos base [\aBaa.init_High ] <anchor 170 -250> mark @TwoDotsBelow;
+  pos base [\aBaa.medi_High ] <anchor 236 -300> mark @TwoDotsBelow;
+  pos base [\aKaf.init_KafLam ] <anchor 117 -320> mark @TwoDotsBelow;
+  pos base [\aKaf.medi_KafLam ] <anchor 527 -200> mark @TwoDotsBelow;
+  pos base [\aLam.medi_KafLamAlf ] <anchor 0 -157> mark @TwoDotsBelow;
+  pos base [\aBaa.init_BaaYaaIsol ] <anchor 262 -440> mark @TwoDotsBelow;
+  pos base [\aYaa.fina_KafYaaIsol ] <anchor 617 -739> mark @TwoDotsBelow;
+  pos base [\aBaa.init_YaaBari ] <anchor 75 -265> mark @TwoDotsBelow;
+  pos base [\aGaf.isol ] <anchor 1273 -164> mark @TwoDotsBelow;
+  pos base [\aGaf.fina ] <anchor 1762 -200> mark @TwoDotsBelow;
+  pos base [\aBaa.medi_YaaBari ] <anchor 80 -780> mark @TwoDotsBelow;
+} markTwoDotsBelow;
+
+lookup markHamzaAbove {
+  lookupflag 0;
+  markClass [\uni0654 \hamza.above ] <anchor 0 950> @HamzaAbove;
+  markClass [\hamza.kaf ] <anchor 180 -50> @HamzaAbove;
+  markClass [\hamza.above.wavy ] <anchor 250 1700> @HamzaAbove;
+  markClass [\uni0670 ] <anchor 140 1700> @HamzaAbove;
+  markClass [\hamza.wasl ] <anchor 240 1650> @HamzaAbove;
+  markClass [\damma.mark ] <anchor 200 1150> @HamzaAbove;
+  markClass [\hamzadamma.mark ] <anchor 340 1050> @HamzaAbove;
+  markClass [\aAlf.dagger ] <anchor -170 800> @HamzaAbove;
+  pos base [\aAlf.fina ] <anchor 273 1242> mark @HamzaAbove;
+  pos base [\aAlf.isol ] <anchor 273 1270> mark @HamzaAbove;
+  pos base [\aAyn.init ] <anchor 550 1100> mark @HamzaAbove;
+  pos base [\aAyn.isol ] <anchor 800 1300> mark @HamzaAbove;
+  pos base [\aAyn.medi ] <anchor 450 1000> mark @HamzaAbove;
+  pos base [\aBaa.fina \aBaa.isol \aKaf.fina \aKaf.isol ] <anchor 800 700> mark @HamzaAbove;
+  pos base [\aBaa.init \aBaa.init_High \aBaa.init_BaaYaaIsol ] <anchor 180 900> mark @HamzaAbove;
+  pos base [\aBaa.medi \aBaa.medi_YaaBari ] <anchor 130 700> mark @HamzaAbove;
+  pos base [\aDal.fina ] <anchor 650 1010> mark @HamzaAbove;
+  pos base [\aDal.isol \aHaa.medi_1LamHaaHaaInit ] <anchor 450 1150> mark @HamzaAbove;
+  pos base [\aFaa.fina ] <anchor 1400 1100> mark @HamzaAbove;
+  pos base [\aFaa.init \aAlf.fina_LamAlfIsol ] <anchor 300 1350> mark @HamzaAbove;
+  pos base [\aFaa.isol ] <anchor 1250 1350> mark @HamzaAbove;
+  pos base [\aFaa.medi ] <anchor 420 1100> mark @HamzaAbove;
+  pos base [\aHaa.fina \aHaa.isol ] <anchor 650 1150> mark @HamzaAbove;
+  pos base [\aHaa.init ] <anchor 380 1100> mark @HamzaAbove;
+  pos base [\aHaa.medi ] <anchor 450 1200> mark @HamzaAbove;
+  pos base [\aHeh.fina \uni0647.fina \uni06D5.fina ] <anchor 300 950> mark @HamzaAbove;
+  pos base [\aHeh.isol \uni0647 \uni06C1 \uni06D5 ] <anchor 400 1000> mark @HamzaAbove;
+  pos base [\aNon.fina ] <anchor 600 500> mark @HamzaAbove;
+  pos base [\aNon.isol ] <anchor 600 600> mark @HamzaAbove;
+  pos base [\aQaf.fina ] <anchor 800 1000> mark @HamzaAbove;
+  pos base [\aQaf.isol ] <anchor 750 1100> mark @HamzaAbove;
+  pos base [\aRaa.fina ] <anchor 150 700> mark @HamzaAbove;
+  pos base [\aRaa.isol ] <anchor 250 750> mark @HamzaAbove;
+  pos base [\aSad.fina \aSad.isol ] <anchor 1650 900> mark @HamzaAbove;
+  pos base [\aSad.init \aSad.medi ] <anchor 800 900> mark @HamzaAbove;
+  pos base [\aSen.fina \aSen.isol ] <anchor 1400 800> mark @HamzaAbove;
+  pos base [\aSen.init \aSen.medi ] <anchor 650 800> mark @HamzaAbove;
+  pos base [\aWaw.fina ] <anchor 423 942> mark @HamzaAbove;
+  pos base [\aWaw.isol ] <anchor 400 950> mark @HamzaAbove;
+  pos base [\aYaa.fina ] <anchor 550 450> mark @HamzaAbove;
+  pos base [\aYaa.isol ] <anchor 330 800> mark @HamzaAbove;
+  pos base [\aAlf.fina_LamAlfFina ] <anchor 300 1200> mark @HamzaAbove;
+  pos base [\aHaa.medi_2LamHaaHaaInit ] <anchor 400 1150> mark @HamzaAbove;
+  pos base [\aBaa.medi_High ] <anchor 170 800> mark @HamzaAbove;
+  pos base [\aAlf.fina_KafAlf ] <anchor 250 1300> mark @HamzaAbove;
+  pos base [\aYaa.fina_KafYaaIsol ] <anchor 600 400> mark @HamzaAbove;
+  pos base [\uni06C1.fina ] <anchor 300 900> mark @HamzaAbove;
+  pos base [\aYaaBari.isol \uni06D2 ] <anchor 300 1000> mark @HamzaAbove;
+  pos base [\aYaaBari.fina_PostTooth \aYaaBari.fina_PostAscender \aYaaBari.fina_PostToothFina \uni06D2.fina_PostToothFina ] <anchor 500 550> mark @HamzaAbove;
+  pos base [\aBaa.init_YaaBari ] <anchor 190 1200> mark @HamzaAbove;
+} markHamzaAbove;
+
+lookup markHighHamza {
+  lookupflag 0;
+  markClass [\uni0674 ] <anchor 0 950> @HighHamza;
+  pos base [\aAlf.fina ] <anchor 526 1540> mark @HighHamza;
+  pos base [\aAlf.isol ] <anchor 566 1630> mark @HighHamza;
+  pos base [\aBaa.init ] <anchor 455 800> mark @HighHamza;
+  pos base [\aBaa.medi ] <anchor 380 740> mark @HighHamza;
+  pos base [\aWaw.fina ] <anchor 920 773> mark @HighHamza;
+  pos base [\aWaw.isol ] <anchor 1110 900> mark @HighHamza;
+  pos base [\aYaa.fina ] <anchor 900 680> mark @HighHamza;
+  pos base [\aYaa.isol ] <anchor 1470 1090> mark @HighHamza;
+  pos base [\aAlf.fina_LamAlfIsol ] <anchor 835 1609> mark @HighHamza;
+  pos base [\aAlf.fina_LamAlfFina ] <anchor 661 1500> mark @HighHamza;
+  pos base [\aBaa.init_High ] <anchor 345 800> mark @HighHamza;
+  pos base [\aBaa.medi_High ] <anchor 365 1124> mark @HighHamza;
+  pos base [\aAlf.fina_KafAlf ] <anchor 526 1569> mark @HighHamza;
+  pos base [\aBaa.init_BaaYaaIsol ] <anchor 330 1300> mark @HighHamza;
+  pos base [\aYaa.fina_KafYaaIsol ] <anchor 708 325> mark @HighHamza;
+  pos base [\aBaa.init_YaaBari ] <anchor -97 1524> mark @HighHamza;
+  pos base [\aBaa.medi_YaaBari ] <anchor 210 740> mark @HighHamza;
+} markHighHamza;
+
+lookup markVMarkAbove {
+  lookupflag 0;
+  markClass [\uni065A \smallv.above \smallv.above.inverted ] <anchor 0 950> @VAbove;
+  markClass [\uni065B ] <anchor 0 885> @VAbove;
+  pos base [\aBaa.fina \aBaa.isol ] <anchor 945 870> mark @VAbove;
+  pos base [\aBaa.init ] <anchor 205 800> mark @VAbove;
+  pos base [\aBaa.medi ] <anchor 280 740> mark @VAbove;
+  pos base [\aDal.fina ] <anchor 685 1200> mark @VAbove;
+  pos base [\aDal.isol ] <anchor 420 1100> mark @VAbove;
+  pos base [\aLam.fina \aLam.fina_KafLam ] <anchor 614 1198> mark @VAbove;
+  pos base [\aLam.init ] <anchor 80 1567> mark @VAbove;
+  pos base [\aLam.isol ] <anchor 662 1428> mark @VAbove;
+  pos base [\aLam.medi ] <anchor 130 1530> mark @VAbove;
+  pos base [\aRaa.fina ] <anchor 656 814> mark @VAbove;
+  pos base [\aRaa.isol ] <anchor 378 938> mark @VAbove;
+  pos base [\aSen.fina ] <anchor 1595 750> mark @VAbove;
+  pos base [\aSen.init ] <anchor 650 900> mark @VAbove;
+  pos base [\aSen.isol ] <anchor 1532 1070> mark @VAbove;
+  pos base [\aSen.medi ] <anchor 595 777> mark @VAbove;
+  pos base [\aWaw.fina ] <anchor 809 712> mark @VAbove;
+  pos base [\aWaw.isol ] <anchor 796 842> mark @VAbove;
+  pos base [\aYaa.fina ] <anchor 430 500> mark @VAbove;
+  pos base [\aYaa.isol ] <anchor 485 828> mark @VAbove;
+  pos base [\aLam.init_LamAlfIsol ] <anchor 76 1388> mark @VAbove;
+  pos base [\aLam.medi_LamAlfFina ] <anchor 175 1600> mark @VAbove;
+  pos base [\aBaa.init_High ] <anchor 145 800> mark @VAbove;
+  pos base [\aBaa.medi_High ] <anchor 265 1124> mark @VAbove;
+  pos base [\aLam.medi_KafLam ] <anchor 110 1550> mark @VAbove;
+  pos base [\aLam.medi_KafLamAlf ] <anchor -57 1381> mark @VAbove;
+  pos base [\aBaa.init_BaaYaaIsol ] <anchor 153 1300> mark @VAbove;
+  pos base [\aYaa.fina_KafYaaIsol ] <anchor 370 730> mark @VAbove;
+  pos base [\aBaa.init_YaaBari ] <anchor -297 1524> mark @VAbove;
+  pos base [\aBaa.medi_YaaBari ] <anchor 110 740> mark @VAbove;
+} markVMarkAbove;
+
+lookup markSmallTaaAbove {
+  lookupflag 0;
+  markClass [\smalltaa.above ] <anchor -1 1> @TaaAbove;
+  pos base [\aBaa.fina \aBaa.isol ] <anchor 945 670> mark @TaaAbove;
+  pos base [\aBaa.init ] <anchor 205 700> mark @TaaAbove;
+  pos base [\aBaa.medi ] <anchor 280 670> mark @TaaAbove;
+  pos base [\aDal.fina ] <anchor 685 1200> mark @TaaAbove;
+  pos base [\aDal.isol ] <anchor 420 1100> mark @TaaAbove;
+  pos base [\aHaa.fina ] <anchor 710 900> mark @TaaAbove;
+  pos base [\aHaa.init ] <anchor 620 950> mark @TaaAbove;
+  pos base [\aHaa.isol ] <anchor 587 1065> mark @TaaAbove;
+  pos base [\aHaa.medi ] <anchor 650 950> mark @TaaAbove;
+  pos base [\aNon.fina ] <anchor 680 400> mark @TaaAbove;
+  pos base [\aNon.isol ] <anchor 560 1000> mark @TaaAbove;
+  pos base [\aRaa.fina ] <anchor 656 614> mark @TaaAbove;
+  pos base [\aRaa.isol ] <anchor 328 888> mark @TaaAbove;
+  pos base [\aHaa.medi_1LamHaaHaaInit ] <anchor 1011 1210> mark @TaaAbove;
+  pos base [\aHaa.medi_2LamHaaHaaInit ] <anchor 80 1210> mark @TaaAbove;
+  pos base [\aBaa.init_High ] <anchor 95 700> mark @TaaAbove;
+  pos base [\aBaa.medi_High ] <anchor 265 924> mark @TaaAbove;
+  pos base [\aBaa.init_BaaYaaIsol ] <anchor 153 1100> mark @TaaAbove;
+  pos base [\aBaa.init_YaaBari ] <anchor -297 1324> mark @TaaAbove;
+  pos base [\aBaa.medi_YaaBari ] <anchor 110 670> mark @TaaAbove;
+} markSmallTaaAbove;
+
+lookup markSmallTaaBelow {
+  lookupflag 0;
+  markClass [\smalltaa.below ] <anchor -40 750> @TaaBelow;
+  pos base [\aHaa.fina ] <anchor 710 300> mark @TaaBelow;
+  pos base [\aHaa.init ] <anchor 620 198> mark @TaaBelow;
+  pos base [\aHaa.isol ] <anchor 800 300> mark @TaaBelow;
+  pos base [\aHaa.medi ] <anchor 600 210> mark @TaaBelow;
+  pos base [\aHaa.medi_1LamHaaHaaInit ] <anchor 1011 120> mark @TaaBelow;
+  pos base [\aHaa.medi_2LamHaaHaaInit ] <anchor 160 120> mark @TaaBelow;
+} markSmallTaaBelow;
+
+lookup markRingBelow {
+  lookupflag 0;
+  markClass [\ring.below ] <anchor -24 -40> @RingBelow;
+  pos base [\aBaa.fina ] <anchor 876 -90> mark @RingBelow;
+  pos base [\aBaa.init ] <anchor 250 150> mark @RingBelow;
+  pos base [\aBaa.isol ] <anchor 850 60> mark @RingBelow;
+  pos base [\aBaa.medi ] <anchor 280 120> mark @RingBelow;
+  pos base [\aDal.fina ] <anchor 420 120> mark @RingBelow;
+  pos base [\aDal.isol ] <anchor 490 110> mark @RingBelow;
+  pos base [\aKaf.fina ] <anchor 750 40> mark @RingBelow;
+  pos base [\aKaf.init ] <anchor 620 1236> mark @RingBelow;
+  pos base [\aKaf.isol ] <anchor 610 100> mark @RingBelow;
+  pos base [\aKaf.medi ] <anchor 651 1343> mark @RingBelow;
+  pos base [\aNon.fina ] <anchor 547 -595> mark @RingBelow;
+  pos base [\aNon.isol ] <anchor 583 -37> mark @RingBelow;
+  pos base [\aRaa.fina ] <anchor 504 -478> mark @RingBelow;
+  pos base [\aRaa.isol ] <anchor 194 -354> mark @RingBelow;
+  pos base [\aWaw.fina ] <anchor 570 -130> mark @RingBelow;
+  pos base [\aWaw.isol ] <anchor 540 -20> mark @RingBelow;
+  pos base [\aYaa.fina ] <anchor 640 -600> mark @RingBelow;
+  pos base [\aYaa.isol ] <anchor 640 -300> mark @RingBelow;
+  pos base [\aBaa.init_High ] <anchor 120 120> mark @RingBelow;
+  pos base [\aBaa.medi_High ] <anchor 320 240> mark @RingBelow;
+  pos base [\aKaf.init_KafLam ] <anchor 499 1274> mark @RingBelow;
+  pos base [\aKaf.medi_KafLam ] <anchor 529 1343> mark @RingBelow;
+  pos base [\aBaa.init_BaaYaaIsol ] <anchor 380 500> mark @RingBelow;
+  pos base [\aYaa.fina_KafYaaIsol ] <anchor 600 -341> mark @RingBelow;
+  pos base [\aBaa.init_YaaBari ] <anchor -42 550> mark @RingBelow;
+  pos base [\aGaf.isol ] <anchor 1733 1236> mark @RingBelow;
+  pos base [\aGaf.fina ] <anchor 1764 1343> mark @RingBelow;
+  pos base [\aBaa.medi_YaaBari ] <anchor 210 120> mark @RingBelow;
+} markRingBelow;
+
+lookup markDash {
+  lookupflag 0;
+  markClass [\dash.gaf ] <anchor -168 52> @Dash;
+  markClass [\dash.gaf.alt2 ] <anchor -96 72> @Dash;
+  pos base [\aKaf.fina ] <anchor 1452 1451> mark @Dash;
+  pos base [\aKaf.init ] <anchor 624 1406> mark @Dash;
+  pos base [\aKaf.isol ] <anchor 1017 1614> mark @Dash;
+  pos base [\aKaf.medi ] <anchor 585 1580> mark @Dash;
+  pos base [\aKaf.init_KafLam ] <anchor 433 1511> mark @Dash;
+  pos base [\aKaf.medi_KafLam ] <anchor 463 1580> mark @Dash;
+  pos base [\aGaf.isol ] <anchor 1737 1406> mark @Dash;
+  pos base [\aGaf.fina ] <anchor 1698 1580> mark @Dash;
+} markDash;
+
+lookup markTashkilAboveBase {
+  lookupflag 0;
+  markClass [\uni0654 ] <anchor 10 950> @TashkilAbove;
+  markClass [\uni0653 ] <anchor -50 1600> @TashkilAbove;
+  markClass [\uni065A ] <anchor 50 950> @TashkilAbove;
+  markClass [\uni064B \uni064E ] <anchor 220 1800> @TashkilAbove;
+  markClass [\uni064C ] <anchor 240 1750> @TashkilAbove;
+  markClass [\uni064F ] <anchor 230 1750> @TashkilAbove;
+  markClass [\uni0651 \uni06E4 \uni0657 ] <anchor 250 1700> @TashkilAbove;
+  markClass [\uni0652 \uni06DF ] <anchor 230 1650> @TashkilAbove;
+  markClass [\uni065B ] <anchor 30 750> @TashkilAbove;
+  markClass [\uni0674 ] <anchor 30 950> @TashkilAbove;
+  markClass [\uni0670 ] <anchor 140 1750> @TashkilAbove;
+  markClass [\uni064F.small \uni08F0 \uni064E.small2 ] <anchor 220 1750> @TashkilAbove;
+  markClass [\uni0652.small2 ] <anchor 220 1700> @TashkilAbove;
+  markClass [\uni065D \uni030A ] <anchor 280 1650> @TashkilAbove;
+  markClass [\uni0619 ] <anchor 270 1750> @TashkilAbove;
+  markClass [\uni0618 ] <anchor 500 1750> @TashkilAbove;
+  markClass [\uni06E1 ] <anchor 250 1750> @TashkilAbove;
+  markClass [\uni06E0 ] <anchor 230 1700> @TashkilAbove;
+  markClass [\uni08F1 ] <anchor 500 1450> @TashkilAbove;
+  markClass [\uni06E2 \uni08E5 ] <anchor 200 1700> @TashkilAbove;
+  markClass [\uni06E7 ] <anchor 300 1550> @TashkilAbove;
+  markClass [\uni06EC \uni0658 ] <anchor 200 1650> @TashkilAbove;
+  markClass [\uni06EB ] <anchor 200 650> @TashkilAbove;
+  markClass [\uni0616 ] <anchor 350 1600> @TashkilAbove;
+  markClass [\uni0659 ] <anchor 330 1600> @TashkilAbove;
+  markClass [\uni065E ] <anchor 250 1600> @TashkilAbove;
+  markClass [\uni0657.urd ] <anchor 160 1650> @TashkilAbove;
+  markClass [\uni0657.small ] <anchor -50 1880> @TashkilAbove;
+  markClass [\uni08E4 ] <anchor 180 1750> @TashkilAbove;
+  markClass [\uni08E7 ] <anchor 180 1900> @TashkilAbove;
+  markClass [\uni08E8 ] <anchor 200 1900> @TashkilAbove;
+  markClass [\uni08F4 ] <anchor 250 1650> @TashkilAbove;
+  markClass [\uni08F5 ] <anchor 90 1650> @TashkilAbove;
+  markClass [\uni08FE ] <anchor 150 1700> @TashkilAbove;
+  pos base [\aAlf.fina.alt \aAlf.fina \aAlf.isol \aAlf.fina_LamAlfIsol \aAlf.fina_KafAlf \uni0627.fina \uni0625 \uni0627 \uni0673 \uni0775 \uni0625.fina_LamAlfIsol \uni0627.fina_LamAlfIsol \uni0774.fina_LamAlfIsol \uni0673.fina_LamAlfIsol \uni0625.fina_KafAlf \uni0627.fina_KafAlf \uni0673.fina_KafAlf \uni0627.fina_Tatweel ] <anchor 300 1300> mark @TashkilAbove;
+  pos base [\aAyn.fina ] <anchor 900 1000> mark @TashkilAbove;
+  pos base [\aAyn.init \uni0639.init \uni06BD.fina \uni06BB ] <anchor 650 1100> mark @TashkilAbove;
+  pos base [\aAyn.isol \uni0639 ] <anchor 850 1300> mark @TashkilAbove;
+  pos base [\aAyn.medi \uni0639.medi ] <anchor 500 1000> mark @TashkilAbove;
+  pos base [\aBaa.fina \aBaa.isol \uni0750.fina \uni0680.fina \uni0750 \uni0680 \uni066E \uni0755 \uni067E \uni067B \uni0628 \uni08A0.fina \uni08A0 ] <anchor 830 700> mark @TashkilAbove;
+  pos base [\aBaa.init \aBaa.init_High \aBaa.init_BaaYaaIsol \uni06C1.init \uni0777.init_High \uni0680.init_High \uni0776.init_High \uni06BD.init_High \uni066E.init_High \uni0620.init_High \uni064A.init_High \uni0755.init_High \uni067E.init_High \uni067B.init_High \uni0628.init_High \uni0752.init_High \uni0649.init_High \uni06D1.init_High \uni06D0.init_High \uni06CC.init_High \uni064A.init_BaaYaaIsol \uni0628.init_BaaYaaIsol \uni06CC.init_LD \uni08A0.init ] <anchor 180 900> mark @TashkilAbove;
+  pos base [\aBaa.medi \uni0777.medi \uni0680.medi \uni0776.medi \uni0750.medi \uni06BD.medi \uni066E.medi \uni0620.medi \uni064A.medi \uni0755.medi \uni067E.medi \uni067B.medi \uni0628.medi \uni0752.medi \uni0649.medi \uni06D1.medi \uni06D0.medi \uni06CC.medi \uni08A0.medi \aBaa.medi_YaaBari \uni0777.medi_YaaBari \uni0680.medi_YaaBari \uni0776.medi_YaaBari \uni06BD.medi_YaaBari \uni066E.medi_YaaBari \uni0620.medi_YaaBari \uni064A.medi_YaaBari \uni0755.medi_YaaBari \uni067E.medi_YaaBari \uni067B.medi_YaaBari \uni0628.medi_YaaBari \uni0752.medi_YaaBari \uni0649.medi_YaaBari \uni06D1.medi_YaaBari \uni06D0.medi_YaaBari \uni06CC.medi_YaaBari ] <anchor 130 700> mark @TashkilAbove;
+  pos base [\aDal.fina \uni0689.fina \uni075A.fina \uni062F.fina \uni068A.fina \uni068D.fina ] <anchor 650 1010> mark @TashkilAbove;
+  pos base [\aDal.isol \uni0689 \uni075A \uni062F \uni068A \uni068D ] <anchor 450 1150> mark @TashkilAbove;
+  pos base [\aFaa.fina \uni0760.fina \uni0761.fina \uni06A1.fina \uni06A2.fina \uni06A5.fina ] <anchor 1400 1100> mark @TashkilAbove;
+  pos base [\aFaa.init \uni066F.init \uni0761.init \uni0760.init \uni06A1.init \uni06A2.init \uni06A5.init ] <anchor 320 1400> mark @TashkilAbove;
+  pos base [\aFaa.isol \uni0760 \uni0761 \uni06A1 \uni06A2 \uni06A5 ] <anchor 1250 1400> mark @TashkilAbove;
+  pos base [\aFaa.medi \uni066F.medi \uni0761.medi \uni0760.medi \uni06A1.medi \uni06A2.medi \uni06A5.medi \uni0647.medi \uni06C1.medi ] <anchor 500 1100> mark @TashkilAbove;
+  pos base [\aHaa.fina \aHaa.isol \uni062D.fina \uni0687.fina \uni062C.fina \uni0684.fina \uni076F.fina \uni076E.fina \uni0683.fina \uni077C.fina \uni0758.fina \uni0686.fina \uni0687 \uni062C \uni0684 \uni076E \uni0683 \uni077C \uni0758 \uni0686 ] <anchor 650 1150> mark @TashkilAbove;
+  pos base [\aHaa.init \aHaa.medi \aHaa.medi_1LamHaaHaaInit \aHaa.medi_2LamHaaHaaInit \uni062D.init \uni0687.init \uni062C.init \uni0684.init \uni076F.init \uni076E.init \uni0683.init \uni077C.init \uni0758.init \uni0686.init \uni062C.medi_1LamHaaHaaInit \uni062C.medi_2LamHaaHaaInit ] <anchor 380 1100> mark @TashkilAbove;
+  pos base [\aHeh.fina \uni0647.fina_Lellah \uni0647.fina \uni06D5.fina \aYaaBari.isol ] <anchor 300 950> mark @TashkilAbove;
+  pos base [\aHeh.init \uni0647.init \uni06BE.init \uni06BE.medi ] <anchor 450 1200> mark @TashkilAbove;
+  pos base [\aHeh.isol \aHeh.medi \uni0647 \uni06C1 \uni06D5 ] <anchor 450 1000> mark @TashkilAbove;
+  pos base [\aKaf.fina \aKaf.isol ] <anchor 800 700> mark @TashkilAbove;
+  pos base [\aKaf.init.alt \aKaf.init \aKaf.medi \uni06AA.init \uni06AA.medi ] <anchor 350 1350> mark @TashkilAbove;
+  pos base [\aLam.fina \aLam.medi_LamAlfFina \aLam.medi_KafLamAlf \aLam.fina_KafLam \uni0644.fina \uni06B8.fina \uni076A.fina \uni0644 \uni06B8 \uni076A \uni0644.medi_LamAlfFina \uni06B8.medi_LamAlfFina \uni076A.medi_LamAlfFina \uni0644.medi_KafLamAlf \uni06B8.medi_KafLamAlf \uni076A.medi_KafLamAlf \uni0644.fina_KafLam \uni06B8.fina_KafLam \uni076A.fina_KafLam ] <anchor 900 1300> mark @TashkilAbove;
+  pos base [\aLam.init \aLam.medi \uni0644.init_Lellah \uni0644.medi_Lellah \aLam.medi_KafLam \uni0644.init \uni06B8.init \uni076A.init \uni0644.medi \uni06B8.medi \uni076A.medi \uni0644.medi_KafLam \uni06B8.medi_KafLam \uni076A.medi_KafLam ] <anchor 250 1300> mark @TashkilAbove;
+  pos base [\aLam.isol ] <anchor 900 1500> mark @TashkilAbove;
+  pos base [\aMem.fina \aMem.fina_KafMemIsol \uni0645.fina \uni0766.fina \uni0645 \uni0766 ] <anchor 750 1100> mark @TashkilAbove;
+  pos base [\aMem.init \aMem.medi \aMem.medi_KafMemMedi \uni0645.init \uni0766.init \uni0645.medi \uni0766.medi ] <anchor 550 1050> mark @TashkilAbove;
+  pos base [\aMem.isol ] <anchor 750 1050> mark @TashkilAbove;
+  pos base [\aNon.fina \uni06BA.fina ] <anchor 650 600> mark @TashkilAbove;
+  pos base [\aNon.isol \uni06BA ] <anchor 650 700> mark @TashkilAbove;
+  pos base [\aQaf.fina \uni0643.fina \uni06AB.fina \uni06AE.fina \uni0643 \uni06AB \uni06AE \uni066F.fina ] <anchor 800 1000> mark @TashkilAbove;
+  pos base [\aQaf.isol \uni066F ] <anchor 800 1100> mark @TashkilAbove;
+  pos base [\aRaa.fina ] <anchor 200 800> mark @TashkilAbove;
+  pos base [\aRaa.isol ] <anchor 250 800> mark @TashkilAbove;
+  pos base [\aSad.fina \aSad.isol \uni069D.fina \uni0635.fina ] <anchor 1700 950> mark @TashkilAbove;
+  pos base [\aSad.init \aSad.medi \uni069D.init ] <anchor 850 950> mark @TashkilAbove;
+  pos base [\aSen.fina \aSen.isol \uni0633.fina \uni077D.fina \uni069B.fina \uni0633 \uni077D \uni069B ] <anchor 1450 800> mark @TashkilAbove;
+  pos base [\aSen.init ] <anchor 690 800> mark @TashkilAbove;
+  pos base [\aSen.medi ] <anchor 680 800> mark @TashkilAbove;
+  pos base [\aTaa.fina \aTaa.isol ] <anchor 1100 950> mark @TashkilAbove;
+  pos base [\aTaa.init \aTaa.medi \uni0635.init ] <anchor 950 950> mark @TashkilAbove;
+  pos base [\aWaw.fina \aWaw.isol \uni0779 \uni0648 ] <anchor 450 950> mark @TashkilAbove;
+  pos base [\aYaa.fina \aYaa.fina_KafYaaIsol \uni0777.fina \uni06D1.fina \uni06D0.fina \uni0649.fina \uni0776.fina \uni06CC.fina \uni0620.fina \uni064A.fina ] <anchor 600 450> mark @TashkilAbove;
+  pos base [\aYaa.isol ] <anchor 750 1150> mark @TashkilAbove;
+  pos base [\uni0621 ] <anchor 260 800> mark @TashkilAbove;
+  pos base [\aLam.init_LamAlfIsol \uni0644.init_LamAlfIsol \uni06B8.init_LamAlfIsol \uni076A.init_LamAlfIsol ] <anchor 800 1400> mark @TashkilAbove;
+  pos base [\aHeh.medi_LamHehInit \aHeh.medi_BaaHehMedi \aHeh.medi_PostTooth \uni0647.medi_BaaHehMedi \uni0647.medi_PostTooth ] <anchor 600 650> mark @TashkilAbove;
+  pos base [\aAlf.fina_LamAlfFina \uni0625.fina_LamAlfFina \uni0627.fina_LamAlfFina \uni0774.fina_LamAlfFina \uni0673.fina_LamAlfFina ] <anchor 300 1200> mark @TashkilAbove;
+  pos base [\aKaf.isol.alt \aKaf.fina.alt \uni06AA.fina \uni06AA ] <anchor 850 1350> mark @TashkilAbove;
+  pos base [\aBaa.medi_High \uni06C1.fina \uni0777.medi_High \uni0680.medi_High \uni0776.medi_High \uni06BD.medi_High \uni066E.medi_High \uni0620.medi_High \uni064A.medi_High \uni0755.medi_High \uni067E.medi_High \uni067B.medi_High \uni0628.medi_High \uni0752.medi_High \uni0649.medi_High \uni06D1.medi_High \uni06D0.medi_High \uni06CC.medi_High ] <anchor 300 900> mark @TashkilAbove;
+  pos base [\uni077A \uni077B ] <anchor 300 1400> mark @TashkilAbove;
+  pos base [\uni06BE \uni06BE.fina \aHehKnotted.fina ] <anchor 1000 1200> mark @TashkilAbove;
+  pos base [\uni06FF \uni069F.init ] <anchor 1000 1600> mark @TashkilAbove;
+  pos base [\aKaf.init_KafLam \aKaf.medi_KafLam \uni076C.fina \uni063C.init_KafLam \uni0764.init_KafLam \uni0643.init_KafLam \uni06AB.init_KafLam \uni06AE.init_KafLam \uni06A9.init_KafLam \uni063C.medi_KafLam \uni0643.medi_KafLam \uni06AB.medi_KafLam \uni06AE.medi_KafLam \uni06A9.medi_KafLam ] <anchor 300 1350> mark @TashkilAbove;
+  pos base [\uni0774.fina \uni0773.fina \uni0774 \uni0773 \uni0773.fina_LamAlfIsol \uni0774.fina_KafAlf \uni0773.fina_KafAlf \uni0623.fina_KafAlf ] <anchor 300 1800> mark @TashkilAbove;
+  pos base [\uni0623.fina \uni0675.fina \uni0672.fina \uni0672.fina_LamAlfIsol ] <anchor 300 1700> mark @TashkilAbove;
+  pos base [\uni0623 \uni0675 \uni0672 \uni0623.fina_LamAlfIsol \uni0675.fina_LamAlfIsol ] <anchor 300 1750> mark @TashkilAbove;
+  pos base [\uni06FC.fina \uni063A.fina ] <anchor 950 1350> mark @TashkilAbove;
+  pos base [\uni075E.fina ] <anchor 950 1650> mark @TashkilAbove;
+  pos base [\uni075D.fina ] <anchor 950 1400> mark @TashkilAbove;
+  pos base [\uni075F.fina \uni06A0.fina ] <anchor 950 1600> mark @TashkilAbove;
+  pos base [\uni0639.fina ] <anchor 950 1000> mark @TashkilAbove;
+  pos base [\uni06FC.init \uni063A.init \uni063B.fina \uni063B \uni0768 \uni076D.init \uni0634.init \uni069C.init ] <anchor 650 1450> mark @TashkilAbove;
+  pos base [\uni075E.init \uni0685 \uni0682 ] <anchor 650 1750> mark @TashkilAbove;
+  pos base [\uni075D.init \uni062E \uni06B1.fina \uni075C.init ] <anchor 650 1500> mark @TashkilAbove;
+  pos base [\uni075F.init \uni06A0.init \uni0681.fina \uni0681 ] <anchor 650 1700> mark @TashkilAbove;
+  pos base [\uni06FC \uni063A \uni06AD.fina \uni06AD ] <anchor 850 1650> mark @TashkilAbove;
+  pos base [\uni075E ] <anchor 850 1950> mark @TashkilAbove;
+  pos base [\uni075D ] <anchor 850 1700> mark @TashkilAbove;
+  pos base [\uni075F \uni06A0 ] <anchor 850 1900> mark @TashkilAbove;
+  pos base [\uni06FC.medi \uni063A.medi ] <anchor 500 1350> mark @TashkilAbove;
+  pos base [\uni075E.medi ] <anchor 500 1650> mark @TashkilAbove;
+  pos base [\uni075D.medi \uni0677.fina \uni0677 ] <anchor 500 1400> mark @TashkilAbove;
+  pos base [\uni075F.medi \uni06A0.medi \uni06EE \uni068C ] <anchor 500 1600> mark @TashkilAbove;
+  pos base [\uni0751.fina \uni062B.fina ] <anchor 830 1250> mark @TashkilAbove;
+  pos base [\uni0753.fina \uni062A.fina ] <anchor 830 1050> mark @TashkilAbove;
+  pos base [\uni0754.fina ] <anchor 830 1000> mark @TashkilAbove;
+  pos base [\uni0679.fina \uni0756.fina ] <anchor 850 1100> mark @TashkilAbove;
+  pos base [\uni067C.fina ] <anchor 800 1050> mark @TashkilAbove;
+  pos base [\uni0752.fina \uni066E.fina \uni0755.fina \uni067E.fina \uni067B.fina \uni0628.fina ] <anchor 850 700> mark @TashkilAbove;
+  pos base [\uni067F.fina \uni067D.fina ] <anchor 800 1300> mark @TashkilAbove;
+  pos base [\uni067A.fina ] <anchor 850 1250> mark @TashkilAbove;
+  pos base [\uni0777.init \uni0680.init \uni0776.init \uni06BD.init \uni066E.init \uni0620.init \uni064A.init \uni0755.init \uni067E.init \uni067B.init \uni0628.init \uni0752.init \uni0649.init \uni06D1.init \uni06D0.init \uni06CC.init ] <anchor 200 900> mark @TashkilAbove;
+  pos base [\uni06BC.init \uni06B9.init_High \uni0754.init_High \uni06BA.init_High \uni0767.init_High ] <anchor 100 1300> mark @TashkilAbove;
+  pos base [\uni0750.init \uni0693.fina \uni0694.fina \uni0695.fina \uni0696.fina \uni075B.fina \uni0631.fina \uni0693 \uni0694 \uni0695 \uni075B \uni0631 ] <anchor 300 800> mark @TashkilAbove;
+  pos base [\uni0756.init ] <anchor 90 1400> mark @TashkilAbove;
+  pos base [\uni0768.init \uni0769.init_High ] <anchor 90 1750> mark @TashkilAbove;
+  pos base [\uni06CE.init ] <anchor 70 1400> mark @TashkilAbove;
+  pos base [\uni0775.init ] <anchor 160 1550> mark @TashkilAbove;
+  pos base [\uni0626.init \uni0626.medi_High ] <anchor 180 1350> mark @TashkilAbove;
+  pos base [\uni06BB.init \uni0679.init ] <anchor 130 1400> mark @TashkilAbove;
+  pos base [\uni067F.init ] <anchor 110 1600> mark @TashkilAbove;
+  pos base [\uni067D.init \uni062B.init ] <anchor 90 1600> mark @TashkilAbove;
+  pos base [\uni067A.init \uni0751.init \uni067D.init_High \uni067A.init_High \uni0751.init_High ] <anchor 100 1600> mark @TashkilAbove;
+  pos base [\uni0646.init \uni0754.init \uni06BA.init \uni0767.init \uni0751.medi \uni062B.medi \uni0753.init_High \uni062A.init_High \uni063D.init_High \uni067C.init_High ] <anchor 100 1350> mark @TashkilAbove;
+  pos base [\uni0753.init \uni062A.init \uni067C.init \uni067F.medi \uni067D.medi \uni0756.init_High \uni06CE.init_High \uni0679.init_High ] <anchor 100 1400> mark @TashkilAbove;
+  pos base [\uni0678.init \uni0757.init ] <anchor 470 1550> mark @TashkilAbove;
+  pos base [\uni063D.init ] <anchor 60 1400> mark @TashkilAbove;
+  pos base [\uni06B9.init \uni0751.medi_High ] <anchor 90 1350> mark @TashkilAbove;
+  pos base [\uni0769.init ] <anchor 80 1750> mark @TashkilAbove;
+  pos base [\uni0751 \uni062B \uni067A ] <anchor 830 1300> mark @TashkilAbove;
+  pos base [\uni0753 \uni062A \uni0754 \uni0679 \uni067C \uni0756 \uni0752 ] <anchor 830 1100> mark @TashkilAbove;
+  pos base [\uni067F \uni067D \uni0642.fina ] <anchor 830 1350> mark @TashkilAbove;
+  pos base [\uni06BC.medi \uni06BC.medi_YaaBari ] <anchor 160 1150> mark @TashkilAbove;
+  pos base [\uni0756.medi \uni06CE.medi \uni06CE.medi_YaaBari ] <anchor 130 1200> mark @TashkilAbove;
+  pos base [\uni0768.medi ] <anchor 130 1550> mark @TashkilAbove;
+  pos base [\uni0775.medi ] <anchor 130 1350> mark @TashkilAbove;
+  pos base [\uni0626.medi ] <anchor 50 1200> mark @TashkilAbove;
+  pos base [\uni06BB.medi \uni0753.medi \uni062A.medi \uni0679.medi \uni067C.medi \aBaa.init_YaaBari \uni063D.medi_YaaBari ] <anchor 100 1200> mark @TashkilAbove;
+  pos base [\uni067A.medi \uni0626.init_YaaBari ] <anchor 150 1400> mark @TashkilAbove;
+  pos base [\uni0646.medi \uni06B9.medi \uni0754.medi \uni06BA.medi \uni0767.medi ] <anchor 150 1150> mark @TashkilAbove;
+  pos base [\uni0678.medi ] <anchor 180 1300> mark @TashkilAbove;
+  pos base [\uni063D.medi \uni0753.medi_High \uni062A.medi_High \uni067C.medi_High ] <anchor 90 1200> mark @TashkilAbove;
+  pos base [\uni0769.medi \uni0769.medi_YaaBari ] <anchor 150 1550> mark @TashkilAbove;
+  pos base [\uni0690.fina ] <anchor 550 1850> mark @TashkilAbove;
+  pos base [\uni06EE.fina \uni0757 \uni06BF \uni0770.medi ] <anchor 650 1550> mark @TashkilAbove;
+  pos base [\uni0688.fina \uni068C.fina ] <anchor 550 1600> mark @TashkilAbove;
+  pos base [\uni0630.fina ] <anchor 700 1550> mark @TashkilAbove;
+  pos base [\uni0759.fina ] <anchor 600 1600> mark @TashkilAbove;
+  pos base [\uni068B.fina ] <anchor 600 1650> mark @TashkilAbove;
+  pos base [\uni068F.fina ] <anchor 560 1850> mark @TashkilAbove;
+  pos base [\uni068E.fina ] <anchor 580 1850> mark @TashkilAbove;
+  pos base [\uni0690 ] <anchor 500 1850> mark @TashkilAbove;
+  pos base [\uni0688 \uni0759 \uni068B ] <anchor 450 1600> mark @TashkilAbove;
+  pos base [\uni0630 ] <anchor 500 1550> mark @TashkilAbove;
+  pos base [\uni068F ] <anchor 500 1900> mark @TashkilAbove;
+  pos base [\uni068E \uni06A6.medi ] <anchor 500 1800> mark @TashkilAbove;
+  pos base [\uni0641.fina \uni06A3.fina ] <anchor 1500 1500> mark @TashkilAbove;
+  pos base [\uni06A4.fina ] <anchor 1480 1700> mark @TashkilAbove;
+  pos base [\uni06A6.fina ] <anchor 1480 1750> mark @TashkilAbove;
+  pos base [\uni0642.init \uni06A7.init \uni077F.init \uni0762.init ] <anchor 320 1750> mark @TashkilAbove;
+  pos base [\uni0641.init \uni06A3.init \uni0762.medi ] <anchor 320 1700> mark @TashkilAbove;
+  pos base [\uni06A8.init ] <anchor 320 1950> mark @TashkilAbove;
+  pos base [\uni06A4.init ] <anchor 320 1900> mark @TashkilAbove;
+  pos base [\uni06A6.init ] <anchor 320 2000> mark @TashkilAbove;
+  pos base [\uni0641 ] <anchor 1270 1750> mark @TashkilAbove;
+  pos base [\uni06A3 ] <anchor 1280 1750> mark @TashkilAbove;
+  pos base [\uni06A4 ] <anchor 1280 1950> mark @TashkilAbove;
+  pos base [\uni06A6 ] <anchor 1280 2000> mark @TashkilAbove;
+  pos base [\uni0642.medi ] <anchor 500 1500> mark @TashkilAbove;
+  pos base [\uni0641.medi ] <anchor 530 1450> mark @TashkilAbove;
+  pos base [\uni06A8.medi \uni06A4.medi ] <anchor 500 1700> mark @TashkilAbove;
+  pos base [\uni06A3.medi ] <anchor 520 1500> mark @TashkilAbove;
+  pos base [\uni06A7.medi ] <anchor 530 1500> mark @TashkilAbove;
+  pos base [\uni062E.fina ] <anchor 640 1500> mark @TashkilAbove;
+  pos base [\uni0685.fina ] <anchor 770 1750> mark @TashkilAbove;
+  pos base [\uni0682.fina ] <anchor 640 1750> mark @TashkilAbove;
+  pos base [\uni0757.fina ] <anchor 750 1550> mark @TashkilAbove;
+  pos base [\uni06BF.fina ] <anchor 640 1550> mark @TashkilAbove;
+  pos base [\uni0772.fina ] <anchor 620 1550> mark @TashkilAbove;
+  pos base [\uni062E.init ] <anchor 380 1500> mark @TashkilAbove;
+  pos base [\uni0681.init ] <anchor 380 1700> mark @TashkilAbove;
+  pos base [\uni0685.init \uni0685.medi ] <anchor 500 1750> mark @TashkilAbove;
+  pos base [\uni0682.init ] <anchor 350 1750> mark @TashkilAbove;
+  pos base [\uni06BF.init \uni062E.medi \uni06BF.medi ] <anchor 360 1500> mark @TashkilAbove;
+  pos base [\uni0772.init ] <anchor 350 1550> mark @TashkilAbove;
+  pos base [\uni062D ] <anchor 700 1640> mark @TashkilAbove;
+  pos base [\uni076F ] <anchor 659 1150> mark @TashkilAbove;
+  pos base [\uni0772 ] <anchor 600 1550> mark @TashkilAbove;
+  pos base [\uni062D.medi \uni0687.medi \uni062C.medi \uni0684.medi \uni076F.medi \uni076E.medi \uni0683.medi \uni077C.medi \uni0758.medi \uni0686.medi ] <anchor 400 1100> mark @TashkilAbove;
+  pos base [\uni0681.medi ] <anchor 360 1700> mark @TashkilAbove;
+  pos base [\uni0682.medi ] <anchor 360 1750> mark @TashkilAbove;
+  pos base [\uni0757.medi ] <anchor 490 1550> mark @TashkilAbove;
+  pos base [\uni0772.medi ] <anchor 370 1550> mark @TashkilAbove;
+  pos base [\uni06C3.fina \uni06CA \uni06C8 \uni06C9 ] <anchor 450 1350> mark @TashkilAbove;
+  pos base [\uni0629.fina ] <anchor 440 1500> mark @TashkilAbove;
+  pos base [\uni06C2 \uni06C0 \uni0624.fina ] <anchor 400 1500> mark @TashkilAbove;
+  pos base [\uni06C3 \uni06C8.fina \uni06C6 ] <anchor 450 1400> mark @TashkilAbove;
+  pos base [\uni0629 ] <anchor 460 1350> mark @TashkilAbove;
+  pos base [\uni063C.fina ] <anchor 650 850> mark @TashkilAbove;
+  pos base [\uni077F.fina ] <anchor 850 1500> mark @TashkilAbove;
+  pos base [\uni0764.fina \uni06B0.fina \uni06B3.fina \uni06B2.fina \uni06A9.fina \uni063C \uni0764 \uni06B0 \uni06B3 \uni06B2 \uni06AF \uni06A9 ] <anchor 650 800> mark @TashkilAbove;
+  pos base [\uni06AC.fina \uni077F ] <anchor 850 1450> mark @TashkilAbove;
+  pos base [\uni06AF.fina \uni0633.init \uni077D.init \uni069B.init \uni0633.medi \uni077D.medi \uni069B.medi ] <anchor 700 800> mark @TashkilAbove;
+  pos base [\uni06B4.fina \uni0763.fina \uni0763 ] <anchor 650 1650> mark @TashkilAbove;
+  pos base [\uni0762.fina ] <anchor 800 1450> mark @TashkilAbove;
+  pos base [\uni063B.init \uni06AC.init ] <anchor 340 1750> mark @TashkilAbove;
+  pos base [\uni063C.init \uni0764.init \uni0643.init \uni06AB.init \uni06AE.init \uni06A9.init \uni063C.medi \uni0764.medi \uni0643.medi \uni06AB.medi \uni06AE.medi \uni06A9.medi ] <anchor 320 1350> mark @TashkilAbove;
+  pos base [\uni06B0.init \uni06B3.init \uni06B2.init \uni06AF.init \uni06B0.medi \uni06B3.medi \uni06B2.medi \uni06AF.medi ] <anchor 320 1450> mark @TashkilAbove;
+  pos base [\uni06AD.init ] <anchor 340 1950> mark @TashkilAbove;
+  pos base [\uni06B4.init ] <anchor 400 2031> mark @TashkilAbove;
+  pos base [\uni0763.init ] <anchor 340 2000> mark @TashkilAbove;
+  pos base [\uni06B1.init \uni06B1.medi ] <anchor 390 1830> mark @TashkilAbove;
+  pos base [\uni06AC ] <anchor 850 1400> mark @TashkilAbove;
+  pos base [\uni06B4 ] <anchor 670 1650> mark @TashkilAbove;
+  pos base [\uni0762 ] <anchor 790 1400> mark @TashkilAbove;
+  pos base [\uni06B1 ] <anchor 640 1450> mark @TashkilAbove;
+  pos base [\uni063B.medi ] <anchor 380 1750> mark @TashkilAbove;
+  pos base [\uni077F.medi \uni063B.init_KafLam ] <anchor 390 1750> mark @TashkilAbove;
+  pos base [\uni06AC.medi ] <anchor 340 1700> mark @TashkilAbove;
+  pos base [\uni06AD.medi ] <anchor 390 1950> mark @TashkilAbove;
+  pos base [\uni06B4.medi \uni06B4.init_KafLam \uni06B4.medi_KafLam ] <anchor 400 2030> mark @TashkilAbove;
+  pos base [\uni0763.medi ] <anchor 400 2000> mark @TashkilAbove;
+  pos base [\uni06B5.fina ] <anchor 950 1800> mark @TashkilAbove;
+  pos base [\uni06B7.fina \uni06B7.fina_KafLam ] <anchor 830 1950> mark @TashkilAbove;
+  pos base [\uni06B6.fina ] <anchor 970 1700> mark @TashkilAbove;
+  pos base [\uni06B5.init ] <anchor 200 1750> mark @TashkilAbove;
+  pos base [\uni06B7.init \uni06B7.medi \uni06B7.medi_KafLam ] <anchor 170 1950> mark @TashkilAbove;
+  pos base [\uni06B6.init ] <anchor 260 1700> mark @TashkilAbove;
+  pos base [\uni06B5 \uni06B6.init_LamAlfIsol ] <anchor 850 1750> mark @TashkilAbove;
+  pos base [\uni06B7 ] <anchor 840 1950> mark @TashkilAbove;
+  pos base [\uni06B6 ] <anchor 970 1750> mark @TashkilAbove;
+  pos base [\uni06B5.medi ] <anchor 190 1700> mark @TashkilAbove;
+  pos base [\uni06B6.medi ] <anchor 250 1700> mark @TashkilAbove;
+  pos base [\uni0765.fina \uni0765 ] <anchor 780 1400> mark @TashkilAbove;
+  pos base [\uni0765.init ] <anchor 560 1400> mark @TashkilAbove;
+  pos base [\uni0765.medi ] <anchor 580 1400> mark @TashkilAbove;
+  pos base [\uni0646.fina \uni0767.fina \uni06BC.fina ] <anchor 650 900> mark @TashkilAbove;
+  pos base [\uni06BB.fina \uni0646 \uni0767 \uni06BC \uni06B9 ] <anchor 650 1000> mark @TashkilAbove;
+  pos base [\uni0768.fina ] <anchor 650 1300> mark @TashkilAbove;
+  pos base [\uni06B9.fina ] <anchor 659 900> mark @TashkilAbove;
+  pos base [\uni0769.fina ] <anchor 620 1300> mark @TashkilAbove;
+  pos base [\uni0769 ] <anchor 630 1450> mark @TashkilAbove;
+  pos base [\uni06BD ] <anchor 650 1250> mark @TashkilAbove;
+  pos base [\uni06A8.fina ] <anchor 840 1550> mark @TashkilAbove;
+  pos base [\uni06A7.fina ] <anchor 840 1300> mark @TashkilAbove;
+  pos base [\uni06A8 ] <anchor 840 1700> mark @TashkilAbove;
+  pos base [\uni06A7 ] <anchor 840 1450> mark @TashkilAbove;
+  pos base [\uni0642 ] <anchor 840 1500> mark @TashkilAbove;
+  pos base [\uni0691.fina ] <anchor 280 1250> mark @TashkilAbove;
+  pos base [\uni0692.fina ] <anchor 300 1250> mark @TashkilAbove;
+  pos base [\uni0697.fina ] <anchor 370 1250> mark @TashkilAbove;
+  pos base [\uni0698.fina ] <anchor 360 1450> mark @TashkilAbove;
+  pos base [\uni0699.fina \uni0678.init_High ] <anchor 350 1500> mark @TashkilAbove;
+  pos base [\uni06EF.fina ] <anchor 350 1250> mark @TashkilAbove;
+  pos base [\uni0632.fina \uni06EF \uni0632 ] <anchor 370 1200> mark @TashkilAbove;
+  pos base [\uni0771.fina \uni0771 ] <anchor 300 1600> mark @TashkilAbove;
+  pos base [\uni076B.fina \uni06B0.medi_KafLam ] <anchor 330 1450> mark @TashkilAbove;
+  pos base [\uni0691 ] <anchor 330 1250> mark @TashkilAbove;
+  pos base [\uni0692 ] <anchor 350 1300> mark @TashkilAbove;
+  pos base [\uni0696 ] <anchor 500 800> mark @TashkilAbove;
+  pos base [\uni0697 ] <anchor 340 1250> mark @TashkilAbove;
+  pos base [\uni0698 ] <anchor 350 1450> mark @TashkilAbove;
+  pos base [\uni0699 ] <anchor 370 1500> mark @TashkilAbove;
+  pos base [\uni076B ] <anchor 370 1450> mark @TashkilAbove;
+  pos base [\uni076C ] <anchor 350 1400> mark @TashkilAbove;
+  pos base [\uni06FB.fina ] <anchor 1730 1400> mark @TashkilAbove;
+  pos base [\uni0636.fina ] <anchor 1720 1400> mark @TashkilAbove;
+  pos base [\uni069E.fina ] <anchor 1720 1650> mark @TashkilAbove;
+  pos base [\uni06FB.init \uni06FB.medi \uni0636.medi ] <anchor 1100 1350> mark @TashkilAbove;
+  pos base [\uni0636.init ] <anchor 1100 1400> mark @TashkilAbove;
+  pos base [\uni069E.init \uni069E.medi ] <anchor 1100 1600> mark @TashkilAbove;
+  pos base [\uni069D \uni0635 ] <anchor 1750 950> mark @TashkilAbove;
+  pos base [\uni06FB \uni0636 ] <anchor 1900 1400> mark @TashkilAbove;
+  pos base [\uni069E ] <anchor 1770 1650> mark @TashkilAbove;
+  pos base [\uni069D.medi \uni0635.medi ] <anchor 900 950> mark @TashkilAbove;
+  pos base [\uni06FA.fina \uni0634.fina ] <anchor 1450 1400> mark @TashkilAbove;
+  pos base [\uni076D.fina ] <anchor 1460 1400> mark @TashkilAbove;
+  pos base [\uni077E.fina ] <anchor 1450 1200> mark @TashkilAbove;
+  pos base [\uni0770.fina ] <anchor 1400 1550> mark @TashkilAbove;
+  pos base [\uni075C.fina \uni06FA \uni076D ] <anchor 1450 1450> mark @TashkilAbove;
+  pos base [\uni069A.fina ] <anchor 1460 1150> mark @TashkilAbove;
+  pos base [\uni069C.fina ] <anchor 1450 1350> mark @TashkilAbove;
+  pos base [\uni06FA.init ] <anchor 650 1400> mark @TashkilAbove;
+  pos base [\uni077E.init ] <anchor 650 1200> mark @TashkilAbove;
+  pos base [\uni0770.init ] <anchor 630 1600> mark @TashkilAbove;
+  pos base [\uni069A.init ] <anchor 660 1200> mark @TashkilAbove;
+  pos base [\uni077E ] <anchor 1430 1250> mark @TashkilAbove;
+  pos base [\uni0634 \uni069C ] <anchor 1400 1450> mark @TashkilAbove;
+  pos base [\uni0770 ] <anchor 1400 1600> mark @TashkilAbove;
+  pos base [\uni075C ] <anchor 1450 1500> mark @TashkilAbove;
+  pos base [\uni069A ] <anchor 1470 1200> mark @TashkilAbove;
+  pos base [\uni06FA.medi \uni076D.medi \uni069C.medi ] <anchor 700 1400> mark @TashkilAbove;
+  pos base [\uni077E.medi ] <anchor 680 1200> mark @TashkilAbove;
+  pos base [\uni0634.medi ] <anchor 680 1350> mark @TashkilAbove;
+  pos base [\uni075C.medi ] <anchor 700 1450> mark @TashkilAbove;
+  pos base [\uni069A.medi ] <anchor 680 1150> mark @TashkilAbove;
+  pos base [\uni0638.fina ] <anchor 1150 1350> mark @TashkilAbove;
+  pos base [\uni0637.fina \uni0637 ] <anchor 1100 1000> mark @TashkilAbove;
+  pos base [\uni069F.fina ] <anchor 1170 1600> mark @TashkilAbove;
+  pos base [\uni0638.init ] <anchor 1030 1400> mark @TashkilAbove;
+  pos base [\uni0637.init \uni0637.medi ] <anchor 1000 1000> mark @TashkilAbove;
+  pos base [\uni0638 ] <anchor 1150 1370> mark @TashkilAbove;
+  pos base [\uni069F ] <anchor 1130 1600> mark @TashkilAbove;
+  pos base [\uni0638.medi ] <anchor 1030 1350> mark @TashkilAbove;
+  pos base [\uni069F.medi ] <anchor 1030 1600> mark @TashkilAbove;
+  pos base [\uni06CB.fina ] <anchor 430 1550> mark @TashkilAbove;
+  pos base [\uni06CA.fina ] <anchor 430 1350> mark @TashkilAbove;
+  pos base [\uni06CF.fina ] <anchor 440 1300> mark @TashkilAbove;
+  pos base [\uni0778.fina ] <anchor 450 1500> mark @TashkilAbove;
+  pos base [\uni06C6.fina \uni06C7.fina ] <anchor 430 1400> mark @TashkilAbove;
+  pos base [\uni06C4.fina \uni06C5.fina ] <anchor 600 1000> mark @TashkilAbove;
+  pos base [\uni0676.fina ] <anchor 750 1500> mark @TashkilAbove;
+  pos base [\uni06C9.fina ] <anchor 440 1350> mark @TashkilAbove;
+  pos base [\uni0779.fina \uni0648.fina ] <anchor 440 950> mark @TashkilAbove;
+  pos base [\uni06CB ] <anchor 460 1550> mark @TashkilAbove;
+  pos base [\uni0624 ] <anchor 480 1500> mark @TashkilAbove;
+  pos base [\uni06CF ] <anchor 450 1300> mark @TashkilAbove;
+  pos base [\uni0778 ] <anchor 470 1500> mark @TashkilAbove;
+  pos base [\uni06C7 ] <anchor 450 1450> mark @TashkilAbove;
+  pos base [\uni06C4 \uni06C5 ] <anchor 570 950> mark @TashkilAbove;
+  pos base [\uni0676 ] <anchor 680 1400> mark @TashkilAbove;
+  pos base [\uni0775.fina \uni063E.fina \uni0626.fina ] <anchor 600 900> mark @TashkilAbove;
+  pos base [\uni063F.fina ] <anchor 600 1100> mark @TashkilAbove;
+  pos base [\uni0678.fina ] <anchor 950 1050> mark @TashkilAbove;
+  pos base [\uni063D.fina ] <anchor 580 850> mark @TashkilAbove;
+  pos base [\uni06CD.fina ] <anchor 750 450> mark @TashkilAbove;
+  pos base [\uni06CE.fina ] <anchor 570 800> mark @TashkilAbove;
+  pos base [\uni0777 \uni06D1 \uni0678 \uni06D0 \uni0776 \uni06CC \uni0620 \uni064A ] <anchor 350 680> mark @TashkilAbove;
+  pos base [\uni063F ] <anchor 330 1550> mark @TashkilAbove;
+  pos base [\uni063D ] <anchor 300 1100> mark @TashkilAbove;
+  pos base [\uni063E ] <anchor 330 1300> mark @TashkilAbove;
+  pos base [\uni0649 ] <anchor 350 850> mark @TashkilAbove;
+  pos base [\uni06CD ] <anchor 500 680> mark @TashkilAbove;
+  pos base [\uni0626 ] <anchor 300 1150> mark @TashkilAbove;
+  pos base [\uni06CE ] <anchor 310 1200> mark @TashkilAbove;
+  pos base [\uni06B5.init_LamAlfIsol ] <anchor 780 1800> mark @TashkilAbove;
+  pos base [\uni06B7.init_LamAlfIsol ] <anchor 730 2000> mark @TashkilAbove;
+  pos base [\uni06B5.medi_LamAlfFina \uni06B5.medi_KafLamAlf \uni06B5.fina_KafLam ] <anchor 900 1800> mark @TashkilAbove;
+  pos base [\uni06B7.medi_LamAlfFina ] <anchor 820 2000> mark @TashkilAbove;
+  pos base [\uni06B6.medi_LamAlfFina ] <anchor 950 1750> mark @TashkilAbove;
+  pos base [\uni0773.fina_LamAlfFina \uni0623.fina_LamAlfFina \uni0675.fina_LamAlfFina ] <anchor 300 1650> mark @TashkilAbove;
+  pos base [\uni0672.fina_LamAlfFina ] <anchor 300 1550> mark @TashkilAbove;
+  pos base [\uni06BC.init_High ] <anchor 80 1300> mark @TashkilAbove;
+  pos base [\uni0750.init_High ] <anchor 350 800> mark @TashkilAbove;
+  pos base [\uni0768.init_High ] <anchor 60 1750> mark @TashkilAbove;
+  pos base [\uni0775.init_High ] <anchor 150 1500> mark @TashkilAbove;
+  pos base [\uni0626.init_High ] <anchor 200 1430> mark @TashkilAbove;
+  pos base [\uni06BB.init_High ] <anchor 120 1400> mark @TashkilAbove;
+  pos base [\uni067F.init_High ] <anchor 90 1650> mark @TashkilAbove;
+  pos base [\uni0646.init_High ] <anchor 100 1330> mark @TashkilAbove;
+  pos base [\uni062B.init_High ] <anchor 100 1550> mark @TashkilAbove;
+  pos base [\uni06BC.medi_High \uni06B9.medi_High \uni06BA.medi_High \uni0767.medi_High ] <anchor 220 1150> mark @TashkilAbove;
+  pos base [\uni0750.medi_High ] <anchor 450 900> mark @TashkilAbove;
+  pos base [\uni0756.medi_High \uni06BB.medi_High \uni0679.medi_High \uni0756.medi_YaaBari ] <anchor 150 1200> mark @TashkilAbove;
+  pos base [\uni0768.medi_High ] <anchor 170 1550> mark @TashkilAbove;
+  pos base [\uni06CE.medi_High ] <anchor 175 1200> mark @TashkilAbove;
+  pos base [\uni0775.medi_High ] <anchor 170 1300> mark @TashkilAbove;
+  pos base [\uni067F.medi_High ] <anchor 80 1400> mark @TashkilAbove;
+  pos base [\uni067D.medi_High \uni067A.medi_High ] <anchor 220 1400> mark @TashkilAbove;
+  pos base [\uni0646.medi_High ] <anchor 200 1100> mark @TashkilAbove;
+  pos base [\uni0678.medi_High \uni0626.medi_YaaBari \uni0678.medi_YaaBari ] <anchor 200 1300> mark @TashkilAbove;
+  pos base [\uni063D.medi_High ] <anchor 200 1200> mark @TashkilAbove;
+  pos base [\uni062B.medi_High ] <anchor 80 1380> mark @TashkilAbove;
+  pos base [\uni0769.medi_High ] <anchor 180 1550> mark @TashkilAbove;
+  pos base [\uni0754.medi_High ] <anchor 210 1150> mark @TashkilAbove;
+  pos base [\uni077F.init_KafLam \uni063B.medi_KafLam \uni077F.medi_KafLam ] <anchor 400 1750> mark @TashkilAbove;
+  pos base [\uni06B0.init_KafLam \uni06B3.init_KafLam \uni06B2.init_KafLam ] <anchor 330 1400> mark @TashkilAbove;
+  pos base [\uni06AC.init_KafLam ] <anchor 330 1730> mark @TashkilAbove;
+  pos base [\uni06AD.init_KafLam \uni06AD.medi_KafLam \uni0763.medi_KafLam ] <anchor 400 1950> mark @TashkilAbove;
+  pos base [\uni06AF.init_KafLam \uni06B3.medi_KafLam \uni06B2.medi_KafLam \uni06AF.medi_KafLam ] <anchor 330 1430> mark @TashkilAbove;
+  pos base [\uni0763.init_KafLam ] <anchor 90 1920> mark @TashkilAbove;
+  pos base [\uni0762.init_KafLam ] <anchor 320 1730> mark @TashkilAbove;
+  pos base [\uni06B1.init_KafLam ] <anchor 380 1830> mark @TashkilAbove;
+  pos base [\uni06B5.medi_KafLam ] <anchor 200 1700> mark @TashkilAbove;
+  pos base [\uni06B6.medi_KafLam ] <anchor 260 1730> mark @TashkilAbove;
+  pos base [\uni0764.medi_KafLam ] <anchor 200 1350> mark @TashkilAbove;
+  pos base [\uni06AC.medi_KafLam ] <anchor 330 1750> mark @TashkilAbove;
+  pos base [\uni0762.medi_KafLam ] <anchor 330 1700> mark @TashkilAbove;
+  pos base [\uni06B1.medi_KafLam ] <anchor 400 1780> mark @TashkilAbove;
+  pos base [\uni06B7.medi_KafLamAlf ] <anchor 820 1950> mark @TashkilAbove;
+  pos base [\uni06B6.medi_KafLamAlf ] <anchor 950 1730> mark @TashkilAbove;
+  pos base [\uni06B6.fina_KafLam ] <anchor 940 1730> mark @TashkilAbove;
+  pos base [\uni0675.fina_KafAlf ] <anchor 450 1900> mark @TashkilAbove;
+  pos base [\uni0672.fina_KafAlf ] <anchor 300 1730> mark @TashkilAbove;
+  pos base [\uni0670.isol ] <anchor 30 1150> mark @TashkilAbove;
+  pos base [\uni06E5 ] <anchor 250 450> mark @TashkilAbove;
+  pos base [\uni06E6 ] <anchor 250 380> mark @TashkilAbove;
+  pos base [\aYaaBari.fina_PostTooth \aYaaBari.fina_PostAscender \aYaaBari.fina_PostToothFina \uni06D2.fina_PostToothFina ] <anchor 500 550> mark @TashkilAbove;
+  pos base [\aHehKnotted.isol ] <anchor 1000 1250> mark @TashkilAbove;
+  pos base [\uni06FF.init ] <anchor 670 1050> mark @TashkilAbove;
+  pos base [\uni06FF.fina ] <anchor 1020 1650> mark @TashkilAbove;
+  pos base [\uni06FF.medi ] <anchor 500 1450> mark @TashkilAbove;
+  pos base [\aGaf.isol \aGaf.fina ] <anchor 700 750> mark @TashkilAbove;
+  pos base [\uni0750.medi_YaaBari ] <anchor 330 700> mark @TashkilAbove;
+  pos base [\uni0768.medi_YaaBari ] <anchor 130 1500> mark @TashkilAbove;
+  pos base [\uni0775.medi_YaaBari \uni0751.medi_YaaBari \uni062B.medi_YaaBari ] <anchor 120 1350> mark @TashkilAbove;
+  pos base [\uni06BB.medi_YaaBari \uni0679.medi_YaaBari ] <anchor 110 1200> mark @TashkilAbove;
+  pos base [\uni067F.medi_YaaBari \uni067D.medi_YaaBari ] <anchor 110 1400> mark @TashkilAbove;
+  pos base [\uni067A.medi_YaaBari ] <anchor 160 1400> mark @TashkilAbove;
+  pos base [\uni0646.medi_YaaBari ] <anchor 170 1100> mark @TashkilAbove;
+  pos base [\uni0753.medi_YaaBari ] <anchor 110 1150> mark @TashkilAbove;
+  pos base [\uni062A.medi_YaaBari \uni067C.medi_YaaBari ] <anchor 120 1150> mark @TashkilAbove;
+  pos base [\uni06B9.medi_YaaBari ] <anchor 160 1100> mark @TashkilAbove;
+  pos base [\uni0754.medi_YaaBari \uni0767.medi_YaaBari ] <anchor 170 1150> mark @TashkilAbove;
+  pos base [\uni06BA.medi_YaaBari ] <anchor 150 1100> mark @TashkilAbove;
+  pos base [\uni077B.fina_PostToothFina ] <anchor 350 1050> mark @TashkilAbove;
+  pos base [\uni077A.fina_PostToothFina ] <anchor 300 1050> mark @TashkilAbove;
+  pos base [\uni06D2 ] <anchor 300 1000> mark @TashkilAbove;
+} markTashkilAboveBase;
+
+lookup markTashkilBelowBase {
+  lookupflag 0;
+  markClass [\uni0655 ] <anchor 30 -600> @TashkilBelow;
+  markClass [\uni064D \uni0650 \uni0650.small2 \uni06ED \uni08E6 \uni08E9 ] <anchor 250 -950> @TashkilBelow;
+  markClass [\uni065F ] <anchor 300 -950> @TashkilBelow;
+  markClass [\uni0656 ] <anchor 150 -950> @TashkilBelow;
+  markClass [\uni061A ] <anchor 620 -950> @TashkilBelow;
+  markClass [\uni08F2 ] <anchor 250 -930> @TashkilBelow;
+  markClass [\uni065C ] <anchor 220 -950> @TashkilBelow;
+  markClass [\uni0325 ] <anchor 250 -800> @TashkilBelow;
+  markClass [\uni0650.small ] <anchor 250 -750> @TashkilBelow;
+  markClass [\uni064D.small ] <anchor 20 -500> @TashkilBelow;
+  pos base [\aAlf.fina.alt \aAlf.fina \aHaa.medi \aKaf.init.alt \aHaa.medi_1LamHaaHaaInit \aHaa.medi_2LamHaaHaaInit \aAlf.fina_KafAlf \aMem.medi_KafMemMedi \uni0627.fina \uni0774.fina \uni0773.fina \uni0623.fina \uni0675.fina \uni0672.fina \uni062E.init \uni062D.init \uni0681.init \uni0685.init \uni0682.init \uni0757.init \uni077C.init \uni0772.init \uni062E.medi \uni062D.medi \uni0681.medi \uni0685.medi \uni0682.medi \uni0757.medi \uni077C.medi \uni0772.medi \uni0765.init \uni0645.init \uni0765.medi \uni0645.medi \uni06B5.medi_LamAlfFina \uni06B7.medi_LamAlfFina \uni0644.medi_LamAlfFina \uni06B6.medi_LamAlfFina \uni076A.medi_LamAlfFina \uni0627.fina_LamAlfFina \uni0774.fina_LamAlfFina \uni0773.fina_LamAlfFina \uni0623.fina_LamAlfFina \uni0675.fina_LamAlfFina \uni0672.fina_LamAlfFina \uni06B5.medi_KafLamAlf \uni06B7.medi_KafLamAlf \uni0644.medi_KafLamAlf \uni06B6.medi_KafLamAlf \uni076A.medi_KafLamAlf \uni0627.fina_KafAlf \uni0774.fina_KafAlf \uni0773.fina_KafAlf \uni0623.fina_KafAlf \uni0675.fina_KafAlf \uni0672.fina_KafAlf \uni0627.fina_Tatweel ] <anchor 300 -210> mark @TashkilBelow;
+  pos base [\aAlf.isol ] <anchor 341 -150> mark @TashkilBelow;
+  pos base [\aAyn.fina \aAyn.isol \aHaa.fina \aHaa.isol \uni06FC.fina \uni063A.fina \uni075E.fina \uni075D.fina \uni075F.fina \uni06A0.fina \uni0639.fina \uni06FC \uni063A \uni075E \uni075D \uni075F \uni06A0 \uni0639 \uni062E.fina \uni062D.fina \uni0681.fina \uni0687.fina \uni0685.fina \uni062C.fina \uni0682.fina \uni0757.fina \uni0684.fina \uni076F.fina \uni076E.fina \uni0683.fina \uni06BF.fina \uni077C.fina \uni0758.fina \uni0772.fina \uni0686.fina \uni0681 \uni0687 \uni0685 \uni062C \uni0682 \uni0757 \uni0684 \uni076F \uni076E \uni0683 \uni06BF \uni077C \uni0758 \uni0772 \uni0686 ] <anchor 650 -750> mark @TashkilBelow;
+  pos base [\aAyn.init ] <anchor 459 -210> mark @TashkilBelow;
+  pos base [\aAyn.medi \aFaa.init \aBaa.medi_High \aKaf.medi_KafLam \uni063A.medi \uni075E.medi \uni075D.medi \uni075F.medi \uni06A0.medi \uni0639.medi \uni066F.init \uni0642.init \uni0641.init \uni06A8.init \uni06A1.init \uni06A4.init \uni06A6.init \uni06A7.init \uni0642.medi \uni0641.medi \uni06A8.medi \uni06A1.medi \uni06A4.medi \uni06A6.medi \uni06A7.medi \uni063B.init_KafLam \uni077F.init_KafLam \uni0643.init_KafLam \uni06B0.init_KafLam \uni06AB.init_KafLam \uni06AC.init_KafLam \uni06AD.init_KafLam \uni06AF.init_KafLam \uni06A9.init_KafLam \uni06B4.init_KafLam \uni0763.init_KafLam \uni0762.init_KafLam \uni06B1.init_KafLam \uni063B.medi_KafLam \uni077F.medi_KafLam \uni0643.medi_KafLam \uni06B0.medi_KafLam \uni06AB.medi_KafLam \uni06AC.medi_KafLam \uni06AD.medi_KafLam \uni06AF.medi_KafLam \uni06A9.medi_KafLam \uni06B4.medi_KafLam \uni0763.medi_KafLam \uni0762.medi_KafLam \uni06B1.medi_KafLam \uni06AA.init \uni06AA.medi ] <anchor 250 -210> mark @TashkilBelow;
+  pos base [\aBaa.fina \aBaa.isol \aFaa.fina \aFaa.isol \aKaf.fina \aKaf.isol \aKaf.isol.alt \aKaf.fina.alt \uni062A.fina \uni062B.fina \uni0679.fina \uni0756.fina \uni066E.fina \uni067F.fina \uni067D.fina \uni067A.fina \uni062A \uni0679 \uni0756 \uni066E \uni067F \uni067D \uni067A \uni0641.fina \uni06A1.fina \uni06A4.fina \uni06A6.fina \uni0641 \uni06A1 \uni06A4 \uni06A6 \uni063B.fina \uni077F.fina \uni0643.fina \uni06B0.fina \uni06AC.fina \uni06AD.fina \uni06AF.fina \uni06A9.fina \uni06B4.fina \uni0763.fina \uni0762.fina \uni06B1.fina \uni063B \uni077F \uni0643 \uni06B0 \uni06AC \uni06AD \uni06AF \uni06A9 \uni06B4 \uni0763 \uni0762 \uni06B1 \uni06AA.fina \uni06AA \aGaf.isol \aGaf.fina ] <anchor 850 -210> mark @TashkilBelow;
+  pos base [\aBaa.init \aBaa.medi \aBaa.init_BaaYaaIsol \uni0777.init \uni0756.init \uni0768.init \uni0626.init \uni066E.init \uni06BB.init \uni067F.init \uni067D.init \uni067A.init \uni0646.init \uni062A.init \uni0678.init \uni062B.init \uni0679.init \uni0769.init \uni0649.init \uni06BA.init \uni0756.init_High \uni0768.init_High \uni0626.init_High \uni06BB.init_High \uni067F.init_High \uni067D.init_High \uni067A.init_High \uni0646.init_High \uni062A.init_High \uni0678.init_High \uni062B.init_High \uni0679.init_High \uni0769.init_High \uni0649.init_High \uni06BA.init_High \aBaa.medi_YaaBari ] <anchor 180 -210> mark @TashkilBelow;
+  pos base [\aDal.fina \aHeh.fina \aHeh.init \aHeh.isol \uni0647.fina_Lellah \uni077A \uni077B \uni0690.fina \uni06EE.fina \uni0688.fina \uni0630.fina \uni062F.fina \uni068C.fina \uni068F.fina \uni068E.fina \uni0647.fina \uni06D5.fina \uni0629.fina \uni0647.init \uni0647 \uni06C2 \uni06C0 \uni06C1 \uni06C3 \uni06D5 \uni0629 \aYaaBari.isol \aHehKnotted.isol \uni06BE.fina \uni06FF.fina \aHehKnotted.fina \uni06D2 ] <anchor 450 -210> mark @TashkilBelow;
+  pos base [\aDal.isol \uni06BE \uni06FF \uni0690 \uni06EE \uni0688 \uni0630 \uni062F \uni068C \uni068F \uni068E ] <anchor 500 -210> mark @TashkilBelow;
+  pos base [\aFaa.medi \aLam.medi \uni0644.init_Lellah \uni0644.medi_Lellah \aBaa.init_High \aLam.medi_KafLam \uni0777.medi \uni0756.medi \uni0768.medi \uni0626.medi \uni066E.medi \uni06BB.medi \uni067F.medi \uni067D.medi \uni067A.medi \uni0646.medi \uni062A.medi \uni0678.medi \uni062B.medi \uni0679.medi \uni0769.medi \uni0649.medi \uni06BA.medi \uni06B5.init \uni06B7.init \uni0644.init \uni06B6.init \uni076A.init \uni06B5.medi \uni06B7.medi \uni0644.medi \uni06B6.medi \uni076A.medi \uni066E.init_High \uni06B5.medi_KafLam \uni06B7.medi_KafLam \uni0644.medi_KafLam \uni06B6.medi_KafLam \uni076A.medi_KafLam \uni0777.medi_YaaBari \uni0756.medi_YaaBari \uni0768.medi_YaaBari \uni0626.medi_YaaBari \uni066E.medi_YaaBari \uni06BB.medi_YaaBari \uni067F.medi_YaaBari \uni067D.medi_YaaBari \uni067A.medi_YaaBari \uni0646.medi_YaaBari \uni062A.medi_YaaBari \uni0678.medi_YaaBari \uni062B.medi_YaaBari \uni0679.medi_YaaBari \uni0769.medi_YaaBari \uni0649.medi_YaaBari \uni06BA.medi_YaaBari ] <anchor 150 -210> mark @TashkilBelow;
+  pos base [\aHaa.init \aKaf.init \aKaf.medi \aLam.init \aKaf.init_KafLam \uni066F.medi \uni063B.init \uni077F.init \uni0643.init \uni06B0.init \uni06AB.init \uni06AC.init \uni06AD.init \uni06AF.init \uni06A9.init \uni06B4.init \uni0763.init \uni0762.init \uni06B1.init \uni063B.medi \uni077F.medi \uni0643.medi \uni06B0.medi \uni06AB.medi \uni06AC.medi \uni06AD.medi \uni06AF.medi \uni06A9.medi \uni06B4.medi \uni0763.medi \uni0762.medi \uni06B1.medi \uni0756.medi_High \uni0768.medi_High \uni0626.medi_High \uni066E.medi_High \uni06BB.medi_High \uni067F.medi_High \uni067D.medi_High \uni067A.medi_High \uni0646.medi_High \uni062A.medi_High \uni0678.medi_High \uni062B.medi_High \uni0679.medi_High \uni0769.medi_High \uni0649.medi_High \uni06BA.medi_High ] <anchor 200 -210> mark @TashkilBelow;
+  pos base [\aHeh.medi \aHeh.medi_BaaHehMedi \aHeh.medi_PostTooth \uni075A.fina \uni0647.medi \uni06C1.medi \uni06FF.medi ] <anchor 450 -650> mark @TashkilBelow;
+  pos base [\aLam.fina \aNon.fina \aSad.fina \aSad.isol \aSen.fina \aSen.isol \aLam.fina_KafLam \uni06B5.fina \uni06B7.fina \uni0644.fina \uni06B6.fina \uni076A.fina \uni06B5 \uni06B7 \uni0644 \uni06B6 \uni076A \uni0646.fina \uni06BA.fina \uni06BB.fina \uni0768.fina \uni0769.fina \uni06BD.fina \uni069D.fina \uni06FB.fina \uni0636.fina \uni069E.fina \uni0635.fina \uni069D \uni06FB \uni0636 \uni069E \uni0635 \uni06FA.fina \uni076D.fina \uni077E.fina \uni077D.fina \uni0634.fina \uni0770.fina \uni075C.fina \uni069A.fina \uni069B.fina \uni06FA \uni076D \uni0633 \uni077E \uni077D \uni0634 \uni0770 \uni075C \uni069A \uni069B \uni069C \uni06B5.fina_KafLam \uni06B7.fina_KafLam \uni0644.fina_KafLam \uni06B6.fina_KafLam \uni076A.fina_KafLam ] <anchor 650 -650> mark @TashkilBelow;
+  pos base [\aLam.isol ] <anchor 650 -450> mark @TashkilBelow;
+  pos base [\aMem.fina \aMem.isol ] <anchor 310 -800> mark @TashkilBelow;
+  pos base [\aMem.init \aMem.medi \aLam.init_LamAlfIsol \aAlf.fina_LamAlfIsol \aLam.medi_LamAlfFina \aAlf.fina_LamAlfFina \uni06C1.fina \uni06C3.fina \uni06B5.init_LamAlfIsol \uni06B7.init_LamAlfIsol \uni0644.init_LamAlfIsol \uni06B6.init_LamAlfIsol \uni076A.init_LamAlfIsol \uni0627.fina_LamAlfIsol \uni0774.fina_LamAlfIsol \uni0773.fina_LamAlfIsol \uni0623.fina_LamAlfIsol \uni0675.fina_LamAlfIsol \uni0672.fina_LamAlfIsol ] <anchor 400 -210> mark @TashkilBelow;
+  pos base [\aNon.isol \aQaf.isol \uni0646 \uni06BA \uni06BB \uni0768 \uni0769 \uni06BD \uni06A8 \uni06A7 \uni0642 \uni066F ] <anchor 650 -500> mark @TashkilBelow;
+  pos base [\aQaf.fina \uni06A8.fina \uni06A7.fina \uni0642.fina \uni066F.fina \uni069C.medi ] <anchor 650 -800> mark @TashkilBelow;
+  pos base [\aRaa.fina \uni0691.fina \uni0692.fina \uni0697.fina \uni0698.fina ] <anchor 100 -850> mark @TashkilBelow;
+  pos base [\aRaa.isol ] <anchor 20 -850> mark @TashkilBelow;
+  pos base [\aSad.init \aSad.medi \aTaa.medi ] <anchor 700 -210> mark @TashkilBelow;
+  pos base [\aSen.init \aTaa.init \uni063A.init \uni075E.init \uni075D.init \uni075F.init \uni06A0.init \uni0639.init \uni0638.init \uni0637.init \uni069F.init \uni0638.medi \uni0637.medi \uni069F.medi ] <anchor 600 -210> mark @TashkilBelow;
+  pos base [\aSen.medi \uni076D.medi \uni0633.medi \uni077E.medi \uni077D.medi \uni0634.medi \uni0770.medi \uni075C.medi ] <anchor 650 -210> mark @TashkilBelow;
+  pos base [\aTaa.fina \aTaa.isol \uni0636.init \uni069E.init \uni0635.init \uni0636.medi \uni069E.medi \uni0635.medi \uni0638.fina \uni0637.fina \uni069F.fina \uni0638 \uni0637 \uni069F ] <anchor 800 -210> mark @TashkilBelow;
+  pos base [\aWaw.fina \aWaw.isol ] <anchor 150 -850> mark @TashkilBelow;
+  pos base [\aYaa.fina \aYaa.fina_KafYaaIsol ] <anchor 700 -750> mark @TashkilBelow;
+  pos base [\aYaa.isol ] <anchor 700 -500> mark @TashkilBelow;
+  pos base [\uni0621 ] <anchor 260 -110> mark @TashkilBelow;
+  pos base [\aHeh.medi_LamHehInit ] <anchor 400 -750> mark @TashkilBelow;
+  pos base [\aLam.medi_KafLamAlf ] <anchor 410 -210> mark @TashkilBelow;
+  pos base [\aMem.fina_KafMemIsol \uni0764.init \uni06AE.init \uni063C.medi \uni06AE.medi \uni0765.fina \uni0645.fina \uni0766.fina \uni0765 \uni0645 \uni0766 ] <anchor 300 -800> mark @TashkilBelow;
+  pos base [\uni0625.fina \uni0625 \uni0625.fina_LamAlfFina ] <anchor 300 -700> mark @TashkilBelow;
+  pos base [\uni0673.fina ] <anchor 300 -610> mark @TashkilBelow;
+  pos base [\uni0627 ] <anchor 320 -160> mark @TashkilBelow;
+  pos base [\uni0774 \uni0773 \uni0623 \uni0675 \uni0672 ] <anchor 320 -150> mark @TashkilBelow;
+  pos base [\uni0673 ] <anchor 320 -620> mark @TashkilBelow;
+  pos base [\uni06FC.init ] <anchor 640 -600> mark @TashkilBelow;
+  pos base [\uni06FC.medi \uni068B \uni068A \uni068D ] <anchor 500 -600> mark @TashkilBelow;
+  pos base [\uni0751.fina \uni0750.fina \uni0754.fina \uni0628.fina \uni0751 \uni0750 \uni0754 \uni0628 \uni06A2 \uni06A3 \uni06B2.fina ] <anchor 850 -600> mark @TashkilBelow;
+  pos base [\uni0753.fina \uni067E.fina ] <anchor 800 -800> mark @TashkilBelow;
+  pos base [\uni0680.fina ] <anchor 800 -850> mark @TashkilBelow;
+  pos base [\uni067C.fina ] <anchor 800 -450> mark @TashkilBelow;
+  pos base [\uni0752.fina \uni067B.fina \uni063C.fina \uni06AE.fina \uni063C ] <anchor 850 -800> mark @TashkilBelow;
+  pos base [\uni0755.fina ] <anchor 800 -640> mark @TashkilBelow;
+  pos base [\uni0680.init \uni0752.init ] <anchor 60 -850> mark @TashkilBelow;
+  pos base [\uni0776.init \uni06CE.init \uni0775.init \uni064A.init \uni0754.init \uni0776.init_High \uni06CE.init_High \uni0775.init_High \uni064A.init_High \uni063D.init_High \uni0754.init_High ] <anchor 60 -600 <device NULL> <device 150 86>> mark @TashkilBelow;
+  pos base [\uni06BC.init ] <anchor 80 -400> mark @TashkilBelow;
+  pos base [\uni0750.init \uni0750.medi \uni06B2.init \uni06B2.medi \uni0750.init_High \uni06B2.medi_KafLam \uni0673.fina_KafAlf \uni062C.medi_1LamHaaHaaInit \uni062C.medi_2LamHaaHaaInit \uni0750.medi_YaaBari ] <anchor 300 -600> mark @TashkilBelow;
+  pos base [\uni06BD.init \uni0752.init_High ] <anchor 60 -820> mark @TashkilBelow;
+  pos base [\uni0620.init ] <anchor 60 -410> mark @TashkilBelow;
+  pos base [\uni0755.init ] <anchor 60 -650> mark @TashkilBelow;
+  pos base [\uni067E.init \uni0753.init \uni06D1.init \uni06D0.init \uni067B.init_High \uni06D1.init_High \uni06D0.init_High ] <anchor 70 -800> mark @TashkilBelow;
+  pos base [\uni067B.init ] <anchor 80 -800> mark @TashkilBelow;
+  pos base [\uni0628.init \uni0751.init \uni063D.init \uni06B9.init \uni06CC.init \uni0767.init \uni0628.init_High \uni0751.init_High \uni06CC.init_High \uni0767.init_High ] <anchor 70 -600> mark @TashkilBelow;
+  pos base [\uni067C.init \uni067C.init_High ] <anchor 70 -400> mark @TashkilBelow;
+  pos base [\uni0753 \uni0680 ] <anchor 850 -850> mark @TashkilBelow;
+  pos base [\uni062B ] <anchor 860 -210> mark @TashkilBelow;
+  pos base [\uni067C ] <anchor 800 -400> mark @TashkilBelow;
+  pos base [\uni0752 ] <anchor 830 -840> mark @TashkilBelow;
+  pos base [\uni0755 ] <anchor 820 -640> mark @TashkilBelow;
+  pos base [\uni067E \uni067B ] <anchor 850 -820> mark @TashkilBelow;
+  pos base [\uni0680.medi ] <anchor 30 -850> mark @TashkilBelow;
+  pos base [\uni0776.medi \uni06CE.medi \uni0775.medi \uni064A.medi \uni06CC.medi \uni0767.medi \uni064A.medi_YaaBari \uni063D.medi_YaaBari \uni0767.medi_YaaBari ] <anchor 30 -600> mark @TashkilBelow;
+  pos base [\uni06BC.medi \uni0620.medi ] <anchor 30 -400> mark @TashkilBelow;
+  pos base [\uni06BD.medi \uni0753.medi \uni0752.medi \uni0680.medi_YaaBari ] <anchor 30 -840> mark @TashkilBelow;
+  pos base [\uni0755.medi ] <anchor 30 -650> mark @TashkilBelow;
+  pos base [\uni067E.medi ] <anchor 30 -800> mark @TashkilBelow;
+  pos base [\uni067B.medi \uni06D1.medi \uni06D0.medi \uni067E.medi_YaaBari \uni067B.medi_YaaBari ] <anchor 40 -800> mark @TashkilBelow;
+  pos base [\uni0628.medi \uni0751.medi \uni063D.medi \uni06B9.medi \uni0754.medi \uni0776.medi_YaaBari \uni06CE.medi_YaaBari \uni0775.medi_YaaBari \uni0628.medi_YaaBari \uni0751.medi_YaaBari \uni0754.medi_YaaBari \uni06CC.medi_YaaBari ] <anchor 40 -600> mark @TashkilBelow;
+  pos base [\uni067C.medi \uni06BC.medi_YaaBari \uni067C.medi_YaaBari ] <anchor 40 -400> mark @TashkilBelow;
+  pos base [\uni0689.fina ] <anchor 450 -400> mark @TashkilBelow;
+  pos base [\uni0759.fina ] <anchor 450 -820> mark @TashkilBelow;
+  pos base [\uni068B.fina \uni068A.fina \uni068D.fina ] <anchor 450 -600> mark @TashkilBelow;
+  pos base [\uni0689 ] <anchor 500 -400> mark @TashkilBelow;
+  pos base [\uni075A ] <anchor 500 -650> mark @TashkilBelow;
+  pos base [\uni0759 ] <anchor 500 -840> mark @TashkilBelow;
+  pos base [\uni0760.fina \uni0760 ] <anchor 1120 -600> mark @TashkilBelow;
+  pos base [\uni0761.fina ] <anchor 1120 -820> mark @TashkilBelow;
+  pos base [\uni06A2.fina \uni06A3.fina ] <anchor 1140 -600> mark @TashkilBelow;
+  pos base [\uni06A5.fina ] <anchor 1130 -800> mark @TashkilBelow;
+  pos base [\uni0761.init ] <anchor 360 -840> mark @TashkilBelow;
+  pos base [\uni0760.init ] <anchor 360 -600> mark @TashkilBelow;
+  pos base [\uni06A2.init \uni06A3.init ] <anchor 340 -600> mark @TashkilBelow;
+  pos base [\uni06A5.init ] <anchor 340 -820> mark @TashkilBelow;
+  pos base [\uni0761 \uni06B3.fina ] <anchor 1140 -820> mark @TashkilBelow;
+  pos base [\uni06A5 ] <anchor 1140 -800> mark @TashkilBelow;
+  pos base [\uni0761.medi ] <anchor 350 -840> mark @TashkilBelow;
+  pos base [\uni0760.medi ] <anchor 350 -600> mark @TashkilBelow;
+  pos base [\uni06A2.medi \uni06A3.medi ] <anchor 400 -600> mark @TashkilBelow;
+  pos base [\uni06A5.medi ] <anchor 420 -840> mark @TashkilBelow;
+  pos base [\uni0687.init \uni0687.medi ] <anchor 250 -840> mark @TashkilBelow;
+  pos base [\uni062C.init \uni0683.init \uni062C.medi ] <anchor 250 -600> mark @TashkilBelow;
+  pos base [\uni0684.init \uni0686.init \uni0684.medi ] <anchor 250 -820> mark @TashkilBelow;
+  pos base [\uni076F.init ] <anchor 250 -1010> mark @TashkilBelow;
+  pos base [\uni076E.init \uni076E.medi \uni0625.fina_LamAlfIsol \uni0673.fina_LamAlfFina \uni0625.fina_KafAlf ] <anchor 300 -650> mark @TashkilBelow;
+  pos base [\uni06BF.init \uni06BF.medi \uni0686.medi \uni06B8.init \uni06B8.medi \uni06C4.fina \uni06C5.fina \uni06C4 \uni06C5 ] <anchor 250 -800> mark @TashkilBelow;
+  pos base [\uni0758.init \uni0758.medi ] <anchor 200 -820> mark @TashkilBelow;
+  pos base [\uni062E ] <anchor 655 -751> mark @TashkilBelow;
+  pos base [\uni062D ] <anchor 800 100> mark @TashkilBelow;
+  pos base [\uni076F.medi ] <anchor 200 -1010> mark @TashkilBelow;
+  pos base [\uni0683.medi \uni0628.init_BaaYaaIsol ] <anchor 200 -600> mark @TashkilBelow;
+  pos base [\uni06C1.init ] <anchor 180 -650> mark @TashkilBelow;
+  pos base [\uni0764.fina ] <anchor 850 -840> mark @TashkilBelow;
+  pos base [\uni06AB.fina ] <anchor 850 -400> mark @TashkilBelow;
+  pos base [\uni063C.init ] <anchor 330 -800> mark @TashkilBelow;
+  pos base [\uni06B3.init ] <anchor 310 -820> mark @TashkilBelow;
+  pos base [\uni0764 ] <anchor 800 -820> mark @TashkilBelow;
+  pos base [\uni06B3 ] <anchor 1120 -800> mark @TashkilBelow;
+  pos base [\uni06B2 \uni069D.init \uni06FB.init \uni069D.medi \uni06FB.medi ] <anchor 800 -600> mark @TashkilBelow;
+  pos base [\uni06AB ] <anchor 830 -400> mark @TashkilBelow;
+  pos base [\uni06AE ] <anchor 830 -800> mark @TashkilBelow;
+  pos base [\uni0764.medi \uni063C.init_KafLam \uni0764.init_KafLam ] <anchor 300 -820> mark @TashkilBelow;
+  pos base [\uni06B3.medi ] <anchor 200 -800> mark @TashkilBelow;
+  pos base [\uni06B8.fina \uni06B8 \uni06B8.fina_KafLam ] <anchor 650 -1200> mark @TashkilBelow;
+  pos base [\uni0766.init ] <anchor 520 -600> mark @TashkilBelow;
+  pos base [\uni0766.medi ] <anchor 420 -600> mark @TashkilBelow;
+  pos base [\uni0767.fina ] <anchor 650 -1000> mark @TashkilBelow;
+  pos base [\uni06BC.fina ] <anchor 680 -840> mark @TashkilBelow;
+  pos base [\uni06B9.fina ] <anchor 670 -1000> mark @TashkilBelow;
+  pos base [\uni0767 \uni06B9 ] <anchor 630 -840> mark @TashkilBelow;
+  pos base [\uni06BC ] <anchor 680 -720> mark @TashkilBelow;
+  pos base [\uni0693.fina ] <anchor 330 -1050> mark @TashkilBelow;
+  pos base [\uni0694.fina ] <anchor 500 -1100> mark @TashkilBelow;
+  pos base [\uni0695.fina ] <anchor 600 -1200> mark @TashkilBelow;
+  pos base [\uni0696.fina ] <anchor 650 -1150> mark @TashkilBelow;
+  pos base [\uni0699.fina \uni075B.fina \uni06EF.fina \uni0632.fina \uni0771.fina \uni0631.fina \uni076B.fina \uni076C.fina ] <anchor -20 -850> mark @TashkilBelow;
+  pos base [\uni0691 \uni0692 \uni0697 \uni0698 \uni0699 \uni06EF \uni0632 \uni0771 \uni0631 \uni076B \uni076C ] <anchor -100 -800> mark @TashkilBelow;
+  pos base [\uni0693 ] <anchor 200 -1050> mark @TashkilBelow;
+  pos base [\uni0694 ] <anchor 400 -1150> mark @TashkilBelow;
+  pos base [\uni0695 ] <anchor 400 -1250> mark @TashkilBelow;
+  pos base [\uni0696 ] <anchor 600 -1150> mark @TashkilBelow;
+  pos base [\uni075B ] <anchor 50 -800> mark @TashkilBelow;
+  pos base [\uni0633.fina ] <anchor 628 -642> mark @TashkilBelow;
+  pos base [\uni069C.fina ] <anchor 650 -660> mark @TashkilBelow;
+  pos base [\uni06FA.init \uni069A.init ] <anchor 630 -600> mark @TashkilBelow;
+  pos base [\uni076D.init \uni0633.init \uni077E.init \uni077D.init \uni0634.init \uni0770.init \uni075C.init ] <anchor 630 -210> mark @TashkilBelow;
+  pos base [\uni069B.init \uni069C.init ] <anchor 630 -820> mark @TashkilBelow;
+  pos base [\uni06FA.medi \uni069A.medi ] <anchor 650 -600> mark @TashkilBelow;
+  pos base [\uni069B.medi \uni06B8.medi_KafLamAlf ] <anchor 650 -820> mark @TashkilBelow;
+  pos base [\uni06CB.fina \uni0624.fina \uni06CA.fina \uni06CF.fina \uni0778.fina \uni06C6.fina \uni06C7.fina \uni0676.fina \uni0677.fina \uni06C8.fina \uni06C9.fina \uni0779.fina \uni0648.fina \uni06CB \uni0624 \uni06CA \uni06CF \uni0778 \uni06C6 \uni06C7 \uni0676 \uni0677 \uni06C8 \uni06C9 \uni0779 \uni0648 ] <anchor 100 -800> mark @TashkilBelow;
+  pos base [\uni0777.fina \uni0775.fina \uni063F.fina \uni0678.fina \uni063D.fina \uni063E.fina \uni0649.fina \uni0776.fina \uni06CC.fina \uni0626.fina \uni06CE.fina ] <anchor 750 -750> mark @TashkilBelow;
+  pos base [\uni06D1.fina \uni06D0.fina ] <anchor 750 -1350> mark @TashkilBelow;
+  pos base [\uni06CD.fina ] <anchor 900 -750> mark @TashkilBelow;
+  pos base [\uni0620.fina ] <anchor 730 -1120> mark @TashkilBelow;
+  pos base [\uni064A.fina ] <anchor 750 -1120> mark @TashkilBelow;
+  pos base [\uni0777 \uni0775 \uni063F \uni0678 \uni063D \uni063E \uni0776 \uni06CC \uni0626 \uni06CE ] <anchor 750 -500> mark @TashkilBelow;
+  pos base [\uni06D1 \uni06D0 ] <anchor 700 -1100> mark @TashkilBelow;
+  pos base [\uni0649 ] <anchor 750 -350> mark @TashkilBelow;
+  pos base [\uni06CD ] <anchor 950 -500> mark @TashkilBelow;
+  pos base [\uni0620 ] <anchor 710 -850> mark @TashkilBelow;
+  pos base [\uni064A ] <anchor 700 -840> mark @TashkilBelow;
+  pos base [\uni06B8.init_LamAlfIsol ] <anchor 450 -800> mark @TashkilBelow;
+  pos base [\uni0673.fina_LamAlfIsol ] <anchor 340 -550> mark @TashkilBelow;
+  pos base [\uni06B8.medi_LamAlfFina ] <anchor 750 -800> mark @TashkilBelow;
+  pos base [\uni0777.init_High ] <anchor 201 -211> mark @TashkilBelow;
+  pos base [\uni0680.init_High ] <anchor 60 -840> mark @TashkilBelow;
+  pos base [\uni06BC.init_High ] <anchor 81 -400> mark @TashkilBelow;
+  pos base [\uni06BD.init_High \uni067E.init_High ] <anchor 60 -800> mark @TashkilBelow;
+  pos base [\uni0620.init_High \uni0620.medi_YaaBari ] <anchor 50 -400> mark @TashkilBelow;
+  pos base [\uni0755.init_High ] <anchor 80 -640> mark @TashkilBelow;
+  pos base [\uni0753.init_High ] <anchor 70 -820> mark @TashkilBelow;
+  pos base [\uni06B9.init_High ] <anchor 90 -600> mark @TashkilBelow;
+  pos base [\uni0777.medi_High \uni06CE.medi_High \uni0628.medi_High \uni0751.medi_High \uni06B9.medi_High \uni0754.medi_High ] <anchor 160 -600> mark @TashkilBelow;
+  pos base [\uni0680.medi_High ] <anchor 150 -840> mark @TashkilBelow;
+  pos base [\uni0776.medi_High ] <anchor 130 -600> mark @TashkilBelow;
+  pos base [\uni06BC.medi_High ] <anchor 200 -400> mark @TashkilBelow;
+  pos base [\uni0750.medi_High ] <anchor 431 -600> mark @TashkilBelow;
+  pos base [\uni0775.medi_High \uni064A.medi_High \uni063D.medi_High \uni06CC.medi_High \uni0767.medi_High ] <anchor 150 -600> mark @TashkilBelow;
+  pos base [\uni06BD.medi_High \uni067E.medi_High \uni0753.medi_High ] <anchor 150 -820> mark @TashkilBelow;
+  pos base [\uni0620.medi_High ] <anchor 190 -400> mark @TashkilBelow;
+  pos base [\uni0755.medi_High ] <anchor 150 -640> mark @TashkilBelow;
+  pos base [\uni067B.medi_High \uni0752.medi_High ] <anchor 160 -820> mark @TashkilBelow;
+  pos base [\uni067C.medi_High ] <anchor 170 -400> mark @TashkilBelow;
+  pos base [\uni06D1.medi_High ] <anchor 150 -800> mark @TashkilBelow;
+  pos base [\uni06D0.medi_High ] <anchor 160 -800> mark @TashkilBelow;
+  pos base [\uni06B3.init_KafLam \uni06AE.init_KafLam \uni063C.medi_KafLam \uni0764.medi_KafLam \uni06B3.medi_KafLam \uni06AE.medi_KafLam ] <anchor 320 -820> mark @TashkilBelow;
+  pos base [\uni06B2.init_KafLam ] <anchor 320 -600> mark @TashkilBelow;
+  pos base [\uni06B8.medi_KafLam ] <anchor 260 -820> mark @TashkilBelow;
+  pos base [\uni064A.init_BaaYaaIsol ] <anchor 100 -600> mark @TashkilBelow;
+  pos base [\uni0647.medi_BaaHehMedi \uni0647.medi_PostTooth \uni06FF.init ] <anchor 350 -700> mark @TashkilBelow;
+  pos base [\uni06CC.init_LD ] <anchor -140 -600> mark @TashkilBelow;
+  pos base [\aYaaBari.fina_PostTooth \aYaaBari.fina_PostAscender \aBaa.init_YaaBari \uni0626.init_YaaBari \aYaaBari.fina_PostToothFina \uni077B.fina_PostToothFina \uni077A.fina_PostToothFina \uni06D2.fina_PostToothFina ] <anchor 450 -850> mark @TashkilBelow;
+  pos base [\uni06BE.init \uni06BE.medi ] <anchor 350 -210> mark @TashkilBelow;
+  pos base [\uni08A0.fina ] <anchor 830 -620> mark @TashkilBelow;
+  pos base [\uni08A0.init ] <anchor 70 -620> mark @TashkilBelow;
+  pos base [\uni08A0 ] <anchor 820 -620> mark @TashkilBelow;
+  pos base [\uni08A0.medi ] <anchor 40 -620> mark @TashkilBelow;
+  pos base [\uni06BD.medi_YaaBari \uni0752.medi_YaaBari \uni06D1.medi_YaaBari \uni06D0.medi_YaaBari ] <anchor 40 -820> mark @TashkilBelow;
+  pos base [\uni0755.medi_YaaBari ] <anchor 40 -640> mark @TashkilBelow;
+  pos base [\uni0753.medi_YaaBari ] <anchor 20 -820> mark @TashkilBelow;
+  pos base [\uni06B9.medi_YaaBari ] <anchor 50 -600> mark @TashkilBelow;
+} markTashkilBelowBase;
+
+lookup markHamzaBelow {
+  lookupflag 0;
+  markClass [\uni0655 ] <anchor 0 -500> @HamzaBelow;
+  markClass [\uni065F ] <anchor 320 -712> @HamzaBelow;
+  pos base [\aAlf.fina ] <anchor 250 -110> mark @HamzaBelow;
+  pos base [\aAlf.isol ] <anchor 330 -80> mark @HamzaBelow;
+  pos base [\aBaa.fina ] <anchor 900 -450> mark @HamzaBelow;
+  pos base [\aBaa.isol ] <anchor 1000 -300> mark @HamzaBelow;
+  pos base [\aDal.fina ] <anchor 500 -250> mark @HamzaBelow;
+  pos base [\aDal.isol ] <anchor 500 -300> mark @HamzaBelow;
+  pos base [\aHaa.fina ] <anchor 810 -320> mark @HamzaBelow;
+  pos base [\aHaa.init ] <anchor 620 -202> mark @HamzaBelow;
+  pos base [\aHaa.isol ] <anchor 800 -320> mark @HamzaBelow;
+  pos base [\aHaa.medi ] <anchor 600 -190> mark @HamzaBelow;
+  pos base [\aYaa.fina \uni0649.fina ] <anchor 749 -997> mark @HamzaBelow;
+  pos base [\aYaa.isol \uni0649 ] <anchor 727 -709> mark @HamzaBelow;
+  pos base [\aAlf.fina_LamAlfIsol ] <anchor 553 -280> mark @HamzaBelow;
+  pos base [\aAlf.fina_LamAlfFina ] <anchor 203 -233> mark @HamzaBelow;
+  pos base [\aHaa.medi_1LamHaaHaaInit ] <anchor 1011 -280> mark @HamzaBelow;
+  pos base [\aHaa.medi_2LamHaaHaaInit ] <anchor 160 -280> mark @HamzaBelow;
+  pos base [\aBaa.medi_High ] <anchor 236 -182> mark @HamzaBelow;
+  pos base [\aAlf.fina_KafAlf ] <anchor 300 -100> mark @HamzaBelow;
+  pos base [\aBaa.init_BaaYaaIsol ] <anchor 373 -590> mark @HamzaBelow;
+  pos base [\aYaa.fina_KafYaaIsol ] <anchor 728 -739> mark @HamzaBelow;
+  pos base [\uni0649.medi ] <anchor 270 -190> mark @HamzaBelow;
+  pos base [\uni0649.medi_High ] <anchor 216 -182> mark @HamzaBelow;
+  pos base [\aBaa.init_YaaBari ] <anchor 74 -263> mark @HamzaBelow;
+} markHamzaBelow;
+
+lookup markYaaTail {
+  lookupflag 0;
+  markClass [\aYaa.tail ] <anchor 135 185> @Tail;
+  pos base [\aYaa.fina ] <anchor 289 156> mark @Tail;
+  pos base [\aYaa.isol ] <anchor 350 484> mark @Tail;
+  pos base [\aYaa.fina_KafYaaIsol ] <anchor 298 430> mark @Tail;
+} markYaaTail;
+
+lookup markSmallAlefAbove {
+  lookupflag 0;
+  markClass [\uni0670 ] <anchor 113 1640> @AlefAbove;
+  markClass [\uni06E4 ] <anchor 282 1622> @AlefAbove;
+  markClass [\uni06EB ] <anchor 123 642> @AlefAbove;
+  pos base [\aWaw.isol ] <anchor 314 806> mark @AlefAbove;
+  pos base [\aYaa.fina ] <anchor 519 300> mark @AlefAbove;
+  pos base [\aYaa.isol ] <anchor 246 573> mark @AlefAbove;
+  pos base [\aYaa.fina_KafYaaIsol ] <anchor 519 259> mark @AlefAbove;
+  pos base [\uni0649.init ] <anchor 85 847> mark @AlefAbove;
+  pos base [\uni0649.medi ] <anchor 96 560> mark @AlefAbove;
+  pos base [\uni0648.fina ] <anchor 341 819> mark @AlefAbove;
+  pos base [\uni0648 ] <anchor 328 819> mark @AlefAbove;
+  pos base [\uni0777.fina ] <anchor 478 287> mark @AlefAbove;
+  pos base [\uni06D1.fina \uni0649.fina ] <anchor 519 314> mark @AlefAbove;
+  pos base [\uni0775.fina ] <anchor 532 778> mark @AlefAbove;
+  pos base [\uni063F.fina ] <anchor 546 969> mark @AlefAbove;
+  pos base [\uni0678.fina ] <anchor 887 956> mark @AlefAbove;
+  pos base [\uni063D.fina ] <anchor 601 806> mark @AlefAbove;
+  pos base [\uni063E.fina ] <anchor 546 710> mark @AlefAbove;
+  pos base [\uni06D0.fina ] <anchor 532 328> mark @AlefAbove;
+  pos base [\uni0776.fina ] <anchor 532 314> mark @AlefAbove;
+  pos base [\uni06CD.fina ] <anchor 642 273> mark @AlefAbove;
+  pos base [\uni06CC.fina ] <anchor 492 287> mark @AlefAbove;
+  pos base [\uni0626.fina ] <anchor 614 778> mark @AlefAbove;
+  pos base [\uni0620.fina ] <anchor 478 300> mark @AlefAbove;
+  pos base [\uni064A.fina ] <anchor 464 300> mark @AlefAbove;
+  pos base [\uni06CE.fina ] <anchor 519 573> mark @AlefAbove;
+  pos base [\uni0777 ] <anchor 287 601> mark @AlefAbove;
+  pos base [\uni06D1 ] <anchor 259 601> mark @AlefAbove;
+  pos base [\uni0775 ] <anchor 232 1174> mark @AlefAbove;
+  pos base [\uni063F ] <anchor 259 1406> mark @AlefAbove;
+  pos base [\uni0678 ] <anchor 232 614> mark @AlefAbove;
+  pos base [\uni063D ] <anchor 232 1024> mark @AlefAbove;
+  pos base [\uni063E ] <anchor 273 1092> mark @AlefAbove;
+  pos base [\uni06D0 ] <anchor 246 614> mark @AlefAbove;
+  pos base [\uni0649 ] <anchor 232 792> mark @AlefAbove;
+  pos base [\uni0776 ] <anchor 385 828> mark @AlefAbove;
+  pos base [\uni06CD ] <anchor 396 587> mark @AlefAbove;
+  pos base [\uni06CC ] <anchor 259 655> mark @AlefAbove;
+  pos base [\uni0626 ] <anchor 300 1010> mark @AlefAbove;
+  pos base [\uni0620 ] <anchor 218 614> mark @AlefAbove;
+  pos base [\uni064A ] <anchor 246 546> mark @AlefAbove;
+  pos base [\uni06CE ] <anchor 300 1038> mark @AlefAbove;
+  pos base [\uni0649.init_High ] <anchor 112 847> mark @AlefAbove;
+  pos base [\uni0649.medi_High ] <anchor 146 710> mark @AlefAbove;
+  pos base [\uni0640.1 ] <anchor 177 532> mark @AlefAbove;
+} markSmallAlefAbove;
+
+lookup markDigitAbove {
+  lookupflag 0;
+  markClass [\aTwo.above ] <anchor 0 350> @DigitAbove;
+  pos base [\aAlf.fina ] <anchor 200 1300> mark @DigitAbove;
+  pos base [\aAlf.isol ] <anchor 250 1350> mark @DigitAbove;
+  pos base [\aBaa.init \aBaa.init_High \aBaa.init_BaaYaaIsol ] <anchor 180 1000> mark @DigitAbove;
+  pos base [\aBaa.medi ] <anchor 130 700> mark @DigitAbove;
+  pos base [\aSen.fina ] <anchor 1459 900> mark @DigitAbove;
+  pos base [\aSen.init ] <anchor 700 900> mark @DigitAbove;
+  pos base [\aSen.isol ] <anchor 1400 800> mark @DigitAbove;
+  pos base [\aSen.medi ] <anchor 650 850> mark @DigitAbove;
+  pos base [\aWaw.fina \aWaw.isol ] <anchor 380 1050> mark @DigitAbove;
+  pos base [\aYaa.fina \aYaa.fina_KafYaaIsol ] <anchor 600 500> mark @DigitAbove;
+  pos base [\aYaa.isol ] <anchor 300 800> mark @DigitAbove;
+  pos base [\aAlf.fina_LamAlfIsol ] <anchor 350 1450> mark @DigitAbove;
+  pos base [\aAlf.fina_LamAlfFina ] <anchor 300 1300> mark @DigitAbove;
+  pos base [\aBaa.medi_High ] <anchor 200 900> mark @DigitAbove;
+  pos base [\aAlf.fina_KafAlf ] <anchor 250 1300> mark @DigitAbove;
+  pos base [\aYaaBari.isol ] <anchor 300 1000> mark @DigitAbove;
+  pos base [\aYaaBari.fina_PostTooth ] <anchor 328 519> mark @DigitAbove;
+  pos base [\aYaaBari.fina_PostAscender ] <anchor 300 550> mark @DigitAbove;
+  pos base [\aBaa.init_YaaBari ] <anchor 160 1250> mark @DigitAbove;
+  pos base [\aYaaBari.fina_PostToothFina ] <anchor 355 532> mark @DigitAbove;
+  pos base [\aBaa.medi_YaaBari ] <anchor 130 800> mark @DigitAbove;
+} markDigitAbove;
+
+lookup mkmkTashkiltoTashkilAbove {
+  lookupflag 0;
+  markClass [\uni0652 ] <anchor 137 1734> @TashkilTashkilAbove;
+  markClass [\uni0670 ] <anchor 68 1750> @TashkilTashkilAbove;
+  markClass [\uni064B.small ] <anchor 164 1800> @TashkilTashkilAbove;
+  markClass [\uni064E.small ] <anchor 165 1750> @TashkilTashkilAbove;
+  markClass [\uni08F1.small ] <anchor 300 1700> @TashkilTashkilAbove;
+  markClass [\uni064F.small ] <anchor 165 1800> @TashkilTashkilAbove;
+  markClass [\uni0652.small2 ] <anchor 143 1731> @TashkilTashkilAbove;
+  markClass [\uni08F0.small ] <anchor 164 1775> @TashkilTashkilAbove;
+  markClass [\uni064E.small2 ] <anchor 160 1800> @TashkilTashkilAbove;
+  markClass [\uni064C.small ] <anchor 164 1789> @TashkilTashkilAbove;
+  markClass [\uni06E4 ] <anchor 191 1700> @TashkilTashkilAbove;
+  markClass [\uni06E2 ] <anchor 164 1750> @TashkilTashkilAbove;
+  markClass [\uni06EC ] <anchor 133 1741> @TashkilTashkilAbove;
+  markClass [\uni0657 ] <anchor 200 1750> @TashkilTashkilAbove;
+  markClass [\uni0657.urd ] <anchor 109 1748> @TashkilTashkilAbove;
+  markClass [\uni0657.small ] <anchor -68 1950> @TashkilTashkilAbove;
+  pos mark [\uni0654 ] <anchor -46 1435> mark @TashkilTashkilAbove;
+  pos mark [\uni065A ] <anchor -41 1380> mark @TashkilTashkilAbove;
+  pos mark [\uni064B ] <anchor 145 2250> mark @TashkilTashkilAbove;
+  pos mark [\uni064C ] <anchor 177 2250> mark @TashkilTashkilAbove;
+  pos mark [\uni064E ] <anchor 137 2100> mark @TashkilTashkilAbove;
+  pos mark [\uni064F ] <anchor 164 2250> mark @TashkilTashkilAbove;
+  pos mark [\uni0651 ] <anchor 164 2150> mark @TashkilTashkilAbove;
+  pos mark [\uni065B ] <anchor -41 1300> mark @TashkilTashkilAbove;
+  pos mark [\uni0674 \hamza.above ] <anchor -50 1470> mark @TashkilTashkilAbove;
+  pos mark [\hamza.above.wavy ] <anchor 218 2150> mark @TashkilTashkilAbove;
+  pos mark [\uni064E.small ] <anchor 154 2038> mark @TashkilTashkilAbove;
+  pos mark [\uni06E1 ] <anchor 177 2100> mark @TashkilTashkilAbove;
+  pos mark [\uni08F0 ] <anchor 150 2225> mark @TashkilTashkilAbove;
+  pos mark [\uni08F1 ] <anchor 553 2017> mark @TashkilTashkilAbove;
+  pos mark [\uni06EC ] <anchor 123 2130> mark @TashkilTashkilAbove;
+  pos mark [\uni0657 ] <anchor 205 2225> mark @TashkilTashkilAbove;
+  pos mark [\smallv.above ] <anchor -31 1423> mark @TashkilTashkilAbove;
+  pos mark [\smallv.above.inverted ] <anchor -41 1338> mark @TashkilTashkilAbove;
+  pos mark [\uni030A ] <anchor 218 2130> mark @TashkilTashkilAbove;
+  pos mark [\uni0657.urd ] <anchor 92 2232> mark @TashkilTashkilAbove;
+  pos mark [\uni08E4 ] <anchor 123 2417> mark @TashkilTashkilAbove;
+  pos mark [\uni08E5 ] <anchor 137 2266> mark @TashkilTashkilAbove;
+  pos mark [\uni08E7 ] <anchor 137 2676> mark @TashkilTashkilAbove;
+  pos mark [\uni08F4 ] <anchor 177 2103> mark @TashkilTashkilAbove;
+  pos mark [\uni08FE ] <anchor 55 2007> mark @TashkilTashkilAbove;
+} mkmkTashkiltoTashkilAbove;
+
+lookup mkmkTashkiltoTashkilAbove2 {
+  lookupflag 0;
+  markClass [\uni06E4 ] <anchor 246 1792> @TashkilTashkilAbove2;
+  markClass [\uni06E2 ] <anchor 195 1935> @TashkilTashkilAbove2;
+  pos mark [\uni0670 ] <anchor 154 2253> mark @TashkilTashkilAbove2;
+  pos mark [\uni064E.small ] <anchor 195 2099> mark @TashkilTashkilAbove2;
+  pos mark [\uni064F.small ] <anchor 236 2376> mark @TashkilTashkilAbove2;
+  pos mark [\uni0657.small ] <anchor -20 2529> mark @TashkilTashkilAbove2;
+} mkmkTashkiltoTashkilAbove2;
+
+lookup mkmkTashkiltoTashkilBelow {
+  lookupflag 0;
+  markClass [\uni0650.small2 ] <anchor 191 -1106> @TashkilTashkilBelow;
+  markClass [\uni08F2 ] <anchor 205 -1024> @TashkilTashkilBelow;
+  markClass [\uni06ED ] <anchor 191 -983> @TashkilTashkilBelow;
+  markClass [\uni0650.small ] <anchor 205 -901> @TashkilTashkilBelow;
+  markClass [\uni064D.small ] <anchor -27 -614> @TashkilTashkilBelow;
+  pos mark [\uni0655 ] <anchor 0 -1120> mark @TashkilTashkilBelow;
+  pos mark [\uni064D ] <anchor 205 -1406> mark @TashkilTashkilBelow;
+  pos mark [\uni0650 ] <anchor 191 -1283> mark @TashkilTashkilBelow;
+  pos mark [\uni0651 ] <anchor 200 1500> mark @TashkilTashkilBelow;
+  pos mark [\uni065F ] <anchor 259 -1406> mark @TashkilTashkilBelow;
+  pos mark [\uni0650.small2 ] <anchor 191 -1270> mark @TashkilTashkilBelow;
+  pos mark [\uni08F2 ] <anchor 191 -1365> mark @TashkilTashkilBelow;
+  pos mark [\uni0325 ] <anchor 246 -1297> mark @TashkilTashkilBelow;
+  pos mark [\uni0650.small ] <anchor 191 -1051> mark @TashkilTashkilBelow;
+  pos mark [\uni064D.small ] <anchor -41 -928> mark @TashkilTashkilBelow;
+  pos mark [\uni08E6 ] <anchor 232 -1570> mark @TashkilTashkilBelow;
+  pos mark [\uni08E9 ] <anchor 246 -1543> mark @TashkilTashkilBelow;
+} mkmkTashkiltoTashkilBelow;
+
+lookup mkmkMarktoDotAbove {
+  lookupflag 0;
+  markClass [\uni065A ] <anchor 0 950> @MarkDotAbove;
+  markClass [\smalltaa.above ] <anchor -1 1> @MarkDotAbove;
+  markClass [\smallv.above ] <anchor -55 956> @MarkDotAbove;
+  pos mark [\Dot.a ] <anchor -50 400> mark @MarkDotAbove;
+  pos mark [\TwoDots.a ] <anchor -27 355> mark @MarkDotAbove;
+  pos mark [\smalltaa.above ] <anchor 0 423> mark @MarkDotAbove;
+} mkmkMarktoDotAbove;
+
+lookup mkmkMarktoDotBelow {
+  lookupflag 0;
+  markClass [\TwoDots.b ] <anchor 0 263> @MarkDotBelow;
+  pos mark [\smalltaa.below ] <anchor 30 0> mark @MarkDotBelow;
+} mkmkMarktoDotBelow;
+
+lookup mkmkDotaboveHamza {
+  lookupflag 0;
+  markClass [\Dot.a \TwoDots.a \ThreeDots.a ] <anchor 0 0> @DotHmaza;
+  pos mark [\hamza.kaf ] <anchor 116 680> mark @DotHmaza;
+} mkmkDotaboveHamza;
+
+lookup markSeenAbove {
+  lookupflag 0;
+  markClass [\uni06DC ] <anchor 343 2567> @SeenAbove;
+  pos base [\uni0627.fina ] <anchor 328 1256> mark @SeenAbove;
+  pos base [\uni0635.medi ] <anchor 740 800> mark @SeenAbove;
+} markSeenAbove;
+
+lookup markSeenBelow {
+  lookupflag 0;
+  markClass [\uni06E3 ] <anchor 339 -400> @SeenBelow;
+  pos base [\uni0635.medi ] <anchor 740 -400> mark @SeenBelow;
+} markSeenBelow;
+
+feature mark {
+
+ script DFLT;
+     language dflt ;
+      lookup markGenericMarkAnchor;
+      lookup markDotAbove;
+      lookup markDotBelow;
+      lookup markDotBelowAlt;
+      lookup markDotAlt;
+      lookup markTwoDotsAbove;
+      lookup markTwoDotsBelow;
+      lookup markTwoDotsBelowAlt;
+      lookup markHamzaAbove;
+      lookup markHighHamza;
+      lookup markVMarkAbove;
+      lookup markSmallTaaAbove;
+      lookup markSmallTaaBelow;
+      lookup markRingBelow;
+      lookup markDash;
+      lookup markTashkilAboveBase;
+      lookup markTashkilBelowBase;
+      lookup markHamzaBelow;
+      lookup markYaaTail;
+      lookup markSmallAlefAbove;
+      lookup markStroke;
+      lookup markDigitAbove;
+      lookup markDigitBelow;
+      lookup markSeenAbove;
+      lookup markSeenBelow;
+      lookup markNoonAbove;
+
+ script arab;
+     language dflt ;
+      lookup markGenericMarkAnchor;
+      lookup markDotAbove;
+      lookup markDotBelow;
+      lookup markDotBelowAlt;
+      lookup markDotAlt;
+      lookup markTwoDotsAbove;
+      lookup markTwoDotsBelow;
+      lookup markTwoDotsBelowAlt;
+      lookup markHamzaAbove;
+      lookup markHighHamza;
+      lookup markVMarkAbove;
+      lookup markSmallTaaAbove;
+      lookup markSmallTaaBelow;
+      lookup markRingBelow;
+      lookup markDash;
+      lookup markTashkilAboveBase;
+      lookup markTashkilBelowBase;
+      lookup markHamzaBelow;
+      lookup markYaaTail;
+      lookup markSmallAlefAbove;
+      lookup markStroke;
+      lookup markDigitAbove;
+      lookup markDigitBelow;
+      lookup markSeenAbove;
+      lookup markSeenBelow;
+      lookup markNoonAbove;
+     language ARA  exclude_dflt;
+      lookup markGenericMarkAnchor;
+      lookup markDotAbove;
+      lookup markDotBelow;
+      lookup markDotBelowAlt;
+      lookup markDotAlt;
+      lookup markTwoDotsAbove;
+      lookup markTwoDotsBelow;
+      lookup markTwoDotsBelowAlt;
+      lookup markHamzaAbove;
+      lookup markHighHamza;
+      lookup markVMarkAbove;
+      lookup markSmallTaaAbove;
+      lookup markSmallTaaBelow;
+      lookup markRingBelow;
+      lookup markDash;
+      lookup markTashkilAboveBase;
+      lookup markTashkilBelowBase;
+      lookup markHamzaBelow;
+      lookup markYaaTail;
+      lookup markSmallAlefAbove;
+      lookup markStroke;
+      lookup markDigitAbove;
+      lookup markDigitBelow;
+      lookup markSeenAbove;
+      lookup markSeenBelow;
+      lookup markNoonAbove;
+     language SND  exclude_dflt;
+      lookup markGenericMarkAnchor;
+      lookup markDotAbove;
+      lookup markDotBelow;
+      lookup markDotBelowAlt;
+      lookup markDotAlt;
+      lookup markTwoDotsAbove;
+      lookup markTwoDotsBelow;
+      lookup markTwoDotsBelowAlt;
+      lookup markHamzaAbove;
+      lookup markHighHamza;
+      lookup markVMarkAbove;
+      lookup markSmallTaaAbove;
+      lookup markSmallTaaBelow;
+      lookup markRingBelow;
+      lookup markDash;
+      lookup markTashkilAboveBase;
+      lookup markTashkilBelowBase;
+      lookup markHamzaBelow;
+      lookup markYaaTail;
+      lookup markSmallAlefAbove;
+      lookup markStroke;
+      lookup markDigitAbove;
+      lookup markDigitBelow;
+      lookup markSeenAbove;
+      lookup markSeenBelow;
+      lookup markNoonAbove;
+     language URD  exclude_dflt;
+      lookup markGenericMarkAnchor;
+      lookup markDotAbove;
+      lookup markDotBelow;
+      lookup markDotBelowAlt;
+      lookup markDotAlt;
+      lookup markTwoDotsAbove;
+      lookup markTwoDotsBelow;
+      lookup markTwoDotsBelowAlt;
+      lookup markHamzaAbove;
+      lookup markHighHamza;
+      lookup markVMarkAbove;
+      lookup markSmallTaaAbove;
+      lookup markSmallTaaBelow;
+      lookup markRingBelow;
+      lookup markDash;
+      lookup markTashkilAboveBase;
+      lookup markTashkilBelowBase;
+      lookup markHamzaBelow;
+      lookup markYaaTail;
+      lookup markSmallAlefAbove;
+      lookup markStroke;
+      lookup markDigitAbove;
+      lookup markDigitBelow;
+      lookup markSeenAbove;
+      lookup markSeenBelow;
+      lookup markNoonAbove;
+
+ script latn;
+     language dflt ;
+      lookup markGenericMarkAnchor;
+     language TRK  exclude_dflt;
+      lookup markGenericMarkAnchor;
+} mark;
+
+feature mkmk {
+
+ script DFLT;
+     language dflt ;
+      lookup mkmkTashkiltoTashkilAbove;
+      lookup mkmkTashkiltoTashkilAbove2;
+      lookup mkmkTashkiltoTashkilBelow;
+      lookup mkmkMarktoDotAbove;
+      lookup mkmkMarktoDotBelow;
+      lookup mkmkRingtoDash;
+      lookup mkmkDotaboveHamza;
+
+ script arab;
+     language dflt ;
+      lookup mkmkTashkiltoTashkilAbove;
+      lookup mkmkTashkiltoTashkilAbove2;
+      lookup mkmkTashkiltoTashkilBelow;
+      lookup mkmkMarktoDotAbove;
+      lookup mkmkMarktoDotBelow;
+      lookup mkmkRingtoDash;
+      lookup mkmkDotaboveHamza;
+     language ARA  exclude_dflt;
+      lookup mkmkTashkiltoTashkilAbove;
+      lookup mkmkTashkiltoTashkilAbove2;
+      lookup mkmkTashkiltoTashkilBelow;
+      lookup mkmkMarktoDotAbove;
+      lookup mkmkMarktoDotBelow;
+      lookup mkmkRingtoDash;
+      lookup mkmkDotaboveHamza;
+     language SND  exclude_dflt;
+      lookup mkmkTashkiltoTashkilAbove;
+      lookup mkmkTashkiltoTashkilAbove2;
+      lookup mkmkTashkiltoTashkilBelow;
+      lookup mkmkMarktoDotAbove;
+      lookup mkmkMarktoDotBelow;
+      lookup mkmkRingtoDash;
+      lookup mkmkDotaboveHamza;
+     language URD  exclude_dflt;
+      lookup mkmkTashkiltoTashkilAbove;
+      lookup mkmkTashkiltoTashkilAbove2;
+      lookup mkmkTashkiltoTashkilBelow;
+      lookup mkmkMarktoDotAbove;
+      lookup mkmkMarktoDotBelow;
+      lookup mkmkRingtoDash;
+      lookup mkmkDotaboveHamza;
+} mkmk;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\aAlf.fina.alt \aAlf.fina \aAlf.isol \aAyn.fina \aAyn.init 
+	\aAyn.isol \aAyn.medi \aBaa.fina \aBaa.init \aBaa.isol \aBaa.medi \aDal.fina 
+	\aDal.isol \aFaa.fina \aFaa.init \aFaa.isol \aFaa.medi \aHaa.fina \aHaa.init 
+	\aHaa.isol \aHaa.medi \aHeh.fina \aHeh.init \aHeh.isol \aHeh.medi \aKaf.fina 
+	\aKaf.init.alt \aKaf.init \aKaf.isol \aKaf.medi \aLam.fina \aLam.init 
+	\aLam.isol \aLam.medi \aMem.fina \aMem.init \aMem.isol \aMem.medi \aNon.fina 
+	\aNon.isol \aQaf.fina \aQaf.isol \aRaa.fina \aRaa.isol \aSad.fina \aSad.init 
+	\aSad.isol \aSad.medi \aSen.fina \aSen.init \aSen.isol \aSen.medi \aTaa.fina 
+	\aTaa.init \aTaa.isol \aTaa.medi \aWaw.fina \aWaw.isol \aYaa.fina \aYaa.isol 
+	\uni0621 \aLam.init_LamAlfIsol \aAlf.fina_LamAlfIsol \aHeh.medi_LamHehInit 
+	\aLam.medi_LamAlfFina \aAlf.fina_LamAlfFina \uni0644.init_Lellah 
+	\uni0644.medi_Lellah \uni0647.fina_Lellah \uni061B \uni060C \uni061F 
+	\aHaa.medi_1LamHaaHaaInit \aHaa.medi_2LamHaaHaaInit \aBaa.init_High 
+	\aKaf.isol.alt \aKaf.fina.alt \uni0640 \aBaa.medi_High \uni06FD \uni06FE 
+	\uni0661 \uni0662 \uni0663 \uni0664 \uni0665 \uni0660 \period.ara \uni0666 
+	\uni0667 \uni0668 \uni0669 \uni06F0 \uni06F1 \uni06F2 \uni06F3 \uni06F7 \uni06F8 
+	\uni06F9 \uni06F4 \uni06F5 \uni06F6 \parenleft \parenright \dot.1 \uni200C 
+	\uni200D \uni202A \uni202B \uni202C \uni202D \uni202E \uni066A \uni0609 \uni060A 
+	\uni066B \bracketright \braceright \uni06F7.urd \uni06D3 \uni077A \uni077B 
+	\uni06BE \uni06FF \aKaf.init_KafLam \aLam.medi_KafLam \aKaf.medi_KafLam 
+	\aLam.medi_KafLamAlf \aLam.fina_KafLam \aAlf.fina_KafAlf 
+	\aMem.medi_KafMemMedi \aBaa.init_BaaYaaIsol \aYaa.fina_KafYaaIsol 
+	\aMem.fina_KafMemIsol \aHeh.medi_BaaHehMedi \aHeh.medi_PostTooth \uni061E 
+	\uni0625.fina \uni0627.fina \uni0774.fina \uni0773.fina \uni0623.fina 
+	\uni0622.fina \uni0675.fina \uni0672.fina \uni0673.fina \uni0671.fina 
+	\uni0625 \uni0627 \uni0774 \uni0773 \uni0623 \uni0622 \uni0675 \uni0672 \uni0673 
+	\uni0671 \uni06FC.fina \uni063A.fina \uni075E.fina \uni075D.fina 
+	\uni075F.fina \uni06A0.fina \uni0639.fina \uni06FC.init \uni063A.init 
+	\uni075E.init \uni075D.init \uni075F.init \uni06A0.init \uni0639.init 
+	\uni06FC \uni063A \uni075E \uni075D \uni075F \uni06A0 \uni0639 \uni06FC.medi 
+	\uni063A.medi \uni075E.medi \uni075D.medi \uni075F.medi \uni06A0.medi 
+	\uni0639.medi \uni0751.fina \uni0750.fina \uni0753.fina \uni0680.fina 
+	\uni062A.fina \uni0754.fina \uni062B.fina \uni0679.fina \uni067C.fina 
+	\uni0756.fina \uni0752.fina \uni066E.fina \uni067F.fina \uni0755.fina 
+	\uni067D.fina \uni067E.fina \uni067B.fina \uni0628.fina \uni067A.fina 
+	\uni0777.init \uni0680.init \uni0776.init \uni06BC.init \uni0750.init 
+	\uni0756.init \uni0768.init \uni06CE.init \uni0775.init \uni06BD.init 
+	\uni0626.init \uni066E.init \uni0620.init \uni064A.init \uni06BB.init 
+	\uni067F.init \uni0755.init \uni067D.init \uni067E.init \uni067B.init 
+	\uni0628.init \uni067A.init \uni0751.init \uni0646.init \uni0753.init 
+	\uni0752.init \uni062A.init \uni0678.init \uni063D.init \uni062B.init 
+	\uni0679.init \uni06B9.init \uni0769.init \uni0649.init \uni067C.init 
+	\uni0754.init \uni06D1.init \uni06D0.init \uni06BA.init \uni06CC.init 
+	\uni0767.init \uni0751 \uni0750 \uni0753 \uni0680 \uni062A \uni0754 \uni062B 
+	\uni0679 \uni067C \uni0756 \uni0752 \uni066E \uni067F \uni0755 \uni067D \uni067E 
+	\uni067B \uni0628 \uni067A \uni0777.medi \uni0680.medi \uni0776.medi 
+	\uni06BC.medi \uni0750.medi \uni0756.medi \uni0768.medi \uni06CE.medi 
+	\uni0775.medi \uni06BD.medi \uni0626.medi \uni066E.medi \uni0620.medi 
+	\uni064A.medi \uni06BB.medi \uni067F.medi \uni0755.medi \uni067D.medi 
+	\uni067E.medi \uni067B.medi \uni0628.medi \uni067A.medi \uni0751.medi 
+	\uni0646.medi \uni0753.medi \uni0752.medi \uni062A.medi \uni0678.medi 
+	\uni063D.medi \uni062B.medi \uni0679.medi \uni06B9.medi \uni0769.medi 
+	\uni0649.medi \uni067C.medi \uni0754.medi \uni06D1.medi \uni06D0.medi 
+	\uni06BA.medi \uni06CC.medi \uni0767.medi \uni0690.fina \uni06EE.fina 
+	\uni0689.fina \uni0688.fina \uni075A.fina \uni0630.fina \uni062F.fina 
+	\uni0759.fina \uni068C.fina \uni068B.fina \uni068A.fina \uni068F.fina 
+	\uni068E.fina \uni068D.fina \uni0690 \uni06EE \uni0689 \uni0688 \uni075A 
+	\uni0630 \uni062F \uni0759 \uni068C \uni068B \uni068A \uni068F \uni068E \uni068D 
+	\uni0760.fina \uni0761.fina \uni0641.fina \uni06A1.fina \uni06A2.fina 
+	\uni06A3.fina \uni06A4.fina \uni06A5.fina \uni06A6.fina \uni066F.init 
+	\uni0761.init \uni0760.init \uni0642.init \uni0641.init \uni06A8.init 
+	\uni06A1.init \uni06A2.init \uni06A3.init \uni06A4.init \uni06A5.init 
+	\uni06A6.init \uni06A7.init \uni0760 \uni0761 \uni0641 \uni06A1 \uni06A2 
+	\uni06A3 \uni06A4 \uni06A5 \uni06A6 \uni066F.medi \uni0761.medi \uni0760.medi 
+	\uni0642.medi \uni0641.medi \uni06A8.medi \uni06A1.medi \uni06A2.medi 
+	\uni06A3.medi \uni06A4.medi \uni06A5.medi \uni06A6.medi \uni06A7.medi 
+	\uni062E.fina \uni062D.fina \uni0681.fina \uni0687.fina \uni0685.fina 
+	\uni062C.fina \uni0682.fina \uni0757.fina \uni0684.fina \uni076F.fina 
+	\uni076E.fina \uni0683.fina \uni06BF.fina \uni077C.fina \uni0758.fina 
+	\uni0772.fina \uni0686.fina \uni062E.init \uni062D.init \uni0681.init 
+	\uni0687.init \uni0685.init \uni062C.init \uni0682.init \uni0757.init 
+	\uni0684.init \uni076F.init \uni076E.init \uni0683.init \uni06BF.init 
+	\uni077C.init \uni0758.init \uni0772.init \uni0686.init \uni062E \uni062D 
+	\uni0681 \uni0687 \uni0685 \uni062C \uni0682 \uni0757 \uni0684 \uni076F \uni076E 
+	\uni0683 \uni06BF \uni077C \uni0758 \uni0772 \uni0686 \uni062E.medi 
+	\uni062D.medi \uni0681.medi \uni0687.medi \uni0685.medi \uni062C.medi 
+	\uni0682.medi \uni0757.medi \uni0684.medi \uni076F.medi \uni076E.medi 
+	\uni0683.medi \uni06BF.medi \uni077C.medi \uni0758.medi \uni0772.medi 
+	\uni0686.medi \uni0647.fina \uni06C1.fina \uni06C3.fina \uni06D5.fina 
+	\uni0629.fina \uni0647.init \uni06C1.init \uni0647 \uni06C2 \uni06C0 \uni06C1 
+	\uni06C3 \uni06D5 \uni0629 \uni0647.medi \uni06C1.medi \uni063B.fina 
+	\uni063C.fina \uni077F.fina \uni0764.fina \uni0643.fina \uni06B0.fina 
+	\uni06B3.fina \uni06B2.fina \uni06AB.fina \uni06AC.fina \uni06AD.fina 
+	\uni06AE.fina \uni06AF.fina \uni06A9.fina \uni06B4.fina \uni0763.fina 
+	\uni0762.fina \uni06B1.fina \uni063B.init \uni063C.init \uni077F.init 
+	\uni0764.init \uni0643.init \uni06B0.init \uni06B3.init \uni06B2.init 
+	\uni06AB.init \uni06AC.init \uni06AD.init \uni06AE.init \uni06AF.init 
+	\uni06A9.init \uni06B4.init \uni0763.init \uni0762.init \uni06B1.init 
+	\uni063B \uni063C \uni077F \uni0764 \uni0643 \uni06B0 \uni06B3 \uni06B2 \uni06AB 
+	\uni06AC \uni06AD \uni06AE \uni06AF \uni06A9 \uni06B4 \uni0763 \uni0762 \uni06B1 
+	\uni063B.medi \uni063C.medi \uni077F.medi \uni0764.medi \uni0643.medi 
+	\uni06B0.medi \uni06B3.medi \uni06B2.medi \uni06AB.medi \uni06AC.medi 
+	\uni06AD.medi \uni06AE.medi \uni06AF.medi \uni06A9.medi \uni06B4.medi 
+	\uni0763.medi \uni0762.medi \uni06B1.medi \uni06B5.fina \uni06B7.fina 
+	\uni0644.fina \uni06B8.fina \uni06B6.fina \uni076A.fina \uni06B5.init 
+	\uni06B7.init \uni0644.init \uni06B8.init \uni06B6.init \uni076A.init 
+	\uni06B5 \uni06B7 \uni0644 \uni06B8 \uni06B6 \uni076A \uni06B5.medi 
+	\uni06B7.medi \uni0644.medi \uni06B8.medi \uni06B6.medi \uni076A.medi 
+	\uni0765.fina \uni0645.fina \uni0766.fina \uni0765.init \uni0645.init 
+	\uni0766.init \uni0765 \uni0645 \uni0766 \uni0765.medi \uni0645.medi 
+	\uni0766.medi \uni0646.fina \uni0767.fina \uni06BA.fina \uni06BC.fina 
+	\uni06BB.fina \uni0768.fina \uni06B9.fina \uni0769.fina \uni06BD.fina 
+	\uni0646 \uni0767 \uni06BA \uni06BC \uni06BB \uni0768 \uni06B9 \uni0769 \uni06BD 
+	\uni06A8.fina \uni06A7.fina \uni0642.fina \uni066F.fina \uni06A8 \uni06A7 
+	\uni0642 \uni066F \uni0691.fina \uni0692.fina \uni0693.fina \uni0694.fina 
+	\uni0695.fina \uni0696.fina \uni0697.fina \uni0698.fina \uni0699.fina 
+	\uni075B.fina \uni06EF.fina \uni0632.fina \uni0771.fina \uni0631.fina 
+	\uni076B.fina \uni076C.fina \uni0691 \uni0692 \uni0693 \uni0694 \uni0695 
+	\uni0696 \uni0697 \uni0698 \uni0699 \uni075B \uni06EF \uni0632 \uni0771 \uni0631 
+	\uni076B \uni076C \uni069D.fina \uni06FB.fina \uni0636.fina \uni069E.fina 
+	\uni0635.fina \uni069D.init \uni06FB.init \uni0636.init \uni069E.init 
+	\uni0635.init \uni069D \uni06FB \uni0636 \uni069E \uni0635 \uni069D.medi 
+	\uni06FB.medi \uni0636.medi \uni069E.medi \uni0635.medi \uni06FA.fina 
+	\uni076D.fina \uni0633.fina \uni077E.fina \uni077D.fina \uni0634.fina 
+	\uni0770.fina \uni075C.fina \uni069A.fina \uni069B.fina \uni069C.fina 
+	\uni06FA.init \uni076D.init \uni0633.init \uni077E.init \uni077D.init 
+	\uni0634.init \uni0770.init \uni075C.init \uni069A.init \uni069B.init 
+	\uni069C.init \uni06FA \uni076D \uni0633 \uni077E \uni077D \uni0634 \uni0770 
+	\uni075C \uni069A \uni069B \uni069C \uni06FA.medi \uni076D.medi \uni0633.medi 
+	\uni077E.medi \uni077D.medi \uni0634.medi \uni0770.medi \uni075C.medi 
+	\uni069A.medi \uni069B.medi \uni069C.medi \uni0638.fina \uni0637.fina 
+	\uni069F.fina \uni0638.init \uni0637.init \uni069F.init \uni0638 \uni0637 
+	\uni069F \uni0638.medi \uni0637.medi \uni069F.medi \uni06CB.fina 
+	\uni0624.fina \uni06CA.fina \uni06CF.fina \uni0778.fina \uni06C6.fina 
+	\uni06C7.fina \uni06C4.fina \uni06C5.fina \uni0676.fina \uni0677.fina 
+	\uni06C8.fina \uni06C9.fina \uni0779.fina \uni0648.fina \uni06CB \uni0624 
+	\uni06CA \uni06CF \uni0778 \uni06C6 \uni06C7 \uni06C4 \uni06C5 \uni0676 \uni0677 
+	\uni06C8 \uni06C9 \uni0779 \uni0648 \uni0777.fina \uni06D1.fina \uni0775.fina 
+	\uni063F.fina \uni0678.fina \uni063D.fina \uni063E.fina \uni06D0.fina 
+	\uni0649.fina \uni0776.fina \uni06CD.fina \uni06CC.fina \uni0626.fina 
+	\uni0620.fina \uni064A.fina \uni06CE.fina \uni0777 \uni06D1 \uni0775 \uni063F 
+	\uni0678 \uni063D \uni063E \uni06D0 \uni0649 \uni0776 \uni06CD \uni06CC \uni0626 
+	\uni0620 \uni064A \uni06CE \uni06B5.init_LamAlfIsol \uni06B7.init_LamAlfIsol 
+	\uni0644.init_LamAlfIsol \uni06B8.init_LamAlfIsol \uni06B6.init_LamAlfIsol 
+	\uni076A.init_LamAlfIsol \uni0625.fina_LamAlfIsol \uni0627.fina_LamAlfIsol 
+	\uni0774.fina_LamAlfIsol \uni0773.fina_LamAlfIsol \uni0623.fina_LamAlfIsol 
+	\uni0622.fina_LamAlfIsol \uni0675.fina_LamAlfIsol \uni0672.fina_LamAlfIsol 
+	\uni0673.fina_LamAlfIsol \uni0671.fina_LamAlfIsol \uni06B5.medi_LamAlfFina 
+	\uni06B7.medi_LamAlfFina \uni0644.medi_LamAlfFina \uni06B8.medi_LamAlfFina 
+	\uni06B6.medi_LamAlfFina \uni076A.medi_LamAlfFina \uni0625.fina_LamAlfFina 
+	\uni0627.fina_LamAlfFina \uni0774.fina_LamAlfFina \uni0773.fina_LamAlfFina 
+	\uni0623.fina_LamAlfFina \uni0622.fina_LamAlfFina \uni0675.fina_LamAlfFina 
+	\uni0672.fina_LamAlfFina \uni0673.fina_LamAlfFina \uni0671.fina_LamAlfFina 
+	\uni0777.init_High \uni0680.init_High \uni0776.init_High \uni06BC.init_High 
+	\uni0750.init_High \uni0756.init_High \uni0768.init_High \uni06CE.init_High 
+	\uni0775.init_High \uni06BD.init_High \uni0626.init_High \uni066E.init_High 
+	\uni0620.init_High \uni064A.init_High \uni06BB.init_High \uni067F.init_High 
+	\uni0755.init_High \uni067D.init_High \uni067E.init_High \uni067B.init_High 
+	\uni0628.init_High \uni067A.init_High \uni0751.init_High \uni0646.init_High 
+	\uni0753.init_High \uni0752.init_High \uni062A.init_High \uni0678.init_High 
+	\uni063D.init_High \uni062B.init_High \uni0679.init_High \uni06B9.init_High 
+	\uni0769.init_High \uni0649.init_High \uni067C.init_High \uni0754.init_High 
+	\uni06D1.init_High \uni06D0.init_High \uni06BA.init_High \uni06CC.init_High 
+	\uni0767.init_High \uni0777.medi_High \uni0680.medi_High \uni0776.medi_High 
+	\uni06BC.medi_High \uni0750.medi_High \uni0756.medi_High \uni0768.medi_High 
+	\uni06CE.medi_High \uni0775.medi_High \uni06BD.medi_High \uni0626.medi_High 
+	\uni066E.medi_High \uni0620.medi_High \uni064A.medi_High \uni06BB.medi_High 
+	\uni067F.medi_High \uni0755.medi_High \uni067D.medi_High \uni067E.medi_High 
+	\uni067B.medi_High \uni0628.medi_High \uni067A.medi_High \uni0751.medi_High 
+	\uni0646.medi_High \uni0753.medi_High \uni0752.medi_High \uni062A.medi_High 
+	\uni0678.medi_High \uni063D.medi_High \uni062B.medi_High \uni0679.medi_High 
+	\uni06B9.medi_High \uni0769.medi_High \uni0649.medi_High \uni067C.medi_High 
+	\uni0754.medi_High \uni06D1.medi_High \uni06D0.medi_High \uni06BA.medi_High 
+	\uni06CC.medi_High \uni0767.medi_High \uni063B.init_KafLam 
+	\uni063C.init_KafLam \uni077F.init_KafLam \uni0764.init_KafLam 
+	\uni0643.init_KafLam \uni06B0.init_KafLam \uni06B3.init_KafLam 
+	\uni06B2.init_KafLam \uni06AB.init_KafLam \uni06AC.init_KafLam 
+	\uni06AD.init_KafLam \uni06AE.init_KafLam \uni06AF.init_KafLam 
+	\uni06A9.init_KafLam \uni06B4.init_KafLam \uni0763.init_KafLam 
+	\uni0762.init_KafLam \uni06B1.init_KafLam \uni06B5.medi_KafLam 
+	\uni06B7.medi_KafLam \uni0644.medi_KafLam \uni06B8.medi_KafLam 
+	\uni06B6.medi_KafLam \uni076A.medi_KafLam \uni063B.medi_KafLam 
+	\uni063C.medi_KafLam \uni077F.medi_KafLam \uni0764.medi_KafLam 
+	\uni0643.medi_KafLam \uni06B0.medi_KafLam \uni06B3.medi_KafLam 
+	\uni06B2.medi_KafLam \uni06AB.medi_KafLam \uni06AC.medi_KafLam 
+	\uni06AD.medi_KafLam \uni06AE.medi_KafLam \uni06AF.medi_KafLam 
+	\uni06A9.medi_KafLam \uni06B4.medi_KafLam \uni0763.medi_KafLam 
+	\uni0762.medi_KafLam \uni06B1.medi_KafLam \uni06B5.medi_KafLamAlf 
+	\uni06B7.medi_KafLamAlf \uni0644.medi_KafLamAlf \uni06B8.medi_KafLamAlf 
+	\uni06B6.medi_KafLamAlf \uni076A.medi_KafLamAlf \uni06B5.fina_KafLam 
+	\uni06B7.fina_KafLam \uni0644.fina_KafLam \uni06B8.fina_KafLam 
+	\uni06B6.fina_KafLam \uni076A.fina_KafLam \uni0625.fina_KafAlf 
+	\uni0627.fina_KafAlf \uni0774.fina_KafAlf \uni0773.fina_KafAlf 
+	\uni0623.fina_KafAlf \uni0622.fina_KafAlf \uni0675.fina_KafAlf 
+	\uni0672.fina_KafAlf \uni0673.fina_KafAlf \uni0671.fina_KafAlf 
+	\uni064A.init_BaaYaaIsol \uni0628.init_BaaYaaIsol \uni0647.medi_BaaHehMedi 
+	\uni0647.medi_PostTooth \uni062C.medi_1LamHaaHaaInit 
+	\uni062C.medi_2LamHaaHaaInit \uni06AA.init \uni06AA.medi \uni06AA.fina 
+	\uni06AA \uni06CC.init_LD \uni0670.isol \uni06DD \uni0660.small 
+	\uni0661.small \uni0662.small \uni0663.small \uni0664.small \uni0665.small 
+	\uni0666.small \uni0667.small \uni0668.small \uni0669.small \uni06F0.small 
+	\uni06F1.small \uni06F2.small \uni06F3.small \uni06F4.small \uni06F5.small 
+	\uni06F6.small \uni06F7.small \uni06F8.small \uni06F9.small 
+	\uni06F6.urd.small \uni06F7.urd.small \uni06DE \uni06E5 \uni06E6 \uni0606 
+	\uni0607 \radical.rtlm \dot.percent \uni06E9 \uni060F \uni0608 \uni060B 
+	\uni06D4 \uni25CC \uni0640.1 \uni0627.fina_Tatweel \uni0640.2 \uni0640.3 
+	\uni0640.4 \aYaaBari.isol \aYaaBari.fina \aYaaBari.fina_PostTooth 
+	\uni077B.fina \uni077A.fina \uni06D2.fina \aYaaBari.fina_PostAscender 
+	\aBaa.init_YaaBari \uni0626.init_YaaBari \aHehKnotted.isol \uni06BE.init 
+	\uni06FF.init \uni06BE.fina \uni06FF.fina \uni06BE.medi \uni06FF.medi 
+	\aHehKnotted.fina \uni060D \uni060E \uni0603 \uni0600 \uni0601 \uniFD3E 
+	\uniFD3F \uniFB50 \uniFB51 \uniFB52 \uniFB53 \uniFB54 \uniFB55 \uniFB56 \uniFB57 
+	\uniFB58 \uniFB59 \uniFB5A \uniFB5B \uniFB5C \uniFB5D \uniFB5E \uniFB5F \uniFB60 
+	\uniFB61 \uniFB62 \uniFB63 \uniFB64 \uniFB65 \uniFB66 \uniFB67 \uniFB68 \uniFB69 
+	\uniFB6A \uniFB6B \uniFB6C \uniFB6D \uniFB6E \uniFB6F \uniFB70 \uniFB71 \uniFB72 
+	\uniFB73 \uniFB74 \uniFB75 \uniFB76 \uniFB77 \uniFB78 \uniFB79 \uniFB7A \uniFB7B 
+	\uniFB7C \uniFB7D \uniFB7E \uniFB7F \uniFB80 \uniFB81 \uniFB82 \uniFB83 \uniFB84 
+	\uniFB85 \uniFB86 \uniFB87 \uniFB88 \uniFB89 \uniFB8A \uniFB8B \uniFB8C \uniFB8D 
+	\uniFB8E \uniFB8F \uniFB90 \uniFB91 \uniFB92 \uniFB93 \uniFB94 \uniFB95 \uniFB96 
+	\uniFB97 \uniFB98 \uniFB99 \uniFB9A \uniFB9B \uniFB9C \uniFB9D \uniFB9E \uniFB9F 
+	\uniFBA0 \uniFBA1 \uniFBA2 \uniFBA3 \uniFBA4 \uniFBA5 \uniFBA6 \uniFBA7 \uniFBA8 
+	\uniFBA9 \uniFBAA \uniFBAB \uniFBAC \uniFBAD \uniFBAE \uniFBAF \uniFBB0 \uniFBB1 
+	\uniFBD3 \uniFBD4 \uniFBD5 \uniFBD6 \uniFBD7 \uniFBD8 \uniFBD9 \uniFBDA \uniFBDB 
+	\uniFBDC \uniFBDD \uniFBDE \uniFBDF \uniFBE0 \uniFBE1 \uniFBE2 \uniFBE3 \uniFBE4 
+	\uniFBE5 \uniFBE6 \uniFBE7 \uniFBE8 \uniFBE9 \uniFBEA \uniFBEB \uniFBEC \uniFBED 
+	\uniFBEE \uniFBEF \uniFBF0 \uniFBF1 \uniFBF2 \uniFBF3 \uniFBF4 \uniFBF5 \uniFBF6 
+	\uniFBF7 \uniFBF8 \uniFBF9 \uniFBFA \uniFBFB \uniFBFC \uniFBFD \uniFBFE \uniFBFF 
+	\uniFC00 \uniFC01 \uniFC02 \uniFC03 \uniFC04 \uniFC05 \uniFC06 \uniFC07 \uniFC08 
+	\uniFC09 \uniFC0A \uniFC0B \uniFC0C \uniFC0D \uniFC0E \uniFC0F \uniFC10 \uniFC11 
+	\uniFC12 \uniFC13 \uniFC14 \uniFC15 \uniFC16 \uniFC17 \uniFC18 \uniFC19 \uniFC1A 
+	\uniFC1B \uniFC1C \uniFC1D \uniFC1E \uniFC1F \uniFC20 \uniFC21 \uniFC22 \uniFC23 
+	\uniFC24 \uniFC25 \uniFC26 \uniFC27 \uniFC28 \uniFC29 \uniFC2A \uniFC2B \uniFC2C 
+	\uniFC2D \uniFC2E \uniFC2F \uniFC30 \uniFC31 \uniFC32 \uniFC33 \uniFC34 \uniFC35 
+	\uniFC36 \uniFC37 \uniFC38 \uniFC39 \uniFC3A \uniFC3B \uniFC3C \uniFC3D \uniFC3E 
+	\uniFC3F \uniFC40 \uniFC41 \uniFC42 \uniFC43 \uniFC44 \uniFC45 \uniFC46 \uniFC47 
+	\uniFC48 \uniFC49 \uniFC4A \uniFC4B \uniFC4C \uniFC4D \uniFC4E \uniFC4F \uniFC50 
+	\uniFC51 \uniFC52 \uniFC53 \uniFC54 \uniFC55 \uniFC56 \uniFC57 \uniFC58 \uniFC59 
+	\uniFC5A \uniFC5B \uniFC5C \uniFC5D \uniFC5E \uniFC5F \uniFC60 \uniFC61 \uniFC62 
+	\uniFC63 \uniFC64 \uniFC65 \uniFC66 \uniFC67 \uniFC68 \uniFC69 \uniFC6A \uniFC6B 
+	\uniFC6C \uniFC6D \uniFC6E \uniFC6F \uniFC70 \uniFC71 \uniFC72 \uniFC73 \uniFC74 
+	\uniFC75 \uniFC76 \uniFC77 \uniFC78 \uniFC79 \uniFC7A \uniFC7B \uniFC7C \uniFC7D 
+	\uniFC7E \uniFC7F \uniFC80 \uniFC81 \uniFC82 \uniFC83 \uniFC84 \uniFC85 \uniFC86 
+	\uniFC87 \uniFC88 \uniFC89 \uniFC8A \uniFC8B \uniFC8C \uniFC8D \uniFC8E \uniFC8F 
+	\uniFC90 \uniFC91 \uniFC92 \uniFC93 \uniFC94 \uniFC95 \uniFC96 \uniFC97 \uniFC98 
+	\uniFC99 \uniFC9A \uniFC9B \uniFC9C \uniFC9D \uniFC9E \uniFC9F \uniFCA0 \uniFCA1 
+	\uniFCA2 \uniFCA3 \uniFCA4 \uniFCA5 \uniFCA6 \uniFCA7 \uniFCA8 \uniFCA9 \uniFCAA 
+	\uniFCAB \uniFCAC \uniFCAD \uniFCAE \uniFCAF \uniFCB0 \uniFCB1 \uniFCB2 \uniFCB3 
+	\uniFCB4 \uniFCB5 \uniFCB6 \uniFCB7 \uniFCB8 \uniFCB9 \uniFCBA \uniFCBB \uniFCBC 
+	\uniFCBD \uniFCBE \uniFCBF \uniFCC0 \uniFCC1 \uniFCC2 \uniFCC3 \uniFCC4 \uniFCC5 
+	\uniFCC6 \uniFCC7 \uniFCC8 \uniFCC9 \uniFCCA \uniFCCB \uniFCCC \uniFCCD \uniFCCE 
+	\uniFCCF \uniFCD0 \uniFCD1 \uniFCD2 \uniFCD3 \uniFCD4 \uniFCD5 \uniFCD6 \uniFCD7 
+	\uniFCD8 \uniFCD9 \uniFCDA \uniFCDB \uniFCDC \uniFCDD \uniFCDE \uniFCDF \uniFCE0 
+	\uniFCE1 \uniFCE2 \uniFCE3 \uniFCE4 \uniFCE5 \uniFCE6 \uniFCE7 \uniFCE8 \uniFCE9 
+	\uniFCEA \uniFCEB \uniFCEC \uniFCED \uniFCEE \uniFCEF \uniFCF0 \uniFCF1 \uniFCF2 
+	\uniFCF3 \uniFCF4 \uniFCF5 \uniFCF6 \uniFCF7 \uniFCF8 \uniFCF9 \uniFCFA \uniFCFB 
+	\uniFCFC \uniFCFD \uniFCFE \uniFCFF \uniFD00 \uniFD01 \uniFD02 \uniFD03 \uniFD04 
+	\uniFD05 \uniFD06 \uniFD07 \uniFD08 \uniFD09 \uniFD0A \uniFD0B \uniFD0C \uniFD0D 
+	\uniFD0E \uniFD0F \uniFD10 \uniFD11 \uniFD12 \uniFD13 \uniFD14 \uniFD15 \uniFD16 
+	\uniFD17 \uniFD18 \uniFD19 \uniFD1A \uniFD1B \uniFD1C \uniFD1D \uniFD1E \uniFD1F 
+	\uniFD20 \uniFD21 \uniFD22 \uniFD23 \uniFD24 \uniFD25 \uniFD26 \uniFD27 \uniFD28 
+	\uniFD29 \uniFD2A \uniFD2B \uniFD2C \uniFD2D \uniFD2E \uniFD2F \uniFD30 \uniFD31 
+	\uniFD32 \uniFD33 \uniFD34 \uniFD35 \uniFD36 \uniFD37 \uniFD38 \uniFD39 \uniFD3A 
+	\uniFD3B \uniFD3C \uniFD3D \uniFD50 \uniFD51 \uniFD52 \uniFD53 \uniFD54 \uniFD55 
+	\uniFD56 \uniFD57 \uniFD58 \uniFD59 \uniFD5A \uniFD5B \uniFD5C \uniFD5D \uniFD5E 
+	\uniFD5F \uniFD60 \uniFD61 \uniFD62 \uniFD63 \uniFD64 \uniFD65 \uniFD66 \uniFD67 
+	\uniFD68 \uniFD69 \uniFD6A \uniFD6B \uniFD6C \uniFD6D \uniFD6E \uniFD6F \uniFD70 
+	\uniFD71 \uniFD72 \uniFD73 \uniFD74 \uniFD75 \uniFD76 \uniFD77 \uniFD78 \uniFD79 
+	\uniFD7A \uniFD7B \uniFD7C \uniFD7D \uniFD7E \uniFD7F \uniFD80 \uniFD81 \uniFD82 
+	\uniFD83 \uniFD84 \uniFD85 \uniFD86 \uniFD87 \uniFD88 \uniFD89 \uniFD8A \uniFD8B 
+	\uniFD8C \uniFD8D \uniFD8E \uniFD8F \uniFD92 \uniFD93 \uniFD94 \uniFD95 \uniFD96 
+	\uniFD97 \uniFD98 \uniFD99 \uniFD9A \uniFD9B \uniFD9C \uniFD9D \uniFD9E \uniFD9F 
+	\uniFDA0 \uniFDA1 \uniFDA2 \uniFDA3 \uniFDA4 \uniFDA5 \uniFDA6 \uniFDA7 \uniFDA8 
+	\uniFDA9 \uniFDAA \uniFDAB \uniFDAC \uniFDAD \uniFDAE \uniFDAF \uniFDB0 \uniFDB1 
+	\uniFDB2 \uniFDB3 \uniFDB4 \uniFDB5 \uniFDB6 \uniFDB7 \uniFDB8 \uniFDB9 \uniFDBA 
+	\uniFDBB \uniFDBC \uniFDBD \uniFDBE \uniFDBF \uniFDC0 \uniFDC1 \uniFDC2 \uniFDC3 
+	\uniFDC4 \uniFDC5 \uniFDC6 \uniFDC7 \uniFDF0 \uniFDF1 \uniFDF2 \uniFDF3 \uniFDF4 
+	\uniFDF5 \uniFDF6 \uniFDF7 \uniFDF8 \uniFDF9 \uniFDFC \uniFE70 \uniFE71 \uniFE72 
+	\uniFE74 \uniFE76 \uniFE77 \uniFE78 \uniFE79 \uniFE7A \uniFE7B \uniFE7C \uniFE7D 
+	\uniFE7E \uniFE7F \uniFE80 \uniFE81 \uniFE82 \uniFE83 \uniFE84 \uniFE85 \uniFE86 
+	\uniFE87 \uniFE88 \uniFE89 \uniFE8A \uniFE8B \uniFE8C \uniFE8D \uniFE8E \uniFE8F 
+	\uniFE90 \uniFE91 \uniFE92 \uniFE93 \uniFE94 \uniFE95 \uniFE96 \uniFE97 \uniFE98 
+	\uniFE99 \uniFE9A \uniFE9B \uniFE9C \uniFE9D \uniFE9E \uniFE9F \uniFEA0 \uniFEA1 
+	\uniFEA2 \uniFEA3 \uniFEA4 \uniFEA5 \uniFEA6 \uniFEA7 \uniFEA8 \uniFEA9 \uniFEAA 
+	\uniFEAB \uniFEAC \uniFEAD \uniFEAE \uniFEAF \uniFEB0 \uniFEB1 \uniFEB2 \uniFEB3 
+	\uniFEB4 \uniFEB5 \uniFEB6 \uniFEB7 \uniFEB8 \uniFEB9 \uniFEBA \uniFEBB \uniFEBC 
+	\uniFEBD \uniFEBE \uniFEBF \uniFEC0 \uniFEC1 \uniFEC2 \uniFEC3 \uniFEC4 \uniFEC5 
+	\uniFEC6 \uniFEC7 \uniFEC8 \uniFEC9 \uniFECA \uniFECB \uniFECC \uniFECD \uniFECE 
+	\uniFECF \uniFED0 \uniFED1 \uniFED2 \uniFED3 \uniFED4 \uniFED5 \uniFED6 \uniFED7 
+	\uniFED8 \uniFED9 \uniFEDA \uniFEDB \uniFEDC \uniFEDD \uniFEDE \uniFEDF \uniFEE0 
+	\uniFEE1 \uniFEE2 \uniFEE3 \uniFEE4 \uniFEE5 \uniFEE6 \uniFEE7 \uniFEE8 \uniFEE9 
+	\uniFEEA \uniFEEB \uniFEEC \uniFEED \uniFEEE \uniFEEF \uniFEF0 \uniFEF1 \uniFEF2 
+	\uniFEF3 \uniFEF4 \uniFEF5 \uniFEF6 \uniFEF7 \uniFEF8 \uniFEF9 \uniFEFA \uniFEFB 
+	\uniFEFC \uniFBB2 \uniFBB3 \uniFBB4 \uniFBB5 \uniFBB6 \uniFBB7 \uniFBB8 \uniFBB9 
+	\uniFBBD \uniFBBE \uniFBBF \uniFBC0 \uniFBC1 \uniFBBA \uniFBBB \uniFBBC 
+	\uni0660.medium \uni0661.medium \uni0662.medium \uni0663.medium 
+	\uni0664.medium \uni0665.medium \uni0666.medium \uni0667.medium 
+	\uni0668.medium \uni0669.medium \uni06F0.medium \uni06F1.medium 
+	\uni06F2.medium \uni06F3.medium \uni06F4.medium \uni06F5.medium 
+	\uni06F6.medium \uni06F7.medium \uni06F8.medium \uni06F9.medium 
+	\uni06F7.urd.medium \uniFDFA \uniFDFD \slash \uni08A0.fina \uni08A0.init 
+	\uni08A0 \uni08A0.medi \bar \uni0600.4 \uni0660.prop \uni0661.prop 
+	\uni0662.prop \uni0663.prop \uni0664.prop \uni0665.prop \uni0666.prop 
+	\uni0667.prop \uni0668.prop \uni0669.prop \uni06F0.prop \uni06F1.prop 
+	\uni06F2.prop \uni06F3.prop \uni06F4.prop \uni06F5.prop \uni06F6.prop 
+	\uni06F7.prop \uni06F8.prop \uni06F9.prop \uni06F4.urd.prop 
+	\uni06F6.urd.prop \uni06F7.urd.prop \backslash \brokenbar \exclam \aGaf.isol 
+	\aGaf.fina \uni0600.3 \uni0603.3 \aYaaBari.fina_PostToothFina 
+	\aBaa.medi_YaaBari \uni0777.medi_YaaBari \uni0680.medi_YaaBari 
+	\uni0776.medi_YaaBari \uni06BC.medi_YaaBari \uni0750.medi_YaaBari 
+	\uni0756.medi_YaaBari \uni0768.medi_YaaBari \uni06CE.medi_YaaBari 
+	\uni0775.medi_YaaBari \uni06BD.medi_YaaBari \uni0626.medi_YaaBari 
+	\uni066E.medi_YaaBari \uni0620.medi_YaaBari \uni064A.medi_YaaBari 
+	\uni06BB.medi_YaaBari \uni067F.medi_YaaBari \uni0755.medi_YaaBari 
+	\uni067D.medi_YaaBari \uni067E.medi_YaaBari \uni067B.medi_YaaBari 
+	\uni0628.medi_YaaBari \uni067A.medi_YaaBari \uni0751.medi_YaaBari 
+	\uni0646.medi_YaaBari \uni0753.medi_YaaBari \uni0752.medi_YaaBari 
+	\uni062A.medi_YaaBari \uni0678.medi_YaaBari \uni063D.medi_YaaBari 
+	\uni062B.medi_YaaBari \uni0679.medi_YaaBari \uni06B9.medi_YaaBari 
+	\uni0769.medi_YaaBari \uni0649.medi_YaaBari \uni067C.medi_YaaBari 
+	\uni0754.medi_YaaBari \uni06D1.medi_YaaBari \uni06D0.medi_YaaBari 
+	\uni06BA.medi_YaaBari \uni06CC.medi_YaaBari \uni0767.medi_YaaBari 
+	\uni077B.fina_PostToothFina \uni077A.fina_PostToothFina 
+	\uni06D2.fina_PostToothFina \u1EE00 \u1EE01 \u1EE02 \u1EE03 \u1EE05 \u1EE06 
+	\u1EE07 \u1EE08 \u1EE09 \u1EE0A \u1EE0B \u1EE0C \u1EE0D \u1EE0E \u1EE0F \u1EE10 
+	\u1EE11 \u1EE12 \u1EE13 \u1EE14 \u1EE15 \u1EE16 \u1EE17 \u1EE18 \u1EE19 \u1EE1A 
+	\u1EE1B \u1EE1C \u1EE1D \u1EE1E \u1EE1F \u1EE21 \u1EE22 \u1EE24 \u1EE27 \u1EE29 
+	\u1EE2A \u1EE2B \u1EE2C \u1EE2D \u1EE2E \u1EE2F \u1EE30 \u1EE31 \u1EE32 \u1EE34 
+	\u1EE35 \u1EE36 \u1EE37 \u1EE39 \u1EE3B \u1EEA1 \u1EEA2 \u1EEA3 \u1EEA5 \u1EEA6 
+	\u1EEA7 \u1EEA8 \u1EEA9 \u1EEAB \u1EEAC \u1EEAD \u1EEAE \u1EEAF \u1EEB0 \u1EEB1 
+	\u1EEB2 \u1EEB3 \u1EEB4 \u1EEB5 \u1EEB6 \u1EEB7 \u1EEB8 \u1EEB9 \u1EEBA \u1EEBB 
+	\u1EE61 \u1EE62 \u1EE64 \u1EE67 \u1EE68 \u1EE69 \u1EE6A \u1EE6C \u1EE6D \u1EE6E 
+	\u1EE6F \u1EE70 \u1EE71 \u1EE72 \u1EE74 \u1EE75 \u1EE76 \u1EE77 \u1EE79 \u1EE7A 
+	\u1EE7B \u1EE80 \u1EE81 \u1EE82 \u1EE83 \u1EE85 \u1EE86 \u1EE87 \u1EE88 \u1EE89 
+	\u1EE8B \u1EE8C \u1EE8D \u1EE8E \u1EE8F \u1EE90 \u1EE91 \u1EE92 \u1EE93 \u1EE94 
+	\u1EE95 \u1EE96 \u1EE97 \u1EE98 \u1EE99 \u1EE9A \u1EE9B \u1EE84 \u1EE4B \u1EE42 
+	\u1EE47 \u1EE49 \u1EE4D \u1EE4E \u1EE4F \u1EE51 \u1EE52 \u1EE54 \u1EE57 \u1EE59 
+	\u1EE5B \u1EE7C \u1EE7E \u1EE5D \u1EE5F \zero.small \one.small \two.small 
+	\three.small \four.small \five.small \six.small \seven.small \eight.small 
+	\nine.small \fraction \uni08EA \uni08EB \uni08EC \uni08ED \uni08EE \uni08EF 
+	\uni08F3 \uni08F6 \uni08F7 \uni08F8 \uni08F9 \uni08FA \uni08FB \uni08FC \uni08FD 
+	\uni066C \guillemotleft \guillemotright \uni200E \braceleft \bracketleft 
+	\uni200F \uni0602 \uni06F4.urd \uni06F6.urd \uni066D \uni06D2 \space 
+	\uni06F4.urd.medium \uni06F6.urd.medium \uni06F4.urd.small ];
+@GDEF_Mark = [\Dot.a \TwoDots.a \ThreeDots.a \Dot.b \TwoDots.b \ThreeDots.b 
+	\uni0654 \uni0655 \uni0653 \hamza.kaf \iThreeDots.a \iThreeDots.b \uni065A 
+	\dash.gaf \smalltaa.above \vTwoDots.a \vTwoDots.b \ring.below \dot.alt1 
+	\dash.gaf.alt2 \uni064B \uni064C \uni064D \uni064E \uni064F \uni0650 \uni0651 
+	\uni0652 \FourDots.a \FourDots.b \hThreeDots.a \hThreeDots.b \uni065B \uni0674 
+	\aYaa.tail \uni065F \hamza.above.wavy \smallv.below \smallv.below.inverted 
+	\smalltaa.below \twostrokes.below \uni0670 \uni0656 \hamza.wasl 
+	\uni064B.small \uni064E.small \uni08F1.small \uni064F.small \uni0652.small2 
+	\uni0650.small2 \damma.mark \hamzadamma.mark \aAlf.dagger \uni0615 \uni065D 
+	\uni061A \uni0619 \uni0618 \aTwo.above \uni06E1 \uni06DF \uni06E0 \uni08F0 
+	\uni08F1 \uni08F2 \uni08F0.small \uni064E.small2 \uni064C.small \uni06E4 
+	\uni06E2 \uni06ED \uni06D6 \uni06D7 \uni06E7 \uni06DB \uni06E3 \uni06DC \uni06DA 
+	\uni06D9 \uni06E8 \uni06EC \uni06D8 \uni06EB \uni06EA \uni0616 \uni0617 \uni0659 
+	\uni065E \uni0657 \uni0658 \uni065C \uni0610 \uni0611 \uni0612 \uni0613 \uni0614 
+	\hamza.above \smallv.above \smallv.above.inverted \uni030A \uni0325 
+	\uni0657.urd \uni0657.small \uni0650.small \uni064D.small \uni08E4 \uni08E5 
+	\uni08E6 \uni08E7 \uni08E8 \uni08E9 \uni08F4 \uni08F5 \uni08FE ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+
+} GDEF;
+

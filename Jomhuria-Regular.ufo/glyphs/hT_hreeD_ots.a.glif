@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hThreeDots.a" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="0" y="190" type="move" name="_TwoDotsAbove"/>
+    </contour>
+    <contour>
+      <point x="0" y="500" type="move" name="TashkilAboveDot"/>
+    </contour>
+    <contour>
+      <point x="93.4424" y="151.095" type="move" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

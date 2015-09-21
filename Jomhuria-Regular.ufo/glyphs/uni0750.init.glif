@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0750.init" format="1">
+  <advance width="807"/>
+  <outline>
+    <contour>
+      <point x="300" y="800" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="300" y="-600" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="697.058" y="634.014" type="curve" smooth="yes"/>
+      <point x="697.862" y="267.325" type="line" smooth="yes"/>
+      <point x="697.862" y="120.113"/>
+      <point x="578.555" y="0"/>
+      <point x="431.343" y="0" type="curve" smooth="yes"/>
+      <point x="-34" y="0" type="line"/>
+      <point x="-34" y="436.271" type="line"/>
+      <point x="537.682" y="436.271" type="line"/>
+      <point x="537.682" y="582.23"/>
+      <point x="373.478" y="723.45"/>
+      <point x="373.478" y="723.45" type="curve"/>
+      <point x="600.913" y="902.322" type="line"/>
+      <point x="600.913" y="902.322"/>
+      <point x="697.058" y="774.876"/>
+    </contour>
+    <component base="hThreeDots.b" xOffset="277" yOffset="-385"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-385</integer>
+            <key>width</key>
+            <integer>303</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>538</integer>
+            <key>width</key>
+            <integer>160</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

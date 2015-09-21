@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ThreeDots.a" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-41" y="601" type="move" name="TashkilAboveDot"/>
+    </contour>
+    <contour>
+      <point x="-111" y="140" type="move" name="_TwoDotsAbove"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="_DotHmaza"/>
+    </contour>
+    <contour>
+      <point x="132" y="0" type="line"/>
+      <point x="1.78125" y="130.219" type="line"/>
+      <point x="-128.438" y="0" type="line"/>
+      <point x="-280.122" y="151.684" type="line"/>
+      <point x="-128.438" y="303.367" type="line"/>
+      <point x="1.78125" y="173.148" type="line"/>
+      <point x="132" y="303.367" type="line"/>
+      <point x="283.684" y="151.684" type="line"/>
+    </contour>
+    <contour>
+      <point x="153.465" y="389.048" type="line"/>
+      <point x="1.78125" y="237.274" type="line"/>
+      <point x="-149.902" y="389.048" type="line"/>
+      <point x="1.78125" y="540.642" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>541</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-280</integer>
+            <key>width</key>
+            <integer>564</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni076A.medi_KafLamAlf" format="1">
+  <advance width="1236"/>
+  <outline>
+    <contour>
+      <point x="900" y="1300" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="300" y="-210" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="1176" y="1003" type="line"/>
+      <point x="1081" y="876" type="line"/>
+      <point x="586" y="877" type="line"/>
+      <point x="681" y="1003" type="line"/>
+    </contour>
+    <component base="aLam.medi_KafLamAlf"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>2</integer>
+            <key>width</key>
+            <integer>436</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>877</integer>
+            <key>width</key>
+            <integer>126</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>718</integer>
+            <key>width</key>
+            <integer>332</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

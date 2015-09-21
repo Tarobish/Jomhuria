@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0609" format="1">
+  <advance width="1699"/>
+  <unicode hex="0609"/>
+  <outline>
+    <component base="dot.percent" xOffset="234.06" yOffset="150"/>
+    <component base="dot.percent" xOffset="-162.94" yOffset="150"/>
+    <component base="dot.percent" xOffset="-790.94" yOffset="975"/>
+    <component base="slash" xOffset="214.06"/>
+  </outline>
+</glyph>

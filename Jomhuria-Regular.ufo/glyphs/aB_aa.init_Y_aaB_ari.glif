@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aBaa.init_YaaBari" format="1">
+  <advance width="435"/>
+  <outline>
+    <contour>
+      <point x="-408" y="1524" type="move" name="TwoDotsAbove"/>
+    </contour>
+    <contour>
+      <point x="-297" y="1324" type="move" name="TaaAbove"/>
+    </contour>
+    <contour>
+      <point x="160" y="1250" type="move" name="DigitAbove"/>
+    </contour>
+    <contour>
+      <point x="-297" y="1524" type="move" name="VAbove"/>
+    </contour>
+    <contour>
+      <point x="-297" y="1524" type="move" name="DotAbove"/>
+    </contour>
+    <contour>
+      <point x="190" y="1200" type="move" name="HamzaAbove"/>
+    </contour>
+    <contour>
+      <point x="-97" y="1524" type="move" name="HighHamza"/>
+    </contour>
+    <contour>
+      <point x="-42" y="550" type="move" name="RingBelow"/>
+    </contour>
+    <contour>
+      <point x="74" y="-263" type="move" name="DigitBelow"/>
+    </contour>
+    <contour>
+      <point x="74" y="-263" type="move" name="DotBelow"/>
+    </contour>
+    <contour>
+      <point x="74" y="-263" type="move" name="HamzaBelow"/>
+    </contour>
+    <contour>
+      <point x="75" y="-265" type="move" name="TwoDotsBelow"/>
+    </contour>
+    <contour>
+      <point x="100" y="1200" type="move" name="TashkilAbove"/>
+    </contour>
+    <contour>
+      <point x="450" y="-850" type="move" name="TashkilBelow"/>
+    </contour>
+    <contour>
+      <point x="274.723" y="742" type="line"/>
+      <point x="274.444" y="742" type="line"/>
+      <point x="274.444" y="755.078" type="line" smooth="yes"/>
+      <point x="274.444" y="901.165"/>
+      <point x="110.271" y="1042.52"/>
+      <point x="110.271" y="1042.52" type="curve"/>
+      <point x="337.166" y="1221.72" type="line"/>
+      <point x="337.166" y="1221.72"/>
+      <point x="435" y="1093.72"/>
+      <point x="435" y="953.2" type="curve" smooth="yes"/>
+      <point x="435" y="742" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>742</integer>
+            <key>width</key>
+            <integer>480</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>274</integer>
+            <key>width</key>
+            <integer>161</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
