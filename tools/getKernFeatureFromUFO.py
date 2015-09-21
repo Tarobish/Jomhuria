@@ -170,13 +170,11 @@ class KernFeatureWriterWithHorizontalDirections(KernFeatureWriter):
         self.scripts = _scripts = {}
         if not scripts:
             raise TypeError('Need at least one script in the "scripts" argument iterable.')
-
         for script in scripts:
-            script = script.lower()
-            writingDir = scriptGetHorizontalDirection(script)
+            writingDir = scriptGetHorizontalDirection(script.lower())
             if writingDir not in _scripts:
                 _scripts[writingDir] = []
-            _scripts[writingDir].append(script)
+            _scripts[writingDir].append((script, scripts[script]))
 
         self.scriptDirs = self.scripts.keys()
 
@@ -471,6 +469,7 @@ class KernFeatureWriterWithHorizontalDirections(KernFeatureWriter):
 
         for label, rules in lookups.iteritems():
             feature.append(lookupOpenFormat.format(label=label))
+            feature.append(lineFormat.format('lookupflag IgnoreMarks;'))
             feature += makeLines(rules)
             feature.append(lookupCloseFormat.format(label=label))
             feature.append('')
@@ -501,9 +500,12 @@ class KernFeatureWriterWithHorizontalDirections(KernFeatureWriter):
             if not lookupReferences:
                 # no actual lookups present for the label
                 continue
-            for script in scripts:
+
+            for script, langs in scripts:
                 usage.append('script {0};'.format(script))
-                usage += lookupReferences
+                for lang in langs:
+                    usage.append('language {0};'.format(lang))
+                    usage += lookupReferences
 
         feature += makeLines(usage)
         feature.append('} kern;')
@@ -530,7 +532,7 @@ class KernFeatureWriterWithHorizontalDirections(KernFeatureWriter):
 
 if __name__ == '__main__':
     font = Font(path=sys.argv[1])
-    scripts = ['arab', 'latn']
+    scripts = {'arab': ('dflt', 'ARA ', 'URD ', 'SND '), 'latn': ('dflt', 'TRK ')}
 
     kfw = KernFeatureWriterWithHorizontalDirections(font, scripts)
     print(kfw.write())
