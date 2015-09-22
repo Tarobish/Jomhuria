@@ -688,20 +688,20 @@ def mergeLatin(font, latinfile, glyphs=None):
     for name in digits:
         refname = name
         small = font.createChar(-1, name + ".small")
-        if not small.isWorthOutputting():
-            small.clear()
-            small.addReference(refname, psMat.scale(0.6))
-            small.transform(psMat.translate(0, -40))
-            small.width = 600
-            centerGlyph(small)
+        #if not small.isWorthOutputting():
+        small.clear()
+        small.addReference(refname, psMat.scale(0.6))
+        small.transform(psMat.translate(0, 160))
+        small.width = 650
+        centerGlyph(small)
 
         medium = font.createChar(-1, name + ".medium")
-        if not medium.isWorthOutputting():
-            medium.clear()
-            medium.addReference(refname, psMat.scale(0.8))
-            medium.transform(psMat.translate(0, 50))
-            medium.width = 900
-            centerGlyph(medium)
+        #if not medium.isWorthOutputting():
+        medium.clear()
+        medium.addReference(refname, psMat.scale(0.8))
+        medium.transform(psMat.translate(0, 50))
+        medium.width = 900
+        centerGlyph(medium)
 
     for lookup in kern_lookups:
         font.addLookup(lookup,
