@@ -67,46 +67,48 @@ feature calt {
 // then we contextually kern the sign with the digits so that they get enclosed by it
 feature kern {
   // Uniscribe or HarfBuzz ‘latn’
-  pos @EndOfAyah @Digits.small'  <-2210 0 -600 0> @Digits.small'  <-1610 0 -600 0> @Digits.small'  <-1010 0 -600 0>;
-  pos @EndOfAyah @Digits.small'  <-1910 0 -600 0> @Digits.small'  <-1310 0 -600 0>;
-  pos @EndOfAyah @Digits.small'  <-1610 0 -600 0>;
+  pos @EndOfAyah @Digits.small'  <-3030 0 -650 0> @Digits.small'  <-2380 0 -650 0> @Digits.small'  <-1730 0 -650 0>;
+  pos @EndOfAyah @Digits.small'  <-2705 0 -650 0> @Digits.small'  <-2055 0 -650 0>;
+  pos @EndOfAyah @Digits.small'  <-2380 0 -650 0>;
 
-  pos @FootNote @Digits.small'  <-1390 0 -600 0> @Digits.small'  <-790  0 -600 0>;
-  pos @FootNote @Digits.small'  <-1090 0 -600 0>;
+  pos @FootNote @Digits.small'  <-1800 0 -650 0> @Digits.small'  <-1150  0 -650 0>;
+  pos @FootNote @Digits.small'  <-1475 0 -650 0>;
 
-  pos @NumSign4 @Digits.medium' <-3850 0 -900 0> @Digits.medium' <-2950 0 -900 0> @Digits.medium' <-2050 0 -900 0> @Digits.medium' <-1150 0 -900 0>;
-  pos @NumSign3 @Digits.medium' <-2950 0 -900 0> @Digits.medium' <-2050 0 -900 0> @Digits.medium' <-1150 0 -900 0>;
-  pos @NumSign  @Digits.medium' <-2150 0 -900 0> @Digits.medium' <-1250 0 -900 0>;
-  pos @NumSign  @Digits.medium' <-1700 0 -900 0>;
+  pos @NumSign4 @Digits.medium' <-4500 0 -900 0> @Digits.medium' <-3600 0 -900 0> @Digits.medium' <-2700 0 -900 0> @Digits.medium' <-1800 0 -900 0>;
+  pos @NumSign3 @Digits.medium' <-3600 0 -900 0> @Digits.medium' <-2700 0 -900 0> @Digits.medium' <-1800 0 -900 0>;
+  pos @NumSign  @Digits.medium' <-2700 0 -900 0> @Digits.medium' <-1800 0 -900 0>;
+  pos @NumSign  @Digits.medium' <-2250 0 -900 0>;
 
-  pos @YearSign @Digits.medium' <-3625 0 -900 0> @Digits.medium' <-2725 0 -900 0> @Digits.medium' <-1825 0 -900 0> @Digits.medium' <-925  0 -900 0>;
-  pos @YearSign @Digits.medium' <-3175 0 -900 0> @Digits.medium' <-2275 0 -900 0> @Digits.medium' <-1375 0 -900 0>;
-  pos @YearSign @Digits.medium' <-2725 0 -900 0> @Digits.medium' <-1825 0 -900 0>;
-  pos @YearSign @Digits.medium' <-2275 0 -900 0>;
+  pos @YearSign @Digits.medium' <-4900 0 -900 0> @Digits.medium' <-4000 0 -900 0> @Digits.medium' <-3100 0 -900 0> @Digits.medium' <-2200  0 -900 0>;
+  pos @YearSign @Digits.medium' <-4450 0 -900 0> @Digits.medium' <-3550 0 -900 0> @Digits.medium' <-2660 0 -900 0>;
+  pos @YearSign @Digits.medium' <-4000 0 -900 0> @Digits.medium' <-3100 0 -900 0>;
+  pos @YearSign @Digits.medium' <-3550 0 -900 0>;
 
-  pos @SafhaSign3 @Digits.medium' <-3275 0 -900 0> @Digits.medium' <-2375 0 -900 0> @Digits.medium' <-1475 0 -900 0>;
-  pos @SafhaSign  @Digits.medium' <-2225 0 -900 0> @Digits.medium' <-1325 0 -900 0>;
-  pos @SafhaSign  @Digits.medium' <-1775 0 -900 0>;
+  pos @SafhaSign3 @Digits.medium' <-4025 0 -900 0> @Digits.medium' <-3125 0 -900 0> @Digits.medium' <-2225 0 -900 0>;
+  pos @SafhaSign  @Digits.medium' <-3125 0 -900 0> @Digits.medium' <-2225 0 -900 0>;
+  pos @SafhaSign  @Digits.medium' <-2675 0 -900 0>;
 
   // HarfBuzz ‘arab’
-  pos @Digits.small'  <-1010 0 -600 0> @Digits.small'  <-1610 0 -600 0> @Digits.small'  <-2210 0 -600 0> @EndOfAyah;
-  pos @Digits.small'  <-1310 0 -600 0> @Digits.small'  <-1910 0 -600 0> @EndOfAyah;
-  pos @Digits.small'  <-1610 0 -600 0> @EndOfAyah;
+  // this seems to have no effect in harfbuzz firefox, instead the rule above applies
+  pos @Digits.small'  <-1730 0 -650 0> @Digits.small'  <-2380 0 -650 0> @Digits.small' <-3030 0 -650 0> @EndOfAyah;
+  pos @Digits.small'  <-2055 0 -650 0> @Digits.small'  <-2705 0 -650 0> @EndOfAyah;
+  pos @Digits.small'  <-2380 0 -650 0> @EndOfAyah;
 
-  pos @Digits.small'  <-790  0 -600 0> @Digits.small'  <-1390 0 -600 0> @FootNote;
-  pos @Digits.small'  <-1090 0 -600 0> @FootNote;
+  // the rest here is effective in firefox
+  pos @Digits.small'  <-1150  0 -650 0> @Digits.small'  <-1800 0 -650 0> @FootNote;
+  pos @Digits.small'  <-1475 0 -650 0> @FootNote;
 
-  pos @Digits.medium' <-1150 0 -900 0> @Digits.medium' <-2050 0 -900 0> @Digits.medium' <-2950 0 -900 0> @Digits.medium' <-3850 0 -900 0> @NumSign4;
-  pos @Digits.medium' <-1150 0 -900 0> @Digits.medium' <-2050 0 -900 0> @Digits.medium' <-2950 0 -900 0> @NumSign3;
-  pos @Digits.medium' <-1250 0 -900 0> @Digits.medium' <-2150 0 -900 0> @NumSign;
-  pos @Digits.medium' <-1700 0 -900 0> @NumSign;
+  pos @Digits.medium' <-1800 0 -900 0> @Digits.medium' <-2700 0 -900 0> @Digits.medium' <-3600 0 -900 0> @Digits.medium' <-4500 0 -900 0> @NumSign4;
+  pos @Digits.medium' <-1800 0 -900 0> @Digits.medium' <-2700 0 -900 0> @Digits.medium' <-3600 0 -900 0> @NumSign3;
+  pos @Digits.medium' <-1800 0 -900 0> @Digits.medium' <-2700 0 -900 0> @NumSign;
+  pos @Digits.medium' <-2250 0 -900 0> @NumSign;
 
-  pos @Digits.medium' <-925  0 -900 0> @Digits.medium' <-1825 0 -900 0> @Digits.medium' <-2725 0 -900 0> @Digits.medium' <-3625 0 -900 0> @YearSign;
-  pos @Digits.medium' <-1375 0 -900 0> @Digits.medium' <-2275 0 -900 0> @Digits.medium' <-3175 0 -900 0> @YearSign;
-  pos @Digits.medium' <-1825 0 -900 0> @Digits.medium' <-2725 0 -900 0> @YearSign;
-  pos @Digits.medium' <-2275 0 -900 0> @YearSign;
+  pos @Digits.medium' <-2200  0 -900 0> @Digits.medium' <-3100 0 -900 0> @Digits.medium' <-4000 0 -900 0> @Digits.medium' <-4900 0 -900 0> @YearSign;
+  pos @Digits.medium' <-2660 0 -900 0> @Digits.medium' <-3550 0 -900 0> @Digits.medium' <-4450 0 -900 0> @YearSign;
+  pos @Digits.medium' <-3100 0 -900 0> @Digits.medium' <-4000 0 -900 0> @YearSign;
+  pos @Digits.medium' <-3550 0 -900 0> @YearSign;
 
-  pos @Digits.medium' <-1475 0 -900 0> @Digits.medium' <-2375 0 -900 0> @Digits.medium' <-3275 0 -900 0> @SafhaSign3;
-  pos @Digits.medium' <-1325 0 -900 0> @Digits.medium' <-2225 0 -900 0> @SafhaSign;
-  pos @Digits.medium' <-1775 0 -900 0> @SafhaSign;
+  pos @Digits.medium' <-2225 0 -900 0> @Digits.medium' <-3125 0 -900 0> @Digits.medium' <-4025 0 -900 0> @SafhaSign3;
+  pos @Digits.medium' <-2225 0 -900 0> @Digits.medium' <-3125 0 -900 0> @SafhaSign;
+  pos @Digits.medium' <-2525 0 -900 0> @SafhaSign;
 } kern;
