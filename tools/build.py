@@ -691,7 +691,7 @@ def mergeLatin(font, latinfile, glyphs=None):
         #if not small.isWorthOutputting():
         small.clear()
         small.addReference(refname, psMat.scale(0.6))
-        small.transform(psMat.translate(0, 160))
+        small.transform(psMat.translate(0, 180))
         small.width = 650
         centerGlyph(small)
 
@@ -699,7 +699,7 @@ def mergeLatin(font, latinfile, glyphs=None):
         #if not medium.isWorthOutputting():
         medium.clear()
         medium.addReference(refname, psMat.scale(0.8))
-        medium.transform(psMat.translate(0, 50))
+        medium.transform(psMat.translate(0, 200))
         medium.width = 900
         centerGlyph(medium)
 
