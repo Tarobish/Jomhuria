@@ -118,7 +118,9 @@ require([
             child = createElement('li', null);
             children.push(child);
 
-            if(pages[k].generate)
+            if(k.indexOf('http://') === 0 || k.indexOf('https://') === 0)
+                child.appendChild(createElement('a', {href: k}, pages[k].title || k));
+            else if(pages[k].generate)
                 child.appendChild(createElement('a', {href: '#' + here}, pages[k].title));
             else if(pages[k].title)
                 child.appendChild(createElement('span', null, pages[k].title));

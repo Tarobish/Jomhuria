@@ -35,8 +35,11 @@ define([
       ;
 
     return {
-        index: {
-            title: 'Home'
+         'https://github.com/Tarobish/Jomhuria/': {
+            title: 'Github Project'
+        }
+      , index: {
+            title: 'About'
           , generate: fromMarkdown.bind(null, 'article', {'class': 'home'}, README)
         }
       , tests: {
