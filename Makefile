@@ -1,22 +1,19 @@
-.PHONY: all clean ttf web pack check
+.PHONY: all clean ttf web check release
 
-NAME=Jomhuria-Regular
+FAMILY=Jomhuria
+NAME=$(FAMILY)-Regular
 SOURCENAME=jomhuria
-VERSION=0.001
+VERSION=1.0.0
 
 TOOLS=tools
 SRC=sources
 DDT=document-sources
 GEN=generated
+DIST=releases
 WEB=$(GEN)/webfonts
 DDTOUT=$(GEN)/documents
 TESTS=test-suite
 FONTS=$(NAME)
-DIST=$(NAME)-$(VERSION)
-DOCS=README README-Arabic NEWS NEWS-Arabic
-DIST=$(NAME)-$(VERSION)
-
-
 
 BUILD=$(TOOLS)/build.py
 RUNTEST=$(TOOLS)/runtest.py
@@ -36,6 +33,8 @@ WOFF=$(FONTS:%=$(WEB)/%.woff)
 WOF2=$(FONTS:%=$(WEB)/%.woff2)
 EOTS=$(FONTS:%=$(WEB)/%.eot)
 CSSS=$(WEB)/$(NAME).css
+RELEASE=$(DIST)/$(FAMILY)-$(VERSION)
+WRELEASE=$(DIST)/$(FAMILY)-$(VERSION)-webfonts
 
 TEXS=$(wildcard $(DDT)/*.tex)
 PDFTABLE=$(DDTOUT)/$(NAME)-table.pdf
@@ -53,6 +52,7 @@ all: ttf web
 ttf: $(DTTF)
 web: $(WTTF) $(WOFF) $(WOF2) $(EOTS) $(CSSS)
 doc: $(PDFTABLE) $(DDTDOCS)
+release: RELEASE
 
 $(GEN)/$(NAME).ttf: $(SRC)/$(SOURCENAME).sfdir $(SRC)/$(SOURCENAME)-latin.ufo $(SRC)/$(SOURCENAME).fea $(FEAT) $(BUILD)
 	@echo "   FF	$@"
@@ -97,6 +97,10 @@ $(DDTOUT)/%.pdf: $(DDT)/%.tex $(GEN)/$(NAME).ttf
 	@mkdir -p $(DDTOUT)
 	@latexmk --norc --xelatex --quiet --output-directory=${DDTOUT} $<
 
+$(RELEASE)/$(FAMILY)-$(VERSION):$(GEN)/$(NAME).ttf FONTLOG README
+	@echo "   GEN	$@"
+
+
 check: $(TEST) $(DTTF)
 	@echo "running tests"
 	@$(foreach font,$(DTTF),echo "OTS\t$(font)" && ot-sanitise $(font) &&) true
@@ -104,3 +108,18 @@ check: $(TEST) $(DTTF)
 
 clean:
 	rm -rfv $(DTTF) $(WTTF) $(WOFF) $(WOF2) $(EOTS) $(CSSS) $(PDFS) $(SRC)/$(NAME).fea.pp
+
+dist: all
+	@echo "   Making dist tarball"
+	@mkdir -p $(RELEASE)
+	@mkdir -p $(WRELEASE)
+	@cp README $(RELEASE)/README.txt
+	@cp README $(WRELEASE)/README.txt
+	@cp OFL.txt $(RELEASE)
+	@cp OFL.txt $(WRELEASE)
+	@cp FONTLOG $(RELEASE)/FONTLOG.txt
+	@cp FONTLOG $(WRELEASE)/FONTLOG.txt
+	@cp $(DTTF) $(RELEASE)
+	@cp $(WEB)/* $(WRELEASE)
+	@cd $(RELEASE) && zip -r $(basename `pwd`).zip .
+	@cd $(WRELEASE) && zip -r $(basename `pwd`).zip .
