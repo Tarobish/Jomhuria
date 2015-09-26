@@ -113,12 +113,10 @@ dist: all
 	@echo "   Making dist tarball"
 	@mkdir -p $(RELEASE)
 	@mkdir -p $(WRELEASE)
-	@cp README $(RELEASE)/README.txt
-	@cp README $(WRELEASE)/README.txt
+	@cp document-sources/RELEASE-README $(RELEASE)/README.txt
+	@cp document-sources/RELEASE-README $(WRELEASE)/README.txt
 	@cp OFL.txt $(RELEASE)
 	@cp OFL.txt $(WRELEASE)
-	@cp FONTLOG $(RELEASE)/FONTLOG.txt
-	@cp FONTLOG $(WRELEASE)/FONTLOG.txt
 	@cp $(DTTF) $(RELEASE)
 	@cp $(WEB)/* $(WRELEASE)
 	@cd $(RELEASE) && zip -r $(basename `pwd`).zip .
