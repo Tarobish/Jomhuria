@@ -115,7 +115,7 @@ def validateGlyphs(font):
         glyph.lcarets = ()
 
 def setVersion(font, version):
-    font.version = "%07.3f" % float(version)
+    font.version = '{0:.4f}'.format(float(version))
     for name in font.sfnt_names:
         if name[0] == "Arabic (Egypt)" and name[1] == "Version":
             font.appendSFNTName(name[0], name[1],
