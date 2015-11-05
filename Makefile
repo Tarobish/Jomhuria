@@ -3,7 +3,7 @@
 FAMILY=Jomhuria
 NAME=$(FAMILY)-Regular
 SOURCENAME=jomhuria
-VERSION=1.0.0
+VERSION=1.000
 
 TOOLS=tools
 SRC=sources
