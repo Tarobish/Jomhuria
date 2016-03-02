@@ -489,6 +489,12 @@ def cleanTTF(ttfFile, outfile):
     # remove non-standard 'FFTM' the FontForge time stamp table
     del ftfont['FFTM'];
 
+    # issue #40 let Adobe InDesign show the font in the Arabic section of the font menu.
+    # This essentially says the only codepage that "is considered functional" is Arabic.
+    # https://www.microsoft.com/typography/otspec/os2.htm#cpr
+    ftfont['OS/2'].ulCodePageRange1 = 64
+    ftfont['OS/2'].ulCodePageRange2 = 0
+
     # force compiling tables by fontTools, saves few tens of KBs
     for tag in ftfont.keys():
         if hasattr(ftfont[tag], "compile"):
