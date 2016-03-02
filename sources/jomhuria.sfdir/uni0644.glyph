@@ -7,6 +7,7 @@ HStem: -290.076 442.713<396.007 791.146>
 AnchorPoint: "TashkilBelow" 650 -500 basechar 0
 AnchorPoint: "TashkilAbove" 900 1400 basechar 0
 LayerCount: 2
+Back
 Fore
 Refer: 32 -1 S 1 0 0 1 0 0 2
 Colour: ffffff
