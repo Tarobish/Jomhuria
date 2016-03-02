@@ -1,12 +1,12 @@
 StartChar: uni0640.1
 Encoding: 1114893 -1 1082
 Width: 270
-Flags: W
+Flags: HW
 HStem: 0 436.188<-50 320>
 VStem: -50 370<0 436.188>
-AnchorPoint: "MarkBelow" 150 -133 basechar 0
+AnchorPoint: "TashkilAbove" 100 1400 basechar 0
+AnchorPoint: "TashkilBelow" 70 -800 basechar 0
 AnchorPoint: "AlefAbove" 130 532 basechar 0
-AnchorPoint: "MarkAbove" 150 600 basechar 0
 LayerCount: 2
 Back
 SplineSet
