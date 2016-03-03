@@ -1,6 +1,6 @@
 define([
     '../lib/domStuff'
-  , '../lib/text!../../document-sources/marks.txt'
+  , '../lib/text!../../Sources/Documents/marks.txt'
 ], function(domStuff, text) {
     var fromHTML = domStuff.createElementfromHTML;
     return {

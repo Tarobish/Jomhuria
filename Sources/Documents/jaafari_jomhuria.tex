@@ -19,7 +19,7 @@
 % Note that these definitions malfunction if used in \chapter{}.
 % \defaultfontfeatures{Mapping=tex-text}
 
-\setmainfont[Path=./document-sources/fonts/CharisSIL-5.000/, Ligatures=TeX]{CharisSIL-B.ttf}  % Set the default font for the document. = \setdefaultfont
+\setmainfont[Path=./Sources/Documents/fonts/CharisSIL-5.000/, Ligatures=TeX]{CharisSIL-B.ttf}  % Set the default font for the document. = \setdefaultfont
 % Footnotes will by default also use this font -- http://tex.stackexchange.com/questions/4779/how-to-change-font-family-in-footnote).
 % Ligatures=TeX is equivalent to Mapping=tex-text, but is more compatible with LuaTeX. In addition to ligatures, this will emulate TeX's behaviour for ASCII input of curly quotes and punctuation (eg dashes): http://tex.stackexchange.com/questions/7735/how-to-get-straight-quotation-marks#comment113447_11376
 % Use Ligatures=Common if you do NOT want this additional emulation (ie straight quotes).
@@ -39,9 +39,9 @@
 
 \newcommand\Atitle[1]{{\fontspec[Path=./generated/, Script=Arabic, Scale=5]{Jomhuria-Regular.ttf}\RLE{#1}}}  % Arabic transcription for titles - uses a version of Granada which has been extended to include glyphs for Swahili.
 
-\newcommand\Tr[1]{{\fontspec[Path=./document-sources/fonts/Biolinum/, Scale=1, Color=666666]{LinBiolinum_R.otf}#1}}   %  Transliteration -- Biolinum handles diacritics well.  Coloured grey, slightly less than normal size.
+\newcommand\Tr[1]{{\fontspec[Path=./Sources/Documents/fonts/Biolinum/, Scale=1, Color=666666]{LinBiolinum_R.otf}#1}}   %  Transliteration -- Biolinum handles diacritics well.  Coloured grey, slightly less than normal size.
 
-\newcommand\OLTst[1]{{\fontspec[Path=./document-sources/fonts/Biolinum/, Color=333333, Scale=1]{LinBiolinum_R.otf}#1}}  % Standard spelling -- normal size.
+\newcommand\OLTst[1]{{\fontspec[Path=./Sources/Documents/fonts/Biolinum/, Color=333333, Scale=1]{LinBiolinum_R.otf}#1}}  % Standard spelling -- normal size.
 
 %----------------------------------------
 %%% End of font definitions %%%

@@ -7,7 +7,7 @@ VERSION=1.000
 
 TOOLS=Tools
 SRC=Sources
-DDT=document-sources
+DDT=Sources/Documents
 GEN=generated
 DIST=releases
 WEB=$(GEN)/webfonts
@@ -103,8 +103,8 @@ dist: all
 	@echo "   Making dist tarball"
 	@mkdir -p $(RELEASE)
 	@mkdir -p $(WRELEASE)
-	@cp document-sources/RELEASE-README $(RELEASE)/README.txt
-	@cp document-sources/RELEASE-README $(WRELEASE)/README.txt
+	@cp $(DDT)/RELEASE-README $(RELEASE)/README.txt
+	@cp $(DDT)/RELEASE-README $(WRELEASE)/README.txt
 	@cp OFL.txt $(RELEASE)
 	@cp OFL.txt $(WRELEASE)
 	@cp $(DTTF) $(RELEASE)
