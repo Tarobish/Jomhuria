@@ -1,5 +1,5 @@
 define([
-    '../lib/text!../../sources/classes.fea'
+    '../lib/text!../../Sources/classes.fea'
 ],function(classes) {
     "use strict";
     var classDef = /(@[A-Za-z0-9_\.\-]+)\s*=\s*\[([^\]]*)\]\s*;/;

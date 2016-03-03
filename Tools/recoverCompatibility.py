@@ -95,8 +95,8 @@ def copyContoursIfDifferent(sourceFont, targetFont):
 if __name__ == '__main__':
    # cd ./.build
     pairs = (
-        ('Jomhuria/sources/jomhuria.sfdir', 'jomhuria-recover/sources/jomhuria.sfdir')
-      , ('Jomhuria/sources/jomhuria-latin.sfdir', 'jomhuria-recover/sources/jomhuria-latin.sfdir')
+        ('Jomhuria/Sources/jomhuria.sfdir', 'jomhuria-recover/Sources/jomhuria.sfdir')
+      , ('Jomhuria/Sources/jomhuria-latin.sfdir', 'jomhuria-recover/Sources/jomhuria-latin.sfdir')
     )
     for source, target in pairs:
         print 'doing', source, target

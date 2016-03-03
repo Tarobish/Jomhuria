@@ -32,7 +32,7 @@ def removeEmptyBack(filename):
 
 
 if __name__ == '__main__':
-    dirs = ('./sources/jomhuria.sfdir', './sources/jomhuria-latin.sfdir')
+    dirs = ('./Sources/jomhuria.sfdir', './Sources/jomhuria-latin.sfdir')
     for directory in dirs:
         files = [os.path.join(root, name) for root, _, files in os.walk('.')
                             for name in files if name.endswith('.glyph')]

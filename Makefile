@@ -6,7 +6,7 @@ SOURCENAME=jomhuria
 VERSION=1.000
 
 TOOLS=Tools
-SRC=sources
+SRC=Sources
 DDT=document-sources
 GEN=generated
 DIST=releases

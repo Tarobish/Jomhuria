@@ -5,7 +5,7 @@
 # latin design from the arabic stuff in that font.
 # I make the filter work for this case, it may likely fail for other cases.
 # with docker/fontbuilder:
-# sudo docker run -v `pwd`:/var/job debian/fontbuilder /bin/sh -c "cd /var/job && ./Tools/subsetLatinFromMergedUFO.py sources/merged-with-latin.ufo sources/jomhuria.sfdir"; sudo chown -R $USER:$USER .
+# sudo docker run -v `pwd`:/var/job debian/fontbuilder /bin/sh -c "cd /var/job && ./Tools/subsetLatinFromMergedUFO.py Sources/merged-with-latin.ufo Sources/jomhuria.sfdir"; sudo chown -R $USER:$USER .
 
 import sys
 import os
@@ -90,7 +90,7 @@ if __name__ == '__main__':
     print 'overlapping and valid', sorted(overlapping)
 
 
-    writer = UFOWriter('sources/jomhuria-latin.ufo', formatVersion=2)
+    writer = UFOWriter('Sources/jomhuria-latin.ufo', formatVersion=2)
     newGlypsSet = writer.getGlyphSet()
 
 

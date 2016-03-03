@@ -13,7 +13,7 @@ certainty. That means
   the names should really be removed from there if not needed anymore. Then
   this script can "clean up"
 
-$ ./Tools/analyzeGlyphsMarkedForRemoval.py sources/jomhuria.sfdir sources/*.fea | less
+$ ./Tools/analyzeGlyphsMarkedForRemoval.py Sources/jomhuria.sfdir sources/*.fea | less
 """
 
 import sys
@@ -240,7 +240,7 @@ def _cleanClass(classname, font, classFeatureFile, featureFiles):
 def main_cleanClass(classname, fontLocation, featureFileList):
     font = fontforge.open(fontLocation)
     featureFiles = {name: readLines(name) for name in featureFileList}
-    classFeatureFile = featureFiles['sources/classes.fea']
+    classFeatureFile = featureFiles['Sources/classes.fea']
     new_klass, _, removed = _cleanClass(classname, font, classFeatureFile, featureFiles)
     print('removed', removed)
     print('{name} = [ {classes} ];'.format(name=classname,classes=' '.join(new_klass)))
@@ -248,7 +248,7 @@ def main_cleanClass(classname, fontLocation, featureFileList):
 def main_cleanable(fontLocation, featureFileList):
     font = fontforge.open(fontLocation)
     featureFiles = {name: readLines(name) for name in featureFileList}
-    classFeatureFile = featureFiles['sources/classes.fea']
+    classFeatureFile = featureFiles['Sources/classes.fea']
 
     classes = []
     for number, line in enumerate(classFeatureFile):

@@ -32,8 +32,8 @@ def copyAnchors(sourceFont, targetFont):
 if __name__ == '__main__':
    # cd ./.build
     pairs = (
-        ('amiri-font/sources/amiri-regular.sfdir', 'sources/jomhuria.sfdir')
-      , ('amiri-font/sources/latin/amirilatin-regular.sfdir', 'sources/jomhuria-latin.sfdir')
+        ('amiri-font/sources/amiri-regular.sfdir', 'Sources/jomhuria.sfdir')
+      , ('amiri-font/sources/latin/amirilatin-regular.sfdir', 'Sources/jomhuria-latin.sfdir')
     )
     for source, target in pairs:
         sourceFont = fontforge.open(source)

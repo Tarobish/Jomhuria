@@ -1,8 +1,8 @@
 #! /usr/bin/env python
 
 """
-./Tools/replaceReferences.py ./sources/jomhuria.sfdir 'uni0645.medi_KafMemMedi' 'aMem.medi_KafMemMedi'
-sudo docker run -v `pwd`:/var/job debian/fontbuilder /bin/sh -c "cd /var/job && ./Tools/replaceReferences.py ./sources/jomhuria.sfdir 'uni0645.medi_KafMemMedi' 'aMem.medi_KafMemMedi'"; sudo chown -R $USER:$USER .
+./Tools/replaceReferences.py ./Sources/jomhuria.sfdir 'uni0645.medi_KafMemMedi' 'aMem.medi_KafMemMedi'
+sudo docker run -v `pwd`:/var/job debian/fontbuilder /bin/sh -c "cd /var/job && ./Tools/replaceReferences.py ./Sources/jomhuria.sfdir 'uni0645.medi_KafMemMedi' 'aMem.medi_KafMemMedi'"; sudo chown -R $USER:$USER .
 """
 
 from __future__ import with_statement, print_function
