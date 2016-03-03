@@ -3,7 +3,7 @@
 FAMILY=Jomhuria
 NAME=$(FAMILY)-Regular
 SOURCENAME=jomhuria
-VERSION=1.000
+VERSION=`cat VERSION.txt`
 
 TOOLS=Tools
 SRC=Sources
