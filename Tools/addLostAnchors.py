@@ -6,7 +6,7 @@
 # This script copies the anchors from one font to another.
 
 # with docker/fontbuilder:
-# sudo docker run -v `pwd`:/var/job debian/fontbuilder /bin/sh -c "cd /var/job && python ./tools/addLostAnchors.py"; sudo chown -R $USER:$USER .
+# sudo docker run -v `pwd`:/var/job debian/fontbuilder /bin/sh -c "cd /var/job && python ./Tools/addLostAnchors.py"; sudo chown -R $USER:$USER .
 
 
 
@@ -20,7 +20,7 @@ def copyAnchors(sourceFont, targetFont):
 	glyph = targetFont[name]
         sourceAnchors = sourceFont[name].anchorPoints
         targetAnchors = {p[0]:p for p in glyph.anchorPoints}
-	
+
         for p in sourceAnchors:
             if p[0] in targetAnchors: continue
             print glyph, 'adding', p

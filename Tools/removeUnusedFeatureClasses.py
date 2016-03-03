@@ -10,7 +10,7 @@ from __future__ import with_statement
 # usage:
 # removeUnusedFeatureClasses <classes-file> [list of feature files]
 # using find to get the input names
-# Jomhuria/sources $ ../tools/removeUnusedFeatureClasses.py classes.fea `find . \( -name "*.fea" ! -name "classes.fea" \)`
+# Jomhuria/sources $ ../Tools/removeUnusedFeatureClasses.py classes.fea `find . \( -name "*.fea" ! -name "classes.fea" \)`
 import sys
 import os
 import re

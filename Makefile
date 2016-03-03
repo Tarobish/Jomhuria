@@ -5,7 +5,7 @@ NAME=$(FAMILY)-Regular
 SOURCENAME=jomhuria
 VERSION=1.000
 
-TOOLS=tools
+TOOLS=Tools
 SRC=sources
 DDT=document-sources
 GEN=generated

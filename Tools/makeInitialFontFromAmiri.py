@@ -6,7 +6,7 @@
 #      ./makeInitialFontFromAmiri.py
 
 # with docker/fontbuilder:
-# sudo docker run -v `pwd`:/var/job debian/fontbuilder /bin/sh -c "cd /var/job && python ./tools/makeInitialFontFromAmiri.py"; sudo chown -R $USER:$USER .
+# sudo docker run -v `pwd`:/var/job debian/fontbuilder /bin/sh -c "cd /var/job && python ./Tools/makeInitialFontFromAmiri.py"; sudo chown -R $USER:$USER .
 
 import os
 import subprocess

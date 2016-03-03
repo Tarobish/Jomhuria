@@ -13,7 +13,7 @@ certainty. That means
   the names should really be removed from there if not needed anymore. Then
   this script can "clean up"
 
-$ ./tools/analyzeGlyphsMarkedForRemoval.py sources/jomhuria.sfdir sources/*.fea | less
+$ ./Tools/analyzeGlyphsMarkedForRemoval.py sources/jomhuria.sfdir sources/*.fea | less
 """
 
 import sys

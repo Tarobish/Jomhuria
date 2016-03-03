@@ -3,7 +3,7 @@
 # this is a one time tool used to create commit 65163cc811324ad5fbef01012264cb0ba11517b8
 
 # with docker/fontbuilder:
-# sudo docker run -v `pwd`:/var/job debian/fontbuilder /bin/sh -c "cd /var/job && python Jomhuria/tools/recoverCompatibility.py"; sudo chown -R $USER:$USER .
+# sudo docker run -v `pwd`:/var/job debian/fontbuilder /bin/sh -c "cd /var/job && python Jomhuria/Tools/recoverCompatibility.py"; sudo chown -R $USER:$USER .
 
 try:
     from sortsmill import ffcompat as fontforge

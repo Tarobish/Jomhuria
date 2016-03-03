@@ -5,7 +5,7 @@
 # latin design from the arabic stuff in that font.
 # I make the filter work for this case, it may likely fail for other cases.
 # with docker/fontbuilder:
-# sudo docker run -v `pwd`:/var/job debian/fontbuilder /bin/sh -c "cd /var/job && ./tools/subsetLatinFromMergedUFO.py sources/merged-with-latin.ufo sources/jomhuria.sfdir"; sudo chown -R $USER:$USER .
+# sudo docker run -v `pwd`:/var/job debian/fontbuilder /bin/sh -c "cd /var/job && ./Tools/subsetLatinFromMergedUFO.py sources/merged-with-latin.ufo sources/jomhuria.sfdir"; sudo chown -R $USER:$USER .
 
 import sys
 import os
