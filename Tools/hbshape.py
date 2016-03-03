@@ -26,7 +26,7 @@ specials = {
 if __name__ == '__main__':
     if len(sys.argv) < 2:
         raise Exception('Input text is missing.');
-    font = './generated/Jomhuria-Regular.ttf'
+    font = 'Fonts/Jomhuria-Regular.ttf'
     if len(sys.argv) >= 3:
         font = sys.argv[2];
 

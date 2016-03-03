@@ -24,7 +24,7 @@ Please visit the [Testing Page](http://tarobish.github.io/Jomhuria) and check ou
 #### Preparations
 
 The build process that we took over from [Amiri](http://www.amirifont.org/) can be executed from
-the Dockerfile located in the directory `tools/docker_fontbuilder/`. This in turn depends on the Docker
+the Dockerfile located in the directory `Tools/docker_fontbuilder/`. This in turn depends on the Docker
 image debian/sortsmill: https://github.com/graphicore/docker-sortsmill
 
 When `debian/sortsmill` is available you can make `debian/fontbuilder`:
@@ -42,13 +42,10 @@ Alternatively you can use the Dockerfiles to find out about the dependencies of 
 
 
 ```
-# make the font files and all webfont files in the generated directory
+# make the font files and all webfont files in the Fonts directory
 $ sudo docker run -v `pwd`:/var/job debian/fontbuilder /bin/sh -c "cd /var/job && make"; sudo chown -R $USER:$USER .
 
-# run the testsuite (make check)
-sudo docker run -v `pwd`:/var/job debian/fontbuilder /bin/sh -c "cd /var/job && make check"; sudo chown -R $USER:$USER .
-
-# create documentation pdfs in the documentation directory
+# create testing pdfs in the Documents/Testing directory
 sudo docker run -v `pwd`:/var/job debian/fontbuilder /bin/sh -c "cd /var/job && make doc"; sudo chown -R $USER:$USER .
 
 ```

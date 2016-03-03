@@ -31,13 +31,13 @@
 \setmainlanguage{english}
 \setotherlanguage{arabic}
 
-\newfontfamily\arabicfont[Path=./generated/, Script=Arabic, Scale=2]{Jomhuria-Regular.ttf} % Arabic transcription -- coloured black, double size.
+\newfontfamily\arabicfont[Path=./Fonts/, Script=Arabic, Scale=2]{Jomhuria-Regular.ttf} % Arabic transcription -- coloured black, double size.
 % One font needs to be called \arabicfont in order for XeTeX to load Arabic-related hyphenation and other stuff.
 %  The default \textarabic will use this \arabicfont.  Use the \begin{Arabic} ..... \end{Arabic} environment for longer stretches (eg paras).
 % Use \textarabic{\aemph{با}} to give overline emphasis.
 % Omitting Script=Arabic for Amiri or Granada will mean that letters are written in their standalone forms, not connected.  (Omitting Script=Arabic for Scheherazade seems to cause no problem, though.)
 
-\newcommand\Atitle[1]{{\fontspec[Path=./generated/, Script=Arabic, Scale=5]{Jomhuria-Regular.ttf}\RLE{#1}}}  % Arabic transcription for titles - uses a version of Granada which has been extended to include glyphs for Swahili.
+\newcommand\Atitle[1]{{\fontspec[Path=./Fonts/, Script=Arabic, Scale=5]{Jomhuria-Regular.ttf}\RLE{#1}}}  % Arabic transcription for titles - uses a version of Granada which has been extended to include glyphs for Swahili.
 
 \newcommand\Tr[1]{{\fontspec[Path=./Sources/Documents/fonts/Biolinum/, Scale=1, Color=666666]{LinBiolinum_R.otf}#1}}   %  Transliteration -- Biolinum handles diacritics well.  Coloured grey, slightly less than normal size.
 

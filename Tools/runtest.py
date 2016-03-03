@@ -66,7 +66,7 @@ if __name__ == '__main__':
             test.append(row)
 
         if init:
-            fontname = 'generated/jomhuria.ttf'
+            fontname = 'Fonts/Jomhuria-Regular.ttf'
             outname = testname+".test"
             outfd = open(outname, "w")
             outfd.write(initTest(test, fontname, positions))
@@ -76,7 +76,7 @@ if __name__ == '__main__':
         #if positions:
         #    styles = ('regular', )
         #else:
-        fontnames = ('generated/jomhuria.ttf', )
+        fontnames = ('Fonts/Jomhuria-Regular.ttf', )
 
         for fontname in fontnames:
             passed, failed = runTest(test, fontname, positions)
