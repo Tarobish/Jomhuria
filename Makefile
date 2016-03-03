@@ -12,11 +12,9 @@ GEN=generated
 DIST=releases
 WEB=$(GEN)/webfonts
 DDTOUT=$(GEN)/documents
-TESTS=test-suite
 FONTS=$(NAME)
 
 BUILD=$(TOOLS)/build.py
-RUNTEST=$(TOOLS)/runtest.py
 MAKECLR=$(TOOLS)/makeclr.py
 MAKECSS=$(TOOLS)/makecss.py
 MAKEWEB=$(TOOLS)/makeweb.py
@@ -42,8 +40,6 @@ DDTDOCS=$(TEXS:$(DDT)/%.tex=$(DDTOUT)/%.pdf)
 
 
 FEAT=$(wildcard $(SRC)/*.fea)
-TEST=$(wildcard $(TESTS)/*.test)
-TEST+=$(wildcard $(TESTS)/*.ptest)
 
 license=OFL.txt OFL-FAQ.txt
 
@@ -99,12 +95,6 @@ $(DDTOUT)/%.pdf: $(DDT)/%.tex $(GEN)/$(NAME).ttf
 
 $(RELEASE)/$(FAMILY)-$(VERSION):$(GEN)/$(NAME).ttf FONTLOG README
 	@echo "   GEN	$@"
-
-
-check: $(TEST) $(DTTF)
-	@echo "running tests"
-	@$(foreach font,$(DTTF),echo "OTS\t$(font)" && ot-sanitise $(font) &&) true
-	@$(PY) $(RUNTEST) $(TEST)
 
 clean:
 	rm -rfv $(DTTF) $(WTTF) $(WOFF) $(WOF2) $(EOTS) $(CSSS) $(PDFS) $(SRC)/$(NAME).fea.pp
