@@ -11,7 +11,8 @@ DDT=Sources/Documents
 GEN=generated
 DIST=releases
 WEB=$(GEN)/webfonts
-DDTOUT=$(GEN)/documents
+DOCS=Documents
+DDTOUT=$(DOCS)/Testing
 FONTS=$(NAME)
 
 BUILD=$(TOOLS)/build.py
