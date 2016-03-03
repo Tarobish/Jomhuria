@@ -8,9 +8,9 @@ VERSION=`cat VERSION.txt`
 TOOLS=Tools
 SRC=Sources
 DDT=Sources/Documents
-GEN=generated
+FONTDIR=Fonts
 DIST=releases
-WEB=$(GEN)/webfonts
+WEB=$(FONTDIR)/webfonts
 DOCS=Documents
 DDTOUT=$(DOCS)/Testing
 FONTS=$(NAME)
@@ -26,7 +26,7 @@ WOFF2_COMPRESS=woff2_compress
 PP=gpp +c "/*" "*/" +c "//" "\n" +c "\\\n" "" -I$(SRC)
 
 SFDS=$(FONTS:%=$(SRC)/%.sfdir)
-DTTF=$(FONTS:%=$(GEN)/%.ttf)
+DTTF=$(FONTS:%=$(FONTDIR)/%.ttf)
 WTTF=$(FONTS:%=$(WEB)/%.ttf)
 WOFF=$(FONTS:%=$(WEB)/%.woff)
 WOF2=$(FONTS:%=$(WEB)/%.woff2)
@@ -51,13 +51,13 @@ web: $(WTTF) $(WOFF) $(WOF2) $(EOTS) $(CSSS)
 doc: $(PDFTABLE) $(DDTDOCS)
 release: RELEASE
 
-$(GEN)/$(NAME).ttf: $(SRC)/$(SOURCENAME).sfdir $(SRC)/$(SOURCENAME)-latin.ufo $(SRC)/$(SOURCENAME).fea $(FEAT) $(BUILD)
+$(FONTDIR)/$(NAME).ttf: $(SRC)/$(SOURCENAME).sfdir $(SRC)/$(SOURCENAME)-latin.ufo $(SRC)/$(SOURCENAME).fea $(FEAT) $(BUILD)
 	@echo "   FF	$@"
-	@mkdir -p $(GEN)
-	@$(PP) $(SRC)/$(SOURCENAME).fea -o $(GEN)/$(SOURCENAME).fea.pp
-	@$(FF) --input $< --output $@ --latin $(SRC)/$(SOURCENAME)-latin.ufo --features=$(GEN)/$(SOURCENAME).fea.pp --version $(VERSION)
+	@mkdir -p $(FONTDIR)
+	@$(PP) $(SRC)/$(SOURCENAME).fea -o $(FONTDIR)/$(SOURCENAME).fea.pp
+	@$(FF) --input $< --output $@ --latin $(SRC)/$(SOURCENAME)-latin.ufo --features=$(FONTDIR)/$(SOURCENAME).fea.pp --version $(VERSION)
 
-$(WEB)/%.ttf: $(GEN)/%.ttf $(MAKEWEB)
+$(WEB)/%.ttf: $(FONTDIR)/%.ttf $(MAKEWEB)
 	@echo "   FF	$@"
 	@mkdir -p $(WEB)
 	@$(PY) $(MAKEWEB) $< $@ 1>/dev/null 2>&1
@@ -78,24 +78,24 @@ $(WEB)/%.eot: $(WEB)/%.ttf
 	@$(SFNTTOOL) -e -x $< $@
 
 $(WEB)/%.css: $(WTTF) $(MAKECSS)
-	@echo "   GEN	$@"
+	@echo "   FONTDIR	$@"
 	@mkdir -p $(WEB)
 	@$(PY) $(MAKECSS) --css=$@ --fonts="$(WTTF)"
 
-$(DDTOUT)/$(NAME)-table.pdf: $(GEN)/$(NAME).ttf
-	@echo "   GEN	$@"
+$(DDTOUT)/$(NAME)-table.pdf: $(FONTDIR)/$(NAME).ttf
+	@echo "   FONTDIR	$@"
 	@mkdir -p $(DDTOUT)
 	@fntsample --font-file $< --output-file $@.tmp --print-outline > $@.txt
 	@pdfoutline $@.tmp $@.txt $@
 	@rm -f $@.tmp $@.txt
 
-$(DDTOUT)/%.pdf: $(DDT)/%.tex $(GEN)/$(NAME).ttf
-	@echo "   GEN	$< $@"
+$(DDTOUT)/%.pdf: $(DDT)/%.tex $(FONTDIR)/$(NAME).ttf
+	@echo "   FONTDIR	$< $@"
 	@mkdir -p $(DDTOUT)
 	@latexmk --norc --xelatex --quiet --output-directory=${DDTOUT} $<
 
-$(RELEASE)/$(FAMILY)-$(VERSION):$(GEN)/$(NAME).ttf FONTLOG README
-	@echo "   GEN	$@"
+$(RELEASE)/$(FAMILY)-$(VERSION):$(FONTDIR)/$(NAME).ttf FONTLOG README
+	@echo "   FONTDIR	$@"
 
 clean:
 	rm -rfv $(DTTF) $(WTTF) $(WOFF) $(WOF2) $(EOTS) $(CSSS) $(PDFS) $(SRC)/$(NAME).fea.pp
